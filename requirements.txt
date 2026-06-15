@@ -1,0 +1,7 @@
+# Core data extraction dependencies
+requests>=2.31.0
+python-dotenv>=1.0.0
+tenacity>=8.2.0        # retry/backoff for flaky APIs
+lxml>=5.0.0           # fast IRS 990 XML parsing
+tqdm>=4.66.0          # progress bars for bulk pulls
+pandas>=2.1.0         # downstream wrangling
