@@ -21,6 +21,11 @@ endpoints = {
     'Congress': {
         'root': 'https://api.congress.gov/v3/',
         'bill': 'https://api.congress.gov/v3/bill/'
+    },
+    'ProPublica': {
+        'root': 'https://projects.propublica.org/nonprofits/api/v2/',
+        'search': 'https://projects.propublica.org/nonprofits/api/v2/search/',
+        'organization': 'https://projects.propublica.org/nonprofits/api/v2/organizations/'
     }
 }
 
@@ -37,3 +42,9 @@ def congress_endpoint(endpoint_key: str) -> str:
     '''Return the specific Congress.gov API endpoint.'''
 
     return endpoints['Congress'][endpoint_key]
+
+
+def propublica_endpoint(endpoint_key: str, search_method: str) -> str:
+    '''Return the specific ProPublica API endpoint.'''
+
+    return endpoints['ProPublica'][endpoint_key] + search_method + '.json'
