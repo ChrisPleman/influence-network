@@ -10,4 +10,8 @@ Downloaded on 2026-06-13 at [this url](https://www.degruyterbrill.com/document/d
 
 
 > Irvin, R. (2023). How Dark Is It? An Investigation of Dark Money Operations in U.S. Nonprofit Political Advocacy Organizations. Nonprofit Policy Forum, 14(2), 101-129. https://doi.org/10.1515/npf-2022-0032
-                    
+
+---
+**[i990.pdf](i990.pdf) (Form 990 Instructions)**
+
+Downloaded on 2026-06-14 at [this url](https://www.irs.gov/pub/irs-pdf/i990.pdf) from [this page](https://www.irs.gov/instructions) on the IRS website.
