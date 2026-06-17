@@ -24,8 +24,21 @@ endpoints = {
     },
     'ProPublica': {
         'root': 'https://projects.propublica.org/nonprofits/api/v2/',
-        'search': 'https://projects.propublica.org/nonprofits/api/v2/search/',
+        # No trailing slash: endpoint function appends identifier + '.json'
+        'search': 'https://projects.propublica.org/nonprofits/api/v2/search',
         'organization': 'https://projects.propublica.org/nonprofits/api/v2/organizations/'
+    },
+    'FEC': {
+        'root': 'https://api.open.fec.gov/v1/',
+        'committees': 'https://api.open.fec.gov/v1/committees/',
+        'schedule_a': 'https://api.open.fec.gov/v1/schedules/schedule_a/',
+        'schedule_b': 'https://api.open.fec.gov/v1/schedules/schedule_b/',
+        'schedule_e': 'https://api.open.fec.gov/v1/schedules/schedule_e/'
+    },
+    'OpenSecrets': {
+        # Single parameterized root; pass method= in request params.
+        # Apply for an API key at: https://www.opensecrets.org/api/admin/apikey/request
+        'root': 'https://www.opensecrets.org/api/'
     }
 }
 
@@ -44,7 +57,25 @@ def congress_endpoint(endpoint_key: str) -> str:
     return endpoints['Congress'][endpoint_key]
 
 
-def propublica_endpoint(endpoint_key: str, search_method: str) -> str:
-    '''Return the specific ProPublica API endpoint.'''
+def propublica_endpoint(endpoint_key: str, identifier: str = '') -> str:
+    '''Return the specific ProPublica Nonprofit Explorer API endpoint.
 
-    return endpoints['ProPublica'][endpoint_key] + search_method + '.json'
+    For search: propublica_endpoint('search')            -> .../search.json
+    For org:    propublica_endpoint('organization', ein) -> .../organizations/EIN.json
+    '''
+    return endpoints['ProPublica'][endpoint_key] + identifier + '.json'
+
+
+def fec_endpoint(endpoint_key: str) -> str:
+    '''Return the specific openFEC API endpoint.'''
+
+    return endpoints['FEC'][endpoint_key]
+
+
+def opensecrets_endpoint(endpoint_key: str = 'root') -> str:
+    '''Return the OpenSecrets API root endpoint.
+
+    All OpenSecrets API calls use the root URL with a 'method' query parameter.
+    Apply for an API key at: https://www.opensecrets.org/api/admin/apikey/request
+    '''
+    return endpoints['OpenSecrets'][endpoint_key]
