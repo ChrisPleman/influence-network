@@ -126,7 +126,7 @@ RETURN_CHILD_MAPPER = {
     #Q22 - >$5K grants to domestic individuals --> If yes, Schedule I, parts I and III
     'GrantsToIndividualsInd': f'{NAMESPACE}GrantsToIndividualsInd',
     #Q23 - Yes to Part VII, Section A line 3, 4, or 5? --> If yes, Schedule J
-    'ScheduleJRequiredInd': f'{NAMESPACE}ScheduleJRequiredInd',
+    'ScheduleJRequiredInd': f'{NAMESPACE}ScheduleJRequiredInd', 
     # TODO: Find target for Q25a
     # TODO: Find target for Q25b
     # TODO: Find target for Q26
@@ -150,7 +150,8 @@ RETURN_CHILD_MAPPER = {
     'RelatedEntityInd': f'{NAMESPACE}RelatedEntityInd',
     # 35a - Control of another entity --> If yes, answer 35b
     'RelatedOrganizationCtrlEntInd': f'{NAMESPACE}RelatedOrganizationCtrlEntInd',
-    # TODO: Find target for 35b
+    # 35b - Engage in transaction w/Controlled entity --> If yes, Schedule R, Part V, Line 2
+    'TransactionWithControlEntInd': f'{NAMESPACE}TransactionWithControlEntInd',
     # Q36 - (Only for 501c3s) Transfers to exempt non-charitable related org
     # --> If yes, Schedule R, Part V, line 2
     'TrnsfrExmptNonChrtblRltdOrgInd': f'{NAMESPACE}TrnsfrExmptNonChrtblRltdOrgInd',
@@ -160,18 +161,109 @@ RETURN_CHILD_MAPPER = {
     'ScheduleORequiredInd': f'{NAMESPACE}ScheduleORequiredInd',
     # * Part V - Statements Regarding Other IRS Filings and Tax Compliance
     # 2a - Employee count
-    'EmployeeCnt': f'{NAMESPACE}EmployeeCnt'
-    # TODO: Find target for 2b
+    'EmployeeCnt': f'{NAMESPACE}EmployeeCnt',
+    # 4a - Foreing financial account
+    'ForeignFinancialAccountInd': f'{NAMESPACE}ForeignFinancialAccountInd',
+    # 6a - >$100k gross receipts on average & solicit tax-deductible contributions
+    'NondeductibleContributionsInd': f'{NAMESPACE}NondeductibleContributionsInd',
+    # Orgs maintaining donor advised funds
+    # 8 - Excess business holdings of donor advised funds
+    'DAFExcessBusinessHoldingsInd': f'{NAMESPACE}DAFExcessBusinessHoldingsInd',
+    # 9a - Taxable distributions
+    'TaxableDistributionsInd': f'{NAMESPACE}TaxableDistributionsInd',
+    # 9a - Distributions to donor, donor adviser, or related person
+    'DistributionToDonorInd': f'{NAMESPACE}DistributionToDonorInd',
+    # 15 - Subject to section 4960 tax?
+    'SubjToTaxRmnrtnExPrchtPymtInd': f'{NAMESPACE}SubjToTaxRmnrtnExPrchtPymtInd',
+    # * Part IV - Governance, Management, and Disclosure
+    # * Section A. Governing Body and Management
+    # 1a - Number voting members
+    'GoverningBodyVotingMembersCnt': f'{NAMESPACE}GoverningBodyVotingMembersCnt',
+    # 1b - Number independent voting members
+    'IndependentVotingMemberCnt': f'{NAMESPACE}IndependentVotingMemberCnt',
+    # 3 - Delegate control to management company or person
+    'DelegationOfMgmtDutiesInd': f'{NAMESPACE}DelegationOfMgmtDutiesInd',
+    # 4 - Significant chagnes since previous filing
+    'ChangeToOrgDocumentsInd': f'{NAMESPACE}ChangeToOrgDocumentsInd',
+    # 5 - Became aware of significant diversion of assets in previous year
+    'MaterialDiversionOrMisuseInd': f'{NAMESPACE}MaterialDiversionOrMisuseInd',
+    # 6 - Did org have members/stockholders
+    'MembersOrStockholdersInd': f'{NAMESPACE}MembersOrStockholdersInd',
+    # 7a - Members/Stockholders have power to elect board
+    'ElectionOfBoardMembersInd': f'{NAMESPACE}ElectionOfBoardMembersInd',
+    # 7b - Decisions subject to approval from anyone besides the board
+    'DecisionsSubjectToApprovaInd': f'{NAMESPACE}DecisionsSubjectToApprovaInd',
+    # 8a - Documented governing body's actions
+    'MinutesOfGoverningBodyInd': f'{NAMESPACE}MinutesOfGoverningBodyInd',
+    # 8b - Documented actions of each committee w/authority to act on behalf of governing body
+    'MinutesOfCommitteesInd': f'{NAMESPACE}MinutesOfCommitteesInd',
+    # 9 - Any officer that cannot be reached at company address in Part VII, Section A --> If yes, provide names/addresses in Schedule O
+    'OfficerMailingAddressInd': f'{NAMESPACE}OfficerMailingAddressInd',
+    # * Section B - Policies
+    # 15a - Review and approval for deciding CEO/Top management official compensation
+    # --> If yes, outline in Schedule O
+    'CompensationProcessCEOInd': f'{NAMESPACE}CompensationProcessCEOInd',
+    # 15b - Review and approval for deciding officer/key employee compensation
+    # --> If yes, outline in Schedule O
+    'CompensationProcessOtherInd': f'{NAMESPACE}CompensationProcessOtherInd',
+    # * Part VII - Compensation of Officers, Directors, Trustees, Key Employees, Highest Compensated Employees, and Independent Contractors
+    # * Section A - Officers, Directors, Trustees, Key Employees, and Highest Compensated Employees
+    # 1d Column D - Reportable compensation from org
+    'TotalReportableCompFromOrgAmt': f'{NAMESPACE}TotalReportableCompFromOrgAmt',
+    # 1d Column E - Reportable compensation from related orgs
+    'TotReportableCompRltdOrgAmt': f'{NAMESPACE}TotReportableCompRltdOrgAmt',
+    # 1d Column F - Estimated amount of OTHER compensation from org and related orgs
+    'TotalOtherCompensationAmt': f'{NAMESPACE}TotalOtherCompensationAmt',
+    # 2 - Total number of individuals making more than $100K
+    'IndivRcvdGreaterThan100KCnt': f'{NAMESPACE}IndivRcvdGreaterThan100KCnt',
+    # 3 - Did org list any former officer/director or trustee/key employee, or highest comped employee in 1a?
+    # --> If yes, Schedule J for person
+    'FormerOfcrEmployeesListedInd': f'{NAMESPACE}FormerOfcrEmployeesListedInd',
+    # 4 - Any individual sum of compensation in 1a >$150K? --> If yes, Schedule J for person
+    'TotalCompGreaterThan150KInd': f'{NAMESPACE}TotalCompGreaterThan150KInd',
+    # 5 - Did any person listed in 1a get compensation from unrelated org/individual for org services?
+    # --> If yes, Schedule J for person
+    'CompensationFromOtherSrcsInd': f'{NAMESPACE}CompensationFromOtherSrcsInd',
+    # * Section B - Independent Contractors
+    # Total number of independent contractors including those listed (paid >$100K)
+    'CntrctRcvdGreaterThan100KCnt': f'{NAMESPACE}CntrctRcvdGreaterThan100KCnt',
+    # * Part VIII - Statement of Revenue
+    # 1a - Federated Campaigns
+    'FederatedCampaignsAmt': f'{NAMESPACE}FederatedCampaignsAmt',
+    # 1b - Membership dues
+    'MembershipDuesAmt': f'{NAMESPACE}MembershipDuesAmt',
+    # 1c - Fundraising events
+    'FundraisingAmt': f'{NAMESPACE}FundraisingAmt',
+    # 1d - Related organizations
+    'RelatedOrganizationsAmt': f'{NAMESPACE}RelatedOrganizationsAmt',
+    # 1e - Government grants (contributions)
+    'GovernmentGrantsAmt': f'{NAMESPACE}GovernmentGrantsAmt',
+    # 1f - All other contributions, gifts, grants, and similar amounts not listed in 1a-1e
+    'AllOtherContributionsAmt': f'{NAMESPACE}AllOtherContributionsAmt',
+    # 1g - Noncash contributions included in 1a-1f
+    'NoncashContributionsAmt': f'{NAMESPACE}NoncashContributionsAmt',
+    # 1h - Total of 1a-1f
+    'TotalContributionsAmt': f'{NAMESPACE}TotalContributionsAmt',
+    # ? Do we want to include TotalProgramServiceRevenueAmt in addition to the major totals below?
+    # 2g - Total program service revenue amount (sum 2a-2f; housed in own table)
+    'TotalProgramServiceRevenueAmt': f'{NAMESPACE}TotalProgramServiceRevenueAmt',
+    # Note: Flattening this section to grab totals
+    # 12A - Total revenue
+    'TotalRevenueColumnAmt': f'{NAMESPACE}TotalRevenueGrp/{NAMESPACE}TotalRevenueColumnAmt',
+    # 12B - Total related or exemption function revenue
+    'RelatedOrExemptFuncIncomeAmt': f'{NAMESPACE}TotalRevenueGrp/{NAMESPACE}RelatedOrExemptFuncIncomeAmt',
+    # 12C - Total unrelated business revenue
+    'UnrelatedBusinessRevenueAmt': f'{NAMESPACE}TotalRevenueGrp/{NAMESPACE}UnrelatedBusinessRevenueAmt',
+    # 12B - Total revenue excluded from tax under sections 512-514
+    'ExclusionAmt': f'{NAMESPACE}TotalRevenueGrp/{NAMESPACE}ExclusionAmt',
 }
 
-
-def org_type(xml_root):
+def get_org_type(xml_root):
     irs990 = xml_root.find(IRS990_PATH)
 
     # Is a 501c3
     try: # If this field exits, then it's a 501c3
         _501c3 = irs990.find(f'{NAMESPACE}Organization501c3Ind').text
-        print(_501c3.tag)
         return '501c3'
     except AttributeError:
         pass
@@ -205,7 +297,7 @@ def map_elements(xml_element, content_dict, mapper):
             content_dict[content_key] = None
 
 
-def parse_header(xml_root):
+def parse_header(xml_root, xml_file_name, org_type):
     _header = xml_root.find(RETURN_HEADER_PATH)
 
     _header_content = {}
@@ -213,6 +305,8 @@ def parse_header(xml_root):
     # Update header content
     map_elements(_header, _header_content, HEADER_CHILD_MAPPER)
 
+    _header_content['org_type'] = org_type
+    _header_content['file_name'] = xml_file_name
     # TODO: Test past 15,000 samples
     _header_content['NumOfficers'] = len(_header.findall(f'./{NAMESPACE}BusinessOfficerGrp'))
 
@@ -223,7 +317,7 @@ def parse_header(xml_root):
     # ? Can this be pulled from ProPublica API?
 # TODO: Handle multiple input variants for Form 990 K
     # ? Can this be pulled from ProPublica API?
-def parse_return(xml_root):
+def parse_return(xml_root, org_ein):
     _return = xml_root.find(IRS990_PATH)
 
     if _return is None:
@@ -234,20 +328,119 @@ def parse_return(xml_root):
     # Update return content
     map_elements(_return, _return_content, RETURN_CHILD_MAPPER)
 
-    return _return_content
+    return _return_content, parse_employees(_return, org_ein), parse_contractors(_return, org_ein)
+
+
+# TODO: Part VI, Section C. Disclosure data collection
+def parse_section_C(irs990_elem, org_ein):
+    targets = {
+        # 17 - States where a copy of 990 is required to be filed
+        # * Note: Use .findall() to save this as a list of states
+        'StatesWhereCopyOfReturnIsFldCd': f'{NAMESPACE}StatesWhereCopyOfReturnIsFldCd',
+        # 18 - Where does org make 1023, 990, and 990-Ts available?
+        'OwnWebsiteInd': f'{NAMESPACE}OwnWebsiteInd',
+        'UponRequestInd': f'{NAMESPACE}UponRequestInd'
+        # TODO: Find target for 'Another's website'
+        # TODO: Find target for 'Other (explain in Schedule O)'
+    }
+    
+    # TODO: BooksInCareOfDetail + Their address<BooksInCareOfDetail>:
+    # <BooksInCareOfDetail>
+    #     <PersonNm>Christine'K': f'{NAMESPACE}',
+    #     'PhoneNum': f'{NAMESPACE}',
+    #     <USAddress>
+    #         <AddressLine1Txt>1400'JACKSON': f'{NAMESPACE}',
+    #         'CityNm': f'{NAMESPACE}',
+    #         'StateAbbreviationCd': f'{NAMESPACE}',
+    #         'ZIPCd''    ': f'{NAMESPACE}',
+
 
 # ! I plan to have this inside the parse_return, so we will know if the irs990 exists already
-def parse_employees(irs990, org_ein):
-    _irs990 = irs990.find(IRS990_PATH)
+def parse_employees(irs990_elem, org_ein):
 
-    employee_data = []
+    _employee_data = []
 
-    for employee in _irs990.findall(f'{NAMESPACE}Form990PartVIISectionAGrp'):
+    for employee in irs990_elem.findall(f'{NAMESPACE}Form990PartVIISectionAGrp'):
         employee_content = {'EIN': org_ein}
-        
-        for field in employee:
-            employee[field.tag] = field.text
-        
-        employee_data.append(employee_content)
 
-    return employee_data
+        for field in employee:
+            field_key = field.tag.replace(NAMESPACE, '')
+            employee_content[field_key] = field.text
+        _employee_data.append(employee_content)
+
+    return _employee_data
+
+# ! I plan to have this inside the parse_return, so we will know if the irs990 exists already
+def parse_contractors(irs990_elem, org_ein):
+
+    _contractor_data = []
+
+    for contractor in irs990_elem.findall(f'{NAMESPACE}ContractorCompensationGrp'):
+        contractor_content = {'EIN': org_ein}
+
+        # Recursively go through element nesting
+        for field in contractor.iter():
+            # Forget parent elements
+            if len(field) > 0:
+                continue
+            field_key = field.tag.replace(NAMESPACE, '')
+            contractor_content[field_key] = field.text
+        _contractor_data.append(contractor_content)
+
+    return _contractor_data
+
+
+
+# ? Do we need this level of granularity?
+# ! I plan to have this inside the parse_return, so we will know if the irs990 exists already
+# TODO: InvestmentIncomeGrp
+# TODO: IncmFromInvestBondProceedsGrp
+# TODO: RoyaltiesRevenueGrp
+# TODO: RoyaltiesRevenueGrp
+# TODO: GrossRentsGrp
+# TODO: LessRentalExpensesGrp
+# TODO: RentalIncomeOrLossGrp
+# TODO: NetRentalIncomeOrLossGrp
+# TODO: GrossAmountSalesAssetsGrp
+# TODO: LessCostOthBasisSalesExpnssGrp
+# TODO: GainOrLossGrp
+# TODO: NetGainOrLossInvestmentsGrp
+# TODO: ....
+def parse_revenues(irs990_elem, org_ein):
+
+    _program_service_revenue_data = []
+
+    for program_service_revenue in irs990_elem.findall(f'{NAMESPACE}ProgramServiceRevenueGrp'):
+        program_service_revenue_content = {'EIN': org_ein}
+
+        for field in program_service_revenue:
+            field_key = field.tag.replace(NAMESPACE, '')
+            program_service_revenue_content[field_key] = field.text
+        program_service_revenue_content['other'] = 0
+        _program_service_revenue_data.append(program_service_revenue_content)
+
+    for program_service_revenue in irs990_elem.findall(f'{NAMESPACE}TotalOthProgramServiceRevGrp'):
+        program_service_revenue_content = {'EIN': org_ein}
+
+        for field in program_service_revenue:
+            field_key = field.tag.replace(NAMESPACE, '')
+            program_service_revenue_content[field_key] = field.text
+        program_service_revenue_content['other'] = 1
+        _program_service_revenue_data.append(program_service_revenue_content)
+
+    return _program_service_revenue_data
+
+
+def parse_expenses(irs990_elem, org_ein):
+    _expenses_data = []
+    
+    _expense_groups = [
+        'GrantsToDomesticOrgsGrp',
+        'GrantsToDomesticIndividualsGrp',
+        'CompCurrentOfcrDirectorsGrp',
+        'FeesForServicesLobbyingGrp',
+        'FeesForServicesProfFundraising',
+        # If exceeds 10% of line 25 column A, outline in Schedule O
+        'FeesForServicesOtherGrp',
+        'PymtTravelEntrtnmntPubOfclGrp',
+    ]
