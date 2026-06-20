@@ -61,6 +61,7 @@
     * PY --> Previous Year
     * BOY --> Beginning of Current Year
     * EOY --> End of Current Year
+    * Ind --> Indicator(?)
 
 * Mission or activities:
     * Seems to be dependent on response to *K*:
