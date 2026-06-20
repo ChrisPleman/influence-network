@@ -73,3 +73,8 @@
 #### Expenses
 * *16b* Total fundraising expenses:
     * Doesn't seem to have prior year option
+
+### Part VI - Governnance, Management, and Disclosure
+
+#### Section A. Governing B.ody and Management
+* 1a/1b - What does it mean for a voting member to be independent
