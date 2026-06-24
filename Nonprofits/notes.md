@@ -77,4 +77,41 @@
 ### Part VI - Governnance, Management, and Disclosure
 
 #### Section A. Governing B.ody and Management
-* 1a/1b - What does it mean for a voting member to be independent
+* 1a/1b - What does it mean for a voting member to be independent?
+
+### Part X - Balance Sheet
+#### Assets
+* 3 - What are "Pledges and grants receivable, net"?
+
+#### Liabilities
+* 18 - What are "Grants payable"?
+* 19 - What is "Deferred revenue"?
+
+#### Net Assets or Fund Balances
+* What is "FASB ASC 958"?
+* When did Q27-29 change?
+* What is the significance of the change?
+    * Do they mean the same thing?
+    * Are they a 1:1 change?
+
+* Note: Questions 27-28/29 change at some point:
+    * Q27: Unrestricted net assets --> Net assets without donor restrictions
+    * Q28: Temporarily restricted net assets --> Net assets with donor restrictions
+    * Q28: Permanently restricted net assets --> *There is no equivalent*
+    * **It's not clear if this is a 1:1 change. It's more likely that all three questions were replaced with two**
+
+## Schedule A - Public Charity Status and Public Support
+
+### Part I - Reason for Public Charity Status
+* What type of organizations are described in 509(a)(1)?
+* What type of organizations are described in 509(a)(2)?
+* What type of organizations are described in 509(a)(3)?
+
+### Part II - Support Schedule for Organizations Described in Sections 170(b)(1)(A)(iv) and 170(b)(1)(A)(vi)
+* What are "unusual grant[s]"?
+
+## Schedule C - Political Campaign and Lobbying Activities
+
+
+### Part IV - Supplemental Information
+* Could be used to determine which lobbying group(s) and org might be part of (see [2018 National Jewish Health filing](https://apps.irs.gov/pub/epostcard/cor/742044647_201906_990_2021012117618272.pdf)).
