@@ -256,6 +256,11 @@ RETURN_CHILD_MAPPER = {
     'UnrelatedBusinessRevenueAmt': f'{NAMESPACE}TotalRevenueGrp/{NAMESPACE}UnrelatedBusinessRevenueAmt',
     # 12B - Total revenue excluded from tax under sections 512-514
     'ExclusionAmt': f'{NAMESPACE}TotalRevenueGrp/{NAMESPACE}ExclusionAmt',
+    # * Part X - Balance Sheet
+    # TODO: Determine if we care if org follows FASB ASC 958
+    # TODO: Save whether or not Org follows FASB ASC 958
+        # Yes: OrganizationFollowsSFAS117Ind 
+        # No: OrgDoesNotFollowFASB117Ind
 }
 
 def get_org_type(xml_root):
@@ -328,7 +333,11 @@ def parse_return(xml_root, org_ein):
     # Update return content
     map_elements(_return, _return_content, RETURN_CHILD_MAPPER)
 
-    return _return_content, parse_employees(_return, org_ein), parse_contractors(_return, org_ein)
+    _employees = parse_employees(_return, org_ein)
+    _contractors = parse_contractors(_return, org_ein)
+    _expenses = parse_expenses(_return, org_ein)
+    _balance_sheet = parse_balance_sheet(_return, org_ein)
+    return _return_content, _employees, _contractors, _expenses, _balance_sheet
 
 
 # TODO: Part VI, Section C. Disclosure data collection
@@ -350,9 +359,9 @@ def parse_section_C(irs990_elem, org_ein):
     #     'PhoneNum': f'{NAMESPACE}',
     #     <USAddress>
     #         <AddressLine1Txt>1400'JACKSON': f'{NAMESPACE}',
-    #         'CityNm': f'{NAMESPACE}',
-    #         'StateAbbreviationCd': f'{NAMESPACE}',
-    #         'ZIPCd''    ': f'{NAMESPACE}',
+    #       'abc': 'CityNm': f'{NAMESPACE}',
+    #       'abc': 'StateAbbreviationCd': f'{NAMESPACE}',
+    #       'abc': 'ZIPCd''    ': f'{NAMESPACE}',
 
 
 # ! I plan to have this inside the parse_return, so we will know if the irs990 exists already
@@ -389,58 +398,76 @@ def parse_contractors(irs990_elem, org_ein):
 
     return _contractor_data
 
-
-
-# ? Do we need this level of granularity?
-# ! I plan to have this inside the parse_return, so we will know if the irs990 exists already
-# TODO: InvestmentIncomeGrp
-# TODO: IncmFromInvestBondProceedsGrp
-# TODO: RoyaltiesRevenueGrp
-# TODO: RoyaltiesRevenueGrp
-# TODO: GrossRentsGrp
-# TODO: LessRentalExpensesGrp
-# TODO: RentalIncomeOrLossGrp
-# TODO: NetRentalIncomeOrLossGrp
-# TODO: GrossAmountSalesAssetsGrp
-# TODO: LessCostOthBasisSalesExpnssGrp
-# TODO: GainOrLossGrp
-# TODO: NetGainOrLossInvestmentsGrp
-# TODO: ....
-def parse_revenues(irs990_elem, org_ein):
-
-    _program_service_revenue_data = []
-
-    for program_service_revenue in irs990_elem.findall(f'{NAMESPACE}ProgramServiceRevenueGrp'):
-        program_service_revenue_content = {'EIN': org_ein}
-
-        for field in program_service_revenue:
-            field_key = field.tag.replace(NAMESPACE, '')
-            program_service_revenue_content[field_key] = field.text
-        program_service_revenue_content['other'] = 0
-        _program_service_revenue_data.append(program_service_revenue_content)
-
-    for program_service_revenue in irs990_elem.findall(f'{NAMESPACE}TotalOthProgramServiceRevGrp'):
-        program_service_revenue_content = {'EIN': org_ein}
-
-        for field in program_service_revenue:
-            field_key = field.tag.replace(NAMESPACE, '')
-            program_service_revenue_content[field_key] = field.text
-        program_service_revenue_content['other'] = 1
-        _program_service_revenue_data.append(program_service_revenue_content)
-
-    return _program_service_revenue_data
-
-
 def parse_expenses(irs990_elem, org_ein):
-    _expenses_data = []
-    
-    _expense_groups = [
-        'GrantsToDomesticOrgsGrp',
-        'GrantsToDomesticIndividualsGrp',
-        'CompCurrentOfcrDirectorsGrp',
-        'FeesForServicesLobbyingGrp',
-        'FeesForServicesProfFundraising',
-        # If exceeds 10% of line 25 column A, outline in Schedule O
-        'FeesForServicesOtherGrp',
-        'PymtTravelEntrtnmntPubOfclGrp',
-    ]
+    _expense_data = []
+
+    _expense_groups = {
+        'Grants_DomesticGroup': 'GrantsToDomesticOrgsGrp',
+        'Grants_DomesticIndividuals': 'GrantsToDomesticIndividualsGrp',
+        'Compensation_CurrentOfficersDirectors': 'CompCurrentOfcrDirectorsGrp',
+        'Fees_Lobbying': 'FeesForServicesLobbyingGrp',
+        'Fees_ProfessionalFundraising': 'FeesForServicesProfFundraising',
+        'Payment_TravelForPublicOfficials': 'PymtTravelEntrtnmntPubOfclGrp',
+    }
+
+    for expense_type_key, expense_type_target in _expense_groups.items():
+        _expense_content = {
+            'EIN': org_ein,
+            'ExpenseType': expense_type_key
+        }
+
+        expense_type_group = irs990_elem.find(f'{NAMESPACE}{expense_type_target}')
+        
+        if expense_type_group is None:
+            continue
+
+        for expense_type_field in expense_type_group:
+            field_key = expense_type_field.tag.replace(NAMESPACE, '')
+            _expense_content[field_key] = expense_type_field.text
+
+        _expense_data.append(_expense_content)
+
+    return _expense_data
+
+def parse_balance_sheet(irs990_elem, org_ein):
+    _balance_sheet_data = []
+
+    _balance_sheet_groups = {
+        'Assets': {
+            'PledgesAndGrantsReceivable': 'GrantsToDomesticOrgsGrp',
+            'TotalAssets': 'TotalAssetsGrp',
+        },
+        'Liabilities': {
+            'TotalLiabilities': 'TotalLiabilitiesGrp',
+        },
+        'NetAssetsOrFundBalances': {
+            # Old versions?
+            'NetAssets_Unrestricted': 'UnrestrictedNetAssetsGrp',
+            'NetAssets_TemporarilyRestricted': 'TemporarilyRstrNetAssetsGrp',
+            'NetAssets_PermanentlyRestricted': 'PermanentlyRstrNetAssetsGrp',
+            # New versions?
+            'NetAssets_DonorRestrictions': 'DonorRestrictionNetAssetsGrp',
+            'NetAssets_NoDonorRestrictions': 'NoDonorRestrictionNetAssetsGrp',
+        }
+    }
+
+    for _balance_sheet_group, _balance_sheet_group_dict in _balance_sheet_groups.items():
+        for balance_sheet_key, balance_sheet_target in _balance_sheet_group_dict.items():
+            _balance_sheet_content = {
+                'EIN': org_ein,
+                'BalanceSheetSection': _balance_sheet_group,
+                'BalanceSheetSubsection': balance_sheet_key
+            }
+
+            _balance_sheet_elemp = irs990_elem.find(f'{NAMESPACE}{balance_sheet_target}')
+
+            if _balance_sheet_elemp is None:
+                continue
+
+            for balance_sheet_field in _balance_sheet_elemp:
+                field_key = balance_sheet_field.tag.replace(NAMESPACE, '')
+                _balance_sheet_content[field_key] = balance_sheet_field.text
+
+            _balance_sheet_data.append(_balance_sheet_content)
+
+    return _balance_sheet_data
