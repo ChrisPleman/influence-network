@@ -15,3 +15,12 @@ Downloaded on 2026-06-13 at [this url](https://www.degruyterbrill.com/document/d
 **[i990.pdf](i990.pdf) (Form 990 Instructions)**
 
 Downloaded on 2026-06-14 at [this url](https://www.irs.gov/pub/irs-pdf/i990.pdf) from [this page](https://www.irs.gov/instructions) on the IRS website.
+
+---
+Helpful work in the space:
+[ProPublica](https://www.propublica.org/nerds/nonprofit-explorer-update-full-text-of-nearly-two-million-records)
+
+The (**now deprecated**) AWS S3 bucket the IRS (used to) manage: [link](https://registry.opendata.aws/irs990/).
+Some links included on that page, but that we have perused/used:
+* [990Long Repo](https://github.com/CharityNavigator/990_long)
+  * [990Long Medium Article](https://medium.com/@borenstein/the-irs-990-e-file-dataset-getting-to-the-chocolatey-center-of-data-deliciousness-90f66097a600)
