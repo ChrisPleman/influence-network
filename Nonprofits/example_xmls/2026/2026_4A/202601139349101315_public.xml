@@ -1,0 +1,3320 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Return xmlns="http://www.irs.gov/efile" xsi:schemaLocation="http://www.irs.gov/efile" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" returnVersion="2025v4.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2026-04-23T11:01:12-05:00</ReturnTs>
+    <TaxPeriodEndDt>2025-12-31</TaxPeriodEndDt>
+    <PreparerFirmGrp>
+      <PreparerFirmEIN>941687665</PreparerFirmEIN>
+      <PreparerFirmName>
+        <BusinessNameLine1Txt>BANK OF AMERICA</BusinessNameLine1Txt>
+      </PreparerFirmName>
+      <PreparerUSAddress>
+        <AddressLine1Txt>PO BOX 1532 AFT</AddressLine1Txt>
+        <CityNm>PENNINGTON</CityNm>
+        <StateAbbreviationCd>NJ</StateAbbreviationCd>
+        <ZIPCd>08534</ZIPCd>
+      </PreparerUSAddress>
+    </PreparerFirmGrp>
+    <ReturnTypeCd>990PF</ReturnTypeCd>
+    <TaxPeriodBeginDt>2025-01-01</TaxPeriodBeginDt>
+    <Filer>
+      <EIN>205390445</EIN>
+      <BusinessName>
+        <BusinessNameLine1Txt>JEAN SANVILLE FDN - LOOMIS</BusinessNameLine1Txt>
+      </BusinessName>
+      <BusinessNameControlTxt>JEAN</BusinessNameControlTxt>
+      <PhoneNum>8888663275</PhoneNum>
+      <USAddress>
+        <AddressLine1Txt>PO BOX 1532 AFT</AddressLine1Txt>
+        <CityNm>PENNINGTON</CityNm>
+        <StateAbbreviationCd>NJ</StateAbbreviationCd>
+        <ZIPCd>08534</ZIPCd>
+      </USAddress>
+    </Filer>
+    <BusinessOfficerGrp>
+      <PersonNm>JULIE R PETERSON</PersonNm>
+      <PersonTitleTxt>TRUSTEE</PersonTitleTxt>
+      <PhoneNum>8888663275</PhoneNum>
+      <SignatureDt>2026-04-15</SignatureDt>
+      <DiscussWithPaidPreparerInd>true</DiscussWithPaidPreparerInd>
+    </BusinessOfficerGrp>
+    <PreparerPersonGrp>
+      <PreparerPersonNm>KAREN J KISER</PreparerPersonNm>
+      <PTIN>P00146417</PTIN>
+      <PhoneNum>8888663275</PhoneNum>
+      <PreparationDt>2026-04-15</PreparationDt>
+    </PreparerPersonGrp>
+    <TaxYr>2025</TaxYr>
+    <BuildTS>2025-03-06 01:10:19Z</BuildTS>
+  </ReturnHeader>
+  <ReturnData documentCnt="11">
+    <IRS990PF documentId="IRS990PF">
+      <Organization501c3ExemptPFInd>X</Organization501c3ExemptPFInd>
+      <FMVAssetsEOYAmt>3887410</FMVAssetsEOYAmt>
+      <AnalysisOfRevenueAndExpenses>
+        <ScheduleBNotRequiredInd>X</ScheduleBNotRequiredInd>
+        <DividendsRevAndExpnssAmt>133095</DividendsRevAndExpnssAmt>
+        <DividendsNetInvstIncmAmt>132770</DividendsNetInvstIncmAmt>
+        <NetGainSaleAstRevAndExpnssAmt>101111</NetGainSaleAstRevAndExpnssAmt>
+        <GrossSalesPriceAmt>673778</GrossSalesPriceAmt>
+        <CapGainNetIncmNetInvstIncmAmt>101111</CapGainNetIncmNetInvstIncmAmt>
+        <NetSTCapitalGainAdjNetIncmAmt>0</NetSTCapitalGainAdjNetIncmAmt>
+        <TotalRevAndExpnssAmt>234206</TotalRevAndExpnssAmt>
+        <TotalNetInvstIncmAmt>233881</TotalNetInvstIncmAmt>
+        <OthEmplSlrsWgsNetInvstIncmAmt>0</OthEmplSlrsWgsNetInvstIncmAmt>
+        <OthEmplSlrsWgsAdjNetIncmAmt>0</OthEmplSlrsWgsAdjNetIncmAmt>
+        <OthEmplSlrsWgsDsbrsChrtblAmt>0</OthEmplSlrsWgsDsbrsChrtblAmt>
+        <PensionEmplBnftNetInvstIncmAmt>0</PensionEmplBnftNetInvstIncmAmt>
+        <PensionEmplBnftAdjNetIncmAmt>0</PensionEmplBnftAdjNetIncmAmt>
+        <LegalFeesDsbrsChrtblAmt>0</LegalFeesDsbrsChrtblAmt>
+        <AccountingFeesRevAndExpnssAmt referenceDocumentId="AccountingFeesSchedule">1250</AccountingFeesRevAndExpnssAmt>
+        <AccountingFeesNetInvstIncmAmt>0</AccountingFeesNetInvstIncmAmt>
+        <AccountingFeesAdjNetIncmAmt>0</AccountingFeesAdjNetIncmAmt>
+        <AccountingFeesChrtblPrpsAmt>1250</AccountingFeesChrtblPrpsAmt>
+        <OtherProfFeesRevAndExpnssAmt referenceDocumentId="OtherProfessionalFeesSchedule">39799</OtherProfFeesRevAndExpnssAmt>
+        <OtherProfFeesNetInvstIncmAmt>23879</OtherProfFeesNetInvstIncmAmt>
+        <OtherProfFeesDsbrsChrtblAmt>15919</OtherProfFeesDsbrsChrtblAmt>
+        <InterestDsbrsChrtblAmt>0</InterestDsbrsChrtblAmt>
+        <TaxesRevAndExpnssAmt referenceDocumentId="TaxesSchedule">2975</TaxesRevAndExpnssAmt>
+        <TaxesNetInvstIncmAmt>643</TaxesNetInvstIncmAmt>
+        <TaxesDsbrsChrtblAmt>0</TaxesDsbrsChrtblAmt>
+        <DeprecAndDpltnRevAndExpnssAmt>0</DeprecAndDpltnRevAndExpnssAmt>
+        <DeprecAndDpltnNetInvstIncmAmt>0</DeprecAndDpltnNetInvstIncmAmt>
+        <TravConfMeetingNetInvstIncmAmt>0</TravConfMeetingNetInvstIncmAmt>
+        <TravConfMeetingAdjNetIncmAmt>0</TravConfMeetingAdjNetIncmAmt>
+        <PrintingAndPubNetInvstIncmAmt>0</PrintingAndPubNetInvstIncmAmt>
+        <PrintingAndPubAdjNetIncmAmt>0</PrintingAndPubAdjNetIncmAmt>
+        <OtherExpensesRevAndExpnssAmt referenceDocumentId="OtherExpensesSchedule">1036</OtherExpensesRevAndExpnssAmt>
+        <OtherExpensesNetInvstIncmAmt>961</OtherExpensesNetInvstIncmAmt>
+        <OtherExpensesDsbrsChrtblAmt>75</OtherExpensesDsbrsChrtblAmt>
+        <TotOprExpensesRevAndExpnssAmt>45060</TotOprExpensesRevAndExpnssAmt>
+        <TotOprExpensesNetInvstIncmAmt>25483</TotOprExpensesNetInvstIncmAmt>
+        <TotOprExpensesAdjNetIncmAmt>0</TotOprExpensesAdjNetIncmAmt>
+        <TotOprExpensesDsbrsChrtblAmt>17244</TotOprExpensesDsbrsChrtblAmt>
+        <ContriPaidRevAndExpnssAmt>185835</ContriPaidRevAndExpnssAmt>
+        <ContriPaidDsbrsChrtblAmt>185835</ContriPaidDsbrsChrtblAmt>
+        <TotalExpensesRevAndExpnssAmt>230895</TotalExpensesRevAndExpnssAmt>
+        <TotalExpensesNetInvstIncmAmt>25483</TotalExpensesNetInvstIncmAmt>
+        <TotalExpensesAdjNetIncmAmt>0</TotalExpensesAdjNetIncmAmt>
+        <TotalExpensesDsbrsChrtblAmt>203079</TotalExpensesDsbrsChrtblAmt>
+        <ExcessRevenueOverExpensesAmt>3311</ExcessRevenueOverExpensesAmt>
+        <NetInvestmentIncomeAmt>208398</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+      </AnalysisOfRevenueAndExpenses>
+      <Form990PFBalanceSheetsGrp>
+        <CashBOYAmt>634</CashBOYAmt>
+        <CashEOYAmt>7293</CashEOYAmt>
+        <CashEOYFMVAmt>7293</CashEOYFMVAmt>
+        <SavAndTempCashInvstBOYAmt>70273</SavAndTempCashInvstBOYAmt>
+        <SavAndTempCashInvstEOYAmt>91467</SavAndTempCashInvstEOYAmt>
+        <SavAndTempCashInvstEOYFMVAmt>91467</SavAndTempCashInvstEOYFMVAmt>
+        <AcctRcvblEOYAmt>0</AcctRcvblEOYAmt>
+        <AcctRcvblEOYFMVAmt>0</AcctRcvblEOYFMVAmt>
+        <OtherRcvblAllwncDbtflAcctAmt>0</OtherRcvblAllwncDbtflAcctAmt>
+        <USGovernmentObligationsBOYAmt>423803</USGovernmentObligationsBOYAmt>
+        <USGovernmentObligationsEOYAmt referenceDocumentId="InvestmentsGovtObligationsSch">524451</USGovernmentObligationsEOYAmt>
+        <USGovtObligationsEOYFMVAmt>512354</USGovtObligationsEOYFMVAmt>
+        <CorporateStockBOYAmt>1269934</CorporateStockBOYAmt>
+        <CorporateStockEOYAmt referenceDocumentId="InvestmentsCorpStockSchedule">1223494</CorporateStockEOYAmt>
+        <CorporateStockEOYFMVAmt>2051028</CorporateStockEOYFMVAmt>
+        <CorporateBondsBOYAmt>542145</CorporateBondsBOYAmt>
+        <CorporateBondsEOYAmt referenceDocumentId="InvestmentsCorpBondsSchedule">469191</CorporateBondsEOYAmt>
+        <CorporateBondsEOYFMVAmt>499835</CorporateBondsEOYFMVAmt>
+        <OtherInvestmentsBOYAmt>801916</OtherInvestmentsBOYAmt>
+        <OtherInvestmentsEOYAmt referenceDocumentId="InvestmentsOtherSchedule2">794962</OtherInvestmentsEOYAmt>
+        <OtherInvestmentsEOYFMVAmt>725433</OtherInvestmentsEOYFMVAmt>
+        <TotalAssetsBOYAmt>3108705</TotalAssetsBOYAmt>
+        <TotalAssetsEOYAmt>3110858</TotalAssetsEOYAmt>
+        <TotalAssetsEOYFMVAmt>3887410</TotalAssetsEOYFMVAmt>
+        <TotalLiabilitiesEOYAmt>0</TotalLiabilitiesEOYAmt>
+        <OrgDoesNotFollowFASB117Ind>X</OrgDoesNotFollowFASB117Ind>
+        <CapitalStockBOYAmt>3108705</CapitalStockBOYAmt>
+        <CapitalStockEOYAmt>3110858</CapitalStockEOYAmt>
+        <TotNetAstOrFundBalancesBOYAmt>3108705</TotNetAstOrFundBalancesBOYAmt>
+        <TotNetAstOrFundBalancesEOYAmt>3110858</TotNetAstOrFundBalancesEOYAmt>
+        <TotalLiabilitiesNetAstBOYAmt>3108705</TotalLiabilitiesNetAstBOYAmt>
+        <TotalLiabilitiesNetAstEOYAmt>3110858</TotalLiabilitiesNetAstEOYAmt>
+      </Form990PFBalanceSheetsGrp>
+      <ChgInNetAssetsFundBalancesGrp>
+        <TotNetAstOrFundBalancesBOYAmt>3108705</TotNetAstOrFundBalancesBOYAmt>
+        <ExcessRevenueOverExpensesAmt>3311</ExcessRevenueOverExpensesAmt>
+        <OtherIncreasesAmt referenceDocumentId="OtherIncreasesSchedule">432</OtherIncreasesAmt>
+        <SubtotalAmt>3112448</SubtotalAmt>
+        <OtherDecreasesAmt referenceDocumentId="OtherDecreasesSchedule">1590</OtherDecreasesAmt>
+        <TotNetAstOrFundBalancesEOYAmt>3110858</TotNetAstOrFundBalancesEOYAmt>
+      </ChgInNetAssetsFundBalancesGrp>
+      <CapGainsLossTxInvstIncmDetail>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>83. MERCK AND CO INC SHS</PropertyDesc>
+          <AcquiredDt>2016-01-08</AcquiredDt>
+          <SoldDt>2025-01-27</SoldDt>
+          <GrossSalesPriceAmt>8129</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>4075</CostOrOtherBasisAmt>
+          <GainOrLossAmt>4054</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>4054</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>1. MERCK AND CO INC SHS</PropertyDesc>
+          <AcquiredDt>2016-01-08</AcquiredDt>
+          <SoldDt>2025-01-28</SoldDt>
+          <GrossSalesPriceAmt>98</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>49</CostOrOtherBasisAmt>
+          <GainOrLossAmt>49</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>49</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>282. MERCK AND CO INC SHS</PropertyDesc>
+          <AcquiredDt>2016-01-11</AcquiredDt>
+          <SoldDt>2025-01-28</SoldDt>
+          <GrossSalesPriceAmt>27495</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>13709</CostOrOtherBasisAmt>
+          <GainOrLossAmt>13786</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>13786</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>59. MERCK AND CO INC SHS</PropertyDesc>
+          <AcquiredDt>2016-01-13</AcquiredDt>
+          <SoldDt>2025-01-28</SoldDt>
+          <GrossSalesPriceAmt>5752</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>2901</CostOrOtherBasisAmt>
+          <GainOrLossAmt>2851</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>2851</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>168. MERCK AND CO INC SHS</PropertyDesc>
+          <AcquiredDt>2016-01-12</AcquiredDt>
+          <SoldDt>2025-01-28</SoldDt>
+          <GrossSalesPriceAmt>16380</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>8185</CostOrOtherBasisAmt>
+          <GainOrLossAmt>8195</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>8195</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>6.29 GNM PMA7988M 03%2052</PropertyDesc>
+          <SoldDt>2025-02-20</SoldDt>
+          <GrossSalesPriceAmt>6</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>6</CostOrOtherBasisAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>139.22 GNM PMA8098M 03%2052</PropertyDesc>
+          <SoldDt>2025-02-20</SoldDt>
+          <GrossSalesPriceAmt>139</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>139</CostOrOtherBasisAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>86.82 FHLMC SD 6706 04 50%2054</PropertyDesc>
+          <SoldDt>2025-02-25</SoldDt>
+          <GrossSalesPriceAmt>87</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>87</CostOrOtherBasisAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>65.47 FHLMC SD 8189 02 50%2052</PropertyDesc>
+          <SoldDt>2025-02-25</SoldDt>
+          <GrossSalesPriceAmt>65</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>65</CostOrOtherBasisAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>136.38 FHLMC SD 8211 02%2052</PropertyDesc>
+          <SoldDt>2025-02-25</SoldDt>
+          <GrossSalesPriceAmt>136</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>136</CostOrOtherBasisAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>171.68 FHLMC SD 8242 03%2052</PropertyDesc>
+          <SoldDt>2025-02-25</SoldDt>
+          <GrossSalesPriceAmt>172</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>172</CostOrOtherBasisAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>132.69 FNMA PCB4371 03 50%2052</PropertyDesc>
+          <SoldDt>2025-02-25</SoldDt>
+          <GrossSalesPriceAmt>133</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>133</CostOrOtherBasisAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>59. FNMA PMA4598 02 50%2052</PropertyDesc>
+          <SoldDt>2025-02-25</SoldDt>
+          <GrossSalesPriceAmt>59</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>59</CostOrOtherBasisAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>2000. EXXON MOBIL CORP 2.99% 25 GLB</PropertyDesc>
+          <AcquiredDt>2023-02-13</AcquiredDt>
+          <SoldDt>2025-03-19</SoldDt>
+          <GrossSalesPriceAmt>2000</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>1926</CostOrOtherBasisAmt>
+          <GainOrLossAmt>74</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>74</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>7000. EXXON MOBIL CORP 2.99% 25 GLB</PropertyDesc>
+          <AcquiredDt>2024-01-05</AcquiredDt>
+          <SoldDt>2025-03-19</SoldDt>
+          <GrossSalesPriceAmt>7000</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>6851</CostOrOtherBasisAmt>
+          <GainOrLossAmt>149</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>149</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>6.36 GNM PMA7988M 03%2052</PropertyDesc>
+          <SoldDt>2025-03-20</SoldDt>
+          <GrossSalesPriceAmt>6</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>6</CostOrOtherBasisAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>114.68 GNM PMA8098M 03%2052</PropertyDesc>
+          <SoldDt>2025-03-20</SoldDt>
+          <GrossSalesPriceAmt>115</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>115</CostOrOtherBasisAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>72.26 FHLMC SD 6706 04 50%2054</PropertyDesc>
+          <SoldDt>2025-03-25</SoldDt>
+          <GrossSalesPriceAmt>72</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>72</CostOrOtherBasisAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>71.98 FHLMC SD 8189 02 50%2052</PropertyDesc>
+          <SoldDt>2025-03-25</SoldDt>
+          <GrossSalesPriceAmt>72</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>72</CostOrOtherBasisAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>89.58 FHLMC SD 8211 02%2052</PropertyDesc>
+          <SoldDt>2025-03-25</SoldDt>
+          <GrossSalesPriceAmt>90</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>90</CostOrOtherBasisAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>151.39 FHLMC SD 8242 03%2052</PropertyDesc>
+          <SoldDt>2025-03-25</SoldDt>
+          <GrossSalesPriceAmt>151</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>151</CostOrOtherBasisAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>238.77 FNMA PCB4371 03 50%2052</PropertyDesc>
+          <SoldDt>2025-03-25</SoldDt>
+          <GrossSalesPriceAmt>239</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>239</CostOrOtherBasisAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>53.53 FNMA PMA4598 02 50%2052</PropertyDesc>
+          <SoldDt>2025-03-25</SoldDt>
+          <GrossSalesPriceAmt>54</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>54</CostOrOtherBasisAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>2000. GENERAL MILLS INC 4.00% 25 GLB</PropertyDesc>
+          <AcquiredDt>2018-12-19</AcquiredDt>
+          <SoldDt>2025-04-17</SoldDt>
+          <GrossSalesPriceAmt>2000</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>1969</CostOrOtherBasisAmt>
+          <GainOrLossAmt>31</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>31</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>2000. GENERAL MILLS INC 4.00% 25 GLB</PropertyDesc>
+          <AcquiredDt>2023-02-13</AcquiredDt>
+          <SoldDt>2025-04-17</SoldDt>
+          <GrossSalesPriceAmt>2000</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>1960</CostOrOtherBasisAmt>
+          <GainOrLossAmt>40</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>40</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>4000. GENERAL MILLS INC 4.00% 25 GLB</PropertyDesc>
+          <AcquiredDt>2024-01-05</AcquiredDt>
+          <SoldDt>2025-04-17</SoldDt>
+          <GrossSalesPriceAmt>4000</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>3941</CostOrOtherBasisAmt>
+          <GainOrLossAmt>59</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>59</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>7.14 GNM PMA7988M 03%2052</PropertyDesc>
+          <SoldDt>2025-04-21</SoldDt>
+          <GrossSalesPriceAmt>7</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>7</CostOrOtherBasisAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>124.57 GNM PMA8098M 03%2052</PropertyDesc>
+          <SoldDt>2025-04-21</SoldDt>
+          <GrossSalesPriceAmt>125</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>125</CostOrOtherBasisAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>91.37 FHLMC SD 6706 04 50%2054</PropertyDesc>
+          <SoldDt>2025-04-25</SoldDt>
+          <GrossSalesPriceAmt>91</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>91</CostOrOtherBasisAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>73.66 FHLMC SD 8189 02 50%2052</PropertyDesc>
+          <SoldDt>2025-04-25</SoldDt>
+          <GrossSalesPriceAmt>74</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>74</CostOrOtherBasisAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>90.95 FHLMC SD 8211 02%2052</PropertyDesc>
+          <SoldDt>2025-04-25</SoldDt>
+          <GrossSalesPriceAmt>91</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>91</CostOrOtherBasisAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>132.91 FHLMC SD 8242 03%2052</PropertyDesc>
+          <SoldDt>2025-04-25</SoldDt>
+          <GrossSalesPriceAmt>133</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>133</CostOrOtherBasisAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>200.26 FNMA PCB4371 03 50%2052</PropertyDesc>
+          <SoldDt>2025-04-25</SoldDt>
+          <GrossSalesPriceAmt>200</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>200</CostOrOtherBasisAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>80.75 FNMA PMA4598 02 50%2052</PropertyDesc>
+          <SoldDt>2025-04-25</SoldDt>
+          <GrossSalesPriceAmt>81</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>81</CostOrOtherBasisAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>3000. ABBVIE INC 3.60%MAY14 25 GLB</PropertyDesc>
+          <AcquiredDt>2018-11-13</AcquiredDt>
+          <SoldDt>2025-05-14</SoldDt>
+          <GrossSalesPriceAmt>3000</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>2876</CostOrOtherBasisAmt>
+          <GainOrLossAmt>124</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>124</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>1000. ABBVIE INC 3.60%MAY14 25 GLB</PropertyDesc>
+          <AcquiredDt>2019-01-29</AcquiredDt>
+          <SoldDt>2025-05-14</SoldDt>
+          <GrossSalesPriceAmt>1000</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>983</CostOrOtherBasisAmt>
+          <GainOrLossAmt>17</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>17</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>3000. ABBVIE INC 3.60%MAY14 25 GLB</PropertyDesc>
+          <AcquiredDt>2023-02-13</AcquiredDt>
+          <SoldDt>2025-05-14</SoldDt>
+          <GrossSalesPriceAmt>3000</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>2907</CostOrOtherBasisAmt>
+          <GainOrLossAmt>93</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>93</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>7.53 GNM PMA7988M 03%2052</PropertyDesc>
+          <SoldDt>2025-05-20</SoldDt>
+          <GrossSalesPriceAmt>8</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>8</CostOrOtherBasisAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>151.87 GNM PMA8098M 03%2052</PropertyDesc>
+          <SoldDt>2025-05-20</SoldDt>
+          <GrossSalesPriceAmt>152</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>152</CostOrOtherBasisAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>118.49 FHLMC SD 6706 04 50%2054</PropertyDesc>
+          <SoldDt>2025-05-27</SoldDt>
+          <GrossSalesPriceAmt>118</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>118</CostOrOtherBasisAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>87.14 FHLMC SD 8189 02 50%2052</PropertyDesc>
+          <SoldDt>2025-05-27</SoldDt>
+          <GrossSalesPriceAmt>87</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>87</CostOrOtherBasisAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>122.99 FHLMC SD 8211 02%2052</PropertyDesc>
+          <SoldDt>2025-05-27</SoldDt>
+          <GrossSalesPriceAmt>123</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>123</CostOrOtherBasisAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>184.97 FHLMC SD 8242 03%2052</PropertyDesc>
+          <SoldDt>2025-05-27</SoldDt>
+          <GrossSalesPriceAmt>185</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>185</CostOrOtherBasisAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>243.83 FNMA PCB4371 03 50%2052</PropertyDesc>
+          <SoldDt>2025-05-27</SoldDt>
+          <GrossSalesPriceAmt>244</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>244</CostOrOtherBasisAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>90.44 FNMA PMA4598 02 50%2052</PropertyDesc>
+          <SoldDt>2025-05-27</SoldDt>
+          <GrossSalesPriceAmt>90</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>90</CostOrOtherBasisAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>5. AIR PRODUCTS &amp; CHEMICALS INC</PropertyDesc>
+          <AcquiredDt>2020-02-11</AcquiredDt>
+          <SoldDt>2025-05-29</SoldDt>
+          <GrossSalesPriceAmt>1362</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>1266</CostOrOtherBasisAmt>
+          <GainOrLossAmt>96</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>96</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>3. AIR PRODUCTS &amp; CHEMICALS INC</PropertyDesc>
+          <AcquiredDt>2020-02-10</AcquiredDt>
+          <SoldDt>2025-05-29</SoldDt>
+          <GrossSalesPriceAmt>817</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>754</CostOrOtherBasisAmt>
+          <GainOrLossAmt>63</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>63</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>44. BERKSHIRE HATHAWAYINC DEL CL B NEW</PropertyDesc>
+          <AcquiredDt>2019-09-05</AcquiredDt>
+          <SoldDt>2025-05-29</SoldDt>
+          <GrossSalesPriceAmt>22111</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>9003</CostOrOtherBasisAmt>
+          <GainOrLossAmt>13108</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>13108</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>3. BLACKROCK INC REG SHS</PropertyDesc>
+          <AcquiredDt>2015-06-04</AcquiredDt>
+          <SoldDt>2025-05-29</SoldDt>
+          <GrossSalesPriceAmt>2912</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>1086</CostOrOtherBasisAmt>
+          <GainOrLossAmt>1826</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>1826</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>10. CINCINNATI FINL CORP</PropertyDesc>
+          <AcquiredDt>2015-06-04</AcquiredDt>
+          <SoldDt>2025-05-29</SoldDt>
+          <GrossSalesPriceAmt>1477</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>509</CostOrOtherBasisAmt>
+          <GainOrLossAmt>968</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>968</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>849. COMCAST CORP NEW CL A</PropertyDesc>
+          <AcquiredDt>2024-01-05</AcquiredDt>
+          <SoldDt>2025-05-29</SoldDt>
+          <GrossSalesPriceAmt>29079</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>36600</CostOrOtherBasisAmt>
+          <GainOrLossAmt>-7521</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>-7521</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>33. COMCAST CORP NEW CL A</PropertyDesc>
+          <AcquiredDt>2022-09-13</AcquiredDt>
+          <SoldDt>2025-05-29</SoldDt>
+          <GrossSalesPriceAmt>1130</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>1133</CostOrOtherBasisAmt>
+          <GainOrLossAmt>-3</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>-3</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>3. CROWN CASTLE INC SHS</PropertyDesc>
+          <AcquiredDt>2017-08-29</AcquiredDt>
+          <SoldDt>2025-05-29</SoldDt>
+          <GrossSalesPriceAmt>299</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>279</CostOrOtherBasisAmt>
+          <GainOrLossAmt>20</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>20</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>10. CROWN CASTLE INC SHS</PropertyDesc>
+          <AcquiredDt>2017-08-28</AcquiredDt>
+          <SoldDt>2025-05-29</SoldDt>
+          <GrossSalesPriceAmt>998</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>932</CostOrOtherBasisAmt>
+          <GainOrLossAmt>66</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>66</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>26. FASTENAL CO COM</PropertyDesc>
+          <AcquiredDt>2018-11-19</AcquiredDt>
+          <SoldDt>2025-05-29</SoldDt>
+          <GrossSalesPriceAmt>1077</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>375</CostOrOtherBasisAmt>
+          <GainOrLossAmt>702</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>702</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>16. JOHNSON &amp; JOHNSON</PropertyDesc>
+          <AcquiredDt>2018-08-01</AcquiredDt>
+          <SoldDt>2025-05-29</SoldDt>
+          <GrossSalesPriceAmt>2428</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>2121</CostOrOtherBasisAmt>
+          <GainOrLossAmt>307</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>307</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>10. LOWES COMPANIES INC</PropertyDesc>
+          <AcquiredDt>2015-06-04</AcquiredDt>
+          <SoldDt>2025-05-29</SoldDt>
+          <GrossSalesPriceAmt>2255</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>704</CostOrOtherBasisAmt>
+          <GainOrLossAmt>1551</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>1551</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>110. PHILIP MORRIS INTL INC</PropertyDesc>
+          <AcquiredDt>2020-04-28</AcquiredDt>
+          <SoldDt>2025-05-29</SoldDt>
+          <GrossSalesPriceAmt>19430</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>8520</CostOrOtherBasisAmt>
+          <GainOrLossAmt>10910</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>10910</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>9. PHILIP MORRIS INTL INC</PropertyDesc>
+          <AcquiredDt>2020-04-29</AcquiredDt>
+          <SoldDt>2025-05-29</SoldDt>
+          <GrossSalesPriceAmt>1590</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>695</CostOrOtherBasisAmt>
+          <GainOrLossAmt>895</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>895</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>4. PROGRESSIVE CORP OHIO COM</PropertyDesc>
+          <AcquiredDt>2021-07-06</AcquiredDt>
+          <SoldDt>2025-05-29</SoldDt>
+          <GrossSalesPriceAmt>1106</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>391</CostOrOtherBasisAmt>
+          <GainOrLossAmt>715</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>715</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>20. STARBUCKS CORP COM</PropertyDesc>
+          <AcquiredDt>2022-03-30</AcquiredDt>
+          <SoldDt>2025-05-29</SoldDt>
+          <GrossSalesPriceAmt>1698</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>1821</CostOrOtherBasisAmt>
+          <GainOrLossAmt>-123</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>-123</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>14. TEXAS INSTRUMENTS INC</PropertyDesc>
+          <AcquiredDt>2018-12-11</AcquiredDt>
+          <SoldDt>2025-05-29</SoldDt>
+          <GrossSalesPriceAmt>2607</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>1341</CostOrOtherBasisAmt>
+          <GainOrLossAmt>1266</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>1266</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>120. UNITED PARCEL SERVICE CL B</PropertyDesc>
+          <AcquiredDt>2018-02-05</AcquiredDt>
+          <SoldDt>2025-05-29</SoldDt>
+          <GrossSalesPriceAmt>11734</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>13838</CostOrOtherBasisAmt>
+          <GainOrLossAmt>-2104</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>-2104</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>56. UNITED PARCEL SERVICE CL B</PropertyDesc>
+          <AcquiredDt>2018-01-18</AcquiredDt>
+          <SoldDt>2025-05-29</SoldDt>
+          <GrossSalesPriceAmt>5476</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>7532</CostOrOtherBasisAmt>
+          <GainOrLossAmt>-2056</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>-2056</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>37. UNITED PARCEL SERVICE CL B</PropertyDesc>
+          <AcquiredDt>2018-01-17</AcquiredDt>
+          <SoldDt>2025-05-29</SoldDt>
+          <GrossSalesPriceAmt>3618</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>4939</CostOrOtherBasisAmt>
+          <GainOrLossAmt>-1321</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>-1321</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>13. UNITED PARCEL SERVICE CL B</PropertyDesc>
+          <AcquiredDt>2018-01-16</AcquiredDt>
+          <SoldDt>2025-05-29</SoldDt>
+          <GrossSalesPriceAmt>1271</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>1730</CostOrOtherBasisAmt>
+          <GainOrLossAmt>-459</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>-459</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>7. TE CONNECTIVITY PLC</PropertyDesc>
+          <AcquiredDt>2024-06-26</AcquiredDt>
+          <SoldDt>2025-05-29</SoldDt>
+          <GrossSalesPriceAmt>1129</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>1034</CostOrOtherBasisAmt>
+          <GainOrLossAmt>95</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>95</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>123. UNITED PARCEL SERVICE CL B</PropertyDesc>
+          <AcquiredDt>2018-02-05</AcquiredDt>
+          <SoldDt>2025-05-30</SoldDt>
+          <GrossSalesPriceAmt>11985</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>14184</CostOrOtherBasisAmt>
+          <GainOrLossAmt>-2199</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>-2199</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>6. UNITED PARCEL SERVICE CL B</PropertyDesc>
+          <AcquiredDt>2024-04-17</AcquiredDt>
+          <SoldDt>2025-05-30</SoldDt>
+          <GrossSalesPriceAmt>585</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>851</CostOrOtherBasisAmt>
+          <GainOrLossAmt>-266</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>-266</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>5000. U.S. TREASURY BOND 4.500% FEB 15 2044</PropertyDesc>
+          <AcquiredDt>2024-03-05</AcquiredDt>
+          <SoldDt>2025-06-06</SoldDt>
+          <GrossSalesPriceAmt>4705</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>5059</CostOrOtherBasisAmt>
+          <GainOrLossAmt>-354</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>-354</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>7.12 GNM PMA7988M 03%2052</PropertyDesc>
+          <SoldDt>2025-06-20</SoldDt>
+          <GrossSalesPriceAmt>7</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>7</CostOrOtherBasisAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>195.23 GNM PMA8098M 03%2052</PropertyDesc>
+          <SoldDt>2025-06-20</SoldDt>
+          <GrossSalesPriceAmt>195</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>195</CostOrOtherBasisAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>100.03 FHLMC SD 6706 04 50%2054</PropertyDesc>
+          <SoldDt>2025-06-25</SoldDt>
+          <GrossSalesPriceAmt>100</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>100</CostOrOtherBasisAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>83.3 FHLMC SD 8189 02 50%2052</PropertyDesc>
+          <SoldDt>2025-06-25</SoldDt>
+          <GrossSalesPriceAmt>83</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>83</CostOrOtherBasisAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>140.15 FHLMC SD 8211 02%2052</PropertyDesc>
+          <SoldDt>2025-06-25</SoldDt>
+          <GrossSalesPriceAmt>140</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>140</CostOrOtherBasisAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>155.54 FHLMC SD 8242 03%2052</PropertyDesc>
+          <SoldDt>2025-06-25</SoldDt>
+          <GrossSalesPriceAmt>156</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>156</CostOrOtherBasisAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>95.25 FNMA PCB4371 03 50%2052</PropertyDesc>
+          <SoldDt>2025-06-25</SoldDt>
+          <GrossSalesPriceAmt>95</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>95</CostOrOtherBasisAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>78.87 FNMA PMA4598 02 50%2052</PropertyDesc>
+          <SoldDt>2025-06-25</SoldDt>
+          <GrossSalesPriceAmt>79</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>79</CostOrOtherBasisAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>10000. WARNERMEDIA HOLDI 4.05% 29 COMPANY GUARNT GLB</PropertyDesc>
+          <AcquiredDt>2023-08-07</AcquiredDt>
+          <SoldDt>2025-06-30</SoldDt>
+          <GrossSalesPriceAmt>221</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>9203</CostOrOtherBasisAmt>
+          <GainOrLossAmt>-8982</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>-8982</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>8. AIR PRODUCTS &amp; CHEMICALS INC</PropertyDesc>
+          <AcquiredDt>2020-02-11</AcquiredDt>
+          <SoldDt>2025-07-08</SoldDt>
+          <GrossSalesPriceAmt>2342</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>2026</CostOrOtherBasisAmt>
+          <GainOrLossAmt>316</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>316</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>8. APPLE INC</PropertyDesc>
+          <AcquiredDt>2018-02-27</AcquiredDt>
+          <SoldDt>2025-07-08</SoldDt>
+          <GrossSalesPriceAmt>1676</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>359</CostOrOtherBasisAmt>
+          <GainOrLossAmt>1317</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>1317</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>2. BERKSHIRE HATHAWAYINC DEL CL B NEW</PropertyDesc>
+          <AcquiredDt>2019-09-05</AcquiredDt>
+          <SoldDt>2025-07-08</SoldDt>
+          <GrossSalesPriceAmt>956</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>409</CostOrOtherBasisAmt>
+          <GainOrLossAmt>547</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>547</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>1. BLACKROCK INC REG SHS</PropertyDesc>
+          <AcquiredDt>2015-06-04</AcquiredDt>
+          <SoldDt>2025-07-08</SoldDt>
+          <GrossSalesPriceAmt>1076</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>362</CostOrOtherBasisAmt>
+          <GainOrLossAmt>714</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>714</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>23. CHEVRON CORP</PropertyDesc>
+          <AcquiredDt>2015-10-28</AcquiredDt>
+          <SoldDt>2025-07-08</SoldDt>
+          <GrossSalesPriceAmt>3510</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>2065</CostOrOtherBasisAmt>
+          <GainOrLossAmt>1445</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>1445</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>13. CISCO SYSTEMS INCORPORATED</PropertyDesc>
+          <AcquiredDt>2015-06-04</AcquiredDt>
+          <SoldDt>2025-07-08</SoldDt>
+          <GrossSalesPriceAmt>892</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>377</CostOrOtherBasisAmt>
+          <GainOrLossAmt>515</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>515</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>24. CORNING INC</PropertyDesc>
+          <AcquiredDt>2025-01-27</AcquiredDt>
+          <SoldDt>2025-07-08</SoldDt>
+          <GrossSalesPriceAmt>1266</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>1189</CostOrOtherBasisAmt>
+          <GainOrLossAmt>77</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>77</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>7. CROWN CASTLE INC SHS</PropertyDesc>
+          <AcquiredDt>2017-08-29</AcquiredDt>
+          <SoldDt>2025-07-08</SoldDt>
+          <GrossSalesPriceAmt>718</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>650</CostOrOtherBasisAmt>
+          <GainOrLossAmt>68</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>68</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>19. DIAGEO SPONSORED ADR (UK-USD) SEDOL #2133896</PropertyDesc>
+          <AcquiredDt>2016-07-07</AcquiredDt>
+          <SoldDt>2025-07-08</SoldDt>
+          <GrossSalesPriceAmt>1998</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>2160</CostOrOtherBasisAmt>
+          <GainOrLossAmt>-162</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>-162</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>3. DOMINION ENERGY INC COM</PropertyDesc>
+          <AcquiredDt>2023-08-15</AcquiredDt>
+          <SoldDt>2025-07-08</SoldDt>
+          <GrossSalesPriceAmt>169</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>144</CostOrOtherBasisAmt>
+          <GainOrLossAmt>25</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>25</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>11. DOMINION ENERGY INC COM</PropertyDesc>
+          <AcquiredDt>2024-01-05</AcquiredDt>
+          <SoldDt>2025-07-08</SoldDt>
+          <GrossSalesPriceAmt>620</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>535</CostOrOtherBasisAmt>
+          <GainOrLossAmt>85</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>85</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>28. FASTENAL CO COM</PropertyDesc>
+          <AcquiredDt>2018-11-19</AcquiredDt>
+          <SoldDt>2025-07-08</SoldDt>
+          <GrossSalesPriceAmt>1201</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>404</CostOrOtherBasisAmt>
+          <GainOrLossAmt>797</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>797</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>11. FIDELITY NATL INFORMATION SVCS INC COM</PropertyDesc>
+          <AcquiredDt>2024-01-05</AcquiredDt>
+          <SoldDt>2025-07-08</SoldDt>
+          <GrossSalesPriceAmt>883</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>677</CostOrOtherBasisAmt>
+          <GainOrLossAmt>206</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>206</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>6. JOHNSON &amp; JOHNSON</PropertyDesc>
+          <AcquiredDt>2018-08-02</AcquiredDt>
+          <SoldDt>2025-07-08</SoldDt>
+          <GrossSalesPriceAmt>933</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>795</CostOrOtherBasisAmt>
+          <GainOrLossAmt>138</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>138</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>3. LOWES COMPANIES INC</PropertyDesc>
+          <AcquiredDt>2015-06-04</AcquiredDt>
+          <SoldDt>2025-07-08</SoldDt>
+          <GrossSalesPriceAmt>673</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>211</CostOrOtherBasisAmt>
+          <GainOrLossAmt>462</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>462</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>12. NESTLE S A SPONSORED ADR</PropertyDesc>
+          <AcquiredDt>2018-11-29</AcquiredDt>
+          <SoldDt>2025-07-08</SoldDt>
+          <GrossSalesPriceAmt>1177</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>1027</CostOrOtherBasisAmt>
+          <GainOrLossAmt>150</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>150</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>54. NINTENDO LTD ADR</PropertyDesc>
+          <AcquiredDt>2024-01-05</AcquiredDt>
+          <SoldDt>2025-07-08</SoldDt>
+          <GrossSalesPriceAmt>1203</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>678</CostOrOtherBasisAmt>
+          <GainOrLossAmt>525</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>525</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>7. NORFOLK SOUTHERN CORP</PropertyDesc>
+          <AcquiredDt>2015-09-14</AcquiredDt>
+          <SoldDt>2025-07-08</SoldDt>
+          <GrossSalesPriceAmt>1833</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>553</CostOrOtherBasisAmt>
+          <GainOrLossAmt>1280</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>1280</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>2. NORTHROP GRUMMAN CORP</PropertyDesc>
+          <AcquiredDt>2023-09-28</AcquiredDt>
+          <SoldDt>2025-07-08</SoldDt>
+          <GrossSalesPriceAmt>1011</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>881</CostOrOtherBasisAmt>
+          <GainOrLossAmt>130</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>130</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>6. PAYCHEX INC</PropertyDesc>
+          <AcquiredDt>2015-06-04</AcquiredDt>
+          <SoldDt>2025-07-08</SoldDt>
+          <GrossSalesPriceAmt>866</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>294</CostOrOtherBasisAmt>
+          <GainOrLossAmt>572</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>572</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>19. SCHWAB CHARLES CORP NEW COM</PropertyDesc>
+          <AcquiredDt>2023-03-15</AcquiredDt>
+          <SoldDt>2025-07-08</SoldDt>
+          <GrossSalesPriceAmt>1750</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>1133</CostOrOtherBasisAmt>
+          <GainOrLossAmt>617</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>617</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>17. STARBUCKS CORP COM</PropertyDesc>
+          <AcquiredDt>2022-03-30</AcquiredDt>
+          <SoldDt>2025-07-08</SoldDt>
+          <GrossSalesPriceAmt>1621</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>1548</CostOrOtherBasisAmt>
+          <GainOrLossAmt>73</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>73</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>13. TEXAS INSTRUMENTS INC</PropertyDesc>
+          <AcquiredDt>2018-12-11</AcquiredDt>
+          <SoldDt>2025-07-08</SoldDt>
+          <GrossSalesPriceAmt>2828</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>1245</CostOrOtherBasisAmt>
+          <GainOrLossAmt>1583</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>1583</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>6. TE CONNECTIVITY PLC</PropertyDesc>
+          <AcquiredDt>2024-06-26</AcquiredDt>
+          <SoldDt>2025-07-08</SoldDt>
+          <GrossSalesPriceAmt>1036</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>886</CostOrOtherBasisAmt>
+          <GainOrLossAmt>150</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>150</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>2000. AMN EXPRESS CO 1.65% 2026 GLB</PropertyDesc>
+          <AcquiredDt>2024-01-05</AcquiredDt>
+          <SoldDt>2025-07-09</SoldDt>
+          <GrossSalesPriceAmt>1932</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>1834</CostOrOtherBasisAmt>
+          <GainOrLossAmt>98</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>98</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>2000. AMGEN INC GLB</PropertyDesc>
+          <AcquiredDt>2023-02-13</AcquiredDt>
+          <SoldDt>2025-07-09</SoldDt>
+          <GrossSalesPriceAmt>1826</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>1713</CostOrOtherBasisAmt>
+          <GainOrLossAmt>113</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>113</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>3000. CVS HEALTH CORP GLB</PropertyDesc>
+          <AcquiredDt>2023-02-13</AcquiredDt>
+          <SoldDt>2025-07-09</SoldDt>
+          <GrossSalesPriceAmt>2980</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>2907</CostOrOtherBasisAmt>
+          <GainOrLossAmt>73</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>73</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>2000. JOHN DEERE CAPITAL CORP SER MTN</PropertyDesc>
+          <AcquiredDt>2023-02-13</AcquiredDt>
+          <SoldDt>2025-07-09</SoldDt>
+          <GrossSalesPriceAmt>2027</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>2009</CostOrOtherBasisAmt>
+          <GainOrLossAmt>18</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>18</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>15000. FHLMC SD 8242 03%2052</PropertyDesc>
+          <AcquiredDt>2024-01-11</AcquiredDt>
+          <SoldDt>2025-07-09</SoldDt>
+          <GrossSalesPriceAmt>10951</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>10951</CostOrOtherBasisAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>2000. IQVIA INC GLB</PropertyDesc>
+          <AcquiredDt>2024-03-14</AcquiredDt>
+          <SoldDt>2025-07-09</SoldDt>
+          <GrossSalesPriceAmt>2091</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>2051</CostOrOtherBasisAmt>
+          <GainOrLossAmt>40</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>40</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>3000. L3HARRIS TECH INC GLB</PropertyDesc>
+          <AcquiredDt>2023-11-09</AcquiredDt>
+          <SoldDt>2025-07-09</SoldDt>
+          <GrossSalesPriceAmt>3042</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>2972</CostOrOtherBasisAmt>
+          <GainOrLossAmt>70</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>70</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>5125. LOOMIS SAYLES SECURITIZE ASSETS FD CL INSTL</PropertyDesc>
+          <AcquiredDt>2018-01-23</AcquiredDt>
+          <SoldDt>2025-07-09</SoldDt>
+          <GrossSalesPriceAmt>39873</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>50891</CostOrOtherBasisAmt>
+          <GainOrLossAmt>-11018</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>-11018</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>885. LOOMIS SAYLES HI INCOME OPPORTUNITIES FD CL INST</PropertyDesc>
+          <AcquiredDt>2024-01-05</AcquiredDt>
+          <SoldDt>2025-07-09</SoldDt>
+          <GrossSalesPriceAmt>7992</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>7611</CostOrOtherBasisAmt>
+          <GainOrLossAmt>381</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>381</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>2000. LOWE'S COS INC GLB</PropertyDesc>
+          <AcquiredDt>2023-02-13</AcquiredDt>
+          <SoldDt>2025-07-09</SoldDt>
+          <GrossSalesPriceAmt>1794</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>1686</CostOrOtherBasisAmt>
+          <GainOrLossAmt>108</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>108</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>2000. METLIFE INC GLB</PropertyDesc>
+          <AcquiredDt>2023-09-28</AcquiredDt>
+          <SoldDt>2025-07-09</SoldDt>
+          <GrossSalesPriceAmt>2071</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>1926</CostOrOtherBasisAmt>
+          <GainOrLossAmt>145</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>145</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>2000. MICRON TECHNOLOGY 6.75% 29</PropertyDesc>
+          <AcquiredDt>2023-01-12</AcquiredDt>
+          <SoldDt>2025-07-09</SoldDt>
+          <GrossSalesPriceAmt>2150</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>2068</CostOrOtherBasisAmt>
+          <GainOrLossAmt>82</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>82</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>2000. MONDELEZ INTL 2.75% 2030 GLB</PropertyDesc>
+          <AcquiredDt>2024-01-05</AcquiredDt>
+          <SoldDt>2025-07-09</SoldDt>
+          <GrossSalesPriceAmt>1848</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>1794</CostOrOtherBasisAmt>
+          <GainOrLossAmt>54</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>54</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>3000. MORGAN STANLEY</PropertyDesc>
+          <AcquiredDt>2023-02-13</AcquiredDt>
+          <SoldDt>2025-07-09</SoldDt>
+          <GrossSalesPriceAmt>2999</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>2962</CostOrOtherBasisAmt>
+          <GainOrLossAmt>37</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>37</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>1000. MORGAN STANLEY</PropertyDesc>
+          <AcquiredDt>2024-01-05</AcquiredDt>
+          <SoldDt>2025-07-09</SoldDt>
+          <GrossSalesPriceAmt>1000</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>990</CostOrOtherBasisAmt>
+          <GainOrLossAmt>10</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>10</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>2000. PHILIP MORRIS INTL INC GLB</PropertyDesc>
+          <AcquiredDt>2024-01-05</AcquiredDt>
+          <SoldDt>2025-07-09</SoldDt>
+          <GrossSalesPriceAmt>2050</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>2012</CostOrOtherBasisAmt>
+          <GainOrLossAmt>38</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>38</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>2000. SYNCHRONY FINANCIAL GLB</PropertyDesc>
+          <AcquiredDt>2022-09-23</AcquiredDt>
+          <SoldDt>2025-07-09</SoldDt>
+          <GrossSalesPriceAmt>1966</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>1769</CostOrOtherBasisAmt>
+          <GainOrLossAmt>197</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>197</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>14000. MORGAN STANLEY</PropertyDesc>
+          <AcquiredDt>2024-01-05</AcquiredDt>
+          <SoldDt>2025-07-17</SoldDt>
+          <GrossSalesPriceAmt>14000</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>13854</CostOrOtherBasisAmt>
+          <GainOrLossAmt>146</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>146</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>7.05 GNM PMA7988M 03%2052</PropertyDesc>
+          <SoldDt>2025-07-21</SoldDt>
+          <GrossSalesPriceAmt>7</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>7</CostOrOtherBasisAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>147.08 GNM PMA8098M 03%2052</PropertyDesc>
+          <SoldDt>2025-07-21</SoldDt>
+          <GrossSalesPriceAmt>147</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>147</CostOrOtherBasisAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>10000. AES CORP/THE 2.45%JAN15 31 GLB</PropertyDesc>
+          <AcquiredDt>2025-02-06</AcquiredDt>
+          <SoldDt>2025-07-24</SoldDt>
+          <GrossSalesPriceAmt>8897</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>8427</CostOrOtherBasisAmt>
+          <GainOrLossAmt>470</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>470</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>116.03 FHLMC SD 6706 04 50%2054</PropertyDesc>
+          <SoldDt>2025-07-25</SoldDt>
+          <GrossSalesPriceAmt>116</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>116</CostOrOtherBasisAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>88.31 FHLMC SD 8189 02 50%2052</PropertyDesc>
+          <SoldDt>2025-07-25</SoldDt>
+          <GrossSalesPriceAmt>88</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>88</CostOrOtherBasisAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>156.42 FHLMC SD 8211 02%2052</PropertyDesc>
+          <SoldDt>2025-07-25</SoldDt>
+          <GrossSalesPriceAmt>156</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>156</CostOrOtherBasisAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>141.04 FHLMC SD 8242 03%2052</PropertyDesc>
+          <SoldDt>2025-07-25</SoldDt>
+          <GrossSalesPriceAmt>141</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>141</CostOrOtherBasisAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>168.09 FNMA PCB4371 03 50%2052</PropertyDesc>
+          <SoldDt>2025-07-25</SoldDt>
+          <GrossSalesPriceAmt>168</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>168</CostOrOtherBasisAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>96.75 FNMA PMA4598 02 50%2052</PropertyDesc>
+          <SoldDt>2025-07-25</SoldDt>
+          <GrossSalesPriceAmt>97</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>97</CostOrOtherBasisAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>13. AIR PRODUCTS &amp; CHEMICALS INC</PropertyDesc>
+          <AcquiredDt>2020-02-11</AcquiredDt>
+          <SoldDt>2025-08-05</SoldDt>
+          <GrossSalesPriceAmt>3768</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>3292</CostOrOtherBasisAmt>
+          <GainOrLossAmt>476</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>476</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>6. AIR PRODUCTS &amp; CHEMICALS INC</PropertyDesc>
+          <AcquiredDt>2020-02-12</AcquiredDt>
+          <SoldDt>2025-08-05</SoldDt>
+          <GrossSalesPriceAmt>1739</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>1523</CostOrOtherBasisAmt>
+          <GainOrLossAmt>216</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>216</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>70. ALTRIA GROUP INC</PropertyDesc>
+          <AcquiredDt>2020-03-13</AcquiredDt>
+          <SoldDt>2025-08-05</SoldDt>
+          <GrossSalesPriceAmt>4370</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>2720</CostOrOtherBasisAmt>
+          <GainOrLossAmt>1650</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>1650</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>30. APPLE INC</PropertyDesc>
+          <AcquiredDt>2018-02-27</AcquiredDt>
+          <SoldDt>2025-08-05</SoldDt>
+          <GrossSalesPriceAmt>6124</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>1346</CostOrOtherBasisAmt>
+          <GainOrLossAmt>4778</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>4778</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>5. BERKSHIRE HATHAWAYINC DEL CL B NEW</PropertyDesc>
+          <AcquiredDt>2019-09-05</AcquiredDt>
+          <SoldDt>2025-08-05</SoldDt>
+          <GrossSalesPriceAmt>2315</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>1023</CostOrOtherBasisAmt>
+          <GainOrLossAmt>1292</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>1292</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>7. BERKSHIRE HATHAWAYINC DEL CL B NEW</PropertyDesc>
+          <AcquiredDt>2019-09-06</AcquiredDt>
+          <SoldDt>2025-08-05</SoldDt>
+          <GrossSalesPriceAmt>3241</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>1433</CostOrOtherBasisAmt>
+          <GainOrLossAmt>1808</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>1808</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>5. BLACKROCK INC REG SHS</PropertyDesc>
+          <AcquiredDt>2015-06-04</AcquiredDt>
+          <SoldDt>2025-08-05</SoldDt>
+          <GrossSalesPriceAmt>5528</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>1809</CostOrOtherBasisAmt>
+          <GainOrLossAmt>3719</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>3719</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>13. CHEVRON CORP</PropertyDesc>
+          <AcquiredDt>2015-10-28</AcquiredDt>
+          <SoldDt>2025-08-05</SoldDt>
+          <GrossSalesPriceAmt>1952</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>1167</CostOrOtherBasisAmt>
+          <GainOrLossAmt>785</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>785</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>25. CINCINNATI FINL CORP</PropertyDesc>
+          <AcquiredDt>2015-06-04</AcquiredDt>
+          <SoldDt>2025-08-05</SoldDt>
+          <GrossSalesPriceAmt>3745</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>1273</CostOrOtherBasisAmt>
+          <GainOrLossAmt>2472</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>2472</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>62. CISCO SYSTEMS INCORPORATED</PropertyDesc>
+          <AcquiredDt>2015-06-04</AcquiredDt>
+          <SoldDt>2025-08-05</SoldDt>
+          <GrossSalesPriceAmt>4211</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>1800</CostOrOtherBasisAmt>
+          <GainOrLossAmt>2411</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>2411</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>94. CORNING INC</PropertyDesc>
+          <AcquiredDt>2025-01-28</AcquiredDt>
+          <SoldDt>2025-08-05</SoldDt>
+          <GrossSalesPriceAmt>5977</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>4777</CostOrOtherBasisAmt>
+          <GainOrLossAmt>1200</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>1200</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>5. CORNING INC</PropertyDesc>
+          <AcquiredDt>2025-01-27</AcquiredDt>
+          <SoldDt>2025-08-05</SoldDt>
+          <GrossSalesPriceAmt>318</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>248</CostOrOtherBasisAmt>
+          <GainOrLossAmt>70</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>70</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>24. DIAGEO SPONSORED ADR (UK-USD) SEDOL #2133896</PropertyDesc>
+          <AcquiredDt>2016-07-07</AcquiredDt>
+          <SoldDt>2025-08-05</SoldDt>
+          <GrossSalesPriceAmt>2443</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>2729</CostOrOtherBasisAmt>
+          <GainOrLossAmt>-286</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>-286</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>85. DOMINION ENERGY INC COM</PropertyDesc>
+          <AcquiredDt>2024-01-05</AcquiredDt>
+          <SoldDt>2025-08-05</SoldDt>
+          <GrossSalesPriceAmt>5200</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>4133</CostOrOtherBasisAmt>
+          <GainOrLossAmt>1067</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>1067</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>85. FASTENAL CO COM</PropertyDesc>
+          <AcquiredDt>2018-11-19</AcquiredDt>
+          <SoldDt>2025-08-05</SoldDt>
+          <GrossSalesPriceAmt>3859</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>1227</CostOrOtherBasisAmt>
+          <GainOrLossAmt>2632</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>2632</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>21. JOHNSON &amp; JOHNSON</PropertyDesc>
+          <AcquiredDt>2018-08-02</AcquiredDt>
+          <SoldDt>2025-08-05</SoldDt>
+          <GrossSalesPriceAmt>3588</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>2783</CostOrOtherBasisAmt>
+          <GainOrLossAmt>805</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>805</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>22. LOWES COMPANIES INC</PropertyDesc>
+          <AcquiredDt>2015-06-04</AcquiredDt>
+          <SoldDt>2025-08-05</SoldDt>
+          <GrossSalesPriceAmt>5186</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>1549</CostOrOtherBasisAmt>
+          <GainOrLossAmt>3637</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>3637</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>12. MICROSOFT CORPORATION</PropertyDesc>
+          <AcquiredDt>2015-06-04</AcquiredDt>
+          <SoldDt>2025-08-05</SoldDt>
+          <GrossSalesPriceAmt>6399</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>563</CostOrOtherBasisAmt>
+          <GainOrLossAmt>5836</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>5836</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>2. NESTLE S A SPONSORED ADR</PropertyDesc>
+          <AcquiredDt>2018-12-11</AcquiredDt>
+          <SoldDt>2025-08-05</SoldDt>
+          <GrossSalesPriceAmt>178</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>180</CostOrOtherBasisAmt>
+          <GainOrLossAmt>-2</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>-2</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>25. NESTLE S A SPONSORED ADR</PropertyDesc>
+          <AcquiredDt>2018-11-29</AcquiredDt>
+          <SoldDt>2025-08-05</SoldDt>
+          <GrossSalesPriceAmt>2231</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>2139</CostOrOtherBasisAmt>
+          <GainOrLossAmt>92</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>92</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>1. NESTLE S A SPONSORED ADR</PropertyDesc>
+          <AcquiredDt>2018-12-11</AcquiredDt>
+          <SoldDt>2025-08-05</SoldDt>
+          <GrossSalesPriceAmt>89</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>91</CostOrOtherBasisAmt>
+          <GainOrLossAmt>-2</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>-2</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>332. NINTENDO LTD ADR</PropertyDesc>
+          <AcquiredDt>2024-01-05</AcquiredDt>
+          <SoldDt>2025-08-05</SoldDt>
+          <GrossSalesPriceAmt>7528</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>4170</CostOrOtherBasisAmt>
+          <GainOrLossAmt>3358</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>3358</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>22. NORFOLK SOUTHERN CORP</PropertyDesc>
+          <AcquiredDt>2015-09-14</AcquiredDt>
+          <SoldDt>2025-08-05</SoldDt>
+          <GrossSalesPriceAmt>6110</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>1738</CostOrOtherBasisAmt>
+          <GainOrLossAmt>4372</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>4372</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>8. NORTHROP GRUMMAN CORP</PropertyDesc>
+          <AcquiredDt>2023-09-28</AcquiredDt>
+          <SoldDt>2025-08-05</SoldDt>
+          <GrossSalesPriceAmt>4717</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>3524</CostOrOtherBasisAmt>
+          <GainOrLossAmt>1193</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>1193</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>30. PAYCHEX INC</PropertyDesc>
+          <AcquiredDt>2015-06-04</AcquiredDt>
+          <SoldDt>2025-08-05</SoldDt>
+          <GrossSalesPriceAmt>4180</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>1469</CostOrOtherBasisAmt>
+          <GainOrLossAmt>2711</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>2711</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>44. PHILIP MORRIS INTL INC</PropertyDesc>
+          <AcquiredDt>2020-04-29</AcquiredDt>
+          <SoldDt>2025-08-05</SoldDt>
+          <GrossSalesPriceAmt>7246</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>3397</CostOrOtherBasisAmt>
+          <GainOrLossAmt>3849</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>3849</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>28. PROGRESSIVE CORP OHIO COM</PropertyDesc>
+          <AcquiredDt>2021-07-06</AcquiredDt>
+          <SoldDt>2025-08-05</SoldDt>
+          <GrossSalesPriceAmt>6808</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>2739</CostOrOtherBasisAmt>
+          <GainOrLossAmt>4069</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>4069</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>65. SCHWAB CHARLES CORP NEW COM</PropertyDesc>
+          <AcquiredDt>2023-03-15</AcquiredDt>
+          <SoldDt>2025-08-05</SoldDt>
+          <GrossSalesPriceAmt>6262</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>3874</CostOrOtherBasisAmt>
+          <GainOrLossAmt>2388</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>2388</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>24. STARBUCKS CORP COM</PropertyDesc>
+          <AcquiredDt>2022-03-30</AcquiredDt>
+          <SoldDt>2025-08-05</SoldDt>
+          <GrossSalesPriceAmt>2161</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>2185</CostOrOtherBasisAmt>
+          <GainOrLossAmt>-24</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>-24</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>26. TEXAS INSTRUMENTS INC</PropertyDesc>
+          <AcquiredDt>2018-12-11</AcquiredDt>
+          <SoldDt>2025-08-05</SoldDt>
+          <GrossSalesPriceAmt>4799</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>2490</CostOrOtherBasisAmt>
+          <GainOrLossAmt>2309</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>2309</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>7. TE CONNECTIVITY PLC</PropertyDesc>
+          <AcquiredDt>2024-06-27</AcquiredDt>
+          <SoldDt>2025-08-05</SoldDt>
+          <GrossSalesPriceAmt>1412</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>1039</CostOrOtherBasisAmt>
+          <GainOrLossAmt>373</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>373</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>14. TE CONNECTIVITY PLC</PropertyDesc>
+          <AcquiredDt>2024-06-26</AcquiredDt>
+          <SoldDt>2025-08-05</SoldDt>
+          <GrossSalesPriceAmt>2824</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>2068</CostOrOtherBasisAmt>
+          <GainOrLossAmt>756</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>756</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>10. CHUBB LTD</PropertyDesc>
+          <AcquiredDt>2025-05-29</AcquiredDt>
+          <SoldDt>2025-08-05</SoldDt>
+          <GrossSalesPriceAmt>2681</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>2924</CostOrOtherBasisAmt>
+          <GainOrLossAmt>-243</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>-243</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>6000. NISOURCE INC 0.95%AUG15 25 GLB</PropertyDesc>
+          <AcquiredDt>2023-02-13</AcquiredDt>
+          <SoldDt>2025-08-15</SoldDt>
+          <GrossSalesPriceAmt>6000</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>5441</CostOrOtherBasisAmt>
+          <GainOrLossAmt>559</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>559</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>3000. NISOURCE INC 0.95%AUG15 25 GLB</PropertyDesc>
+          <AcquiredDt>2024-05-01</AcquiredDt>
+          <SoldDt>2025-08-15</SoldDt>
+          <GrossSalesPriceAmt>3000</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>2826</CostOrOtherBasisAmt>
+          <GainOrLossAmt>174</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>174</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>1000. STARBUCKS CORP 3.80% 2025 GLB</PropertyDesc>
+          <AcquiredDt>2019-04-09</AcquiredDt>
+          <SoldDt>2025-08-15</SoldDt>
+          <GrossSalesPriceAmt>1000</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>1000</CostOrOtherBasisAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>7000. STARBUCKS CORP 3.80% 2025 GLB</PropertyDesc>
+          <AcquiredDt>2024-01-05</AcquiredDt>
+          <SoldDt>2025-08-15</SoldDt>
+          <GrossSalesPriceAmt>7000</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>6866</CostOrOtherBasisAmt>
+          <GainOrLossAmt>134</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>134</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>6.69 GNM PMA7988M 03%2052</PropertyDesc>
+          <SoldDt>2025-08-20</SoldDt>
+          <GrossSalesPriceAmt>7</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>7</CostOrOtherBasisAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>140.21 GNM PMA8098M 03%2052</PropertyDesc>
+          <SoldDt>2025-08-20</SoldDt>
+          <GrossSalesPriceAmt>140</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>140</CostOrOtherBasisAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>121.94 FHLMC SD 6706 04 50%2054</PropertyDesc>
+          <SoldDt>2025-08-25</SoldDt>
+          <GrossSalesPriceAmt>122</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>122</CostOrOtherBasisAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>92.34 FHLMC SD 8189 02 50%2052</PropertyDesc>
+          <SoldDt>2025-08-25</SoldDt>
+          <GrossSalesPriceAmt>92</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>92</CostOrOtherBasisAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>101.35 FHLMC SD 8211 02%2052</PropertyDesc>
+          <SoldDt>2025-08-25</SoldDt>
+          <GrossSalesPriceAmt>101</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>101</CostOrOtherBasisAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>109.58 FHLMC SD 8242 03%2052</PropertyDesc>
+          <SoldDt>2025-08-25</SoldDt>
+          <GrossSalesPriceAmt>110</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>110</CostOrOtherBasisAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>267.94 FNMA PCB4371 03 50%2052</PropertyDesc>
+          <SoldDt>2025-08-25</SoldDt>
+          <GrossSalesPriceAmt>268</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>268</CostOrOtherBasisAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>91.48 FNMA PMA4598 02 50%2052</PropertyDesc>
+          <SoldDt>2025-08-25</SoldDt>
+          <GrossSalesPriceAmt>91</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>91</CostOrOtherBasisAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>9000. SIMON PROPERTY GROUP LP GLB</PropertyDesc>
+          <AcquiredDt>2024-01-05</AcquiredDt>
+          <SoldDt>2025-09-02</SoldDt>
+          <GrossSalesPriceAmt>9000</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>8798</CostOrOtherBasisAmt>
+          <GainOrLossAmt>202</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>202</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>5000. ENTERGY CORP 0.90%SEP15 25 GLB</PropertyDesc>
+          <AcquiredDt>2023-02-13</AcquiredDt>
+          <SoldDt>2025-09-15</SoldDt>
+          <GrossSalesPriceAmt>5000</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>4482</CostOrOtherBasisAmt>
+          <GainOrLossAmt>518</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>518</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>5000. ENTERGY CORP 0.90%SEP15 25 GLB</PropertyDesc>
+          <AcquiredDt>2024-01-05</AcquiredDt>
+          <SoldDt>2025-09-15</SoldDt>
+          <GrossSalesPriceAmt>5000</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>4657</CostOrOtherBasisAmt>
+          <GainOrLossAmt>343</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>343</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>6.72 GNM PMA7988M 03%2052</PropertyDesc>
+          <SoldDt>2025-09-22</SoldDt>
+          <GrossSalesPriceAmt>7</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>7</CostOrOtherBasisAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>174.46 GNM PMA8098M 03%2052</PropertyDesc>
+          <SoldDt>2025-09-22</SoldDt>
+          <GrossSalesPriceAmt>174</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>174</CostOrOtherBasisAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>36. DIAGEO SPONSORED ADR (UK-USD) SEDOL #2133896</PropertyDesc>
+          <AcquiredDt>2016-07-07</AcquiredDt>
+          <SoldDt>2025-09-23</SoldDt>
+          <GrossSalesPriceAmt>3467</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>4093</CostOrOtherBasisAmt>
+          <GainOrLossAmt>-626</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>-626</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>32. DIAGEO SPONSORED ADR (UK-USD) SEDOL #2133896</PropertyDesc>
+          <AcquiredDt>2016-07-08</AcquiredDt>
+          <SoldDt>2025-09-23</SoldDt>
+          <GrossSalesPriceAmt>3081</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>3605</CostOrOtherBasisAmt>
+          <GainOrLossAmt>-524</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>-524</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>90. FIDELITY NATL INFORMATION SVCS INC COM</PropertyDesc>
+          <AcquiredDt>2024-01-05</AcquiredDt>
+          <SoldDt>2025-09-23</SoldDt>
+          <GrossSalesPriceAmt>5725</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>5543</CostOrOtherBasisAmt>
+          <GainOrLossAmt>182</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>182</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>14. NESTLE S A SPONSORED ADR</PropertyDesc>
+          <AcquiredDt>2018-12-11</AcquiredDt>
+          <SoldDt>2025-09-23</SoldDt>
+          <GrossSalesPriceAmt>1265</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>1258</CostOrOtherBasisAmt>
+          <GainOrLossAmt>7</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>7</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>48. NESTLE S A SPONSORED ADR</PropertyDesc>
+          <AcquiredDt>2018-12-11</AcquiredDt>
+          <SoldDt>2025-09-23</SoldDt>
+          <GrossSalesPriceAmt>4336</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>4099</CostOrOtherBasisAmt>
+          <GainOrLossAmt>237</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>237</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>3. DIAGEO SPONSORED ADR (UK-USD) SEDOL #2133896</PropertyDesc>
+          <AcquiredDt>2016-07-12</AcquiredDt>
+          <SoldDt>2025-09-24</SoldDt>
+          <GrossSalesPriceAmt>286</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>342</CostOrOtherBasisAmt>
+          <GainOrLossAmt>-56</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>-56</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>90. DIAGEO SPONSORED ADR (UK-USD) SEDOL #2133896</PropertyDesc>
+          <AcquiredDt>2016-07-11</AcquiredDt>
+          <SoldDt>2025-09-24</SoldDt>
+          <GrossSalesPriceAmt>8583</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>10204</CostOrOtherBasisAmt>
+          <GainOrLossAmt>-1621</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>-1621</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>13. DIAGEO SPONSORED ADR (UK-USD) SEDOL #2133896</PropertyDesc>
+          <AcquiredDt>2016-07-08</AcquiredDt>
+          <SoldDt>2025-09-24</SoldDt>
+          <GrossSalesPriceAmt>1240</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>1465</CostOrOtherBasisAmt>
+          <GainOrLossAmt>-225</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>-225</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>247. FIDELITY NATL INFORMATION SVCS INC COM</PropertyDesc>
+          <AcquiredDt>2024-01-05</AcquiredDt>
+          <SoldDt>2025-09-24</SoldDt>
+          <GrossSalesPriceAmt>15811</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>15213</CostOrOtherBasisAmt>
+          <GainOrLossAmt>598</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>598</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>140. NESTLE S A SPONSORED ADR</PropertyDesc>
+          <AcquiredDt>2018-12-11</AcquiredDt>
+          <SoldDt>2025-09-24</SoldDt>
+          <GrossSalesPriceAmt>12548</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>11956</CostOrOtherBasisAmt>
+          <GainOrLossAmt>592</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>592</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>30. DIAGEO SPONSORED ADR (UK-USD) SEDOL #2133896</PropertyDesc>
+          <AcquiredDt>2020-10-01</AcquiredDt>
+          <SoldDt>2025-09-25</SoldDt>
+          <GrossSalesPriceAmt>2836</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>4147</CostOrOtherBasisAmt>
+          <GainOrLossAmt>-1311</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>-1311</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>12. DIAGEO SPONSORED ADR (UK-USD) SEDOL #2133896</PropertyDesc>
+          <AcquiredDt>2020-10-02</AcquiredDt>
+          <SoldDt>2025-09-25</SoldDt>
+          <GrossSalesPriceAmt>1134</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>1664</CostOrOtherBasisAmt>
+          <GainOrLossAmt>-530</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>-530</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>10. DIAGEO SPONSORED ADR (UK-USD) SEDOL #2133896</PropertyDesc>
+          <AcquiredDt>2020-10-05</AcquiredDt>
+          <SoldDt>2025-09-25</SoldDt>
+          <GrossSalesPriceAmt>945</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>1401</CostOrOtherBasisAmt>
+          <GainOrLossAmt>-456</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>-456</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>8. DIAGEO SPONSORED ADR (UK-USD) SEDOL #2133896</PropertyDesc>
+          <AcquiredDt>2020-10-06</AcquiredDt>
+          <SoldDt>2025-09-25</SoldDt>
+          <GrossSalesPriceAmt>756</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>1114</CostOrOtherBasisAmt>
+          <GainOrLossAmt>-358</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>-358</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>24. DIAGEO SPONSORED ADR (UK-USD) SEDOL #2133896</PropertyDesc>
+          <AcquiredDt>2016-07-12</AcquiredDt>
+          <SoldDt>2025-09-25</SoldDt>
+          <GrossSalesPriceAmt>2269</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>2738</CostOrOtherBasisAmt>
+          <GainOrLossAmt>-469</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>-469</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>29. DIAGEO SPONSORED ADR (UK-USD) SEDOL #2133896</PropertyDesc>
+          <AcquiredDt>2016-07-13</AcquiredDt>
+          <SoldDt>2025-09-25</SoldDt>
+          <GrossSalesPriceAmt>2741</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>3295</CostOrOtherBasisAmt>
+          <GainOrLossAmt>-554</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>-554</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>102.18 FHLMC SD 6706 04 50%2054</PropertyDesc>
+          <SoldDt>2025-09-25</SoldDt>
+          <GrossSalesPriceAmt>102</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>102</CostOrOtherBasisAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>89.35 FHLMC SD 8189 02 50%2052</PropertyDesc>
+          <SoldDt>2025-09-25</SoldDt>
+          <GrossSalesPriceAmt>89</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>89</CostOrOtherBasisAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>46.14 FHLMC SD 8177 02%2051</PropertyDesc>
+          <SoldDt>2025-09-25</SoldDt>
+          <GrossSalesPriceAmt>46</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>46</CostOrOtherBasisAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>165.41 FHLMC SD 8211 02%2052</PropertyDesc>
+          <SoldDt>2025-09-25</SoldDt>
+          <GrossSalesPriceAmt>165</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>165</CostOrOtherBasisAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>98. FHLMC SD 8242 03%2052</PropertyDesc>
+          <SoldDt>2025-09-25</SoldDt>
+          <GrossSalesPriceAmt>98</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>98</CostOrOtherBasisAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>95.37 FNMA PCB4371 03 50%2052</PropertyDesc>
+          <SoldDt>2025-09-25</SoldDt>
+          <GrossSalesPriceAmt>95</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>95</CostOrOtherBasisAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>84.78 FNMA PMA4598 02 50%2052</PropertyDesc>
+          <SoldDt>2025-09-25</SoldDt>
+          <GrossSalesPriceAmt>85</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>85</CostOrOtherBasisAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>91. FIDELITY NATL INFORMATION SVCS INC COM</PropertyDesc>
+          <AcquiredDt>2024-01-05</AcquiredDt>
+          <SoldDt>2025-09-25</SoldDt>
+          <GrossSalesPriceAmt>5819</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>5605</CostOrOtherBasisAmt>
+          <GainOrLossAmt>214</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>214</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>69. NESTLE S A SPONSORED ADR</PropertyDesc>
+          <AcquiredDt>2020-03-16</AcquiredDt>
+          <SoldDt>2025-09-25</SoldDt>
+          <GrossSalesPriceAmt>6144</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>6390</CostOrOtherBasisAmt>
+          <GainOrLossAmt>-246</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>-246</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>81. NESTLE S A SPONSORED ADR</PropertyDesc>
+          <AcquiredDt>2024-04-09</AcquiredDt>
+          <SoldDt>2025-09-25</SoldDt>
+          <GrossSalesPriceAmt>7213</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>8395</CostOrOtherBasisAmt>
+          <GainOrLossAmt>-1182</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>-1182</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>17. NESTLE S A SPONSORED ADR</PropertyDesc>
+          <AcquiredDt>2018-12-11</AcquiredDt>
+          <SoldDt>2025-09-25</SoldDt>
+          <GrossSalesPriceAmt>1514</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>1452</CostOrOtherBasisAmt>
+          <GainOrLossAmt>62</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>62</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>15. NESTLE S A SPONSORED ADR</PropertyDesc>
+          <AcquiredDt>2020-03-13</AcquiredDt>
+          <SoldDt>2025-09-25</SoldDt>
+          <GrossSalesPriceAmt>1336</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>1438</CostOrOtherBasisAmt>
+          <GainOrLossAmt>-102</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>-102</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>300. FIDELITY NATL INFORMATION SVCS INC COM</PropertyDesc>
+          <AcquiredDt>2024-01-05</AcquiredDt>
+          <SoldDt>2025-09-26</SoldDt>
+          <GrossSalesPriceAmt>19254</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>18477</CostOrOtherBasisAmt>
+          <GainOrLossAmt>777</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>777</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>127. FIDELITY NATL INFORMATION SVCS INC COM</PropertyDesc>
+          <AcquiredDt>2024-01-05</AcquiredDt>
+          <SoldDt>2025-09-29</SoldDt>
+          <GrossSalesPriceAmt>8257</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>7822</CostOrOtherBasisAmt>
+          <GainOrLossAmt>435</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>435</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>6.04 GNM PMA7988M 03%2052</PropertyDesc>
+          <SoldDt>2025-10-20</SoldDt>
+          <GrossSalesPriceAmt>6</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>6</CostOrOtherBasisAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>133.22 GNM PMA8098M 03%2052</PropertyDesc>
+          <SoldDt>2025-10-20</SoldDt>
+          <GrossSalesPriceAmt>133</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>133</CostOrOtherBasisAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>8000. BROADCOM CRP / C 3.87% 27 COMPANY GUARNT GLB</PropertyDesc>
+          <AcquiredDt>2022-12-15</AcquiredDt>
+          <SoldDt>2025-10-23</SoldDt>
+          <GrossSalesPriceAmt>8002</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>7648</CostOrOtherBasisAmt>
+          <GainOrLossAmt>354</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>354</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>3000. MICRON TECHNOLOGY 6.75% 29</PropertyDesc>
+          <AcquiredDt>2023-02-13</AcquiredDt>
+          <SoldDt>2025-10-24</SoldDt>
+          <GrossSalesPriceAmt>3301</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>3084</CostOrOtherBasisAmt>
+          <GainOrLossAmt>217</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>217</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>4000. MICRON TECHNOLOGY 6.75% 29</PropertyDesc>
+          <AcquiredDt>2023-01-12</AcquiredDt>
+          <SoldDt>2025-10-24</SoldDt>
+          <GrossSalesPriceAmt>4402</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>4129</CostOrOtherBasisAmt>
+          <GainOrLossAmt>273</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>273</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>117.31 FHLMC SD 6706 04 50%2054</PropertyDesc>
+          <SoldDt>2025-10-27</SoldDt>
+          <GrossSalesPriceAmt>117</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>117</CostOrOtherBasisAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>73.54 FHLMC SD 8189 02 50%2052</PropertyDesc>
+          <SoldDt>2025-10-27</SoldDt>
+          <GrossSalesPriceAmt>74</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>74</CostOrOtherBasisAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>42.3 FHLMC SD 8177 02%2051</PropertyDesc>
+          <SoldDt>2025-10-27</SoldDt>
+          <GrossSalesPriceAmt>42</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>42</CostOrOtherBasisAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>116.9 FHLMC SD 8211 02%2052</PropertyDesc>
+          <SoldDt>2025-10-27</SoldDt>
+          <GrossSalesPriceAmt>117</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>117</CostOrOtherBasisAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>82.4 FHLMC SD 8242 03%2052</PropertyDesc>
+          <SoldDt>2025-10-27</SoldDt>
+          <GrossSalesPriceAmt>82</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>82</CostOrOtherBasisAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>111.47 FNMA PCB4371 03 50%2052</PropertyDesc>
+          <SoldDt>2025-10-27</SoldDt>
+          <GrossSalesPriceAmt>111</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>111</CostOrOtherBasisAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>65.33 FNMA PMA4598 02 50%2052</PropertyDesc>
+          <SoldDt>2025-10-27</SoldDt>
+          <GrossSalesPriceAmt>65</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>65</CostOrOtherBasisAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>5000. SHELL INTERNATIONAL FIN 6.375% DUE 12/15/38</PropertyDesc>
+          <AcquiredDt>2024-01-05</AcquiredDt>
+          <SoldDt>2025-11-04</SoldDt>
+          <GrossSalesPriceAmt>5612</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>5592</CostOrOtherBasisAmt>
+          <GainOrLossAmt>20</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>20</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>1000. SHELL INTERNATIONAL FIN 6.375% DUE 12/15/38</PropertyDesc>
+          <AcquiredDt>2023-02-13</AcquiredDt>
+          <SoldDt>2025-11-04</SoldDt>
+          <GrossSalesPriceAmt>1122</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>1121</CostOrOtherBasisAmt>
+          <GainOrLossAmt>1</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>1</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>1000. ASTRAZENECA PLC 3.37% 2025</PropertyDesc>
+          <AcquiredDt>2018-07-10</AcquiredDt>
+          <SoldDt>2025-11-17</SoldDt>
+          <GrossSalesPriceAmt>1000</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>968</CostOrOtherBasisAmt>
+          <GainOrLossAmt>32</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>32</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>7000. ASTRAZENECA PLC 3.37% 2025</PropertyDesc>
+          <AcquiredDt>2024-01-05</AcquiredDt>
+          <SoldDt>2025-11-17</SoldDt>
+          <GrossSalesPriceAmt>7000</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>6842</CostOrOtherBasisAmt>
+          <GainOrLossAmt>158</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>158</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>6.42 GNM PMA7988M 03%2052</PropertyDesc>
+          <SoldDt>2025-11-20</SoldDt>
+          <GrossSalesPriceAmt>6</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>6</CostOrOtherBasisAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>117.14 GNM PMA8098M 03%2052</PropertyDesc>
+          <SoldDt>2025-11-20</SoldDt>
+          <GrossSalesPriceAmt>117</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>117</CostOrOtherBasisAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>128.26 FHLMC SD 6706 04 50%2054</PropertyDesc>
+          <SoldDt>2025-11-25</SoldDt>
+          <GrossSalesPriceAmt>128</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>128</CostOrOtherBasisAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>76.83 FHLMC SD 8189 02 50%2052</PropertyDesc>
+          <SoldDt>2025-11-25</SoldDt>
+          <GrossSalesPriceAmt>77</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>77</CostOrOtherBasisAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>41.83 FHLMC SD 8177 02%2051</PropertyDesc>
+          <SoldDt>2025-11-25</SoldDt>
+          <GrossSalesPriceAmt>42</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>42</CostOrOtherBasisAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>127.75 FHLMC SD 8211 02%2052</PropertyDesc>
+          <SoldDt>2025-11-25</SoldDt>
+          <GrossSalesPriceAmt>128</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>128</CostOrOtherBasisAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>63.68 FHLMC SD 8242 03%2052</PropertyDesc>
+          <SoldDt>2025-11-25</SoldDt>
+          <GrossSalesPriceAmt>64</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>64</CostOrOtherBasisAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>152.91 FNMA PCB4371 03 50%2052</PropertyDesc>
+          <SoldDt>2025-11-25</SoldDt>
+          <GrossSalesPriceAmt>153</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>153</CostOrOtherBasisAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>81.4 FNMA PMA4598 02 50%2052</PropertyDesc>
+          <SoldDt>2025-11-25</SoldDt>
+          <GrossSalesPriceAmt>81</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>81</CostOrOtherBasisAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>10000. GOLDMAN SACHS GROUP CLD SER VAR GLB</PropertyDesc>
+          <AcquiredDt>2024-01-05</AcquiredDt>
+          <SoldDt>2025-12-09</SoldDt>
+          <GrossSalesPriceAmt>10000</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>9211</CostOrOtherBasisAmt>
+          <GainOrLossAmt>789</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>789</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>1670. LOOMIS SAYLES SECURITIZE ASSETS FD CL INSTL</PropertyDesc>
+          <AcquiredDt>2018-01-23</AcquiredDt>
+          <SoldDt>2025-12-17</SoldDt>
+          <GrossSalesPriceAmt>13193</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>16583</CostOrOtherBasisAmt>
+          <GainOrLossAmt>-3390</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>-3390</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>3000. US TSY 3.125% NOV 15 2041 3.125% NOV 15 2041</PropertyDesc>
+          <AcquiredDt>2024-01-05</AcquiredDt>
+          <SoldDt>2025-12-17</SoldDt>
+          <GrossSalesPriceAmt>2482</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>2560</CostOrOtherBasisAmt>
+          <GainOrLossAmt>-78</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>-78</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>2000. US TSY 4.250% FEB 15 2054 4.250% FEB 15 2054</PropertyDesc>
+          <AcquiredDt>2024-04-08</AcquiredDt>
+          <SoldDt>2025-12-17</SoldDt>
+          <GrossSalesPriceAmt>1816</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>1902</CostOrOtherBasisAmt>
+          <GainOrLossAmt>-86</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>-86</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>5.49 GNM PMA7988M 03%2052</PropertyDesc>
+          <SoldDt>2025-12-22</SoldDt>
+          <GrossSalesPriceAmt>5</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>5</CostOrOtherBasisAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>98.47 GNM PMA8098M 03%2052</PropertyDesc>
+          <SoldDt>2025-12-22</SoldDt>
+          <GrossSalesPriceAmt>98</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>98</CostOrOtherBasisAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>82.92 FHLMC SD 6706 04 50%2054</PropertyDesc>
+          <SoldDt>2025-12-26</SoldDt>
+          <GrossSalesPriceAmt>83</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>83</CostOrOtherBasisAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>78.7 FHLMC SD 8189 02 50%2052</PropertyDesc>
+          <SoldDt>2025-12-26</SoldDt>
+          <GrossSalesPriceAmt>79</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>79</CostOrOtherBasisAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>37.65 FHLMC SD 8177 02%2051</PropertyDesc>
+          <SoldDt>2025-12-26</SoldDt>
+          <GrossSalesPriceAmt>38</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>38</CostOrOtherBasisAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>102.97 FHLMC SD 8211 02%2052</PropertyDesc>
+          <SoldDt>2025-12-26</SoldDt>
+          <GrossSalesPriceAmt>103</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>103</CostOrOtherBasisAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>89.24 FHLMC SD 8242 03%2052</PropertyDesc>
+          <SoldDt>2025-12-26</SoldDt>
+          <GrossSalesPriceAmt>89</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>89</CostOrOtherBasisAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>192.32 FNMA PCB4371 03 50%2052</PropertyDesc>
+          <SoldDt>2025-12-26</SoldDt>
+          <GrossSalesPriceAmt>192</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>192</CostOrOtherBasisAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>89.06 FNMA PMA4598 02 50%2052</PropertyDesc>
+          <SoldDt>2025-12-26</SoldDt>
+          <GrossSalesPriceAmt>89</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>89</CostOrOtherBasisAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>6000. EXPRESS SCRIPTS H 4.50% 26</PropertyDesc>
+          <AcquiredDt>2024-01-05</AcquiredDt>
+          <SoldDt>2025-12-31</SoldDt>
+          <GrossSalesPriceAmt>6000</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>5934</CostOrOtherBasisAmt>
+          <GainOrLossAmt>66</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>66</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapitalGainNetIncomeAmt>101111</CapitalGainNetIncomeAmt>
+      </CapGainsLossTxInvstIncmDetail>
+      <ExciseTaxBasedOnInvstIncmGrp>
+        <InvestmentIncomeExciseTaxAmt>2897</InvestmentIncomeExciseTaxAmt>
+        <TaxUnderSection511Amt>0</TaxUnderSection511Amt>
+        <SubtotalAmt>2897</SubtotalAmt>
+        <SubtitleATaxAmt>0</SubtitleATaxAmt>
+        <TaxBasedOnInvestmentIncomeAmt>2897</TaxBasedOnInvestmentIncomeAmt>
+        <EstimatedPlusOvpmtIncmTxAmt>1964</EstimatedPlusOvpmtIncmTxAmt>
+        <ExemptFrgnOrgTaxWthldAtSrceAmt>0</ExemptFrgnOrgTaxWthldAtSrceAmt>
+        <ExtsnRequestIncomeTaxPaidAmt>0</ExtsnRequestIncomeTaxPaidAmt>
+        <TotalPaymentsAndCreditsAmt>1964</TotalPaymentsAndCreditsAmt>
+        <EsPenaltyAmt>0</EsPenaltyAmt>
+        <TaxDueAmt>933</TaxDueAmt>
+        <AppliedToESTaxAmt>0</AppliedToESTaxAmt>
+        <RefundAmt>0</RefundAmt>
+      </ExciseTaxBasedOnInvstIncmGrp>
+      <StatementsRegardingActyGrp>
+        <LegislativePoliticalActyInd>false</LegislativePoliticalActyInd>
+        <MoreThan100SpentInd>false</MoreThan100SpentInd>
+        <Form1120POLFiledInd>false</Form1120POLFiledInd>
+        <ActivitiesNotPreviouslyRptInd>false</ActivitiesNotPreviouslyRptInd>
+        <ChangesToArticlesOrBylawsInd>false</ChangesToArticlesOrBylawsInd>
+        <UnrelatedBusIncmOverLimitInd>false</UnrelatedBusIncmOverLimitInd>
+        <OrganizationDissolvedEtcInd>false</OrganizationDissolvedEtcInd>
+        <Section508eRqrSatisfiedInd>true</Section508eRqrSatisfiedInd>
+        <AtLeast5000InAssetsInd>true</AtLeast5000InAssetsInd>
+        <OrgReportOrRegisterStateCd>CA</OrgReportOrRegisterStateCd>
+        <Form990PFFiledWithAttyGenInd>true</Form990PFFiledWithAttyGenInd>
+        <PrivateOperatingFoundationInd>false</PrivateOperatingFoundationInd>
+        <NewSubstantialContributorsInd>false</NewSubstantialContributorsInd>
+        <OwnControlledEntityInd>false</OwnControlledEntityInd>
+        <DonorAdvisedFundInd>false</DonorAdvisedFundInd>
+        <ComplyWithPublicInspRqrInd>true</ComplyWithPublicInspRqrInd>
+        <PersonsWithBooksName>
+          <BusinessNameLine1Txt>BANK OF AMERICA NA</BusinessNameLine1Txt>
+        </PersonsWithBooksName>
+        <PhoneNum>8888663275</PhoneNum>
+        <LocationOfBooksUSAddress>
+          <AddressLine1Txt>PO BOX 1532 AFT</AddressLine1Txt>
+          <CityNm>PENNINGTON</CityNm>
+          <StateAbbreviationCd>NJ</StateAbbreviationCd>
+          <ZIPCd>08534</ZIPCd>
+        </LocationOfBooksUSAddress>
+        <ForeignAccountsQuestionInd>false</ForeignAccountsQuestionInd>
+      </StatementsRegardingActyGrp>
+      <StatementsRegardingActy4720Grp>
+        <SaleOrExchDisqualifiedPrsnInd>false</SaleOrExchDisqualifiedPrsnInd>
+        <BrrwOrLendDisqualifiedPrsnInd>false</BrrwOrLendDisqualifiedPrsnInd>
+        <FurnGoodsDisqualifiedPrsnInd>false</FurnGoodsDisqualifiedPrsnInd>
+        <PayCompDisqualifiedPrsnInd>false</PayCompDisqualifiedPrsnInd>
+        <TransferAstDisqualifiedPrsnInd>false</TransferAstDisqualifiedPrsnInd>
+        <PaymentToGovernmentOfficialInd>false</PaymentToGovernmentOfficialInd>
+        <UncorrectedPriorActsInd>false</UncorrectedPriorActsInd>
+        <UndistributedIncomePYInd>false</UndistributedIncomePYInd>
+        <BusinessHoldingsInd>false</BusinessHoldingsInd>
+        <JeopardyInvestmentsInd>false</JeopardyInvestmentsInd>
+        <UncorrectedPYJeopardyInvstInd>false</UncorrectedPYJeopardyInvstInd>
+        <InfluenceLegislationInd>false</InfluenceLegislationInd>
+        <InfluenceElectionInd>false</InfluenceElectionInd>
+        <GrantsToIndividualsInd>false</GrantsToIndividualsInd>
+        <GrantsToOrganizationsInd>false</GrantsToOrganizationsInd>
+        <NoncharitablePurposeInd>false</NoncharitablePurposeInd>
+        <RcvFndsToPayPrsnlBnftCntrctInd>false</RcvFndsToPayPrsnlBnftCntrctInd>
+        <PayPremiumsPrsnlBnftCntrctInd>false</PayPremiumsPrsnlBnftCntrctInd>
+        <ProhibitedTaxShelterTransInd>false</ProhibitedTaxShelterTransInd>
+        <SubjToTaxRmnrtnExPrchtPymtInd>false</SubjToTaxRmnrtnExPrchtPymtInd>
+      </StatementsRegardingActy4720Grp>
+      <OfficerDirTrstKeyEmplInfoGrp>
+        <OfficerDirTrstKeyEmplGrp>
+          <PersonNm>JULIE PETERSON</PersonNm>
+          <USAddress>
+            <AddressLine1Txt>355 WEST ROAD</AddressLine1Txt>
+            <CityNm>ARBUCKLE</CityNm>
+            <StateAbbreviationCd>CA</StateAbbreviationCd>
+            <ZIPCd>95912</ZIPCd>
+          </USAddress>
+          <TitleTxt>PRESIDENT</TitleTxt>
+          <AverageHrsPerWkDevotedToPosRt>1</AverageHrsPerWkDevotedToPosRt>
+          <CompensationAmt>0</CompensationAmt>
+        </OfficerDirTrstKeyEmplGrp>
+        <OfficerDirTrstKeyEmplGrp>
+          <PersonNm>SAMOAN BARIS</PersonNm>
+          <USAddress>
+            <AddressLine1Txt>12011 SAN VICENTE BLVD 310</AddressLine1Txt>
+            <CityNm>LOS ANGELES</CityNm>
+            <StateAbbreviationCd>CA</StateAbbreviationCd>
+            <ZIPCd>90048</ZIPCd>
+          </USAddress>
+          <TitleTxt>DIRECTOR</TitleTxt>
+          <AverageHrsPerWkDevotedToPosRt>1</AverageHrsPerWkDevotedToPosRt>
+          <CompensationAmt>0</CompensationAmt>
+        </OfficerDirTrstKeyEmplGrp>
+        <OfficerDirTrstKeyEmplGrp>
+          <PersonNm>CHESTER VALLALBA</PersonNm>
+          <USAddress>
+            <AddressLine1Txt>2110 SIXTH STREET</AddressLine1Txt>
+            <CityNm>BERKELEY</CityNm>
+            <StateAbbreviationCd>CA</StateAbbreviationCd>
+            <ZIPCd>94710</ZIPCd>
+          </USAddress>
+          <TitleTxt>CFO</TitleTxt>
+          <AverageHrsPerWkDevotedToPosRt>1</AverageHrsPerWkDevotedToPosRt>
+          <CompensationAmt>0</CompensationAmt>
+        </OfficerDirTrstKeyEmplGrp>
+        <OfficerDirTrstKeyEmplGrp>
+          <PersonNm>CAROLYN JACOBS</PersonNm>
+          <USAddress>
+            <AddressLine1Txt>103 LILLY HALL</AddressLine1Txt>
+            <CityNm>NORTH HAMPTON</CityNm>
+            <StateAbbreviationCd>MA</StateAbbreviationCd>
+            <ZIPCd>01063</ZIPCd>
+          </USAddress>
+          <TitleTxt>DIRECTOR</TitleTxt>
+          <AverageHrsPerWkDevotedToPosRt>1</AverageHrsPerWkDevotedToPosRt>
+          <CompensationAmt>0</CompensationAmt>
+        </OfficerDirTrstKeyEmplGrp>
+        <CompOfHghstPdEmplOrNONETxt>NONE</CompOfHghstPdEmplOrNONETxt>
+        <OtherEmployeePaidOver50kCnt>0</OtherEmployeePaidOver50kCnt>
+        <CompOfHghstPdCntrctOrNONETxt>NONE</CompOfHghstPdCntrctOrNONETxt>
+        <ContractorPaidOver50kCnt>0</ContractorPaidOver50kCnt>
+      </OfficerDirTrstKeyEmplInfoGrp>
+      <SummaryOfDirectChrtblActyGrp />
+      <SumOfProgramRelatedInvstGrp />
+      <MinimumInvestmentReturnGrp>
+        <AverageMonthlyFMVOfSecAmt>3776323</AverageMonthlyFMVOfSecAmt>
+        <AverageMonthlyCashBalancesAmt>122241</AverageMonthlyCashBalancesAmt>
+        <FMVAllOtherNoncharitableAstAmt>0</FMVAllOtherNoncharitableAstAmt>
+        <TotalFMVOfUnusedAssetsAmt>3898564</TotalFMVOfUnusedAssetsAmt>
+        <ReductionClaimedAmt>0</ReductionClaimedAmt>
+        <AcquisitionIndebtednessAmt>0</AcquisitionIndebtednessAmt>
+        <AdjustedTotalFMVOfUnusedAstAmt>3898564</AdjustedTotalFMVOfUnusedAstAmt>
+        <CashDeemedCharitableAmt>58478</CashDeemedCharitableAmt>
+        <NetVlNoncharitableAssetsAmt>3840086</NetVlNoncharitableAssetsAmt>
+        <MinimumInvestmentReturnAmt>192004</MinimumInvestmentReturnAmt>
+      </MinimumInvestmentReturnGrp>
+      <DistributableAmountGrp>
+        <MinimumInvestmentReturnAmt>192004</MinimumInvestmentReturnAmt>
+        <TaxBasedOnInvestmentIncomeAmt>2897</TaxBasedOnInvestmentIncomeAmt>
+        <TotalTaxAmt>2897</TotalTaxAmt>
+        <DistributableBeforeAdjAmt>189107</DistributableBeforeAdjAmt>
+        <RecoveriesQualfiedDistriAmt>0</RecoveriesQualfiedDistriAmt>
+        <DistributableBeforeDedAmt>189107</DistributableBeforeDedAmt>
+        <DeductionFromDistributableAmt>0</DeductionFromDistributableAmt>
+        <DistributableAsAdjustedAmt>189107</DistributableAsAdjustedAmt>
+      </DistributableAmountGrp>
+      <PFQualifyingDistributionsGrp>
+        <ExpensesAndContributionsAmt>203079</ExpensesAndContributionsAmt>
+        <ProgramRelatedInvstTotalAmt>0</ProgramRelatedInvstTotalAmt>
+        <CharitableAssetsAcquisPaidAmt>0</CharitableAssetsAcquisPaidAmt>
+        <SetAsideSuitabilityTestAmt>0</SetAsideSuitabilityTestAmt>
+        <SetAsideCashDistriTestAmt>0</SetAsideCashDistriTestAmt>
+        <QualifyingDistributionsAmt>203079</QualifyingDistributionsAmt>
+      </PFQualifyingDistributionsGrp>
+      <UndistributedIncomeGrp>
+        <DistributableAsAdjustedAmt>189107</DistributableAsAdjustedAmt>
+        <UndistributedIncomePYAmt>0</UndistributedIncomePYAmt>
+        <TotalForPriorYearsAmt>0</TotalForPriorYearsAmt>
+        <ExcessDistributionCyovYr5Amt>27992</ExcessDistributionCyovYr5Amt>
+        <ExcessDistributionCyovYr4Amt>20565</ExcessDistributionCyovYr4Amt>
+        <ExcessDistributionCyovYr3Amt>49983</ExcessDistributionCyovYr3Amt>
+        <ExcessDistributionCyovYr2Amt>21395</ExcessDistributionCyovYr2Amt>
+        <ExcessDistributionCyovYr1Amt>17199</ExcessDistributionCyovYr1Amt>
+        <TotalExcessDistributionCyovAmt>137134</TotalExcessDistributionCyovAmt>
+        <QualifyingDistributionsAmt>203079</QualifyingDistributionsAmt>
+        <AppliedToYear1Amt>0</AppliedToYear1Amt>
+        <AppliedToPriorYearsAmt>0</AppliedToPriorYearsAmt>
+        <TreatedAsDistriFromCorpusAmt>0</TreatedAsDistriFromCorpusAmt>
+        <AppliedToCurrentYearAmt>189107</AppliedToCurrentYearAmt>
+        <RemainingDistriFromCorpusAmt>13972</RemainingDistriFromCorpusAmt>
+        <ExcessDistriCyovAppCYCorpusAmt>0</ExcessDistriCyovAppCYCorpusAmt>
+        <ExcessDistributionCyovAppCYAmt>0</ExcessDistributionCyovAppCYAmt>
+        <TotalCorpusAmt>151106</TotalCorpusAmt>
+        <PriorYearUndistributedIncmAmt>0</PriorYearUndistributedIncmAmt>
+        <PriorYearDeficiencyOrTaxAmt>0</PriorYearDeficiencyOrTaxAmt>
+        <Taxable1Amt>0</Taxable1Amt>
+        <Taxable2Amt>0</Taxable2Amt>
+        <UndistributedIncomeCYAmt>0</UndistributedIncomeCYAmt>
+        <CorpusDistri170b1EOr4942g3Amt>0</CorpusDistri170b1EOr4942g3Amt>
+        <ExcessDistriCyovFromYr5Amt>27992</ExcessDistriCyovFromYr5Amt>
+        <ExcessDistriCyovToNextYrAmt>123114</ExcessDistriCyovToNextYrAmt>
+        <ExcessFromYear4Amt>20565</ExcessFromYear4Amt>
+        <ExcessFromYear3Amt>49983</ExcessFromYear3Amt>
+        <ExcessFromYear2Amt>21395</ExcessFromYear2Amt>
+        <ExcessFromYear1Amt>17199</ExcessFromYear1Amt>
+        <ExcessFromCurrentYearAmt>13972</ExcessFromCurrentYearAmt>
+      </UndistributedIncomeGrp>
+      <SupplementaryInformationGrp>
+        <OnlyContriToPreselectedInd>X</OnlyContriToPreselectedInd>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>SMITH COLLEGE OF SOCIAL WORK</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientUSAddress>
+            <AddressLine1Txt>COLLEGE HALL 204</AddressLine1Txt>
+            <CityNm>NORTHAMPTON</CityNm>
+            <StateAbbreviationCd>MA</StateAbbreviationCd>
+            <ZIPCd>01063</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>N/A</RecipientRelationshipTxt>
+          <RecipientFoundationStatusCd>PC</RecipientFoundationStatusCd>
+          <GrantOrContributionPurposeTxt>UNRESTRICTED GENERAL</GrantOrContributionPurposeTxt>
+          <Amt>74334</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>THE SANVILLE INSTITUTE INC</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientUSAddress>
+            <AddressLine1Txt>2198 SIXTH STREET 101</AddressLine1Txt>
+            <CityNm>BERKELEY</CityNm>
+            <StateAbbreviationCd>CA</StateAbbreviationCd>
+            <ZIPCd>94710</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>N/A</RecipientRelationshipTxt>
+          <RecipientFoundationStatusCd>PC</RecipientFoundationStatusCd>
+          <GrantOrContributionPurposeTxt>UNRESTRICTED GENERAL</GrantOrContributionPurposeTxt>
+          <Amt>74334</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>LA INSTITUTE FOR PSYCHOANALYTIC STUDY</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientUSAddress>
+            <AddressLine1Txt>12011 SAN VICENTE BLVD</AddressLine1Txt>
+            <CityNm>LOS ANGELES</CityNm>
+            <StateAbbreviationCd>CA</StateAbbreviationCd>
+            <ZIPCd>90049</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>N/A</RecipientRelationshipTxt>
+          <RecipientFoundationStatusCd>PC</RecipientFoundationStatusCd>
+          <GrantOrContributionPurposeTxt>UNRESTRICTED GENERAL</GrantOrContributionPurposeTxt>
+          <Amt>37167</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <TotalGrantOrContriPdDurYrAmt>185835</TotalGrantOrContriPdDurYrAmt>
+      </SupplementaryInformationGrp>
+      <AnalysisIncomeProducingActyGrp>
+        <FeesContractsFromGovtAgGrp />
+        <MembershipDuesAndAssmntGrp />
+        <IntOnSavAndTempCashInvstGrp />
+        <DividendsAndInterestFromSecDtl>
+          <ExclusionCd>14</ExclusionCd>
+          <ExclusionAmt>133095</ExclusionAmt>
+        </DividendsAndInterestFromSecDtl>
+        <NetRntlIncmReDebtFincdPropGrp />
+        <NetRntlIncmReNotDebtFincdProp />
+        <NetRentalIncomePersonalPropGrp />
+        <OtherInvestmentIncomeGrp />
+        <GainSalesAstOthThanInvntryGrp>
+          <ExclusionCd>18</ExclusionCd>
+          <ExclusionAmt>101111</ExclusionAmt>
+        </GainSalesAstOthThanInvntryGrp>
+        <NetIncomeLossFromSpecialEvtGrp />
+        <GrossProfitLossSlsOfInvntryGrp />
+        <SubtotalsIncmProducingActyGrp>
+          <ExclusionAmt>234206</ExclusionAmt>
+        </SubtotalsIncmProducingActyGrp>
+        <TotalIncomeProducingActyAmt>234206</TotalIncomeProducingActyAmt>
+      </AnalysisIncomeProducingActyGrp>
+      <RlnOfActyToAccomOfExmptPrpsGrp />
+      <TrnsfrTransRlnNonchrtblEOGrp>
+        <TrnsfrOfCashToNonchrtblEOInd>false</TrnsfrOfCashToNonchrtblEOInd>
+        <TrnsfrOtherAssetNonchrtblEOInd>false</TrnsfrOtherAssetNonchrtblEOInd>
+        <SalesOrExchangesOfAssetsInd>false</SalesOrExchangesOfAssetsInd>
+        <PurchaseOfAssetsNonchrtblEOInd>false</PurchaseOfAssetsNonchrtblEOInd>
+        <RentalOfFacilitiesOthAssetsInd>false</RentalOfFacilitiesOthAssetsInd>
+        <ReimbursementArrangementsInd>false</ReimbursementArrangementsInd>
+        <LoansOrLoanGuaranteesInd>false</LoansOrLoanGuaranteesInd>
+        <PerformanceOfServicesEtcInd>false</PerformanceOfServicesEtcInd>
+        <SharingOfFacilitiesEtcInd>false</SharingOfFacilitiesEtcInd>
+        <RelationshipsNonchrtblEOInd>false</RelationshipsNonchrtblEOInd>
+      </TrnsfrTransRlnNonchrtblEOGrp>
+    </IRS990PF>
+    <AccountingFeesSchedule documentId="AccountingFeesSchedule">
+      <AccountingFeesDetail>
+        <CategoryTxt>TAX PREPARATION FEE</CategoryTxt>
+        <Amt>1250</Amt>
+        <DisbursementsCharitablePrpsAmt>1250</DisbursementsCharitablePrpsAmt>
+      </AccountingFeesDetail>
+    </AccountingFeesSchedule>
+    <InvestmentsCorpBondsSchedule documentId="InvestmentsCorpBondsSchedule">
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>37045XBT2 GENERAL MOTORS FINL</BondNm>
+        <EOYBookValueAmt>7809</EOYBookValueAmt>
+        <EOYFMVAmt>8017</EOYFMVAmt>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>172967KJ9 CITIGROUP INC</BondNm>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>14040HBT1 CAPITAL ONE FINANCIA</BondNm>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>24422ETG4 JOHN DEERE CAPITAL C</BondNm>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>961214DQ3 WESTPAC BANKING CORP</BondNm>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>459200HF1 IBM CORP</BondNm>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>38148YAC2 GOLDMAN SACHS GROUP</BondNm>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>30219GAM0 EXPRESS SCRIPTS HOLD</BondNm>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>126408HE6 CSX CORP GLB</BondNm>
+        <EOYBookValueAmt>7531</EOYBookValueAmt>
+        <EOYFMVAmt>7916</EOYFMVAmt>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>822582AD4 SHELL INTERNATIONAL</BondNm>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>686330AH4 ORIX CORP</BondNm>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>494550BS4 KINDER MORGAN ENER P</BondNm>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>404280AK5 HSBC HOLDINGS PLC</BondNm>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>06367TJX9 BANK OF MONTREAL</BondNm>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>36962G4B7 GENERAL ELEC CAP COR</BondNm>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>20030NBX8 COMCAST CORP</BondNm>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>172967JT9 CITIGROUP INC</BondNm>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>06406HCS6 BANK OF NEW YORK MEL</BondNm>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>928563AB1 VMWARE INC</BondNm>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>92343VCQ5 VERIZON COMMUNICATIO</BondNm>
+        <EOYBookValueAmt>6583</EOYBookValueAmt>
+        <EOYFMVAmt>6754</EOYFMVAmt>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>046353AL2 ASTRAZENECA PLC</BondNm>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>037833AZ3 APPLE INC</BondNm>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>126650CX6 CVS HEALTH CORP GLB</BondNm>
+        <EOYBookValueAmt>5852</EOYBookValueAmt>
+        <EOYFMVAmt>6020</EOYFMVAmt>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>370334CF9 GENERAL MILLS INC</BondNm>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>855244AQ2 STARBUCKS CORP</BondNm>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>26884LAE9 EQT CORP</BondNm>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>29273RBD0 ENERGY TRANSFER PART</BondNm>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>00287YAQ2 ABBVIE INC</BondNm>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>61746BDQ6 MORGAN STANLEY</BondNm>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>913017DB2 UNITED TECHNOLOGIES</BondNm>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>10373QAJ9 BP CAP MARKETS AMERI</BondNm>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>26441CAN5 DUKE ENERGY CORP</BondNm>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>46647PAU0 JPMORGAN CHASE &amp; CO</BondNm>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>05574LFY9 BNP PARIBAS</BondNm>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>581557BJ3 MCKESSON CORP</BondNm>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>92857WBJ8 VODAFONE GROUP PLC</BondNm>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>00206RCN0 AT&amp;T INC</BondNm>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>036752AG8 ANTHEM INC GLB</BondNm>
+        <EOYBookValueAmt>7837</EOYBookValueAmt>
+        <EOYFMVAmt>8008</EOYFMVAmt>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>912810SA7 U.S. TREASURY BOND</BondNm>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>912810RJ9 U.S. TREASURY BOND</BondNm>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>9128284P2 U.S. TREASURY NOTE</BondNm>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>912810QT8 U.S. TREASURY BOND</BondNm>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>912810RM2 U.S. TREASURY BOND</BondNm>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>912810RU4 U.S. TREASURY BOND</BondNm>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>912828QN3 U.S. TREASURY NOTE</BondNm>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>912810QW1 U.S. TREASURY BOND</BondNm>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>912828R77 U.S. TREASURY NOTE</BondNm>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>912828T34 U.S. TREASURY NOTE</BondNm>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>31359MGK3 FEDERAL NATL MTG ASS</BondNm>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>3140GYGZ6 FNMA PBH9215 03 50%</BondNm>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>912810RT7 U.S. TREASURY BOND</BondNm>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>023135BF2 AMAZON.COM INC GLB</BondNm>
+        <EOYBookValueAmt>7264</EOYBookValueAmt>
+        <EOYFMVAmt>7337</EOYFMVAmt>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>02209SBB8 ALTRIA GROUP INC</BondNm>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>10112RAY0 BOSTON PROPERTIES LP</BondNm>
+        <EOYBookValueAmt>8308</EOYBookValueAmt>
+        <EOYFMVAmt>8906</EOYFMVAmt>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>10922NAC7 BRIGHTHOUSE FINANCIA</BondNm>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>21685WDD6 USD RABOBANK UTRECHT</BondNm>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>912828G38 U.S. TREASURY NOTE</BondNm>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>23291KAG0 DH EUROPE FINANCE II</BondNm>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>25152R5F6 USD DEUTSCHE BANK AG</BondNm>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>86787EBE6 SUNTRUST BANK</BondNm>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>912810SF6 U.S. TREASURY BOND</BondNm>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>9128286B1 U.S. TREASURY NOTE</BondNm>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>80282KAW6 SANTANDER HOLDINGS U</BondNm>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>927804FU3 VIRGINIA ELEC &amp; POWE</BondNm>
+        <EOYBookValueAmt>7738</EOYBookValueAmt>
+        <EOYFMVAmt>7996</EOYFMVAmt>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>94974BGH7 WELLS FARGO &amp; COMPAN</BondNm>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>437076BN1 HOME DEPOT INC</BondNm>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>883556BN1 THERMO FISHER SCIENT</BondNm>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>92556HAA5 VIACOMCBS INC</BondNm>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>04686JAA9 ATHENE HOLDINGS LTD</BondNm>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>30161NAX9 EXELON CORP GLB</BondNm>
+        <EOYBookValueAmt>8496</EOYBookValueAmt>
+        <EOYFMVAmt>8911</EOYFMVAmt>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>30231GBH4 EXXON MOBIL CORPORAT</BondNm>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>025816BS7 AMERICAN EXPRESS CO</BondNm>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>67066GAF1 NVIDIA CORP GLB</BondNm>
+        <EOYBookValueAmt>8166</EOYBookValueAmt>
+        <EOYFMVAmt>8598</EOYFMVAmt>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>65473PAK1 NISOURCE INC</BondNm>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>961214EH2 WESTPAC BANKING CORP</BondNm>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>191216CU2 COCA-COLA CO/THE</BondNm>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>10373QBJ8 BP CAP MARKETS AMERI</BondNm>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>29364GAM5 ENTERGY CORP</BondNm>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>609207AT2 MONDELEZ INTERNATION</BondNm>
+        <EOYBookValueAmt>3588</EOYBookValueAmt>
+        <EOYFMVAmt>3766</EOYFMVAmt>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>65339KBR0 NEXTERA ENERGY CAPIT</BondNm>
+        <EOYBookValueAmt>7558</EOYBookValueAmt>
+        <EOYFMVAmt>8277</EOYFMVAmt>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>45866FAL8 INTERCONTINENTALEXCH</BondNm>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>912810SN9 U.S. TREASURY BOND</BondNm>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>912828YS3 U.S. TREASURY NOTE</BondNm>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>912810SP4 U.S. TREASURY BOND</BondNm>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>00206RHJ4 AT&amp;T INC GLB</BondNm>
+        <EOYBookValueAmt>7793</EOYBookValueAmt>
+        <EOYFMVAmt>8042</EOYFMVAmt>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>912810TC2 U.S. TREASURY BOND</BondNm>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>097023CT0 BOEING CO</BondNm>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>87264ABD6 T-MOBILE USA INC COM</BondNm>
+        <EOYBookValueAmt>8681</EOYBookValueAmt>
+        <EOYFMVAmt>8972</EOYFMVAmt>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>931142EV1 WALMART INC</BondNm>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>299808AJ4 EVEREST REINSURANCE</BondNm>
+        <EOYBookValueAmt>6173</EOYBookValueAmt>
+        <EOYFMVAmt>6337</EOYFMVAmt>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>548661EA1 LOWE'S COS INC GLB</BondNm>
+        <EOYBookValueAmt>6897</EOYBookValueAmt>
+        <EOYFMVAmt>7339</EOYFMVAmt>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>031162CU2 AMGEN INC GLB</BondNm>
+        <EOYBookValueAmt>7042</EOYBookValueAmt>
+        <EOYFMVAmt>7461</EOYFMVAmt>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>38141GXM1 GOLDMAN SACHS GROUP</BondNm>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>91282CCS8 U.S. TREASURY NOTE</BondNm>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>31418DZV7 FNMA PMA4355 02%</BondNm>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>31418D3G5 FNMA PMA4398 02%</BondNm>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>828807CV7 SIMON PROPERTY GROUP</BondNm>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>89114TZG0 TORONTO-DOMINION BAN</BondNm>
+        <EOYBookValueAmt>9101</EOYBookValueAmt>
+        <EOYFMVAmt>9823</EOYFMVAmt>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>20030NCU3 COMCAST CORP COMPANY</BondNm>
+        <EOYBookValueAmt>7781</EOYBookValueAmt>
+        <EOYFMVAmt>8003</EOYFMVAmt>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>912810SS8 U.S. TREASURY BOND</BondNm>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>02209SBL6 ALTRIA GROUP INC COM</BondNm>
+        <EOYBookValueAmt>7965</EOYBookValueAmt>
+        <EOYFMVAmt>8843</EOYFMVAmt>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>025816CM9 AMERICAN EXPRESS CO</BondNm>
+        <EOYBookValueAmt>7335</EOYBookValueAmt>
+        <EOYFMVAmt>7855</EOYFMVAmt>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>438127AB8 HONDA MOTOR CO LTD -</BondNm>
+        <EOYBookValueAmt>9353</EOYBookValueAmt>
+        <EOYFMVAmt>9834</EOYFMVAmt>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>713448FM5 PEPSICO INC</BondNm>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>89236TJZ9 TOYOTA MOTOR CREDIT</BondNm>
+        <EOYBookValueAmt>8552</EOYBookValueAmt>
+        <EOYFMVAmt>8922</EOYFMVAmt>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>11134LAH2 BROADCOM CRP / CAYM</BondNm>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>38141GYM0 GOLDMAN SACHS GROUP</BondNm>
+        <EOYBookValueAmt>9092</EOYBookValueAmt>
+        <EOYFMVAmt>9831</EOYFMVAmt>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>961214FG3 WESTPAC BANKING CORP</BondNm>
+        <EOYBookValueAmt>9261</EOYBookValueAmt>
+        <EOYFMVAmt>10327</EOYFMVAmt>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>89788NAA8 TRUIST FINANCIAL COR</BondNm>
+        <EOYBookValueAmt>8279</EOYBookValueAmt>
+        <EOYFMVAmt>9051</EOYFMVAmt>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>00914AAJ1 AIR LEASE CORP</BondNm>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>87165BAM5 SYNCHRONY FINANCIAL</BondNm>
+        <EOYBookValueAmt>7149</EOYBookValueAmt>
+        <EOYFMVAmt>7962</EOYFMVAmt>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>49271VAP5 KEURIG DR PEPPER INC</BondNm>
+        <EOYBookValueAmt>7558</EOYBookValueAmt>
+        <EOYFMVAmt>7909</EOYFMVAmt>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>61747YET8 MORGAN STANLEY</BondNm>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>78016EZD2 ROYAL BANK OF CANADA</BondNm>
+        <EOYBookValueAmt>8631</EOYBookValueAmt>
+        <EOYFMVAmt>8990</EOYFMVAmt>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>446150BB9 HUNTINGTON BANCSHARE</BondNm>
+        <EOYBookValueAmt>7696</EOYBookValueAmt>
+        <EOYFMVAmt>8044</EOYFMVAmt>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>91159HJC5 US BANCORP</BondNm>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>17327CAR4 CITIGROUP INC</BondNm>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>24422EWR6 JOHN DEERE CAPITAL C</BondNm>
+        <EOYBookValueAmt>7039</EOYBookValueAmt>
+        <EOYFMVAmt>7134</EOYFMVAmt>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>24703DBL4 DELL INT LLC / EMC C</BondNm>
+        <EOYBookValueAmt>7899</EOYBookValueAmt>
+        <EOYFMVAmt>8429</EOYFMVAmt>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>345370DA5 FORD MOTOR COMPANY G</BondNm>
+        <EOYBookValueAmt>9003</EOYBookValueAmt>
+        <EOYFMVAmt>9693</EOYFMVAmt>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>502431AP4 L3HARRIS TECH INC GL</BondNm>
+        <EOYBookValueAmt>5943</EOYBookValueAmt>
+        <EOYFMVAmt>6087</EOYFMVAmt>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>55903VBB8 WARNERMEDIA HOLDINGS</BondNm>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>59156RCE6 METLIFE INC GLB</BondNm>
+        <EOYBookValueAmt>6741</EOYBookValueAmt>
+        <EOYFMVAmt>7378</EOYFMVAmt>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>595112BV4 MICRON TECHNOLOGY IN</BondNm>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>716973AC6 PFIZER INVESTMENT EN</BondNm>
+        <EOYBookValueAmt>17373</EOYBookValueAmt>
+        <EOYFMVAmt>18239</EOYFMVAmt>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>883556DA7 THERMO FISHER SCIENT</BondNm>
+        <EOYBookValueAmt>7043</EOYBookValueAmt>
+        <EOYFMVAmt>7206</EOYFMVAmt>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>40434LAB1 HP INC GLB</BondNm>
+        <EOYBookValueAmt>8483</EOYBookValueAmt>
+        <EOYFMVAmt>8861</EOYFMVAmt>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>444859CA8 HUMANA INC GLB</BondNm>
+        <EOYBookValueAmt>7934</EOYBookValueAmt>
+        <EOYFMVAmt>8271</EOYFMVAmt>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>46266TAF5 IQVIA INC GLB</BondNm>
+        <EOYBookValueAmt>7126</EOYBookValueAmt>
+        <EOYFMVAmt>7379</EOYFMVAmt>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>46647PBX3 JPMORGAN CHASE &amp; CO</BondNm>
+        <EOYBookValueAmt>18128</EOYBookValueAmt>
+        <EOYFMVAmt>19617</EOYFMVAmt>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>47233WEJ4 JEFFERIES FIN GROUP</BondNm>
+        <EOYBookValueAmt>8961</EOYBookValueAmt>
+        <EOYFMVAmt>9499</EOYFMVAmt>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>494553AD2 KINDER MORGAN INC CO</BondNm>
+        <EOYBookValueAmt>7956</EOYBookValueAmt>
+        <EOYFMVAmt>8185</EOYFMVAmt>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>50249AAM5 LYB INT FINANCE III</BondNm>
+        <EOYBookValueAmt>8899</EOYBookValueAmt>
+        <EOYFMVAmt>8896</EOYFMVAmt>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>718172DA4 PHILIP MORRIS INTL I</BondNm>
+        <EOYBookValueAmt>7039</EOYBookValueAmt>
+        <EOYFMVAmt>7236</EOYFMVAmt>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>95000U2G7 WELLS FARGO &amp; COMPAN</BondNm>
+        <EOYBookValueAmt>17735</EOYBookValueAmt>
+        <EOYFMVAmt>18075</EOYFMVAmt>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>00287YDZ9 ABBVIE INC GLB</BondNm>
+        <EOYBookValueAmt>8019</EOYBookValueAmt>
+        <EOYFMVAmt>8243</EOYFMVAmt>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>30303MAE2 META PLATFORMS INC S</BondNm>
+        <EOYBookValueAmt>9972</EOYBookValueAmt>
+        <EOYFMVAmt>9598</EOYFMVAmt>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>04010LBF9 ARES CAPITAL CORP GL</BondNm>
+        <EOYBookValueAmt>8134</EOYBookValueAmt>
+        <EOYFMVAmt>8207</EOYFMVAmt>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>37940XAB8 GLOBAL PAYMENTS INC</BondNm>
+        <EOYBookValueAmt>8502</EOYBookValueAmt>
+        <EOYFMVAmt>8582</EOYFMVAmt>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>68389XCE3 ORACLE CORP GLB</BondNm>
+        <EOYBookValueAmt>9120</EOYBookValueAmt>
+        <EOYFMVAmt>8986</EOYFMVAmt>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>55903VBY8 WARNERMEDIA HOLDINGS</BondNm>
+        <EOYFMVAmt>9678</EOYFMVAmt>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>6174468X0 MORGAN STANLEY SER M</BondNm>
+        <EOYBookValueAmt>15492</EOYBookValueAmt>
+        <EOYFMVAmt>15792</EOYFMVAmt>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>22822VAT8 CROWN CASTLE INTL CO</BondNm>
+        <EOYBookValueAmt>8515</EOYBookValueAmt>
+        <EOYFMVAmt>8932</EOYFMVAmt>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>29273VAQ3 ENERGY TRANSFER LP G</BondNm>
+        <EOYBookValueAmt>8020</EOYBookValueAmt>
+        <EOYFMVAmt>8395</EOYFMVAmt>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>09062XAH6 BIOGEN INC GLB</BondNm>
+        <EOYBookValueAmt>9046</EOYBookValueAmt>
+        <EOYFMVAmt>9186</EOYFMVAmt>
+      </InvestmentsCorporateBondsGrp>
+    </InvestmentsCorpBondsSchedule>
+    <InvestmentsCorpStockSchedule documentId="InvestmentsCorpStockSchedule">
+      <InvestmentsCorporateStockGrp>
+        <StockNm>91324P102 UNITEDHEALTH GROUP I</StockNm>
+        <EOYBookValueAmt>61791</EOYBookValueAmt>
+        <EOYFMVAmt>58760</EOYFMVAmt>
+      </InvestmentsCorporateStockGrp>
+      <InvestmentsCorporateStockGrp>
+        <StockNm>22822V101 CROWN CASTLE INC SHS</StockNm>
+        <EOYBookValueAmt>37707</EOYBookValueAmt>
+        <EOYFMVAmt>34126</EOYFMVAmt>
+      </InvestmentsCorporateStockGrp>
+      <InvestmentsCorporateStockGrp>
+        <StockNm>219350105 CORNING INC</StockNm>
+        <EOYBookValueAmt>71403</EOYBookValueAmt>
+        <EOYFMVAmt>123460</EOYFMVAmt>
+      </InvestmentsCorporateStockGrp>
+      <InvestmentsCorporateStockGrp>
+        <StockNm>311900104 FASTENAL COMPANY</StockNm>
+        <EOYBookValueAmt>21406</EOYBookValueAmt>
+        <EOYFMVAmt>55179</EOYFMVAmt>
+      </InvestmentsCorporateStockGrp>
+      <InvestmentsCorporateStockGrp>
+        <StockNm>G87052109 TE CONNECTIVITY PLC</StockNm>
+        <EOYBookValueAmt>52100</EOYBookValueAmt>
+        <EOYFMVAmt>80311</EOYFMVAmt>
+      </InvestmentsCorporateStockGrp>
+      <InvestmentsCorporateStockGrp>
+        <StockNm>02209S103 ALTRIA GROUP INC</StockNm>
+        <EOYBookValueAmt>32468</EOYBookValueAmt>
+        <EOYFMVAmt>46705</EOYFMVAmt>
+      </InvestmentsCorporateStockGrp>
+      <InvestmentsCorporateStockGrp>
+        <StockNm>594918104 MICROSOFT CORP</StockNm>
+        <EOYBookValueAmt>9348</EOYBookValueAmt>
+        <EOYFMVAmt>78346</EOYFMVAmt>
+      </InvestmentsCorporateStockGrp>
+      <InvestmentsCorporateStockGrp>
+        <StockNm>17275R102 CISCO SYSTEMS INC</StockNm>
+        <EOYBookValueAmt>27630</EOYBookValueAmt>
+        <EOYFMVAmt>70868</EOYFMVAmt>
+      </InvestmentsCorporateStockGrp>
+      <InvestmentsCorporateStockGrp>
+        <StockNm>037833100 APPLE INC</StockNm>
+        <EOYBookValueAmt>24809</EOYBookValueAmt>
+        <EOYFMVAmt>120978</EOYFMVAmt>
+      </InvestmentsCorporateStockGrp>
+      <InvestmentsCorporateStockGrp>
+        <StockNm>882508104 TEXAS INSTRUMENTS</StockNm>
+        <EOYBookValueAmt>46907</EOYBookValueAmt>
+        <EOYFMVAmt>70610</EOYFMVAmt>
+      </InvestmentsCorporateStockGrp>
+      <InvestmentsCorporateStockGrp>
+        <StockNm>172062101 CINN FINCL CRP OHIO</StockNm>
+        <EOYBookValueAmt>15938</EOYBookValueAmt>
+        <EOYFMVAmt>51119</EOYFMVAmt>
+      </InvestmentsCorporateStockGrp>
+      <InvestmentsCorporateStockGrp>
+        <StockNm>666807102 NORTHROP GRUMMAN COR</StockNm>
+        <EOYBookValueAmt>46689</EOYBookValueAmt>
+        <EOYFMVAmt>60442</EOYFMVAmt>
+      </InvestmentsCorporateStockGrp>
+      <InvestmentsCorporateStockGrp>
+        <StockNm>084670702 BERKSHIRE HATHAWAYIN</StockNm>
+        <EOYBookValueAmt>31838</EOYBookValueAmt>
+        <EOYFMVAmt>79419</EOYFMVAmt>
+      </InvestmentsCorporateStockGrp>
+      <InvestmentsCorporateStockGrp>
+        <StockNm>855244109 STARBUCKS CORP</StockNm>
+        <EOYBookValueAmt>53650</EOYBookValueAmt>
+        <EOYFMVAmt>49515</EOYFMVAmt>
+      </InvestmentsCorporateStockGrp>
+      <InvestmentsCorporateStockGrp>
+        <StockNm>718172109 PHILIP MORRIS INTL I</StockNm>
+        <EOYBookValueAmt>51466</EOYBookValueAmt>
+        <EOYFMVAmt>93032</EOYFMVAmt>
+      </InvestmentsCorporateStockGrp>
+      <InvestmentsCorporateStockGrp>
+        <StockNm>478160104 JOHNSON AND JOHNSON</StockNm>
+        <EOYBookValueAmt>55132</EOYBookValueAmt>
+        <EOYFMVAmt>81952</EOYFMVAmt>
+      </InvestmentsCorporateStockGrp>
+      <InvestmentsCorporateStockGrp>
+        <StockNm>704326107 PAYCHEX INC</StockNm>
+        <EOYBookValueAmt>21475</EOYBookValueAmt>
+        <EOYFMVAmt>45657</EOYFMVAmt>
+      </InvestmentsCorporateStockGrp>
+      <InvestmentsCorporateStockGrp>
+        <StockNm>808513105 SCHWAB CHARLES CORP</StockNm>
+        <EOYBookValueAmt>47637</EOYBookValueAmt>
+        <EOYFMVAmt>87321</EOYFMVAmt>
+      </InvestmentsCorporateStockGrp>
+      <InvestmentsCorporateStockGrp>
+        <StockNm>231021106 CUMMINS INC</StockNm>
+        <EOYBookValueAmt>64122</EOYBookValueAmt>
+        <EOYFMVAmt>78099</EOYFMVAmt>
+      </InvestmentsCorporateStockGrp>
+      <InvestmentsCorporateStockGrp>
+        <StockNm>654445303 NINTENDO LTD</StockNm>
+        <EOYBookValueAmt>55417</EOYBookValueAmt>
+        <EOYFMVAmt>71807</EOYFMVAmt>
+      </InvestmentsCorporateStockGrp>
+      <InvestmentsCorporateStockGrp>
+        <StockNm>009158106 AIR PRODUCTS&amp;CHEM</StockNm>
+        <EOYBookValueAmt>77067</EOYBookValueAmt>
+        <EOYFMVAmt>73118</EOYFMVAmt>
+      </InvestmentsCorporateStockGrp>
+      <InvestmentsCorporateStockGrp>
+        <StockNm>743315103 PROGRESSIVE CRP OHIO</StockNm>
+        <EOYBookValueAmt>32925</EOYBookValueAmt>
+        <EOYFMVAmt>75148</EOYFMVAmt>
+      </InvestmentsCorporateStockGrp>
+      <InvestmentsCorporateStockGrp>
+        <StockNm>H1467J104 CHUBB LTD</StockNm>
+        <EOYBookValueAmt>39765</EOYBookValueAmt>
+        <EOYFMVAmt>41824</EOYFMVAmt>
+      </InvestmentsCorporateStockGrp>
+      <InvestmentsCorporateStockGrp>
+        <StockNm>25746U109 DOMINION ENERGY INC</StockNm>
+        <EOYBookValueAmt>70913</EOYBookValueAmt>
+        <EOYFMVAmt>78452</EOYFMVAmt>
+      </InvestmentsCorporateStockGrp>
+      <InvestmentsCorporateStockGrp>
+        <StockNm>655844108 NORFOLK SOUTHERN COR</StockNm>
+        <EOYBookValueAmt>61276</EOYBookValueAmt>
+        <EOYFMVAmt>107404</EOYFMVAmt>
+      </InvestmentsCorporateStockGrp>
+      <InvestmentsCorporateStockGrp>
+        <StockNm>09290D101 BLACKROCK INC REG SH</StockNm>
+        <EOYBookValueAmt>34887</EOYBookValueAmt>
+        <EOYFMVAmt>95260</EOYFMVAmt>
+      </InvestmentsCorporateStockGrp>
+      <InvestmentsCorporateStockGrp>
+        <StockNm>166764100 CHEVRON CORP</StockNm>
+        <EOYBookValueAmt>50262</EOYBookValueAmt>
+        <EOYFMVAmt>71938</EOYFMVAmt>
+      </InvestmentsCorporateStockGrp>
+      <InvestmentsCorporateStockGrp>
+        <StockNm>548661107 LOWE'S COMPANIES INC</StockNm>
+        <EOYBookValueAmt>27466</EOYBookValueAmt>
+        <EOYFMVAmt>70178</EOYFMVAmt>
+      </InvestmentsCorporateStockGrp>
+      <InvestmentsCorporateStockGrp>
+        <StockNm>949746101 WELLS FARGO &amp; CO NEW</StockNm>
+      </InvestmentsCorporateStockGrp>
+      <InvestmentsCorporateStockGrp>
+        <StockNm>655844108 NORFOLK SOUTHERN COR</StockNm>
+      </InvestmentsCorporateStockGrp>
+      <InvestmentsCorporateStockGrp>
+        <StockNm>25243Q205 DIAGEO PLC SPON ADR</StockNm>
+      </InvestmentsCorporateStockGrp>
+      <InvestmentsCorporateStockGrp>
+        <StockNm>87612E106 TARGET CORP</StockNm>
+      </InvestmentsCorporateStockGrp>
+      <InvestmentsCorporateStockGrp>
+        <StockNm>717081103 PFIZER INC</StockNm>
+      </InvestmentsCorporateStockGrp>
+      <InvestmentsCorporateStockGrp>
+        <StockNm>166764100 CHEVRONTEXACO CORP</StockNm>
+      </InvestmentsCorporateStockGrp>
+      <InvestmentsCorporateStockGrp>
+        <StockNm>594918104 MICROSOFT CORP COM</StockNm>
+      </InvestmentsCorporateStockGrp>
+      <InvestmentsCorporateStockGrp>
+        <StockNm>458140100 INTEL CORPORATION</StockNm>
+      </InvestmentsCorporateStockGrp>
+      <InvestmentsCorporateStockGrp>
+        <StockNm>22822V101 CROWN CASTLE INTERNA</StockNm>
+      </InvestmentsCorporateStockGrp>
+      <InvestmentsCorporateStockGrp>
+        <StockNm>58933Y105 MERCK AND CO INC SHS</StockNm>
+      </InvestmentsCorporateStockGrp>
+      <InvestmentsCorporateStockGrp>
+        <StockNm>084670702 BERKSHIRE HATHAWAYIN</StockNm>
+      </InvestmentsCorporateStockGrp>
+      <InvestmentsCorporateStockGrp>
+        <StockNm>704326107 PAYCHEX INC</StockNm>
+      </InvestmentsCorporateStockGrp>
+      <InvestmentsCorporateStockGrp>
+        <StockNm>17275R102 CISCO SYSTEMS INC</StockNm>
+      </InvestmentsCorporateStockGrp>
+      <InvestmentsCorporateStockGrp>
+        <StockNm>191216100 COCA-COLA CO/THE</StockNm>
+      </InvestmentsCorporateStockGrp>
+      <InvestmentsCorporateStockGrp>
+        <StockNm>172062101 CINCINNATI FINANCIAL</StockNm>
+      </InvestmentsCorporateStockGrp>
+      <InvestmentsCorporateStockGrp>
+        <StockNm>143658300 CARNIVAL CORP</StockNm>
+      </InvestmentsCorporateStockGrp>
+      <InvestmentsCorporateStockGrp>
+        <StockNm>09247X101 BLACKROCK INC</StockNm>
+      </InvestmentsCorporateStockGrp>
+      <InvestmentsCorporateStockGrp>
+        <StockNm>548661107 LOWES COMPANIES INC</StockNm>
+      </InvestmentsCorporateStockGrp>
+      <InvestmentsCorporateStockGrp>
+        <StockNm>92343V104 VERIZON COMMUNICATIO</StockNm>
+      </InvestmentsCorporateStockGrp>
+      <InvestmentsCorporateStockGrp>
+        <StockNm>718172109 PHILIP MORRIS INTERN</StockNm>
+      </InvestmentsCorporateStockGrp>
+      <InvestmentsCorporateStockGrp>
+        <StockNm>25746U109 DOMINION ENERGY INC</StockNm>
+      </InvestmentsCorporateStockGrp>
+      <InvestmentsCorporateStockGrp>
+        <StockNm>02209S103 ALTRIA GROUP INC</StockNm>
+      </InvestmentsCorporateStockGrp>
+      <InvestmentsCorporateStockGrp>
+        <StockNm>311900104 FASTENAL CO</StockNm>
+      </InvestmentsCorporateStockGrp>
+      <InvestmentsCorporateStockGrp>
+        <StockNm>478160104 JOHNSON &amp; JOHNSON</StockNm>
+      </InvestmentsCorporateStockGrp>
+      <InvestmentsCorporateStockGrp>
+        <StockNm>882508104 TEXAS INSTRUMENTS IN</StockNm>
+      </InvestmentsCorporateStockGrp>
+      <InvestmentsCorporateStockGrp>
+        <StockNm>354613101 FRANKLIN RESOURCES I</StockNm>
+      </InvestmentsCorporateStockGrp>
+      <InvestmentsCorporateStockGrp>
+        <StockNm>641069406 NESTLE S A SPONSORED</StockNm>
+      </InvestmentsCorporateStockGrp>
+      <InvestmentsCorporateStockGrp>
+        <StockNm>693718108 PACCAR INC</StockNm>
+      </InvestmentsCorporateStockGrp>
+      <InvestmentsCorporateStockGrp>
+        <StockNm>911312106 UNITED PARCEL SERVIC</StockNm>
+      </InvestmentsCorporateStockGrp>
+      <InvestmentsCorporateStockGrp>
+        <StockNm>49456B101 KINDER MORGAN INC/DE</StockNm>
+      </InvestmentsCorporateStockGrp>
+      <InvestmentsCorporateStockGrp>
+        <StockNm>037833100 APPLE INC</StockNm>
+      </InvestmentsCorporateStockGrp>
+      <InvestmentsCorporateStockGrp>
+        <StockNm>247361702 DELTA AIR LINES INC</StockNm>
+      </InvestmentsCorporateStockGrp>
+      <InvestmentsCorporateStockGrp>
+        <StockNm>009158106 AIR PRODUCTS &amp; CHEMI</StockNm>
+      </InvestmentsCorporateStockGrp>
+      <InvestmentsCorporateStockGrp>
+        <StockNm>20030N101 COMCAST CORP</StockNm>
+      </InvestmentsCorporateStockGrp>
+      <InvestmentsCorporateStockGrp>
+        <StockNm>654445303 NINTENDO LTD ADR</StockNm>
+      </InvestmentsCorporateStockGrp>
+      <InvestmentsCorporateStockGrp>
+        <StockNm>743315103 PROGRESSIVE CORP/THE</StockNm>
+      </InvestmentsCorporateStockGrp>
+      <InvestmentsCorporateStockGrp>
+        <StockNm>855244109 STARBUCKS CORP</StockNm>
+      </InvestmentsCorporateStockGrp>
+      <InvestmentsCorporateStockGrp>
+        <StockNm>31620M106 FIDELITY NATL INFO S</StockNm>
+      </InvestmentsCorporateStockGrp>
+      <InvestmentsCorporateStockGrp>
+        <StockNm>666807102 NORTHROP GRUMMAN COR</StockNm>
+      </InvestmentsCorporateStockGrp>
+      <InvestmentsCorporateStockGrp>
+        <StockNm>808513105 CHARLES SCHWAB CORP/</StockNm>
+      </InvestmentsCorporateStockGrp>
+      <InvestmentsCorporateStockGrp>
+        <StockNm>09290D101 BLACKROCK INC REG SH</StockNm>
+      </InvestmentsCorporateStockGrp>
+      <InvestmentsCorporateStockGrp>
+        <StockNm>G87052109 TE CONNECTIVITY PLC</StockNm>
+      </InvestmentsCorporateStockGrp>
+    </InvestmentsCorpStockSchedule>
+    <InvestmentsGovtObligationsSch documentId="InvestmentsGovtObligationsSch">
+      <USGovtObligationsBookVlEOYAmt>524451</USGovtObligationsBookVlEOYAmt>
+      <USGovtObligationsEOYFMVAmt>512354</USGovtObligationsEOYFMVAmt>
+    </InvestmentsGovtObligationsSch>
+    <InvestmentsOtherSchedule2 documentId="InvestmentsOtherSchedule2">
+      <InvestmentsOtherGrp>
+        <CategoryOrItemTxt>543495741 LOOMIS SAYLES SECURI</CategoryOrItemTxt>
+        <ListedAtCostOrFMVCd>AT COST</ListedAtCostOrFMVCd>
+        <BookValueAmt>672063</BookValueAmt>
+        <EOYFMVAmt>595980</EOYFMVAmt>
+      </InvestmentsOtherGrp>
+      <InvestmentsOtherGrp>
+        <CategoryOrItemTxt>543495758 LOOMIS SAYLES HI INC</CategoryOrItemTxt>
+        <ListedAtCostOrFMVCd>AT COST</ListedAtCostOrFMVCd>
+        <BookValueAmt>114355</BookValueAmt>
+        <EOYFMVAmt>120462</EOYFMVAmt>
+      </InvestmentsOtherGrp>
+      <InvestmentsOtherGrp>
+        <CategoryOrItemTxt>464288588 ISHARES LEHMAN MBS</CategoryOrItemTxt>
+      </InvestmentsOtherGrp>
+      <InvestmentsOtherGrp>
+        <CategoryOrItemTxt>46429B267 ISHARES TREASURY BON</CategoryOrItemTxt>
+      </InvestmentsOtherGrp>
+      <InvestmentsOtherGrp>
+        <CategoryOrItemTxt>921946406 VANGUARD HIGH DVD YI</CategoryOrItemTxt>
+      </InvestmentsOtherGrp>
+      <InvestmentsOtherGrp>
+        <CategoryOrItemTxt>464287226 ISHARES CORE U.S. AG</CategoryOrItemTxt>
+      </InvestmentsOtherGrp>
+      <InvestmentsOtherGrp>
+        <CategoryOrItemTxt>464287432 ISHARES 20 YEAR TREA</CategoryOrItemTxt>
+      </InvestmentsOtherGrp>
+      <InvestmentsOtherGrp>
+        <CategoryOrItemTxt>78468R622 SPDR BLOOMBERG BARCL</CategoryOrItemTxt>
+      </InvestmentsOtherGrp>
+      <InvestmentsOtherGrp>
+        <CategoryOrItemTxt>921908844 VANGUARD DIVIDEND AP</CategoryOrItemTxt>
+      </InvestmentsOtherGrp>
+      <InvestmentsOtherGrp>
+        <CategoryOrItemTxt>04686JAA9 ATHENE HOLDINGS LTD</CategoryOrItemTxt>
+        <ListedAtCostOrFMVCd>AT COST</ListedAtCostOrFMVCd>
+        <BookValueAmt>8544</BookValueAmt>
+        <EOYFMVAmt>8991</EOYFMVAmt>
+      </InvestmentsOtherGrp>
+    </InvestmentsOtherSchedule2>
+    <OtherDecreasesSchedule documentId="OtherDecreasesSchedule">
+      <OtherDecreasesDetail>
+        <Desc>TAX COST ADJ</Desc>
+        <Amt>1545</Amt>
+      </OtherDecreasesDetail>
+      <OtherDecreasesDetail>
+        <Desc>ACCRUED INTEREST C/O</Desc>
+        <Amt>45</Amt>
+      </OtherDecreasesDetail>
+    </OtherDecreasesSchedule>
+    <OtherExpensesSchedule documentId="OtherExpensesSchedule">
+      <OtherExpensesScheduleGrp>
+        <Desc>AG FILING FEE</Desc>
+        <RevenueAndExpensesPerBooksAmt>75</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>75</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>INVSTMT EXPENSE</Desc>
+        <RevenueAndExpensesPerBooksAmt>704</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>704</NetInvestmentIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>0</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>INVESTMENT ADVISORY FEES</Desc>
+        <RevenueAndExpensesPerBooksAmt>257</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>257</NetInvestmentIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>0</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+    </OtherExpensesSchedule>
+    <OtherIncreasesSchedule documentId="OtherIncreasesSchedule">
+      <OtherIncreasesDetail>
+        <Desc>TYE INCOME ADJ</Desc>
+        <Amt>432</Amt>
+      </OtherIncreasesDetail>
+    </OtherIncreasesSchedule>
+    <OtherProfessionalFeesSchedule documentId="OtherProfessionalFeesSchedule">
+      <OtherProfessionalFeesDetail>
+        <CategoryTxt>INVESTMENT MGMT FEES - BOA</CategoryTxt>
+        <Amt>29243</Amt>
+        <NetInvestmentIncomeAmt>17546</NetInvestmentIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>11697</DisbursementsCharitablePrpsAmt>
+      </OtherProfessionalFeesDetail>
+      <OtherProfessionalFeesDetail>
+        <CategoryTxt>INVESTMNT MNGMNT FEES (NON-DED</CategoryTxt>
+        <Amt>10556</Amt>
+        <NetInvestmentIncomeAmt>6333</NetInvestmentIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>4222</DisbursementsCharitablePrpsAmt>
+      </OtherProfessionalFeesDetail>
+    </OtherProfessionalFeesSchedule>
+    <TaxesSchedule documentId="TaxesSchedule">
+      <TaxesDetail>
+        <CategoryTxt>FOREIGN TAXES</CategoryTxt>
+        <Amt>643</Amt>
+        <NetInvestmentIncomeAmt>643</NetInvestmentIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>0</DisbursementsCharitablePrpsAmt>
+      </TaxesDetail>
+      <TaxesDetail>
+        <CategoryTxt>EXCISE TAX - PRIOR YEAR</CategoryTxt>
+        <Amt>368</Amt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>0</DisbursementsCharitablePrpsAmt>
+      </TaxesDetail>
+      <TaxesDetail>
+        <CategoryTxt>FEDERAL ESTIMATES - PRINCIPAL</CategoryTxt>
+        <Amt>1964</Amt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>0</DisbursementsCharitablePrpsAmt>
+      </TaxesDetail>
+    </TaxesSchedule>
+  </ReturnData>
+</Return>

@@ -1,0 +1,690 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Return xmlns="http://www.irs.gov/efile" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" returnVersion="2025v4.1">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2026-04-22T07:37:41+00:00</ReturnTs>
+    <TaxPeriodEndDt>2025-12-31</TaxPeriodEndDt>
+    <PreparerFirmGrp>
+      <PreparerFirmEIN>440160260</PreparerFirmEIN>
+      <PreparerFirmName>
+        <BusinessNameLine1Txt>Forvis Mazars LLP</BusinessNameLine1Txt>
+      </PreparerFirmName>
+      <PreparerUSAddress>
+        <AddressLine1Txt>2700 Post Oak Blvd Ste 1500</AddressLine1Txt>
+        <CityNm>Houston</CityNm>
+        <StateAbbreviationCd>TX</StateAbbreviationCd>
+        <ZIPCd>77056</ZIPCd>
+      </PreparerUSAddress>
+    </PreparerFirmGrp>
+    <ReturnTypeCd>990PF</ReturnTypeCd>
+    <TaxPeriodBeginDt>2025-01-01</TaxPeriodBeginDt>
+    <Filer>
+      <EIN>460715559</EIN>
+      <BusinessName>
+        <BusinessNameLine1Txt>Shraman Foundation</BusinessNameLine1Txt>
+      </BusinessName>
+      <BusinessNameControlTxt>SHRA</BusinessNameControlTxt>
+      <PhoneNum>2142078003</PhoneNum>
+      <USAddress>
+        <AddressLine1Txt>PMC Box 108 5930 Royal Lane E</AddressLine1Txt>
+        <CityNm>Dallas</CityNm>
+        <StateAbbreviationCd>TX</StateAbbreviationCd>
+        <ZIPCd>75230</ZIPCd>
+      </USAddress>
+    </Filer>
+    <BusinessOfficerGrp>
+      <PersonNm>Vinay Jain</PersonNm>
+      <PersonTitleTxt>Officer</PersonTitleTxt>
+      <PhoneNum>2145930506</PhoneNum>
+      <SignatureDt>2026-04-22</SignatureDt>
+      <DiscussWithPaidPreparerInd>true</DiscussWithPaidPreparerInd>
+    </BusinessOfficerGrp>
+    <PreparerPersonGrp>
+      <PreparerPersonNm>Amanda Maya</PreparerPersonNm>
+      <PTIN>P01067777</PTIN>
+      <PhoneNum>7134994600</PhoneNum>
+      <PreparationDt>2025-05-15</PreparationDt>
+    </PreparerPersonGrp>
+    <TaxYr>2025</TaxYr>
+    <BuildTS>2025-03-06 01:10:19Z</BuildTS>
+  </ReturnHeader>
+  <ReturnData documentCnt="12">
+    <IRS990PF documentId="IRS990PF" softwareId="25022866" softwareVersionNum="2025v4.1">
+      <Organization501c3ExemptPFInd>X</Organization501c3ExemptPFInd>
+      <FMVAssetsEOYAmt>571414945</FMVAssetsEOYAmt>
+      <MethodOfAccountingAccrualInd>X</MethodOfAccountingAccrualInd>
+      <AnalysisOfRevenueAndExpenses>
+        <ContriRcvdRevAndExpnssAmt>0</ContriRcvdRevAndExpnssAmt>
+        <ScheduleBNotRequiredInd>X</ScheduleBNotRequiredInd>
+        <InterestOnSavRevAndExpnssAmt>0</InterestOnSavRevAndExpnssAmt>
+        <InterestOnSavNetInvstIncmAmt>0</InterestOnSavNetInvstIncmAmt>
+        <DividendsRevAndExpnssAmt>3039556</DividendsRevAndExpnssAmt>
+        <DividendsNetInvstIncmAmt>3029016</DividendsNetInvstIncmAmt>
+        <DividendsAdjNetIncmAmt>3029016</DividendsAdjNetIncmAmt>
+        <NetGainSaleAstRevAndExpnssAmt>335</NetGainSaleAstRevAndExpnssAmt>
+        <GrossSalesPriceAmt>0</GrossSalesPriceAmt>
+        <CapGainNetIncmNetInvstIncmAmt>335</CapGainNetIncmNetInvstIncmAmt>
+        <NetSTCapitalGainAdjNetIncmAmt>0</NetSTCapitalGainAdjNetIncmAmt>
+        <GrossSalesLessRetAndAllwncAmt>0</GrossSalesLessRetAndAllwncAmt>
+        <CostOfGoodsSoldAmt>0</CostOfGoodsSoldAmt>
+        <GrossProfitRevAndExpnssAmt>0</GrossProfitRevAndExpnssAmt>
+        <OtherIncomeRevAndExpnssAmt>0</OtherIncomeRevAndExpnssAmt>
+        <OtherIncomeNetInvstIncmAmt>0</OtherIncomeNetInvstIncmAmt>
+        <OtherIncomeAdjNetIncmAmt>0</OtherIncomeAdjNetIncmAmt>
+        <TotalRevAndExpnssAmt>3039891</TotalRevAndExpnssAmt>
+        <TotalNetInvstIncmAmt>3029351</TotalNetInvstIncmAmt>
+        <TotalAdjNetIncmAmt>3029016</TotalAdjNetIncmAmt>
+        <CompOfcrDirTrstRevAndExpnssAmt>0</CompOfcrDirTrstRevAndExpnssAmt>
+        <CompOfcrDirTrstNetInvstIncmAmt>0</CompOfcrDirTrstNetInvstIncmAmt>
+        <CompOfcrDirTrstDsbrsChrtblAmt>0</CompOfcrDirTrstDsbrsChrtblAmt>
+        <OthEmplSlrsWgsRevAndExpnssAmt>0</OthEmplSlrsWgsRevAndExpnssAmt>
+        <LegalFeesRevAndExpnssAmt>0</LegalFeesRevAndExpnssAmt>
+        <LegalFeesNetInvstIncmAmt>0</LegalFeesNetInvstIncmAmt>
+        <LegalFeesAdjNetIncmAmt>0</LegalFeesAdjNetIncmAmt>
+        <LegalFeesDsbrsChrtblAmt>0</LegalFeesDsbrsChrtblAmt>
+        <AccountingFeesRevAndExpnssAmt referenceDocumentId="AccountingFeesSchedule">11130</AccountingFeesRevAndExpnssAmt>
+        <AccountingFeesNetInvstIncmAmt>0</AccountingFeesNetInvstIncmAmt>
+        <AccountingFeesAdjNetIncmAmt>0</AccountingFeesAdjNetIncmAmt>
+        <AccountingFeesChrtblPrpsAmt>11130</AccountingFeesChrtblPrpsAmt>
+        <OtherProfFeesRevAndExpnssAmt>0</OtherProfFeesRevAndExpnssAmt>
+        <OtherProfFeesNetInvstIncmAmt>0</OtherProfFeesNetInvstIncmAmt>
+        <OtherProfFeesAdjNetIncmAmt>0</OtherProfFeesAdjNetIncmAmt>
+        <OtherProfFeesDsbrsChrtblAmt>0</OtherProfFeesDsbrsChrtblAmt>
+        <TaxesRevAndExpnssAmt referenceDocumentId="TaxesSchedule">139665</TaxesRevAndExpnssAmt>
+        <TaxesNetInvstIncmAmt>0</TaxesNetInvstIncmAmt>
+        <TaxesAdjNetIncmAmt>0</TaxesAdjNetIncmAmt>
+        <TaxesDsbrsChrtblAmt>0</TaxesDsbrsChrtblAmt>
+        <DeprecAndDpltnRevAndExpnssAmt>0</DeprecAndDpltnRevAndExpnssAmt>
+        <DeprecAndDpltnNetInvstIncmAmt>0</DeprecAndDpltnNetInvstIncmAmt>
+        <DeprecAndDpltnAdjNetIncmAmt>0</DeprecAndDpltnAdjNetIncmAmt>
+        <OccupancyRevAndExpnssAmt>0</OccupancyRevAndExpnssAmt>
+        <OtherExpensesRevAndExpnssAmt referenceDocumentId="OtherExpensesSchedule">4575</OtherExpensesRevAndExpnssAmt>
+        <OtherExpensesNetInvstIncmAmt>200</OtherExpensesNetInvstIncmAmt>
+        <OtherExpensesAdjNetIncmAmt>200</OtherExpensesAdjNetIncmAmt>
+        <OtherExpensesDsbrsChrtblAmt>2875</OtherExpensesDsbrsChrtblAmt>
+        <TotOprExpensesRevAndExpnssAmt>155370</TotOprExpensesRevAndExpnssAmt>
+        <TotOprExpensesNetInvstIncmAmt>200</TotOprExpensesNetInvstIncmAmt>
+        <TotOprExpensesAdjNetIncmAmt>200</TotOprExpensesAdjNetIncmAmt>
+        <TotOprExpensesDsbrsChrtblAmt>14005</TotOprExpensesDsbrsChrtblAmt>
+        <ContriPaidRevAndExpnssAmt>10500078</ContriPaidRevAndExpnssAmt>
+        <ContriPaidDsbrsChrtblAmt>10500078</ContriPaidDsbrsChrtblAmt>
+        <TotalExpensesRevAndExpnssAmt>10655448</TotalExpensesRevAndExpnssAmt>
+        <TotalExpensesNetInvstIncmAmt>200</TotalExpensesNetInvstIncmAmt>
+        <TotalExpensesAdjNetIncmAmt>200</TotalExpensesAdjNetIncmAmt>
+        <TotalExpensesDsbrsChrtblAmt>10514083</TotalExpensesDsbrsChrtblAmt>
+        <ExcessRevenueOverExpensesAmt>-7615557</ExcessRevenueOverExpensesAmt>
+        <NetInvestmentIncomeAmt>3029151</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>3028816</AdjustedNetIncomeAmt>
+      </AnalysisOfRevenueAndExpenses>
+      <Form990PFBalanceSheetsGrp>
+        <CashBOYAmt>0</CashBOYAmt>
+        <CashEOYAmt>0</CashEOYAmt>
+        <CashEOYFMVAmt>0</CashEOYFMVAmt>
+        <SavAndTempCashInvstBOYAmt>480360</SavAndTempCashInvstBOYAmt>
+        <SavAndTempCashInvstEOYAmt>1112517</SavAndTempCashInvstEOYAmt>
+        <SavAndTempCashInvstEOYFMVAmt>1112517</SavAndTempCashInvstEOYFMVAmt>
+        <AcctRcvblEOYAmt>0</AcctRcvblEOYAmt>
+        <AcctRcvblEOYFMVAmt>0</AcctRcvblEOYFMVAmt>
+        <PledgesRcvblEOYAmt>0</PledgesRcvblEOYAmt>
+        <PledgesRcvblEOYFMVAmt>0</PledgesRcvblEOYFMVAmt>
+        <RcvblFromOfficersBOYAmt>0</RcvblFromOfficersBOYAmt>
+        <RcvblFromOfficersEOYAmt>0</RcvblFromOfficersEOYAmt>
+        <RcvblFromOfficersEOYFMVAmt>0</RcvblFromOfficersEOYFMVAmt>
+        <OtherNtsAndLoansRcvblAmt>0</OtherNtsAndLoansRcvblAmt>
+        <OtherRcvblAllwncDbtflAcctAmt>0</OtherRcvblAllwncDbtflAcctAmt>
+        <OtherNtsAndLoansRcvblBOYAmt>0</OtherNtsAndLoansRcvblBOYAmt>
+        <OtherNtsAndLoansRcvblEOYAmt>0</OtherNtsAndLoansRcvblEOYAmt>
+        <OtherNtsAndLoansRcvblEOYFMVAmt>0</OtherNtsAndLoansRcvblEOYFMVAmt>
+        <PrepaidExpensesBOYAmt>687259</PrepaidExpensesBOYAmt>
+        <PrepaidExpensesEOYAmt>698551</PrepaidExpensesEOYAmt>
+        <PrepaidExpensesEOYFMVAmt>698551</PrepaidExpensesEOYFMVAmt>
+        <USGovernmentObligationsBOYAmt>29628666</USGovernmentObligationsBOYAmt>
+        <USGovernmentObligationsEOYAmt referenceDocumentId="InvestmentsGovtObligations">30567157</USGovernmentObligationsEOYAmt>
+        <USGovtObligationsEOYFMVAmt>30567157</USGovtObligationsEOYFMVAmt>
+        <CorporateStockBOYAmt>44311949</CorporateStockBOYAmt>
+        <CorporateStockEOYAmt referenceDocumentId="InvestmentsCorpStockSchedule">44478231</CorporateStockEOYAmt>
+        <CorporateStockEOYFMVAmt>44478231</CorporateStockEOYFMVAmt>
+        <CorporateBondsBOYAmt>31393181</CorporateBondsBOYAmt>
+        <CorporateBondsEOYAmt referenceDocumentId="InvestmentsCorpBondsSchedule">30818931</CorporateBondsEOYAmt>
+        <CorporateBondsEOYFMVAmt>30818931</CorporateBondsEOYFMVAmt>
+        <InvstLandCostOrOtherBasisAmt>0</InvstLandCostOrOtherBasisAmt>
+        <InvstLandAccumDepreciationAmt>0</InvstLandAccumDepreciationAmt>
+        <LandBldgInvestmentsBOYAmt>0</LandBldgInvestmentsBOYAmt>
+        <LandBldgInvestmentsEOYFMVAmt>0</LandBldgInvestmentsEOYFMVAmt>
+        <OtherInvestmentsBOYAmt>0</OtherInvestmentsBOYAmt>
+        <OtherInvestmentsEOYAmt>0</OtherInvestmentsEOYAmt>
+        <OtherInvestmentsEOYFMVAmt>0</OtherInvestmentsEOYFMVAmt>
+        <LandBldgEquipCostOrOtherBssAmt>0</LandBldgEquipCostOrOtherBssAmt>
+        <LandBldgEquipAccumDeprecAmt>0</LandBldgEquipAccumDeprecAmt>
+        <LandBOYAmt>0</LandBOYAmt>
+        <LandEOYFMVAmt>0</LandEOYFMVAmt>
+        <OtherAssetsBOYAmt referenceDocumentId="OtherAssetsSchedule">463739558</OtherAssetsBOYAmt>
+        <OtherAssetsEOYAmt referenceDocumentId="OtherAssetsSchedule">463739558</OtherAssetsEOYAmt>
+        <OtherAssetsEOYFMVAmt referenceDocumentId="OtherAssetsSchedule">463739558</OtherAssetsEOYFMVAmt>
+        <TotalAssetsBOYAmt>570240973</TotalAssetsBOYAmt>
+        <TotalAssetsEOYAmt>571414945</TotalAssetsEOYAmt>
+        <TotalAssetsEOYFMVAmt>571414945</TotalAssetsEOYFMVAmt>
+        <AccountsPayableBOYAmt>14542</AccountsPayableBOYAmt>
+        <AccountsPayableEOYAmt>48552</AccountsPayableEOYAmt>
+        <LoansFromOfficersBOYAmt>0</LoansFromOfficersBOYAmt>
+        <LoansFromOfficersEOYAmt>0</LoansFromOfficersEOYAmt>
+        <MortgagesAndNotesPayableBOYAmt>0</MortgagesAndNotesPayableBOYAmt>
+        <MortgagesAndNotesPayableEOYAmt>0</MortgagesAndNotesPayableEOYAmt>
+        <OtherLiabilitiesBOYAmt referenceDocumentId="OtherLiabilitiesSchedule">14420</OtherLiabilitiesBOYAmt>
+        <OtherLiabilitiesEOYAmt referenceDocumentId="OtherLiabilitiesSchedule">0</OtherLiabilitiesEOYAmt>
+        <TotalLiabilitiesBOYAmt>28962</TotalLiabilitiesBOYAmt>
+        <TotalLiabilitiesEOYAmt>48552</TotalLiabilitiesEOYAmt>
+        <OrgDoesNotFollowFASB117Ind>X</OrgDoesNotFollowFASB117Ind>
+        <AdditionalPaidInCapitalBOYAmt>0</AdditionalPaidInCapitalBOYAmt>
+        <AdditionalPaidInCapitalEOYAmt>0</AdditionalPaidInCapitalEOYAmt>
+        <RetainedEarningBOYAmt>570212011</RetainedEarningBOYAmt>
+        <RetainedEarningEOYAmt>571366393</RetainedEarningEOYAmt>
+        <TotNetAstOrFundBalancesBOYAmt>570212011</TotNetAstOrFundBalancesBOYAmt>
+        <TotNetAstOrFundBalancesEOYAmt>571366393</TotNetAstOrFundBalancesEOYAmt>
+        <TotalLiabilitiesNetAstBOYAmt>570240973</TotalLiabilitiesNetAstBOYAmt>
+        <TotalLiabilitiesNetAstEOYAmt>571414945</TotalLiabilitiesNetAstEOYAmt>
+      </Form990PFBalanceSheetsGrp>
+      <ChgInNetAssetsFundBalancesGrp>
+        <TotNetAstOrFundBalancesBOYAmt>570212011</TotNetAstOrFundBalancesBOYAmt>
+        <ExcessRevenueOverExpensesAmt>-7615557</ExcessRevenueOverExpensesAmt>
+        <OtherIncreasesAmt referenceDocumentId="OtherIncreasesSchedule">8832225</OtherIncreasesAmt>
+        <SubtotalAmt>571428679</SubtotalAmt>
+        <OtherDecreasesAmt referenceDocumentId="OtherDecreasesSchedule">62286</OtherDecreasesAmt>
+        <TotNetAstOrFundBalancesEOYAmt>571366393</TotNetAstOrFundBalancesEOYAmt>
+      </ChgInNetAssetsFundBalancesGrp>
+      <CapGainsLossTxInvstIncmDetail>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>250,000 SHARES OF BANK AMERICA CORP MTN 3.95%</PropertyDesc>
+          <HowAcquiredCd>P</HowAcquiredCd>
+          <AcquiredDt>2017-01-11</AcquiredDt>
+          <SoldDt>2025-04-21</SoldDt>
+          <GrossSalesPriceAmt>250000</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>249665</CostOrOtherBasisAmt>
+          <GainOrLossAmt>335</GainOrLossAmt>
+          <ExcessFMVOverAdjustedBssAmt>0</ExcessFMVOverAdjustedBssAmt>
+          <GainsMinusExcessOrLossesAmt>335</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>250,000 SHARES OF CITIGROUP INC NOTE 5.5%</PropertyDesc>
+          <HowAcquiredCd>P</HowAcquiredCd>
+          <AcquiredDt>2016-03-15</AcquiredDt>
+          <SoldDt>2025-09-15</SoldDt>
+          <GrossSalesPriceAmt>250000</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>250000</CostOrOtherBasisAmt>
+          <GainOrLossAmt>0</GainOrLossAmt>
+          <ExcessFMVOverAdjustedBssAmt>0</ExcessFMVOverAdjustedBssAmt>
+          <GainsMinusExcessOrLossesAmt>0</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>500,000 SHARES OF GOLDMAN SACHS GROUP INC NOTE 4.25%</PropertyDesc>
+          <HowAcquiredCd>P</HowAcquiredCd>
+          <SoldDt>2025-10-21</SoldDt>
+          <GrossSalesPriceAmt>500000</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>500000</CostOrOtherBasisAmt>
+          <GainOrLossAmt>0</GainOrLossAmt>
+          <ExcessFMVOverAdjustedBssAmt>0</ExcessFMVOverAdjustedBssAmt>
+          <GainsMinusExcessOrLossesAmt>0</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapitalGainNetIncomeAmt>335</CapitalGainNetIncomeAmt>
+        <NetShortTermCapitalGainLossAmt>0</NetShortTermCapitalGainLossAmt>
+      </CapGainsLossTxInvstIncmDetail>
+      <ExciseTaxBasedOnInvstIncmGrp>
+        <InvestmentIncomeExciseTaxAmt>42105</InvestmentIncomeExciseTaxAmt>
+        <TaxUnderSection511Amt referenceDocumentId="TaxUnderSection511Statement">0</TaxUnderSection511Amt>
+        <SubtotalAmt>42105</SubtotalAmt>
+        <TaxBasedOnInvestmentIncomeAmt>42105</TaxBasedOnInvestmentIncomeAmt>
+        <EstimatedPlusOvpmtIncmTxAmt>113574</EstimatedPlusOvpmtIncmTxAmt>
+        <ExemptFrgnOrgTaxWthldAtSrceAmt referenceDocumentId="IRS1042S">0</ExemptFrgnOrgTaxWthldAtSrceAmt>
+        <TotalPaymentsAndCreditsAmt>113574</TotalPaymentsAndCreditsAmt>
+        <OverpaymentAmt>71469</OverpaymentAmt>
+        <AppliedToESTaxAmt>71469</AppliedToESTaxAmt>
+        <RefundAmt>0</RefundAmt>
+      </ExciseTaxBasedOnInvstIncmGrp>
+      <StatementsRegardingActyGrp>
+        <LegislativePoliticalActyInd>false</LegislativePoliticalActyInd>
+        <MoreThan100SpentInd>false</MoreThan100SpentInd>
+        <Form1120POLFiledInd>false</Form1120POLFiledInd>
+        <ActivitiesNotPreviouslyRptInd>false</ActivitiesNotPreviouslyRptInd>
+        <ChangesToArticlesOrBylawsInd>false</ChangesToArticlesOrBylawsInd>
+        <UnrelatedBusIncmOverLimitInd>false</UnrelatedBusIncmOverLimitInd>
+        <OrganizationDissolvedEtcInd>false</OrganizationDissolvedEtcInd>
+        <Section508eRqrSatisfiedInd>true</Section508eRqrSatisfiedInd>
+        <AtLeast5000InAssetsInd>true</AtLeast5000InAssetsInd>
+        <OrgReportOrRegisterStateCd>TX</OrgReportOrRegisterStateCd>
+        <Form990PFFiledWithAttyGenInd>true</Form990PFFiledWithAttyGenInd>
+        <PrivateOperatingFoundationInd>true</PrivateOperatingFoundationInd>
+        <NewSubstantialContributorsInd>false</NewSubstantialContributorsInd>
+        <OwnControlledEntityInd referenceDocumentId="FromControlledEntities">true</OwnControlledEntityInd>
+        <DonorAdvisedFundInd>false</DonorAdvisedFundInd>
+        <ComplyWithPublicInspRqrInd>true</ComplyWithPublicInspRqrInd>
+        <WebsiteAddressTxt>www.shraman.org</WebsiteAddressTxt>
+        <IndividualWithBooksNm>Vinay Jain</IndividualWithBooksNm>
+        <PhoneNum>2142078003</PhoneNum>
+        <LocationOfBooksUSAddress>
+          <AddressLine1Txt>10710 Inwood Rd</AddressLine1Txt>
+          <CityNm>Dallas</CityNm>
+          <StateAbbreviationCd>TX</StateAbbreviationCd>
+          <ZIPCd>75229</ZIPCd>
+        </LocationOfBooksUSAddress>
+        <ForeignAccountsQuestionInd>false</ForeignAccountsQuestionInd>
+      </StatementsRegardingActyGrp>
+      <StatementsRegardingActy4720Grp>
+        <SaleOrExchDisqualifiedPrsnInd>false</SaleOrExchDisqualifiedPrsnInd>
+        <BrrwOrLendDisqualifiedPrsnInd>false</BrrwOrLendDisqualifiedPrsnInd>
+        <FurnGoodsDisqualifiedPrsnInd>false</FurnGoodsDisqualifiedPrsnInd>
+        <PayCompDisqualifiedPrsnInd>false</PayCompDisqualifiedPrsnInd>
+        <TransferAstDisqualifiedPrsnInd>false</TransferAstDisqualifiedPrsnInd>
+        <PaymentToGovernmentOfficialInd>false</PaymentToGovernmentOfficialInd>
+        <UncorrectedPriorActsInd>false</UncorrectedPriorActsInd>
+        <UndistributedIncomePYInd>false</UndistributedIncomePYInd>
+        <BusinessHoldingsInd>true</BusinessHoldingsInd>
+        <ExcessBusinessHoldingsInd>false</ExcessBusinessHoldingsInd>
+        <JeopardyInvestmentsInd>false</JeopardyInvestmentsInd>
+        <UncorrectedPYJeopardyInvstInd>false</UncorrectedPYJeopardyInvstInd>
+        <InfluenceLegislationInd>false</InfluenceLegislationInd>
+        <InfluenceElectionInd>false</InfluenceElectionInd>
+        <GrantsToIndividualsInd>false</GrantsToIndividualsInd>
+        <GrantsToOrganizationsInd>true</GrantsToOrganizationsInd>
+        <NoncharitablePurposeInd>false</NoncharitablePurposeInd>
+        <TransactionsFailToQlfyAsExcInd>false</TransactionsFailToQlfyAsExcInd>
+        <MaintainedExpenditureRspnsInd referenceDocumentId="ExpenditureResponsibility">true</MaintainedExpenditureRspnsInd>
+        <RcvFndsToPayPrsnlBnftCntrctInd>false</RcvFndsToPayPrsnlBnftCntrctInd>
+        <PayPremiumsPrsnlBnftCntrctInd>false</PayPremiumsPrsnlBnftCntrctInd>
+        <ProhibitedTaxShelterTransInd>false</ProhibitedTaxShelterTransInd>
+        <SubjToTaxRmnrtnExPrchtPymtInd>false</SubjToTaxRmnrtnExPrchtPymtInd>
+      </StatementsRegardingActy4720Grp>
+      <OfficerDirTrstKeyEmplInfoGrp>
+        <OfficerDirTrstKeyEmplGrp>
+          <BusinessName>
+            <BusinessNameLine1Txt>KANIKA VIRMANI JAIN</BusinessNameLine1Txt>
+          </BusinessName>
+          <USAddress>
+            <AddressLine1Txt>PMC BOX 108</AddressLine1Txt>
+            <AddressLine2Txt>5930 ROYAL LANE STE E</AddressLine2Txt>
+            <CityNm>DALLAS</CityNm>
+            <StateAbbreviationCd>TX</StateAbbreviationCd>
+            <ZIPCd>75230</ZIPCd>
+          </USAddress>
+          <TitleTxt>VP/SECRETARY/DIRECTOR</TitleTxt>
+          <AverageHrsPerWkDevotedToPosRt>5.00</AverageHrsPerWkDevotedToPosRt>
+          <CompensationAmt>0</CompensationAmt>
+          <EmployeeBenefitProgramAmt>0</EmployeeBenefitProgramAmt>
+          <ExpenseAccountOtherAllwncAmt>0</ExpenseAccountOtherAllwncAmt>
+        </OfficerDirTrstKeyEmplGrp>
+        <OfficerDirTrstKeyEmplGrp>
+          <BusinessName>
+            <BusinessNameLine1Txt>VINAY K JAIN</BusinessNameLine1Txt>
+          </BusinessName>
+          <USAddress>
+            <AddressLine1Txt>PMC BOX 108</AddressLine1Txt>
+            <AddressLine2Txt>5930 ROYAL LANE STE E</AddressLine2Txt>
+            <CityNm>DALLAS</CityNm>
+            <StateAbbreviationCd>TX</StateAbbreviationCd>
+            <ZIPCd>75230</ZIPCd>
+          </USAddress>
+          <TitleTxt>PRESIDENT/DIRECTOR</TitleTxt>
+          <AverageHrsPerWkDevotedToPosRt>5.00</AverageHrsPerWkDevotedToPosRt>
+          <CompensationAmt>0</CompensationAmt>
+          <EmployeeBenefitProgramAmt>0</EmployeeBenefitProgramAmt>
+          <ExpenseAccountOtherAllwncAmt>0</ExpenseAccountOtherAllwncAmt>
+        </OfficerDirTrstKeyEmplGrp>
+        <OfficerDirTrstKeyEmplGrp>
+          <BusinessName>
+            <BusinessNameLine1Txt>NIKHIL JAIN</BusinessNameLine1Txt>
+          </BusinessName>
+          <USAddress>
+            <AddressLine1Txt>PMC BOX 108</AddressLine1Txt>
+            <AddressLine2Txt>5930 ROYAL LANE STE E</AddressLine2Txt>
+            <CityNm>DALLAS</CityNm>
+            <StateAbbreviationCd>TX</StateAbbreviationCd>
+            <ZIPCd>75230</ZIPCd>
+          </USAddress>
+          <TitleTxt>DIRECTOR</TitleTxt>
+          <AverageHrsPerWkDevotedToPosRt>1.00</AverageHrsPerWkDevotedToPosRt>
+          <CompensationAmt>0</CompensationAmt>
+          <EmployeeBenefitProgramAmt>0</EmployeeBenefitProgramAmt>
+          <ExpenseAccountOtherAllwncAmt>0</ExpenseAccountOtherAllwncAmt>
+        </OfficerDirTrstKeyEmplGrp>
+        <OfficerDirTrstKeyEmplGrp>
+          <BusinessName>
+            <BusinessNameLine1Txt>TRISHLA JAIN</BusinessNameLine1Txt>
+          </BusinessName>
+          <USAddress>
+            <AddressLine1Txt>PMC BOX 108</AddressLine1Txt>
+            <AddressLine2Txt>5930 ROYAL LANE STE E</AddressLine2Txt>
+            <CityNm>DALLAS</CityNm>
+            <StateAbbreviationCd>TX</StateAbbreviationCd>
+            <ZIPCd>75230</ZIPCd>
+          </USAddress>
+          <TitleTxt>DIRECTOR</TitleTxt>
+          <AverageHrsPerWkDevotedToPosRt>1.00</AverageHrsPerWkDevotedToPosRt>
+          <CompensationAmt>0</CompensationAmt>
+          <EmployeeBenefitProgramAmt>0</EmployeeBenefitProgramAmt>
+          <ExpenseAccountOtherAllwncAmt>0</ExpenseAccountOtherAllwncAmt>
+        </OfficerDirTrstKeyEmplGrp>
+        <OfficerDirTrstKeyEmplGrp>
+          <BusinessName>
+            <BusinessNameLine1Txt>GREG FISHER</BusinessNameLine1Txt>
+          </BusinessName>
+          <USAddress>
+            <AddressLine1Txt>PMC BOX 108</AddressLine1Txt>
+            <AddressLine2Txt>5930 ROYAL LANE STE E</AddressLine2Txt>
+            <CityNm>DALLAS</CityNm>
+            <StateAbbreviationCd>TX</StateAbbreviationCd>
+            <ZIPCd>75230</ZIPCd>
+          </USAddress>
+          <TitleTxt>TREASURER</TitleTxt>
+          <AverageHrsPerWkDevotedToPosRt>5.00</AverageHrsPerWkDevotedToPosRt>
+          <CompensationAmt>0</CompensationAmt>
+          <EmployeeBenefitProgramAmt>0</EmployeeBenefitProgramAmt>
+          <ExpenseAccountOtherAllwncAmt>0</ExpenseAccountOtherAllwncAmt>
+        </OfficerDirTrstKeyEmplGrp>
+        <OfficerDirTrstKeyEmplGrp>
+          <BusinessName>
+            <BusinessNameLine1Txt>MEGHNA JAIN</BusinessNameLine1Txt>
+          </BusinessName>
+          <USAddress>
+            <AddressLine1Txt>PMC BOX 108</AddressLine1Txt>
+            <AddressLine2Txt>5930 ROYAL LANE STE E</AddressLine2Txt>
+            <CityNm>DALLAS</CityNm>
+            <StateAbbreviationCd>TX</StateAbbreviationCd>
+            <ZIPCd>75230</ZIPCd>
+          </USAddress>
+          <TitleTxt>DIRECTOR</TitleTxt>
+          <AverageHrsPerWkDevotedToPosRt>1.00</AverageHrsPerWkDevotedToPosRt>
+          <CompensationAmt>0</CompensationAmt>
+          <EmployeeBenefitProgramAmt>0</EmployeeBenefitProgramAmt>
+          <ExpenseAccountOtherAllwncAmt>0</ExpenseAccountOtherAllwncAmt>
+        </OfficerDirTrstKeyEmplGrp>
+      </OfficerDirTrstKeyEmplInfoGrp>
+      <SummaryOfDirectChrtblActyGrp>
+        <Description1Txt>Since its inception, Shraman Foundation has been a private operating foundation and engaged in the process of creating a multipurpose center. With an understanding that human achievement can only occur through education, collaboration, and innovation. We seek to create a space that allows people and ideas to flourish. This will be done through multiple focus areas within the Shraman Foundation, as listed in Attachment VIII-A</Description1Txt>
+        <Expenses1Amt>10514083</Expenses1Amt>
+      </SummaryOfDirectChrtblActyGrp>
+      <SumOfProgramRelatedInvstGrp>
+        <TotalAmt>0</TotalAmt>
+      </SumOfProgramRelatedInvstGrp>
+      <MinimumInvestmentReturnGrp>
+        <AverageMonthlyFMVOfSecAmt>108923919</AverageMonthlyFMVOfSecAmt>
+        <AverageMonthlyCashBalancesAmt>1270816</AverageMonthlyCashBalancesAmt>
+        <FMVAllOtherNoncharitableAstAmt>0</FMVAllOtherNoncharitableAstAmt>
+        <TotalFMVOfUnusedAssetsAmt>110194735</TotalFMVOfUnusedAssetsAmt>
+        <ReductionClaimedAmt>0</ReductionClaimedAmt>
+        <AdjustedTotalFMVOfUnusedAstAmt>110194735</AdjustedTotalFMVOfUnusedAstAmt>
+        <CashDeemedCharitableAmt>1652921</CashDeemedCharitableAmt>
+        <NetVlNoncharitableAssetsAmt>108541814</NetVlNoncharitableAssetsAmt>
+        <MinimumInvestmentReturnAmt>5427091</MinimumInvestmentReturnAmt>
+      </MinimumInvestmentReturnGrp>
+      <DistributableAmountGrp>
+        <Sect4942j3j5FndtnAndFrgnOrgInd>X</Sect4942j3j5FndtnAndFrgnOrgInd>
+      </DistributableAmountGrp>
+      <PFQualifyingDistributionsGrp>
+        <ExpensesAndContributionsAmt>10514083</ExpensesAndContributionsAmt>
+        <ProgramRelatedInvstTotalAmt>0</ProgramRelatedInvstTotalAmt>
+        <SetAsideCashDistriTestAmt>0</SetAsideCashDistriTestAmt>
+        <QualifyingDistributionsAmt>10514083</QualifyingDistributionsAmt>
+      </PFQualifyingDistributionsGrp>
+      <PrivateOperatingFoundationsGrp>
+        <PrivateOperatingFndtnRulingDt>2012-11-19</PrivateOperatingFndtnRulingDt>
+        <Section4942j3Ind>X</Section4942j3Ind>
+        <LessorAdjNetIncmMinInvstRetGrp>
+          <CurrentYearAmt>3028816</CurrentYearAmt>
+          <Year1Amt>4979020</Year1Amt>
+          <Year2Amt>3390552</Year2Amt>
+          <Year3Amt>2612772</Year3Amt>
+          <TotalAmt>14011160</TotalAmt>
+        </LessorAdjNetIncmMinInvstRetGrp>
+        <Pct85LessorAdjIncmOrMinRetGrp>
+          <CurrentYearAmt>2574494</CurrentYearAmt>
+          <Year1Amt>4232167</Year1Amt>
+          <Year2Amt>2881969</Year2Amt>
+          <Year3Amt>2220856</Year3Amt>
+          <TotalAmt>11909486</TotalAmt>
+        </Pct85LessorAdjIncmOrMinRetGrp>
+        <QualifyingDistributionsGrp>
+          <CurrentYearAmt>10514083</CurrentYearAmt>
+          <Year1Amt>864301</Year1Amt>
+          <Year2Amt>836815</Year2Amt>
+          <Year3Amt>296181</Year3Amt>
+          <TotalAmt>12511380</TotalAmt>
+        </QualifyingDistributionsGrp>
+        <QualifyingDistriNotUsedDrtGrp>
+          <TotalAmt>0</TotalAmt>
+        </QualifyingDistriNotUsedDrtGrp>
+        <QualifyingDistriMadeDrtGrp>
+          <CurrentYearAmt>10514083</CurrentYearAmt>
+          <Year1Amt>864301</Year1Amt>
+          <Year2Amt>836815</Year2Amt>
+          <Year3Amt>296181</Year3Amt>
+          <TotalAmt>12511380</TotalAmt>
+        </QualifyingDistriMadeDrtGrp>
+        <TotalAssetsGrp>
+          <CurrentYearAmt>571414945</CurrentYearAmt>
+          <Year1Amt>570240973</Year1Amt>
+          <Year2Amt>567696999</Year2Amt>
+          <Year3Amt>559040789</Year3Amt>
+          <TotalAmt>2268393706</TotalAmt>
+        </TotalAssetsGrp>
+        <TotalAssetsSect4942j3BiGrp>
+          <CurrentYearAmt>463739558</CurrentYearAmt>
+          <Year1Amt>463739558</Year1Amt>
+          <Year2Amt>471023160</Year2Amt>
+          <Year3Amt>471023160</Year3Amt>
+          <TotalAmt>1869525436</TotalAmt>
+        </TotalAssetsSect4942j3BiGrp>
+      </PrivateOperatingFoundationsGrp>
+      <SupplementaryInformationGrp>
+        <ContributingManagerNm>VINAY K JAIN PRESIDENT-DIRECTOR</ContributingManagerNm>
+        <ContributingManagerNm>KANIKA V JAIN VP-SEC-DIRECTOR</ContributingManagerNm>
+        <ShareholderManagerNm>NOT APPLICABLE</ShareholderManagerNm>
+        <OnlyContriToPreselectedInd>X</OnlyContriToPreselectedInd>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>See Attachment XIV Line 3a</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientUSAddress>
+            <AddressLine1Txt>PMC Box 108 5930 Royal Lane Ste E</AddressLine1Txt>
+            <CityNm>Dallas</CityNm>
+            <StateAbbreviationCd>TX</StateAbbreviationCd>
+            <ZIPCd>75230</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>NONE</RecipientRelationshipTxt>
+          <RecipientFoundationStatusCd>PC</RecipientFoundationStatusCd>
+          <GrantOrContributionPurposeTxt>See Attachment</GrantOrContributionPurposeTxt>
+          <Amt>10500078</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <TotalGrantOrContriPdDurYrAmt>10500078</TotalGrantOrContriPdDurYrAmt>
+        <GrantOrContriApprvForFutGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>See Attachment XIV Line 3b</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientUSAddress>
+            <AddressLine1Txt>PMC Box 108 5930 Royal Lane Ste E</AddressLine1Txt>
+            <CityNm>Dallas</CityNm>
+            <StateAbbreviationCd>TX</StateAbbreviationCd>
+            <ZIPCd>75230</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>NONE</RecipientRelationshipTxt>
+          <RecipientFoundationStatusCd>PC</RecipientFoundationStatusCd>
+          <GrantOrContributionPurposeTxt>See Attachment</GrantOrContributionPurposeTxt>
+          <Amt>275724</Amt>
+        </GrantOrContriApprvForFutGrp>
+        <TotalGrantOrContriApprvFutAmt>275724</TotalGrantOrContriApprvFutAmt>
+      </SupplementaryInformationGrp>
+      <AnalysisIncomeProducingActyGrp>
+        <DividendsAndInterestFromSecDtl>
+          <ExclusionCd>14</ExclusionCd>
+          <ExclusionAmt>3039556</ExclusionAmt>
+        </DividendsAndInterestFromSecDtl>
+        <GainSalesAstOthThanInvntryGrp>
+          <ExclusionCd>18</ExclusionCd>
+          <ExclusionAmt>335</ExclusionAmt>
+        </GainSalesAstOthThanInvntryGrp>
+        <SubtotalsIncmProducingActyGrp>
+          <UnrelatedBusinessTaxblIncmAmt>0</UnrelatedBusinessTaxblIncmAmt>
+          <ExclusionAmt>3039891</ExclusionAmt>
+          <RelatedOrExemptFunctionIncmAmt>0</RelatedOrExemptFunctionIncmAmt>
+        </SubtotalsIncmProducingActyGrp>
+        <TotalIncomeProducingActyAmt>3039891</TotalIncomeProducingActyAmt>
+      </AnalysisIncomeProducingActyGrp>
+      <RlnOfActyToAccomOfExmptPrpsGrp>
+        <RlnOfActyToAccomOfExmptPrpsGrp>
+          <LineNumberTxt>Form</LineNumberTxt>
+          <RelationshipStatementTxt>Not Applicable</RelationshipStatementTxt>
+        </RlnOfActyToAccomOfExmptPrpsGrp>
+      </RlnOfActyToAccomOfExmptPrpsGrp>
+      <TrnsfrTransRlnNonchrtblEOGrp>
+        <TrnsfrOfCashToNonchrtblEOInd>false</TrnsfrOfCashToNonchrtblEOInd>
+        <TrnsfrOtherAssetNonchrtblEOInd>false</TrnsfrOtherAssetNonchrtblEOInd>
+        <SalesOrExchangesOfAssetsInd>false</SalesOrExchangesOfAssetsInd>
+        <PurchaseOfAssetsNonchrtblEOInd>false</PurchaseOfAssetsNonchrtblEOInd>
+        <RentalOfFacilitiesOthAssetsInd>false</RentalOfFacilitiesOthAssetsInd>
+        <ReimbursementArrangementsInd>false</ReimbursementArrangementsInd>
+        <LoansOrLoanGuaranteesInd>false</LoansOrLoanGuaranteesInd>
+        <PerformanceOfServicesEtcInd>false</PerformanceOfServicesEtcInd>
+        <SharingOfFacilitiesEtcInd>false</SharingOfFacilitiesEtcInd>
+        <RelationshipsNonchrtblEOInd>false</RelationshipsNonchrtblEOInd>
+      </TrnsfrTransRlnNonchrtblEOGrp>
+    </IRS990PF>
+    <AccountingFeesSchedule documentId="AccountingFeesSchedule" softwareId="25022866" softwareVersionNum="2025v4.1">
+      <AccountingFeesDetail>
+        <CategoryTxt>ACCOUNTING FEES</CategoryTxt>
+        <Amt>11130</Amt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>11130</DisbursementsCharitablePrpsAmt>
+      </AccountingFeesDetail>
+    </AccountingFeesSchedule>
+    <InvestmentsCorpBondsSchedule documentId="InvestmentsCorpBondsSchedule" softwareId="25022866" softwareVersionNum="2025v4.1">
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>Fidelity Corporate Bonds</BondNm>
+        <EOYBookValueAmt>30794389</EOYBookValueAmt>
+        <EOYFMVAmt>30794389</EOYFMVAmt>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>ACCRUED INTEREST</BondNm>
+        <EOYBookValueAmt>24542</EOYBookValueAmt>
+        <EOYFMVAmt>24542</EOYFMVAmt>
+      </InvestmentsCorporateBondsGrp>
+    </InvestmentsCorpBondsSchedule>
+    <InvestmentsCorpStockSchedule documentId="InvestmentsCorpStockSchedule" softwareId="25022866" softwareVersionNum="2025v4.1">
+      <InvestmentsCorporateStockGrp>
+        <StockNm>132,663.917 SHS OF VANGUARD TOTAL STOCK ETF</StockNm>
+        <EOYBookValueAmt>44478231</EOYBookValueAmt>
+        <EOYFMVAmt>44478231</EOYFMVAmt>
+      </InvestmentsCorporateStockGrp>
+    </InvestmentsCorpStockSchedule>
+    <InvestmentsGovtObligationsSch documentId="InvestmentsGovtObligations" softwareId="25022866" softwareVersionNum="2025v4.1">
+      <USGovtObligationsBookVlEOYAmt>30567157</USGovtObligationsBookVlEOYAmt>
+      <USGovtObligationsEOYFMVAmt>30567157</USGovtObligationsEOYFMVAmt>
+      <StateLocalSecBookVlEOYAmt>0</StateLocalSecBookVlEOYAmt>
+      <StateLocalSecEOYFMVAmt>0</StateLocalSecEOYFMVAmt>
+    </InvestmentsGovtObligationsSch>
+    <OtherAssetsSchedule documentId="OtherAssetsSchedule" softwareId="25022866" softwareVersionNum="2025v4.1">
+      <OtherAssetsScheduleGrp>
+        <Desc>TEXTUAL COLLECTION</Desc>
+        <BOYBookValueAmt>14993</BOYBookValueAmt>
+        <EOYBookValueAmt>14993</EOYBookValueAmt>
+        <EOYFMVAmt>14993</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>ART &amp; ANTIQUITIES COLLECTION</Desc>
+        <BOYBookValueAmt>112525</BOYBookValueAmt>
+        <EOYBookValueAmt>112525</EOYBookValueAmt>
+        <EOYFMVAmt>112525</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>TRIMER BIOTECH LLC</Desc>
+        <BOYBookValueAmt>184419410</BOYBookValueAmt>
+        <EOYBookValueAmt>184419410</EOYBookValueAmt>
+        <EOYFMVAmt>184419410</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>MENTRIK BIOTECH LLC</Desc>
+        <BOYBookValueAmt>279192630</BOYBookValueAmt>
+        <EOYBookValueAmt>279192630</EOYBookValueAmt>
+        <EOYFMVAmt>279192630</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+    </OtherAssetsSchedule>
+    <OtherDecreasesSchedule documentId="OtherDecreasesSchedule" softwareId="25022866" softwareVersionNum="2025v4.1">
+      <OtherDecreasesDetail>
+        <Desc>TIMING DIFFERENCES</Desc>
+        <Amt>62286</Amt>
+      </OtherDecreasesDetail>
+    </OtherDecreasesSchedule>
+    <OtherExpensesSchedule documentId="OtherExpensesSchedule" softwareId="25022866" softwareVersionNum="2025v4.1">
+      <OtherExpensesScheduleGrp>
+        <Desc>BANK FEES</Desc>
+        <RevenueAndExpensesPerBooksAmt>200</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>200</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>200</AdjustedNetIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>0</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>SAMPLE STORAGE</Desc>
+        <RevenueAndExpensesPerBooksAmt>1500</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>0</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>GRANT WIRE TRANSFER FEES</Desc>
+        <RevenueAndExpensesPerBooksAmt>2875</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>2875</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+    </OtherExpensesSchedule>
+    <OtherIncreasesSchedule documentId="OtherIncreasesSchedule" softwareId="25022866" softwareVersionNum="2025v4.1">
+      <OtherIncreasesDetail>
+        <Desc>UNREALIZED GAIN ON INVESTMENTS</Desc>
+        <Amt>8832225</Amt>
+      </OtherIncreasesDetail>
+    </OtherIncreasesSchedule>
+    <OtherLiabilitiesSchedule documentId="OtherLiabilitiesSchedule" softwareId="25022866" softwareVersionNum="2025v4.1">
+      <OtherLiabilitiesDetail>
+        <Desc>Excise Tax Payable</Desc>
+        <BOYBookValueAmt>14420</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+      </OtherLiabilitiesDetail>
+    </OtherLiabilitiesSchedule>
+    <TaxesSchedule documentId="TaxesSchedule" softwareId="25022866" softwareVersionNum="2025v4.1">
+      <TaxesDetail>
+        <CategoryTxt>EXCISE TAX</CategoryTxt>
+        <Amt>139665</Amt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>0</DisbursementsCharitablePrpsAmt>
+      </TaxesDetail>
+    </TaxesSchedule>
+    <TransfersFrmControlledEntities documentId="FromControlledEntities" softwareId="25022866" softwareVersionNum="2025v4.1">
+      <TransfersFromControlledEntGrp>
+        <BusinessName>
+          <BusinessNameLine1Txt>Trimer Biotech LLC</BusinessNameLine1Txt>
+        </BusinessName>
+        <USAddress>
+          <AddressLine1Txt>10710 INWOOD RD</AddressLine1Txt>
+          <CityNm>DALLAS</CityNm>
+          <StateAbbreviationCd>TX</StateAbbreviationCd>
+          <ZIPCd>752295454</ZIPCd>
+        </USAddress>
+        <EIN>454980269</EIN>
+        <Desc>100% owned; functionally related business</Desc>
+        <Amt>0</Amt>
+      </TransfersFromControlledEntGrp>
+      <TransfersFromControlledEntGrp>
+        <BusinessName>
+          <BusinessNameLine1Txt>Mentrik Biotech LLC</BusinessNameLine1Txt>
+        </BusinessName>
+        <USAddress>
+          <AddressLine1Txt>10710 INWOOD RD</AddressLine1Txt>
+          <CityNm>DALLAS</CityNm>
+          <StateAbbreviationCd>TX</StateAbbreviationCd>
+          <ZIPCd>752295454</ZIPCd>
+        </USAddress>
+        <EIN>274156535</EIN>
+        <Desc>100% owned; functionally related business</Desc>
+        <Amt>0</Amt>
+      </TransfersFromControlledEntGrp>
+    </TransfersFrmControlledEntities>
+  </ReturnData>
+</Return>

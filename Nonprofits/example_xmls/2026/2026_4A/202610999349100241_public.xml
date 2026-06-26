@@ -1,0 +1,626 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Return xmlns="http://www.irs.gov/efile" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.irs.gov/efile" returnVersion="2025v4.1">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2026-04-09T17:17:09-05:00</ReturnTs>
+    <TaxPeriodEndDt>2025-12-31</TaxPeriodEndDt>
+    <PreparerFirmGrp>
+      <PreparerFirmEIN>450250958</PreparerFirmEIN>
+      <PreparerFirmName>
+        <BusinessNameLine1Txt>Eide Bailly LLP</BusinessNameLine1Txt>
+      </PreparerFirmName>
+      <PreparerUSAddress>
+        <AddressLine1Txt>800 Nicollet Mall Ste 1300</AddressLine1Txt>
+        <CityNm>Minneapolis</CityNm>
+        <StateAbbreviationCd>MN</StateAbbreviationCd>
+        <ZIPCd>554027033</ZIPCd>
+      </PreparerUSAddress>
+    </PreparerFirmGrp>
+    <ReturnTypeCd>990PF</ReturnTypeCd>
+    <TaxPeriodBeginDt>2025-01-01</TaxPeriodBeginDt>
+    <Filer>
+      <EIN>311802268</EIN>
+      <BusinessName>
+        <BusinessNameLine1Txt>Gerald C Fox Foundation</BusinessNameLine1Txt>
+      </BusinessName>
+      <BusinessNameControlTxt>GERA</BusinessNameControlTxt>
+      <PhoneNum>7635440321</PhoneNum>
+      <USAddress>
+        <AddressLine1Txt>5735 Lindsay St</AddressLine1Txt>
+        <CityNm>Minneapolis</CityNm>
+        <StateAbbreviationCd>MN</StateAbbreviationCd>
+        <ZIPCd>554224655</ZIPCd>
+      </USAddress>
+    </Filer>
+    <BusinessOfficerGrp>
+      <PersonNm>William D Pickell</PersonNm>
+      <PersonTitleTxt>Secretary</PersonTitleTxt>
+      <PhoneNum>7635440321</PhoneNum>
+      <SignatureDt>2026-04-08</SignatureDt>
+      <DiscussWithPaidPreparerInd>1</DiscussWithPaidPreparerInd>
+    </BusinessOfficerGrp>
+    <PreparerPersonGrp>
+      <PreparerPersonNm>Deb Nelson CPA</PreparerPersonNm>
+      <PTIN>P01264758</PTIN>
+      <PhoneNum>6122536500</PhoneNum>
+      <PreparationDt>2026-04-08</PreparationDt>
+    </PreparerPersonGrp>
+    <TaxYr>2025</TaxYr>
+    <BuildTS>2025-03-06 01:10:19Z</BuildTS>
+  </ReturnHeader>
+  <ReturnData documentCnt="10">
+    <IRS990PF documentId="RetDoc1235000001" referenceDocumentId="RetDoc1175200001">
+      <Organization501c3ExemptPFInd>X</Organization501c3ExemptPFInd>
+      <FMVAssetsEOYAmt>5357043</FMVAssetsEOYAmt>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <AnalysisOfRevenueAndExpenses>
+        <ContriRcvdRevAndExpnssAmt>5173181</ContriRcvdRevAndExpnssAmt>
+        <InterestOnSavRevAndExpnssAmt>5515</InterestOnSavRevAndExpnssAmt>
+        <InterestOnSavNetInvstIncmAmt>5515</InterestOnSavNetInvstIncmAmt>
+        <CapGainNetIncmNetInvstIncmAmt>0</CapGainNetIncmNetInvstIncmAmt>
+        <TotalRevAndExpnssAmt>5178696</TotalRevAndExpnssAmt>
+        <TotalNetInvstIncmAmt>5515</TotalNetInvstIncmAmt>
+        <CompOfcrDirTrstRevAndExpnssAmt>0</CompOfcrDirTrstRevAndExpnssAmt>
+        <CompOfcrDirTrstNetInvstIncmAmt>0</CompOfcrDirTrstNetInvstIncmAmt>
+        <CompOfcrDirTrstDsbrsChrtblAmt>0</CompOfcrDirTrstDsbrsChrtblAmt>
+        <LegalFeesRevAndExpnssAmt referenceDocumentId="RetDoc2002100001">176909</LegalFeesRevAndExpnssAmt>
+        <LegalFeesNetInvstIncmAmt>0</LegalFeesNetInvstIncmAmt>
+        <LegalFeesDsbrsChrtblAmt>176909</LegalFeesDsbrsChrtblAmt>
+        <AccountingFeesRevAndExpnssAmt referenceDocumentId="RetDoc2002200001">5019</AccountingFeesRevAndExpnssAmt>
+        <AccountingFeesNetInvstIncmAmt>0</AccountingFeesNetInvstIncmAmt>
+        <AccountingFeesChrtblPrpsAmt>5019</AccountingFeesChrtblPrpsAmt>
+        <OtherProfFeesRevAndExpnssAmt referenceDocumentId="RetDoc2002300001">5625</OtherProfFeesRevAndExpnssAmt>
+        <OtherProfFeesNetInvstIncmAmt>0</OtherProfFeesNetInvstIncmAmt>
+        <OtherProfFeesDsbrsChrtblAmt>5625</OtherProfFeesDsbrsChrtblAmt>
+        <TaxesRevAndExpnssAmt referenceDocumentId="RetDoc2002500001">20</TaxesRevAndExpnssAmt>
+        <TaxesNetInvstIncmAmt>0</TaxesNetInvstIncmAmt>
+        <TaxesDsbrsChrtblAmt>0</TaxesDsbrsChrtblAmt>
+        <OtherExpensesRevAndExpnssAmt referenceDocumentId="RetDoc2003200001">75</OtherExpensesRevAndExpnssAmt>
+        <OtherExpensesNetInvstIncmAmt>50</OtherExpensesNetInvstIncmAmt>
+        <OtherExpensesDsbrsChrtblAmt>25</OtherExpensesDsbrsChrtblAmt>
+        <TotOprExpensesRevAndExpnssAmt>187648</TotOprExpensesRevAndExpnssAmt>
+        <TotOprExpensesNetInvstIncmAmt>50</TotOprExpensesNetInvstIncmAmt>
+        <TotOprExpensesDsbrsChrtblAmt>187578</TotOprExpensesDsbrsChrtblAmt>
+        <ContriPaidRevAndExpnssAmt>0</ContriPaidRevAndExpnssAmt>
+        <ContriPaidDsbrsChrtblAmt>0</ContriPaidDsbrsChrtblAmt>
+        <TotalExpensesRevAndExpnssAmt>187648</TotalExpensesRevAndExpnssAmt>
+        <TotalExpensesNetInvstIncmAmt>50</TotalExpensesNetInvstIncmAmt>
+        <TotalExpensesDsbrsChrtblAmt>187578</TotalExpensesDsbrsChrtblAmt>
+        <ExcessRevenueOverExpensesAmt>4991048</ExcessRevenueOverExpensesAmt>
+        <NetInvestmentIncomeAmt>5465</NetInvestmentIncomeAmt>
+      </AnalysisOfRevenueAndExpenses>
+      <Form990PFBalanceSheetsGrp>
+        <SavAndTempCashInvstBOYAmt>365995</SavAndTempCashInvstBOYAmt>
+        <SavAndTempCashInvstEOYAmt>365162</SavAndTempCashInvstEOYAmt>
+        <SavAndTempCashInvstEOYFMVAmt>365162</SavAndTempCashInvstEOYFMVAmt>
+        <RcvblFromOfficersEOYAmt referenceDocumentId="RetDoc2058400001">4991881</RcvblFromOfficersEOYAmt>
+        <RcvblFromOfficersEOYFMVAmt>4991881</RcvblFromOfficersEOYFMVAmt>
+        <TotalAssetsBOYAmt>365995</TotalAssetsBOYAmt>
+        <TotalAssetsEOYAmt>5357043</TotalAssetsEOYAmt>
+        <TotalAssetsEOYFMVAmt>5357043</TotalAssetsEOYFMVAmt>
+        <LoansFromOfficersBOYAmt>1239594</LoansFromOfficersBOYAmt>
+        <LoansFromOfficersEOYAmt referenceDocumentId="RetDoc2203200001">1239594</LoansFromOfficersEOYAmt>
+        <TotalLiabilitiesBOYAmt>1239594</TotalLiabilitiesBOYAmt>
+        <TotalLiabilitiesEOYAmt>1239594</TotalLiabilitiesEOYAmt>
+        <OrgDoesNotFollowFASB117Ind>X</OrgDoesNotFollowFASB117Ind>
+        <CapitalStockBOYAmt>0</CapitalStockBOYAmt>
+        <CapitalStockEOYAmt>0</CapitalStockEOYAmt>
+        <AdditionalPaidInCapitalBOYAmt>0</AdditionalPaidInCapitalBOYAmt>
+        <AdditionalPaidInCapitalEOYAmt>0</AdditionalPaidInCapitalEOYAmt>
+        <RetainedEarningBOYAmt>-873599</RetainedEarningBOYAmt>
+        <RetainedEarningEOYAmt>4117449</RetainedEarningEOYAmt>
+        <TotNetAstOrFundBalancesBOYAmt>-873599</TotNetAstOrFundBalancesBOYAmt>
+        <TotNetAstOrFundBalancesEOYAmt>4117449</TotNetAstOrFundBalancesEOYAmt>
+        <TotalLiabilitiesNetAstBOYAmt>365995</TotalLiabilitiesNetAstBOYAmt>
+        <TotalLiabilitiesNetAstEOYAmt>5357043</TotalLiabilitiesNetAstEOYAmt>
+      </Form990PFBalanceSheetsGrp>
+      <ChgInNetAssetsFundBalancesGrp>
+        <TotNetAstOrFundBalancesBOYAmt>-873599</TotNetAstOrFundBalancesBOYAmt>
+        <ExcessRevenueOverExpensesAmt>4991048</ExcessRevenueOverExpensesAmt>
+        <OtherIncreasesAmt>0</OtherIncreasesAmt>
+        <SubtotalAmt>4117449</SubtotalAmt>
+        <OtherDecreasesAmt>0</OtherDecreasesAmt>
+        <TotNetAstOrFundBalancesEOYAmt>4117449</TotNetAstOrFundBalancesEOYAmt>
+      </ChgInNetAssetsFundBalancesGrp>
+      <ExciseTaxBasedOnInvstIncmGrp>
+        <InvestmentIncomeExciseTaxAmt>76</InvestmentIncomeExciseTaxAmt>
+        <TaxUnderSection511Amt>0</TaxUnderSection511Amt>
+        <SubtotalAmt>76</SubtotalAmt>
+        <SubtitleATaxAmt>0</SubtitleATaxAmt>
+        <TaxBasedOnInvestmentIncomeAmt>76</TaxBasedOnInvestmentIncomeAmt>
+        <EstimatedPlusOvpmtIncmTxAmt>0</EstimatedPlusOvpmtIncmTxAmt>
+        <ExemptFrgnOrgTaxWthldAtSrceAmt>0</ExemptFrgnOrgTaxWthldAtSrceAmt>
+        <ExtsnRequestIncomeTaxPaidAmt>0</ExtsnRequestIncomeTaxPaidAmt>
+        <BackupWithholdingWithheldAmt>0</BackupWithholdingWithheldAmt>
+        <TotalPaymentsAndCreditsAmt>0</TotalPaymentsAndCreditsAmt>
+        <EsPenaltyAmt>0</EsPenaltyAmt>
+        <TaxDueAmt>76</TaxDueAmt>
+      </ExciseTaxBasedOnInvstIncmGrp>
+      <StatementsRegardingActyGrp>
+        <LegislativePoliticalActyInd>0</LegislativePoliticalActyInd>
+        <MoreThan100SpentInd>0</MoreThan100SpentInd>
+        <Form1120POLFiledInd>0</Form1120POLFiledInd>
+        <Section4955OrganizationTaxAmt>0</Section4955OrganizationTaxAmt>
+        <Section4955ManagersTaxAmt>0</Section4955ManagersTaxAmt>
+        <TaxReimbursedAmt>0</TaxReimbursedAmt>
+        <ActivitiesNotPreviouslyRptInd>0</ActivitiesNotPreviouslyRptInd>
+        <ChangesToArticlesOrBylawsInd>0</ChangesToArticlesOrBylawsInd>
+        <UnrelatedBusIncmOverLimitInd>0</UnrelatedBusIncmOverLimitInd>
+        <OrganizationDissolvedEtcInd>0</OrganizationDissolvedEtcInd>
+        <Section508eRqrSatisfiedInd>1</Section508eRqrSatisfiedInd>
+        <AtLeast5000InAssetsInd>1</AtLeast5000InAssetsInd>
+        <OrgReportOrRegisterStateCd>MN</OrgReportOrRegisterStateCd>
+        <Form990PFFiledWithAttyGenInd>1</Form990PFFiledWithAttyGenInd>
+        <PrivateOperatingFoundationInd>0</PrivateOperatingFoundationInd>
+        <NewSubstantialContributorsInd>0</NewSubstantialContributorsInd>
+        <OwnControlledEntityInd>0</OwnControlledEntityInd>
+        <DonorAdvisedFundInd>0</DonorAdvisedFundInd>
+        <ComplyWithPublicInspRqrInd>1</ComplyWithPublicInspRqrInd>
+        <WebsiteAddressTxt>N/A</WebsiteAddressTxt>
+        <IndividualWithBooksNm>Willam D Pickell</IndividualWithBooksNm>
+        <PhoneNum>8555440321</PhoneNum>
+        <LocationOfBooksUSAddress>
+          <AddressLine1Txt>5735 Lindsay Street</AddressLine1Txt>
+          <CityNm>Minneapolis</CityNm>
+          <StateAbbreviationCd>MN</StateAbbreviationCd>
+          <ZIPCd>55422</ZIPCd>
+        </LocationOfBooksUSAddress>
+        <ForeignAccountsQuestionInd>0</ForeignAccountsQuestionInd>
+      </StatementsRegardingActyGrp>
+      <StatementsRegardingActy4720Grp>
+        <SaleOrExchDisqualifiedPrsnInd>0</SaleOrExchDisqualifiedPrsnInd>
+        <BrrwOrLendDisqualifiedPrsnInd>1</BrrwOrLendDisqualifiedPrsnInd>
+        <FurnGoodsDisqualifiedPrsnInd>0</FurnGoodsDisqualifiedPrsnInd>
+        <PayCompDisqualifiedPrsnInd>0</PayCompDisqualifiedPrsnInd>
+        <TransferAstDisqualifiedPrsnInd>0</TransferAstDisqualifiedPrsnInd>
+        <PaymentToGovernmentOfficialInd>0</PaymentToGovernmentOfficialInd>
+        <ActsFailToQlfyAsExceptionsInd>0</ActsFailToQlfyAsExceptionsInd>
+        <UncorrectedPriorActsInd>0</UncorrectedPriorActsInd>
+        <UndistributedIncomePYInd>0</UndistributedIncomePYInd>
+        <BusinessHoldingsInd>0</BusinessHoldingsInd>
+        <JeopardyInvestmentsInd>0</JeopardyInvestmentsInd>
+        <UncorrectedPYJeopardyInvstInd>0</UncorrectedPYJeopardyInvstInd>
+        <InfluenceLegislationInd>0</InfluenceLegislationInd>
+        <InfluenceElectionInd>0</InfluenceElectionInd>
+        <GrantsToIndividualsInd>0</GrantsToIndividualsInd>
+        <GrantsToOrganizationsInd>0</GrantsToOrganizationsInd>
+        <NoncharitablePurposeInd>0</NoncharitablePurposeInd>
+        <RcvFndsToPayPrsnlBnftCntrctInd>0</RcvFndsToPayPrsnlBnftCntrctInd>
+        <PayPremiumsPrsnlBnftCntrctInd>0</PayPremiumsPrsnlBnftCntrctInd>
+        <ProhibitedTaxShelterTransInd>0</ProhibitedTaxShelterTransInd>
+        <SubjToTaxRmnrtnExPrchtPymtInd>0</SubjToTaxRmnrtnExPrchtPymtInd>
+      </StatementsRegardingActy4720Grp>
+      <OfficerDirTrstKeyEmplInfoGrp>
+        <OfficerDirTrstKeyEmplGrp>
+          <PersonNm>David K Fox</PersonNm>
+          <USAddress>
+            <AddressLine1Txt>PO Box 1325</AddressLine1Txt>
+            <CityNm>Boca Grande</CityNm>
+            <StateAbbreviationCd>FL</StateAbbreviationCd>
+            <ZIPCd>33921</ZIPCd>
+          </USAddress>
+          <TitleTxt>Director</TitleTxt>
+          <AverageHrsPerWkDevotedToPosRt>1.00</AverageHrsPerWkDevotedToPosRt>
+          <CompensationAmt>0</CompensationAmt>
+          <EmployeeBenefitProgramAmt>0</EmployeeBenefitProgramAmt>
+          <ExpenseAccountOtherAllwncAmt>0</ExpenseAccountOtherAllwncAmt>
+        </OfficerDirTrstKeyEmplGrp>
+        <OfficerDirTrstKeyEmplGrp>
+          <PersonNm>Margene Fox</PersonNm>
+          <USAddress>
+            <AddressLine1Txt>PO Box 1325</AddressLine1Txt>
+            <CityNm>Boca Grande</CityNm>
+            <StateAbbreviationCd>FL</StateAbbreviationCd>
+            <ZIPCd>33921</ZIPCd>
+          </USAddress>
+          <TitleTxt>Director</TitleTxt>
+          <AverageHrsPerWkDevotedToPosRt>1.00</AverageHrsPerWkDevotedToPosRt>
+          <CompensationAmt>0</CompensationAmt>
+          <EmployeeBenefitProgramAmt>0</EmployeeBenefitProgramAmt>
+          <ExpenseAccountOtherAllwncAmt>0</ExpenseAccountOtherAllwncAmt>
+        </OfficerDirTrstKeyEmplGrp>
+        <OfficerDirTrstKeyEmplGrp>
+          <PersonNm>Allison K Fox-Greene</PersonNm>
+          <USAddress>
+            <AddressLine1Txt>253 Lake Street E Apt 405</AddressLine1Txt>
+            <CityNm>Wayzata</CityNm>
+            <StateAbbreviationCd>MN</StateAbbreviationCd>
+            <ZIPCd>55391</ZIPCd>
+          </USAddress>
+          <TitleTxt>Director</TitleTxt>
+          <AverageHrsPerWkDevotedToPosRt>1.00</AverageHrsPerWkDevotedToPosRt>
+          <CompensationAmt>0</CompensationAmt>
+          <EmployeeBenefitProgramAmt>0</EmployeeBenefitProgramAmt>
+          <ExpenseAccountOtherAllwncAmt>0</ExpenseAccountOtherAllwncAmt>
+        </OfficerDirTrstKeyEmplGrp>
+        <OfficerDirTrstKeyEmplGrp>
+          <PersonNm>Charles B Fox</PersonNm>
+          <USAddress>
+            <AddressLine1Txt>459 Field Point Road</AddressLine1Txt>
+            <CityNm>Greenwich</CityNm>
+            <StateAbbreviationCd>CT</StateAbbreviationCd>
+            <ZIPCd>06830</ZIPCd>
+          </USAddress>
+          <TitleTxt>Director</TitleTxt>
+          <AverageHrsPerWkDevotedToPosRt>1.00</AverageHrsPerWkDevotedToPosRt>
+          <CompensationAmt>0</CompensationAmt>
+          <EmployeeBenefitProgramAmt>0</EmployeeBenefitProgramAmt>
+          <ExpenseAccountOtherAllwncAmt>0</ExpenseAccountOtherAllwncAmt>
+        </OfficerDirTrstKeyEmplGrp>
+        <OfficerDirTrstKeyEmplGrp>
+          <PersonNm>William D Pickell</PersonNm>
+          <USAddress>
+            <AddressLine1Txt>3704 Pauly Farm Circle</AddressLine1Txt>
+            <CityNm>St Bonifacius</CityNm>
+            <StateAbbreviationCd>MN</StateAbbreviationCd>
+            <ZIPCd>56375</ZIPCd>
+          </USAddress>
+          <TitleTxt>Secretary</TitleTxt>
+          <AverageHrsPerWkDevotedToPosRt>1.00</AverageHrsPerWkDevotedToPosRt>
+          <CompensationAmt>0</CompensationAmt>
+          <EmployeeBenefitProgramAmt>0</EmployeeBenefitProgramAmt>
+          <ExpenseAccountOtherAllwncAmt>0</ExpenseAccountOtherAllwncAmt>
+        </OfficerDirTrstKeyEmplGrp>
+        <CompOfHghstPdEmplOrNONETxt>NONE</CompOfHghstPdEmplOrNONETxt>
+        <OtherEmployeePaidOver50kCnt>0</OtherEmployeePaidOver50kCnt>
+        <CompensationOfHghstPdCntrctGrp>
+          <BusinessName>
+            <BusinessNameLine1Txt>Buchalter Nemer</BusinessNameLine1Txt>
+          </BusinessName>
+          <USAddress>
+            <AddressLine1Txt>1000 Wilshire Boulevard Suite 1500</AddressLine1Txt>
+            <CityNm>Los Angeles</CityNm>
+            <StateAbbreviationCd>CA</StateAbbreviationCd>
+            <ZIPCd>900171730</ZIPCd>
+          </USAddress>
+          <ServiceTypeTxt>Legal</ServiceTypeTxt>
+          <CompensationAmt>90972</CompensationAmt>
+        </CompensationOfHghstPdCntrctGrp>
+        <CompensationOfHghstPdCntrctGrp>
+          <BusinessName>
+            <BusinessNameLine1Txt>Fredrikson &amp; Byron PA</BusinessNameLine1Txt>
+          </BusinessName>
+          <USAddress>
+            <AddressLine1Txt>200 South Sixth Street Suite 4000</AddressLine1Txt>
+            <CityNm>Minneapolis</CityNm>
+            <StateAbbreviationCd>MN</StateAbbreviationCd>
+            <ZIPCd>554021425</ZIPCd>
+          </USAddress>
+          <ServiceTypeTxt>Legal</ServiceTypeTxt>
+          <CompensationAmt>85937</CompensationAmt>
+        </CompensationOfHghstPdCntrctGrp>
+        <ContractorPaidOver50kCnt>0</ContractorPaidOver50kCnt>
+      </OfficerDirTrstKeyEmplInfoGrp>
+      <SumOfProgramRelatedInvstGrp>
+        <TotalAmt>0</TotalAmt>
+      </SumOfProgramRelatedInvstGrp>
+      <MinimumInvestmentReturnGrp>
+        <AverageMonthlyFMVOfSecAmt>0</AverageMonthlyFMVOfSecAmt>
+        <AverageMonthlyCashBalancesAmt>448772</AverageMonthlyCashBalancesAmt>
+        <FMVAllOtherNoncharitableAstAmt>207995</FMVAllOtherNoncharitableAstAmt>
+        <TotalFMVOfUnusedAssetsAmt>656767</TotalFMVOfUnusedAssetsAmt>
+        <ReductionClaimedAmt>0</ReductionClaimedAmt>
+        <AcquisitionIndebtednessAmt>0</AcquisitionIndebtednessAmt>
+        <AdjustedTotalFMVOfUnusedAstAmt>656767</AdjustedTotalFMVOfUnusedAstAmt>
+        <CashDeemedCharitableAmt>9852</CashDeemedCharitableAmt>
+        <NetVlNoncharitableAssetsAmt>646915</NetVlNoncharitableAssetsAmt>
+        <MinimumInvestmentReturnAmt>32346</MinimumInvestmentReturnAmt>
+      </MinimumInvestmentReturnGrp>
+      <DistributableAmountGrp>
+        <MinimumInvestmentReturnAmt>32346</MinimumInvestmentReturnAmt>
+        <TaxBasedOnInvestmentIncomeAmt>76</TaxBasedOnInvestmentIncomeAmt>
+        <TotalTaxAmt>76</TotalTaxAmt>
+        <DistributableBeforeAdjAmt>32270</DistributableBeforeAdjAmt>
+        <RecoveriesQualfiedDistriAmt>0</RecoveriesQualfiedDistriAmt>
+        <DistributableBeforeDedAmt>32270</DistributableBeforeDedAmt>
+        <DeductionFromDistributableAmt>0</DeductionFromDistributableAmt>
+        <DistributableAsAdjustedAmt>32270</DistributableAsAdjustedAmt>
+      </DistributableAmountGrp>
+      <PFQualifyingDistributionsGrp>
+        <ExpensesAndContributionsAmt>187578</ExpensesAndContributionsAmt>
+        <ProgramRelatedInvstTotalAmt>0</ProgramRelatedInvstTotalAmt>
+        <QualifyingDistributionsAmt>187578</QualifyingDistributionsAmt>
+      </PFQualifyingDistributionsGrp>
+      <UndistributedIncomeGrp>
+        <DistributableAsAdjustedAmt>32270</DistributableAsAdjustedAmt>
+        <UndistributedIncomePYAmt>0</UndistributedIncomePYAmt>
+        <TotalForPriorYearsAmt>0</TotalForPriorYearsAmt>
+        <ExcessDistributionCyovYr3Amt>32448</ExcessDistributionCyovYr3Amt>
+        <ExcessDistributionCyovYr1Amt>253229</ExcessDistributionCyovYr1Amt>
+        <TotalExcessDistributionCyovAmt>285677</TotalExcessDistributionCyovAmt>
+        <QualifyingDistributionsAmt>187578</QualifyingDistributionsAmt>
+        <AppliedToYear1Amt>0</AppliedToYear1Amt>
+        <AppliedToPriorYearsAmt>0</AppliedToPriorYearsAmt>
+        <TreatedAsDistriFromCorpusAmt>0</TreatedAsDistriFromCorpusAmt>
+        <AppliedToCurrentYearAmt>32270</AppliedToCurrentYearAmt>
+        <RemainingDistriFromCorpusAmt>155308</RemainingDistriFromCorpusAmt>
+        <ExcessDistriCyovAppCYCorpusAmt>0</ExcessDistriCyovAppCYCorpusAmt>
+        <ExcessDistributionCyovAppCYAmt>0</ExcessDistributionCyovAppCYAmt>
+        <TotalCorpusAmt>440985</TotalCorpusAmt>
+        <PriorYearUndistributedIncmAmt>0</PriorYearUndistributedIncmAmt>
+        <PriorYearDeficiencyOrTaxAmt>0</PriorYearDeficiencyOrTaxAmt>
+        <Taxable1Amt>0</Taxable1Amt>
+        <Taxable2Amt>0</Taxable2Amt>
+        <UndistributedIncomeCYAmt>0</UndistributedIncomeCYAmt>
+        <CorpusDistri170b1EOr4942g3Amt>0</CorpusDistri170b1EOr4942g3Amt>
+        <ExcessDistriCyovFromYr5Amt>0</ExcessDistriCyovFromYr5Amt>
+        <ExcessDistriCyovToNextYrAmt>440985</ExcessDistriCyovToNextYrAmt>
+        <ExcessFromYear3Amt>32448</ExcessFromYear3Amt>
+        <ExcessFromYear1Amt>253229</ExcessFromYear1Amt>
+        <ExcessFromCurrentYearAmt>155308</ExcessFromCurrentYearAmt>
+      </UndistributedIncomeGrp>
+      <SupplementaryInformationGrp>
+        <OnlyContriToPreselectedInd>X</OnlyContriToPreselectedInd>
+        <TotalGrantOrContriPdDurYrAmt>0</TotalGrantOrContriPdDurYrAmt>
+        <TotalGrantOrContriApprvFutAmt>0</TotalGrantOrContriApprvFutAmt>
+      </SupplementaryInformationGrp>
+      <AnalysisIncomeProducingActyGrp>
+        <IntOnSavAndTempCashInvstGrp>
+          <ExclusionCd>14</ExclusionCd>
+          <ExclusionAmt>5515</ExclusionAmt>
+        </IntOnSavAndTempCashInvstGrp>
+        <SubtotalsIncmProducingActyGrp>
+          <UnrelatedBusinessTaxblIncmAmt>0</UnrelatedBusinessTaxblIncmAmt>
+          <ExclusionAmt>5515</ExclusionAmt>
+          <RelatedOrExemptFunctionIncmAmt>0</RelatedOrExemptFunctionIncmAmt>
+        </SubtotalsIncmProducingActyGrp>
+        <TotalIncomeProducingActyAmt>5515</TotalIncomeProducingActyAmt>
+      </AnalysisIncomeProducingActyGrp>
+      <TrnsfrTransRlnNonchrtblEOGrp>
+        <TrnsfrOfCashToNonchrtblEOInd>0</TrnsfrOfCashToNonchrtblEOInd>
+        <TrnsfrOtherAssetNonchrtblEOInd>0</TrnsfrOtherAssetNonchrtblEOInd>
+        <SalesOrExchangesOfAssetsInd>0</SalesOrExchangesOfAssetsInd>
+        <PurchaseOfAssetsNonchrtblEOInd>0</PurchaseOfAssetsNonchrtblEOInd>
+        <RentalOfFacilitiesOthAssetsInd>0</RentalOfFacilitiesOthAssetsInd>
+        <ReimbursementArrangementsInd>0</ReimbursementArrangementsInd>
+        <LoansOrLoanGuaranteesInd>0</LoansOrLoanGuaranteesInd>
+        <PerformanceOfServicesEtcInd>0</PerformanceOfServicesEtcInd>
+        <SharingOfFacilitiesEtcInd>0</SharingOfFacilitiesEtcInd>
+        <RelationshipsNonchrtblEOInd>0</RelationshipsNonchrtblEOInd>
+      </TrnsfrTransRlnNonchrtblEOGrp>
+    </IRS990PF>
+    <IRS990ScheduleB documentId="RetDoc1234500001">
+      <Organization501c3ExemptPFInd>X</Organization501c3ExemptPFInd>
+      <GeneralRuleInd>X</GeneralRuleInd>
+      <ContributorInformationGrp>
+        <ContributorNum>1</ContributorNum>
+        <ContributorBusinessName>
+          <BusinessNameLine1Txt>Gerald Fox Trust</BusinessNameLine1Txt>
+        </ContributorBusinessName>
+        <ContributorUSAddress>
+          <AddressLine1Txt>BMO Bank NA 320 S Canal Street 12th</AddressLine1Txt>
+          <CityNm>Chicago</CityNm>
+          <StateAbbreviationCd>IL</StateAbbreviationCd>
+          <ZIPCd>60606</ZIPCd>
+        </ContributorUSAddress>
+        <TotalContributionsAmt>5173181</TotalContributionsAmt>
+        <PersonContributionInd>X</PersonContributionInd>
+        <NoncashContributionInd>X</NoncashContributionInd>
+      </ContributorInformationGrp>
+      <NonCashPropertyContributionGrp>
+        <ContributorNum>1</ContributorNum>
+        <NoncashPropertyDesc>Notes Receivable</NoncashPropertyDesc>
+        <FairMarketValueAmt>4991881</FairMarketValueAmt>
+        <ReceivedDt>2025-12-31</ReceivedDt>
+      </NonCashPropertyContributionGrp>
+    </IRS990ScheduleB>
+    <AccountingFeesSchedule documentId="RetDoc2002200001">
+      <AccountingFeesDetail>
+        <CategoryTxt>Accounting Fees</CategoryTxt>
+        <Amt>5019</Amt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>5019</DisbursementsCharitablePrpsAmt>
+      </AccountingFeesDetail>
+    </AccountingFeesSchedule>
+    <GeneralExplanationAttachment documentId="RetDoc1175200001">
+      <GeneralExplanationGrp>
+        <FormAndLineReferenceDesc>Page 1, Part I Line 16A and Page 2, Part II Line 20</FormAndLineReferenceDesc>
+        <MediumExplanationTxt>Legal fees of $176,909 were incurred in 2025 with respect to litigation with a former foundation director to preserve its assets for its charitable purpose. Loans were obtained to pay the current year legal fees incurred in defense of the foundation's assets.</MediumExplanationTxt>
+      </GeneralExplanationGrp>
+    </GeneralExplanationAttachment>
+    <LegalFeesSchedule documentId="RetDoc2002100001">
+      <LegalFeesGrp>
+        <CategoryTxt>Legal Fees - See Statement 9</CategoryTxt>
+        <LegalFeesAmt>176909</LegalFeesAmt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>176909</DisbursementsCharitablePrpsAmt>
+      </LegalFeesGrp>
+    </LegalFeesSchedule>
+    <LoansFromOfficersSchedule documentId="RetDoc2203200001">
+      <LoansFromOfficerGrp>
+        <LenderPersonNm>Fox Family Foundation</LenderPersonNm>
+        <LoanOriginalAmt>1600000</LoanOriginalAmt>
+        <BalanceDueAmt>1160000</BalanceDueAmt>
+        <NoteDt>2020-11</NoteDt>
+        <RepaymentTermsTxt>Payable on demand.</RepaymentTermsTxt>
+        <InterestRt>0.000000000000</InterestRt>
+        <SecurityProvidedBorrowerTxt>Note is unsecured.</SecurityProvidedBorrowerTxt>
+        <LoanPurposeTxt>See statement 9.</LoanPurposeTxt>
+        <LenderConsiderationDesc>N/A</LenderConsiderationDesc>
+      </LoansFromOfficerGrp>
+      <LoansFromOfficerGrp>
+        <LenderPersonNm>David Fox</LenderPersonNm>
+        <LoanOriginalAmt>1589</LoanOriginalAmt>
+        <BalanceDueAmt>1589</BalanceDueAmt>
+        <NoteDt>2022-12</NoteDt>
+        <RepaymentTermsTxt>Payable on demand.</RepaymentTermsTxt>
+        <InterestRt>0.000000000000</InterestRt>
+        <SecurityProvidedBorrowerTxt>Note is unsecured.</SecurityProvidedBorrowerTxt>
+        <LoanPurposeTxt>See statement 9.</LoanPurposeTxt>
+        <LenderConsiderationDesc>N/A</LenderConsiderationDesc>
+      </LoansFromOfficerGrp>
+      <LoansFromOfficerGrp>
+        <LenderPersonNm>Gerald Fox Trust</LenderPersonNm>
+        <LoanOriginalAmt>78005</LoanOriginalAmt>
+        <BalanceDueAmt>78005</BalanceDueAmt>
+        <NoteDt>2022-12</NoteDt>
+        <RepaymentTermsTxt>Payable on demand.</RepaymentTermsTxt>
+        <InterestRt>0.000000000000</InterestRt>
+        <SecurityProvidedBorrowerTxt>Note is unsecured.</SecurityProvidedBorrowerTxt>
+        <LoanPurposeTxt>See statement 9.</LoanPurposeTxt>
+        <LenderConsiderationDesc>N/A</LenderConsiderationDesc>
+      </LoansFromOfficerGrp>
+    </LoansFromOfficersSchedule>
+    <OtherExpensesSchedule documentId="RetDoc2003200001">
+      <OtherExpensesScheduleGrp>
+        <Desc>MN AG Filing fee</Desc>
+        <RevenueAndExpensesPerBooksAmt>25</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>25</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>Bank Service Charges</Desc>
+        <RevenueAndExpensesPerBooksAmt>50</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>50</NetInvestmentIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>0</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+    </OtherExpensesSchedule>
+    <OtherProfessionalFeesSchedule documentId="RetDoc2002300001">
+      <OtherProfessionalFeesDetail>
+        <CategoryTxt>Consulting Fees</CategoryTxt>
+        <Amt>5625</Amt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>5625</DisbursementsCharitablePrpsAmt>
+      </OtherProfessionalFeesDetail>
+    </OtherProfessionalFeesSchedule>
+    <OtherReceivablesOfficersSch documentId="RetDoc2058400001">
+      <OfficerOtherRcvblGrp>
+        <BorrowerPersonNm>LEECO Support Services</BorrowerPersonNm>
+        <LoanOriginalAmt>538171</LoanOriginalAmt>
+        <BalanceDueAmt>352283</BalanceDueAmt>
+        <NoteDt>2021-01</NoteDt>
+        <LoanMaturityDt>2031-01</LoanMaturityDt>
+        <RepaymentTermsTxt>Annual payment of principal and accrued interest for 10 years.</RepaymentTermsTxt>
+        <InterestRt>4.750000000000</InterestRt>
+        <SecurityProvidedBorrowerTxt>Security interest in corporate stock.</SecurityProvidedBorrowerTxt>
+        <LoanPurposeTxt>Transfer of Estate.</LoanPurposeTxt>
+        <LenderConsiderationDesc>Stock sale/redemption</LenderConsiderationDesc>
+        <ConsiderationFMVAmt>538171</ConsiderationFMVAmt>
+      </OfficerOtherRcvblGrp>
+      <OfficerOtherRcvblGrp>
+        <BorrowerPersonNm>David Fox</BorrowerPersonNm>
+        <LoanOriginalAmt>292515</LoanOriginalAmt>
+        <BalanceDueAmt>268849</BalanceDueAmt>
+        <NoteDt>2024-04</NoteDt>
+        <LoanMaturityDt>2034-04</LoanMaturityDt>
+        <RepaymentTermsTxt>Annual payment of principal and accrued interest for 10 years.</RepaymentTermsTxt>
+        <InterestRt>4.540000000000</InterestRt>
+        <SecurityProvidedBorrowerTxt>Note is guaranteed by LEECO Support Services, Inc.</SecurityProvidedBorrowerTxt>
+        <LoanPurposeTxt>Transfer of Estate.</LoanPurposeTxt>
+        <LenderConsiderationDesc>Stock sale/redemption</LenderConsiderationDesc>
+        <ConsiderationFMVAmt>292515</ConsiderationFMVAmt>
+      </OfficerOtherRcvblGrp>
+      <OfficerOtherRcvblGrp>
+        <BorrowerPersonNm>Lakeland Engineering Equipment Co K</BorrowerPersonNm>
+        <LoanOriginalAmt>831396</LoanOriginalAmt>
+        <BalanceDueAmt>544226</BalanceDueAmt>
+        <NoteDt>2021-02</NoteDt>
+        <LoanMaturityDt>2031-02</LoanMaturityDt>
+        <RepaymentTermsTxt>Annual payment of principal and accrued interest for 10 years.</RepaymentTermsTxt>
+        <InterestRt>4.750000000000</InterestRt>
+        <SecurityProvidedBorrowerTxt>Security interest in corporate stock.</SecurityProvidedBorrowerTxt>
+        <LoanPurposeTxt>Transfer of Estate.</LoanPurposeTxt>
+        <LenderConsiderationDesc>Stock sale/redemption</LenderConsiderationDesc>
+        <ConsiderationFMVAmt>831396</ConsiderationFMVAmt>
+      </OfficerOtherRcvblGrp>
+      <OfficerOtherRcvblGrp>
+        <BorrowerPersonNm>Lakeland Engineering Equipment Co N</BorrowerPersonNm>
+        <LoanOriginalAmt>168301</LoanOriginalAmt>
+        <BalanceDueAmt>110169</BalanceDueAmt>
+        <NoteDt>2021-02</NoteDt>
+        <LoanMaturityDt>2031-02</LoanMaturityDt>
+        <RepaymentTermsTxt>Annual payment of principal and accrued interest for 10 years.</RepaymentTermsTxt>
+        <InterestRt>4.750000000000</InterestRt>
+        <SecurityProvidedBorrowerTxt>Security interest in corporate stock.</SecurityProvidedBorrowerTxt>
+        <LoanPurposeTxt>Transfer of Estate.</LoanPurposeTxt>
+        <LenderConsiderationDesc>Stock sale/redemption</LenderConsiderationDesc>
+        <ConsiderationFMVAmt>168301</ConsiderationFMVAmt>
+      </OfficerOtherRcvblGrp>
+      <OfficerOtherRcvblGrp>
+        <BorrowerPersonNm>Extron Co</BorrowerPersonNm>
+        <LoanOriginalAmt>640258</LoanOriginalAmt>
+        <BalanceDueAmt>419108</BalanceDueAmt>
+        <NoteDt>2021-01</NoteDt>
+        <LoanMaturityDt>2031-01</LoanMaturityDt>
+        <RepaymentTermsTxt>Annual payment of principal and accrued interest for 10 years.</RepaymentTermsTxt>
+        <InterestRt>4.750000000000</InterestRt>
+        <SecurityProvidedBorrowerTxt>Security interest in corporate stock.</SecurityProvidedBorrowerTxt>
+        <LoanPurposeTxt>Transfer of Estate.</LoanPurposeTxt>
+        <LenderConsiderationDesc>Stock sale/redemption</LenderConsiderationDesc>
+        <ConsiderationFMVAmt>640258</ConsiderationFMVAmt>
+      </OfficerOtherRcvblGrp>
+      <OfficerOtherRcvblGrp>
+        <BorrowerPersonNm>David Fox</BorrowerPersonNm>
+        <LoanOriginalAmt>1405021</LoanOriginalAmt>
+        <BalanceDueAmt>919717</BalanceDueAmt>
+        <NoteDt>2021-01</NoteDt>
+        <LoanMaturityDt>2031-01</LoanMaturityDt>
+        <RepaymentTermsTxt>Annual payment of principal and accrued interest for 10 years.</RepaymentTermsTxt>
+        <InterestRt>4.750000000000</InterestRt>
+        <SecurityProvidedBorrowerTxt>Security interest in partnership interest.</SecurityProvidedBorrowerTxt>
+        <LoanPurposeTxt>Transfer of Estate.</LoanPurposeTxt>
+        <LenderConsiderationDesc>Stock sale/redemption</LenderConsiderationDesc>
+        <ConsiderationFMVAmt>1405021</ConsiderationFMVAmt>
+      </OfficerOtherRcvblGrp>
+      <OfficerOtherRcvblGrp>
+        <BorrowerPersonNm>David Fox</BorrowerPersonNm>
+        <LoanOriginalAmt>782017</LoanOriginalAmt>
+        <BalanceDueAmt>511903</BalanceDueAmt>
+        <NoteDt>2021-01</NoteDt>
+        <LoanMaturityDt>2031-01</LoanMaturityDt>
+        <RepaymentTermsTxt>Annual payment of principal and accrued interest for 10 years.</RepaymentTermsTxt>
+        <InterestRt>4.750000000000</InterestRt>
+        <SecurityProvidedBorrowerTxt>Security interest in partnership interest.</SecurityProvidedBorrowerTxt>
+        <LoanPurposeTxt>Transfer of Estate.</LoanPurposeTxt>
+        <LenderConsiderationDesc>Stock sale/redemption</LenderConsiderationDesc>
+        <ConsiderationFMVAmt>782017</ConsiderationFMVAmt>
+      </OfficerOtherRcvblGrp>
+      <OfficerOtherRcvblGrp>
+        <BorrowerPersonNm>LEECO Support Services</BorrowerPersonNm>
+        <LoanOriginalAmt>96982</LoanOriginalAmt>
+        <BalanceDueAmt>63483</BalanceDueAmt>
+        <NoteDt>2021-01</NoteDt>
+        <LoanMaturityDt>2031-01</LoanMaturityDt>
+        <RepaymentTermsTxt>Annual payment of principal and accrued interest for 10 years.</RepaymentTermsTxt>
+        <InterestRt>4.750000000000</InterestRt>
+        <SecurityProvidedBorrowerTxt>Security interest in corporate stock.</SecurityProvidedBorrowerTxt>
+        <LoanPurposeTxt>Transfer of Estate.</LoanPurposeTxt>
+        <LenderConsiderationDesc>Stock sale/redemption</LenderConsiderationDesc>
+        <ConsiderationFMVAmt>96982</ConsiderationFMVAmt>
+      </OfficerOtherRcvblGrp>
+      <OfficerOtherRcvblGrp>
+        <BorrowerPersonNm>David Fox</BorrowerPersonNm>
+        <LoanOriginalAmt>313500</LoanOriginalAmt>
+        <BalanceDueAmt>288035</BalanceDueAmt>
+        <NoteDt>2024-04</NoteDt>
+        <LoanMaturityDt>2034-04</LoanMaturityDt>
+        <RepaymentTermsTxt>Annual payment of principal and accrued interest for 10 years.</RepaymentTermsTxt>
+        <InterestRt>4.540000000000</InterestRt>
+        <SecurityProvidedBorrowerTxt>Note is guaranteed by LEECO Support Services, Inc.</SecurityProvidedBorrowerTxt>
+        <LoanPurposeTxt>Transfer of Estate.</LoanPurposeTxt>
+        <LenderConsiderationDesc>Stock sale/redemption</LenderConsiderationDesc>
+        <ConsiderationFMVAmt>313500</ConsiderationFMVAmt>
+      </OfficerOtherRcvblGrp>
+      <OfficerOtherRcvblGrp>
+        <BorrowerPersonNm>LEECO Support Services</BorrowerPersonNm>
+        <LoanOriginalAmt>2313052</LoanOriginalAmt>
+        <BalanceDueAmt>1514108</BalanceDueAmt>
+        <NoteDt>2021-08</NoteDt>
+        <LoanMaturityDt>2031-08</LoanMaturityDt>
+        <RepaymentTermsTxt>Annual payment of principal and accrued interest for 10 years.</RepaymentTermsTxt>
+        <InterestRt>4.750000000000</InterestRt>
+        <SecurityProvidedBorrowerTxt>Note is unsecured.</SecurityProvidedBorrowerTxt>
+        <LoanPurposeTxt>Transfer of Estate.</LoanPurposeTxt>
+        <LenderConsiderationDesc>Interests in Employee Savings Accounts</LenderConsiderationDesc>
+        <ConsiderationFMVAmt>2313052</ConsiderationFMVAmt>
+      </OfficerOtherRcvblGrp>
+    </OtherReceivablesOfficersSch>
+    <TaxesSchedule documentId="RetDoc2002500001">
+      <TaxesDetail>
+        <CategoryTxt>Excise Tax</CategoryTxt>
+        <Amt>20</Amt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>0</DisbursementsCharitablePrpsAmt>
+      </TaxesDetail>
+    </TaxesSchedule>
+  </ReturnData>
+</Return>
