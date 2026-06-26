@@ -1,0 +1,1095 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Return xmlns="http://www.irs.gov/efile" returnVersion="2021v4.2">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2022-07-01T10:11:55-04:00</ReturnTs>
+    <TaxPeriodEndDt>2022-01-31</TaxPeriodEndDt>
+    <PreparerFirmGrp>
+      <PreparerFirmEIN>331212072</PreparerFirmEIN>
+      <PreparerFirmName>
+        <BusinessNameLine1Txt>UBS INC</BusinessNameLine1Txt>
+      </PreparerFirmName>
+      <PreparerUSAddress>
+        <AddressLine1Txt>188 FAYETTE STREET</AddressLine1Txt>
+        <CityNm>Buckhannon</CityNm>
+        <StateAbbreviationCd>WV</StateAbbreviationCd>
+        <ZIPCd>262012352</ZIPCd>
+      </PreparerUSAddress>
+    </PreparerFirmGrp>
+    <ReturnTypeCd>990PF</ReturnTypeCd>
+    <TaxPeriodBeginDt>2021-02-01</TaxPeriodBeginDt>
+    <Filer>
+      <EIN>311101724</EIN>
+      <BusinessName>
+        <BusinessNameLine1Txt>J HERMAN ISNER TRUST</BusinessNameLine1Txt>
+      </BusinessName>
+      <BusinessNameControlTxt>JHER</BusinessNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>1110 CREED ISNER ROAD</AddressLine1Txt>
+        <CityNm>KERENS</CityNm>
+        <StateAbbreviationCd>WV</StateAbbreviationCd>
+        <ZIPCd>262769603</ZIPCd>
+      </USAddress>
+    </Filer>
+    <BusinessOfficerGrp>
+      <PersonNm>TERRY N GOULD</PersonNm>
+      <PersonTitleTxt>TRUSTEE</PersonTitleTxt>
+      <PhoneNum>3044727099</PhoneNum>
+      <SignatureDt>2022-06-24</SignatureDt>
+      <DiscussWithPaidPreparerInd>true</DiscussWithPaidPreparerInd>
+    </BusinessOfficerGrp>
+    <SigningOfficerGrp>
+      <PersonFullName>
+        <PersonFirstNm>TERRY</PersonFirstNm>
+        <PersonLastNm>GOULD</PersonLastNm>
+      </PersonFullName>
+      <SSN>XXX-XX-XXXX</SSN>
+    </SigningOfficerGrp>
+    <PreparerPersonGrp>
+      <PreparerPersonNm>TERRY N GOULD</PreparerPersonNm>
+      <PTIN>P01235165</PTIN>
+      <PhoneNum>3044727099</PhoneNum>
+      <PreparationDt>2022-07-01</PreparationDt>
+    </PreparerPersonGrp>
+    <AdditionalFilerInformation>
+      <TrustedCustomerGrp>
+        <TrustedCustomerCd>0</TrustedCustomerCd>
+        <OOBSecurityVerificationCd>00</OOBSecurityVerificationCd>
+        <AuthenticationAssuranceLevelCd>AAL2</AuthenticationAssuranceLevelCd>
+        <IdentityAssuranceLevelCd>IAL1</IdentityAssuranceLevelCd>
+      </TrustedCustomerGrp>
+    </AdditionalFilerInformation>
+    <TaxYr>2021</TaxYr>
+    <BuildTS>2022-09-23 18:48:47Z</BuildTS>
+  </ReturnHeader>
+  <ReturnData documentCnt="14">
+    <IRS990PF documentId="IRS990PF">
+      <Organization501c3ExemptPFInd>X</Organization501c3ExemptPFInd>
+      <FMVAssetsEOYAmt>479369</FMVAssetsEOYAmt>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <AnalysisOfRevenueAndExpenses>
+        <ContriRcvdRevAndExpnssAmt>207754</ContriRcvdRevAndExpnssAmt>
+        <OtherIncomeRevAndExpnssAmt referenceDocumentId="STM106">7</OtherIncomeRevAndExpnssAmt>
+        <TotalRevAndExpnssAmt>207761</TotalRevAndExpnssAmt>
+        <TotalNetInvstIncmAmt>0</TotalNetInvstIncmAmt>
+        <CompOfcrDirTrstRevAndExpnssAmt>19000</CompOfcrDirTrstRevAndExpnssAmt>
+        <CompOfcrDirTrstDsbrsChrtblAmt>19000</CompOfcrDirTrstDsbrsChrtblAmt>
+        <OthEmplSlrsWgsRevAndExpnssAmt>2040</OthEmplSlrsWgsRevAndExpnssAmt>
+        <OthEmplSlrsWgsDsbrsChrtblAmt>2040</OthEmplSlrsWgsDsbrsChrtblAmt>
+        <LegalFeesRevAndExpnssAmt referenceDocumentId="STM107">4000</LegalFeesRevAndExpnssAmt>
+        <LegalFeesDsbrsChrtblAmt>4000</LegalFeesDsbrsChrtblAmt>
+        <AccountingFeesRevAndExpnssAmt referenceDocumentId="STM108">950</AccountingFeesRevAndExpnssAmt>
+        <AccountingFeesChrtblPrpsAmt>950</AccountingFeesChrtblPrpsAmt>
+        <TaxesRevAndExpnssAmt referenceDocumentId="STM110">156</TaxesRevAndExpnssAmt>
+        <TaxesDsbrsChrtblAmt>156</TaxesDsbrsChrtblAmt>
+        <DeprecAndDpltnRevAndExpnssAmt referenceDocumentId="STM126">30281</DeprecAndDpltnRevAndExpnssAmt>
+        <OtherExpensesRevAndExpnssAmt referenceDocumentId="STM103">18609</OtherExpensesRevAndExpnssAmt>
+        <OtherExpensesDsbrsChrtblAmt>18609</OtherExpensesDsbrsChrtblAmt>
+        <TotOprExpensesRevAndExpnssAmt>75036</TotOprExpensesRevAndExpnssAmt>
+        <TotOprExpensesNetInvstIncmAmt>0</TotOprExpensesNetInvstIncmAmt>
+        <TotOprExpensesDsbrsChrtblAmt>44755</TotOprExpensesDsbrsChrtblAmt>
+        <ContriPaidRevAndExpnssAmt>77070</ContriPaidRevAndExpnssAmt>
+        <ContriPaidDsbrsChrtblAmt>77070</ContriPaidDsbrsChrtblAmt>
+        <TotalExpensesRevAndExpnssAmt>152106</TotalExpensesRevAndExpnssAmt>
+        <TotalExpensesNetInvstIncmAmt>0</TotalExpensesNetInvstIncmAmt>
+        <TotalExpensesDsbrsChrtblAmt>121825</TotalExpensesDsbrsChrtblAmt>
+        <ExcessRevenueOverExpensesAmt>55655</ExcessRevenueOverExpensesAmt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+      </AnalysisOfRevenueAndExpenses>
+      <Form990PFBalanceSheetsGrp>
+        <CashBOYAmt>7452</CashBOYAmt>
+        <CashEOYAmt>7188</CashEOYAmt>
+        <CashEOYFMVAmt>7188</CashEOYFMVAmt>
+        <LandBldgEquipCostOrOtherBssAmt>628023</LandBldgEquipCostOrOtherBssAmt>
+        <LandBldgEquipAccumDeprecAmt>196271</LandBldgEquipAccumDeprecAmt>
+        <LandBOYAmt>416481</LandBOYAmt>
+        <LandEOYAmt referenceDocumentId="STM119">431752</LandEOYAmt>
+        <LandEOYFMVAmt>431752</LandEOYFMVAmt>
+        <OtherAssetsEOYAmt>40429</OtherAssetsEOYAmt>
+        <OtherAssetsEOYFMVAmt referenceDocumentId="STM120">40429</OtherAssetsEOYFMVAmt>
+        <TotalAssetsBOYAmt>423933</TotalAssetsBOYAmt>
+        <TotalAssetsEOYAmt>479369</TotalAssetsEOYAmt>
+        <TotalAssetsEOYFMVAmt>479369</TotalAssetsEOYFMVAmt>
+        <AccountsPayableBOYAmt>336</AccountsPayableBOYAmt>
+        <TotalLiabilitiesBOYAmt>336</TotalLiabilitiesBOYAmt>
+        <TotalLiabilitiesEOYAmt>0</TotalLiabilitiesEOYAmt>
+        <OrganizationFollowsFASB117Ind>X</OrganizationFollowsFASB117Ind>
+        <NoDonorRstrNetAssestsBOYAmt>423597</NoDonorRstrNetAssestsBOYAmt>
+        <NoDonorRstrNetAssestsEOYAmt>479369</NoDonorRstrNetAssestsEOYAmt>
+        <TotNetAstOrFundBalancesBOYAmt>423597</TotNetAstOrFundBalancesBOYAmt>
+        <TotNetAstOrFundBalancesEOYAmt>479369</TotNetAstOrFundBalancesEOYAmt>
+        <TotalLiabilitiesNetAstBOYAmt>423933</TotalLiabilitiesNetAstBOYAmt>
+        <TotalLiabilitiesNetAstEOYAmt>479369</TotalLiabilitiesNetAstEOYAmt>
+      </Form990PFBalanceSheetsGrp>
+      <ChgInNetAssetsFundBalancesGrp>
+        <TotNetAstOrFundBalancesBOYAmt>423597</TotNetAstOrFundBalancesBOYAmt>
+        <ExcessRevenueOverExpensesAmt>55655</ExcessRevenueOverExpensesAmt>
+        <OtherIncreasesAmt referenceDocumentId="STM115">117</OtherIncreasesAmt>
+        <SubtotalAmt>479369</SubtotalAmt>
+        <TotNetAstOrFundBalancesEOYAmt>479369</TotNetAstOrFundBalancesEOYAmt>
+      </ChgInNetAssetsFundBalancesGrp>
+      <ExciseTaxBasedOnInvstIncmGrp>
+        <InvestmentIncomeExciseTaxAmt>0</InvestmentIncomeExciseTaxAmt>
+        <TaxUnderSection511Amt>0</TaxUnderSection511Amt>
+        <SubtitleATaxAmt>0</SubtitleATaxAmt>
+        <TaxBasedOnInvestmentIncomeAmt>0</TaxBasedOnInvestmentIncomeAmt>
+      </ExciseTaxBasedOnInvstIncmGrp>
+      <StatementsRegardingActyGrp>
+        <LegislativePoliticalActyInd>false</LegislativePoliticalActyInd>
+        <MoreThan100SpentInd>false</MoreThan100SpentInd>
+        <Form1120POLFiledInd>false</Form1120POLFiledInd>
+        <ActivitiesNotPreviouslyRptInd>false</ActivitiesNotPreviouslyRptInd>
+        <ChangesToArticlesOrBylawsInd>false</ChangesToArticlesOrBylawsInd>
+        <UnrelatedBusIncmOverLimitInd>false</UnrelatedBusIncmOverLimitInd>
+        <OrganizationDissolvedEtcInd>false</OrganizationDissolvedEtcInd>
+        <Section508eRqrSatisfiedInd>true</Section508eRqrSatisfiedInd>
+        <AtLeast5000InAssetsInd>true</AtLeast5000InAssetsInd>
+        <OrgReportOrRegisterStateCd>WV</OrgReportOrRegisterStateCd>
+        <Form990PFFiledWithAttyGenInd>false</Form990PFFiledWithAttyGenInd>
+        <PrivateOperatingFoundationInd>true</PrivateOperatingFoundationInd>
+        <NewSubstantialContributorsInd referenceDocumentId="STM114">true</NewSubstantialContributorsInd>
+        <OwnControlledEntityInd>false</OwnControlledEntityInd>
+        <DonorAdvisedFundInd>false</DonorAdvisedFundInd>
+        <ComplyWithPublicInspRqrInd>true</ComplyWithPublicInspRqrInd>
+        <IndividualWithBooksNm>TERRY N GOULD</IndividualWithBooksNm>
+        <PhoneNum>3046367703</PhoneNum>
+        <LocationOfBooksUSAddress>
+          <AddressLine1Txt>83 SARATOGA DR</AddressLine1Txt>
+          <CityNm>Buckhannon</CityNm>
+          <StateAbbreviationCd>WV</StateAbbreviationCd>
+          <ZIPCd>26201</ZIPCd>
+        </LocationOfBooksUSAddress>
+        <ForeignAccountsQuestionInd>false</ForeignAccountsQuestionInd>
+      </StatementsRegardingActyGrp>
+      <StatementsRegardingActy4720Grp>
+        <SaleOrExchDisqualifiedPrsnInd>false</SaleOrExchDisqualifiedPrsnInd>
+        <BrrwOrLendDisqualifiedPrsnInd>false</BrrwOrLendDisqualifiedPrsnInd>
+        <FurnGoodsDisqualifiedPrsnInd>false</FurnGoodsDisqualifiedPrsnInd>
+        <PayCompDisqualifiedPrsnInd>false</PayCompDisqualifiedPrsnInd>
+        <TransferAstDisqualifiedPrsnInd>false</TransferAstDisqualifiedPrsnInd>
+        <PaymentToGovernmentOfficialInd>false</PaymentToGovernmentOfficialInd>
+        <UncorrectedPriorActsInd>false</UncorrectedPriorActsInd>
+        <UndistributedIncomePYInd>false</UndistributedIncomePYInd>
+        <UndistrIncmSect4942a2NotAppInd>false</UndistrIncmSect4942a2NotAppInd>
+        <BusinessHoldingsInd>false</BusinessHoldingsInd>
+        <JeopardyInvestmentsInd>false</JeopardyInvestmentsInd>
+        <UncorrectedPYJeopardyInvstInd>false</UncorrectedPYJeopardyInvstInd>
+        <InfluenceLegislationInd>false</InfluenceLegislationInd>
+        <InfluenceElectionInd>false</InfluenceElectionInd>
+        <GrantsToIndividualsInd>false</GrantsToIndividualsInd>
+        <GrantsToOrganizationsInd>false</GrantsToOrganizationsInd>
+        <NoncharitablePurposeInd>false</NoncharitablePurposeInd>
+        <RcvFndsToPayPrsnlBnftCntrctInd>false</RcvFndsToPayPrsnlBnftCntrctInd>
+        <PayPremiumsPrsnlBnftCntrctInd>false</PayPremiumsPrsnlBnftCntrctInd>
+        <ProhibitedTaxShelterTransInd>false</ProhibitedTaxShelterTransInd>
+        <SubjToTaxRmnrtnExPrchtPymtInd>false</SubjToTaxRmnrtnExPrchtPymtInd>
+      </StatementsRegardingActy4720Grp>
+      <OfficerDirTrstKeyEmplInfoGrp>
+        <OfficerDirTrstKeyEmplGrp>
+          <PersonNm referenceDocumentId="STMA01">JEFF KYLE</PersonNm>
+          <USAddress>
+            <AddressLine1Txt>1110 CREED ISNER ROAD</AddressLine1Txt>
+            <CityNm>KERENS</CityNm>
+            <StateAbbreviationCd>WV</StateAbbreviationCd>
+            <ZIPCd>262769603</ZIPCd>
+          </USAddress>
+          <TitleTxt>TRUSTEE</TitleTxt>
+          <AverageHrsPerWkDevotedToPosRt>15.00</AverageHrsPerWkDevotedToPosRt>
+          <CompensationAmt>7000</CompensationAmt>
+          <EmployeeBenefitProgramAmt>0</EmployeeBenefitProgramAmt>
+          <ExpenseAccountOtherAllwncAmt>0</ExpenseAccountOtherAllwncAmt>
+        </OfficerDirTrstKeyEmplGrp>
+        <OfficerDirTrstKeyEmplGrp>
+          <PersonNm referenceDocumentId="STMA01">TERRY N GOULD</PersonNm>
+          <USAddress>
+            <AddressLine1Txt>83 SARATOGA DR</AddressLine1Txt>
+            <CityNm>Buckhannon</CityNm>
+            <StateAbbreviationCd>WV</StateAbbreviationCd>
+            <ZIPCd>26201</ZIPCd>
+          </USAddress>
+          <TitleTxt>TRUSTEE</TitleTxt>
+          <AverageHrsPerWkDevotedToPosRt>5.00</AverageHrsPerWkDevotedToPosRt>
+          <CompensationAmt>6500</CompensationAmt>
+          <EmployeeBenefitProgramAmt>0</EmployeeBenefitProgramAmt>
+          <ExpenseAccountOtherAllwncAmt>0</ExpenseAccountOtherAllwncAmt>
+        </OfficerDirTrstKeyEmplGrp>
+        <OfficerDirTrstKeyEmplGrp>
+          <PersonNm referenceDocumentId="STMA01">DORIS BONNER DECEASED</PersonNm>
+          <USAddress>
+            <AddressLine1Txt>3387 SHADDY FORK RD</AddressLine1Txt>
+            <CityNm>Kerens</CityNm>
+            <StateAbbreviationCd>WV</StateAbbreviationCd>
+            <ZIPCd>26276</ZIPCd>
+          </USAddress>
+          <TitleTxt>TRUSTEE</TitleTxt>
+          <AverageHrsPerWkDevotedToPosRt>1.00</AverageHrsPerWkDevotedToPosRt>
+          <CompensationAmt>3500</CompensationAmt>
+          <EmployeeBenefitProgramAmt>0</EmployeeBenefitProgramAmt>
+          <ExpenseAccountOtherAllwncAmt>0</ExpenseAccountOtherAllwncAmt>
+        </OfficerDirTrstKeyEmplGrp>
+        <CompOfHghstPdEmplOrNONETxt>NONE</CompOfHghstPdEmplOrNONETxt>
+        <OtherEmployeePaidOver50kCnt>0</OtherEmployeePaidOver50kCnt>
+        <CompOfHghstPdCntrctOrNONETxt>NONE</CompOfHghstPdCntrctOrNONETxt>
+      </OfficerDirTrstKeyEmplInfoGrp>
+      <SummaryOfDirectChrtblActyGrp>
+        <Description1Txt>MODEL DEMONSTRATION FARM FOR THE INQUIRING PUBLIC</Description1Txt>
+        <Expenses1Amt>167376</Expenses1Amt>
+      </SummaryOfDirectChrtblActyGrp>
+      <MinimumInvestmentReturnGrp>
+        <AverageMonthlyFMVOfSecAmt>0</AverageMonthlyFMVOfSecAmt>
+        <AverageMonthlyCashBalancesAmt>53514</AverageMonthlyCashBalancesAmt>
+        <FMVAllOtherNoncharitableAstAmt>0</FMVAllOtherNoncharitableAstAmt>
+        <TotalFMVOfUnusedAssetsAmt>53514</TotalFMVOfUnusedAssetsAmt>
+        <AcquisitionIndebtednessAmt>0</AcquisitionIndebtednessAmt>
+        <AdjustedTotalFMVOfUnusedAstAmt>53514</AdjustedTotalFMVOfUnusedAstAmt>
+        <CashDeemedCharitableAmt referenceDocumentId="STM159">53514</CashDeemedCharitableAmt>
+        <NetVlNoncharitableAssetsAmt>0</NetVlNoncharitableAssetsAmt>
+        <MinimumInvestmentReturnAmt>0</MinimumInvestmentReturnAmt>
+      </MinimumInvestmentReturnGrp>
+      <DistributableAmountGrp>
+        <Sect4942j3j5FndtnAndFrgnOrgInd>X</Sect4942j3j5FndtnAndFrgnOrgInd>
+      </DistributableAmountGrp>
+      <PFQualifyingDistributionsGrp>
+        <ExpensesAndContributionsAmt>121825</ExpensesAndContributionsAmt>
+        <CharitableAssetsAcquisPaidAmt>45552</CharitableAssetsAcquisPaidAmt>
+        <QualifyingDistributionsAmt>167377</QualifyingDistributionsAmt>
+      </PFQualifyingDistributionsGrp>
+      <UndistributedIncomeGrp>
+        <PriorYear1Yr>2017</PriorYear1Yr>
+        <PriorYear2Yr>2018</PriorYear2Yr>
+        <PriorYear3Yr>2019</PriorYear3Yr>
+        <QualifyingDistributionsAmt>167377</QualifyingDistributionsAmt>
+        <RemainingDistriFromCorpusAmt>167377</RemainingDistriFromCorpusAmt>
+        <TotalCorpusAmt>167377</TotalCorpusAmt>
+        <ExcessDistriCyovToNextYrAmt>167377</ExcessDistriCyovToNextYrAmt>
+        <ExcessFromCurrentYearAmt>167377</ExcessFromCurrentYearAmt>
+      </UndistributedIncomeGrp>
+      <PrivateOperatingFoundationsGrp>
+        <PrivateOperatingFndtnRulingDt>1984-09-06</PrivateOperatingFndtnRulingDt>
+        <Section4942j3Ind>X</Section4942j3Ind>
+        <LessorAdjNetIncmMinInvstRetGrp>
+          <CurrentYearAmt>0</CurrentYearAmt>
+          <TotalAmt>0</TotalAmt>
+        </LessorAdjNetIncmMinInvstRetGrp>
+        <QualifyingDistributionsGrp>
+          <CurrentYearAmt>167377</CurrentYearAmt>
+          <Year1Amt>156864</Year1Amt>
+          <Year2Amt>86396</Year2Amt>
+          <Year3Amt>177944</Year3Amt>
+          <TotalAmt>588581</TotalAmt>
+        </QualifyingDistributionsGrp>
+        <QualifyingDistriMadeDrtGrp>
+          <CurrentYearAmt>167377</CurrentYearAmt>
+          <Year1Amt>156864</Year1Amt>
+          <Year2Amt>86396</Year2Amt>
+          <Year3Amt>177944</Year3Amt>
+          <TotalAmt>588581</TotalAmt>
+        </QualifyingDistriMadeDrtGrp>
+        <TotalAssetsGrp>
+          <CurrentYearAmt>551167</CurrentYearAmt>
+          <Year1Amt>423933</Year1Amt>
+          <Year2Amt>436514</Year2Amt>
+          <Year3Amt>355179</Year3Amt>
+          <TotalAmt>1766793</TotalAmt>
+        </TotalAssetsGrp>
+        <TotalAssetsSect4942j3BiGrp>
+          <CurrentYearAmt>551167</CurrentYearAmt>
+          <Year1Amt>423933</Year1Amt>
+          <Year2Amt>436514</Year2Amt>
+          <Year3Amt>355179</Year3Amt>
+          <TotalAmt>1766793</TotalAmt>
+        </TotalAssetsSect4942j3BiGrp>
+        <TwoThirdsMinimumInvstRetGrp>
+          <TotalAmt>0</TotalAmt>
+        </TwoThirdsMinimumInvstRetGrp>
+      </PrivateOperatingFoundationsGrp>
+      <SupplementaryInformationGrp>
+        <ContributingManagerNm>NONE</ContributingManagerNm>
+        <ShareholderManagerNm>NONE</ShareholderManagerNm>
+        <OnlyContriToPreselectedInd>X</OnlyContriToPreselectedInd>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientPersonNm>TUCKER COUNTY FFA</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>100 EDUCATION LANE</AddressLine1Txt>
+            <CityNm>Parsons</CityNm>
+            <StateAbbreviationCd>WV</StateAbbreviationCd>
+            <ZIPCd>26287</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>NONE</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>SOI</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>AGRICULTURE RELATED SCHOOL YOUTH</GrantOrContributionPurposeTxt>
+          <Amt>500</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientPersonNm>UPSHUR COUNTY 4H LEADERS ASSOC</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>91 W MAIN ST</AddressLine1Txt>
+            <CityNm>Buckhannon</CityNm>
+            <StateAbbreviationCd>WV</StateAbbreviationCd>
+            <ZIPCd>26201</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>NONE</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>SOI</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>4H YOUTH LEADERS SUPPORT OF AGRICULTURE ACTIVITIES</GrantOrContributionPurposeTxt>
+          <Amt>5000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientPersonNm>RANDOLPH COUNTY FARM BUREAU</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>PO BOX 2585</AddressLine1Txt>
+            <CityNm>Elkins</CityNm>
+            <StateAbbreviationCd>WV</StateAbbreviationCd>
+            <ZIPCd>26241</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>NONE</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>SOI</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>AGRICULTURE ACTIVITIES &amp; FARMING SUPPORT</GrantOrContributionPurposeTxt>
+          <Amt>5000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientPersonNm>UPSHUR COUNTY FUTURE FARMERS OF AM</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>HIGH SCHOOL STREET</AddressLine1Txt>
+            <CityNm>Buckhannon</CityNm>
+            <StateAbbreviationCd>WV</StateAbbreviationCd>
+            <ZIPCd>26201</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>NONE</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>SOI</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>AGRICULTURE REALTED YOUTH ACTIVITIES</GrantOrContributionPurposeTxt>
+          <Amt>13845</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <TotalGrantOrContriPdDurYrAmt>24345</TotalGrantOrContriPdDurYrAmt>
+        <GrantOrContriApprvForFutGrp>
+          <RecipientPersonNm>CAMP PIONEER</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>PO BOX 137</AddressLine1Txt>
+            <CityNm>Beverly</CityNm>
+            <StateAbbreviationCd>WV</StateAbbreviationCd>
+            <ZIPCd>26253</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>NONE</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>SOI</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>FUNDING FFA RESTROOM BLDG AT AGRICULTURE 4-H CAMP</GrantOrContributionPurposeTxt>
+          <Amt>45000</Amt>
+        </GrantOrContriApprvForFutGrp>
+        <GrantOrContriApprvForFutGrp>
+          <RecipientPersonNm>TUCKER COUNTY FARM BUREAU</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>THE DUGOUT</AddressLine1Txt>
+            <CityNm>Parsons</CityNm>
+            <StateAbbreviationCd>WV</StateAbbreviationCd>
+            <ZIPCd>26287</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>NONE</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>SOI</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>AGRICULTURE ACTIVITIES AND CONTINUING OF FARMING</GrantOrContributionPurposeTxt>
+          <Amt>5000</Amt>
+        </GrantOrContriApprvForFutGrp>
+        <GrantOrContriApprvForFutGrp>
+          <RecipientPersonNm>RANDOLPH CO FAIR ASSOC</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>1302 NO RANDOLPH AVE</AddressLine1Txt>
+            <CityNm>Buckhannon</CityNm>
+            <StateAbbreviationCd>WV</StateAbbreviationCd>
+            <ZIPCd>26201</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>NONE</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>SOI</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>AGRICULTURE 4H LIVESTOCK SHOWING</GrantOrContributionPurposeTxt>
+          <Amt>2625</Amt>
+        </GrantOrContriApprvForFutGrp>
+        <GrantOrContriApprvForFutGrp>
+          <RecipientPersonNm>CORTLAND ACRES</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>ROUTE 1</AddressLine1Txt>
+            <CityNm>Parsons</CityNm>
+            <StateAbbreviationCd>WV</StateAbbreviationCd>
+            <ZIPCd>26287</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>NONE</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>NC</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>HONORARIUM</GrantOrContributionPurposeTxt>
+          <Amt>100</Amt>
+        </GrantOrContriApprvForFutGrp>
+        <TotalGrantOrContriApprvFutAmt>52725</TotalGrantOrContriApprvFutAmt>
+      </SupplementaryInformationGrp>
+      <RlnOfActyToAccomOfExmptPrpsGrp>
+        <RlnOfActyToAccomOfExmptPrpsGrp>
+          <LineNumberTxt>11a</LineNumberTxt>
+          <RelationshipStatementTxt>FUNDS RECEIVED ARE USED FOR OPERATIONS AND MAINTENANCE OF FOUNDATIONFARM</RelationshipStatementTxt>
+        </RlnOfActyToAccomOfExmptPrpsGrp>
+      </RlnOfActyToAccomOfExmptPrpsGrp>
+      <TrnsfrTransRlnNonchrtblEOGrp>
+        <TrnsfrOfCashToNonchrtblEOInd>false</TrnsfrOfCashToNonchrtblEOInd>
+        <TrnsfrOtherAssetNonchrtblEOInd>false</TrnsfrOtherAssetNonchrtblEOInd>
+        <SalesOrExchangesOfAssetsInd>false</SalesOrExchangesOfAssetsInd>
+        <PurchaseOfAssetsNonchrtblEOInd>true</PurchaseOfAssetsNonchrtblEOInd>
+        <RentalOfFacilitiesOthAssetsInd>false</RentalOfFacilitiesOthAssetsInd>
+        <ReimbursementArrangementsInd>false</ReimbursementArrangementsInd>
+        <LoansOrLoanGuaranteesInd>false</LoansOrLoanGuaranteesInd>
+        <PerformanceOfServicesEtcInd>false</PerformanceOfServicesEtcInd>
+        <SharingOfFacilitiesEtcInd>false</SharingOfFacilitiesEtcInd>
+        <TransferScheduleDetail>
+          <LineNumberTxt>1b(2)</LineNumberTxt>
+          <InvolvedAmt>16380</InvolvedAmt>
+          <NoncharitableExemptOrgName>
+            <BusinessNameLine1Txt>STATE EQUIPMENT INC</BusinessNameLine1Txt>
+          </NoncharitableExemptOrgName>
+          <TransfersTransAndShrArrngmDesc>TRACTOR &amp; ATTACHMENTS</TransfersTransAndShrArrngmDesc>
+        </TransferScheduleDetail>
+        <RelationshipsNonchrtblEOInd>false</RelationshipsNonchrtblEOInd>
+      </TrnsfrTransRlnNonchrtblEOGrp>
+    </IRS990PF>
+    <IRS990ScheduleB documentId="990B">
+      <Organization501c3ExemptPFInd>X</Organization501c3ExemptPFInd>
+      <GeneralRuleInd>X</GeneralRuleInd>
+      <ContributorInformationGrp>
+        <ContributorNum>1</ContributorNum>
+        <ContributorPersonNm>J HERMAN ISNER CHAIRTABLE TRUST</ContributorPersonNm>
+        <ContributorUSAddress>
+          <AddressLine1Txt>PO BOX 1969</AddressLine1Txt>
+          <CityNm>Elkins</CityNm>
+          <StateAbbreviationCd>WV</StateAbbreviationCd>
+          <ZIPCd>26241</ZIPCd>
+        </ContributorUSAddress>
+        <TotalContributionsAmt>187754</TotalContributionsAmt>
+        <PersonContributionInd>X</PersonContributionInd>
+      </ContributorInformationGrp>
+      <ContributorInformationGrp>
+        <ContributorNum>2</ContributorNum>
+        <ContributorPersonNm>J HERMAN ISNE FINANCIAL TRUST</ContributorPersonNm>
+        <ContributorUSAddress>
+          <AddressLine1Txt>317 DAVIS AVE</AddressLine1Txt>
+          <CityNm>Elkins</CityNm>
+          <StateAbbreviationCd>WV</StateAbbreviationCd>
+          <ZIPCd>26241</ZIPCd>
+        </ContributorUSAddress>
+        <TotalContributionsAmt>20000</TotalContributionsAmt>
+        <PersonContributionInd>X</PersonContributionInd>
+      </ContributorInformationGrp>
+    </IRS990ScheduleB>
+    <AccountingFeesSchedule documentId="STM108">
+      <AccountingFeesDetail>
+        <CategoryTxt>UBS INC</CategoryTxt>
+        <Amt>950</Amt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>950</DisbursementsCharitablePrpsAmt>
+      </AccountingFeesDetail>
+    </AccountingFeesSchedule>
+    <CashDeemedCharitableExplnStmt documentId="STM159">
+      <ShortExplanationTxt>CASH REQUIRED TO MAINTAIN AND CONTINUED OPERATION OF TRUST FARM. RESERVED AMOUNT FOR CONSTRUCTION OF A VISITOR CENTER WITH EDUCATION AREA.</ShortExplanationTxt>
+    </CashDeemedCharitableExplnStmt>
+    <CompensationExplanation documentId="STMA01">
+      <CompensationExplanationGrp>
+        <PersonNm>JEFF KYLE</PersonNm>
+        <ShortExplanationTxt>TRUSTEE AND FARM MANAGER , TIME SPENT ON LEGAL ACTION, SUPERVISION OF TRUST FARM MAINTENANCE.</ShortExplanationTxt>
+      </CompensationExplanationGrp>
+      <CompensationExplanationGrp>
+        <PersonNm>TERRY N GOULD</PersonNm>
+        <ShortExplanationTxt>TRUSTEE AND WORKING WITH TRUST ATTORNEY DURING CONTINUING LEGAL ACTION AND ACCTING AND FARM MGT.</ShortExplanationTxt>
+      </CompensationExplanationGrp>
+      <CompensationExplanationGrp>
+        <PersonNm>DORIS BONNER DECEASED</PersonNm>
+        <ShortExplanationTxt>TRUSTEE FEE</ShortExplanationTxt>
+      </CompensationExplanationGrp>
+    </CompensationExplanation>
+    <DepreciationSchedule documentId="STM126">
+      <DepreciationPropertyGrp>
+        <PropertyDesc>HAY TEDDER</PropertyDesc>
+        <AcquiredDt>1987-01-01</AcquiredDt>
+        <CostOrOtherBasisAmt>775</CostOrOtherBasisAmt>
+        <PriorYearDepreciationAmt>775</PriorYearDepreciationAmt>
+        <ComputationMethodTxt>SL</ComputationMethodTxt>
+        <LifeRt>10</LifeRt>
+        <CurrentYearExpenseAmt>0</CurrentYearExpenseAmt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+      </DepreciationPropertyGrp>
+      <DepreciationPropertyGrp>
+        <PropertyDesc>FERTLIZER</PropertyDesc>
+        <AcquiredDt>1987-01-01</AcquiredDt>
+        <CostOrOtherBasisAmt>250</CostOrOtherBasisAmt>
+        <PriorYearDepreciationAmt>250</PriorYearDepreciationAmt>
+        <ComputationMethodTxt>SL</ComputationMethodTxt>
+        <LifeRt>10</LifeRt>
+        <CurrentYearExpenseAmt>0</CurrentYearExpenseAmt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+      </DepreciationPropertyGrp>
+      <DepreciationPropertyGrp>
+        <PropertyDesc>HAY BALER</PropertyDesc>
+        <AcquiredDt>1987-01-01</AcquiredDt>
+        <CostOrOtherBasisAmt>785</CostOrOtherBasisAmt>
+        <PriorYearDepreciationAmt>785</PriorYearDepreciationAmt>
+        <ComputationMethodTxt>SL</ComputationMethodTxt>
+        <LifeRt>5</LifeRt>
+        <CurrentYearExpenseAmt>0</CurrentYearExpenseAmt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+      </DepreciationPropertyGrp>
+      <DepreciationPropertyGrp>
+        <PropertyDesc>EQUIPMENT SHED</PropertyDesc>
+        <AcquiredDt>1990-11-01</AcquiredDt>
+        <CostOrOtherBasisAmt>10567</CostOrOtherBasisAmt>
+        <PriorYearDepreciationAmt>10567</PriorYearDepreciationAmt>
+        <ComputationMethodTxt>SL</ComputationMethodTxt>
+        <LifeRt>10</LifeRt>
+        <CurrentYearExpenseAmt>0</CurrentYearExpenseAmt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+      </DepreciationPropertyGrp>
+      <DepreciationPropertyGrp>
+        <PropertyDesc>EQUIP SHED ADDITION</PropertyDesc>
+        <AcquiredDt>1990-06-01</AcquiredDt>
+        <CostOrOtherBasisAmt>12239</CostOrOtherBasisAmt>
+        <PriorYearDepreciationAmt>12239</PriorYearDepreciationAmt>
+        <ComputationMethodTxt>SL</ComputationMethodTxt>
+        <LifeRt>10</LifeRt>
+        <CurrentYearExpenseAmt>0</CurrentYearExpenseAmt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+      </DepreciationPropertyGrp>
+      <DepreciationPropertyGrp>
+        <PropertyDesc>MOWER CM 240</PropertyDesc>
+        <AcquiredDt>1992-08-01</AcquiredDt>
+        <CostOrOtherBasisAmt>1670</CostOrOtherBasisAmt>
+        <PriorYearDepreciationAmt>1670</PriorYearDepreciationAmt>
+        <ComputationMethodTxt>SL</ComputationMethodTxt>
+        <LifeRt>5</LifeRt>
+        <CurrentYearExpenseAmt>0</CurrentYearExpenseAmt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+      </DepreciationPropertyGrp>
+      <DepreciationPropertyGrp>
+        <PropertyDesc>TENNANT BLDG</PropertyDesc>
+        <AcquiredDt>1995-12-01</AcquiredDt>
+        <CostOrOtherBasisAmt>36154</CostOrOtherBasisAmt>
+        <PriorYearDepreciationAmt>21271</PriorYearDepreciationAmt>
+        <ComputationMethodTxt>SL</ComputationMethodTxt>
+        <LifeRt>40</LifeRt>
+        <CurrentYearExpenseAmt>904</CurrentYearExpenseAmt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+      </DepreciationPropertyGrp>
+      <DepreciationPropertyGrp>
+        <PropertyDesc>ROTARY CUTTER</PropertyDesc>
+        <AcquiredDt>1996-08-01</AcquiredDt>
+        <CostOrOtherBasisAmt>3000</CostOrOtherBasisAmt>
+        <PriorYearDepreciationAmt>3000</PriorYearDepreciationAmt>
+        <ComputationMethodTxt>SL</ComputationMethodTxt>
+        <LifeRt>5</LifeRt>
+        <CurrentYearExpenseAmt>0</CurrentYearExpenseAmt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+      </DepreciationPropertyGrp>
+      <DepreciationPropertyGrp>
+        <PropertyDesc>HAY BARN</PropertyDesc>
+        <AcquiredDt>1997-11-01</AcquiredDt>
+        <CostOrOtherBasisAmt>45492</CostOrOtherBasisAmt>
+        <PriorYearDepreciationAmt>24446</PriorYearDepreciationAmt>
+        <ComputationMethodTxt>SL</ComputationMethodTxt>
+        <LifeRt>40</LifeRt>
+        <CurrentYearExpenseAmt>1137</CurrentYearExpenseAmt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+      </DepreciationPropertyGrp>
+      <DepreciationPropertyGrp>
+        <PropertyDesc>EQUIPMENT - SEARS</PropertyDesc>
+        <AcquiredDt>1997-05-01</AcquiredDt>
+        <CostOrOtherBasisAmt>650</CostOrOtherBasisAmt>
+        <PriorYearDepreciationAmt>650</PriorYearDepreciationAmt>
+        <ComputationMethodTxt>SL</ComputationMethodTxt>
+        <LifeRt>5</LifeRt>
+        <CurrentYearExpenseAmt>0</CurrentYearExpenseAmt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+      </DepreciationPropertyGrp>
+      <DepreciationPropertyGrp>
+        <PropertyDesc>LIGHTING RODS</PropertyDesc>
+        <AcquiredDt>1998-06-01</AcquiredDt>
+        <CostOrOtherBasisAmt>1152</CostOrOtherBasisAmt>
+        <PriorYearDepreciationAmt>1152</PriorYearDepreciationAmt>
+        <ComputationMethodTxt>SL</ComputationMethodTxt>
+        <LifeRt>5</LifeRt>
+        <CurrentYearExpenseAmt>0</CurrentYearExpenseAmt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+      </DepreciationPropertyGrp>
+      <DepreciationPropertyGrp>
+        <PropertyDesc>BARN SHED</PropertyDesc>
+        <AcquiredDt>1998-08-01</AcquiredDt>
+        <CostOrOtherBasisAmt>44479</CostOrOtherBasisAmt>
+        <PriorYearDepreciationAmt>22796</PriorYearDepreciationAmt>
+        <ComputationMethodTxt>SL</ComputationMethodTxt>
+        <LifeRt>40</LifeRt>
+        <CurrentYearExpenseAmt>1112</CurrentYearExpenseAmt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+      </DepreciationPropertyGrp>
+      <DepreciationPropertyGrp>
+        <PropertyDesc>TENNANT GARAGE BLDG</PropertyDesc>
+        <AcquiredDt>1999-11-14</AcquiredDt>
+        <CostOrOtherBasisAmt>4475</CostOrOtherBasisAmt>
+        <PriorYearDepreciationAmt>2254</PriorYearDepreciationAmt>
+        <ComputationMethodTxt>SL</ComputationMethodTxt>
+        <LifeRt>40</LifeRt>
+        <CurrentYearExpenseAmt>112</CurrentYearExpenseAmt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+      </DepreciationPropertyGrp>
+      <DepreciationPropertyGrp>
+        <PropertyDesc>BARN SHED COMPLETION</PropertyDesc>
+        <AcquiredDt>1999-05-21</AcquiredDt>
+        <CostOrOtherBasisAmt>19257</CostOrOtherBasisAmt>
+        <PriorYearDepreciationAmt>9921</PriorYearDepreciationAmt>
+        <ComputationMethodTxt>SL</ComputationMethodTxt>
+        <LifeRt>40</LifeRt>
+        <CurrentYearExpenseAmt>481</CurrentYearExpenseAmt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+      </DepreciationPropertyGrp>
+      <DepreciationPropertyGrp>
+        <PropertyDesc>TROUGH &amp; CISTERN</PropertyDesc>
+        <AcquiredDt>1999-11-16</AcquiredDt>
+        <CostOrOtherBasisAmt>2424</CostOrOtherBasisAmt>
+        <PriorYearDepreciationAmt>2208</PriorYearDepreciationAmt>
+        <ComputationMethodTxt>SL</ComputationMethodTxt>
+        <LifeRt>10</LifeRt>
+        <CurrentYearExpenseAmt>0</CurrentYearExpenseAmt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+      </DepreciationPropertyGrp>
+      <DepreciationPropertyGrp>
+        <PropertyDesc>ASPHALT PAVING</PropertyDesc>
+        <AcquiredDt>2010-08-24</AcquiredDt>
+        <CostOrOtherBasisAmt>13425</CostOrOtherBasisAmt>
+        <PriorYearDepreciationAmt>9398</PriorYearDepreciationAmt>
+        <ComputationMethodTxt>SL</ComputationMethodTxt>
+        <LifeRt>15</LifeRt>
+        <CurrentYearExpenseAmt>895</CurrentYearExpenseAmt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+      </DepreciationPropertyGrp>
+      <DepreciationPropertyGrp>
+        <PropertyDesc>HAY TEDDER</PropertyDesc>
+        <AcquiredDt>2012-06-07</AcquiredDt>
+        <CostOrOtherBasisAmt>7400</CostOrOtherBasisAmt>
+        <PriorYearDepreciationAmt>7400</PriorYearDepreciationAmt>
+        <ComputationMethodTxt>SL</ComputationMethodTxt>
+        <LifeRt>7</LifeRt>
+        <CurrentYearExpenseAmt>0</CurrentYearExpenseAmt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+      </DepreciationPropertyGrp>
+      <DepreciationPropertyGrp>
+        <PropertyDesc>YARD FENCE</PropertyDesc>
+        <AcquiredDt>2012-05-23</AcquiredDt>
+        <CostOrOtherBasisAmt>879</CostOrOtherBasisAmt>
+        <PriorYearDepreciationAmt>879</PriorYearDepreciationAmt>
+        <ComputationMethodTxt>SL</ComputationMethodTxt>
+        <LifeRt>7</LifeRt>
+        <CurrentYearExpenseAmt>0</CurrentYearExpenseAmt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+      </DepreciationPropertyGrp>
+      <DepreciationPropertyGrp>
+        <PropertyDesc>LAND</PropertyDesc>
+        <AcquiredDt>1984-06-09</AcquiredDt>
+        <CostOrOtherBasisAmt>224000</CostOrOtherBasisAmt>
+        <PriorYearDepreciationAmt>0</PriorYearDepreciationAmt>
+        <ComputationMethodTxt>NDA</ComputationMethodTxt>
+        <CurrentYearExpenseAmt>0</CurrentYearExpenseAmt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+      </DepreciationPropertyGrp>
+      <DepreciationPropertyGrp>
+        <PropertyDesc>2 DEHUMIDIFIERS</PropertyDesc>
+        <AcquiredDt>2014-01-14</AcquiredDt>
+        <CostOrOtherBasisAmt>340</CostOrOtherBasisAmt>
+        <PriorYearDepreciationAmt>340</PriorYearDepreciationAmt>
+        <ComputationMethodTxt>SL</ComputationMethodTxt>
+        <LifeRt>5</LifeRt>
+        <CurrentYearExpenseAmt>0</CurrentYearExpenseAmt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+      </DepreciationPropertyGrp>
+      <DepreciationPropertyGrp>
+        <PropertyDesc>CEMETERY COST</PropertyDesc>
+        <AcquiredDt>2013-08-26</AcquiredDt>
+        <CostOrOtherBasisAmt>1400</CostOrOtherBasisAmt>
+        <PriorYearDepreciationAmt>0</PriorYearDepreciationAmt>
+        <ComputationMethodTxt>NDA</ComputationMethodTxt>
+        <CurrentYearExpenseAmt>0</CurrentYearExpenseAmt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+      </DepreciationPropertyGrp>
+      <DepreciationPropertyGrp>
+        <PropertyDesc>ALUM FENCE AND GATE</PropertyDesc>
+        <AcquiredDt>2014-06-12</AcquiredDt>
+        <CostOrOtherBasisAmt>3886</CostOrOtherBasisAmt>
+        <PriorYearDepreciationAmt>3677</PriorYearDepreciationAmt>
+        <ComputationMethodTxt>SL</ComputationMethodTxt>
+        <LifeRt>7</LifeRt>
+        <CurrentYearExpenseAmt>209</CurrentYearExpenseAmt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+      </DepreciationPropertyGrp>
+      <DepreciationPropertyGrp>
+        <PropertyDesc>RIDER MOWER</PropertyDesc>
+        <AcquiredDt>2014-12-02</AcquiredDt>
+        <CostOrOtherBasisAmt>4500</CostOrOtherBasisAmt>
+        <PriorYearDepreciationAmt>3938</PriorYearDepreciationAmt>
+        <ComputationMethodTxt>SL</ComputationMethodTxt>
+        <LifeRt>7</LifeRt>
+        <CurrentYearExpenseAmt>562</CurrentYearExpenseAmt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+      </DepreciationPropertyGrp>
+      <DepreciationPropertyGrp>
+        <PropertyDesc>FARMHOUSE FURNACE</PropertyDesc>
+        <AcquiredDt>2017-05-15</AcquiredDt>
+        <CostOrOtherBasisAmt>4734</CostOrOtherBasisAmt>
+        <PriorYearDepreciationAmt>2366</PriorYearDepreciationAmt>
+        <ComputationMethodTxt>SL</ComputationMethodTxt>
+        <LifeRt>7</LifeRt>
+        <CurrentYearExpenseAmt>676</CurrentYearExpenseAmt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+      </DepreciationPropertyGrp>
+      <DepreciationPropertyGrp>
+        <PropertyDesc>ROOF PAINT &amp; REMODEL FARM HSE</PropertyDesc>
+        <AcquiredDt>2018-07-14</AcquiredDt>
+        <CostOrOtherBasisAmt>25880</CostOrOtherBasisAmt>
+        <PriorYearDepreciationAmt>1687</PriorYearDepreciationAmt>
+        <LifeRt>39</LifeRt>
+        <CurrentYearExpenseAmt>664</CurrentYearExpenseAmt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+      </DepreciationPropertyGrp>
+      <DepreciationPropertyGrp>
+        <PropertyDesc>FENCE MOWER</PropertyDesc>
+        <AcquiredDt>2018-03-29</AcquiredDt>
+        <CostOrOtherBasisAmt>3850</CostOrOtherBasisAmt>
+        <PriorYearDepreciationAmt>2166</PriorYearDepreciationAmt>
+        <LifeRt>7</LifeRt>
+        <CurrentYearExpenseAmt>481</CurrentYearExpenseAmt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+      </DepreciationPropertyGrp>
+      <DepreciationPropertyGrp>
+        <PropertyDesc>GATES</PropertyDesc>
+        <AcquiredDt>2019-04-11</AcquiredDt>
+        <CostOrOtherBasisAmt>2198</CostOrOtherBasisAmt>
+        <PriorYearDepreciationAmt>660</PriorYearDepreciationAmt>
+        <ComputationMethodTxt>SL</ComputationMethodTxt>
+        <LifeRt>5</LifeRt>
+        <CurrentYearExpenseAmt>440</CurrentYearExpenseAmt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+      </DepreciationPropertyGrp>
+      <DepreciationPropertyGrp>
+        <PropertyDesc>PVC FENCE WHITE</PropertyDesc>
+        <AcquiredDt>2019-05-13</AcquiredDt>
+        <CostOrOtherBasisAmt>21532</CostOrOtherBasisAmt>
+        <PriorYearDepreciationAmt>4614</PriorYearDepreciationAmt>
+        <ComputationMethodTxt>SL</ComputationMethodTxt>
+        <LifeRt>7</LifeRt>
+        <CurrentYearExpenseAmt>3076</CurrentYearExpenseAmt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+      </DepreciationPropertyGrp>
+      <DepreciationPropertyGrp>
+        <PropertyDesc>2019 KUBOTA TRACTOR</PropertyDesc>
+        <AcquiredDt>2019-06-20</AcquiredDt>
+        <CostOrOtherBasisAmt>43248</CostOrOtherBasisAmt>
+        <PriorYearDepreciationAmt>9267</PriorYearDepreciationAmt>
+        <ComputationMethodTxt>SL</ComputationMethodTxt>
+        <LifeRt>7</LifeRt>
+        <CurrentYearExpenseAmt>6178</CurrentYearExpenseAmt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+      </DepreciationPropertyGrp>
+      <DepreciationPropertyGrp>
+        <PropertyDesc>POST AUGER</PropertyDesc>
+        <AcquiredDt>2019-07-10</AcquiredDt>
+        <CostOrOtherBasisAmt>1961</CostOrOtherBasisAmt>
+        <PriorYearDepreciationAmt>588</PriorYearDepreciationAmt>
+        <ComputationMethodTxt>SL</ComputationMethodTxt>
+        <LifeRt>5</LifeRt>
+        <CurrentYearExpenseAmt>392</CurrentYearExpenseAmt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+      </DepreciationPropertyGrp>
+      <DepreciationPropertyGrp>
+        <PropertyDesc>BRUSH HOG</PropertyDesc>
+        <AcquiredDt>2020-05-07</AcquiredDt>
+        <CostOrOtherBasisAmt>6890</CostOrOtherBasisAmt>
+        <PriorYearDepreciationAmt>1378</PriorYearDepreciationAmt>
+        <ComputationMethodTxt>M</ComputationMethodTxt>
+        <LifeRt>5</LifeRt>
+        <CurrentYearExpenseAmt>2205</CurrentYearExpenseAmt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+      </DepreciationPropertyGrp>
+      <DepreciationPropertyGrp>
+        <PropertyDesc>REMODEL TENNET HOUSE</PropertyDesc>
+        <AcquiredDt>2020-09-18</AcquiredDt>
+        <CostOrOtherBasisAmt>11461</CostOrOtherBasisAmt>
+        <PriorYearDepreciationAmt>573</PriorYearDepreciationAmt>
+        <ComputationMethodTxt>M</ComputationMethodTxt>
+        <LifeRt>15</LifeRt>
+        <CurrentYearExpenseAmt>1089</CurrentYearExpenseAmt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+      </DepreciationPropertyGrp>
+      <DepreciationPropertyGrp>
+        <PropertyDesc>SMALL KUBOTA BACKHOE</PropertyDesc>
+        <AcquiredDt>2020-06-30</AcquiredDt>
+        <CostOrOtherBasisAmt>21518</CostOrOtherBasisAmt>
+        <PriorYearDepreciationAmt>3075</PriorYearDepreciationAmt>
+        <ComputationMethodTxt>M</ComputationMethodTxt>
+        <LifeRt>7</LifeRt>
+        <CurrentYearExpenseAmt>5270</CurrentYearExpenseAmt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+      </DepreciationPropertyGrp>
+      <DepreciationPropertyGrp>
+        <PropertyDesc>LANDPRIDE TRAC RC2512-2 NO 9149</PropertyDesc>
+        <AcquiredDt>2021-06-28</AcquiredDt>
+        <CostOrOtherBasisAmt>13780</CostOrOtherBasisAmt>
+        <PriorYearDepreciationAmt>0</PriorYearDepreciationAmt>
+        <ComputationMethodTxt>M</ComputationMethodTxt>
+        <LifeRt>7</LifeRt>
+        <CurrentYearExpenseAmt>1969</CurrentYearExpenseAmt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+      </DepreciationPropertyGrp>
+      <DepreciationPropertyGrp>
+        <PropertyDesc>METAL CHAIRS 60 WCART</PropertyDesc>
+        <AcquiredDt>2021-07-12</AcquiredDt>
+        <CostOrOtherBasisAmt>2244</CostOrOtherBasisAmt>
+        <PriorYearDepreciationAmt>0</PriorYearDepreciationAmt>
+        <ComputationMethodTxt>M</ComputationMethodTxt>
+        <LifeRt>7</LifeRt>
+        <CurrentYearExpenseAmt>321</CurrentYearExpenseAmt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+      </DepreciationPropertyGrp>
+      <DepreciationPropertyGrp>
+        <PropertyDesc>METAL GATES 12 YODER</PropertyDesc>
+        <AcquiredDt>2021-07-24</AcquiredDt>
+        <CostOrOtherBasisAmt>2600</CostOrOtherBasisAmt>
+        <PriorYearDepreciationAmt>0</PriorYearDepreciationAmt>
+        <ComputationMethodTxt>M</ComputationMethodTxt>
+        <LifeRt>5</LifeRt>
+        <CurrentYearExpenseAmt>520</CurrentYearExpenseAmt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+      </DepreciationPropertyGrp>
+      <DepreciationPropertyGrp>
+        <PropertyDesc>LA9600 LANDPRIDE ATTACHMENT NO 1749600</PropertyDesc>
+        <AcquiredDt>2021-11-30</AcquiredDt>
+        <CostOrOtherBasisAmt>2600</CostOrOtherBasisAmt>
+        <PriorYearDepreciationAmt>0</PriorYearDepreciationAmt>
+        <ComputationMethodTxt>M</ComputationMethodTxt>
+        <LifeRt>7</LifeRt>
+        <CurrentYearExpenseAmt>372</CurrentYearExpenseAmt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+      </DepreciationPropertyGrp>
+      <DepreciationPropertyGrp>
+        <PropertyDesc>METAL ROOF BARN</PropertyDesc>
+        <AcquiredDt>2021-10-28</AcquiredDt>
+        <CostOrOtherBasisAmt>8200</CostOrOtherBasisAmt>
+        <PriorYearDepreciationAmt>0</PriorYearDepreciationAmt>
+        <ComputationMethodTxt>M</ComputationMethodTxt>
+        <LifeRt>15</LifeRt>
+        <CurrentYearExpenseAmt>410</CurrentYearExpenseAmt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+      </DepreciationPropertyGrp>
+      <DepreciationPropertyGrp>
+        <PropertyDesc>METAL ROOF &amp; GUTTERS FARM HOUSE</PropertyDesc>
+        <AcquiredDt>2021-03-08</AcquiredDt>
+        <CostOrOtherBasisAmt>16128</CostOrOtherBasisAmt>
+        <PriorYearDepreciationAmt>0</PriorYearDepreciationAmt>
+        <ComputationMethodTxt>M</ComputationMethodTxt>
+        <LifeRt>15</LifeRt>
+        <CurrentYearExpenseAmt>806</CurrentYearExpenseAmt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+      </DepreciationPropertyGrp>
+    </DepreciationSchedule>
+    <LandEtcSchedule2 documentId="STM119">
+      <LandEtcGrp>
+        <CategoryOrItemTxt>EQUIPMENT</CategoryOrItemTxt>
+        <CostOrOtherBasisAmt>168291</CostOrOtherBasisAmt>
+        <AccumulatedDepreciationAmt>83802</AccumulatedDepreciationAmt>
+        <BookValueAmt>84489</BookValueAmt>
+        <EOYFMVAmt>84489</EOYFMVAmt>
+      </LandEtcGrp>
+      <LandEtcGrp>
+        <CategoryOrItemTxt>BUILDINGS</CategoryOrItemTxt>
+        <CostOrOtherBasisAmt>234332</CostOrOtherBasisAmt>
+        <AccumulatedDepreciationAmt>112469</AccumulatedDepreciationAmt>
+        <BookValueAmt>121863</BookValueAmt>
+        <EOYFMVAmt>121863</EOYFMVAmt>
+      </LandEtcGrp>
+      <LandEtcGrp>
+        <CategoryOrItemTxt>LAND</CategoryOrItemTxt>
+        <CostOrOtherBasisAmt>225400</CostOrOtherBasisAmt>
+        <AccumulatedDepreciationAmt>0</AccumulatedDepreciationAmt>
+        <BookValueAmt>225400</BookValueAmt>
+        <EOYFMVAmt>225400</EOYFMVAmt>
+      </LandEtcGrp>
+    </LandEtcSchedule2>
+    <LegalFeesSchedule documentId="STM107">
+      <LegalFeesGrp>
+        <CategoryTxt>BUSHZURBACH &amp; THOMPSON</CategoryTxt>
+        <LegalFeesAmt>4000</LegalFeesAmt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>4000</DisbursementsCharitablePrpsAmt>
+      </LegalFeesGrp>
+    </LegalFeesSchedule>
+    <OtherAssetsSchedule documentId="STM120">
+      <OtherAssetsScheduleGrp>
+        <Desc>FUNDS ACCRUED VISITOR CTR CONST</Desc>
+        <BOYBookValueAmt>0</BOYBookValueAmt>
+        <EOYBookValueAmt>40429</EOYBookValueAmt>
+        <EOYFMVAmt>40429</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+    </OtherAssetsSchedule>
+    <OtherExpensesSchedule documentId="STM103">
+      <OtherExpensesScheduleGrp>
+        <Desc>UTILITIES</Desc>
+        <RevenueAndExpensesPerBooksAmt>2862</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>2862</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>INSURANCE</Desc>
+        <RevenueAndExpensesPerBooksAmt>5601</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>5601</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>MACHINE HIRE</Desc>
+        <RevenueAndExpensesPerBooksAmt>1265</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>1265</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>REPAIR &amp; MAINTENCE OF FARM</Desc>
+        <RevenueAndExpensesPerBooksAmt>533</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>533</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>OFFICE EXPENSE</Desc>
+        <RevenueAndExpensesPerBooksAmt>150</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>150</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>FOOD</Desc>
+        <RevenueAndExpensesPerBooksAmt>370</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>370</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>SUPPLIES</Desc>
+        <RevenueAndExpensesPerBooksAmt>305</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>305</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>POSTAGE</Desc>
+        <RevenueAndExpensesPerBooksAmt>58</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>58</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>LIME &amp; FERTLIZER</Desc>
+        <RevenueAndExpensesPerBooksAmt>5304</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>5304</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>FIELD DAY EXPENSE</Desc>
+        <RevenueAndExpensesPerBooksAmt>1993</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>1993</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>BANK FEES</Desc>
+        <RevenueAndExpensesPerBooksAmt>116</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>116</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>FARM DUES</Desc>
+        <RevenueAndExpensesPerBooksAmt>52</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>52</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+    </OtherExpensesSchedule>
+    <OtherIncomeSchedule2 documentId="STM106">
+      <OtherIncomeDetail>
+        <Desc>MISC REFUNDS</Desc>
+        <RevenueAndExpensesPerBooksAmt>7</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+      </OtherIncomeDetail>
+    </OtherIncomeSchedule2>
+    <OtherIncreasesSchedule documentId="STM115">
+      <OtherIncreasesDetail>
+        <Desc>MISC ADJUSTMENT BEGINNING CASH</Desc>
+        <Amt>117</Amt>
+      </OtherIncreasesDetail>
+    </OtherIncreasesSchedule>
+    <SubstantialContributorsSch documentId="STM114">
+      <SubstantialContributorDetail>
+        <PersonNm>J HERMAN ISNER FINANCIAL TRUST</PersonNm>
+        <USAddress>
+          <AddressLine1Txt>PO BOX 1969</AddressLine1Txt>
+          <CityNm>Elkins</CityNm>
+          <StateAbbreviationCd>WV</StateAbbreviationCd>
+          <ZIPCd>26241</ZIPCd>
+        </USAddress>
+      </SubstantialContributorDetail>
+      <SubstantialContributorDetail>
+        <PersonNm>J HERMAN ISNER CHAIRTABLE TRUST</PersonNm>
+        <USAddress>
+          <AddressLine1Txt>211 THIRD STREET</AddressLine1Txt>
+          <CityNm>Elkins</CityNm>
+          <StateAbbreviationCd>WV</StateAbbreviationCd>
+          <ZIPCd>26241</ZIPCd>
+        </USAddress>
+      </SubstantialContributorDetail>
+    </SubstantialContributorsSch>
+    <TaxesSchedule documentId="STM110">
+      <TaxesDetail>
+        <CategoryTxt>FICA EXPENSE</CategoryTxt>
+        <Amt>156</Amt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>156</DisbursementsCharitablePrpsAmt>
+      </TaxesDetail>
+    </TaxesSchedule>
+  </ReturnData>
+</Return>

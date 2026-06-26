@@ -1,0 +1,1064 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Return xmlns="http://www.irs.gov/efile" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" returnVersion="2021v4.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2022-08-10T13:06:22-05:00</ReturnTs>
+    <TaxPeriodEndDt>2021-12-31</TaxPeriodEndDt>
+    <PreparerFirmGrp>
+      <PreparerFirmEIN>463793521</PreparerFirmEIN>
+      <PreparerFirmName>
+        <BusinessNameLine1Txt>NEW ERA TAX &amp; ACCOUNTING</BusinessNameLine1Txt>
+      </PreparerFirmName>
+      <PreparerUSAddress>
+        <AddressLine1Txt>PO BOX 699</AddressLine1Txt>
+        <CityNm>SIDNEY</CityNm>
+        <StateAbbreviationCd>IA</StateAbbreviationCd>
+        <ZIPCd>516520699</ZIPCd>
+      </PreparerUSAddress>
+    </PreparerFirmGrp>
+    <ReturnTypeCd>990PF</ReturnTypeCd>
+    <TaxPeriodBeginDt>2021-01-01</TaxPeriodBeginDt>
+    <Filer>
+      <EIN>426346310</EIN>
+      <BusinessName>
+        <BusinessNameLine1Txt>DANNY SCHNEPP MEMORIAL FUND TRUST</BusinessNameLine1Txt>
+      </BusinessName>
+      <BusinessNameControlTxt>DANN</BusinessNameControlTxt>
+      <PhoneNum>7123742808</PhoneNum>
+      <USAddress>
+        <AddressLine1Txt>PO BOX 141</AddressLine1Txt>
+        <CityNm>SIDNEY</CityNm>
+        <StateAbbreviationCd>IA</StateAbbreviationCd>
+        <ZIPCd>51652</ZIPCd>
+      </USAddress>
+    </Filer>
+    <BusinessOfficerGrp>
+      <PersonNm>SANDRA BENGTSON</PersonNm>
+      <PersonTitleTxt>TRUSTEE</PersonTitleTxt>
+      <PhoneNum>7123742003</PhoneNum>
+      <SignatureDt>2022-08-10</SignatureDt>
+    </BusinessOfficerGrp>
+    <SigningOfficerGrp>
+      <PersonFullName>
+        <PersonFirstNm>SANDRA</PersonFirstNm>
+        <PersonLastNm>BENGTSON</PersonLastNm>
+      </PersonFullName>
+      <SSN>999009999</SSN>
+    </SigningOfficerGrp>
+    <PreparerPersonGrp>
+      <PreparerPersonNm>LISA IRVIN</PreparerPersonNm>
+      <PTIN>P01649865</PTIN>
+      <PhoneNum>7123742003</PhoneNum>
+      <PreparationDt>2022-08-10</PreparationDt>
+    </PreparerPersonGrp>
+    <TaxYr>2021</TaxYr>
+    <BuildTS>2022-09-23 18:48:47Z</BuildTS>
+  </ReturnHeader>
+  <ReturnData documentCnt="11">
+    <IRS990PF documentId="RetDoc12">
+      <Organization501c3ExemptPFInd>X</Organization501c3ExemptPFInd>
+      <FMVAssetsEOYAmt>2959671</FMVAssetsEOYAmt>
+      <MethodOfAccountingAccrualInd>X</MethodOfAccountingAccrualInd>
+      <AnalysisOfRevenueAndExpenses>
+        <ScheduleBNotRequiredInd>X</ScheduleBNotRequiredInd>
+        <InterestOnSavRevAndExpnssAmt>8380</InterestOnSavRevAndExpnssAmt>
+        <InterestOnSavNetInvstIncmAmt>8380</InterestOnSavNetInvstIncmAmt>
+        <InterestOnSavingsAdjNetIncmAmt>8380</InterestOnSavingsAdjNetIncmAmt>
+        <DividendsRevAndExpnssAmt>48552</DividendsRevAndExpnssAmt>
+        <DividendsNetInvstIncmAmt>48552</DividendsNetInvstIncmAmt>
+        <DividendsAdjNetIncmAmt>48552</DividendsAdjNetIncmAmt>
+        <NetGainSaleAstRevAndExpnssAmt referenceDocumentId="RetDoc5">133291</NetGainSaleAstRevAndExpnssAmt>
+        <GrossSalesPriceAmt>189612</GrossSalesPriceAmt>
+        <CapGainNetIncmNetInvstIncmAmt>89612</CapGainNetIncmNetInvstIncmAmt>
+        <TotalRevAndExpnssAmt>190223</TotalRevAndExpnssAmt>
+        <TotalNetInvstIncmAmt>146544</TotalNetInvstIncmAmt>
+        <TotalAdjNetIncmAmt>56932</TotalAdjNetIncmAmt>
+        <CompOfcrDirTrstRevAndExpnssAmt>7500</CompOfcrDirTrstRevAndExpnssAmt>
+        <CompOfcrDirTrstAdjNetIncmAmt>7500</CompOfcrDirTrstAdjNetIncmAmt>
+        <CompOfcrDirTrstDsbrsChrtblAmt>7500</CompOfcrDirTrstDsbrsChrtblAmt>
+        <LegalFeesRevAndExpnssAmt referenceDocumentId="RetDoc7">595</LegalFeesRevAndExpnssAmt>
+        <LegalFeesAdjNetIncmAmt>595</LegalFeesAdjNetIncmAmt>
+        <LegalFeesDsbrsChrtblAmt>595</LegalFeesDsbrsChrtblAmt>
+        <AccountingFeesRevAndExpnssAmt referenceDocumentId="RetDoc3">5448</AccountingFeesRevAndExpnssAmt>
+        <AccountingFeesAdjNetIncmAmt>5448</AccountingFeesAdjNetIncmAmt>
+        <AccountingFeesChrtblPrpsAmt>5448</AccountingFeesChrtblPrpsAmt>
+        <TaxesRevAndExpnssAmt referenceDocumentId="RetDoc11">28591</TaxesRevAndExpnssAmt>
+        <OtherExpensesRevAndExpnssAmt referenceDocumentId="RetDoc9">153</OtherExpensesRevAndExpnssAmt>
+        <TotOprExpensesRevAndExpnssAmt>42287</TotOprExpensesRevAndExpnssAmt>
+        <TotOprExpensesNetInvstIncmAmt>0</TotOprExpensesNetInvstIncmAmt>
+        <TotOprExpensesAdjNetIncmAmt>13543</TotOprExpensesAdjNetIncmAmt>
+        <TotOprExpensesDsbrsChrtblAmt>13543</TotOprExpensesDsbrsChrtblAmt>
+        <ContriPaidRevAndExpnssAmt>0</ContriPaidRevAndExpnssAmt>
+        <ContriPaidDsbrsChrtblAmt>0</ContriPaidDsbrsChrtblAmt>
+        <TotalExpensesRevAndExpnssAmt>42287</TotalExpensesRevAndExpnssAmt>
+        <TotalExpensesNetInvstIncmAmt>0</TotalExpensesNetInvstIncmAmt>
+        <TotalExpensesAdjNetIncmAmt>13543</TotalExpensesAdjNetIncmAmt>
+        <TotalExpensesDsbrsChrtblAmt>13543</TotalExpensesDsbrsChrtblAmt>
+        <ExcessRevenueOverExpensesAmt>147936</ExcessRevenueOverExpensesAmt>
+        <NetInvestmentIncomeAmt>146544</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>43389</AdjustedNetIncomeAmt>
+      </AnalysisOfRevenueAndExpenses>
+      <Form990PFBalanceSheetsGrp>
+        <CashBOYAmt>10533</CashBOYAmt>
+        <CashEOYAmt>79831</CashEOYAmt>
+        <CashEOYFMVAmt>79831</CashEOYFMVAmt>
+        <SavAndTempCashInvstBOYAmt>32992</SavAndTempCashInvstBOYAmt>
+        <SavAndTempCashInvstEOYAmt>17957</SavAndTempCashInvstEOYAmt>
+        <SavAndTempCashInvstEOYFMVAmt>17957</SavAndTempCashInvstEOYFMVAmt>
+        <OtherNtsAndLoansRcvblAmt>608662</OtherNtsAndLoansRcvblAmt>
+        <OtherNtsAndLoansRcvblBOYAmt>597526</OtherNtsAndLoansRcvblBOYAmt>
+        <OtherNtsAndLoansRcvblEOYAmt referenceDocumentId="RetDoc1">608662</OtherNtsAndLoansRcvblEOYAmt>
+        <OtherNtsAndLoansRcvblEOYFMVAmt>608662</OtherNtsAndLoansRcvblEOYFMVAmt>
+        <CorporateStockBOYAmt>2016821</CorporateStockBOYAmt>
+        <CorporateStockEOYAmt referenceDocumentId="RetDoc6">2251005</CorporateStockEOYAmt>
+        <CorporateStockEOYFMVAmt>2251005</CorporateStockEOYFMVAmt>
+        <OtherAssetsBOYAmt referenceDocumentId="RetDoc8">1523</OtherAssetsBOYAmt>
+        <OtherAssetsEOYAmt referenceDocumentId="RetDoc8">2216</OtherAssetsEOYAmt>
+        <OtherAssetsEOYFMVAmt referenceDocumentId="RetDoc8">2216</OtherAssetsEOYFMVAmt>
+        <TotalAssetsBOYAmt>2659395</TotalAssetsBOYAmt>
+        <TotalAssetsEOYAmt>2959671</TotalAssetsEOYAmt>
+        <TotalAssetsEOYFMVAmt>2959671</TotalAssetsEOYFMVAmt>
+        <DeferredRevenueBOYAmt>697768</DeferredRevenueBOYAmt>
+        <DeferredRevenueEOYAmt>850108</DeferredRevenueEOYAmt>
+        <TotalLiabilitiesBOYAmt>697768</TotalLiabilitiesBOYAmt>
+        <TotalLiabilitiesEOYAmt>850108</TotalLiabilitiesEOYAmt>
+        <OrgDoesNotFollowFASB117Ind>X</OrgDoesNotFollowFASB117Ind>
+        <RetainedEarningBOYAmt>1961627</RetainedEarningBOYAmt>
+        <RetainedEarningEOYAmt>2109563</RetainedEarningEOYAmt>
+        <TotNetAstOrFundBalancesBOYAmt>1961627</TotNetAstOrFundBalancesBOYAmt>
+        <TotNetAstOrFundBalancesEOYAmt>2109563</TotNetAstOrFundBalancesEOYAmt>
+        <TotalLiabilitiesNetAstBOYAmt>2659395</TotalLiabilitiesNetAstBOYAmt>
+        <TotalLiabilitiesNetAstEOYAmt>2959671</TotalLiabilitiesNetAstEOYAmt>
+      </Form990PFBalanceSheetsGrp>
+      <ChgInNetAssetsFundBalancesGrp>
+        <TotNetAstOrFundBalancesBOYAmt>1961627</TotNetAstOrFundBalancesBOYAmt>
+        <ExcessRevenueOverExpensesAmt>147936</ExcessRevenueOverExpensesAmt>
+        <SubtotalAmt>2109563</SubtotalAmt>
+        <TotNetAstOrFundBalancesEOYAmt>2109563</TotNetAstOrFundBalancesEOYAmt>
+      </ChgInNetAssetsFundBalancesGrp>
+      <CapGainsLossTxInvstIncmDetail>
+        <CapitalGainNetIncomeAmt>89612</CapitalGainNetIncomeAmt>
+      </CapGainsLossTxInvstIncmDetail>
+      <ExciseTaxBasedOnInvstIncmGrp>
+        <InvestmentIncomeExciseTaxAmt>2037</InvestmentIncomeExciseTaxAmt>
+        <SubtotalAmt>2037</SubtotalAmt>
+        <TaxBasedOnInvestmentIncomeAmt>2037</TaxBasedOnInvestmentIncomeAmt>
+        <Form2220AttachedInd referenceDocumentId="RetDoc2">X</Form2220AttachedInd>
+        <EsPenaltyAmt>19</EsPenaltyAmt>
+        <TaxDueAmt>2056</TaxDueAmt>
+      </ExciseTaxBasedOnInvstIncmGrp>
+      <StatementsRegardingActyGrp>
+        <LegislativePoliticalActyInd>false</LegislativePoliticalActyInd>
+        <MoreThan100SpentInd>false</MoreThan100SpentInd>
+        <Form1120POLFiledInd>false</Form1120POLFiledInd>
+        <ActivitiesNotPreviouslyRptInd>false</ActivitiesNotPreviouslyRptInd>
+        <ChangesToArticlesOrBylawsInd>false</ChangesToArticlesOrBylawsInd>
+        <UnrelatedBusIncmOverLimitInd>false</UnrelatedBusIncmOverLimitInd>
+        <OrganizationDissolvedEtcInd>false</OrganizationDissolvedEtcInd>
+        <Section508eRqrSatisfiedInd>true</Section508eRqrSatisfiedInd>
+        <AtLeast5000InAssetsInd>true</AtLeast5000InAssetsInd>
+        <OrgReportOrRegisterStateCd>IA</OrgReportOrRegisterStateCd>
+        <Form990PFFiledWithAttyGenInd referenceDocumentId="RetDoc4">false</Form990PFFiledWithAttyGenInd>
+        <PrivateOperatingFoundationInd>false</PrivateOperatingFoundationInd>
+        <NewSubstantialContributorsInd>false</NewSubstantialContributorsInd>
+        <OwnControlledEntityInd>false</OwnControlledEntityInd>
+        <DonorAdvisedFundInd>false</DonorAdvisedFundInd>
+        <ComplyWithPublicInspRqrInd>true</ComplyWithPublicInspRqrInd>
+        <WebsiteAddressTxt>N/A</WebsiteAddressTxt>
+        <IndividualWithBooksNm>NEW ERA TAX ACCOUNTING</IndividualWithBooksNm>
+        <PhoneNum>7123742003</PhoneNum>
+        <LocationOfBooksUSAddress>
+          <AddressLine1Txt>PO BOX 669</AddressLine1Txt>
+          <AddressLine2Txt>PO BOX 699</AddressLine2Txt>
+          <CityNm>SIDNEY</CityNm>
+          <StateAbbreviationCd>IA</StateAbbreviationCd>
+          <ZIPCd>51652</ZIPCd>
+        </LocationOfBooksUSAddress>
+        <ForeignAccountsQuestionInd>false</ForeignAccountsQuestionInd>
+      </StatementsRegardingActyGrp>
+      <StatementsRegardingActy4720Grp>
+        <SaleOrExchDisqualifiedPrsnInd>false</SaleOrExchDisqualifiedPrsnInd>
+        <BrrwOrLendDisqualifiedPrsnInd>false</BrrwOrLendDisqualifiedPrsnInd>
+        <FurnGoodsDisqualifiedPrsnInd>false</FurnGoodsDisqualifiedPrsnInd>
+        <PayCompDisqualifiedPrsnInd>false</PayCompDisqualifiedPrsnInd>
+        <TransferAstDisqualifiedPrsnInd>false</TransferAstDisqualifiedPrsnInd>
+        <PaymentToGovernmentOfficialInd>false</PaymentToGovernmentOfficialInd>
+        <UndistributedIncomePYInd>true</UndistributedIncomePYInd>
+        <UndistributedIncomePY1Yr>2020</UndistributedIncomePY1Yr>
+        <UndistributedIncomePY2Yr>2019</UndistributedIncomePY2Yr>
+        <UndistributedIncomePY3Yr>2018</UndistributedIncomePY3Yr>
+        <UndistrIncmSect4942a2NotAppInd>true</UndistrIncmSect4942a2NotAppInd>
+        <BusinessHoldingsInd>false</BusinessHoldingsInd>
+        <JeopardyInvestmentsInd>false</JeopardyInvestmentsInd>
+        <UncorrectedPYJeopardyInvstInd>false</UncorrectedPYJeopardyInvstInd>
+        <InfluenceLegislationInd>false</InfluenceLegislationInd>
+        <InfluenceElectionInd>false</InfluenceElectionInd>
+        <GrantsToIndividualsInd>false</GrantsToIndividualsInd>
+        <GrantsToOrganizationsInd>false</GrantsToOrganizationsInd>
+        <NoncharitablePurposeInd>false</NoncharitablePurposeInd>
+        <RcvFndsToPayPrsnlBnftCntrctInd>false</RcvFndsToPayPrsnlBnftCntrctInd>
+        <PayPremiumsPrsnlBnftCntrctInd>false</PayPremiumsPrsnlBnftCntrctInd>
+        <ProhibitedTaxShelterTransInd>false</ProhibitedTaxShelterTransInd>
+        <SubjToTaxRmnrtnExPrchtPymtInd>false</SubjToTaxRmnrtnExPrchtPymtInd>
+      </StatementsRegardingActy4720Grp>
+      <OfficerDirTrstKeyEmplInfoGrp>
+        <OfficerDirTrstKeyEmplGrp>
+          <PersonNm>THOMAS JOHNSON</PersonNm>
+          <USAddress>
+            <AddressLine1Txt>LOCAL</AddressLine1Txt>
+            <CityNm>SIDNEY</CityNm>
+            <StateAbbreviationCd>IA</StateAbbreviationCd>
+            <ZIPCd>51652</ZIPCd>
+          </USAddress>
+          <TitleTxt>TRUSTEE</TitleTxt>
+          <AverageHrsPerWkDevotedToPosRt>000.00</AverageHrsPerWkDevotedToPosRt>
+          <CompensationAmt>2500</CompensationAmt>
+          <EmployeeBenefitProgramAmt>0</EmployeeBenefitProgramAmt>
+          <ExpenseAccountOtherAllwncAmt>0</ExpenseAccountOtherAllwncAmt>
+        </OfficerDirTrstKeyEmplGrp>
+        <OfficerDirTrstKeyEmplGrp>
+          <PersonNm>JOHN ANDERZHON</PersonNm>
+          <USAddress>
+            <AddressLine1Txt>LOCAL</AddressLine1Txt>
+            <CityNm>FARRAGUT</CityNm>
+            <StateAbbreviationCd>IA</StateAbbreviationCd>
+            <ZIPCd>51639</ZIPCd>
+          </USAddress>
+          <TitleTxt>TRUSTEE</TitleTxt>
+          <AverageHrsPerWkDevotedToPosRt>000.00</AverageHrsPerWkDevotedToPosRt>
+          <CompensationAmt>2500</CompensationAmt>
+          <EmployeeBenefitProgramAmt>0</EmployeeBenefitProgramAmt>
+          <ExpenseAccountOtherAllwncAmt>0</ExpenseAccountOtherAllwncAmt>
+        </OfficerDirTrstKeyEmplGrp>
+        <OfficerDirTrstKeyEmplGrp>
+          <PersonNm>SANDRA BENGTSON</PersonNm>
+          <USAddress>
+            <AddressLine1Txt>LOCAL</AddressLine1Txt>
+            <CityNm>SIDNEY</CityNm>
+            <StateAbbreviationCd>IA</StateAbbreviationCd>
+            <ZIPCd>51652</ZIPCd>
+          </USAddress>
+          <TitleTxt>TRUSTEE</TitleTxt>
+          <AverageHrsPerWkDevotedToPosRt>000.00</AverageHrsPerWkDevotedToPosRt>
+          <CompensationAmt>2500</CompensationAmt>
+          <EmployeeBenefitProgramAmt>0</EmployeeBenefitProgramAmt>
+          <ExpenseAccountOtherAllwncAmt>0</ExpenseAccountOtherAllwncAmt>
+        </OfficerDirTrstKeyEmplGrp>
+        <CompOfHghstPdEmplOrNONETxt>NONE</CompOfHghstPdEmplOrNONETxt>
+        <CompOfHghstPdCntrctOrNONETxt>NONE</CompOfHghstPdCntrctOrNONETxt>
+      </OfficerDirTrstKeyEmplInfoGrp>
+      <SummaryOfDirectChrtblActyGrp>
+        <Description1Txt>LOW INTEREST LOANS TO STUDENTS WHO ARE RESIDENTS OF FREMONT COUNTY, IOWA, FOR HIGHER EDUCATIONAL PUPROSES.</Description1Txt>
+      </SummaryOfDirectChrtblActyGrp>
+      <SumOfProgramRelatedInvstGrp>
+        <Description1Txt>N/A</Description1Txt>
+      </SumOfProgramRelatedInvstGrp>
+      <MinimumInvestmentReturnGrp>
+        <AverageMonthlyFMVOfSecAmt>0</AverageMonthlyFMVOfSecAmt>
+        <AverageMonthlyCashBalancesAmt>0</AverageMonthlyCashBalancesAmt>
+        <FMVAllOtherNoncharitableAstAmt>0</FMVAllOtherNoncharitableAstAmt>
+        <TotalFMVOfUnusedAssetsAmt>0</TotalFMVOfUnusedAssetsAmt>
+        <AdjustedTotalFMVOfUnusedAstAmt>0</AdjustedTotalFMVOfUnusedAstAmt>
+        <CashDeemedCharitableAmt>0</CashDeemedCharitableAmt>
+        <NetVlNoncharitableAssetsAmt>0</NetVlNoncharitableAssetsAmt>
+        <MinimumInvestmentReturnAmt>0</MinimumInvestmentReturnAmt>
+      </MinimumInvestmentReturnGrp>
+      <DistributableAmountGrp>
+        <TaxBasedOnInvestmentIncomeAmt>2037</TaxBasedOnInvestmentIncomeAmt>
+        <TotalTaxAmt>2037</TotalTaxAmt>
+        <DistributableAsAdjustedAmt>0</DistributableAsAdjustedAmt>
+      </DistributableAmountGrp>
+      <PFQualifyingDistributionsGrp>
+        <ExpensesAndContributionsAmt>13543</ExpensesAndContributionsAmt>
+        <QualifyingDistributionsAmt>13543</QualifyingDistributionsAmt>
+      </PFQualifyingDistributionsGrp>
+      <UndistributedIncomeGrp>
+        <DistributableAsAdjustedAmt>0</DistributableAsAdjustedAmt>
+        <UndistributedIncomePYAmt>126960</UndistributedIncomePYAmt>
+        <PriorYear1Yr>2015</PriorYear1Yr>
+        <PriorYear2Yr>2014</PriorYear2Yr>
+        <TotalForPriorYearsAmt>187415</TotalForPriorYearsAmt>
+        <QualifyingDistributionsAmt>13543</QualifyingDistributionsAmt>
+        <AppliedToYear1Amt>13543</AppliedToYear1Amt>
+        <PriorYearUndistributedIncmAmt>187415</PriorYearUndistributedIncmAmt>
+        <PriorYearDeficiencyOrTaxAmt>187415</PriorYearDeficiencyOrTaxAmt>
+        <Taxable2Amt>113417</Taxable2Amt>
+        <UndistributedIncomeCYAmt>0</UndistributedIncomeCYAmt>
+      </UndistributedIncomeGrp>
+      <SupplementaryInformationGrp>
+        <ApplicationSubmissionInfoGrp>
+          <RecipientPersonNm>DANNY SCHNEPP MEMORIAL FUND</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>PO BOX 141</AddressLine1Txt>
+            <CityNm>SIDNEY</CityNm>
+            <StateAbbreviationCd>IA</StateAbbreviationCd>
+            <ZIPCd>51652</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientPhoneNum>7123742003</RecipientPhoneNum>
+          <RecipientEmailAddressTxt>TINA@NEWERATAX.COM</RecipientEmailAddressTxt>
+          <FormAndInfoAndMaterialsTxt>REQUEST APPLICATION</FormAndInfoAndMaterialsTxt>
+          <SubmissionDeadlinesTxt>JUNE 1</SubmissionDeadlinesTxt>
+          <RestrictionsOnAwardsTxt>MUST BE A RESIDENT OF FREMONT COUNTY IOWA</RestrictionsOnAwardsTxt>
+        </ApplicationSubmissionInfoGrp>
+      </SupplementaryInformationGrp>
+      <AnalysisIncomeProducingActyGrp>
+        <IntOnSavAndTempCashInvstGrp>
+          <ExclusionCd>14</ExclusionCd>
+          <ExclusionAmt>8380</ExclusionAmt>
+        </IntOnSavAndTempCashInvstGrp>
+        <DividendsAndInterestFromSecDtl>
+          <ExclusionCd>14</ExclusionCd>
+          <ExclusionAmt>48552</ExclusionAmt>
+        </DividendsAndInterestFromSecDtl>
+        <GainSalesAstOthThanInvntryGrp>
+          <ExclusionCd>14</ExclusionCd>
+          <ExclusionAmt>89612</ExclusionAmt>
+          <RelatedOrExemptFunctionIncmAmt>43679</RelatedOrExemptFunctionIncmAmt>
+        </GainSalesAstOthThanInvntryGrp>
+        <SubtotalsIncmProducingActyGrp>
+          <ExclusionAmt>146544</ExclusionAmt>
+          <RelatedOrExemptFunctionIncmAmt>43679</RelatedOrExemptFunctionIncmAmt>
+        </SubtotalsIncmProducingActyGrp>
+        <TotalIncomeProducingActyAmt>190223</TotalIncomeProducingActyAmt>
+      </AnalysisIncomeProducingActyGrp>
+      <RlnOfActyToAccomOfExmptPrpsGrp>
+        <RlnOfActyToAccomOfExmptPrpsGrp>
+          <LineNumberTxt>4</LineNumberTxt>
+          <RelationshipStatementTxt>LOANS MY BE GIVEN TO THE STUDENTS IN FREMONT COUNTY,</RelationshipStatementTxt>
+        </RlnOfActyToAccomOfExmptPrpsGrp>
+        <RlnOfActyToAccomOfExmptPrpsGrp>
+          <LineNumberTxt>3</LineNumberTxt>
+          <RelationshipStatementTxt>THE INCOME GENERATED CONTINUES THE FUNDS SO THAT MORE</RelationshipStatementTxt>
+        </RlnOfActyToAccomOfExmptPrpsGrp>
+      </RlnOfActyToAccomOfExmptPrpsGrp>
+      <TrnsfrTransRlnNonchrtblEOGrp>
+        <TrnsfrOfCashToNonchrtblEOInd>false</TrnsfrOfCashToNonchrtblEOInd>
+        <TrnsfrOtherAssetNonchrtblEOInd>false</TrnsfrOtherAssetNonchrtblEOInd>
+        <SalesOrExchangesOfAssetsInd>false</SalesOrExchangesOfAssetsInd>
+        <PurchaseOfAssetsNonchrtblEOInd>false</PurchaseOfAssetsNonchrtblEOInd>
+        <RentalOfFacilitiesOthAssetsInd>false</RentalOfFacilitiesOthAssetsInd>
+        <ReimbursementArrangementsInd>false</ReimbursementArrangementsInd>
+        <LoansOrLoanGuaranteesInd>false</LoansOrLoanGuaranteesInd>
+        <PerformanceOfServicesEtcInd>false</PerformanceOfServicesEtcInd>
+        <SharingOfFacilitiesEtcInd>false</SharingOfFacilitiesEtcInd>
+        <RelationshipsNonchrtblEOInd>false</RelationshipsNonchrtblEOInd>
+      </TrnsfrTransRlnNonchrtblEOGrp>
+    </IRS990PF>
+    <AccountingFeesSchedule documentId="RetDoc3">
+      <AccountingFeesDetail>
+        <CategoryTxt>ACCOUNTING FEE</CategoryTxt>
+        <Amt>5448</Amt>
+        <AdjustedNetIncomeAmt>5448</AdjustedNetIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>5448</DisbursementsCharitablePrpsAmt>
+      </AccountingFeesDetail>
+    </AccountingFeesSchedule>
+    <ExplnOfNonFilingWithAGStmt documentId="RetDoc4">
+      <ExplanationTxt>IOWA DOES NOT REQUIRE FILINGS</ExplanationTxt>
+    </ExplnOfNonFilingWithAGStmt>
+    <GainLossSaleOtherAssetsSch documentId="RetDoc5">
+      <GainLossSaleOtherAssetGrp>
+        <AssetDesc>AMERICAN MUTUAL FUND-A</AssetDesc>
+        <HowAcquiredTxt>PURCHASE</HowAcquiredTxt>
+        <SoldDt>2021-09</SoldDt>
+        <GrossSalesPriceAmt>2230</GrossSalesPriceAmt>
+        <BasisAmt>1607</BasisAmt>
+        <TotalNetAmt>623</TotalNetAmt>
+      </GainLossSaleOtherAssetGrp>
+      <GainLossSaleOtherAssetGrp>
+        <AssetDesc>THE INCOME FUND OF AMERICA-A</AssetDesc>
+        <HowAcquiredTxt>PURCHASE</HowAcquiredTxt>
+        <SoldDt>2021-09</SoldDt>
+        <GrossSalesPriceAmt>66100</GrossSalesPriceAmt>
+        <BasisAmt>40508</BasisAmt>
+        <TotalNetAmt>25592</TotalNetAmt>
+      </GainLossSaleOtherAssetGrp>
+      <GainLossSaleOtherAssetGrp>
+        <AssetDesc>NEW PERSPECTIVE FUND-A</AssetDesc>
+        <HowAcquiredTxt>PURCHASE</HowAcquiredTxt>
+        <SoldDt>2021-09</SoldDt>
+        <GrossSalesPriceAmt>16510</GrossSalesPriceAmt>
+        <BasisAmt>4936</BasisAmt>
+        <TotalNetAmt>11574</TotalNetAmt>
+      </GainLossSaleOtherAssetGrp>
+      <GainLossSaleOtherAssetGrp>
+        <AssetDesc>THE BOND FUND OF AMERICA-A</AssetDesc>
+        <AcquiredDt>2011-02</AcquiredDt>
+        <HowAcquiredTxt>PURCHASE</HowAcquiredTxt>
+        <SoldDt>2021-09</SoldDt>
+        <GrossSalesPriceAmt>960</GrossSalesPriceAmt>
+        <BasisAmt>871</BasisAmt>
+        <TotalNetAmt>89</TotalNetAmt>
+      </GainLossSaleOtherAssetGrp>
+      <GainLossSaleOtherAssetGrp>
+        <AssetDesc>AMERICAN BALANCED FUND-A</AssetDesc>
+        <AcquiredDt>2011-02</AcquiredDt>
+        <HowAcquiredTxt>PURCHASE</HowAcquiredTxt>
+        <SoldDt>2021-09</SoldDt>
+        <GrossSalesPriceAmt>8140</GrossSalesPriceAmt>
+        <BasisAmt>4586</BasisAmt>
+        <TotalNetAmt>3554</TotalNetAmt>
+      </GainLossSaleOtherAssetGrp>
+      <GainLossSaleOtherAssetGrp>
+        <AssetDesc>GLOBAL BALANCED FUND-A</AssetDesc>
+        <AcquiredDt>2011-02</AcquiredDt>
+        <HowAcquiredTxt>PURCHASE</HowAcquiredTxt>
+        <SoldDt>2021-09</SoldDt>
+        <GrossSalesPriceAmt>6060</GrossSalesPriceAmt>
+        <BasisAmt>3813</BasisAmt>
+        <TotalNetAmt>2247</TotalNetAmt>
+      </GainLossSaleOtherAssetGrp>
+    </GainLossSaleOtherAssetsSch>
+    <InvestmentsCorpStockSchedule documentId="RetDoc6">
+      <InvestmentsCorporateStockGrp>
+        <StockNm>MUTUAL FUNDS</StockNm>
+        <EOYBookValueAmt>2251005</EOYBookValueAmt>
+        <EOYFMVAmt>2251005</EOYFMVAmt>
+      </InvestmentsCorporateStockGrp>
+    </InvestmentsCorpStockSchedule>
+    <LegalFeesSchedule documentId="RetDoc7">
+      <LegalFeesGrp>
+        <CategoryTxt>ATTORNEY</CategoryTxt>
+        <LegalFeesAmt>595</LegalFeesAmt>
+        <AdjustedNetIncomeAmt>595</AdjustedNetIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>595</DisbursementsCharitablePrpsAmt>
+      </LegalFeesGrp>
+    </LegalFeesSchedule>
+    <OtherAssetsSchedule documentId="RetDoc8">
+      <OtherAssetsScheduleGrp>
+        <Desc>OTHER ASSETS</Desc>
+        <BOYBookValueAmt>1523</BOYBookValueAmt>
+        <EOYBookValueAmt>2216</EOYBookValueAmt>
+        <EOYFMVAmt>2216</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+    </OtherAssetsSchedule>
+    <OtherExpensesSchedule documentId="RetDoc9">
+      <OtherExpensesScheduleGrp>
+        <Desc>EXPENSES</Desc>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>BANK FEES</Desc>
+        <RevenueAndExpensesPerBooksAmt>33</RevenueAndExpensesPerBooksAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>OFFICE EXPENSE</Desc>
+        <RevenueAndExpensesPerBooksAmt>120</RevenueAndExpensesPerBooksAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>BAD DEBT EXPENSE</Desc>
+      </OtherExpensesScheduleGrp>
+    </OtherExpensesSchedule>
+    <OtherLiabilitiesSchedule documentId="RetDoc10">
+      <OtherLiabilitiesDetail>
+        <Desc>TAX PAYABLE</Desc>
+      </OtherLiabilitiesDetail>
+    </OtherLiabilitiesSchedule>
+    <OtherNotesLoansRcvblLongSch documentId="RetDoc1">
+      <OtherNotesLoansRcvblLongGrp>
+        <BorrowerNameGrp>
+          <PersonNm>ANDERSON SHELBY</PersonNm>
+        </BorrowerNameGrp>
+        <LoanOriginalAmt>2000</LoanOriginalAmt>
+        <BalanceDueAmt>6000</BalanceDueAmt>
+        <NoteDt>2013-06</NoteDt>
+        <RepaymentTermsTxt>UPON GRADUATION</RepaymentTermsTxt>
+        <InterestRt>0.0500</InterestRt>
+        <LoanPurposeTxt>EDUCATION</LoanPurposeTxt>
+      </OtherNotesLoansRcvblLongGrp>
+      <OtherNotesLoansRcvblLongGrp>
+        <BorrowerNameGrp>
+          <PersonNm>ANDERZHON JORDAN</PersonNm>
+        </BorrowerNameGrp>
+        <LoanOriginalAmt>3500</LoanOriginalAmt>
+        <BalanceDueAmt>7000</BalanceDueAmt>
+        <NoteDt>2020-07</NoteDt>
+        <RepaymentTermsTxt>UPON GRADUATION</RepaymentTermsTxt>
+        <InterestRt>0.0500</InterestRt>
+        <LoanPurposeTxt>EDUCATION</LoanPurposeTxt>
+      </OtherNotesLoansRcvblLongGrp>
+      <OtherNotesLoansRcvblLongGrp>
+        <BorrowerNameGrp>
+          <PersonNm>APPERSON AMI</PersonNm>
+        </BorrowerNameGrp>
+        <LoanOriginalAmt>3500</LoanOriginalAmt>
+        <BalanceDueAmt>4742</BalanceDueAmt>
+        <NoteDt>2019-07</NoteDt>
+        <RepaymentTermsTxt>UPON GRADUATION</RepaymentTermsTxt>
+        <InterestRt>0.0500</InterestRt>
+        <LoanPurposeTxt>EDUCATION</LoanPurposeTxt>
+      </OtherNotesLoansRcvblLongGrp>
+      <OtherNotesLoansRcvblLongGrp>
+        <BorrowerNameGrp>
+          <PersonNm>BERRY CALLIE</PersonNm>
+        </BorrowerNameGrp>
+        <LoanOriginalAmt>1000</LoanOriginalAmt>
+        <BalanceDueAmt>1816</BalanceDueAmt>
+        <NoteDt>2000-07</NoteDt>
+        <RepaymentTermsTxt>UPON GRADUATION</RepaymentTermsTxt>
+        <InterestRt>0.0500</InterestRt>
+        <LoanPurposeTxt>EDUCATION</LoanPurposeTxt>
+      </OtherNotesLoansRcvblLongGrp>
+      <OtherNotesLoansRcvblLongGrp>
+        <BorrowerNameGrp>
+          <PersonNm>BLAZEK HOLLY</PersonNm>
+        </BorrowerNameGrp>
+        <LoanOriginalAmt>2000</LoanOriginalAmt>
+        <BalanceDueAmt>12000</BalanceDueAmt>
+        <NoteDt>2011-07</NoteDt>
+        <RepaymentTermsTxt>UPON GRADUATION</RepaymentTermsTxt>
+        <InterestRt>0.0500</InterestRt>
+        <LoanPurposeTxt>EDUCATION</LoanPurposeTxt>
+      </OtherNotesLoansRcvblLongGrp>
+      <OtherNotesLoansRcvblLongGrp>
+        <BorrowerNameGrp>
+          <PersonNm>BRENNAN AMY</PersonNm>
+        </BorrowerNameGrp>
+        <LoanOriginalAmt>2000</LoanOriginalAmt>
+        <BalanceDueAmt>18000</BalanceDueAmt>
+        <NoteDt>2011-07</NoteDt>
+        <RepaymentTermsTxt>UPON GRADUATION</RepaymentTermsTxt>
+        <InterestRt>0.0500</InterestRt>
+        <LoanPurposeTxt>EDUCATION</LoanPurposeTxt>
+      </OtherNotesLoansRcvblLongGrp>
+      <OtherNotesLoansRcvblLongGrp>
+        <BorrowerNameGrp>
+          <PersonNm>BRENNAN SARAH</PersonNm>
+        </BorrowerNameGrp>
+        <LoanOriginalAmt>1500</LoanOriginalAmt>
+        <BalanceDueAmt>14000</BalanceDueAmt>
+        <NoteDt>2009-07</NoteDt>
+        <RepaymentTermsTxt>UPON GRADUATION</RepaymentTermsTxt>
+        <InterestRt>0.0500</InterestRt>
+        <LoanPurposeTxt>EDUCATION</LoanPurposeTxt>
+      </OtherNotesLoansRcvblLongGrp>
+      <OtherNotesLoansRcvblLongGrp>
+        <BorrowerNameGrp>
+          <PersonNm>BRENNAN SCHUYLER</PersonNm>
+        </BorrowerNameGrp>
+        <LoanOriginalAmt>4000</LoanOriginalAmt>
+        <BalanceDueAmt>8000</BalanceDueAmt>
+        <NoteDt>2014-12</NoteDt>
+        <RepaymentTermsTxt>UPON GRADUATION</RepaymentTermsTxt>
+        <InterestRt>0.0500</InterestRt>
+        <LoanPurposeTxt>EDUCATION</LoanPurposeTxt>
+      </OtherNotesLoansRcvblLongGrp>
+      <OtherNotesLoansRcvblLongGrp>
+        <BorrowerNameGrp>
+          <PersonNm>BROWNLEE ANDREW</PersonNm>
+        </BorrowerNameGrp>
+        <LoanOriginalAmt>1000</LoanOriginalAmt>
+        <BalanceDueAmt>8277</BalanceDueAmt>
+        <NoteDt>2007-07</NoteDt>
+        <RepaymentTermsTxt>UPON GRADUATION</RepaymentTermsTxt>
+        <InterestRt>0.0500</InterestRt>
+        <LoanPurposeTxt>EDUCATION</LoanPurposeTxt>
+      </OtherNotesLoansRcvblLongGrp>
+      <OtherNotesLoansRcvblLongGrp>
+        <BorrowerNameGrp>
+          <PersonNm>CLARK AMBER</PersonNm>
+        </BorrowerNameGrp>
+        <LoanOriginalAmt>1500</LoanOriginalAmt>
+        <BalanceDueAmt>5000</BalanceDueAmt>
+        <NoteDt>2010-07</NoteDt>
+        <RepaymentTermsTxt>UPON GRADUATION</RepaymentTermsTxt>
+        <InterestRt>0.0500</InterestRt>
+        <LoanPurposeTxt>EDUCATION</LoanPurposeTxt>
+      </OtherNotesLoansRcvblLongGrp>
+      <OtherNotesLoansRcvblLongGrp>
+        <BorrowerNameGrp>
+          <PersonNm>CLARK BRADLEY</PersonNm>
+        </BorrowerNameGrp>
+        <LoanOriginalAmt>3500</LoanOriginalAmt>
+        <BalanceDueAmt>14000</BalanceDueAmt>
+        <NoteDt>2017-06</NoteDt>
+        <RepaymentTermsTxt>UPON GRADUATION</RepaymentTermsTxt>
+        <InterestRt>0.0500</InterestRt>
+        <LoanPurposeTxt>EDUCATION</LoanPurposeTxt>
+      </OtherNotesLoansRcvblLongGrp>
+      <OtherNotesLoansRcvblLongGrp>
+        <BorrowerNameGrp>
+          <PersonNm>CLARK CLINTON</PersonNm>
+        </BorrowerNameGrp>
+        <LoanOriginalAmt>4000</LoanOriginalAmt>
+        <BalanceDueAmt>27000</BalanceDueAmt>
+        <NoteDt>2012-12</NoteDt>
+        <RepaymentTermsTxt>UPON GRADUATION</RepaymentTermsTxt>
+        <InterestRt>0.0500</InterestRt>
+        <LoanPurposeTxt>EDUCATION</LoanPurposeTxt>
+      </OtherNotesLoansRcvblLongGrp>
+      <OtherNotesLoansRcvblLongGrp>
+        <BorrowerNameGrp>
+          <PersonNm>DALY SARAH</PersonNm>
+        </BorrowerNameGrp>
+        <LoanOriginalAmt>3500</LoanOriginalAmt>
+        <BalanceDueAmt>5776</BalanceDueAmt>
+        <NoteDt>2018-06</NoteDt>
+        <RepaymentTermsTxt>UPON GRADUATION</RepaymentTermsTxt>
+        <InterestRt>0.0500</InterestRt>
+        <LoanPurposeTxt>EDUCATION</LoanPurposeTxt>
+      </OtherNotesLoansRcvblLongGrp>
+      <OtherNotesLoansRcvblLongGrp>
+        <BorrowerNameGrp>
+          <PersonNm>DOTY STEPHANIE</PersonNm>
+        </BorrowerNameGrp>
+        <LoanOriginalAmt>1500</LoanOriginalAmt>
+        <BalanceDueAmt>1089</BalanceDueAmt>
+        <NoteDt>2009-07</NoteDt>
+        <RepaymentTermsTxt>UPON GRADUATION</RepaymentTermsTxt>
+        <InterestRt>0.0500</InterestRt>
+        <LoanPurposeTxt>EDUCATION</LoanPurposeTxt>
+      </OtherNotesLoansRcvblLongGrp>
+      <OtherNotesLoansRcvblLongGrp>
+        <BorrowerNameGrp>
+          <PersonNm>EDDS DAVID</PersonNm>
+        </BorrowerNameGrp>
+        <LoanOriginalAmt>1500</LoanOriginalAmt>
+        <BalanceDueAmt>13500</BalanceDueAmt>
+        <NoteDt>2014-06</NoteDt>
+        <RepaymentTermsTxt>UPON GRADUATION</RepaymentTermsTxt>
+        <InterestRt>0.0500</InterestRt>
+        <LoanPurposeTxt>EDUCATION</LoanPurposeTxt>
+      </OtherNotesLoansRcvblLongGrp>
+      <OtherNotesLoansRcvblLongGrp>
+        <BorrowerNameGrp>
+          <PersonNm>EDDS DEVIN</PersonNm>
+        </BorrowerNameGrp>
+        <LoanOriginalAmt>1000</LoanOriginalAmt>
+        <BalanceDueAmt>27000</BalanceDueAmt>
+        <NoteDt>2013-06</NoteDt>
+        <RepaymentTermsTxt>UPON GRADUATION</RepaymentTermsTxt>
+        <InterestRt>0.0500</InterestRt>
+        <LoanPurposeTxt>EDUCATION</LoanPurposeTxt>
+      </OtherNotesLoansRcvblLongGrp>
+      <OtherNotesLoansRcvblLongGrp>
+        <BorrowerNameGrp>
+          <PersonNm>EVANS BRIANNE</PersonNm>
+        </BorrowerNameGrp>
+        <LoanOriginalAmt>1000</LoanOriginalAmt>
+        <BalanceDueAmt>5629</BalanceDueAmt>
+        <NoteDt>2006-07</NoteDt>
+        <RepaymentTermsTxt>UPON GRADUATION</RepaymentTermsTxt>
+        <InterestRt>0.0500</InterestRt>
+        <LoanPurposeTxt>EDUCATION</LoanPurposeTxt>
+      </OtherNotesLoansRcvblLongGrp>
+      <OtherNotesLoansRcvblLongGrp>
+        <BorrowerNameGrp>
+          <PersonNm>FICHTER BRITTANY</PersonNm>
+        </BorrowerNameGrp>
+        <LoanOriginalAmt>3500</LoanOriginalAmt>
+        <BalanceDueAmt>7000</BalanceDueAmt>
+        <NoteDt>2017-06</NoteDt>
+        <RepaymentTermsTxt>UPON GRADUATION</RepaymentTermsTxt>
+        <InterestRt>0.0500</InterestRt>
+        <LoanPurposeTxt>EDUCATION</LoanPurposeTxt>
+      </OtherNotesLoansRcvblLongGrp>
+      <OtherNotesLoansRcvblLongGrp>
+        <BorrowerNameGrp>
+          <PersonNm>FISTER BRIANNE</PersonNm>
+        </BorrowerNameGrp>
+        <LoanOriginalAmt>1000</LoanOriginalAmt>
+        <BalanceDueAmt>5000</BalanceDueAmt>
+        <NoteDt>2003-07</NoteDt>
+        <RepaymentTermsTxt>UPON GRADUATION</RepaymentTermsTxt>
+        <InterestRt>0.0500</InterestRt>
+        <LoanPurposeTxt>EDUCATION</LoanPurposeTxt>
+      </OtherNotesLoansRcvblLongGrp>
+      <OtherNotesLoansRcvblLongGrp>
+        <BorrowerNameGrp>
+          <PersonNm>HAGGERTY ALYSSA</PersonNm>
+        </BorrowerNameGrp>
+        <LoanOriginalAmt>2500</LoanOriginalAmt>
+        <BalanceDueAmt>5477</BalanceDueAmt>
+        <NoteDt>1999-07</NoteDt>
+        <RepaymentTermsTxt>UPON GRADUATION</RepaymentTermsTxt>
+        <InterestRt>0.0500</InterestRt>
+        <LoanPurposeTxt>EDUCATION</LoanPurposeTxt>
+      </OtherNotesLoansRcvblLongGrp>
+      <OtherNotesLoansRcvblLongGrp>
+        <BorrowerNameGrp>
+          <PersonNm>HALL WILLIAMS</PersonNm>
+        </BorrowerNameGrp>
+        <LoanOriginalAmt>1000</LoanOriginalAmt>
+        <BalanceDueAmt>11595</BalanceDueAmt>
+        <NoteDt>2007-07</NoteDt>
+        <RepaymentTermsTxt>UPON GRADUATION</RepaymentTermsTxt>
+        <InterestRt>0.0500</InterestRt>
+        <LoanPurposeTxt>EDUCATION</LoanPurposeTxt>
+      </OtherNotesLoansRcvblLongGrp>
+      <OtherNotesLoansRcvblLongGrp>
+        <BorrowerNameGrp>
+          <PersonNm>HANING EMMA</PersonNm>
+        </BorrowerNameGrp>
+        <LoanOriginalAmt>3500</LoanOriginalAmt>
+        <BalanceDueAmt>21000</BalanceDueAmt>
+        <NoteDt>2019-07</NoteDt>
+        <RepaymentTermsTxt>UPON GRADUATION</RepaymentTermsTxt>
+        <InterestRt>0.0500</InterestRt>
+        <LoanPurposeTxt>EDUCATION</LoanPurposeTxt>
+      </OtherNotesLoansRcvblLongGrp>
+      <OtherNotesLoansRcvblLongGrp>
+        <BorrowerNameGrp>
+          <PersonNm>HANING JOSHUA</PersonNm>
+        </BorrowerNameGrp>
+        <LoanOriginalAmt>2000</LoanOriginalAmt>
+        <NoteDt>2016-06</NoteDt>
+        <RepaymentTermsTxt>UPON GRADUATION</RepaymentTermsTxt>
+        <InterestRt>0.0500</InterestRt>
+        <LoanPurposeTxt>EDUCATION</LoanPurposeTxt>
+      </OtherNotesLoansRcvblLongGrp>
+      <OtherNotesLoansRcvblLongGrp>
+        <BorrowerNameGrp>
+          <PersonNm>HULSING MACKENZIE</PersonNm>
+        </BorrowerNameGrp>
+        <LoanOriginalAmt>2250</LoanOriginalAmt>
+        <BalanceDueAmt>25500</BalanceDueAmt>
+        <NoteDt>2017-06</NoteDt>
+        <RepaymentTermsTxt>UPON GRADUATION</RepaymentTermsTxt>
+        <InterestRt>0.0500</InterestRt>
+        <LoanPurposeTxt>EDUCATION</LoanPurposeTxt>
+      </OtherNotesLoansRcvblLongGrp>
+      <OtherNotesLoansRcvblLongGrp>
+        <BorrowerNameGrp>
+          <PersonNm>JOHNSON MALLORY</PersonNm>
+        </BorrowerNameGrp>
+        <LoanOriginalAmt>2000</LoanOriginalAmt>
+        <BalanceDueAmt>2000</BalanceDueAmt>
+        <NoteDt>2012-07</NoteDt>
+        <RepaymentTermsTxt>UPON GRADUATION</RepaymentTermsTxt>
+        <InterestRt>0.0500</InterestRt>
+        <LoanPurposeTxt>EDUCATION</LoanPurposeTxt>
+      </OtherNotesLoansRcvblLongGrp>
+      <OtherNotesLoansRcvblLongGrp>
+        <BorrowerNameGrp>
+          <PersonNm>KOLESZAR MARY</PersonNm>
+        </BorrowerNameGrp>
+        <LoanOriginalAmt>1000</LoanOriginalAmt>
+        <BalanceDueAmt>6000</BalanceDueAmt>
+        <NoteDt>2003-07</NoteDt>
+        <RepaymentTermsTxt>UPON GRADUATION</RepaymentTermsTxt>
+        <InterestRt>0.0500</InterestRt>
+        <SecurityProvidedBorrowerTxt>EDUCATION</SecurityProvidedBorrowerTxt>
+      </OtherNotesLoansRcvblLongGrp>
+      <OtherNotesLoansRcvblLongGrp>
+        <BorrowerNameGrp>
+          <PersonNm>LARSEN ALEXYS</PersonNm>
+        </BorrowerNameGrp>
+        <LoanOriginalAmt>2000</LoanOriginalAmt>
+        <BalanceDueAmt>7882</BalanceDueAmt>
+        <NoteDt>2016-06</NoteDt>
+        <RepaymentTermsTxt>UPON GRADUATION</RepaymentTermsTxt>
+        <InterestRt>0.0500</InterestRt>
+        <LoanPurposeTxt>EDUCATION</LoanPurposeTxt>
+      </OtherNotesLoansRcvblLongGrp>
+      <OtherNotesLoansRcvblLongGrp>
+        <BorrowerNameGrp>
+          <PersonNm>LAUMANN DANICA</PersonNm>
+        </BorrowerNameGrp>
+        <LoanOriginalAmt>3500</LoanOriginalAmt>
+        <BalanceDueAmt>14000</BalanceDueAmt>
+        <NoteDt>2020-07</NoteDt>
+        <RepaymentTermsTxt>UPON GRADUATION</RepaymentTermsTxt>
+        <InterestRt>0.0500</InterestRt>
+        <LoanPurposeTxt>EDUCATION</LoanPurposeTxt>
+      </OtherNotesLoansRcvblLongGrp>
+      <OtherNotesLoansRcvblLongGrp>
+        <BorrowerNameGrp>
+          <PersonNm>MAHER MORGAN</PersonNm>
+        </BorrowerNameGrp>
+        <LoanOriginalAmt>15000</LoanOriginalAmt>
+        <BalanceDueAmt>15000</BalanceDueAmt>
+        <NoteDt>2017-06</NoteDt>
+        <RepaymentTermsTxt>UPON GRADUATION</RepaymentTermsTxt>
+        <InterestRt>0.0500</InterestRt>
+        <LoanPurposeTxt>EDUCATION</LoanPurposeTxt>
+      </OtherNotesLoansRcvblLongGrp>
+      <OtherNotesLoansRcvblLongGrp>
+        <BorrowerNameGrp>
+          <PersonNm>MCCALL JILL</PersonNm>
+        </BorrowerNameGrp>
+        <LoanOriginalAmt>1000</LoanOriginalAmt>
+        <BalanceDueAmt>1817</BalanceDueAmt>
+        <NoteDt>2000-07</NoteDt>
+        <RepaymentTermsTxt>UPON GRADUATION</RepaymentTermsTxt>
+        <InterestRt>0.0500</InterestRt>
+        <LoanPurposeTxt>EDUCATION</LoanPurposeTxt>
+      </OtherNotesLoansRcvblLongGrp>
+      <OtherNotesLoansRcvblLongGrp>
+        <BorrowerNameGrp>
+          <PersonNm>MOCK MEREDITH</PersonNm>
+        </BorrowerNameGrp>
+        <LoanOriginalAmt>8000</LoanOriginalAmt>
+        <BalanceDueAmt>11590</BalanceDueAmt>
+        <NoteDt>1997-12</NoteDt>
+        <RepaymentTermsTxt>UPON GRADUATION</RepaymentTermsTxt>
+        <InterestRt>0.0500</InterestRt>
+        <LoanPurposeTxt>EDUCATION</LoanPurposeTxt>
+      </OtherNotesLoansRcvblLongGrp>
+      <OtherNotesLoansRcvblLongGrp>
+        <BorrowerNameGrp>
+          <PersonNm>MOORES MADISON</PersonNm>
+        </BorrowerNameGrp>
+        <LoanOriginalAmt>3500</LoanOriginalAmt>
+        <BalanceDueAmt>21000</BalanceDueAmt>
+        <NoteDt>2017-06</NoteDt>
+        <RepaymentTermsTxt>UPON GRADUATION</RepaymentTermsTxt>
+        <InterestRt>0.0500</InterestRt>
+        <LoanPurposeTxt>EDUCATION</LoanPurposeTxt>
+      </OtherNotesLoansRcvblLongGrp>
+      <OtherNotesLoansRcvblLongGrp>
+        <BorrowerNameGrp>
+          <PersonNm>MOORES ZOE</PersonNm>
+        </BorrowerNameGrp>
+        <LoanOriginalAmt>3500</LoanOriginalAmt>
+        <BalanceDueAmt>14000</BalanceDueAmt>
+        <NoteDt>2018-06</NoteDt>
+        <RepaymentTermsTxt>UPON GRADUATION</RepaymentTermsTxt>
+        <InterestRt>0.0500</InterestRt>
+        <LoanPurposeTxt>EDUCATION</LoanPurposeTxt>
+      </OtherNotesLoansRcvblLongGrp>
+      <OtherNotesLoansRcvblLongGrp>
+        <BorrowerNameGrp>
+          <PersonNm>MOYER SAMANTHA</PersonNm>
+        </BorrowerNameGrp>
+        <LoanOriginalAmt>6310</LoanOriginalAmt>
+        <BalanceDueAmt>14285</BalanceDueAmt>
+        <NoteDt>1997-12</NoteDt>
+        <RepaymentTermsTxt>UPON GRADUATION</RepaymentTermsTxt>
+        <InterestRt>0.0500</InterestRt>
+        <LoanPurposeTxt>EDUCATION</LoanPurposeTxt>
+      </OtherNotesLoansRcvblLongGrp>
+      <OtherNotesLoansRcvblLongGrp>
+        <BorrowerNameGrp>
+          <PersonNm>NAHKUNST COLIN</PersonNm>
+        </BorrowerNameGrp>
+        <LoanOriginalAmt>2000</LoanOriginalAmt>
+        <BalanceDueAmt>17692</BalanceDueAmt>
+        <NoteDt>2011-07</NoteDt>
+        <RepaymentTermsTxt>UPON GRADUATION</RepaymentTermsTxt>
+        <InterestRt>0.0500</InterestRt>
+        <LoanPurposeTxt>EDUCATION</LoanPurposeTxt>
+      </OtherNotesLoansRcvblLongGrp>
+      <OtherNotesLoansRcvblLongGrp>
+        <BorrowerNameGrp>
+          <PersonNm>PERNICEK MORGAN</PersonNm>
+        </BorrowerNameGrp>
+        <LoanOriginalAmt>3500</LoanOriginalAmt>
+        <NoteDt>2018-06</NoteDt>
+        <RepaymentTermsTxt>UPON GRADUATION</RepaymentTermsTxt>
+        <InterestRt>0.0500</InterestRt>
+        <LoanPurposeTxt>EDUCATION</LoanPurposeTxt>
+      </OtherNotesLoansRcvblLongGrp>
+      <OtherNotesLoansRcvblLongGrp>
+        <BorrowerNameGrp>
+          <PersonNm>PETRIE SHELBY</PersonNm>
+        </BorrowerNameGrp>
+        <LoanOriginalAmt>1000</LoanOriginalAmt>
+        <BalanceDueAmt>2162</BalanceDueAmt>
+        <NoteDt>2003-07</NoteDt>
+        <RepaymentTermsTxt>UPON GRADUATION</RepaymentTermsTxt>
+        <InterestRt>0.0500</InterestRt>
+        <LoanPurposeTxt>EDUCATION</LoanPurposeTxt>
+      </OtherNotesLoansRcvblLongGrp>
+      <OtherNotesLoansRcvblLongGrp>
+        <BorrowerNameGrp>
+          <PersonNm>ROBERTS LINDSEY</PersonNm>
+        </BorrowerNameGrp>
+        <LoanOriginalAmt>1000</LoanOriginalAmt>
+        <BalanceDueAmt>18</BalanceDueAmt>
+        <NoteDt>2003-07</NoteDt>
+        <RepaymentTermsTxt>UPON GRADUATION</RepaymentTermsTxt>
+        <InterestRt>0.0500</InterestRt>
+        <LoanPurposeTxt>EDUCATION</LoanPurposeTxt>
+      </OtherNotesLoansRcvblLongGrp>
+      <OtherNotesLoansRcvblLongGrp>
+        <BorrowerNameGrp>
+          <PersonNm>ROST CHIRSTINE</PersonNm>
+        </BorrowerNameGrp>
+        <LoanOriginalAmt>3500</LoanOriginalAmt>
+        <BalanceDueAmt>28000</BalanceDueAmt>
+        <NoteDt>2017-06</NoteDt>
+        <RepaymentTermsTxt>UPON GRADUATION</RepaymentTermsTxt>
+        <InterestRt>0.0500</InterestRt>
+        <LoanPurposeTxt>EDUCATION</LoanPurposeTxt>
+      </OtherNotesLoansRcvblLongGrp>
+      <OtherNotesLoansRcvblLongGrp>
+        <BorrowerNameGrp>
+          <PersonNm>SAMPSON LACEY</PersonNm>
+        </BorrowerNameGrp>
+        <LoanOriginalAmt>1000</LoanOriginalAmt>
+        <BalanceDueAmt>567</BalanceDueAmt>
+        <NoteDt>2004-07</NoteDt>
+        <RepaymentTermsTxt>UPON GRADUATION</RepaymentTermsTxt>
+        <InterestRt>0.0500</InterestRt>
+        <LoanPurposeTxt>EDUCATION</LoanPurposeTxt>
+      </OtherNotesLoansRcvblLongGrp>
+      <OtherNotesLoansRcvblLongGrp>
+        <BorrowerNameGrp>
+          <PersonNm>SCHAAF TREVOR</PersonNm>
+        </BorrowerNameGrp>
+        <LoanOriginalAmt>2000</LoanOriginalAmt>
+        <BalanceDueAmt>6114</BalanceDueAmt>
+        <NoteDt>2011-07</NoteDt>
+        <RepaymentTermsTxt>UPON GRADUATION</RepaymentTermsTxt>
+        <InterestRt>0.0500</InterestRt>
+        <LoanPurposeTxt>EDUCATION</LoanPurposeTxt>
+      </OtherNotesLoansRcvblLongGrp>
+      <OtherNotesLoansRcvblLongGrp>
+        <BorrowerNameGrp>
+          <PersonNm>SCOTT HATTIE</PersonNm>
+        </BorrowerNameGrp>
+        <LoanOriginalAmt>1000</LoanOriginalAmt>
+        <NoteDt>2004-07</NoteDt>
+        <RepaymentTermsTxt>UPON GRADUATION</RepaymentTermsTxt>
+        <InterestRt>0.0500</InterestRt>
+        <LoanPurposeTxt>EDUCATION</LoanPurposeTxt>
+      </OtherNotesLoansRcvblLongGrp>
+      <OtherNotesLoansRcvblLongGrp>
+        <BorrowerNameGrp>
+          <PersonNm>SEARS JADEN</PersonNm>
+        </BorrowerNameGrp>
+        <LoanOriginalAmt>3500</LoanOriginalAmt>
+        <BalanceDueAmt>21000</BalanceDueAmt>
+        <NoteDt>2019-07</NoteDt>
+        <RepaymentTermsTxt>UPON GRADUATION</RepaymentTermsTxt>
+        <InterestRt>0.0500</InterestRt>
+        <LoanPurposeTxt>EDUCATION</LoanPurposeTxt>
+      </OtherNotesLoansRcvblLongGrp>
+      <OtherNotesLoansRcvblLongGrp>
+        <BorrowerNameGrp>
+          <PersonNm>SHIRLEY BAILEY</PersonNm>
+        </BorrowerNameGrp>
+        <LoanOriginalAmt>2000</LoanOriginalAmt>
+        <BalanceDueAmt>16000</BalanceDueAmt>
+        <NoteDt>2013-06</NoteDt>
+        <RepaymentTermsTxt>UPON GRADUATION</RepaymentTermsTxt>
+        <InterestRt>0.0500</InterestRt>
+        <LoanPurposeTxt>EDUCATION</LoanPurposeTxt>
+      </OtherNotesLoansRcvblLongGrp>
+      <OtherNotesLoansRcvblLongGrp>
+        <BorrowerNameGrp>
+          <PersonNm>STRICKLER DRAKE</PersonNm>
+        </BorrowerNameGrp>
+        <LoanOriginalAmt>2000</LoanOriginalAmt>
+        <BalanceDueAmt>26000</BalanceDueAmt>
+        <NoteDt>2014-06</NoteDt>
+        <RepaymentTermsTxt>UPON GRADUATION</RepaymentTermsTxt>
+        <InterestRt>0.0500</InterestRt>
+        <LoanPurposeTxt>EDUCATION</LoanPurposeTxt>
+      </OtherNotesLoansRcvblLongGrp>
+      <OtherNotesLoansRcvblLongGrp>
+        <BorrowerNameGrp>
+          <PersonNm>STRICKLER LINDIE KM</PersonNm>
+        </BorrowerNameGrp>
+        <LoanOriginalAmt>2000</LoanOriginalAmt>
+        <BalanceDueAmt>31000</BalanceDueAmt>
+        <NoteDt>2017-06</NoteDt>
+        <RepaymentTermsTxt>UPON GRADUATION</RepaymentTermsTxt>
+        <InterestRt>0.0500</InterestRt>
+        <LoanPurposeTxt>EDUCATION</LoanPurposeTxt>
+      </OtherNotesLoansRcvblLongGrp>
+      <OtherNotesLoansRcvblLongGrp>
+        <BorrowerNameGrp>
+          <PersonNm>SWEENEY COURTNEY</PersonNm>
+        </BorrowerNameGrp>
+        <LoanOriginalAmt>1500</LoanOriginalAmt>
+        <BalanceDueAmt>14874</BalanceDueAmt>
+        <NoteDt>2009-07</NoteDt>
+        <RepaymentTermsTxt>UPON GRADUATION</RepaymentTermsTxt>
+        <InterestRt>0.0500</InterestRt>
+        <LoanPurposeTxt>EDUCATION</LoanPurposeTxt>
+      </OtherNotesLoansRcvblLongGrp>
+      <OtherNotesLoansRcvblLongGrp>
+        <BorrowerNameGrp>
+          <PersonNm>THOMPSON ALISHA</PersonNm>
+        </BorrowerNameGrp>
+        <LoanOriginalAmt>1000</LoanOriginalAmt>
+        <BalanceDueAmt>5135</BalanceDueAmt>
+        <NoteDt>2000-07</NoteDt>
+        <RepaymentTermsTxt>UPON GRADUATION</RepaymentTermsTxt>
+        <InterestRt>0.0500</InterestRt>
+        <LoanPurposeTxt>EDUCATION</LoanPurposeTxt>
+      </OtherNotesLoansRcvblLongGrp>
+      <OtherNotesLoansRcvblLongGrp>
+        <BorrowerNameGrp>
+          <PersonNm>THOMPSON AUSTIN</PersonNm>
+        </BorrowerNameGrp>
+        <LoanOriginalAmt>2000</LoanOriginalAmt>
+        <BalanceDueAmt>17625</BalanceDueAmt>
+        <NoteDt>2016-08</NoteDt>
+        <RepaymentTermsTxt>UPON GRADUATION</RepaymentTermsTxt>
+        <InterestRt>0.0500</InterestRt>
+        <LoanPurposeTxt>EDUCATION</LoanPurposeTxt>
+      </OtherNotesLoansRcvblLongGrp>
+      <OtherNotesLoansRcvblLongGrp>
+        <BorrowerNameGrp>
+          <PersonNm>THOMPSON CHADRICK</PersonNm>
+        </BorrowerNameGrp>
+        <LoanOriginalAmt>1000</LoanOriginalAmt>
+        <BalanceDueAmt>8000</BalanceDueAmt>
+        <NoteDt>2003-07</NoteDt>
+        <RepaymentTermsTxt>UPON GRADUATION</RepaymentTermsTxt>
+        <InterestRt>0.0500</InterestRt>
+        <LoanPurposeTxt>EDUCATION</LoanPurposeTxt>
+      </OtherNotesLoansRcvblLongGrp>
+      <OtherNotesLoansRcvblLongGrp>
+        <BorrowerNameGrp>
+          <PersonNm>VARELLAS SETH</PersonNm>
+        </BorrowerNameGrp>
+        <LoanOriginalAmt>3500</LoanOriginalAmt>
+        <BalanceDueAmt>10500</BalanceDueAmt>
+        <NoteDt>2020-08</NoteDt>
+        <RepaymentTermsTxt>UPON GRADUATION</RepaymentTermsTxt>
+        <InterestRt>0.0500</InterestRt>
+        <LoanPurposeTxt>EDUCATION</LoanPurposeTxt>
+      </OtherNotesLoansRcvblLongGrp>
+      <OtherNotesLoansRcvblLongGrp>
+        <BorrowerNameGrp>
+          <PersonNm>WHITEHEAD CAMERON</PersonNm>
+        </BorrowerNameGrp>
+        <LoanOriginalAmt>3500</LoanOriginalAmt>
+        <BalanceDueAmt>28000</BalanceDueAmt>
+        <NoteDt>2018-06</NoteDt>
+        <RepaymentTermsTxt>UPON GRADUATION</RepaymentTermsTxt>
+        <InterestRt>0.0500</InterestRt>
+        <LoanPurposeTxt>EDUCATION</LoanPurposeTxt>
+      </OtherNotesLoansRcvblLongGrp>
+      <OtherNotesLoansRcvblLongGrp>
+        <BorrowerNameGrp>
+          <PersonNm>WHITEHEAD TERRY</PersonNm>
+        </BorrowerNameGrp>
+        <LoanOriginalAmt>4000</LoanOriginalAmt>
+        <NoteDt>1997-12</NoteDt>
+        <RepaymentTermsTxt>UPON GRADUATION</RepaymentTermsTxt>
+        <InterestRt>0.0500</InterestRt>
+        <LoanPurposeTxt>EDUCATION</LoanPurposeTxt>
+      </OtherNotesLoansRcvblLongGrp>
+      <OtherNotesLoansRcvblLongGrp>
+        <BorrowerNameGrp>
+          <PersonNm>PRICE CHASE</PersonNm>
+        </BorrowerNameGrp>
+        <LoanOriginalAmt>3500</LoanOriginalAmt>
+        <BalanceDueAmt>7000</BalanceDueAmt>
+        <NoteDt>2021-07</NoteDt>
+        <RepaymentTermsTxt>UPON GRADUATION</RepaymentTermsTxt>
+        <InterestRt>0.0500</InterestRt>
+        <LoanPurposeTxt>EDUCATION</LoanPurposeTxt>
+      </OtherNotesLoansRcvblLongGrp>
+      <OtherNotesLoansRcvblLongGrp>
+        <BorrowerNameGrp>
+          <PersonNm>THOMPSON ADAM</PersonNm>
+        </BorrowerNameGrp>
+        <LoanOriginalAmt>3500</LoanOriginalAmt>
+        <BalanceDueAmt>7000</BalanceDueAmt>
+        <NoteDt>2021-08</NoteDt>
+        <RepaymentTermsTxt>UPON GRADUATION</RepaymentTermsTxt>
+        <InterestRt>0.0500</InterestRt>
+        <LoanPurposeTxt>EDUCATION</LoanPurposeTxt>
+      </OtherNotesLoansRcvblLongGrp>
+    </OtherNotesLoansRcvblLongSch>
+    <TaxesSchedule documentId="RetDoc11">
+      <TaxesDetail>
+        <CategoryTxt>FEDERAL EXCISE TAX</CategoryTxt>
+        <Amt>28591</Amt>
+      </TaxesDetail>
+    </TaxesSchedule>
+  </ReturnData>
+</Return>

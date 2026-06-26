@@ -1,0 +1,593 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Return xmlns="http://www.irs.gov/efile" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" returnVersion="2021v4.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2022-08-30T17:06:49-05:00</ReturnTs>
+    <TaxPeriodEndDt>2021-12-31</TaxPeriodEndDt>
+    <PreparerFirmGrp>
+      <PreparerFirmEIN>274561923</PreparerFirmEIN>
+      <PreparerFirmName>
+        <BusinessNameLine1Txt>STERNBACH &amp; ROSE CPAS</BusinessNameLine1Txt>
+      </PreparerFirmName>
+      <PreparerUSAddress>
+        <AddressLine1Txt>115 STEVENS AVE STE 100</AddressLine1Txt>
+        <CityNm>VALHALLA</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>105951272</ZIPCd>
+      </PreparerUSAddress>
+    </PreparerFirmGrp>
+    <ReturnTypeCd>990PF</ReturnTypeCd>
+    <TaxPeriodBeginDt>2021-01-01</TaxPeriodBeginDt>
+    <Filer>
+      <EIN>586036028</EIN>
+      <BusinessName>
+        <BusinessNameLine1Txt>ALONZO F &amp; NORRIS B HERNDON</BusinessNameLine1Txt>
+        <BusinessNameLine2Txt>FOUNDATION INC</BusinessNameLine2Txt>
+      </BusinessName>
+      <BusinessNameControlTxt>ALON</BusinessNameControlTxt>
+      <PhoneNum>4045819813</PhoneNum>
+      <USAddress>
+        <AddressLine1Txt>587 UNIVERSITY PLACE NW</AddressLine1Txt>
+        <CityNm>ATLANTA</CityNm>
+        <StateAbbreviationCd>GA</StateAbbreviationCd>
+        <ZIPCd>30314</ZIPCd>
+      </USAddress>
+    </Filer>
+    <BusinessOfficerGrp>
+      <PersonNm>CLAYTON BELL</PersonNm>
+      <PersonTitleTxt>TRUSTEE</PersonTitleTxt>
+      <PhoneNum>4045819813</PhoneNum>
+      <SignatureDt>2022-08-24</SignatureDt>
+    </BusinessOfficerGrp>
+    <SigningOfficerGrp>
+      <PersonFullName>
+        <PersonFirstNm>CLAYTON</PersonFirstNm>
+        <PersonLastNm>BELL</PersonLastNm>
+      </PersonFullName>
+      <SSN>999009999</SSN>
+    </SigningOfficerGrp>
+    <PreparerPersonGrp>
+      <PreparerPersonNm>ELLEN ROSE</PreparerPersonNm>
+      <PTIN>P00965459</PTIN>
+      <PhoneNum>9149404449</PhoneNum>
+      <PreparationDt>2022-08-30</PreparationDt>
+    </PreparerPersonGrp>
+    <TaxYr>2021</TaxYr>
+    <BuildTS>2022-09-23 18:48:47Z</BuildTS>
+  </ReturnHeader>
+  <ReturnData documentCnt="10">
+    <IRS990PF documentId="RetDoc12" referenceDocumentId="RetDoc11">
+      <Organization501c3ExemptPFInd>X</Organization501c3ExemptPFInd>
+      <FMVAssetsEOYAmt>6530708</FMVAssetsEOYAmt>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <AnalysisOfRevenueAndExpenses>
+        <ContriRcvdRevAndExpnssAmt>201142</ContriRcvdRevAndExpnssAmt>
+        <ScheduleBNotRequiredInd>X</ScheduleBNotRequiredInd>
+        <DividendsRevAndExpnssAmt>3016</DividendsRevAndExpnssAmt>
+        <DividendsNetInvstIncmAmt>3016</DividendsNetInvstIncmAmt>
+        <DividendsAdjNetIncmAmt>3016</DividendsAdjNetIncmAmt>
+        <NetGainSaleAstRevAndExpnssAmt>6893</NetGainSaleAstRevAndExpnssAmt>
+        <GrossSalesPriceAmt>27421</GrossSalesPriceAmt>
+        <CapGainNetIncmNetInvstIncmAmt>6893</CapGainNetIncmNetInvstIncmAmt>
+        <OtherIncomeRevAndExpnssAmt referenceDocumentId="RetDoc7">13847</OtherIncomeRevAndExpnssAmt>
+        <OtherIncomeAdjNetIncmAmt>13847</OtherIncomeAdjNetIncmAmt>
+        <TotalRevAndExpnssAmt>224898</TotalRevAndExpnssAmt>
+        <TotalNetInvstIncmAmt>9909</TotalNetInvstIncmAmt>
+        <TotalAdjNetIncmAmt>16863</TotalAdjNetIncmAmt>
+        <CompOfcrDirTrstRevAndExpnssAmt>64625</CompOfcrDirTrstRevAndExpnssAmt>
+        <LegalFeesRevAndExpnssAmt referenceDocumentId="RetDoc4">650</LegalFeesRevAndExpnssAmt>
+        <LegalFeesDsbrsChrtblAmt>650</LegalFeesDsbrsChrtblAmt>
+        <AccountingFeesRevAndExpnssAmt referenceDocumentId="RetDoc1">17600</AccountingFeesRevAndExpnssAmt>
+        <AccountingFeesChrtblPrpsAmt>17600</AccountingFeesChrtblPrpsAmt>
+        <OtherProfFeesRevAndExpnssAmt referenceDocumentId="RetDoc8">11857</OtherProfFeesRevAndExpnssAmt>
+        <OtherProfFeesNetInvstIncmAmt>1857</OtherProfFeesNetInvstIncmAmt>
+        <OtherProfFeesDsbrsChrtblAmt>10000</OtherProfFeesDsbrsChrtblAmt>
+        <InterestRevAndExpnssAmt>22</InterestRevAndExpnssAmt>
+        <InterestNetInvstIncmAmt>22</InterestNetInvstIncmAmt>
+        <OccupancyRevAndExpnssAmt>500</OccupancyRevAndExpnssAmt>
+        <OccupancyDsbrsChrtblAmt>500</OccupancyDsbrsChrtblAmt>
+        <OtherExpensesRevAndExpnssAmt referenceDocumentId="RetDoc6">99735</OtherExpensesRevAndExpnssAmt>
+        <OtherExpensesDsbrsChrtblAmt>99735</OtherExpensesDsbrsChrtblAmt>
+        <TotOprExpensesRevAndExpnssAmt>194989</TotOprExpensesRevAndExpnssAmt>
+        <TotOprExpensesNetInvstIncmAmt>1879</TotOprExpensesNetInvstIncmAmt>
+        <TotOprExpensesDsbrsChrtblAmt>128485</TotOprExpensesDsbrsChrtblAmt>
+        <ContriPaidRevAndExpnssAmt>0</ContriPaidRevAndExpnssAmt>
+        <ContriPaidDsbrsChrtblAmt>0</ContriPaidDsbrsChrtblAmt>
+        <TotalExpensesRevAndExpnssAmt>194989</TotalExpensesRevAndExpnssAmt>
+        <TotalExpensesNetInvstIncmAmt>1879</TotalExpensesNetInvstIncmAmt>
+        <TotalExpensesDsbrsChrtblAmt>128485</TotalExpensesDsbrsChrtblAmt>
+        <ExcessRevenueOverExpensesAmt>29909</ExcessRevenueOverExpensesAmt>
+        <NetInvestmentIncomeAmt>8030</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>16863</AdjustedNetIncomeAmt>
+      </AnalysisOfRevenueAndExpenses>
+      <Form990PFBalanceSheetsGrp>
+        <CashBOYAmt>39848</CashBOYAmt>
+        <CashEOYAmt>61508</CashEOYAmt>
+        <CashEOYFMVAmt>61508</CashEOYFMVAmt>
+        <CorporateStockBOYAmt>5204043</CorporateStockBOYAmt>
+        <CorporateStockEOYAmt referenceDocumentId="RetDoc2">5221292</CorporateStockEOYAmt>
+        <CorporateStockEOYFMVAmt>5221292</CorporateStockEOYFMVAmt>
+        <LandBldgEquipCostOrOtherBssAmt>1213634</LandBldgEquipCostOrOtherBssAmt>
+        <LandBldgEquipAccumDeprecAmt>1008806</LandBldgEquipAccumDeprecAmt>
+        <LandBOYAmt>204828</LandBOYAmt>
+        <LandEOYAmt referenceDocumentId="RetDoc3">204828</LandEOYAmt>
+        <LandEOYFMVAmt>1213634</LandEOYFMVAmt>
+        <OtherAssetsBOYAmt referenceDocumentId="RetDoc5">22093</OtherAssetsBOYAmt>
+        <OtherAssetsEOYAmt referenceDocumentId="RetDoc5">13093</OtherAssetsEOYAmt>
+        <OtherAssetsEOYFMVAmt referenceDocumentId="RetDoc5">34274</OtherAssetsEOYFMVAmt>
+        <TotalAssetsBOYAmt>5470812</TotalAssetsBOYAmt>
+        <TotalAssetsEOYAmt>5500721</TotalAssetsEOYAmt>
+        <TotalAssetsEOYFMVAmt>6530708</TotalAssetsEOYFMVAmt>
+        <TotalLiabilitiesEOYAmt>0</TotalLiabilitiesEOYAmt>
+        <OrganizationFollowsFASB117Ind>X</OrganizationFollowsFASB117Ind>
+        <NoDonorRstrNetAssestsBOYAmt>5470812</NoDonorRstrNetAssestsBOYAmt>
+        <NoDonorRstrNetAssestsEOYAmt>5500721</NoDonorRstrNetAssestsEOYAmt>
+        <TotNetAstOrFundBalancesBOYAmt>5470812</TotNetAstOrFundBalancesBOYAmt>
+        <TotNetAstOrFundBalancesEOYAmt>5500721</TotNetAstOrFundBalancesEOYAmt>
+        <TotalLiabilitiesNetAstBOYAmt>5470812</TotalLiabilitiesNetAstBOYAmt>
+        <TotalLiabilitiesNetAstEOYAmt>5500721</TotalLiabilitiesNetAstEOYAmt>
+      </Form990PFBalanceSheetsGrp>
+      <ChgInNetAssetsFundBalancesGrp>
+        <TotNetAstOrFundBalancesBOYAmt>5470812</TotNetAstOrFundBalancesBOYAmt>
+        <ExcessRevenueOverExpensesAmt>29909</ExcessRevenueOverExpensesAmt>
+        <SubtotalAmt>5500721</SubtotalAmt>
+        <TotNetAstOrFundBalancesEOYAmt>5500721</TotNetAstOrFundBalancesEOYAmt>
+      </ChgInNetAssetsFundBalancesGrp>
+      <CapGainsLossTxInvstIncmDetail>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>SEE ATTACHED MERRILL</PropertyDesc>
+          <HowAcquiredCd>P</HowAcquiredCd>
+          <GrossSalesPriceAmt>1250</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>1254</CostOrOtherBasisAmt>
+          <GainOrLossAmt>-4</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>-4</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>SEE ATTACHED MERRILL</PropertyDesc>
+          <HowAcquiredCd>P</HowAcquiredCd>
+          <GrossSalesPriceAmt>26120</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>19274</CostOrOtherBasisAmt>
+          <GainOrLossAmt>6846</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>6846</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapitalGainNetIncomeAmt>6893</CapitalGainNetIncomeAmt>
+      </CapGainsLossTxInvstIncmDetail>
+      <ExciseTaxBasedOnInvstIncmGrp>
+        <InvestmentIncomeExciseTaxAmt>112</InvestmentIncomeExciseTaxAmt>
+        <SubtotalAmt>112</SubtotalAmt>
+        <TaxBasedOnInvestmentIncomeAmt>112</TaxBasedOnInvestmentIncomeAmt>
+        <EstimatedPlusOvpmtIncmTxAmt>65</EstimatedPlusOvpmtIncmTxAmt>
+        <TotalPaymentsAndCreditsAmt>65</TotalPaymentsAndCreditsAmt>
+        <TaxDueAmt>47</TaxDueAmt>
+      </ExciseTaxBasedOnInvstIncmGrp>
+      <StatementsRegardingActyGrp>
+        <LegislativePoliticalActyInd>false</LegislativePoliticalActyInd>
+        <MoreThan100SpentInd>false</MoreThan100SpentInd>
+        <Form1120POLFiledInd>false</Form1120POLFiledInd>
+        <ActivitiesNotPreviouslyRptInd>false</ActivitiesNotPreviouslyRptInd>
+        <ChangesToArticlesOrBylawsInd>false</ChangesToArticlesOrBylawsInd>
+        <UnrelatedBusIncmOverLimitInd>false</UnrelatedBusIncmOverLimitInd>
+        <OrganizationDissolvedEtcInd>false</OrganizationDissolvedEtcInd>
+        <Section508eRqrSatisfiedInd>true</Section508eRqrSatisfiedInd>
+        <AtLeast5000InAssetsInd>true</AtLeast5000InAssetsInd>
+        <OrgReportOrRegisterStateCd>GA</OrgReportOrRegisterStateCd>
+        <Form990PFFiledWithAttyGenInd>true</Form990PFFiledWithAttyGenInd>
+        <PrivateOperatingFoundationInd>true</PrivateOperatingFoundationInd>
+        <NewSubstantialContributorsInd>false</NewSubstantialContributorsInd>
+        <OwnControlledEntityInd>false</OwnControlledEntityInd>
+        <DonorAdvisedFundInd>false</DonorAdvisedFundInd>
+        <ComplyWithPublicInspRqrInd>true</ComplyWithPublicInspRqrInd>
+        <WebsiteAddressTxt>WWW.THEHERNDONFOUNDATION.ORG</WebsiteAddressTxt>
+        <IndividualWithBooksNm>ROOSEVELT GILES</IndividualWithBooksNm>
+        <PhoneNum>4045819813</PhoneNum>
+        <LocationOfBooksUSAddress>
+          <AddressLine1Txt>587 UNIVERSITY PLACE</AddressLine1Txt>
+          <CityNm>ATLANTA</CityNm>
+          <StateAbbreviationCd>GA</StateAbbreviationCd>
+          <ZIPCd>30314</ZIPCd>
+        </LocationOfBooksUSAddress>
+        <ForeignAccountsQuestionInd>false</ForeignAccountsQuestionInd>
+      </StatementsRegardingActyGrp>
+      <StatementsRegardingActy4720Grp>
+        <SaleOrExchDisqualifiedPrsnInd>false</SaleOrExchDisqualifiedPrsnInd>
+        <BrrwOrLendDisqualifiedPrsnInd>false</BrrwOrLendDisqualifiedPrsnInd>
+        <FurnGoodsDisqualifiedPrsnInd>false</FurnGoodsDisqualifiedPrsnInd>
+        <PayCompDisqualifiedPrsnInd>true</PayCompDisqualifiedPrsnInd>
+        <TransferAstDisqualifiedPrsnInd>false</TransferAstDisqualifiedPrsnInd>
+        <PaymentToGovernmentOfficialInd>false</PaymentToGovernmentOfficialInd>
+        <ActsFailToQlfyAsExceptionsInd>false</ActsFailToQlfyAsExceptionsInd>
+        <UndistributedIncomePYInd>true</UndistributedIncomePYInd>
+        <UndistributedIncomePY1Yr>2019</UndistributedIncomePY1Yr>
+        <UndistributedIncomePY2Yr>2018</UndistributedIncomePY2Yr>
+        <UndistributedIncomePY3Yr>2017</UndistributedIncomePY3Yr>
+        <UndistrIncmSect4942a2NotAppInd>true</UndistrIncmSect4942a2NotAppInd>
+        <BusinessHoldingsInd>true</BusinessHoldingsInd>
+        <ExcessBusinessHoldingsInd>false</ExcessBusinessHoldingsInd>
+        <JeopardyInvestmentsInd>false</JeopardyInvestmentsInd>
+        <UncorrectedPYJeopardyInvstInd>false</UncorrectedPYJeopardyInvstInd>
+        <InfluenceLegislationInd>false</InfluenceLegislationInd>
+        <InfluenceElectionInd>false</InfluenceElectionInd>
+        <GrantsToIndividualsInd>false</GrantsToIndividualsInd>
+        <GrantsToOrganizationsInd>false</GrantsToOrganizationsInd>
+        <NoncharitablePurposeInd>false</NoncharitablePurposeInd>
+        <RcvFndsToPayPrsnlBnftCntrctInd>false</RcvFndsToPayPrsnlBnftCntrctInd>
+        <PayPremiumsPrsnlBnftCntrctInd>false</PayPremiumsPrsnlBnftCntrctInd>
+        <ProhibitedTaxShelterTransInd>false</ProhibitedTaxShelterTransInd>
+        <SubjToTaxRmnrtnExPrchtPymtInd>false</SubjToTaxRmnrtnExPrchtPymtInd>
+      </StatementsRegardingActy4720Grp>
+      <OfficerDirTrstKeyEmplInfoGrp>
+        <OfficerDirTrstKeyEmplGrp>
+          <PersonNm>ROOSEVELT GILES</PersonNm>
+          <USAddress>
+            <AddressLine1Txt>587 UNIVERSITY PLACE</AddressLine1Txt>
+            <CityNm>ATLANTA</CityNm>
+            <StateAbbreviationCd>GA</StateAbbreviationCd>
+            <ZIPCd>30314</ZIPCd>
+          </USAddress>
+          <TitleTxt>CHAIRMAN &amp; T</TitleTxt>
+          <AverageHrsPerWkDevotedToPosRt>12.00</AverageHrsPerWkDevotedToPosRt>
+          <CompensationAmt>64625</CompensationAmt>
+          <EmployeeBenefitProgramAmt>0</EmployeeBenefitProgramAmt>
+          <ExpenseAccountOtherAllwncAmt>0</ExpenseAccountOtherAllwncAmt>
+        </OfficerDirTrstKeyEmplGrp>
+        <OfficerDirTrstKeyEmplGrp>
+          <PersonNm>ANTWAN BANKS</PersonNm>
+          <USAddress>
+            <AddressLine1Txt>587 UNIVERSITY PLACE</AddressLine1Txt>
+            <CityNm>ATLANTA</CityNm>
+            <StateAbbreviationCd>GA</StateAbbreviationCd>
+            <ZIPCd>30314</ZIPCd>
+          </USAddress>
+          <TitleTxt>TRUSTEE</TitleTxt>
+          <AverageHrsPerWkDevotedToPosRt>2.00</AverageHrsPerWkDevotedToPosRt>
+          <CompensationAmt>0</CompensationAmt>
+          <EmployeeBenefitProgramAmt>0</EmployeeBenefitProgramAmt>
+          <ExpenseAccountOtherAllwncAmt>0</ExpenseAccountOtherAllwncAmt>
+        </OfficerDirTrstKeyEmplGrp>
+        <OfficerDirTrstKeyEmplGrp>
+          <PersonNm>CLAYTON BELL</PersonNm>
+          <USAddress>
+            <AddressLine1Txt>587 UNIVERSITY PLACE</AddressLine1Txt>
+            <CityNm>ATLANTA</CityNm>
+            <StateAbbreviationCd>GA</StateAbbreviationCd>
+            <ZIPCd>30314</ZIPCd>
+          </USAddress>
+          <TitleTxt>TRUSTEE</TitleTxt>
+          <AverageHrsPerWkDevotedToPosRt>2.00</AverageHrsPerWkDevotedToPosRt>
+          <CompensationAmt>0</CompensationAmt>
+          <EmployeeBenefitProgramAmt>0</EmployeeBenefitProgramAmt>
+          <ExpenseAccountOtherAllwncAmt>0</ExpenseAccountOtherAllwncAmt>
+        </OfficerDirTrstKeyEmplGrp>
+        <OfficerDirTrstKeyEmplGrp>
+          <PersonNm>ELSIE MCCABE-THOMPSON</PersonNm>
+          <USAddress>
+            <AddressLine1Txt>587 UNIVERSITY PLACE</AddressLine1Txt>
+            <CityNm>ATLANTA</CityNm>
+            <StateAbbreviationCd>GA</StateAbbreviationCd>
+            <ZIPCd>30314</ZIPCd>
+          </USAddress>
+          <TitleTxt>TRUSTEE</TitleTxt>
+          <AverageHrsPerWkDevotedToPosRt>4.00</AverageHrsPerWkDevotedToPosRt>
+          <CompensationAmt>0</CompensationAmt>
+          <EmployeeBenefitProgramAmt>0</EmployeeBenefitProgramAmt>
+          <ExpenseAccountOtherAllwncAmt>0</ExpenseAccountOtherAllwncAmt>
+        </OfficerDirTrstKeyEmplGrp>
+        <OfficerDirTrstKeyEmplGrp>
+          <PersonNm>REGINALD WILLIAMS</PersonNm>
+          <USAddress>
+            <AddressLine1Txt>587 UNIVERSITY PLACE</AddressLine1Txt>
+            <CityNm>ATLANTA</CityNm>
+            <StateAbbreviationCd>GA</StateAbbreviationCd>
+            <ZIPCd>30314</ZIPCd>
+          </USAddress>
+          <TitleTxt>TRUSTEE</TitleTxt>
+          <AverageHrsPerWkDevotedToPosRt>4.00</AverageHrsPerWkDevotedToPosRt>
+          <CompensationAmt>0</CompensationAmt>
+          <EmployeeBenefitProgramAmt>0</EmployeeBenefitProgramAmt>
+          <ExpenseAccountOtherAllwncAmt>0</ExpenseAccountOtherAllwncAmt>
+        </OfficerDirTrstKeyEmplGrp>
+        <OfficerDirTrstKeyEmplGrp>
+          <PersonNm>AYO ALARAN</PersonNm>
+          <USAddress>
+            <AddressLine1Txt>587 UNIVERSITY PLACE</AddressLine1Txt>
+            <CityNm>ATLANTA</CityNm>
+            <StateAbbreviationCd>GA</StateAbbreviationCd>
+            <ZIPCd>30314</ZIPCd>
+          </USAddress>
+          <TitleTxt>TRUSTEE</TitleTxt>
+          <AverageHrsPerWkDevotedToPosRt>4.00</AverageHrsPerWkDevotedToPosRt>
+          <CompensationAmt>0</CompensationAmt>
+          <EmployeeBenefitProgramAmt>0</EmployeeBenefitProgramAmt>
+          <ExpenseAccountOtherAllwncAmt>0</ExpenseAccountOtherAllwncAmt>
+        </OfficerDirTrstKeyEmplGrp>
+        <CompOfHghstPdEmplOrNONETxt>NONE</CompOfHghstPdEmplOrNONETxt>
+        <CompOfHghstPdCntrctOrNONETxt>NONE</CompOfHghstPdCntrctOrNONETxt>
+      </OfficerDirTrstKeyEmplInfoGrp>
+      <SummaryOfDirectChrtblActyGrp>
+        <Description1Txt>PUBLIC MUSEUM AND HISTORICAL SITE - ALONZO F. HERNDON HOME.DAILY ATTENDANCE INFORMATION IS AVAILABLE UPON REQUEST.</Description1Txt>
+        <Expenses1Amt>127284</Expenses1Amt>
+        <Description2Txt>SCHOLARSHIPS</Description2Txt>
+      </SummaryOfDirectChrtblActyGrp>
+      <SumOfProgramRelatedInvstGrp>
+        <Description1Txt>N/A</Description1Txt>
+      </SumOfProgramRelatedInvstGrp>
+      <MinimumInvestmentReturnGrp>
+        <AverageMonthlyFMVOfSecAmt>162903</AverageMonthlyFMVOfSecAmt>
+        <AverageMonthlyCashBalancesAmt>51797</AverageMonthlyCashBalancesAmt>
+        <FMVAllOtherNoncharitableAstAmt>22093</FMVAllOtherNoncharitableAstAmt>
+        <TotalFMVOfUnusedAssetsAmt>236793</TotalFMVOfUnusedAssetsAmt>
+        <AdjustedTotalFMVOfUnusedAstAmt>236793</AdjustedTotalFMVOfUnusedAstAmt>
+        <CashDeemedCharitableAmt>3552</CashDeemedCharitableAmt>
+        <NetVlNoncharitableAssetsAmt>233241</NetVlNoncharitableAssetsAmt>
+        <MinimumInvestmentReturnAmt>11662</MinimumInvestmentReturnAmt>
+      </MinimumInvestmentReturnGrp>
+      <DistributableAmountGrp>
+        <Sect4942j3j5FndtnAndFrgnOrgInd>X</Sect4942j3j5FndtnAndFrgnOrgInd>
+      </DistributableAmountGrp>
+      <PFQualifyingDistributionsGrp>
+        <ExpensesAndContributionsAmt>128485</ExpensesAndContributionsAmt>
+        <QualifyingDistributionsAmt>128485</QualifyingDistributionsAmt>
+      </PFQualifyingDistributionsGrp>
+      <UndistributedIncomeGrp>
+        <PriorYear1Yr>2015</PriorYear1Yr>
+        <PriorYear2Yr>2014</PriorYear2Yr>
+        <PriorYear3Yr>2013</PriorYear3Yr>
+        <TotalForPriorYearsAmt>313987</TotalForPriorYearsAmt>
+        <QualifyingDistributionsAmt>128485</QualifyingDistributionsAmt>
+        <RemainingDistriFromCorpusAmt>128485</RemainingDistriFromCorpusAmt>
+        <TotalCorpusAmt>128485</TotalCorpusAmt>
+        <PriorYearUndistributedIncmAmt>313987</PriorYearUndistributedIncmAmt>
+        <PriorYearDeficiencyOrTaxAmt>313987</PriorYearDeficiencyOrTaxAmt>
+      </UndistributedIncomeGrp>
+      <PrivateOperatingFoundationsGrp>
+        <Section4942j3Ind>X</Section4942j3Ind>
+        <LessorAdjNetIncmMinInvstRetGrp>
+          <CurrentYearAmt>11662</CurrentYearAmt>
+          <Year1Amt>4252</Year1Amt>
+          <Year2Amt>15003</Year2Amt>
+          <Year3Amt>21910</Year3Amt>
+          <TotalAmt>52827</TotalAmt>
+        </LessorAdjNetIncmMinInvstRetGrp>
+        <Pct85LessorAdjIncmOrMinRetGrp>
+          <CurrentYearAmt>9913</CurrentYearAmt>
+          <Year1Amt>3614</Year1Amt>
+          <Year2Amt>12753</Year2Amt>
+          <Year3Amt>18624</Year3Amt>
+          <TotalAmt>44904</TotalAmt>
+        </Pct85LessorAdjIncmOrMinRetGrp>
+        <QualifyingDistributionsGrp>
+          <CurrentYearAmt>128485</CurrentYearAmt>
+          <Year1Amt>220185</Year1Amt>
+          <Year2Amt>232095</Year2Amt>
+          <Year3Amt>242179</Year3Amt>
+          <TotalAmt>822944</TotalAmt>
+        </QualifyingDistributionsGrp>
+        <QualifyingDistriNotUsedDrtGrp>
+          <Year2Amt>37750</Year2Amt>
+          <Year3Amt>21000</Year3Amt>
+          <TotalAmt>58750</TotalAmt>
+        </QualifyingDistriNotUsedDrtGrp>
+        <QualifyingDistriMadeDrtGrp>
+          <CurrentYearAmt>128485</CurrentYearAmt>
+          <Year1Amt>220185</Year1Amt>
+          <Year2Amt>194345</Year2Amt>
+          <Year3Amt>221179</Year3Amt>
+          <TotalAmt>764194</TotalAmt>
+        </QualifyingDistriMadeDrtGrp>
+        <TotalAssetsSect4942j3BiGrp>
+          <Year2Amt>11767</Year2Amt>
+          <Year3Amt>221179</Year3Amt>
+          <TotalAmt>232946</TotalAmt>
+        </TotalAssetsSect4942j3BiGrp>
+        <TwoThirdsMinimumInvstRetGrp>
+          <CurrentYearAmt>7775</CurrentYearAmt>
+          <Year1Amt>9649</Year1Amt>
+          <Year2Amt>10002</Year2Amt>
+          <Year3Amt>14607</Year3Amt>
+          <TotalAmt>42033</TotalAmt>
+        </TwoThirdsMinimumInvstRetGrp>
+      </PrivateOperatingFoundationsGrp>
+      <SupplementaryInformationGrp>
+        <OnlyContriToPreselectedInd>X</OnlyContriToPreselectedInd>
+      </SupplementaryInformationGrp>
+      <AnalysisIncomeProducingActyGrp>
+        <ProgramServiceRevenueDtl>
+          <RelatedOrExemptFunctionIncmAmt>13847</RelatedOrExemptFunctionIncmAmt>
+        </ProgramServiceRevenueDtl>
+        <DividendsAndInterestFromSecDtl>
+          <ExclusionCd>14</ExclusionCd>
+          <ExclusionAmt>3016</ExclusionAmt>
+        </DividendsAndInterestFromSecDtl>
+        <GainSalesAstOthThanInvntryGrp>
+          <RelatedOrExemptFunctionIncmAmt>6893</RelatedOrExemptFunctionIncmAmt>
+        </GainSalesAstOthThanInvntryGrp>
+        <SubtotalsIncmProducingActyGrp>
+          <ExclusionAmt>3016</ExclusionAmt>
+          <RelatedOrExemptFunctionIncmAmt>20740</RelatedOrExemptFunctionIncmAmt>
+        </SubtotalsIncmProducingActyGrp>
+        <TotalIncomeProducingActyAmt>23756</TotalIncomeProducingActyAmt>
+      </AnalysisIncomeProducingActyGrp>
+      <RlnOfActyToAccomOfExmptPrpsGrp>
+        <RlnOfActyToAccomOfExmptPrpsGrp>
+          <LineNumberTxt>1A</LineNumberTxt>
+          <RelationshipStatementTxt>THE HERNDON HOME OPERATES AS A PUBLIC MUSEUM AND CHARGES A NOMINAL ADMISSION FEE OF 10 FOR ADULTS AND 7 FOR SENIORS, STUDENTS, AND ACTIVE DUTY MILITARY.</RelationshipStatementTxt>
+        </RlnOfActyToAccomOfExmptPrpsGrp>
+        <RlnOfActyToAccomOfExmptPrpsGrp>
+          <LineNumberTxt>1B</LineNumberTxt>
+          <RelationshipStatementTxt>SALE OF POSTERS AND EDUCATIONAL MATERIALS ABOUT THE HERNDON HOUSE</RelationshipStatementTxt>
+        </RlnOfActyToAccomOfExmptPrpsGrp>
+      </RlnOfActyToAccomOfExmptPrpsGrp>
+      <TrnsfrTransRlnNonchrtblEOGrp>
+        <TrnsfrOfCashToNonchrtblEOInd>false</TrnsfrOfCashToNonchrtblEOInd>
+        <TrnsfrOtherAssetNonchrtblEOInd>false</TrnsfrOtherAssetNonchrtblEOInd>
+        <SalesOrExchangesOfAssetsInd>false</SalesOrExchangesOfAssetsInd>
+        <PurchaseOfAssetsNonchrtblEOInd>false</PurchaseOfAssetsNonchrtblEOInd>
+        <RentalOfFacilitiesOthAssetsInd>false</RentalOfFacilitiesOthAssetsInd>
+        <ReimbursementArrangementsInd>false</ReimbursementArrangementsInd>
+        <LoansOrLoanGuaranteesInd>false</LoansOrLoanGuaranteesInd>
+        <PerformanceOfServicesEtcInd>false</PerformanceOfServicesEtcInd>
+        <SharingOfFacilitiesEtcInd>false</SharingOfFacilitiesEtcInd>
+        <RelationshipsNonchrtblEOInd>false</RelationshipsNonchrtblEOInd>
+      </TrnsfrTransRlnNonchrtblEOGrp>
+    </IRS990PF>
+    <AccountingFeesSchedule documentId="RetDoc1">
+      <AccountingFeesDetail>
+        <CategoryTxt>INDIRECT ACCOUNTING FEES</CategoryTxt>
+        <Amt>17600</Amt>
+        <DisbursementsCharitablePrpsAmt>17600</DisbursementsCharitablePrpsAmt>
+      </AccountingFeesDetail>
+    </AccountingFeesSchedule>
+    <InvestmentsCorpStockSchedule documentId="RetDoc2">
+      <InvestmentsCorporateStockGrp>
+        <StockNm>ATLANTA LIFE INSURANCE CO.</StockNm>
+        <EOYBookValueAmt>5094460</EOYBookValueAmt>
+        <EOYFMVAmt>5094460</EOYFMVAmt>
+      </InvestmentsCorporateStockGrp>
+      <InvestmentsCorporateStockGrp>
+        <StockNm>MERRILL LYNCH</StockNm>
+        <EOYBookValueAmt>126832</EOYBookValueAmt>
+        <EOYFMVAmt>126832</EOYFMVAmt>
+      </InvestmentsCorporateStockGrp>
+    </InvestmentsCorpStockSchedule>
+    <LandEtcSchedule2 documentId="RetDoc3">
+      <LandEtcGrp>
+        <CostOrOtherBasisAmt>1213634</CostOrOtherBasisAmt>
+        <AccumulatedDepreciationAmt>1008806</AccumulatedDepreciationAmt>
+        <BookValueAmt>204828</BookValueAmt>
+        <EOYFMVAmt>1213634</EOYFMVAmt>
+      </LandEtcGrp>
+    </LandEtcSchedule2>
+    <LegalFeesSchedule documentId="RetDoc4">
+      <LegalFeesGrp>
+        <LegalFeesAmt>650</LegalFeesAmt>
+        <DisbursementsCharitablePrpsAmt>650</DisbursementsCharitablePrpsAmt>
+      </LegalFeesGrp>
+    </LegalFeesSchedule>
+    <OtherAssetsSchedule documentId="RetDoc5">
+      <OtherAssetsScheduleGrp>
+        <Desc>INVENTORY-BOOK "THE HERNDONS"</Desc>
+        <BOYBookValueAmt>21181</BOYBookValueAmt>
+        <EOYFMVAmt>21181</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>OTHER CURRENT ASSETS</Desc>
+        <BOYBookValueAmt>912</BOYBookValueAmt>
+        <EOYBookValueAmt>13093</EOYBookValueAmt>
+        <EOYFMVAmt>13093</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+    </OtherAssetsSchedule>
+    <OtherExpensesSchedule documentId="RetDoc6">
+      <OtherExpensesScheduleGrp>
+        <Desc>EXPENSES</Desc>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>ADVERTISING</Desc>
+        <RevenueAndExpensesPerBooksAmt>25120</RevenueAndExpensesPerBooksAmt>
+        <DisbursementsCharitablePrpsAmt>25120</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>BANK CHARGES</Desc>
+        <RevenueAndExpensesPerBooksAmt>1201</RevenueAndExpensesPerBooksAmt>
+        <DisbursementsCharitablePrpsAmt>1201</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>CHARITABLE CONTRIBUTION</Desc>
+        <RevenueAndExpensesPerBooksAmt>5000</RevenueAndExpensesPerBooksAmt>
+        <DisbursementsCharitablePrpsAmt>5000</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>CONSULTANT</Desc>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>EXTERMINATION</Desc>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>GALA EXPENSE</Desc>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>INSURANCE</Desc>
+        <RevenueAndExpensesPerBooksAmt>14393</RevenueAndExpensesPerBooksAmt>
+        <DisbursementsCharitablePrpsAmt>14393</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>MEMBERSHIP</Desc>
+        <RevenueAndExpensesPerBooksAmt>576</RevenueAndExpensesPerBooksAmt>
+        <DisbursementsCharitablePrpsAmt>576</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>MERCHANT ACCOUNT FEE</Desc>
+        <RevenueAndExpensesPerBooksAmt>2521</RevenueAndExpensesPerBooksAmt>
+        <DisbursementsCharitablePrpsAmt>2521</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>OFFICE EXPENSE</Desc>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>OFFICE SUPPLIES</Desc>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>PAYROLL EXPENSE</Desc>
+        <RevenueAndExpensesPerBooksAmt>666</RevenueAndExpensesPerBooksAmt>
+        <DisbursementsCharitablePrpsAmt>666</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>PHONE &amp; INTERNET</Desc>
+        <RevenueAndExpensesPerBooksAmt>3286</RevenueAndExpensesPerBooksAmt>
+        <DisbursementsCharitablePrpsAmt>3286</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>PROGRAM EXPENSE</Desc>
+        <RevenueAndExpensesPerBooksAmt>14136</RevenueAndExpensesPerBooksAmt>
+        <DisbursementsCharitablePrpsAmt>14136</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>REPAIR AND MAINTENANCE</Desc>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>SECURITY</Desc>
+        <RevenueAndExpensesPerBooksAmt>518</RevenueAndExpensesPerBooksAmt>
+        <DisbursementsCharitablePrpsAmt>518</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>SOFTWARE EXPENSE</Desc>
+        <RevenueAndExpensesPerBooksAmt>1111</RevenueAndExpensesPerBooksAmt>
+        <DisbursementsCharitablePrpsAmt>1111</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>STORAGE</Desc>
+        <RevenueAndExpensesPerBooksAmt>13794</RevenueAndExpensesPerBooksAmt>
+        <DisbursementsCharitablePrpsAmt>13794</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>UTILITIES</Desc>
+        <RevenueAndExpensesPerBooksAmt>5773</RevenueAndExpensesPerBooksAmt>
+        <DisbursementsCharitablePrpsAmt>5773</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>WEBSITE DEVELOPMENT</Desc>
+        <RevenueAndExpensesPerBooksAmt>11640</RevenueAndExpensesPerBooksAmt>
+        <DisbursementsCharitablePrpsAmt>11640</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+    </OtherExpensesSchedule>
+    <OtherIncomeSchedule2 documentId="RetDoc7">
+      <OtherIncomeDetail>
+        <RevenueAndExpensesPerBooksAmt>13847</RevenueAndExpensesPerBooksAmt>
+        <AdjustedNetIncomeAmt>13847</AdjustedNetIncomeAmt>
+      </OtherIncomeDetail>
+    </OtherIncomeSchedule2>
+    <OtherProfessionalFeesSchedule documentId="RetDoc8">
+      <OtherProfessionalFeesDetail>
+        <CategoryTxt>CONSULTING</CategoryTxt>
+        <Amt>10000</Amt>
+        <DisbursementsCharitablePrpsAmt>10000</DisbursementsCharitablePrpsAmt>
+      </OtherProfessionalFeesDetail>
+      <OtherProfessionalFeesDetail>
+        <CategoryTxt>ADVISORY FEE</CategoryTxt>
+        <Amt>1857</Amt>
+        <NetInvestmentIncomeAmt>1857</NetInvestmentIncomeAmt>
+      </OtherProfessionalFeesDetail>
+    </OtherProfessionalFeesSchedule>
+    <ReductionExplanationStatement documentId="RetDoc9">
+      <ShortExplanationTxt>ALIC 38,439 SHARES ALIC STOCK, FMV 5,094,460 OWN ~ 71% OF THE COMMON STOCK OF ALIC, A PRIVATELY HELD CORPORATION - SEE ATTACHED</ShortExplanationTxt>
+    </ReductionExplanationStatement>
+  </ReturnData>
+</Return>
