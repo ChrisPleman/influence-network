@@ -1,0 +1,2818 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Return xmlns="http://www.irs.gov/efile" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.irs.gov/efile" returnVersion="2018v3.1">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2019-11-14T11:06:18-06:00</ReturnTs>
+    <TaxPeriodEndDt>2018-12-31</TaxPeriodEndDt>
+    <PreparerFirmGrp>
+      <PreparerFirmEIN>750786316</PreparerFirmEIN>
+      <PreparerFirmName>
+        <BusinessNameLine1Txt>WEAVER AND TIDWELL LLP</BusinessNameLine1Txt>
+      </PreparerFirmName>
+      <PreparerUSAddress>
+        <AddressLine1Txt>400 W ILLINOIS AVE</AddressLine1Txt>
+        <CityNm>MIDLAND</CityNm>
+        <StateAbbreviationCd>TX</StateAbbreviationCd>
+        <ZIPCd>79701</ZIPCd>
+      </PreparerUSAddress>
+    </PreparerFirmGrp>
+    <ReturnTypeCd>990PF</ReturnTypeCd>
+    <TaxPeriodBeginDt>2018-01-01</TaxPeriodBeginDt>
+    <Filer>
+      <EIN>300490635</EIN>
+      <BusinessName>
+        <BusinessNameLine1Txt>WARREN CHARITABLE FOUNDATION</BusinessNameLine1Txt>
+      </BusinessName>
+      <BusinessNameControlTxt>WARR</BusinessNameControlTxt>
+      <PhoneNum>4326839093</PhoneNum>
+      <USAddress>
+        <AddressLine1Txt>808 W WALL STREET</AddressLine1Txt>
+        <CityNm>MIDLAND</CityNm>
+        <StateAbbreviationCd>TX</StateAbbreviationCd>
+        <ZIPCd>79701</ZIPCd>
+      </USAddress>
+    </Filer>
+    <BusinessOfficerGrp>
+      <PersonNm>W STIRLING WARREN</PersonNm>
+      <PersonTitleTxt>PRESIDENT</PersonTitleTxt>
+      <PhoneNum>4326839093</PhoneNum>
+      <SignatureDt>2019-11-12</SignatureDt>
+      <DiscussWithPaidPreparerInd>1</DiscussWithPaidPreparerInd>
+    </BusinessOfficerGrp>
+    <PreparerPersonGrp>
+      <PreparerPersonNm>MARC YOUNG</PreparerPersonNm>
+      <PTIN>P01579061</PTIN>
+      <PhoneNum>4326835226</PhoneNum>
+    </PreparerPersonGrp>
+    <FilingSecurityInformation>
+      <IPAddress>
+        <IPv4AddressTxt>66.68.152.37</IPv4AddressTxt>
+      </IPAddress>
+      <IPDt>2019-11-12</IPDt>
+      <IPTm>12:21:59</IPTm>
+      <IPTimezoneCd>CS</IPTimezoneCd>
+      <FilingLicenseTypeCd>P</FilingLicenseTypeCd>
+      <AtSubmissionCreationDeviceId>DA39A3EE5E6B4B0D3255BFEF95601890AFD80709</AtSubmissionCreationDeviceId>
+      <AtSubmissionFilingDeviceId>5C4235370BF3A68355B62144980C064C7E2EFC51</AtSubmissionFilingDeviceId>
+    </FilingSecurityInformation>
+    <TaxYr>2018</TaxYr>
+    <BuildTS>2020-03-31 21:24:44Z</BuildTS>
+  </ReturnHeader>
+  <ReturnData documentCnt="13">
+    <IRS990PF documentId="RetDoc1235000001">
+      <Organization501c3ExemptPFInd>X</Organization501c3ExemptPFInd>
+      <FMVAssetsEOYAmt>57912615</FMVAssetsEOYAmt>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <AnalysisOfRevenueAndExpenses>
+        <ContriRcvdRevAndExpnssAmt>989709</ContriRcvdRevAndExpnssAmt>
+        <InterestOnSavRevAndExpnssAmt>7970</InterestOnSavRevAndExpnssAmt>
+        <InterestOnSavNetInvstIncmAmt>7970</InterestOnSavNetInvstIncmAmt>
+        <DividendsRevAndExpnssAmt>801053</DividendsRevAndExpnssAmt>
+        <DividendsNetInvstIncmAmt>801053</DividendsNetInvstIncmAmt>
+        <NetGainSaleAstRevAndExpnssAmt>-212716</NetGainSaleAstRevAndExpnssAmt>
+        <GrossSalesPriceAmt>1500480</GrossSalesPriceAmt>
+        <CapGainNetIncmNetInvstIncmAmt>0</CapGainNetIncmNetInvstIncmAmt>
+        <OtherIncomeRevAndExpnssAmt referenceDocumentId="RetDoc2001500001">2522489</OtherIncomeRevAndExpnssAmt>
+        <OtherIncomeNetInvstIncmAmt>1171485</OtherIncomeNetInvstIncmAmt>
+        <OtherIncomeAdjNetIncmAmt>0</OtherIncomeAdjNetIncmAmt>
+        <TotalRevAndExpnssAmt>4108505</TotalRevAndExpnssAmt>
+        <TotalNetInvstIncmAmt>1980508</TotalNetInvstIncmAmt>
+        <TotalAdjNetIncmAmt>0</TotalAdjNetIncmAmt>
+        <CompOfcrDirTrstRevAndExpnssAmt>0</CompOfcrDirTrstRevAndExpnssAmt>
+        <CompOfcrDirTrstNetInvstIncmAmt>0</CompOfcrDirTrstNetInvstIncmAmt>
+        <CompOfcrDirTrstAdjNetIncmAmt>0</CompOfcrDirTrstAdjNetIncmAmt>
+        <CompOfcrDirTrstDsbrsChrtblAmt>0</CompOfcrDirTrstDsbrsChrtblAmt>
+        <LegalFeesRevAndExpnssAmt referenceDocumentId="RetDoc2002100001">131</LegalFeesRevAndExpnssAmt>
+        <LegalFeesNetInvstIncmAmt>131</LegalFeesNetInvstIncmAmt>
+        <LegalFeesAdjNetIncmAmt>0</LegalFeesAdjNetIncmAmt>
+        <LegalFeesDsbrsChrtblAmt>0</LegalFeesDsbrsChrtblAmt>
+        <AccountingFeesRevAndExpnssAmt referenceDocumentId="RetDoc2002200001">8760</AccountingFeesRevAndExpnssAmt>
+        <AccountingFeesNetInvstIncmAmt>8760</AccountingFeesNetInvstIncmAmt>
+        <AccountingFeesAdjNetIncmAmt>0</AccountingFeesAdjNetIncmAmt>
+        <AccountingFeesChrtblPrpsAmt>0</AccountingFeesChrtblPrpsAmt>
+        <TaxesRevAndExpnssAmt referenceDocumentId="RetDoc2002500001">32834</TaxesRevAndExpnssAmt>
+        <TaxesNetInvstIncmAmt>32834</TaxesNetInvstIncmAmt>
+        <TaxesAdjNetIncmAmt>0</TaxesAdjNetIncmAmt>
+        <TaxesDsbrsChrtblAmt>0</TaxesDsbrsChrtblAmt>
+        <OtherExpensesRevAndExpnssAmt referenceDocumentId="RetDoc2003200001">34870</OtherExpensesRevAndExpnssAmt>
+        <OtherExpensesNetInvstIncmAmt>34870</OtherExpensesNetInvstIncmAmt>
+        <OtherExpensesAdjNetIncmAmt>0</OtherExpensesAdjNetIncmAmt>
+        <OtherExpensesDsbrsChrtblAmt>0</OtherExpensesDsbrsChrtblAmt>
+        <TotOprExpensesRevAndExpnssAmt>76595</TotOprExpensesRevAndExpnssAmt>
+        <TotOprExpensesNetInvstIncmAmt>76595</TotOprExpensesNetInvstIncmAmt>
+        <TotOprExpensesAdjNetIncmAmt>0</TotOprExpensesAdjNetIncmAmt>
+        <TotOprExpensesDsbrsChrtblAmt>0</TotOprExpensesDsbrsChrtblAmt>
+        <ContriPaidRevAndExpnssAmt>2952607</ContriPaidRevAndExpnssAmt>
+        <ContriPaidDsbrsChrtblAmt>2952607</ContriPaidDsbrsChrtblAmt>
+        <TotalExpensesRevAndExpnssAmt>3029202</TotalExpensesRevAndExpnssAmt>
+        <TotalExpensesNetInvstIncmAmt>76595</TotalExpensesNetInvstIncmAmt>
+        <TotalExpensesAdjNetIncmAmt>0</TotalExpensesAdjNetIncmAmt>
+        <TotalExpensesDsbrsChrtblAmt>2952607</TotalExpensesDsbrsChrtblAmt>
+        <ExcessRevenueOverExpensesAmt>1079303</ExcessRevenueOverExpensesAmt>
+        <NetInvestmentIncomeAmt>1903913</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+      </AnalysisOfRevenueAndExpenses>
+      <Form990PFBalanceSheetsGrp>
+        <CashBOYAmt>361249</CashBOYAmt>
+        <CashEOYAmt>1727465</CashEOYAmt>
+        <CashEOYFMVAmt>1727465</CashEOYFMVAmt>
+        <SavAndTempCashInvstBOYAmt>10119</SavAndTempCashInvstBOYAmt>
+        <SavAndTempCashInvstEOYAmt>10387</SavAndTempCashInvstEOYAmt>
+        <SavAndTempCashInvstEOYFMVAmt>10387</SavAndTempCashInvstEOYFMVAmt>
+        <PrepaidExpensesBOYAmt>22000</PrepaidExpensesBOYAmt>
+        <PrepaidExpensesEOYAmt>21200</PrepaidExpensesEOYAmt>
+        <PrepaidExpensesEOYFMVAmt>21200</PrepaidExpensesEOYFMVAmt>
+        <InvstLandCostOrOtherBasisAmt>307000</InvstLandCostOrOtherBasisAmt>
+        <LandBldgInvestmentsBOYAmt>307000</LandBldgInvestmentsBOYAmt>
+        <LandBldgInvestmentsEOYAmt>307000</LandBldgInvestmentsEOYAmt>
+        <LandBldgInvestmentsEOYFMVAmt>307000</LandBldgInvestmentsEOYFMVAmt>
+        <OtherInvestmentsBOYAmt>57193101</OtherInvestmentsBOYAmt>
+        <OtherInvestmentsEOYAmt referenceDocumentId="RetDoc2018100001">54559817</OtherInvestmentsEOYAmt>
+        <OtherInvestmentsEOYFMVAmt>54706299</OtherInvestmentsEOYFMVAmt>
+        <LandBldgEquipCostOrOtherBssAmt>28608</LandBldgEquipCostOrOtherBssAmt>
+        <LandBOYAmt>28608</LandBOYAmt>
+        <LandEOYAmt>28608</LandEOYAmt>
+        <LandEOYFMVAmt>28608</LandEOYFMVAmt>
+        <OtherAssetsBOYAmt referenceDocumentId="RetDoc2046600001">1000000</OtherAssetsBOYAmt>
+        <OtherAssetsEOYAmt referenceDocumentId="RetDoc2046600001">1111656</OtherAssetsEOYAmt>
+        <OtherAssetsEOYFMVAmt referenceDocumentId="RetDoc2046600001">1111656</OtherAssetsEOYFMVAmt>
+        <TotalAssetsBOYAmt>58922077</TotalAssetsBOYAmt>
+        <TotalAssetsEOYAmt>57766133</TotalAssetsEOYAmt>
+        <TotalAssetsEOYFMVAmt>57912615</TotalAssetsEOYFMVAmt>
+        <OtherLiabilitiesBOYAmt referenceDocumentId="RetDoc2065700001">262</OtherLiabilitiesBOYAmt>
+        <OtherLiabilitiesEOYAmt referenceDocumentId="RetDoc2065700001">-10</OtherLiabilitiesEOYAmt>
+        <TotalLiabilitiesBOYAmt>262</TotalLiabilitiesBOYAmt>
+        <TotalLiabilitiesEOYAmt>-10</TotalLiabilitiesEOYAmt>
+        <OrganizationFollowsSFAS117Ind>X</OrganizationFollowsSFAS117Ind>
+        <UnrestrictedBOYAmt>58921815</UnrestrictedBOYAmt>
+        <UnrestrictedEOYAmt>57766143</UnrestrictedEOYAmt>
+        <TotNetAstOrFundBalancesBOYAmt>58921815</TotNetAstOrFundBalancesBOYAmt>
+        <TotNetAstOrFundBalancesEOYAmt>57766143</TotNetAstOrFundBalancesEOYAmt>
+        <TotalLiabilitiesNetAstBOYAmt>58922077</TotalLiabilitiesNetAstBOYAmt>
+        <TotalLiabilitiesNetAstEOYAmt>57766133</TotalLiabilitiesNetAstEOYAmt>
+      </Form990PFBalanceSheetsGrp>
+      <ChgInNetAssetsFundBalancesGrp>
+        <TotNetAstOrFundBalancesBOYAmt>58921815</TotNetAstOrFundBalancesBOYAmt>
+        <ExcessRevenueOverExpensesAmt>1079303</ExcessRevenueOverExpensesAmt>
+        <OtherIncreasesAmt referenceDocumentId="RetDoc2049700001">286761</OtherIncreasesAmt>
+        <SubtotalAmt>60287879</SubtotalAmt>
+        <OtherDecreasesAmt referenceDocumentId="RetDoc2049800001">2521736</OtherDecreasesAmt>
+        <TotNetAstOrFundBalancesEOYAmt>57766143</TotNetAstOrFundBalancesEOYAmt>
+      </ChgInNetAssetsFundBalancesGrp>
+      <CapGainsLossTxInvstIncmDetail>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>C SCHWAB S/T PUBLICLY TRADED SECURITIES</PropertyDesc>
+          <SoldDt>2018-12-31</SoldDt>
+          <GrossSalesPriceAmt>245664</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>376600</CostOrOtherBasisAmt>
+          <GainOrLossAmt>-130936</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>-130936</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>C SCHWAB L/T PUBLICLY TRADED SECURITIES</PropertyDesc>
+          <SoldDt>2018-12-31</SoldDt>
+          <GrossSalesPriceAmt>892150</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>975768</CostOrOtherBasisAmt>
+          <GainOrLossAmt>-83618</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>-83618</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>LONE STAR BANK STOCK</PropertyDesc>
+          <HowAcquiredCd>P</HowAcquiredCd>
+          <SoldDt>2018-12-31</SoldDt>
+          <GrossSalesPriceAmt>362666</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>360828</CostOrOtherBasisAmt>
+          <GainOrLossAmt>1838</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>1838</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapitalGainNetIncomeAmt>-212716</CapitalGainNetIncomeAmt>
+      </CapGainsLossTxInvstIncmDetail>
+      <QlfyUndSect4940eReducedTaxGrp>
+        <LiableSection4942TaxInd>0</LiableSection4942TaxInd>
+        <AdjustedQlfyDistriYr1Amt>2784074</AdjustedQlfyDistriYr1Amt>
+        <NetVlNoncharitableAssetsYr1Amt>59854839</NetVlNoncharitableAssetsYr1Amt>
+        <DistributionYr1Rt>0.046514</DistributionYr1Rt>
+        <AdjustedQlfyDistriYr2Amt>2163914</AdjustedQlfyDistriYr2Amt>
+        <NetVlNoncharitableAssetsYr2Amt>56627116</NetVlNoncharitableAssetsYr2Amt>
+        <DistributionYr2Rt>0.038213</DistributionYr2Rt>
+        <AdjustedQlfyDistriYr3Amt>420999</AdjustedQlfyDistriYr3Amt>
+        <NetVlNoncharitableAssetsYr3Amt>44536505</NetVlNoncharitableAssetsYr3Amt>
+        <DistributionYr3Rt>0.009453</DistributionYr3Rt>
+        <AdjustedQlfyDistriYr4Amt>135781</AdjustedQlfyDistriYr4Amt>
+        <NetVlNoncharitableAssetsYr4Amt>7874485</NetVlNoncharitableAssetsYr4Amt>
+        <DistributionYr4Rt>0.017243</DistributionYr4Rt>
+        <AdjustedQlfyDistriYr5Amt>244764</AdjustedQlfyDistriYr5Amt>
+        <NetVlNoncharitableAssetsYr5Amt>4849795</NetVlNoncharitableAssetsYr5Amt>
+        <DistributionYr5Rt>0.050469</DistributionYr5Rt>
+        <TotalDistributionRt>0.161892</TotalDistributionRt>
+        <AverageDistributionRt>0.032378</AverageDistributionRt>
+        <NetVlNoncharitableAssetsAmt>58661705</NetVlNoncharitableAssetsAmt>
+        <AdjNetVlNoncharitableAssetsAmt>1899349</AdjNetVlNoncharitableAssetsAmt>
+        <NetInvestmentIncomePctAmt>19039</NetInvestmentIncomePctAmt>
+        <AdjNonchrtblNetInvstIncmPctAmt>1918388</AdjNonchrtblNetInvstIncmPctAmt>
+        <QualifyingDistributionsAmt>2952607</QualifyingDistributionsAmt>
+      </QlfyUndSect4940eReducedTaxGrp>
+      <ExciseTaxBasedOnInvstIncmGrp>
+        <DomesticOrgMeetingSect4940eInd>X</DomesticOrgMeetingSect4940eInd>
+        <InvestmentIncomeExciseTaxAmt>19039</InvestmentIncomeExciseTaxAmt>
+        <TaxUnderSection511Amt>0</TaxUnderSection511Amt>
+        <SubtotalAmt>19039</SubtotalAmt>
+        <SubtitleATaxAmt>0</SubtitleATaxAmt>
+        <TaxBasedOnInvestmentIncomeAmt>19039</TaxBasedOnInvestmentIncomeAmt>
+        <EstimatedPlusOvpmtIncmTxAmt>21200</EstimatedPlusOvpmtIncmTxAmt>
+        <ExtsnRequestIncomeTaxPaidAmt>14000</ExtsnRequestIncomeTaxPaidAmt>
+        <BackupWithholdingWithheldAmt>0</BackupWithholdingWithheldAmt>
+        <TotalPaymentsAndCreditsAmt>35200</TotalPaymentsAndCreditsAmt>
+        <EsPenaltyAmt>148</EsPenaltyAmt>
+        <OverpaymentAmt>16013</OverpaymentAmt>
+        <AppliedToESTaxAmt>16013</AppliedToESTaxAmt>
+        <RefundAmt>0</RefundAmt>
+      </ExciseTaxBasedOnInvstIncmGrp>
+      <StatementsRegardingActyGrp>
+        <LegislativePoliticalActyInd>0</LegislativePoliticalActyInd>
+        <MoreThan100SpentInd>0</MoreThan100SpentInd>
+        <Form1120POLFiledInd>0</Form1120POLFiledInd>
+        <Section4955OrganizationTaxAmt>0</Section4955OrganizationTaxAmt>
+        <Section4955ManagersTaxAmt>0</Section4955ManagersTaxAmt>
+        <TaxReimbursedAmt>0</TaxReimbursedAmt>
+        <ActivitiesNotPreviouslyRptInd>0</ActivitiesNotPreviouslyRptInd>
+        <ChangesToArticlesOrBylawsInd>0</ChangesToArticlesOrBylawsInd>
+        <UnrelatedBusIncmOverLimitInd>1</UnrelatedBusIncmOverLimitInd>
+        <Form990TFiledInd>1</Form990TFiledInd>
+        <OrganizationDissolvedEtcInd>0</OrganizationDissolvedEtcInd>
+        <Section508eRqrSatisfiedInd>0</Section508eRqrSatisfiedInd>
+        <AtLeast5000InAssetsInd>1</AtLeast5000InAssetsInd>
+        <OrgReportOrRegisterStateCd>TX</OrgReportOrRegisterStateCd>
+        <Form990PFFiledWithAttyGenInd>1</Form990PFFiledWithAttyGenInd>
+        <PrivateOperatingFoundationInd>0</PrivateOperatingFoundationInd>
+        <NewSubstantialContributorsInd referenceDocumentId="RetDoc2089200001">1</NewSubstantialContributorsInd>
+        <OwnControlledEntityInd>0</OwnControlledEntityInd>
+        <DonorAdvisedFundInd>0</DonorAdvisedFundInd>
+        <ComplyWithPublicInspRqrInd>1</ComplyWithPublicInspRqrInd>
+        <WebsiteAddressTxt>WWW.WARRENGIVING.ORG</WebsiteAddressTxt>
+        <IndividualWithBooksNm>KEVIN PETTY</IndividualWithBooksNm>
+        <PhoneNum>4326853666</PhoneNum>
+        <LocationOfBooksUSAddress>
+          <AddressLine1Txt>808 W WALL STREET</AddressLine1Txt>
+          <CityNm>MIDLAND</CityNm>
+          <StateAbbreviationCd>TX</StateAbbreviationCd>
+          <ZIPCd>79701</ZIPCd>
+        </LocationOfBooksUSAddress>
+        <ForeignAccountsQuestionInd>0</ForeignAccountsQuestionInd>
+      </StatementsRegardingActyGrp>
+      <StatementsRegardingActy4720Grp>
+        <SaleOrExchDisqualifiedPrsnInd>0</SaleOrExchDisqualifiedPrsnInd>
+        <BrrwOrLendDisqualifiedPrsnInd>0</BrrwOrLendDisqualifiedPrsnInd>
+        <FurnGoodsDisqualifiedPrsnInd>0</FurnGoodsDisqualifiedPrsnInd>
+        <PayCompDisqualifiedPrsnInd>0</PayCompDisqualifiedPrsnInd>
+        <TransferAstDisqualifiedPrsnInd>0</TransferAstDisqualifiedPrsnInd>
+        <PaymentToGovernmentOfficialInd>0</PaymentToGovernmentOfficialInd>
+        <UncorrectedPriorActsInd>0</UncorrectedPriorActsInd>
+        <UndistributedIncomePYInd>1</UndistributedIncomePYInd>
+        <UndistributedIncomePY1Yr>2017</UndistributedIncomePY1Yr>
+        <UndistributedIncomePY2Yr>2016</UndistributedIncomePY2Yr>
+        <UndistributedIncomePY3Yr>2015</UndistributedIncomePY3Yr>
+        <UndistrIncmSect4942a2NotAppInd>1</UndistrIncmSect4942a2NotAppInd>
+        <BusinessHoldingsInd>0</BusinessHoldingsInd>
+        <JeopardyInvestmentsInd>0</JeopardyInvestmentsInd>
+        <UncorrectedPYJeopardyInvstInd>0</UncorrectedPYJeopardyInvstInd>
+        <InfluenceLegislationInd>0</InfluenceLegislationInd>
+        <InfluenceElectionInd>0</InfluenceElectionInd>
+        <GrantsToIndividualsInd>0</GrantsToIndividualsInd>
+        <GrantsToOrganizationsInd>0</GrantsToOrganizationsInd>
+        <NoncharitablePurposeInd>0</NoncharitablePurposeInd>
+        <RcvFndsToPayPrsnlBnftCntrctInd>0</RcvFndsToPayPrsnlBnftCntrctInd>
+        <PayPremiumsPrsnlBnftCntrctInd>0</PayPremiumsPrsnlBnftCntrctInd>
+        <ProhibitedTaxShelterTransInd>0</ProhibitedTaxShelterTransInd>
+        <SubjToTaxRmnrtnExPrchtPymtInd>0</SubjToTaxRmnrtnExPrchtPymtInd>
+      </StatementsRegardingActy4720Grp>
+      <OfficerDirTrstKeyEmplInfoGrp>
+        <OfficerDirTrstKeyEmplGrp>
+          <PersonNm>W STIRLING WARREN</PersonNm>
+          <USAddress>
+            <AddressLine1Txt>808 W WALL STREET</AddressLine1Txt>
+            <CityNm>MIDLAND</CityNm>
+            <StateAbbreviationCd>TX</StateAbbreviationCd>
+            <ZIPCd>79701</ZIPCd>
+          </USAddress>
+          <TitleTxt>PRESIDENT</TitleTxt>
+          <AverageHrsPerWkDevotedToPosRt>20.00</AverageHrsPerWkDevotedToPosRt>
+          <CompensationAmt>0</CompensationAmt>
+          <EmployeeBenefitProgramAmt>0</EmployeeBenefitProgramAmt>
+          <ExpenseAccountOtherAllwncAmt>0</ExpenseAccountOtherAllwncAmt>
+        </OfficerDirTrstKeyEmplGrp>
+        <OfficerDirTrstKeyEmplGrp>
+          <PersonNm>ANNE M WARREN</PersonNm>
+          <USAddress>
+            <AddressLine1Txt>808 W WALL STREET</AddressLine1Txt>
+            <CityNm>MIDLAND</CityNm>
+            <StateAbbreviationCd>TX</StateAbbreviationCd>
+            <ZIPCd>79701</ZIPCd>
+          </USAddress>
+          <TitleTxt>VICE PRESIDENT</TitleTxt>
+          <AverageHrsPerWkDevotedToPosRt>15.00</AverageHrsPerWkDevotedToPosRt>
+          <CompensationAmt>0</CompensationAmt>
+          <EmployeeBenefitProgramAmt>0</EmployeeBenefitProgramAmt>
+          <ExpenseAccountOtherAllwncAmt>0</ExpenseAccountOtherAllwncAmt>
+        </OfficerDirTrstKeyEmplGrp>
+        <OfficerDirTrstKeyEmplGrp>
+          <PersonNm>KEVIN Y PETTY</PersonNm>
+          <USAddress>
+            <AddressLine1Txt>808 W WALL STREET</AddressLine1Txt>
+            <CityNm>MIDLAND</CityNm>
+            <StateAbbreviationCd>TX</StateAbbreviationCd>
+            <ZIPCd>79701</ZIPCd>
+          </USAddress>
+          <TitleTxt>TREASURER/ED</TitleTxt>
+          <AverageHrsPerWkDevotedToPosRt>20.00</AverageHrsPerWkDevotedToPosRt>
+          <CompensationAmt>0</CompensationAmt>
+          <EmployeeBenefitProgramAmt>0</EmployeeBenefitProgramAmt>
+          <ExpenseAccountOtherAllwncAmt>0</ExpenseAccountOtherAllwncAmt>
+        </OfficerDirTrstKeyEmplGrp>
+        <OfficerDirTrstKeyEmplGrp>
+          <PersonNm>JOSHUA P HAM</PersonNm>
+          <USAddress>
+            <AddressLine1Txt>808 W WALL STREET</AddressLine1Txt>
+            <CityNm>MIDLAND</CityNm>
+            <StateAbbreviationCd>TX</StateAbbreviationCd>
+            <ZIPCd>79701</ZIPCd>
+          </USAddress>
+          <TitleTxt>SECRETARY</TitleTxt>
+          <AverageHrsPerWkDevotedToPosRt>5.00</AverageHrsPerWkDevotedToPosRt>
+          <CompensationAmt>0</CompensationAmt>
+          <EmployeeBenefitProgramAmt>0</EmployeeBenefitProgramAmt>
+          <ExpenseAccountOtherAllwncAmt>0</ExpenseAccountOtherAllwncAmt>
+        </OfficerDirTrstKeyEmplGrp>
+        <OfficerDirTrstKeyEmplGrp>
+          <PersonNm>DAVID SMITH</PersonNm>
+          <USAddress>
+            <AddressLine1Txt>808 W WALL STREET</AddressLine1Txt>
+            <CityNm>MIDLAND</CityNm>
+            <StateAbbreviationCd>TX</StateAbbreviationCd>
+            <ZIPCd>79701</ZIPCd>
+          </USAddress>
+          <TitleTxt>BOARD MEMBER</TitleTxt>
+          <AverageHrsPerWkDevotedToPosRt>5.00</AverageHrsPerWkDevotedToPosRt>
+          <CompensationAmt>0</CompensationAmt>
+          <EmployeeBenefitProgramAmt>0</EmployeeBenefitProgramAmt>
+          <ExpenseAccountOtherAllwncAmt>0</ExpenseAccountOtherAllwncAmt>
+        </OfficerDirTrstKeyEmplGrp>
+        <OfficerDirTrstKeyEmplGrp>
+          <PersonNm>ALLEN PRUITT</PersonNm>
+          <USAddress>
+            <AddressLine1Txt>808 W WALL STREET</AddressLine1Txt>
+            <CityNm>MIDLAND</CityNm>
+            <StateAbbreviationCd>TX</StateAbbreviationCd>
+            <ZIPCd>79701</ZIPCd>
+          </USAddress>
+          <TitleTxt>BOARD MEMBER</TitleTxt>
+          <AverageHrsPerWkDevotedToPosRt>20.00</AverageHrsPerWkDevotedToPosRt>
+          <CompensationAmt>0</CompensationAmt>
+          <EmployeeBenefitProgramAmt>0</EmployeeBenefitProgramAmt>
+          <ExpenseAccountOtherAllwncAmt>0</ExpenseAccountOtherAllwncAmt>
+        </OfficerDirTrstKeyEmplGrp>
+        <CompOfHghstPdEmplOrNONETxt>NONE</CompOfHghstPdEmplOrNONETxt>
+        <OtherEmployeePaidOver50kCnt>0</OtherEmployeePaidOver50kCnt>
+        <CompOfHghstPdCntrctOrNONETxt>NONE</CompOfHghstPdCntrctOrNONETxt>
+        <ContractorPaidOver50kCnt>0</ContractorPaidOver50kCnt>
+      </OfficerDirTrstKeyEmplInfoGrp>
+      <SumOfProgramRelatedInvstGrp>
+        <TotalAmt>0</TotalAmt>
+      </SumOfProgramRelatedInvstGrp>
+      <MinimumInvestmentReturnGrp>
+        <AverageMonthlyFMVOfSecAmt>17416991</AverageMonthlyFMVOfSecAmt>
+        <AverageMonthlyCashBalancesAmt>1727285</AverageMonthlyCashBalancesAmt>
+        <FMVAllOtherNoncharitableAstAmt>40410754</FMVAllOtherNoncharitableAstAmt>
+        <TotalFMVOfUnusedAssetsAmt>59555030</TotalFMVOfUnusedAssetsAmt>
+        <ReductionClaimedAmt>0</ReductionClaimedAmt>
+        <AcquisitionIndebtednessAmt>0</AcquisitionIndebtednessAmt>
+        <AdjustedTotalFMVOfUnusedAstAmt>59555030</AdjustedTotalFMVOfUnusedAstAmt>
+        <CashDeemedCharitableAmt>893325</CashDeemedCharitableAmt>
+        <NetVlNoncharitableAssetsAmt>58661705</NetVlNoncharitableAssetsAmt>
+        <MinimumInvestmentReturnAmt>2933085</MinimumInvestmentReturnAmt>
+      </MinimumInvestmentReturnGrp>
+      <DistributableAmountGrp>
+        <MinimumInvestmentReturnAmt>2933085</MinimumInvestmentReturnAmt>
+        <TaxBasedOnInvestmentIncomeAmt>19039</TaxBasedOnInvestmentIncomeAmt>
+        <TotalTaxAmt>19039</TotalTaxAmt>
+        <DistributableBeforeAdjAmt>2914046</DistributableBeforeAdjAmt>
+        <RecoveriesQualfiedDistriAmt>0</RecoveriesQualfiedDistriAmt>
+        <DistributableBeforeDedAmt>2914046</DistributableBeforeDedAmt>
+        <DeductionFromDistributableAmt>0</DeductionFromDistributableAmt>
+        <DistributableAsAdjustedAmt>2914046</DistributableAsAdjustedAmt>
+      </DistributableAmountGrp>
+      <QualifyingDistriPartXIIGrp>
+        <ExpensesAndContributionsAmt>2952607</ExpensesAndContributionsAmt>
+        <ProgramRelatedInvstTotalAmt>0</ProgramRelatedInvstTotalAmt>
+        <QualifyingDistributionsAmt>2952607</QualifyingDistributionsAmt>
+        <PctSect4940eOrgNetInvstIncmAmt>19039</PctSect4940eOrgNetInvstIncmAmt>
+        <AdjustedQualifyingDistriAmt>2933568</AdjustedQualifyingDistriAmt>
+      </QualifyingDistriPartXIIGrp>
+      <UndistributedIncomeGrp>
+        <DistributableAsAdjustedAmt>2914046</DistributableAsAdjustedAmt>
+        <UndistributedIncomePYAmt>2966356</UndistributedIncomePYAmt>
+        <PriorYear1Yr>2016</PriorYear1Yr>
+        <PriorYear2Yr>2015</PriorYear2Yr>
+        <TotalForPriorYearsAmt>12164</TotalForPriorYearsAmt>
+        <TotalExcessDistributionCyovAmt>0</TotalExcessDistributionCyovAmt>
+        <QualifyingDistributionsAmt>2952607</QualifyingDistributionsAmt>
+        <AppliedToYear1Amt>2952607</AppliedToYear1Amt>
+        <AppliedToPriorYearsAmt>0</AppliedToPriorYearsAmt>
+        <TreatedAsDistriFromCorpusAmt>0</TreatedAsDistriFromCorpusAmt>
+        <AppliedToCurrentYearAmt>0</AppliedToCurrentYearAmt>
+        <RemainingDistriFromCorpusAmt>0</RemainingDistriFromCorpusAmt>
+        <ExcessDistriCyovAppCYCorpusAmt>0</ExcessDistriCyovAppCYCorpusAmt>
+        <ExcessDistributionCyovAppCYAmt>0</ExcessDistributionCyovAppCYAmt>
+        <TotalCorpusAmt>0</TotalCorpusAmt>
+        <PriorYearUndistributedIncmAmt>12164</PriorYearUndistributedIncmAmt>
+        <PriorYearDeficiencyOrTaxAmt>0</PriorYearDeficiencyOrTaxAmt>
+        <Taxable1Amt>12164</Taxable1Amt>
+        <Taxable2Amt>13749</Taxable2Amt>
+        <UndistributedIncomeCYAmt>2914046</UndistributedIncomeCYAmt>
+        <CorpusDistri170b1EOr4942g3Amt>0</CorpusDistri170b1EOr4942g3Amt>
+        <ExcessDistriCyovFromYr5Amt>0</ExcessDistriCyovFromYr5Amt>
+        <ExcessDistriCyovToNextYrAmt>0</ExcessDistriCyovToNextYrAmt>
+      </UndistributedIncomeGrp>
+      <SupplementaryInformationGrp>
+        <OnlyContriToPreselectedInd>X</OnlyContriToPreselectedInd>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientPersonNm>2801 SAN JACINTO ASSOCIATION</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>2404 PEMBERTON PL</AddressLine1Txt>
+            <CityNm>AUSTIN</CityNm>
+            <StateAbbreviationCd>TX</StateAbbreviationCd>
+            <ZIPCd>787032548</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>NONE</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>501(C)(3)</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>TO FURTHER CHARITABLE PURPOSE</GrantOrContributionPurposeTxt>
+          <Amt>100000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientPersonNm>AGAPE COUNSELING SERVICES WT</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>2817 JOHN BEN SHEPPERD PKWY</AddressLine1Txt>
+            <CityNm>ODESSA</CityNm>
+            <StateAbbreviationCd>TX</StateAbbreviationCd>
+            <ZIPCd>79761</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>NONE</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>501(C)(3)</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>TO FURTHER CHARITABLE PURPOSE</GrantOrContributionPurposeTxt>
+          <Amt>15000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientPersonNm>ALLEGRO SOLUTIONS</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>5535 F-811 MEMORIAL DR</AddressLine1Txt>
+            <CityNm>HOUSTON</CityNm>
+            <StateAbbreviationCd>TX</StateAbbreviationCd>
+            <ZIPCd>77007</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>NONE</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>501(C)(3)</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>TO FURTHER CHARITABLE PURPOSE</GrantOrContributionPurposeTxt>
+          <Amt>4000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientPersonNm>ANDREW MCHONOUGH B POSITIVE FOUNDAT</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>101 ROCKLAND CIR</AddressLine1Txt>
+            <CityNm>WILMINGTON</CityNm>
+            <StateAbbreviationCd>DE</StateAbbreviationCd>
+            <ZIPCd>19803</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>NONE</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>501(C)(3)</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>TO FURTHER CHARITABLE PURPOSE</GrantOrContributionPurposeTxt>
+          <Amt>1000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientPersonNm>APHASIA CENTER OF WEST TEXAS</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>5214 THOMASON DR</AddressLine1Txt>
+            <CityNm>MIDLAND</CityNm>
+            <StateAbbreviationCd>TX</StateAbbreviationCd>
+            <ZIPCd>79703</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>NONE</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>501(C)(3)</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>TO FURTHER CHARITABLE PURPOSE</GrantOrContributionPurposeTxt>
+          <Amt>1500</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientPersonNm>ART FROM THE STREETS</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>304 E 7TH ST</AddressLine1Txt>
+            <CityNm>AUSTIN</CityNm>
+            <StateAbbreviationCd>TX</StateAbbreviationCd>
+            <ZIPCd>78701</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>NONE</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>501(C)(3)</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>TO FURTHER CHARITABLE PURPOSE</GrantOrContributionPurposeTxt>
+          <Amt>5000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientPersonNm>BAYLOR STUDENT MISSION FUND</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>ONE BEAR PLACE 97013</AddressLine1Txt>
+            <CityNm>WACO</CityNm>
+            <StateAbbreviationCd>TX</StateAbbreviationCd>
+            <ZIPCd>76798</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>NONE</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>501(C)(3)</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>TO FURTHER CHARITABLE PURPOSE</GrantOrContributionPurposeTxt>
+          <Amt>2500</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientPersonNm>BAYLOR UNIVERSITY</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>1301 S UNIVERSITY PARTKS DR</AddressLine1Txt>
+            <CityNm>WACO</CityNm>
+            <StateAbbreviationCd>TX</StateAbbreviationCd>
+            <ZIPCd>76706</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>NONE</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>501(C)(3)</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>TO FURTHER CHARITABLE PURPOSE</GrantOrContributionPurposeTxt>
+          <Amt>5000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientPersonNm>BEYOND BATTEN DISEASE FDN</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>PO BOX 200998</AddressLine1Txt>
+            <CityNm>AUSTIN</CityNm>
+            <StateAbbreviationCd>TX</StateAbbreviationCd>
+            <ZIPCd>78720</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>NONE</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>501(C)(3)</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>TO FURTHER CHARITABLE PURPOSE</GrantOrContributionPurposeTxt>
+          <Amt>50000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientPersonNm>BIG BROTHERS BIG SISTERS</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>714 W LOUISIANA AVE</AddressLine1Txt>
+            <CityNm>MIDLAND</CityNm>
+            <StateAbbreviationCd>TX</StateAbbreviationCd>
+            <ZIPCd>79701</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>NONE</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>501(C)(3)</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>TO FURTHER CHARITABLE PURPOSE</GrantOrContributionPurposeTxt>
+          <Amt>25000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientPersonNm>BOWIE PTA</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>C/O WCF 808 W WALL STREET</AddressLine1Txt>
+            <CityNm>MIDLAND</CityNm>
+            <StateAbbreviationCd>TX</StateAbbreviationCd>
+            <ZIPCd>79701</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>NONE</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>501(C)(3)</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>TO FURTHER CHARITABLE PURPOSE</GrantOrContributionPurposeTxt>
+          <Amt>1450</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientPersonNm>BOYS AND GIRLS CLUB</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>110 E NEW JERSEY AVE</AddressLine1Txt>
+            <CityNm>MIDLAND</CityNm>
+            <StateAbbreviationCd>TX</StateAbbreviationCd>
+            <ZIPCd>79703</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>NONE</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>501(C)(3)</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>TO FURTHER CHARITABLE PURPOSE</GrantOrContributionPurposeTxt>
+          <Amt>33000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientPersonNm>BREAST CANCER RESEARCH</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>C/O WCF 808 W WALL STREET</AddressLine1Txt>
+            <CityNm>MIDLAND</CityNm>
+            <StateAbbreviationCd>TX</StateAbbreviationCd>
+            <ZIPCd>79701</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>NONE</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>501(C)(3)</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>TO FURTHER CHARITABLE PURPOSE</GrantOrContributionPurposeTxt>
+          <Amt>1000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientPersonNm>BUCKNER CHILDREN FAMILY SERVICES</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>700 NORTH PEARL STREET STE 1200</AddressLine1Txt>
+            <CityNm>DALLAS</CityNm>
+            <StateAbbreviationCd>TX</StateAbbreviationCd>
+            <ZIPCd>75201</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>NONE</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>501(C)(3)</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>TO FURTHER CHARITABLE PURPOSE</GrantOrContributionPurposeTxt>
+          <Amt>1750</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientPersonNm>BUCKNER FAMILY PLACE</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>700 NORTH PEARL STREET STE 1200</AddressLine1Txt>
+            <CityNm>DALLAS</CityNm>
+            <StateAbbreviationCd>TX</StateAbbreviationCd>
+            <ZIPCd>75201</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>NONE</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>501(C)(3)</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>TO FURTHER CHARITABLE PURPOSE</GrantOrContributionPurposeTxt>
+          <Amt>22750</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientPersonNm>BUFFALO TRAIL COUNCIL BSA</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>1101 W TEXAS AVE</AddressLine1Txt>
+            <CityNm>MIDLAND</CityNm>
+            <StateAbbreviationCd>TX</StateAbbreviationCd>
+            <ZIPCd>79701</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>NONE</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>501(C)(3)</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>TO FURTHER CHARITABLE PURPOSE</GrantOrContributionPurposeTxt>
+          <Amt>11000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientPersonNm>BYNUM SCHOOL</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>PO BOX 80175</AddressLine1Txt>
+            <CityNm>MIDLAND</CityNm>
+            <StateAbbreviationCd>TX</StateAbbreviationCd>
+            <ZIPCd>79708</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>NONE</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>501(C)(3)</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>TO FURTHER CHARITABLE PURPOSE</GrantOrContributionPurposeTxt>
+          <Amt>35000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientPersonNm>CASA DE AMIGOS</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>1101 GARDEN LANE</AddressLine1Txt>
+            <CityNm>MIDLAND</CityNm>
+            <StateAbbreviationCd>TX</StateAbbreviationCd>
+            <ZIPCd>79701</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>NONE</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>501(C)(3)</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>TO FURTHER CHARITABLE PURPOSE</GrantOrContributionPurposeTxt>
+          <Amt>5000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientPersonNm>CASA OF WEST TEXAS</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>1611 W TEXAS AVE</AddressLine1Txt>
+            <CityNm>MIDLAND</CityNm>
+            <StateAbbreviationCd>TX</StateAbbreviationCd>
+            <ZIPCd>79701</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>NONE</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>501(C)(3)</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>TO FURTHER CHARITABLE PURPOSE</GrantOrContributionPurposeTxt>
+          <Amt>40000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientPersonNm>CENTERS FOR CHILDREN AND FAMILI</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>1004 N BIG SPRING ST STE 325</AddressLine1Txt>
+            <CityNm>MIDLAND</CityNm>
+            <StateAbbreviationCd>TX</StateAbbreviationCd>
+            <ZIPCd>79701</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>NONE</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>501(C)(3)</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>TO FURTHER CHARITABLE PURPOSE</GrantOrContributionPurposeTxt>
+          <Amt>22500</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientPersonNm>CENTRAL TEXAS OPPORTUNIITES</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>114 NEEDHAM ST</AddressLine1Txt>
+            <CityNm>COLEMAN</CityNm>
+            <StateAbbreviationCd>TX</StateAbbreviationCd>
+            <ZIPCd>76834</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>NONE</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>501(C)(3)</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>TO FURTHER CHARITABLE PURPOSE</GrantOrContributionPurposeTxt>
+          <Amt>200689</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientPersonNm>CHANCE FOR HOPE</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>C/O WCF 808 W WALL STREET</AddressLine1Txt>
+            <CityNm>MIDLAND</CityNm>
+            <StateAbbreviationCd>TX</StateAbbreviationCd>
+            <ZIPCd>79701</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>NONE</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>501(C)(3)</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>TO FURTHER CHARITABLE PURPOSE</GrantOrContributionPurposeTxt>
+          <Amt>1000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientPersonNm>COMMUNITIES IN SCHOOLS</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>1341 W MOCKINGBIRD LANE STE 1000E</AddressLine1Txt>
+            <CityNm>DALLAS</CityNm>
+            <StateAbbreviationCd>TX</StateAbbreviationCd>
+            <ZIPCd>75247</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>NONE</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>501(C)(3)</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>TO FURTHER CHARITABLE PURPOSE</GrantOrContributionPurposeTxt>
+          <Amt>25000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientPersonNm>COMMUNITY CHILDREN'S CLINIC</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>1101 E FRONT ST</AddressLine1Txt>
+            <CityNm>MIDLAND</CityNm>
+            <StateAbbreviationCd>TX</StateAbbreviationCd>
+            <ZIPCd>79701</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>NONE</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>501(C)(3)</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>TO FURTHER CHARITABLE PURPOSE</GrantOrContributionPurposeTxt>
+          <Amt>10200</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientPersonNm>CRISIS CENTER ODESSA</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>910 S GRANT AVE B</AddressLine1Txt>
+            <CityNm>ODESSA</CityNm>
+            <StateAbbreviationCd>TX</StateAbbreviationCd>
+            <ZIPCd>79763</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>NONE</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>501(C)(3)</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>TO FURTHER CHARITABLE PURPOSE</GrantOrContributionPurposeTxt>
+          <Amt>25000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientPersonNm>DASH</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>C/O WCF 808 W WALL STREET</AddressLine1Txt>
+            <CityNm>MIDLAND</CityNm>
+            <StateAbbreviationCd>TX</StateAbbreviationCd>
+            <ZIPCd>79701</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>NONE</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>501(C)(3)</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>TO FURTHER CHARITABLE PURPOSE</GrantOrContributionPurposeTxt>
+          <Amt>1200</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientPersonNm>DENISON FORUM ON TRUTH CULTURE</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>C/O WCF 808 W WALL STREET</AddressLine1Txt>
+            <CityNm>MIDLAND</CityNm>
+            <StateAbbreviationCd>TX</StateAbbreviationCd>
+            <ZIPCd>79701</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>NONE</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>501(C)(3)</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>TO FURTHER CHARITABLE PURPOSE</GrantOrContributionPurposeTxt>
+          <Amt>2000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientPersonNm>DFW ASYLUM</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>C/O WCF 808 W WALL STREET</AddressLine1Txt>
+            <CityNm>MIDLAND</CityNm>
+            <StateAbbreviationCd>TX</StateAbbreviationCd>
+            <ZIPCd>79701</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>NONE</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>501(C)(3)</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>TO FURTHER CHARITABLE PURPOSE</GrantOrContributionPurposeTxt>
+          <Amt>1000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientPersonNm>DIABETES ACTION RESEARCH</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>PO BOX 34635</AddressLine1Txt>
+            <CityNm>BETHESDA</CityNm>
+            <StateAbbreviationCd>MD</StateAbbreviationCd>
+            <ZIPCd>20827</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>NONE</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>501(C)(3)</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>TO FURTHER CHARITABLE PURPOSE</GrantOrContributionPurposeTxt>
+          <Amt>1000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientPersonNm>EDUCATE MIDLAND</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>3500 N A ST STE 2700</AddressLine1Txt>
+            <CityNm>MIDLAND</CityNm>
+            <StateAbbreviationCd>TX</StateAbbreviationCd>
+            <ZIPCd>79705</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>NONE</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>501(C)(3)</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>TO FURTHER CHARITABLE PURPOSE</GrantOrContributionPurposeTxt>
+          <Amt>5000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientPersonNm>ELLEN NOEL ART MUSEUM</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>4909 E UNIVERSITY BLVD</AddressLine1Txt>
+            <CityNm>MIDLAND</CityNm>
+            <StateAbbreviationCd>TX</StateAbbreviationCd>
+            <ZIPCd>79762</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>NONE</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>501(C)(3)</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>TO FURTHER CHARITABLE PURPOSE</GrantOrContributionPurposeTxt>
+          <Amt>5000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientPersonNm>EVANGELICAL DEVELOPMENT MINISTRY</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>C/O WCF 808 W WALL STREET</AddressLine1Txt>
+            <CityNm>MIDLAND</CityNm>
+            <StateAbbreviationCd>TX</StateAbbreviationCd>
+            <ZIPCd>79701</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>NONE</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>501(C)(3)</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>TO FURTHER CHARITABLE PURPOSE</GrantOrContributionPurposeTxt>
+          <Amt>1500</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientPersonNm>FAMILY LEGACY MISSIONS INT'L</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>5005 W ROYAL LANE STE 252</AddressLine1Txt>
+            <CityNm>IRVING</CityNm>
+            <StateAbbreviationCd>TX</StateAbbreviationCd>
+            <ZIPCd>75063</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>NONE</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>501(C)(3)</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>TO FURTHER CHARITABLE PURPOSE</GrantOrContributionPurposeTxt>
+          <Amt>3168</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientPersonNm>FAMILY PROMISE</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>3500 NORTH A STE 1400</AddressLine1Txt>
+            <CityNm>MIDLAND</CityNm>
+            <StateAbbreviationCd>TX</StateAbbreviationCd>
+            <ZIPCd>79705</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>NONE</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>501(C)(3)</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>TO FURTHER CHARITABLE PURPOSE</GrantOrContributionPurposeTxt>
+          <Amt>20000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientPersonNm>FIRST PRESBYTERIAN CHURCH</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>800 W TEXAS</AddressLine1Txt>
+            <CityNm>MIDLAND</CityNm>
+            <StateAbbreviationCd>TX</StateAbbreviationCd>
+            <ZIPCd>79701</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>NONE</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>501(C)(3)</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>TO FURTHER CHARITABLE PURPOSE</GrantOrContributionPurposeTxt>
+          <Amt>60250</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientPersonNm>FIRST UNITED METHODIST CHURCH</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>415 N LEE AVE</AddressLine1Txt>
+            <CityNm>ODESSA</CityNm>
+            <StateAbbreviationCd>TX</StateAbbreviationCd>
+            <ZIPCd>79762</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>NONE</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>501(C)(3)</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>TO FURTHER CHARITABLE PURPOSE</GrantOrContributionPurposeTxt>
+          <Amt>4350</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientPersonNm>FRIENDSHIP CREEKSIDE FELLOWSHIP</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>14455 FARM TO MARKET RD 1826</AddressLine1Txt>
+            <CityNm>AUSTIN</CityNm>
+            <StateAbbreviationCd>TX</StateAbbreviationCd>
+            <ZIPCd>78737</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>NONE</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>501(C)(3)</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>TO FURTHER CHARITABLE PURPOSE</GrantOrContributionPurposeTxt>
+          <Amt>3000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientPersonNm>GLADNEY CENTER FOR ADOPTION</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>901 W BRAKER LN A-126</AddressLine1Txt>
+            <CityNm>AUSTIN</CityNm>
+            <StateAbbreviationCd>TX</StateAbbreviationCd>
+            <ZIPCd>78758</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>NONE</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>501(C)(3)</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>TO FURTHER CHARITABLE PURPOSE</GrantOrContributionPurposeTxt>
+          <Amt>2500</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientPersonNm>GOLF COURSE RD CHURCH OF CHRIST</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>3500 W GOLF COURSE RD</AddressLine1Txt>
+            <CityNm>MIDLAND</CityNm>
+            <StateAbbreviationCd>TX</StateAbbreviationCd>
+            <ZIPCd>79764</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>NONE</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>501(C)(3)</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>TO FURTHER CHARITABLE PURPOSE</GrantOrContributionPurposeTxt>
+          <Amt>5500</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientPersonNm>GREEN BERET FOUNDATION</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>14402 BLANCO ROAD STE 101</AddressLine1Txt>
+            <CityNm>SAN ANTONIO</CityNm>
+            <StateAbbreviationCd>TX</StateAbbreviationCd>
+            <ZIPCd>78216</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>NONE</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>501(C)(3)</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>TO FURTHER CHARITABLE PURPOSE</GrantOrContributionPurposeTxt>
+          <Amt>5000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientPersonNm>GREENWOOD H S PROJECT GRAD 2018</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>C/O WCF 808 W WALL STREET</AddressLine1Txt>
+            <CityNm>MIDLAND</CityNm>
+            <StateAbbreviationCd>TX</StateAbbreviationCd>
+            <ZIPCd>79701</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>NONE</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>501(C)(3)</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>TO FURTHER CHARITABLE PURPOSE</GrantOrContributionPurposeTxt>
+          <Amt>8000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientPersonNm>GREENWOOD VOLUNTEER FIRE DEPT</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>2900 S CO RD 1083</AddressLine1Txt>
+            <CityNm>MIDLAND</CityNm>
+            <StateAbbreviationCd>TX</StateAbbreviationCd>
+            <ZIPCd>79706</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>NONE</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>501(C)(3)</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>TO FURTHER CHARITABLE PURPOSE</GrantOrContributionPurposeTxt>
+          <Amt>15000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientPersonNm>HARMONY HOME CHILDREN'S ADVOCATE</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>910 S GRANT AVE</AddressLine1Txt>
+            <CityNm>MIDLAND</CityNm>
+            <StateAbbreviationCd>TX</StateAbbreviationCd>
+            <ZIPCd>79761</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>NONE</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>501(C)(3)</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>TO FURTHER CHARITABLE PURPOSE</GrantOrContributionPurposeTxt>
+          <Amt>20000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientPersonNm>HIGH SKY CHILDREN'S RANCH</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>8701 W COUNTY ROAD 60</AddressLine1Txt>
+            <CityNm>MIDLAND</CityNm>
+            <StateAbbreviationCd>TX</StateAbbreviationCd>
+            <ZIPCd>79707</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>NONE</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>501(C)(3)</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>TO FURTHER CHARITABLE PURPOSE</GrantOrContributionPurposeTxt>
+          <Amt>200000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientPersonNm>HILLCREST SCHOOL</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>2800 N A ST</AddressLine1Txt>
+            <CityNm>MIDLAND</CityNm>
+            <StateAbbreviationCd>TX</StateAbbreviationCd>
+            <ZIPCd>79705</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>NONE</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>501(C)(3)</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>TO FURTHER CHARITABLE PURPOSE</GrantOrContributionPurposeTxt>
+          <Amt>5000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientPersonNm>HOPE MOMMINES</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>C/O WCF 808 W WALL STREET</AddressLine1Txt>
+            <CityNm>MIDLAND</CityNm>
+            <StateAbbreviationCd>TX</StateAbbreviationCd>
+            <ZIPCd>79701</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>NONE</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>501(C)(3)</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>TO FURTHER CHARITABLE PURPOSE</GrantOrContributionPurposeTxt>
+          <Amt>1250</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientPersonNm>HOUSTON HABITAT FOR HUMANITY</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>3750 N MCCARTY ST</AddressLine1Txt>
+            <CityNm>HOUSTON</CityNm>
+            <StateAbbreviationCd>TX</StateAbbreviationCd>
+            <ZIPCd>77029</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>NONE</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>501(C)(3)</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>TO FURTHER CHARITABLE PURPOSE</GrantOrContributionPurposeTxt>
+          <Amt>50000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientPersonNm>IRLEN SYNDROME FOUNDATION</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>C/O WCF 808 W WALL STREET</AddressLine1Txt>
+            <CityNm>MIDLAND</CityNm>
+            <StateAbbreviationCd>TX</StateAbbreviationCd>
+            <ZIPCd>79701</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>NONE</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>501(C)(3)</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>TO FURTHER CHARITABLE PURPOSE</GrantOrContributionPurposeTxt>
+          <Amt>1700</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientPersonNm>KALEIDOSCOPE MINISTRIES</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>502 E NOBLES AVE</AddressLine1Txt>
+            <CityNm>MIDLAND</CityNm>
+            <StateAbbreviationCd>TX</StateAbbreviationCd>
+            <ZIPCd>79701</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>NONE</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>501(C)(3)</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>TO FURTHER CHARITABLE PURPOSE</GrantOrContributionPurposeTxt>
+          <Amt>20000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientPersonNm>KSBJ RADIO</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>C/O WCF 808 W WALL STREET</AddressLine1Txt>
+            <CityNm>MIDLAND</CityNm>
+            <StateAbbreviationCd>TX</StateAbbreviationCd>
+            <ZIPCd>79701</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>NONE</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>501(C)(3)</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>TO FURTHER CHARITABLE PURPOSE</GrantOrContributionPurposeTxt>
+          <Amt>9500</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientPersonNm>KWO MINISTRIES</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>3500 W GOLF COURSE RD</AddressLine1Txt>
+            <CityNm>MIDLAND</CityNm>
+            <StateAbbreviationCd>TX</StateAbbreviationCd>
+            <ZIPCd>79703</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>NONE</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>501(C)(3)</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>TO FURTHER CHARITABLE PURPOSE</GrantOrContributionPurposeTxt>
+          <Amt>2000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientPersonNm>LEUKEMIA LYMPHOMA SOCIETY</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>C/O WCF 808 W WALL STREET</AddressLine1Txt>
+            <CityNm>MIDLAND</CityNm>
+            <StateAbbreviationCd>TX</StateAbbreviationCd>
+            <ZIPCd>79701</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>NONE</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>501(C)(3)</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>TO FURTHER CHARITABLE PURPOSE</GrantOrContributionPurposeTxt>
+          <Amt>1000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientPersonNm>MANOR PARK</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>2208 N LOOP 250 W</AddressLine1Txt>
+            <CityNm>MIDLAND</CityNm>
+            <StateAbbreviationCd>TX</StateAbbreviationCd>
+            <ZIPCd>79703</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>NONE</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>501(C)(3)</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>TO FURTHER CHARITABLE PURPOSE</GrantOrContributionPurposeTxt>
+          <Amt>50355</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientPersonNm>MD ANDERSON CANCER CENTER</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>C/O WCF 808 W WALL STREET</AddressLine1Txt>
+            <CityNm>MIDLAND</CityNm>
+            <StateAbbreviationCd>TX</StateAbbreviationCd>
+            <ZIPCd>79701</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>NONE</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>501(C)(3)</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>TO FURTHER CHARITABLE PURPOSE</GrantOrContributionPurposeTxt>
+          <Amt>125</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientPersonNm>MICHAEL J FOX FOUNDATION</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>PO BOX 5014</AddressLine1Txt>
+            <CityNm>HAGERSTOWN</CityNm>
+            <StateAbbreviationCd>MD</StateAbbreviationCd>
+            <ZIPCd>21741</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>NONE</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>501(C)(3)</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>TO FURTHER CHARITABLE PURPOSE</GrantOrContributionPurposeTxt>
+          <Amt>1000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientPersonNm>MIDLAND CHILDREN'S REHAB CENTER</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>802 VENTURA AVE</AddressLine1Txt>
+            <CityNm>MIDLAND</CityNm>
+            <StateAbbreviationCd>TX</StateAbbreviationCd>
+            <ZIPCd>79705</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>NONE</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>501(C)(3)</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>TO FURTHER CHARITABLE PURPOSE</GrantOrContributionPurposeTxt>
+          <Amt>101450</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientPersonNm>MIDLAND CHRISTIAN SCHOOL</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>2001 CULVER DRIVE</AddressLine1Txt>
+            <CityNm>MIDLAND</CityNm>
+            <StateAbbreviationCd>TX</StateAbbreviationCd>
+            <ZIPCd>79705</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>NONE</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>501(C)(3)</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>TO FURTHER CHARITABLE PURPOSE</GrantOrContributionPurposeTxt>
+          <Amt>4500</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientPersonNm>MIDLAND COLLEGE FOUNDATION</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>3600 N GARFIELD</AddressLine1Txt>
+            <CityNm>MIDLAND</CityNm>
+            <StateAbbreviationCd>TX</StateAbbreviationCd>
+            <ZIPCd>79705</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>NONE</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>501(C)(3)</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>TO FURTHER CHARITABLE PURPOSE</GrantOrContributionPurposeTxt>
+          <Amt>15000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientPersonNm>MIDLAND COMMUNITY THEATRE</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>2000 W WADLEY AVE</AddressLine1Txt>
+            <CityNm>MIDLAND</CityNm>
+            <StateAbbreviationCd>TX</StateAbbreviationCd>
+            <ZIPCd>79705</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>NONE</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>501(C)(3)</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>TO FURTHER CHARITABLE PURPOSE</GrantOrContributionPurposeTxt>
+          <Amt>5000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientPersonNm>MIDLAND FAIR HAVENS</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>2400 WHITMIRE BLVD 100</AddressLine1Txt>
+            <CityNm>MIDLAND</CityNm>
+            <StateAbbreviationCd>TX</StateAbbreviationCd>
+            <ZIPCd>79705</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>NONE</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>501(C)(3)</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>TO FURTHER CHARITABLE PURPOSE</GrantOrContributionPurposeTxt>
+          <Amt>34920</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientPersonNm>MIDLAND HABITAT FOR HUMANITY</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>305 E TEXAS AVE</AddressLine1Txt>
+            <CityNm>MIDLAND</CityNm>
+            <StateAbbreviationCd>TX</StateAbbreviationCd>
+            <ZIPCd>79702</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>NONE</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>501(C)(3)</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>TO FURTHER CHARITABLE PURPOSE</GrantOrContributionPurposeTxt>
+          <Amt>9500</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientPersonNm>MIDLAND HUMANE COALITION</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>PO BOX 53213</AddressLine1Txt>
+            <CityNm>MIDLAND</CityNm>
+            <StateAbbreviationCd>TX</StateAbbreviationCd>
+            <ZIPCd>79710</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>NONE</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>501(C)(3)</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>TO FURTHER CHARITABLE PURPOSE</GrantOrContributionPurposeTxt>
+          <Amt>1000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientPersonNm>MIDLAND MEMORIAL FOUNDATION</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>2200 W ILLINOIS AVE</AddressLine1Txt>
+            <CityNm>MIDLAND</CityNm>
+            <StateAbbreviationCd>TX</StateAbbreviationCd>
+            <ZIPCd>79701</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>NONE</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>501(C)(3)</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>TO FURTHER CHARITABLE PURPOSE</GrantOrContributionPurposeTxt>
+          <Amt>502500</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientPersonNm>MIDLAND PARKER PLACE</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>508 E PARKER AVE</AddressLine1Txt>
+            <CityNm>MIDLAND</CityNm>
+            <StateAbbreviationCd>TX</StateAbbreviationCd>
+            <ZIPCd>79701</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>NONE</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>501(C)(3)</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>TO FURTHER CHARITABLE PURPOSE</GrantOrContributionPurposeTxt>
+          <Amt>25000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientPersonNm>MIDLAND PROJECT GRADUATION</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>PO BOX 80881</AddressLine1Txt>
+            <CityNm>MIDLAND</CityNm>
+            <StateAbbreviationCd>TX</StateAbbreviationCd>
+            <ZIPCd>79707</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>NONE</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>501(C)(3)</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>TO FURTHER CHARITABLE PURPOSE</GrantOrContributionPurposeTxt>
+          <Amt>1000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientPersonNm>MIDLAND SHARED SPACES VIA UW</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>3500 N A ST STE 1100</AddressLine1Txt>
+            <CityNm>MIDLAND</CityNm>
+            <StateAbbreviationCd>TX</StateAbbreviationCd>
+            <ZIPCd>79705</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>NONE</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>501(C)(3)</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>TO FURTHER CHARITABLE PURPOSE</GrantOrContributionPurposeTxt>
+          <Amt>64600</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientPersonNm>MIDLAND SOUP KITCHEN MINISTRY</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>1401 ORCHARD LN</AddressLine1Txt>
+            <CityNm>MIDLAND</CityNm>
+            <StateAbbreviationCd>TX</StateAbbreviationCd>
+            <ZIPCd>79701</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>NONE</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>501(C)(3)</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>TO FURTHER CHARITABLE PURPOSE</GrantOrContributionPurposeTxt>
+          <Amt>4000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientPersonNm>MIDLAND-ODESSA SYMPHONY 7 CHORAL</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>C/O WCF 808 W WALL STREET</AddressLine1Txt>
+            <CityNm>MIDLAND</CityNm>
+            <StateAbbreviationCd>TX</StateAbbreviationCd>
+            <ZIPCd>79701</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>NONE</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>501(C)(3)</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>TO FURTHER CHARITABLE PURPOSE</GrantOrContributionPurposeTxt>
+          <Amt>5000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientPersonNm>MISC CONTRIBUTIONS 1000</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>C/O WCF 808 W WALL STREET</AddressLine1Txt>
+            <CityNm>MIDLAND</CityNm>
+            <StateAbbreviationCd>TX</StateAbbreviationCd>
+            <ZIPCd>79701</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>NONE</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>501(C)(3)</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>TO FURTHER CHARITABLE PURPOSE</GrantOrContributionPurposeTxt>
+          <Amt>5596</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientPersonNm>MISD EDUCATION FOUNDATION</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>C/O WCF 808 W WALL STREET</AddressLine1Txt>
+            <CityNm>MIDLAND</CityNm>
+            <StateAbbreviationCd>TX</StateAbbreviationCd>
+            <ZIPCd>79701</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>NONE</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>501(C)(3)</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>TO FURTHER CHARITABLE PURPOSE</GrantOrContributionPurposeTxt>
+          <Amt>34029</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientPersonNm>MISSION MESSIAH</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>1213 W 2ND ST</AddressLine1Txt>
+            <CityNm>ODESSA</CityNm>
+            <StateAbbreviationCd>TX</StateAbbreviationCd>
+            <ZIPCd>79763</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>NONE</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>501(C)(3)</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>TO FURTHER CHARITABLE PURPOSE</GrantOrContributionPurposeTxt>
+          <Amt>2000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientPersonNm>NONPROFIT MANAGEMENT CENTER OTHER</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>3500 NORTH A ST STE 2300</AddressLine1Txt>
+            <CityNm>MIDLAND</CityNm>
+            <StateAbbreviationCd>TX</StateAbbreviationCd>
+            <ZIPCd>79705</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>NONE</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>501(C)(3)</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>TO FURTHER CHARITABLE PURPOSE</GrantOrContributionPurposeTxt>
+          <Amt>1600</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientPersonNm>NOW I LAY ME DOWN TO SLEEP</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>7500 E ARAPAHOE ROAD STE 101</AddressLine1Txt>
+            <CityNm>CENTENNIAL</CityNm>
+            <StateAbbreviationCd>CO</StateAbbreviationCd>
+            <ZIPCd>80112</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>NONE</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>501(C)(3)</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>TO FURTHER CHARITABLE PURPOSE</GrantOrContributionPurposeTxt>
+          <Amt>1000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientPersonNm>OATH INC</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>C/O WCF 808 W WALL STREET</AddressLine1Txt>
+            <CityNm>MIDLAND</CityNm>
+            <StateAbbreviationCd>TX</StateAbbreviationCd>
+            <ZIPCd>79701</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>NONE</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>501(C)(3)</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>TO FURTHER CHARITABLE PURPOSE</GrantOrContributionPurposeTxt>
+          <Amt>4000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientPersonNm>PARKER MADISON FOUNDATION</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>4624 GARDEN LN</AddressLine1Txt>
+            <CityNm>ODESSA</CityNm>
+            <StateAbbreviationCd>TX</StateAbbreviationCd>
+            <ZIPCd>79761</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>NONE</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>501(C)(3)</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>TO FURTHER CHARITABLE PURPOSE</GrantOrContributionPurposeTxt>
+          <Amt>2500</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientPersonNm>PARTNERS RELIEF DEVELOPMENT</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>C/O WCF 808 W WALL STREET</AddressLine1Txt>
+            <CityNm>MIDLAND</CityNm>
+            <StateAbbreviationCd>TX</StateAbbreviationCd>
+            <ZIPCd>79701</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>NONE</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>501(C)(3)</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>TO FURTHER CHARITABLE PURPOSE</GrantOrContributionPurposeTxt>
+          <Amt>35000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientPersonNm>PB REGIONAL COUNCILDRUG ABUSE</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>120 E 2ND ST</AddressLine1Txt>
+            <CityNm>ODESSA</CityNm>
+            <StateAbbreviationCd>TX</StateAbbreviationCd>
+            <ZIPCd>79761</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>NONE</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>501(C)(3)</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>TO FURTHER CHARITABLE PURPOSE</GrantOrContributionPurposeTxt>
+          <Amt>5600</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientPersonNm>PB REHABILITATION CENTER</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>620 N ALLEGHANEY AVE</AddressLine1Txt>
+            <CityNm>ODESSA</CityNm>
+            <StateAbbreviationCd>TX</StateAbbreviationCd>
+            <ZIPCd>79762</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>NONE</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>501(C)(3)</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>TO FURTHER CHARITABLE PURPOSE</GrantOrContributionPurposeTxt>
+          <Amt>20000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientPersonNm>PERMIAN BASIN HONOR FLIGHT</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>C/O WCF 808 W WALL STREET</AddressLine1Txt>
+            <CityNm>MIDLAND</CityNm>
+            <StateAbbreviationCd>TX</StateAbbreviationCd>
+            <ZIPCd>79701</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>NONE</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>501(C)(3)</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>TO FURTHER CHARITABLE PURPOSE</GrantOrContributionPurposeTxt>
+          <Amt>10000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientPersonNm>RECORDING LIBRARY OF WEST TEXAS</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>3500 N A ST 2800</AddressLine1Txt>
+            <CityNm>MIDLAND</CityNm>
+            <StateAbbreviationCd>TX</StateAbbreviationCd>
+            <ZIPCd>79705</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>NONE</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>501(C)(3)</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>TO FURTHER CHARITABLE PURPOSE</GrantOrContributionPurposeTxt>
+          <Amt>10000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientPersonNm>ROPE YOUTH COUNSELING</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>3500 W GOLF COURSE RD</AddressLine1Txt>
+            <CityNm>MIDLAND</CityNm>
+            <StateAbbreviationCd>TX</StateAbbreviationCd>
+            <ZIPCd>79703</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>NONE</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>501(C)(3)</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>TO FURTHER CHARITABLE PURPOSE</GrantOrContributionPurposeTxt>
+          <Amt>10000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientPersonNm>SAFE PLACE</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>C/O WCF 808 W WALL STREET</AddressLine1Txt>
+            <CityNm>MIDLAND</CityNm>
+            <StateAbbreviationCd>TX</StateAbbreviationCd>
+            <ZIPCd>79701</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>NONE</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>501(C)(3)</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>TO FURTHER CHARITABLE PURPOSE</GrantOrContributionPurposeTxt>
+          <Amt>1000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientPersonNm>SALUTE</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>C/O WCF 808 W WALL STREET</AddressLine1Txt>
+            <CityNm>MIDLAND</CityNm>
+            <StateAbbreviationCd>TX</StateAbbreviationCd>
+            <ZIPCd>79701</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>NONE</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>501(C)(3)</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>TO FURTHER CHARITABLE PURPOSE</GrantOrContributionPurposeTxt>
+          <Amt>9000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientPersonNm>SALVATION ARMY</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>3500 PARK LN</AddressLine1Txt>
+            <CityNm>MIDLAND</CityNm>
+            <StateAbbreviationCd>TX</StateAbbreviationCd>
+            <ZIPCd>79702</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>NONE</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>501(C)(3)</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>TO FURTHER CHARITABLE PURPOSE</GrantOrContributionPurposeTxt>
+          <Amt>351625</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientPersonNm>SAMARITAN COUNCELING CENTER</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>10008 PILOT AVE</AddressLine1Txt>
+            <CityNm>MIDLAND</CityNm>
+            <StateAbbreviationCd>TX</StateAbbreviationCd>
+            <ZIPCd>79703</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>NONE</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>501(C)(3)</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>TO FURTHER CHARITABLE PURPOSE</GrantOrContributionPurposeTxt>
+          <Amt>20000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientPersonNm>SENIOR LINK MIDLAND</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>PO BOX 80519</AddressLine1Txt>
+            <CityNm>MIDLAND</CityNm>
+            <StateAbbreviationCd>TX</StateAbbreviationCd>
+            <ZIPCd>79708</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>NONE</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>501(C)(3)</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>TO FURTHER CHARITABLE PURPOSE</GrantOrContributionPurposeTxt>
+          <Amt>1000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientPersonNm>SHAMIDA ETHIOPIA</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>C/O WCF 808 W WALL STREET</AddressLine1Txt>
+            <CityNm>MIDLAND</CityNm>
+            <StateAbbreviationCd>TX</StateAbbreviationCd>
+            <ZIPCd>79701</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>NONE</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>501(C)(3)</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>TO FURTHER CHARITABLE PURPOSE</GrantOrContributionPurposeTxt>
+          <Amt>4000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientPersonNm>SIBLEY NATURE CENTER</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>1307 E WADLEY AVE</AddressLine1Txt>
+            <CityNm>MIDLAND</CityNm>
+            <StateAbbreviationCd>TX</StateAbbreviationCd>
+            <ZIPCd>79705</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>NONE</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>501(C)(3)</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>TO FURTHER CHARITABLE PURPOSE</GrantOrContributionPurposeTxt>
+          <Amt>5000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientPersonNm>SPECIAL OLYMPICS</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>400 S ZANG BLVD</AddressLine1Txt>
+            <CityNm>DALLAS</CityNm>
+            <StateAbbreviationCd>TX</StateAbbreviationCd>
+            <ZIPCd>75208</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>NONE</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>501(C)(3)</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>TO FURTHER CHARITABLE PURPOSE</GrantOrContributionPurposeTxt>
+          <Amt>5125</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientPersonNm>SUL ROSS UNIVERSITY</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>79830 US-90</AddressLine1Txt>
+            <CityNm>ALPINE</CityNm>
+            <StateAbbreviationCd>TX</StateAbbreviationCd>
+            <ZIPCd>79830</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>NONE</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>501(C)(3)</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>TO FURTHER CHARITABLE PURPOSE</GrantOrContributionPurposeTxt>
+          <Amt>4000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientPersonNm>TEAM RUBICON</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>C/O WCF 808 W WALL STREET</AddressLine1Txt>
+            <CityNm>MIDLAND</CityNm>
+            <StateAbbreviationCd>TX</StateAbbreviationCd>
+            <ZIPCd>79701</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>NONE</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>501(C)(3)</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>TO FURTHER CHARITABLE PURPOSE</GrantOrContributionPurposeTxt>
+          <Amt>50000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientPersonNm>TEEN CHALLENGE OF THE PB</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>PO BOX 251</AddressLine1Txt>
+            <CityNm>MIDLAND</CityNm>
+            <StateAbbreviationCd>TX</StateAbbreviationCd>
+            <ZIPCd>79702</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>NONE</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>501(C)(3)</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>TO FURTHER CHARITABLE PURPOSE</GrantOrContributionPurposeTxt>
+          <Amt>15000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientPersonNm>TEEN FLOW</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>PO BOX 733</AddressLine1Txt>
+            <CityNm>MIDLAND</CityNm>
+            <StateAbbreviationCd>TX</StateAbbreviationCd>
+            <ZIPCd>79702</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>NONE</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>501(C)(3)</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>TO FURTHER CHARITABLE PURPOSE</GrantOrContributionPurposeTxt>
+          <Amt>20000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientPersonNm>TEXAS CHILDREN'S HOSPITAL</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>18200 KATY FWY</AddressLine1Txt>
+            <CityNm>HOUSTON</CityNm>
+            <StateAbbreviationCd>TX</StateAbbreviationCd>
+            <ZIPCd>77001</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>NONE</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>501(C)(3)</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>TO FURTHER CHARITABLE PURPOSE</GrantOrContributionPurposeTxt>
+          <Amt>2000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientPersonNm>UNITED WAY OF MIDLAND</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>1209 W WALL ST</AddressLine1Txt>
+            <CityNm>MIDLAND</CityNm>
+            <StateAbbreviationCd>TX</StateAbbreviationCd>
+            <ZIPCd>79701</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>NONE</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>501(C)(3)</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>TO FURTHER CHARITABLE PURPOSE</GrantOrContributionPurposeTxt>
+          <Amt>6500</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientPersonNm>UNLOCK MINISTRIES</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>3310 W WADLEY AVE</AddressLine1Txt>
+            <CityNm>MIDLAND</CityNm>
+            <StateAbbreviationCd>TX</StateAbbreviationCd>
+            <ZIPCd>79702</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>NONE</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>501(C)(3)</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>TO FURTHER CHARITABLE PURPOSE</GrantOrContributionPurposeTxt>
+          <Amt>100</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientPersonNm>UT AUSTIN LONGHORN FDN</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>C/O WCF 808 W WALL STREET</AddressLine1Txt>
+            <CityNm>MIDLAND</CityNm>
+            <StateAbbreviationCd>TX</StateAbbreviationCd>
+            <ZIPCd>79701</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>NONE</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>501(C)(3)</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>TO FURTHER CHARITABLE PURPOSE</GrantOrContributionPurposeTxt>
+          <Amt>2500</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientPersonNm>UT AUSTIN SCHOOL OF NURSING</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>C/O WCF 808 W WALL STREET</AddressLine1Txt>
+            <CityNm>MIDLAND</CityNm>
+            <StateAbbreviationCd>TX</StateAbbreviationCd>
+            <ZIPCd>79701</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>NONE</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>501(C)(3)</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>TO FURTHER CHARITABLE PURPOSE</GrantOrContributionPurposeTxt>
+          <Amt>2000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientPersonNm>VETPAW</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>C/O WCF 808 W WALL STREET</AddressLine1Txt>
+            <CityNm>MIDLAND</CityNm>
+            <StateAbbreviationCd>TX</StateAbbreviationCd>
+            <ZIPCd>79701</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>NONE</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>501(C)(3)</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>TO FURTHER CHARITABLE PURPOSE</GrantOrContributionPurposeTxt>
+          <Amt>3000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientPersonNm>WARRIOR DOG FOUNDATION</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>C/O WCF 808 W WALL STREET</AddressLine1Txt>
+            <CityNm>MIDLAND</CityNm>
+            <StateAbbreviationCd>TX</StateAbbreviationCd>
+            <ZIPCd>79701</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>NONE</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>501(C)(3)</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>TO FURTHER CHARITABLE PURPOSE</GrantOrContributionPurposeTxt>
+          <Amt>1250</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientPersonNm>WATCH PRAY INT'L MINISTRY</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>4810 W LOOP 250 NORTH</AddressLine1Txt>
+            <CityNm>MIDLAND</CityNm>
+            <StateAbbreviationCd>TX</StateAbbreviationCd>
+            <ZIPCd>79707</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>NONE</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>501(C)(3)</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>TO FURTHER CHARITABLE PURPOSE</GrantOrContributionPurposeTxt>
+          <Amt>12500</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientPersonNm>WATER MISSIONS INTERNATIONAL</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>C/O WCF 808 W WALL STREET</AddressLine1Txt>
+            <CityNm>MIDLAND</CityNm>
+            <StateAbbreviationCd>TX</StateAbbreviationCd>
+            <ZIPCd>79701</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>NONE</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>501(C)(3)</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>TO FURTHER CHARITABLE PURPOSE</GrantOrContributionPurposeTxt>
+          <Amt>25000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientPersonNm>WEST TEXAS FOOD BANK</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>1601 WESTCLIFF DR</AddressLine1Txt>
+            <CityNm>MIDLAND</CityNm>
+            <StateAbbreviationCd>TX</StateAbbreviationCd>
+            <ZIPCd>79703</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>NONE</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>501(C)(3)</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>TO FURTHER CHARITABLE PURPOSE</GrantOrContributionPurposeTxt>
+          <Amt>203975</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientPersonNm>WOODLAND CHURCH ATASCOCITA</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>18111 W LAKE HOUSTON PKWY</AddressLine1Txt>
+            <CityNm>HUMBLE</CityNm>
+            <StateAbbreviationCd>TX</StateAbbreviationCd>
+            <ZIPCd>77346</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>NONE</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>501(C)(3)</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>TO FURTHER CHARITABLE PURPOSE</GrantOrContributionPurposeTxt>
+          <Amt>10500</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientPersonNm>WT REGIONAL OFFICE MAKE A WISH</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>C/O WCF 808 W WALL STREET</AddressLine1Txt>
+            <CityNm>MIDLAND</CityNm>
+            <StateAbbreviationCd>TX</StateAbbreviationCd>
+            <ZIPCd>79701</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>NONE</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>501(C)(3)</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>TO FURTHER CHARITABLE PURPOSE</GrantOrContributionPurposeTxt>
+          <Amt>5000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientPersonNm>YMCA ANNUAL CAMPAIGN</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>PO BOX 954</AddressLine1Txt>
+            <CityNm>MIDLAND</CityNm>
+            <StateAbbreviationCd>TX</StateAbbreviationCd>
+            <ZIPCd>79702</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>NONE</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>501(C)(3)</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>TO FURTHER CHARITABLE PURPOSE</GrantOrContributionPurposeTxt>
+          <Amt>65000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientPersonNm>YOUNG LIFE AFRICA</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>C/O WCF 808 W WALL STREET</AddressLine1Txt>
+            <CityNm>MIDLAND</CityNm>
+            <StateAbbreviationCd>TX</StateAbbreviationCd>
+            <ZIPCd>79701</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>NONE</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>501(C)(3)</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>TO FURTHER CHARITABLE PURPOSE</GrantOrContributionPurposeTxt>
+          <Amt>18000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientPersonNm>YOUNG LIFE MIDLAND</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>C/O WCF 808 W WALL STREET</AddressLine1Txt>
+            <CityNm>MIDLAND</CityNm>
+            <StateAbbreviationCd>TX</StateAbbreviationCd>
+            <ZIPCd>79701</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>NONE</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>501(C)(3)</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>TO FURTHER CHARITABLE PURPOSE</GrantOrContributionPurposeTxt>
+          <Amt>45000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <TotalGrantOrContriPdDurYrAmt>2952607</TotalGrantOrContriPdDurYrAmt>
+        <TotalGrantOrContriApprvFutAmt>0</TotalGrantOrContriApprvFutAmt>
+      </SupplementaryInformationGrp>
+      <AnalysisIncomeProducingActyGrp>
+        <IntOnSavAndTempCashInvstGrp>
+          <ExclusionCd>14</ExclusionCd>
+          <ExclusionAmt>7970</ExclusionAmt>
+        </IntOnSavAndTempCashInvstGrp>
+        <DivAndIntFromSecPartVIIGrp>
+          <ExclusionCd>14</ExclusionCd>
+          <ExclusionAmt>801053</ExclusionAmt>
+        </DivAndIntFromSecPartVIIGrp>
+        <OtherInvestmentIncmPartVIIGrp>
+          <BusinessCd>211110</BusinessCd>
+          <UnrelatedBusinessTaxblIncmAmt>161491</UnrelatedBusinessTaxblIncmAmt>
+          <ExclusionCd>15</ExclusionCd>
+          <ExclusionAmt>111322</ExclusionAmt>
+        </OtherInvestmentIncmPartVIIGrp>
+        <GainSalesAstOthThanInvntryGrp>
+          <ExclusionCd>18</ExclusionCd>
+          <ExclusionAmt>-212716</ExclusionAmt>
+        </GainSalesAstOthThanInvntryGrp>
+        <OtherRevenueDescribedGrp>
+          <Desc>APPALACHIAN BASIN MINERALS LP</Desc>
+          <BusinessCd>531390</BusinessCd>
+          <UnrelatedBusinessTaxblIncmAmt>-16074</UnrelatedBusinessTaxblIncmAmt>
+          <ExclusionCd>14</ExclusionCd>
+          <ExclusionAmt>37249</ExclusionAmt>
+        </OtherRevenueDescribedGrp>
+        <OtherRevenueDescribedGrp>
+          <Desc>AVESTA MULTIFAMILY PARTNERS II LP</Desc>
+          <BusinessCd>531390</BusinessCd>
+          <UnrelatedBusinessTaxblIncmAmt>1656</UnrelatedBusinessTaxblIncmAmt>
+          <ExclusionCd>14</ExclusionCd>
+          <ExclusionAmt>-30041</ExclusionAmt>
+        </OtherRevenueDescribedGrp>
+        <OtherRevenueDescribedGrp>
+          <Desc>BASIN ACQUISITION FUND LP</Desc>
+          <BusinessCd>531390</BusinessCd>
+          <UnrelatedBusinessTaxblIncmAmt>100983</UnrelatedBusinessTaxblIncmAmt>
+          <ExclusionCd>14</ExclusionCd>
+          <ExclusionAmt>-144879</ExclusionAmt>
+        </OtherRevenueDescribedGrp>
+        <OtherRevenueDescribedGrp>
+          <Desc>BASIN CO INVESTMENT II LP</Desc>
+          <BusinessCd>531390</BusinessCd>
+          <UnrelatedBusinessTaxblIncmAmt>206104</UnrelatedBusinessTaxblIncmAmt>
+          <ExclusionCd>14</ExclusionCd>
+          <ExclusionAmt>-226441</ExclusionAmt>
+        </OtherRevenueDescribedGrp>
+        <OtherRevenueDescribedGrp>
+          <Desc>BOOT CREEK ROYALTY LTD</Desc>
+          <BusinessCd>531390</BusinessCd>
+          <UnrelatedBusinessTaxblIncmAmt>-4</UnrelatedBusinessTaxblIncmAmt>
+          <ExclusionCd>14</ExclusionCd>
+          <ExclusionAmt>9881</ExclusionAmt>
+        </OtherRevenueDescribedGrp>
+        <OtherRevenueDescribedGrp>
+          <Desc>CCP BOXX INVESTMENT TECHNOLOGIES LLC CL B</Desc>
+          <BusinessCd>531390</BusinessCd>
+          <UnrelatedBusinessTaxblIncmAmt>19254</UnrelatedBusinessTaxblIncmAmt>
+          <ExclusionCd>14</ExclusionCd>
+          <ExclusionAmt>2539</ExclusionAmt>
+        </OtherRevenueDescribedGrp>
+        <OtherRevenueDescribedGrp>
+          <Desc>CCP CMIT INVESTMENT LLC - CL A</Desc>
+          <BusinessCd>531390</BusinessCd>
+          <UnrelatedBusinessTaxblIncmAmt>-1888</UnrelatedBusinessTaxblIncmAmt>
+          <ExclusionCd>14</ExclusionCd>
+          <ExclusionAmt>5147</ExclusionAmt>
+        </OtherRevenueDescribedGrp>
+        <OtherRevenueDescribedGrp>
+          <Desc>CCP SCANDATA INVESTMENT LLC</Desc>
+          <BusinessCd>531390</BusinessCd>
+          <UnrelatedBusinessTaxblIncmAmt>9800</UnrelatedBusinessTaxblIncmAmt>
+          <ExclusionCd>14</ExclusionCd>
+          <ExclusionAmt>58278</ExclusionAmt>
+        </OtherRevenueDescribedGrp>
+        <OtherRevenueDescribedGrp>
+          <Desc>CLI CAPITAL</Desc>
+          <BusinessCd>531390</BusinessCd>
+          <UnrelatedBusinessTaxblIncmAmt>0</UnrelatedBusinessTaxblIncmAmt>
+          <ExclusionCd>14</ExclusionCd>
+          <ExclusionAmt>408000</ExclusionAmt>
+        </OtherRevenueDescribedGrp>
+        <OtherRevenueDescribedGrp>
+          <Desc>CORO ARBOR INVESTOR LLC</Desc>
+          <BusinessCd>531390</BusinessCd>
+          <UnrelatedBusinessTaxblIncmAmt>0</UnrelatedBusinessTaxblIncmAmt>
+          <ExclusionCd>14</ExclusionCd>
+          <ExclusionAmt>0</ExclusionAmt>
+        </OtherRevenueDescribedGrp>
+        <OtherRevenueDescribedGrp>
+          <Desc>CORO MIDTOWN INVESTOR LLC</Desc>
+          <BusinessCd>531390</BusinessCd>
+          <UnrelatedBusinessTaxblIncmAmt>-31381</UnrelatedBusinessTaxblIncmAmt>
+          <ExclusionCd>14</ExclusionCd>
+          <ExclusionAmt>-1</ExclusionAmt>
+        </OtherRevenueDescribedGrp>
+        <OtherRevenueDescribedGrp>
+          <Desc>CPI PRODUCTS HOLDINGS LLC</Desc>
+          <BusinessCd>531390</BusinessCd>
+          <UnrelatedBusinessTaxblIncmAmt>3170</UnrelatedBusinessTaxblIncmAmt>
+          <ExclusionCd>14</ExclusionCd>
+          <ExclusionAmt>647</ExclusionAmt>
+        </OtherRevenueDescribedGrp>
+        <OtherRevenueDescribedGrp>
+          <Desc>DESERT PARTNERS V LP</Desc>
+          <BusinessCd>531390</BusinessCd>
+          <UnrelatedBusinessTaxblIncmAmt>4616</UnrelatedBusinessTaxblIncmAmt>
+          <ExclusionCd>14</ExclusionCd>
+          <ExclusionAmt>331394</ExclusionAmt>
+        </OtherRevenueDescribedGrp>
+        <OtherRevenueDescribedGrp>
+          <Desc>DESERT PARTNERS VI LP</Desc>
+          <BusinessCd>531390</BusinessCd>
+          <UnrelatedBusinessTaxblIncmAmt>2007</UnrelatedBusinessTaxblIncmAmt>
+          <ExclusionCd>14</ExclusionCd>
+          <ExclusionAmt>67445</ExclusionAmt>
+        </OtherRevenueDescribedGrp>
+        <OtherRevenueDescribedGrp>
+          <Desc>FALLCO INVESTMENT LLC</Desc>
+          <BusinessCd>531390</BusinessCd>
+          <UnrelatedBusinessTaxblIncmAmt>18958</UnrelatedBusinessTaxblIncmAmt>
+          <ExclusionCd>14</ExclusionCd>
+          <ExclusionAmt>51</ExclusionAmt>
+        </OtherRevenueDescribedGrp>
+        <OtherRevenueDescribedGrp>
+          <Desc>FLATLAND MINERAL FUND L P</Desc>
+          <BusinessCd>531390</BusinessCd>
+          <UnrelatedBusinessTaxblIncmAmt>-11666</UnrelatedBusinessTaxblIncmAmt>
+          <ExclusionCd>14</ExclusionCd>
+          <ExclusionAmt>268260</ExclusionAmt>
+        </OtherRevenueDescribedGrp>
+        <OtherRevenueDescribedGrp>
+          <Desc>FLATLAND SIDECAR LLC</Desc>
+          <BusinessCd>531390</BusinessCd>
+          <UnrelatedBusinessTaxblIncmAmt>-7178</UnrelatedBusinessTaxblIncmAmt>
+          <ExclusionCd>14</ExclusionCd>
+          <ExclusionAmt>145977</ExclusionAmt>
+        </OtherRevenueDescribedGrp>
+        <OtherRevenueDescribedGrp>
+          <Desc>GATEWAY ROYALTY II LLC</Desc>
+          <BusinessCd>531390</BusinessCd>
+          <UnrelatedBusinessTaxblIncmAmt>0</UnrelatedBusinessTaxblIncmAmt>
+          <ExclusionCd>14</ExclusionCd>
+          <ExclusionAmt>4143</ExclusionAmt>
+        </OtherRevenueDescribedGrp>
+        <OtherRevenueDescribedGrp>
+          <Desc>GATEWAY ROYALTY III LLC</Desc>
+          <BusinessCd>531390</BusinessCd>
+          <UnrelatedBusinessTaxblIncmAmt>0</UnrelatedBusinessTaxblIncmAmt>
+          <ExclusionCd>14</ExclusionCd>
+          <ExclusionAmt>39079</ExclusionAmt>
+        </OtherRevenueDescribedGrp>
+        <OtherRevenueDescribedGrp>
+          <Desc>GATEWAY ROYALTY IV LLC</Desc>
+          <BusinessCd>531390</BusinessCd>
+          <UnrelatedBusinessTaxblIncmAmt>0</UnrelatedBusinessTaxblIncmAmt>
+          <ExclusionCd>14</ExclusionCd>
+          <ExclusionAmt>11201</ExclusionAmt>
+        </OtherRevenueDescribedGrp>
+        <SubtotalsIncmProducingActyGrp>
+          <UnrelatedBusinessTaxblIncmAmt>1512495</UnrelatedBusinessTaxblIncmAmt>
+          <ExclusionAmt>1606301</ExclusionAmt>
+          <RelatedOrExemptFunctionIncmAmt>0</RelatedOrExemptFunctionIncmAmt>
+        </SubtotalsIncmProducingActyGrp>
+        <TotalIncomeProducingActyAmt>3118796</TotalIncomeProducingActyAmt>
+      </AnalysisIncomeProducingActyGrp>
+      <TrnsfrTransRlnNonchrtblEOGrp>
+        <TrnsfrOfCashToNonchrtblEOInd>0</TrnsfrOfCashToNonchrtblEOInd>
+        <TrnsfrOtherAssetNonchrtblEOInd>0</TrnsfrOtherAssetNonchrtblEOInd>
+        <SalesOrExchangesOfAssetsInd>0</SalesOrExchangesOfAssetsInd>
+        <PurchaseOfAssetsNonchrtblEOInd>0</PurchaseOfAssetsNonchrtblEOInd>
+        <RentalOfFacilitiesOthAssetsInd>0</RentalOfFacilitiesOthAssetsInd>
+        <ReimbursementArrangementsInd>0</ReimbursementArrangementsInd>
+        <LoansOrLoanGuaranteesInd>0</LoansOrLoanGuaranteesInd>
+        <PerformanceOfServicesEtcInd>0</PerformanceOfServicesEtcInd>
+        <SharingOfFacilitiesEtcInd>0</SharingOfFacilitiesEtcInd>
+        <RelationshipsNonchrtblEOInd>0</RelationshipsNonchrtblEOInd>
+      </TrnsfrTransRlnNonchrtblEOGrp>
+    </IRS990PF>
+    <IRS990ScheduleB documentId="RetDoc1234500001">
+      <Organization501c3ExemptPFInd>X</Organization501c3ExemptPFInd>
+      <GeneralRuleInd>X</GeneralRuleInd>
+      <ContributorInformationGrp>
+        <ContributorNum>1</ContributorNum>
+        <ContributorPersonNm>W STIRLING WARREN AND ANNE M WARREN</ContributorPersonNm>
+        <ContributorUSAddress>
+          <AddressLine1Txt>909 HARVARD AVE</AddressLine1Txt>
+          <CityNm>MIDLAND</CityNm>
+          <StateAbbreviationCd>TX</StateAbbreviationCd>
+          <ZIPCd>79701</ZIPCd>
+        </ContributorUSAddress>
+        <TotalContributionsAmt>400000</TotalContributionsAmt>
+        <PersonContributionInd>X</PersonContributionInd>
+      </ContributorInformationGrp>
+      <ContributorInformationGrp>
+        <ContributorNum>2</ContributorNum>
+        <ContributorPersonNm>WARREN VENTURES LTD</ContributorPersonNm>
+        <ContributorUSAddress>
+          <AddressLine1Txt>808 WEST WALL</AddressLine1Txt>
+          <CityNm>MIDLAND</CityNm>
+          <StateAbbreviationCd>TX</StateAbbreviationCd>
+          <ZIPCd>79701</ZIPCd>
+        </ContributorUSAddress>
+        <TotalContributionsAmt>450000</TotalContributionsAmt>
+        <PersonContributionInd>X</PersonContributionInd>
+      </ContributorInformationGrp>
+      <ContributorInformationGrp>
+        <ContributorNum>3</ContributorNum>
+        <ContributorPersonNm>JOSHUA P HAM</ContributorPersonNm>
+        <ContributorUSAddress>
+          <AddressLine1Txt>808 WEST WALL STREET</AddressLine1Txt>
+          <CityNm>MIDLAND</CityNm>
+          <StateAbbreviationCd>TX</StateAbbreviationCd>
+          <ZIPCd>79701</ZIPCd>
+        </ContributorUSAddress>
+        <TotalContributionsAmt>139709</TotalContributionsAmt>
+        <PersonContributionInd>X</PersonContributionInd>
+      </ContributorInformationGrp>
+    </IRS990ScheduleB>
+    <AccountingFeesSchedule documentId="RetDoc2002200001">
+      <AccountingFeesDetail>
+        <CategoryTxt>ACCOUNTING FEES</CategoryTxt>
+        <Amt>8760</Amt>
+        <NetInvestmentIncomeAmt>8760</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>0</DisbursementsCharitablePrpsAmt>
+      </AccountingFeesDetail>
+    </AccountingFeesSchedule>
+    <InvestmentsOtherSchedule2 documentId="RetDoc2018100001">
+      <InvestmentsOtherGrp>
+        <CategoryOrItemTxt>OTHER INVESTMENTS</CategoryOrItemTxt>
+        <ListedAtCostOrFMVCd>AT COST</ListedAtCostOrFMVCd>
+        <BookValueAmt>54559817</BookValueAmt>
+        <EOYFMVAmt>54706299</EOYFMVAmt>
+      </InvestmentsOtherGrp>
+    </InvestmentsOtherSchedule2>
+    <LegalFeesSchedule documentId="RetDoc2002100001">
+      <LegalFeesGrp>
+        <CategoryTxt>LEGAL FEES</CategoryTxt>
+        <LegalFeesAmt>131</LegalFeesAmt>
+        <NetInvestmentIncomeAmt>131</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>0</DisbursementsCharitablePrpsAmt>
+      </LegalFeesGrp>
+    </LegalFeesSchedule>
+    <OtherAssetsSchedule documentId="RetDoc2046600001">
+      <OtherAssetsScheduleGrp>
+        <Desc>NOTES RECEIVABLE</Desc>
+        <BOYBookValueAmt>1000000</BOYBookValueAmt>
+        <EOYBookValueAmt>1111656</EOYBookValueAmt>
+        <EOYFMVAmt>1111656</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+    </OtherAssetsSchedule>
+    <OtherDecreasesSchedule documentId="RetDoc2049800001">
+      <OtherDecreasesDetail>
+        <Desc>NET BOOK/TAX ADJUSTMENTS FROM PASS-THROUGH ENTITIES</Desc>
+        <Amt>88343</Amt>
+      </OtherDecreasesDetail>
+      <OtherDecreasesDetail>
+        <Desc>2017 EXCISE &amp; STATE W/H TAX</Desc>
+        <Amt>30406</Amt>
+      </OtherDecreasesDetail>
+      <OtherDecreasesDetail>
+        <Desc>NET PRIOR PERIOD CAPITAL ADUSTMENTS FROM PASS-THROUGH ENTITIES</Desc>
+        <Amt>5620</Amt>
+      </OtherDecreasesDetail>
+      <OtherDecreasesDetail>
+        <Desc>UNREALIZED GAIN</Desc>
+        <Amt>2397367</Amt>
+      </OtherDecreasesDetail>
+    </OtherDecreasesSchedule>
+    <OtherExpensesSchedule documentId="RetDoc2003200001">
+      <OtherExpensesScheduleGrp>
+        <Desc>INVESTMENT FEES</Desc>
+        <RevenueAndExpensesPerBooksAmt>18529</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>18529</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>0</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>SOFTWARE &amp; COMPUTER EXPENSES</Desc>
+        <RevenueAndExpensesPerBooksAmt>13273</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>13273</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>0</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>DUES &amp; SUBSCRIPTIONS</Desc>
+        <RevenueAndExpensesPerBooksAmt>1150</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>1150</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>0</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>FILING FEES</Desc>
+        <RevenueAndExpensesPerBooksAmt>901</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>901</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>0</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>MISCELLANEOUS</Desc>
+        <RevenueAndExpensesPerBooksAmt>1017</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>1017</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>0</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+    </OtherExpensesSchedule>
+    <OtherIncomeSchedule2 documentId="RetDoc2001500001">
+      <OtherIncomeDetail>
+        <Desc>O&amp;G RI INCOME</Desc>
+        <RevenueAndExpensesPerBooksAmt>161491</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>161491</NetInvestmentIncomeAmt>
+      </OtherIncomeDetail>
+      <OtherIncomeDetail>
+        <Desc>OTHER</Desc>
+        <RevenueAndExpensesPerBooksAmt>111322</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>111322</NetInvestmentIncomeAmt>
+      </OtherIncomeDetail>
+      <OtherIncomeDetail>
+        <Desc>APPALACHIAN BASIN MINERALS LP</Desc>
+        <RevenueAndExpensesPerBooksAmt>21175</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>37249</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+      </OtherIncomeDetail>
+      <OtherIncomeDetail>
+        <Desc>AVESTA MULTIFAMILY PARTNERS II LP</Desc>
+        <RevenueAndExpensesPerBooksAmt>-28385</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>-30041</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+      </OtherIncomeDetail>
+      <OtherIncomeDetail>
+        <Desc>BASIN ACQUISITION FUND LP</Desc>
+        <RevenueAndExpensesPerBooksAmt>-43896</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>-144879</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+      </OtherIncomeDetail>
+      <OtherIncomeDetail>
+        <Desc>BASIN CO INVESTMENT II LP</Desc>
+        <RevenueAndExpensesPerBooksAmt>-20337</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>-226441</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+      </OtherIncomeDetail>
+      <OtherIncomeDetail>
+        <Desc>BOOT CREEK ROYALTY LTD</Desc>
+        <RevenueAndExpensesPerBooksAmt>9877</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>9881</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+      </OtherIncomeDetail>
+      <OtherIncomeDetail>
+        <Desc>CCP BOXX INVESTMENT TECHNOLOGIES LLC CL B</Desc>
+        <RevenueAndExpensesPerBooksAmt>21793</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>2539</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+      </OtherIncomeDetail>
+      <OtherIncomeDetail>
+        <Desc>CCP CMIT INVESTMENT LLC - CL A</Desc>
+        <RevenueAndExpensesPerBooksAmt>3259</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>5147</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+      </OtherIncomeDetail>
+      <OtherIncomeDetail>
+        <Desc>CCP SCANDATA INVESTMENT LLC</Desc>
+        <RevenueAndExpensesPerBooksAmt>68078</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>58278</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+      </OtherIncomeDetail>
+      <OtherIncomeDetail>
+        <Desc>CLI CAPITAL</Desc>
+        <RevenueAndExpensesPerBooksAmt>408000</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>408000</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+      </OtherIncomeDetail>
+      <OtherIncomeDetail>
+        <Desc>CORO MIDTOWN INVESTOR LLC</Desc>
+        <RevenueAndExpensesPerBooksAmt>-31382</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>-1</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+      </OtherIncomeDetail>
+      <OtherIncomeDetail>
+        <Desc>CPI PRODUCTS HOLDINGS LLC</Desc>
+        <RevenueAndExpensesPerBooksAmt>3817</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>647</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+      </OtherIncomeDetail>
+      <OtherIncomeDetail>
+        <Desc>DESERT PARTNERS V LP</Desc>
+        <RevenueAndExpensesPerBooksAmt>336010</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>331394</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+      </OtherIncomeDetail>
+      <OtherIncomeDetail>
+        <Desc>DESERT PARTNERS VI LP</Desc>
+        <RevenueAndExpensesPerBooksAmt>69452</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>67445</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+      </OtherIncomeDetail>
+      <OtherIncomeDetail>
+        <Desc>FALLCO INVESTMENT LLC</Desc>
+        <RevenueAndExpensesPerBooksAmt>19009</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>51</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+      </OtherIncomeDetail>
+      <OtherIncomeDetail>
+        <Desc>FLATLAND MINERAL FUND L P</Desc>
+        <RevenueAndExpensesPerBooksAmt>256594</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>268260</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+      </OtherIncomeDetail>
+      <OtherIncomeDetail>
+        <Desc>FLATLAND SIDECAR LLC</Desc>
+        <RevenueAndExpensesPerBooksAmt>138799</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>145977</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+      </OtherIncomeDetail>
+      <OtherIncomeDetail>
+        <Desc>GATEWAY ROYALTY II LLC</Desc>
+        <RevenueAndExpensesPerBooksAmt>4143</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>4143</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+      </OtherIncomeDetail>
+      <OtherIncomeDetail>
+        <Desc>GATEWAY ROYALTY III LLC</Desc>
+        <RevenueAndExpensesPerBooksAmt>39079</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>39079</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+      </OtherIncomeDetail>
+      <OtherIncomeDetail>
+        <Desc>GATEWAY ROYALTY IV LLC</Desc>
+        <RevenueAndExpensesPerBooksAmt>11201</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>11201</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+      </OtherIncomeDetail>
+      <OtherIncomeDetail>
+        <Desc>GATEWAY ROYALTY LLC</Desc>
+        <RevenueAndExpensesPerBooksAmt>3086</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>3086</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+      </OtherIncomeDetail>
+      <OtherIncomeDetail>
+        <Desc>GREENWAY DTC LP</Desc>
+        <RevenueAndExpensesPerBooksAmt>174995</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+      </OtherIncomeDetail>
+      <OtherIncomeDetail>
+        <Desc>HUMPTY DUMPTY TSM LTD</Desc>
+        <RevenueAndExpensesPerBooksAmt>89544</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>-78</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+      </OtherIncomeDetail>
+      <OtherIncomeDetail>
+        <Desc>LONE STAR STATE BANCSHARES INC</Desc>
+        <RevenueAndExpensesPerBooksAmt>9535</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>-85</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+      </OtherIncomeDetail>
+      <OtherIncomeDetail>
+        <Desc>LONG VIEW EQUITY PARTNERS III</Desc>
+        <RevenueAndExpensesPerBooksAmt>23844</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>6224</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+      </OtherIncomeDetail>
+      <OtherIncomeDetail>
+        <Desc>MAC CAMPBELL GLEN INVESTORS LP</Desc>
+        <RevenueAndExpensesPerBooksAmt>17002</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+      </OtherIncomeDetail>
+      <OtherIncomeDetail>
+        <Desc>MAC CONCORD CENTER</Desc>
+        <RevenueAndExpensesPerBooksAmt>-2840</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+      </OtherIncomeDetail>
+      <OtherIncomeDetail>
+        <Desc>MAC CONSOLIDATED CENTER</Desc>
+        <RevenueAndExpensesPerBooksAmt>24340</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>65</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+      </OtherIncomeDetail>
+      <OtherIncomeDetail>
+        <Desc>MAC CORPORATE CENTER INVESTORS</Desc>
+        <RevenueAndExpensesPerBooksAmt>-2748</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>708</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+      </OtherIncomeDetail>
+      <OtherIncomeDetail>
+        <Desc>MAC PEACHTREE CORNERS INVESTORS</Desc>
+        <RevenueAndExpensesPerBooksAmt>28305</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+      </OtherIncomeDetail>
+      <OtherIncomeDetail>
+        <Desc>MAC ROYAL RIDGE INVESTORS LP</Desc>
+        <RevenueAndExpensesPerBooksAmt>40281</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>9</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+      </OtherIncomeDetail>
+      <OtherIncomeDetail>
+        <Desc>MPLX LP</Desc>
+        <RevenueAndExpensesPerBooksAmt>-4196</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>148</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+      </OtherIncomeDetail>
+      <OtherIncomeDetail>
+        <Desc>MUSCLE SHOALS COMMON LLC</Desc>
+        <RevenueAndExpensesPerBooksAmt>-19186</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+      </OtherIncomeDetail>
+      <OtherIncomeDetail>
+        <Desc>ORLANDO 05 15 LLC</Desc>
+        <RevenueAndExpensesPerBooksAmt>1972</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>1</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+      </OtherIncomeDetail>
+      <OtherIncomeDetail>
+        <Desc>ORLANDO 06-16 LLC</Desc>
+        <RevenueAndExpensesPerBooksAmt>-28539</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>5300</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+      </OtherIncomeDetail>
+      <OtherIncomeDetail>
+        <Desc>PENNYBACKER III LP</Desc>
+        <RevenueAndExpensesPerBooksAmt>152628</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>821</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+      </OtherIncomeDetail>
+      <OtherIncomeDetail>
+        <Desc>PENNYBACKER IV, LP</Desc>
+        <RevenueAndExpensesPerBooksAmt>-13261</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>92</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+      </OtherIncomeDetail>
+      <OtherIncomeDetail>
+        <Desc>PWE CO-INVESTORS LLC</Desc>
+        <RevenueAndExpensesPerBooksAmt>18560</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>66</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+      </OtherIncomeDetail>
+      <OtherIncomeDetail>
+        <Desc>PYOTE WATER SYSTEMS III LLC</Desc>
+        <RevenueAndExpensesPerBooksAmt>7478</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+      </OtherIncomeDetail>
+      <OtherIncomeDetail>
+        <Desc>PYOTE WATER SYSTEMS IV LLC</Desc>
+        <RevenueAndExpensesPerBooksAmt>-7565</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>9538</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+      </OtherIncomeDetail>
+      <OtherIncomeDetail>
+        <Desc>RESOURCE ACQUISITION LLC</Desc>
+        <RevenueAndExpensesPerBooksAmt>-85393</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>-58967</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+      </OtherIncomeDetail>
+      <OtherIncomeDetail>
+        <Desc>SEALY STRATEGIC EQUITY PARTNERS, LP</Desc>
+        <RevenueAndExpensesPerBooksAmt>-971</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>-925</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+      </OtherIncomeDetail>
+      <OtherIncomeDetail>
+        <Desc>SI 2109 ABILENE HOTEL LP CL A</Desc>
+        <RevenueAndExpensesPerBooksAmt>-3089</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+      </OtherIncomeDetail>
+      <OtherIncomeDetail>
+        <Desc>SI 2109 ABILENE HOTEL LP CL B</Desc>
+        <RevenueAndExpensesPerBooksAmt>-12355</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+      </OtherIncomeDetail>
+      <OtherIncomeDetail>
+        <Desc>SI 4343 INVESTOR LP (CL A)</Desc>
+        <RevenueAndExpensesPerBooksAmt>-41034</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>-16415</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+      </OtherIncomeDetail>
+      <OtherIncomeDetail>
+        <Desc>SI 4343 INVESTOR LP (CL B)</Desc>
+        <RevenueAndExpensesPerBooksAmt>-164136</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>-65658</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+      </OtherIncomeDetail>
+      <OtherIncomeDetail>
+        <Desc>SI AMARILLO MEMORY LP CL A</Desc>
+        <RevenueAndExpensesPerBooksAmt>2034</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+      </OtherIncomeDetail>
+      <OtherIncomeDetail>
+        <Desc>SI AMARILLO MEMORY LP CL B</Desc>
+        <RevenueAndExpensesPerBooksAmt>8135</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+      </OtherIncomeDetail>
+      <OtherIncomeDetail>
+        <Desc>SI BROOKHOLLOW INDUSTRIAL (CL A)</Desc>
+        <RevenueAndExpensesPerBooksAmt>60708</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+      </OtherIncomeDetail>
+      <OtherIncomeDetail>
+        <Desc>SI BROOKHOLLOW INDUSTRIAL (CL B)</Desc>
+        <RevenueAndExpensesPerBooksAmt>242835</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+      </OtherIncomeDetail>
+      <OtherIncomeDetail>
+        <Desc>SI CASTLE HILLS RETAIL CL A</Desc>
+        <RevenueAndExpensesPerBooksAmt>37619</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>39</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+      </OtherIncomeDetail>
+      <OtherIncomeDetail>
+        <Desc>SI CASTLE HILLS RETAIL CL B</Desc>
+        <RevenueAndExpensesPerBooksAmt>161918</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>159</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+      </OtherIncomeDetail>
+      <OtherIncomeDetail>
+        <Desc>SI CHINO INVESTOR LP CL A</Desc>
+        <RevenueAndExpensesPerBooksAmt>-5629</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>5</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+      </OtherIncomeDetail>
+      <OtherIncomeDetail>
+        <Desc>SI CHINO INVESTOR LP CL B</Desc>
+        <RevenueAndExpensesPerBooksAmt>-22514</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>20</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+      </OtherIncomeDetail>
+      <OtherIncomeDetail>
+        <Desc>SI CINCO RANCH MEMORY LLC</Desc>
+        <RevenueAndExpensesPerBooksAmt>-49</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+      </OtherIncomeDetail>
+      <OtherIncomeDetail>
+        <Desc>SI COLONY HOTEL INVESTOR LLC</Desc>
+        <RevenueAndExpensesPerBooksAmt>-62405</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+      </OtherIncomeDetail>
+      <OtherIncomeDetail>
+        <Desc>SI CV INVESTOR LLC</Desc>
+        <RevenueAndExpensesPerBooksAmt>-185236</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>-25417</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+      </OtherIncomeDetail>
+      <OtherIncomeDetail>
+        <Desc>SI DD INVESTOR LLC</Desc>
+        <RevenueAndExpensesPerBooksAmt>-21758</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>6</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+      </OtherIncomeDetail>
+      <OtherIncomeDetail>
+        <Desc>SI DHO INDUSTRIAL LP (CL A)</Desc>
+        <RevenueAndExpensesPerBooksAmt>6296</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+      </OtherIncomeDetail>
+      <OtherIncomeDetail>
+        <Desc>SI DHO INDUSTRIAL LP (CL B)</Desc>
+        <RevenueAndExpensesPerBooksAmt>25183</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+      </OtherIncomeDetail>
+      <OtherIncomeDetail>
+        <Desc>SI EC RETAIL LLC CL A</Desc>
+        <RevenueAndExpensesPerBooksAmt>3133</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>1</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+      </OtherIncomeDetail>
+      <OtherIncomeDetail>
+        <Desc>SI EC RETAIL LLC CL B</Desc>
+        <RevenueAndExpensesPerBooksAmt>12531</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>4</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+      </OtherIncomeDetail>
+      <OtherIncomeDetail>
+        <Desc>SI EMPIRE INVESTOR LP CL A</Desc>
+        <RevenueAndExpensesPerBooksAmt>946</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>5</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+      </OtherIncomeDetail>
+      <OtherIncomeDetail>
+        <Desc>SI EMPIRE INVESTOR LP CL B</Desc>
+        <RevenueAndExpensesPerBooksAmt>3784</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>19</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+      </OtherIncomeDetail>
+      <OtherIncomeDetail>
+        <Desc>SI FB RETAIL LLC</Desc>
+        <RevenueAndExpensesPerBooksAmt>-3754</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>338</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+      </OtherIncomeDetail>
+      <OtherIncomeDetail>
+        <Desc>SI FITZHUGH INVESTOR LP CL A</Desc>
+        <RevenueAndExpensesPerBooksAmt>2788</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+      </OtherIncomeDetail>
+      <OtherIncomeDetail>
+        <Desc>SI FITZHUGH INVESTOR LP CL B</Desc>
+        <RevenueAndExpensesPerBooksAmt>11153</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+      </OtherIncomeDetail>
+      <OtherIncomeDetail>
+        <Desc>SI HOTEL FUND I INVESTOR (CL A)</Desc>
+        <RevenueAndExpensesPerBooksAmt>-22042</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>28</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+      </OtherIncomeDetail>
+      <OtherIncomeDetail>
+        <Desc>SI HOTEL FUND I INVESTOR (CL B)</Desc>
+        <RevenueAndExpensesPerBooksAmt>-88164</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>113</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+      </OtherIncomeDetail>
+      <OtherIncomeDetail>
+        <Desc>SI JEFFERSON HOUSE MEMORY LP</Desc>
+        <RevenueAndExpensesPerBooksAmt>-598</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>2</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+      </OtherIncomeDetail>
+      <OtherIncomeDetail>
+        <Desc>SI KIRKLAND INVESTOR LLC</Desc>
+        <RevenueAndExpensesPerBooksAmt>-333</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>5</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+      </OtherIncomeDetail>
+      <OtherIncomeDetail>
+        <Desc>SI MB INVESTOR LLC</Desc>
+        <RevenueAndExpensesPerBooksAmt>-6215</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+      </OtherIncomeDetail>
+      <OtherIncomeDetail>
+        <Desc>SI MODESTO IL LP (CL A)</Desc>
+        <RevenueAndExpensesPerBooksAmt>-729</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>18</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+      </OtherIncomeDetail>
+      <OtherIncomeDetail>
+        <Desc>SI MODESTO IL LP (CL B)</Desc>
+        <RevenueAndExpensesPerBooksAmt>-2914</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>72</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+      </OtherIncomeDetail>
+      <OtherIncomeDetail>
+        <Desc>SI MODESTO MEMORY LP CL A</Desc>
+        <RevenueAndExpensesPerBooksAmt>-16139</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>-6042</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+      </OtherIncomeDetail>
+      <OtherIncomeDetail>
+        <Desc>SI MODESTO MEMORY LP CL B</Desc>
+        <RevenueAndExpensesPerBooksAmt>-64559</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>-24169</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+      </OtherIncomeDetail>
+      <OtherIncomeDetail>
+        <Desc>SI RC INVESTOR LP CL A</Desc>
+        <RevenueAndExpensesPerBooksAmt>2392</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>1</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+      </OtherIncomeDetail>
+      <OtherIncomeDetail>
+        <Desc>SI RC INVESTOR LP CL B</Desc>
+        <RevenueAndExpensesPerBooksAmt>9571</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>5</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+      </OtherIncomeDetail>
+      <OtherIncomeDetail>
+        <Desc>SI SA INDUSTRIAL INVEST (CL A)</Desc>
+        <RevenueAndExpensesPerBooksAmt>8606</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+      </OtherIncomeDetail>
+      <OtherIncomeDetail>
+        <Desc>SI SA INDUSTRIAL INVEST (CL B)</Desc>
+        <RevenueAndExpensesPerBooksAmt>34424</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+      </OtherIncomeDetail>
+      <OtherIncomeDetail>
+        <Desc>SI STONERIDGE IND INVEST CL A</Desc>
+        <RevenueAndExpensesPerBooksAmt>-20</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+      </OtherIncomeDetail>
+      <OtherIncomeDetail>
+        <Desc>SI STONERIDGE IND INVEST CL B</Desc>
+        <RevenueAndExpensesPerBooksAmt>-80</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+      </OtherIncomeDetail>
+      <OtherIncomeDetail>
+        <Desc>SI TOWNE LAKE MEMORY LLC</Desc>
+        <RevenueAndExpensesPerBooksAmt>-284</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+      </OtherIncomeDetail>
+      <OtherIncomeDetail>
+        <Desc>SI TRUCK CENTER INVESTOR (CL A)</Desc>
+        <RevenueAndExpensesPerBooksAmt>-34416</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+      </OtherIncomeDetail>
+      <OtherIncomeDetail>
+        <Desc>SI TRUCK CENTER INVESTOR (CL B)</Desc>
+        <RevenueAndExpensesPerBooksAmt>-137662</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+      </OtherIncomeDetail>
+      <OtherIncomeDetail>
+        <Desc>SI WAX RETAIL LP CL A</Desc>
+        <RevenueAndExpensesPerBooksAmt>16149</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+      </OtherIncomeDetail>
+      <OtherIncomeDetail>
+        <Desc>SI WAX RETAIL LP CL B</Desc>
+        <RevenueAndExpensesPerBooksAmt>64598</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+      </OtherIncomeDetail>
+      <OtherIncomeDetail>
+        <Desc>SI WHEELING MEMORY LLC</Desc>
+        <RevenueAndExpensesPerBooksAmt>-633</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+      </OtherIncomeDetail>
+      <OtherIncomeDetail>
+        <Desc>SPRINGTOWN VMU, LTD</Desc>
+        <RevenueAndExpensesPerBooksAmt>590</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>372</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+      </OtherIncomeDetail>
+      <OtherIncomeDetail>
+        <Desc>SPUR CREEK ROYALTY LTD</Desc>
+        <RevenueAndExpensesPerBooksAmt>-15364</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>-15364</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+      </OtherIncomeDetail>
+      <OtherIncomeDetail>
+        <Desc>STAGG 2701 LTD</Desc>
+        <RevenueAndExpensesPerBooksAmt>32865</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>196</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+      </OtherIncomeDetail>
+      <OtherIncomeDetail>
+        <Desc>STAGG 901 LTD</Desc>
+        <RevenueAndExpensesPerBooksAmt>867</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+      </OtherIncomeDetail>
+      <OtherIncomeDetail>
+        <Desc>STAGG INVESTMENT II LTD</Desc>
+        <RevenueAndExpensesPerBooksAmt>98589</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+      </OtherIncomeDetail>
+      <OtherIncomeDetail>
+        <Desc>STAGG INVESTMENT III LTD</Desc>
+        <RevenueAndExpensesPerBooksAmt>139099</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+      </OtherIncomeDetail>
+      <OtherIncomeDetail>
+        <Desc>STAGG INVESTMENT IV LTD</Desc>
+        <RevenueAndExpensesPerBooksAmt>600</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+      </OtherIncomeDetail>
+      <OtherIncomeDetail>
+        <Desc>TPEG SOUTH ORLANDO INVESTORS</Desc>
+        <RevenueAndExpensesPerBooksAmt>-3190</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+      </OtherIncomeDetail>
+      <OtherIncomeDetail>
+        <Desc>VELOCIS FAIRVIEW LP</Desc>
+        <RevenueAndExpensesPerBooksAmt>-4034</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>-13994</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+      </OtherIncomeDetail>
+      <OtherIncomeDetail>
+        <Desc>VELOCIS FUND CAMELBACK LP</Desc>
+        <RevenueAndExpensesPerBooksAmt>637331</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>195225</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+      </OtherIncomeDetail>
+      <OtherIncomeDetail>
+        <Desc>VELOCIS FUND II QP LP</Desc>
+        <RevenueAndExpensesPerBooksAmt>-22812</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>-39823</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+      </OtherIncomeDetail>
+      <OtherIncomeDetail>
+        <Desc>VELOCIS LOUDOUN LP</Desc>
+        <RevenueAndExpensesPerBooksAmt>-40479</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>-12153</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+      </OtherIncomeDetail>
+      <OtherIncomeDetail>
+        <Desc>VELOCIS PARK ONE, LP</Desc>
+        <RevenueAndExpensesPerBooksAmt>-97259</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>-32161</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+      </OtherIncomeDetail>
+      <OtherIncomeDetail>
+        <Desc>PYOTE WATER SYSTEMS II LLC</Desc>
+        <RevenueAndExpensesPerBooksAmt>-8340</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>-697</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+      </OtherIncomeDetail>
+    </OtherIncomeSchedule2>
+    <OtherIncreasesSchedule documentId="RetDoc2049700001">
+      <OtherIncreasesDetail>
+        <Desc>NET CONTRIBUTIONS/DISTRIBUTIONS FROM PASS-THROUGH ENTITIES</Desc>
+        <Amt>286761</Amt>
+      </OtherIncreasesDetail>
+    </OtherIncreasesSchedule>
+    <OtherLiabilitiesSchedule documentId="RetDoc2065700001">
+      <OtherLiabilitiesDetail>
+        <Desc>OTHER LIABILITIES</Desc>
+        <BOYBookValueAmt>262</BOYBookValueAmt>
+        <EOYBookValueAmt>-10</EOYBookValueAmt>
+      </OtherLiabilitiesDetail>
+    </OtherLiabilitiesSchedule>
+    <SubstantialContributorsSch documentId="RetDoc2089200001">
+      <SubstantialContributorDetail>
+        <PersonNm>JOSHUA P HAM</PersonNm>
+        <USAddress>
+          <AddressLine1Txt>C/O WCF 808 W WALL STREET</AddressLine1Txt>
+          <CityNm>MIDLAND</CityNm>
+          <StateAbbreviationCd>TX</StateAbbreviationCd>
+          <ZIPCd>79701</ZIPCd>
+        </USAddress>
+      </SubstantialContributorDetail>
+    </SubstantialContributorsSch>
+    <TaxesSchedule documentId="RetDoc2002500001">
+      <TaxesDetail>
+        <CategoryTxt>FOREIGN TAX</CategoryTxt>
+        <Amt>7739</Amt>
+        <NetInvestmentIncomeAmt>7739</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>0</DisbursementsCharitablePrpsAmt>
+      </TaxesDetail>
+      <TaxesDetail>
+        <CategoryTxt>ADVALOREM TAXES</CategoryTxt>
+        <Amt>6671</Amt>
+        <NetInvestmentIncomeAmt>6671</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>0</DisbursementsCharitablePrpsAmt>
+      </TaxesDetail>
+      <TaxesDetail>
+        <CategoryTxt>O&amp;G RI TAXES</CategoryTxt>
+        <Amt>18424</Amt>
+        <NetInvestmentIncomeAmt>18424</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>0</DisbursementsCharitablePrpsAmt>
+      </TaxesDetail>
+    </TaxesSchedule>
+  </ReturnData>
+</Return>

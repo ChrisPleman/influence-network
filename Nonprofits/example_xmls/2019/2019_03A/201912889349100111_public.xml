@@ -1,0 +1,531 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Return xmlns="http://www.irs.gov/efile" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.irs.gov/efile" returnVersion="2017v2.3">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2019-10-15T11:26:27-05:00</ReturnTs>
+    <TaxPeriodEndDt>2018-11-30</TaxPeriodEndDt>
+    <PreparerFirmGrp>
+      <PreparerFirmEIN>221732349</PreparerFirmEIN>
+      <PreparerFirmName>
+        <BusinessNameLine1Txt>WISS &amp; COMPANY LLP</BusinessNameLine1Txt>
+      </PreparerFirmName>
+      <PreparerUSAddress>
+        <AddressLine1Txt>354 EISENHOWER PARKWAY</AddressLine1Txt>
+        <CityNm>LIVINGSTON</CityNm>
+        <StateAbbreviationCd>NJ</StateAbbreviationCd>
+        <ZIPCd>07039</ZIPCd>
+      </PreparerUSAddress>
+    </PreparerFirmGrp>
+    <ReturnTypeCd>990PF</ReturnTypeCd>
+    <TaxPeriodBeginDt>2017-12-01</TaxPeriodBeginDt>
+    <Filer>
+      <EIN>226055155</EIN>
+      <BusinessName>
+        <BusinessNameLine1Txt>HEKEMIAN FOUNDATION</BusinessNameLine1Txt>
+        <BusinessNameLine2Txt>C/O THE SHEKEMIAN GROUP LLC</BusinessNameLine2Txt>
+      </BusinessName>
+      <BusinessNameControlTxt>HEKE</BusinessNameControlTxt>
+      <PhoneNum>2015870800</PhoneNum>
+      <USAddress>
+        <AddressLine1Txt>10 STERLING BOULEVARD NO 401</AddressLine1Txt>
+        <CityNm>ENGLEWOOD</CityNm>
+        <StateAbbreviationCd>NJ</StateAbbreviationCd>
+        <ZIPCd>07631</ZIPCd>
+      </USAddress>
+    </Filer>
+    <BusinessOfficerGrp>
+      <PersonNm>PETER HEKEMIAN</PersonNm>
+      <PersonTitleTxt>SECRETARY</PersonTitleTxt>
+      <PhoneNum>2015870800</PhoneNum>
+      <SignatureDt>2019-10-15</SignatureDt>
+      <DiscussWithPaidPreparerInd>1</DiscussWithPaidPreparerInd>
+    </BusinessOfficerGrp>
+    <PreparerPersonGrp>
+      <PreparerPersonNm>RUSSELL FAYE</PreparerPersonNm>
+      <PTIN>P00393927</PTIN>
+      <PhoneNum>9739949400</PhoneNum>
+    </PreparerPersonGrp>
+    <FilingSecurityInformation>
+      <IPAddress>
+        <IPv4AddressTxt>50.202.92.18</IPv4AddressTxt>
+      </IPAddress>
+      <IPDt>2019-10-15</IPDt>
+      <IPTm>06:24:28</IPTm>
+      <IPTimezoneCd>ED</IPTimezoneCd>
+      <FilingLicenseTypeCd>P</FilingLicenseTypeCd>
+      <AtSubmissionCreationDeviceId>052E74333E543809E1CF40C85DEEB6334444FD87</AtSubmissionCreationDeviceId>
+      <AtSubmissionFilingDeviceId>1114C4FE7F122ECB811F5166022FCC47A8172C80</AtSubmissionFilingDeviceId>
+    </FilingSecurityInformation>
+    <TaxYr>2017</TaxYr>
+    <BuildTS>2020-01-14 16:20:31Z</BuildTS>
+  </ReturnHeader>
+  <ReturnData documentCnt="11">
+    <IRS990PF documentId="RetDoc1235000001">
+      <AddressChangeInd>X</AddressChangeInd>
+      <Organization501c3ExemptPFInd>X</Organization501c3ExemptPFInd>
+      <FMVAssetsEOYAmt>1956856</FMVAssetsEOYAmt>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <AnalysisOfRevenueAndExpenses>
+        <ScheduleBNotRequiredInd>X</ScheduleBNotRequiredInd>
+        <InterestOnSavRevAndExpnssAmt>31351</InterestOnSavRevAndExpnssAmt>
+        <InterestOnSavNetInvstIncmAmt>31351</InterestOnSavNetInvstIncmAmt>
+        <DividendsRevAndExpnssAmt>17355</DividendsRevAndExpnssAmt>
+        <DividendsNetInvstIncmAmt>17355</DividendsNetInvstIncmAmt>
+        <GrossRentsRevAndExpnssAmt>2791</GrossRentsRevAndExpnssAmt>
+        <GrossRentsNetInvstIncmAmt>2791</GrossRentsNetInvstIncmAmt>
+        <NetRentalIncomeOrLossAmt>2791</NetRentalIncomeOrLossAmt>
+        <NetGainSaleAstRevAndExpnssAmt>13678</NetGainSaleAstRevAndExpnssAmt>
+        <GrossSalesPriceAmt>53722</GrossSalesPriceAmt>
+        <CapGainNetIncmNetInvstIncmAmt>13678</CapGainNetIncmNetInvstIncmAmt>
+        <TotalRevAndExpnssAmt>65175</TotalRevAndExpnssAmt>
+        <TotalNetInvstIncmAmt>65175</TotalNetInvstIncmAmt>
+        <CompOfcrDirTrstRevAndExpnssAmt>0</CompOfcrDirTrstRevAndExpnssAmt>
+        <CompOfcrDirTrstNetInvstIncmAmt>0</CompOfcrDirTrstNetInvstIncmAmt>
+        <CompOfcrDirTrstDsbrsChrtblAmt>0</CompOfcrDirTrstDsbrsChrtblAmt>
+        <AccountingFeesRevAndExpnssAmt referenceDocumentId="RetDoc2002200001">3560</AccountingFeesRevAndExpnssAmt>
+        <AccountingFeesNetInvstIncmAmt>1780</AccountingFeesNetInvstIncmAmt>
+        <AccountingFeesChrtblPrpsAmt>1780</AccountingFeesChrtblPrpsAmt>
+        <TaxesRevAndExpnssAmt referenceDocumentId="RetDoc2002500001">2020</TaxesRevAndExpnssAmt>
+        <TaxesNetInvstIncmAmt>0</TaxesNetInvstIncmAmt>
+        <TaxesDsbrsChrtblAmt>0</TaxesDsbrsChrtblAmt>
+        <OtherExpensesRevAndExpnssAmt referenceDocumentId="RetDoc2003200001">25</OtherExpensesRevAndExpnssAmt>
+        <OtherExpensesNetInvstIncmAmt>0</OtherExpensesNetInvstIncmAmt>
+        <OtherExpensesDsbrsChrtblAmt>25</OtherExpensesDsbrsChrtblAmt>
+        <TotOprExpensesRevAndExpnssAmt>5605</TotOprExpensesRevAndExpnssAmt>
+        <TotOprExpensesNetInvstIncmAmt>1780</TotOprExpensesNetInvstIncmAmt>
+        <TotOprExpensesDsbrsChrtblAmt>1805</TotOprExpensesDsbrsChrtblAmt>
+        <ContriPaidRevAndExpnssAmt>0</ContriPaidRevAndExpnssAmt>
+        <ContriPaidDsbrsChrtblAmt>0</ContriPaidDsbrsChrtblAmt>
+        <TotalExpensesRevAndExpnssAmt>5605</TotalExpensesRevAndExpnssAmt>
+        <TotalExpensesNetInvstIncmAmt>1780</TotalExpensesNetInvstIncmAmt>
+        <TotalExpensesDsbrsChrtblAmt>1805</TotalExpensesDsbrsChrtblAmt>
+        <ExcessRevenueOverExpensesAmt>59570</ExcessRevenueOverExpensesAmt>
+        <NetInvestmentIncomeAmt>63395</NetInvestmentIncomeAmt>
+      </AnalysisOfRevenueAndExpenses>
+      <Form990PFBalanceSheetsGrp>
+        <CashEOYAmt>850</CashEOYAmt>
+        <CashEOYFMVAmt>850</CashEOYFMVAmt>
+        <SavAndTempCashInvstBOYAmt>40812</SavAndTempCashInvstBOYAmt>
+        <SavAndTempCashInvstEOYAmt>21925</SavAndTempCashInvstEOYAmt>
+        <SavAndTempCashInvstEOYFMVAmt>21925</SavAndTempCashInvstEOYFMVAmt>
+        <RcvblFromOfficersBOYAmt>748689</RcvblFromOfficersBOYAmt>
+        <RcvblFromOfficersEOYAmt referenceDocumentId="RetDoc2058400001">780004</RcvblFromOfficersEOYAmt>
+        <RcvblFromOfficersEOYFMVAmt>780004</RcvblFromOfficersEOYFMVAmt>
+        <PrepaidExpensesBOYAmt>3696</PrepaidExpensesBOYAmt>
+        <PrepaidExpensesEOYAmt>3696</PrepaidExpensesEOYAmt>
+        <PrepaidExpensesEOYFMVAmt>3696</PrepaidExpensesEOYFMVAmt>
+        <CorporateStockBOYAmt>313002</CorporateStockBOYAmt>
+        <CorporateStockEOYAmt referenceDocumentId="RetDoc2018900001">272958</CorporateStockEOYAmt>
+        <CorporateStockEOYFMVAmt>1084812</CorporateStockEOYFMVAmt>
+        <OtherInvestmentsBOYAmt>0</OtherInvestmentsBOYAmt>
+        <OtherInvestmentsEOYAmt referenceDocumentId="RetDoc2018100001">0</OtherInvestmentsEOYAmt>
+        <OtherInvestmentsEOYFMVAmt>65569</OtherInvestmentsEOYFMVAmt>
+        <TotalAssetsBOYAmt>1106199</TotalAssetsBOYAmt>
+        <TotalAssetsEOYAmt>1079433</TotalAssetsEOYAmt>
+        <TotalAssetsEOYFMVAmt>1956856</TotalAssetsEOYFMVAmt>
+        <AccountsPayableBOYAmt>100565</AccountsPayableBOYAmt>
+        <LoansFromOfficersBOYAmt>5128</LoansFromOfficersBOYAmt>
+        <LoansFromOfficersEOYAmt referenceDocumentId="RetDoc2203200001">2300</LoansFromOfficersEOYAmt>
+        <OtherLiabilitiesBOYAmt referenceDocumentId="RetDoc2065700001">83842</OtherLiabilitiesBOYAmt>
+        <OtherLiabilitiesEOYAmt referenceDocumentId="RetDoc2065700001">83051</OtherLiabilitiesEOYAmt>
+        <TotalLiabilitiesBOYAmt>189535</TotalLiabilitiesBOYAmt>
+        <TotalLiabilitiesEOYAmt>85351</TotalLiabilitiesEOYAmt>
+        <OrgDoesNotFollowSFAS117Ind>X</OrgDoesNotFollowSFAS117Ind>
+        <CapitalStockBOYAmt>0</CapitalStockBOYAmt>
+        <CapitalStockEOYAmt>0</CapitalStockEOYAmt>
+        <AdditionalPaidInCapitalBOYAmt>0</AdditionalPaidInCapitalBOYAmt>
+        <AdditionalPaidInCapitalEOYAmt>0</AdditionalPaidInCapitalEOYAmt>
+        <RetainedEarningBOYAmt>916664</RetainedEarningBOYAmt>
+        <RetainedEarningEOYAmt>994082</RetainedEarningEOYAmt>
+        <TotNetAstOrFundBalancesBOYAmt>916664</TotNetAstOrFundBalancesBOYAmt>
+        <TotNetAstOrFundBalancesEOYAmt>994082</TotNetAstOrFundBalancesEOYAmt>
+        <TotalLiabilitiesNetAstBOYAmt>1106199</TotalLiabilitiesNetAstBOYAmt>
+        <TotalLiabilitiesNetAstEOYAmt>1079433</TotalLiabilitiesNetAstEOYAmt>
+      </Form990PFBalanceSheetsGrp>
+      <ChgInNetAssetsFundBalancesGrp>
+        <TotNetAstOrFundBalancesBOYAmt>916664</TotNetAstOrFundBalancesBOYAmt>
+        <ExcessRevenueOverExpensesAmt>59570</ExcessRevenueOverExpensesAmt>
+        <OtherIncreasesAmt referenceDocumentId="RetDoc2049700001">17848</OtherIncreasesAmt>
+        <SubtotalAmt>994082</SubtotalAmt>
+        <OtherDecreasesAmt>0</OtherDecreasesAmt>
+        <TotNetAstOrFundBalancesEOYAmt>994082</TotNetAstOrFundBalancesEOYAmt>
+      </ChgInNetAssetsFundBalancesGrp>
+      <CapGainsLossTxInvstIncmDetail>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>45 SHS BRIGHTHOUSE FINANCIAL INC</PropertyDesc>
+          <AcquiredDt>2006-01-24</AcquiredDt>
+          <SoldDt>2017-12-18</SoldDt>
+          <GrossSalesPriceAmt>2530</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>2535</CostOrOtherBasisAmt>
+          <GainOrLossAmt>-5</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>-5</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>500 SHS GLAXO SMITHKLINE PLC ADR</PropertyDesc>
+          <AcquiredDt>1990-06-26</AcquiredDt>
+          <SoldDt>2017-12-18</SoldDt>
+          <GrossSalesPriceAmt>17475</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>7109</CostOrOtherBasisAmt>
+          <GainOrLossAmt>10366</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>10366</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>500 SHS METLIFE INC,</PropertyDesc>
+          <AcquiredDt>2006-01-24</AcquiredDt>
+          <SoldDt>2017-12-18</SoldDt>
+          <GrossSalesPriceAmt>25968</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>24703</CostOrOtherBasisAmt>
+          <GainOrLossAmt>1265</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>1265</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>150 SHS VERIZON COMMUNICATIONS INC</PropertyDesc>
+          <AcquiredDt>2000-08-16</AcquiredDt>
+          <SoldDt>2017-12-18</SoldDt>
+          <GrossSalesPriceAmt>7749</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>5697</CostOrOtherBasisAmt>
+          <GainOrLossAmt>2052</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>2052</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapitalGainNetIncomeAmt>13678</CapitalGainNetIncomeAmt>
+      </CapGainsLossTxInvstIncmDetail>
+      <QlfyUndSect4940eReducedTaxGrp>
+        <LiableSection4942TaxInd>0</LiableSection4942TaxInd>
+        <AdjustedQlfyDistriYr1Amt>92502</AdjustedQlfyDistriYr1Amt>
+        <NetVlNoncharitableAssetsYr1Amt>1083857</NetVlNoncharitableAssetsYr1Amt>
+        <DistributionYr1Rt>0.085345</DistributionYr1Rt>
+        <AdjustedQlfyDistriYr2Amt>101003</AdjustedQlfyDistriYr2Amt>
+        <NetVlNoncharitableAssetsYr2Amt>2016848</NetVlNoncharitableAssetsYr2Amt>
+        <DistributionYr2Rt>0.050080</DistributionYr2Rt>
+        <AdjustedQlfyDistriYr3Amt>82049</AdjustedQlfyDistriYr3Amt>
+        <NetVlNoncharitableAssetsYr3Amt>1999769</NetVlNoncharitableAssetsYr3Amt>
+        <DistributionYr3Rt>0.041029</DistributionYr3Rt>
+        <AdjustedQlfyDistriYr4Amt>51027</AdjustedQlfyDistriYr4Amt>
+        <NetVlNoncharitableAssetsYr4Amt>1940492</NetVlNoncharitableAssetsYr4Amt>
+        <DistributionYr4Rt>0.026296</DistributionYr4Rt>
+        <AdjustedQlfyDistriYr5Amt>120027</AdjustedQlfyDistriYr5Amt>
+        <NetVlNoncharitableAssetsYr5Amt>1874307</NetVlNoncharitableAssetsYr5Amt>
+        <DistributionYr5Rt>0.064038</DistributionYr5Rt>
+        <TotalDistributionRt>0.266788</TotalDistributionRt>
+        <AverageDistributionRt>0.053358</AverageDistributionRt>
+        <NetVlNoncharitableAssetsAmt>1984274</NetVlNoncharitableAssetsAmt>
+        <AdjNetVlNoncharitableAssetsAmt>105877</AdjNetVlNoncharitableAssetsAmt>
+        <NetInvestmentIncomePctAmt>634</NetInvestmentIncomePctAmt>
+        <AdjNonchrtblNetInvstIncmPctAmt>106511</AdjNonchrtblNetInvstIncmPctAmt>
+        <QualifyingDistributionsAmt>1805</QualifyingDistributionsAmt>
+      </QlfyUndSect4940eReducedTaxGrp>
+      <ExciseTaxBasedOnInvstIncmGrp>
+        <InvestmentIncomeExciseTaxAmt>1268</InvestmentIncomeExciseTaxAmt>
+        <TaxUnderSection511Amt>0</TaxUnderSection511Amt>
+        <SubtotalAmt>1268</SubtotalAmt>
+        <SubtitleATaxAmt>0</SubtitleATaxAmt>
+        <TaxBasedOnInvestmentIncomeAmt>1268</TaxBasedOnInvestmentIncomeAmt>
+        <EstimatedPlusOvpmtIncmTxAmt>3696</EstimatedPlusOvpmtIncmTxAmt>
+        <ExtsnRequestIncomeTaxPaidAmt>0</ExtsnRequestIncomeTaxPaidAmt>
+        <BackupWithholdingWithheldAmt>0</BackupWithholdingWithheldAmt>
+        <TotalPaymentsAndCreditsAmt>3696</TotalPaymentsAndCreditsAmt>
+        <Form2220AttachedInd referenceDocumentId="RetDoc1192000001">X</Form2220AttachedInd>
+        <EsPenaltyAmt>0</EsPenaltyAmt>
+        <OverpaymentAmt>2428</OverpaymentAmt>
+        <AppliedToESTaxAmt>2428</AppliedToESTaxAmt>
+        <RefundAmt>0</RefundAmt>
+      </ExciseTaxBasedOnInvstIncmGrp>
+      <StatementsRegardingActyGrp>
+        <LegislativePoliticalActyInd>0</LegislativePoliticalActyInd>
+        <MoreThan100SpentInd>0</MoreThan100SpentInd>
+        <Form1120POLFiledInd>0</Form1120POLFiledInd>
+        <Section4955OrganizationTaxAmt>0</Section4955OrganizationTaxAmt>
+        <Section4955ManagersTaxAmt>0</Section4955ManagersTaxAmt>
+        <TaxReimbursedAmt>0</TaxReimbursedAmt>
+        <ActivitiesNotPreviouslyRptInd>0</ActivitiesNotPreviouslyRptInd>
+        <ChangesToArticlesOrBylawsInd>0</ChangesToArticlesOrBylawsInd>
+        <UnrelatedBusIncmOverLimitInd>0</UnrelatedBusIncmOverLimitInd>
+        <OrganizationDissolvedEtcInd>0</OrganizationDissolvedEtcInd>
+        <Section508eRqrSatisfiedInd>1</Section508eRqrSatisfiedInd>
+        <AtLeast5000InAssetsInd>1</AtLeast5000InAssetsInd>
+        <OrgReportOrRegisterStateCd>NJ</OrgReportOrRegisterStateCd>
+        <Form990PFFiledWithAttyGenInd>1</Form990PFFiledWithAttyGenInd>
+        <PrivateOperatingFoundationInd>0</PrivateOperatingFoundationInd>
+        <NewSubstantialContributorsInd>0</NewSubstantialContributorsInd>
+        <OwnControlledEntityInd>0</OwnControlledEntityInd>
+        <DonorAdvisedFundInd>0</DonorAdvisedFundInd>
+        <ComplyWithPublicInspRqrInd>1</ComplyWithPublicInspRqrInd>
+        <WebsiteAddressTxt>N/A</WebsiteAddressTxt>
+        <IndividualWithBooksNm>HEKEMIAN FOUNDATION INC</IndividualWithBooksNm>
+        <PhoneNum>2015870800</PhoneNum>
+        <LocationOfBooksUSAddress>
+          <AddressLine1Txt>10 STERLING BOULEVARD STE 401</AddressLine1Txt>
+          <CityNm>ENGLEWOOD</CityNm>
+          <StateAbbreviationCd>NJ</StateAbbreviationCd>
+          <ZIPCd>07631</ZIPCd>
+        </LocationOfBooksUSAddress>
+        <ForeignAccountsQuestionInd>0</ForeignAccountsQuestionInd>
+      </StatementsRegardingActyGrp>
+      <StatementsRegardingActy4720Grp>
+        <SaleOrExchDisqualifiedPrsnInd>0</SaleOrExchDisqualifiedPrsnInd>
+        <BrrwOrLendDisqualifiedPrsnInd>0</BrrwOrLendDisqualifiedPrsnInd>
+        <FurnGoodsDisqualifiedPrsnInd>0</FurnGoodsDisqualifiedPrsnInd>
+        <PayCompDisqualifiedPrsnInd>0</PayCompDisqualifiedPrsnInd>
+        <TransferAstDisqualifiedPrsnInd>0</TransferAstDisqualifiedPrsnInd>
+        <PaymentToGovernmentOfficialInd>0</PaymentToGovernmentOfficialInd>
+        <UncorrectedPriorActsInd>0</UncorrectedPriorActsInd>
+        <UndistributedIncomePYInd>1</UndistributedIncomePYInd>
+        <UndistributedIncomePY1Yr>2016</UndistributedIncomePY1Yr>
+        <UndistrIncmSect4942a2NotAppInd>1</UndistrIncmSect4942a2NotAppInd>
+        <BusinessHoldingsInd>0</BusinessHoldingsInd>
+        <JeopardyInvestmentsInd>0</JeopardyInvestmentsInd>
+        <UncorrectedPYJeopardyInvstInd>0</UncorrectedPYJeopardyInvstInd>
+        <InfluenceLegislationInd>0</InfluenceLegislationInd>
+        <InfluenceElectionInd>0</InfluenceElectionInd>
+        <GrantsToIndividualsInd>0</GrantsToIndividualsInd>
+        <GrantsToOrganizationsInd>0</GrantsToOrganizationsInd>
+        <NoncharitablePurposeInd>0</NoncharitablePurposeInd>
+        <RcvFndsToPayPrsnlBnftCntrctInd>0</RcvFndsToPayPrsnlBnftCntrctInd>
+        <PayPremiumsPrsnlBnftCntrctInd>0</PayPremiumsPrsnlBnftCntrctInd>
+        <ProhibitedTaxShelterTransInd>0</ProhibitedTaxShelterTransInd>
+      </StatementsRegardingActy4720Grp>
+      <OfficerDirTrstKeyEmplInfoGrp>
+        <OfficerDirTrstKeyEmplGrp>
+          <PersonNm>PETER HEKEMIAN</PersonNm>
+          <USAddress>
+            <AddressLine1Txt>10 STERLING BLVD SUITE 401</AddressLine1Txt>
+            <CityNm>ENGLEWOOD</CityNm>
+            <StateAbbreviationCd>NJ</StateAbbreviationCd>
+            <ZIPCd>07631</ZIPCd>
+          </USAddress>
+          <TitleTxt>SECRETARY</TitleTxt>
+          <AverageHrsPerWkDevotedToPosRt>1.00</AverageHrsPerWkDevotedToPosRt>
+          <CompensationAmt>0</CompensationAmt>
+          <EmployeeBenefitProgramAmt>0</EmployeeBenefitProgramAmt>
+          <ExpenseAccountOtherAllwncAmt>0</ExpenseAccountOtherAllwncAmt>
+        </OfficerDirTrstKeyEmplGrp>
+        <OfficerDirTrstKeyEmplGrp>
+          <PersonNm>RICHARD HEKEMIAN</PersonNm>
+          <USAddress>
+            <AddressLine1Txt>10 STERLING BLVD SUITE 401</AddressLine1Txt>
+            <CityNm>ENGLEWOOD</CityNm>
+            <StateAbbreviationCd>NJ</StateAbbreviationCd>
+            <ZIPCd>07631</ZIPCd>
+          </USAddress>
+          <TitleTxt>TRUSTEE</TitleTxt>
+          <AverageHrsPerWkDevotedToPosRt>1.00</AverageHrsPerWkDevotedToPosRt>
+          <CompensationAmt>0</CompensationAmt>
+          <EmployeeBenefitProgramAmt>0</EmployeeBenefitProgramAmt>
+          <ExpenseAccountOtherAllwncAmt>0</ExpenseAccountOtherAllwncAmt>
+        </OfficerDirTrstKeyEmplGrp>
+        <OfficerDirTrstKeyEmplGrp>
+          <PersonNm>MARK HEKEMIAN</PersonNm>
+          <USAddress>
+            <AddressLine1Txt>10 STERLING BLVD SUITE 401</AddressLine1Txt>
+            <CityNm>ENGLEWOOD</CityNm>
+            <StateAbbreviationCd>NJ</StateAbbreviationCd>
+            <ZIPCd>07631</ZIPCd>
+          </USAddress>
+          <TitleTxt>TRUSTEE</TitleTxt>
+          <AverageHrsPerWkDevotedToPosRt>1.00</AverageHrsPerWkDevotedToPosRt>
+          <CompensationAmt>0</CompensationAmt>
+          <EmployeeBenefitProgramAmt>0</EmployeeBenefitProgramAmt>
+          <ExpenseAccountOtherAllwncAmt>0</ExpenseAccountOtherAllwncAmt>
+        </OfficerDirTrstKeyEmplGrp>
+        <CompOfHghstPdEmplOrNONETxt>NONE</CompOfHghstPdEmplOrNONETxt>
+        <OtherEmployeePaidOver50kCnt>0</OtherEmployeePaidOver50kCnt>
+        <CompOfHghstPdCntrctOrNONETxt>NONE</CompOfHghstPdCntrctOrNONETxt>
+        <ContractorPaidOver50kCnt>0</ContractorPaidOver50kCnt>
+      </OfficerDirTrstKeyEmplInfoGrp>
+      <SumOfProgramRelatedInvstGrp>
+        <TotalAmt>0</TotalAmt>
+      </SumOfProgramRelatedInvstGrp>
+      <MinimumInvestmentReturnGrp>
+        <AverageMonthlyFMVOfSecAmt>1115819</AverageMonthlyFMVOfSecAmt>
+        <AverageMonthlyCashBalancesAmt>33011</AverageMonthlyCashBalancesAmt>
+        <FMVAllOtherNoncharitableAstAmt>956084</FMVAllOtherNoncharitableAstAmt>
+        <TotalFMVOfUnusedAssetsAmt>2104914</TotalFMVOfUnusedAssetsAmt>
+        <ReductionClaimedAmt referenceDocumentId="RetDoc12000100057">16392</ReductionClaimedAmt>
+        <AcquisitionIndebtednessAmt>90423</AcquisitionIndebtednessAmt>
+        <AdjustedTotalFMVOfUnusedAstAmt>2014491</AdjustedTotalFMVOfUnusedAstAmt>
+        <CashDeemedCharitableAmt>30217</CashDeemedCharitableAmt>
+        <NetVlNoncharitableAssetsAmt>1984274</NetVlNoncharitableAssetsAmt>
+        <MinimumInvestmentReturnAmt>99214</MinimumInvestmentReturnAmt>
+      </MinimumInvestmentReturnGrp>
+      <DistributableAmountGrp>
+        <MinimumInvestmentReturnAmt>99214</MinimumInvestmentReturnAmt>
+        <TaxBasedOnInvestmentIncomeAmt>1268</TaxBasedOnInvestmentIncomeAmt>
+        <TotalTaxAmt>1268</TotalTaxAmt>
+        <DistributableBeforeAdjAmt>97946</DistributableBeforeAdjAmt>
+        <RecoveriesQualfiedDistriAmt>0</RecoveriesQualfiedDistriAmt>
+        <DistributableBeforeDedAmt>97946</DistributableBeforeDedAmt>
+        <DeductionFromDistributableAmt>0</DeductionFromDistributableAmt>
+        <DistributableAsAdjustedAmt>97946</DistributableAsAdjustedAmt>
+      </DistributableAmountGrp>
+      <QualifyingDistriPartXIIGrp>
+        <ExpensesAndContributionsAmt>1805</ExpensesAndContributionsAmt>
+        <ProgramRelatedInvstTotalAmt>0</ProgramRelatedInvstTotalAmt>
+        <QualifyingDistributionsAmt>1805</QualifyingDistributionsAmt>
+        <PctSect4940eOrgNetInvstIncmAmt>0</PctSect4940eOrgNetInvstIncmAmt>
+        <AdjustedQualifyingDistriAmt>1805</AdjustedQualifyingDistriAmt>
+      </QualifyingDistriPartXIIGrp>
+      <UndistributedIncomeGrp>
+        <DistributableAsAdjustedAmt>97946</DistributableAsAdjustedAmt>
+        <UndistributedIncomePYAmt>26506</UndistributedIncomePYAmt>
+        <TotalForPriorYearsAmt>0</TotalForPriorYearsAmt>
+        <TotalExcessDistributionCyovAmt>0</TotalExcessDistributionCyovAmt>
+        <QualifyingDistributionsAmt>1805</QualifyingDistributionsAmt>
+        <AppliedToYear1Amt>1805</AppliedToYear1Amt>
+        <AppliedToPriorYearsAmt>0</AppliedToPriorYearsAmt>
+        <TreatedAsDistriFromCorpusAmt>0</TreatedAsDistriFromCorpusAmt>
+        <AppliedToCurrentYearAmt>0</AppliedToCurrentYearAmt>
+        <RemainingDistriFromCorpusAmt>0</RemainingDistriFromCorpusAmt>
+        <ExcessDistriCyovAppCYCorpusAmt>0</ExcessDistriCyovAppCYCorpusAmt>
+        <ExcessDistributionCyovAppCYAmt>0</ExcessDistributionCyovAppCYAmt>
+        <TotalCorpusAmt>0</TotalCorpusAmt>
+        <PriorYearUndistributedIncmAmt>0</PriorYearUndistributedIncmAmt>
+        <PriorYearDeficiencyOrTaxAmt>0</PriorYearDeficiencyOrTaxAmt>
+        <Taxable1Amt>0</Taxable1Amt>
+        <Taxable2Amt>24701</Taxable2Amt>
+        <UndistributedIncomeCYAmt>97946</UndistributedIncomeCYAmt>
+        <CorpusDistri170b1EOr4942g3Amt>0</CorpusDistri170b1EOr4942g3Amt>
+        <ExcessDistriCyovFromYr5Amt>0</ExcessDistriCyovFromYr5Amt>
+        <ExcessDistriCyovToNextYrAmt>0</ExcessDistriCyovToNextYrAmt>
+      </UndistributedIncomeGrp>
+      <SupplementaryInformationGrp>
+        <ApplicationSubmissionInfoGrp>
+          <RecipientPersonNm>PETER HEKEMIAN CO THE SHEKEMIAN GRO</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>10 STERLING BLVD STE 401</AddressLine1Txt>
+            <CityNm>ENGLEWOOD</CityNm>
+            <StateAbbreviationCd>NJ</StateAbbreviationCd>
+            <ZIPCd>07631</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientPhoneNum>2015870800</RecipientPhoneNum>
+          <FormAndInfoAndMaterialsTxt>WRITTEN NOTICE ACCOMPANIED BY THE IRS APPROVAL FOR TAX-EXEMPT STATUS</FormAndInfoAndMaterialsTxt>
+          <SubmissionDeadlinesTxt>NONE</SubmissionDeadlinesTxt>
+          <RestrictionsOnAwardsTxt>NONE</RestrictionsOnAwardsTxt>
+        </ApplicationSubmissionInfoGrp>
+        <TotalGrantOrContriPdDurYrAmt>0</TotalGrantOrContriPdDurYrAmt>
+        <TotalGrantOrContriApprvFutAmt>0</TotalGrantOrContriApprvFutAmt>
+      </SupplementaryInformationGrp>
+      <AnalysisIncomeProducingActyGrp>
+        <IntOnSavAndTempCashInvstGrp>
+          <ExclusionCd>14</ExclusionCd>
+          <ExclusionAmt>31351</ExclusionAmt>
+        </IntOnSavAndTempCashInvstGrp>
+        <DivAndIntFromSecPartVIIGrp>
+          <ExclusionCd>14</ExclusionCd>
+          <ExclusionAmt>17355</ExclusionAmt>
+        </DivAndIntFromSecPartVIIGrp>
+        <NetRntlIncmReDebtFincdPropGrp>
+          <ExclusionCd>16</ExclusionCd>
+          <ExclusionAmt>2791</ExclusionAmt>
+        </NetRntlIncmReDebtFincdPropGrp>
+        <GainSalesAstOthThanInvntryGrp>
+          <ExclusionCd>18</ExclusionCd>
+          <ExclusionAmt>13678</ExclusionAmt>
+        </GainSalesAstOthThanInvntryGrp>
+        <SubtotalsIncmProducingActyGrp>
+          <UnrelatedBusinessTaxblIncmAmt>0</UnrelatedBusinessTaxblIncmAmt>
+          <ExclusionAmt>65175</ExclusionAmt>
+          <RelatedOrExemptFunctionIncmAmt>0</RelatedOrExemptFunctionIncmAmt>
+        </SubtotalsIncmProducingActyGrp>
+        <TotalIncomeProducingActyAmt>65175</TotalIncomeProducingActyAmt>
+      </AnalysisIncomeProducingActyGrp>
+      <RlnOfActyToAccomOfExmptPrpsGrp>
+        <RlnOfActyToAccomOfExmptPrpsGrp>
+          <LineNumberTxt>7</LineNumberTxt>
+          <RelationshipStatementTxt>AMOUNTS IN COLUMN E PROVIDE INCOME FOR CHARITABLE DISBURSEMENTS</RelationshipStatementTxt>
+        </RlnOfActyToAccomOfExmptPrpsGrp>
+      </RlnOfActyToAccomOfExmptPrpsGrp>
+      <TrnsfrTransRlnNonchrtblEOGrp>
+        <TrnsfrOfCashToNonchrtblEOInd>0</TrnsfrOfCashToNonchrtblEOInd>
+        <TrnsfrOtherAssetNonchrtblEOInd>0</TrnsfrOtherAssetNonchrtblEOInd>
+        <SalesOrExchangesOfAssetsInd>0</SalesOrExchangesOfAssetsInd>
+        <PurchaseOfAssetsNonchrtblEOInd>0</PurchaseOfAssetsNonchrtblEOInd>
+        <RentalOfFacilitiesOthAssetsInd>0</RentalOfFacilitiesOthAssetsInd>
+        <ReimbursementArrangementsInd>0</ReimbursementArrangementsInd>
+        <LoansOrLoanGuaranteesInd>0</LoansOrLoanGuaranteesInd>
+        <PerformanceOfServicesEtcInd>0</PerformanceOfServicesEtcInd>
+        <SharingOfFacilitiesEtcInd>0</SharingOfFacilitiesEtcInd>
+        <RelationshipsNonchrtblEOInd>0</RelationshipsNonchrtblEOInd>
+      </TrnsfrTransRlnNonchrtblEOGrp>
+    </IRS990PF>
+    <AccountingFeesSchedule documentId="RetDoc2002200001">
+      <AccountingFeesDetail>
+        <CategoryTxt>ACCOUNTING</CategoryTxt>
+        <Amt>3560</Amt>
+        <NetInvestmentIncomeAmt>1780</NetInvestmentIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>1780</DisbursementsCharitablePrpsAmt>
+      </AccountingFeesDetail>
+    </AccountingFeesSchedule>
+    <InvestmentsCorpStockSchedule documentId="RetDoc2018900001">
+      <InvestmentsCorporateStockGrp>
+        <StockNm>MARKETABLE SECURITIES - UBS FINANCIAL #56505</StockNm>
+        <EOYBookValueAmt>272958</EOYBookValueAmt>
+        <EOYFMVAmt>1084812</EOYFMVAmt>
+      </InvestmentsCorporateStockGrp>
+    </InvestmentsCorpStockSchedule>
+    <InvestmentsOtherSchedule2 documentId="RetDoc2018100001">
+      <InvestmentsOtherGrp>
+        <CategoryOrItemTxt>INVESTMENT IN HACKENSACK CARRIAGE HOUSE, LLC</CategoryOrItemTxt>
+        <ListedAtCostOrFMVCd>AT COST</ListedAtCostOrFMVCd>
+        <BookValueAmt>0</BookValueAmt>
+        <EOYFMVAmt>65569</EOYFMVAmt>
+      </InvestmentsOtherGrp>
+    </InvestmentsOtherSchedule2>
+    <LoansFromOfficersSchedule documentId="RetDoc2203200001">
+      <LoansFromOfficerGrp>
+        <LenderPersonNm>S HEKEMIAN GROUP LLC</LenderPersonNm>
+        <LoanOriginalAmt>2300</LoanOriginalAmt>
+        <BalanceDueAmt>2300</BalanceDueAmt>
+        <NoteDt>2007-11</NoteDt>
+        <RepaymentTermsTxt>ON DEMAND</RepaymentTermsTxt>
+        <InterestRt>0.000000000000</InterestRt>
+        <SecurityProvidedBorrowerTxt>NONE</SecurityProvidedBorrowerTxt>
+        <LoanPurposeTxt>PAYMENT OF A PROFESSIONAL FEE</LoanPurposeTxt>
+        <LenderConsiderationDesc>CASH</LenderConsiderationDesc>
+      </LoansFromOfficerGrp>
+    </LoansFromOfficersSchedule>
+    <OtherExpensesSchedule documentId="RetDoc2003200001">
+      <OtherExpensesScheduleGrp>
+        <Desc>N.J. REGISTRATION FEES</Desc>
+        <RevenueAndExpensesPerBooksAmt>25</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>25</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+    </OtherExpensesSchedule>
+    <OtherIncreasesSchedule documentId="RetDoc2049700001">
+      <OtherIncreasesDetail>
+        <Desc>PRIOR PERIOD ADJUSTMENT</Desc>
+        <Amt>17848</Amt>
+      </OtherIncreasesDetail>
+    </OtherIncreasesSchedule>
+    <OtherLiabilitiesSchedule documentId="RetDoc2065700001">
+      <OtherLiabilitiesDetail>
+        <Desc>CAPITAL DEFICIENCY IN A LIMITED LIABILITY COMPANY</Desc>
+        <BOYBookValueAmt>83842</BOYBookValueAmt>
+        <EOYBookValueAmt>83051</EOYBookValueAmt>
+      </OtherLiabilitiesDetail>
+    </OtherLiabilitiesSchedule>
+    <OtherReceivablesOfficersSch documentId="RetDoc2058400001">
+      <OfficerOtherRcvblGrp>
+        <BorrowerPersonNm>GRANDVIEW ASSOCIATES</BorrowerPersonNm>
+        <LoanOriginalAmt>653000</LoanOriginalAmt>
+        <BalanceDueAmt>780004</BalanceDueAmt>
+        <RepaymentTermsTxt>COLLECTIBLE ON DEMAND</RepaymentTermsTxt>
+        <InterestRt>4.500000000000</InterestRt>
+        <SecurityProvidedBorrowerTxt>UNSECURED LOAN - OPEN END/MATURITY</SecurityProvidedBorrowerTxt>
+        <LoanPurposeTxt>EARNING OF INTEREST INCOME</LoanPurposeTxt>
+        <LenderConsiderationDesc>CASH</LenderConsiderationDesc>
+        <ConsiderationFMVAmt>780004</ConsiderationFMVAmt>
+      </OfficerOtherRcvblGrp>
+    </OtherReceivablesOfficersSch>
+    <ReductionExplanationStatement documentId="RetDoc12000100057">
+      <ShortExplanationTxt>A 20% MARKETABLILITY DISCOUNT WAS CALCULATED FOR ONE OF THE OTHER ASSETS AT FAIR MARKET VALUE BEING REPORTED ON LINE 1C.</ShortExplanationTxt>
+    </ReductionExplanationStatement>
+    <TaxesSchedule documentId="RetDoc2002500001">
+      <TaxesDetail>
+        <CategoryTxt>990-PF TAXES (11/30/17)</CategoryTxt>
+        <Amt>2020</Amt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>0</DisbursementsCharitablePrpsAmt>
+      </TaxesDetail>
+    </TaxesSchedule>
+  </ReturnData>
+</Return>

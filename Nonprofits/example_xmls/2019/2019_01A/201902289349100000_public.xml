@@ -1,0 +1,859 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Return xmlns="http://www.irs.gov/efile" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" returnVersion="2017v2.2" xsi:schemaLocation="http://www.irs.gov/efile">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2019-08-15T23:49:14-07:00</ReturnTs>
+    <TaxPeriodEndDt>2018-09-30</TaxPeriodEndDt>
+    <PreparerFirmGrp>
+      <PreparerFirmName>
+        <BusinessNameLine1Txt>Schwartz &amp; Company Inc</BusinessNameLine1Txt>
+      </PreparerFirmName>
+      <PreparerUSAddress>
+        <AddressLine1Txt>3835 E Thousand Oaks Blvd 328</AddressLine1Txt>
+        <CityNm>Westlake Village</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>91362</ZIPCd>
+      </PreparerUSAddress>
+    </PreparerFirmGrp>
+    <ReturnTypeCd>990PF</ReturnTypeCd>
+    <TaxPeriodBeginDt>2017-10-01</TaxPeriodBeginDt>
+    <Filer>
+      <EIN>770444507</EIN>
+      <BusinessName>
+        <BusinessNameLine1Txt>Herman Bennett Foundation</BusinessNameLine1Txt>
+      </BusinessName>
+      <BusinessNameControlTxt>HERM</BusinessNameControlTxt>
+      <PhoneNum>8054457171</PhoneNum>
+      <USAddress>
+        <AddressLine1Txt>1330 Flynn Road</AddressLine1Txt>
+        <CityNm>Camarillo</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>93012</ZIPCd>
+      </USAddress>
+    </Filer>
+    <BusinessOfficerGrp>
+      <PersonNm>CHARLOTTE J BROWN</PersonNm>
+      <PersonTitleTxt>PRESIDENT</PersonTitleTxt>
+      <PhoneNum>8054457171</PhoneNum>
+      <SignatureDt>2019-08-15</SignatureDt>
+    </BusinessOfficerGrp>
+    <PreparerPersonGrp>
+      <PreparerPersonNm>LISA M SCHWARTZ</PreparerPersonNm>
+      <PTIN>P00638188</PTIN>
+      <PhoneNum>8052729572</PhoneNum>
+    </PreparerPersonGrp>
+    <FilingSecurityInformation>
+      <IPAddress>
+        <IPv4AddressTxt>172.115.115.95</IPv4AddressTxt>
+      </IPAddress>
+      <IPDt>2019-08-15</IPDt>
+      <IPTm>23:48:55</IPTm>
+      <IPTimezoneCd>PD</IPTimezoneCd>
+      <FilingLicenseTypeCd>P</FilingLicenseTypeCd>
+      <AtSubmissionCreationDeviceId>E20554A5F41329D7EBB6719792CCA15B791E443A</AtSubmissionCreationDeviceId>
+      <AtSubmissionFilingDeviceId>E20554A5F41329D7EBB6719792CCA15B791E443A</AtSubmissionFilingDeviceId>
+    </FilingSecurityInformation>
+    <TaxYr>2017</TaxYr>
+    <BuildTS>2019-02-21 02:37:17Z</BuildTS>
+  </ReturnHeader>
+  <ReturnData documentCnt="14">
+    <IRS990PF documentId="00000001" referenceDocumentName="ReasonableCauseExplanation GeneralExplanationAttachment">
+      <Organization501c3ExemptPFInd>X</Organization501c3ExemptPFInd>
+      <FMVAssetsEOYAmt>1343548</FMVAssetsEOYAmt>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <AnalysisOfRevenueAndExpenses>
+        <ContriRcvdRevAndExpnssAmt>6915</ContriRcvdRevAndExpnssAmt>
+        <ScheduleBNotRequiredInd>X</ScheduleBNotRequiredInd>
+        <InterestOnSavRevAndExpnssAmt>4</InterestOnSavRevAndExpnssAmt>
+        <InterestOnSavNetInvstIncmAmt>4</InterestOnSavNetInvstIncmAmt>
+        <CapGainNetIncmNetInvstIncmAmt>0</CapGainNetIncmNetInvstIncmAmt>
+        <GrossSalesLessRetAndAllwncAmt>84675</GrossSalesLessRetAndAllwncAmt>
+        <GrossProfitRevAndExpnssAmt referenceDocumentId="00000014" referenceDocumentName="SalesOfInventorySchedule">84675</GrossProfitRevAndExpnssAmt>
+        <OtherIncomeRevAndExpnssAmt referenceDocumentId="00000010" referenceDocumentName="OtherIncomeSchedule2">62707</OtherIncomeRevAndExpnssAmt>
+        <OtherIncomeNetInvstIncmAmt>58672</OtherIncomeNetInvstIncmAmt>
+        <TotalRevAndExpnssAmt>154301</TotalRevAndExpnssAmt>
+        <TotalNetInvstIncmAmt>58676</TotalNetInvstIncmAmt>
+        <CompOfcrDirTrstRevAndExpnssAmt>51464</CompOfcrDirTrstRevAndExpnssAmt>
+        <CompOfcrDirTrstDsbrsChrtblAmt>51464</CompOfcrDirTrstDsbrsChrtblAmt>
+        <OthEmplSlrsWgsRevAndExpnssAmt>1870</OthEmplSlrsWgsRevAndExpnssAmt>
+        <OthEmplSlrsWgsDsbrsChrtblAmt>1870</OthEmplSlrsWgsDsbrsChrtblAmt>
+        <LegalFeesRevAndExpnssAmt referenceDocumentId="00000008" referenceDocumentName="LegalFeesSchedule">16286</LegalFeesRevAndExpnssAmt>
+        <LegalFeesNetInvstIncmAmt>11200</LegalFeesNetInvstIncmAmt>
+        <LegalFeesDsbrsChrtblAmt>5086</LegalFeesDsbrsChrtblAmt>
+        <AccountingFeesRevAndExpnssAmt referenceDocumentId="00000003" referenceDocumentName="AccountingFeesSchedule">6630</AccountingFeesRevAndExpnssAmt>
+        <AccountingFeesNetInvstIncmAmt>3000</AccountingFeesNetInvstIncmAmt>
+        <AccountingFeesChrtblPrpsAmt>3630</AccountingFeesChrtblPrpsAmt>
+        <TaxesRevAndExpnssAmt referenceDocumentId="00000015" referenceDocumentName="TaxesSchedule">4691</TaxesRevAndExpnssAmt>
+        <TaxesDsbrsChrtblAmt>4691</TaxesDsbrsChrtblAmt>
+        <DeprecAndDpltnRevAndExpnssAmt referenceDocumentId="00000004" referenceDocumentName="DepreciationSchedule">7152</DeprecAndDpltnRevAndExpnssAmt>
+        <DeprecAndDpltnAdjNetIncmAmt>25</DeprecAndDpltnAdjNetIncmAmt>
+        <TravConfMeetingRevAndExpnssAmt>80</TravConfMeetingRevAndExpnssAmt>
+        <TravConfMeetingDsbrsChrtblAmt>80</TravConfMeetingDsbrsChrtblAmt>
+        <PrintingAndPubRevAndExpnssAmt>1247</PrintingAndPubRevAndExpnssAmt>
+        <PrintingAndPubDsbrsChrtblAmt>1247</PrintingAndPubDsbrsChrtblAmt>
+        <OtherExpensesRevAndExpnssAmt referenceDocumentId="00000009" referenceDocumentName="AmortizationSchedule OtherExpensesSchedule">329237</OtherExpensesRevAndExpnssAmt>
+        <OtherExpensesDsbrsChrtblAmt>329237</OtherExpensesDsbrsChrtblAmt>
+        <TotOprExpensesRevAndExpnssAmt>418657</TotOprExpensesRevAndExpnssAmt>
+        <TotOprExpensesNetInvstIncmAmt>14200</TotOprExpensesNetInvstIncmAmt>
+        <TotOprExpensesAdjNetIncmAmt>25</TotOprExpensesAdjNetIncmAmt>
+        <TotOprExpensesDsbrsChrtblAmt>397305</TotOprExpensesDsbrsChrtblAmt>
+        <ContriPaidRevAndExpnssAmt>52600</ContriPaidRevAndExpnssAmt>
+        <ContriPaidDsbrsChrtblAmt>66600</ContriPaidDsbrsChrtblAmt>
+        <TotalExpensesRevAndExpnssAmt>471257</TotalExpensesRevAndExpnssAmt>
+        <TotalExpensesNetInvstIncmAmt>14200</TotalExpensesNetInvstIncmAmt>
+        <TotalExpensesAdjNetIncmAmt>25</TotalExpensesAdjNetIncmAmt>
+        <TotalExpensesDsbrsChrtblAmt>463905</TotalExpensesDsbrsChrtblAmt>
+        <ExcessRevenueOverExpensesAmt>-316956</ExcessRevenueOverExpensesAmt>
+        <NetInvestmentIncomeAmt>44476</NetInvestmentIncomeAmt>
+      </AnalysisOfRevenueAndExpenses>
+      <Form990PFBalanceSheetsGrp>
+        <CashBOYAmt>471503</CashBOYAmt>
+        <CashEOYAmt>384305</CashEOYAmt>
+        <CashEOYFMVAmt>384305</CashEOYFMVAmt>
+        <SavAndTempCashInvstBOYAmt>276</SavAndTempCashInvstBOYAmt>
+        <CorporateStockBOYAmt>5215</CorporateStockBOYAmt>
+        <CorporateStockEOYAmt referenceDocumentId="00000005" referenceDocumentName="InvestmentsCorpStockSchedule">4850</CorporateStockEOYAmt>
+        <CorporateStockEOYFMVAmt>5703</CorporateStockEOYFMVAmt>
+        <InvstLandCostOrOtherBasisAmt>50113</InvstLandCostOrOtherBasisAmt>
+        <InvstLandAccumDepreciationAmt>21573</InvstLandAccumDepreciationAmt>
+        <LandBldgInvestmentsEOYAmt referenceDocumentId="00000006" referenceDocumentName="InvestmentsLandSchedule2">28540</LandBldgInvestmentsEOYAmt>
+        <LandBldgInvestmentsEOYFMVAmt>28540</LandBldgInvestmentsEOYFMVAmt>
+        <OtherInvestmentsBOYAmt>885000</OtherInvestmentsBOYAmt>
+        <OtherInvestmentsEOYAmt referenceDocumentId="00000007" referenceDocumentName="InvestmentsOtherSchedule2">885000</OtherInvestmentsEOYAmt>
+        <OtherInvestmentsEOYFMVAmt>925000</OtherInvestmentsEOYFMVAmt>
+        <TotalAssetsBOYAmt>1361994</TotalAssetsBOYAmt>
+        <TotalAssetsEOYAmt>1302695</TotalAssetsEOYAmt>
+        <TotalAssetsEOYFMVAmt>1343548</TotalAssetsEOYFMVAmt>
+        <OtherLiabilitiesBOYAmt referenceDocumentId="00000012" referenceDocumentName="OtherLiabilitiesSchedule">0</OtherLiabilitiesBOYAmt>
+        <OtherLiabilitiesEOYAmt referenceDocumentId="00000013" referenceDocumentName="OtherLiabilitiesSchedule">0</OtherLiabilitiesEOYAmt>
+        <TotalLiabilitiesEOYAmt>0</TotalLiabilitiesEOYAmt>
+        <OrgDoesNotFollowSFAS117Ind>X</OrgDoesNotFollowSFAS117Ind>
+        <AdditionalPaidInCapitalBOYAmt>1361994</AdditionalPaidInCapitalBOYAmt>
+        <AdditionalPaidInCapitalEOYAmt>1302695</AdditionalPaidInCapitalEOYAmt>
+        <TotNetAstOrFundBalancesBOYAmt>1361994</TotNetAstOrFundBalancesBOYAmt>
+        <TotNetAstOrFundBalancesEOYAmt>1302695</TotNetAstOrFundBalancesEOYAmt>
+        <TotalLiabilitiesNetAstBOYAmt>1361994</TotalLiabilitiesNetAstBOYAmt>
+        <TotalLiabilitiesNetAstEOYAmt>1302695</TotalLiabilitiesNetAstEOYAmt>
+      </Form990PFBalanceSheetsGrp>
+      <ChgInNetAssetsFundBalancesGrp>
+        <TotNetAstOrFundBalancesBOYAmt>1361994</TotNetAstOrFundBalancesBOYAmt>
+        <ExcessRevenueOverExpensesAmt>-316956</ExcessRevenueOverExpensesAmt>
+        <OtherIncreasesAmt referenceDocumentId="00000011" referenceDocumentName="OtherIncreasesSchedule">257657</OtherIncreasesAmt>
+        <SubtotalAmt>1302695</SubtotalAmt>
+        <TotNetAstOrFundBalancesEOYAmt>1302695</TotNetAstOrFundBalancesEOYAmt>
+      </ChgInNetAssetsFundBalancesGrp>
+      <QlfyUndSect4940eReducedTaxGrp>
+        <AdjustedQlfyDistriYr1Amt>443510</AdjustedQlfyDistriYr1Amt>
+        <NetVlNoncharitableAssetsYr1Amt>919443</NetVlNoncharitableAssetsYr1Amt>
+        <DistributionYr1Rt>0.482368</DistributionYr1Rt>
+        <AdjustedQlfyDistriYr2Amt>91533</AdjustedQlfyDistriYr2Amt>
+        <NetVlNoncharitableAssetsYr2Amt>859690</NetVlNoncharitableAssetsYr2Amt>
+        <DistributionYr2Rt>0.106472</DistributionYr2Rt>
+        <AdjustedQlfyDistriYr3Amt>126023</AdjustedQlfyDistriYr3Amt>
+        <DistributionYr3Rt>0.000000</DistributionYr3Rt>
+        <AdjustedQlfyDistriYr4Amt>101598</AdjustedQlfyDistriYr4Amt>
+        <DistributionYr4Rt>0.000000</DistributionYr4Rt>
+        <AdjustedQlfyDistriYr5Amt>55128</AdjustedQlfyDistriYr5Amt>
+        <TotalDistributionRt>0.588840</TotalDistributionRt>
+        <AverageDistributionRt>0.147210</AverageDistributionRt>
+        <NetInvestmentIncomePctAmt>445</NetInvestmentIncomePctAmt>
+        <AdjNonchrtblNetInvstIncmPctAmt>445</AdjNonchrtblNetInvstIncmPctAmt>
+        <QualifyingDistributionsAmt>463905</QualifyingDistributionsAmt>
+      </QlfyUndSect4940eReducedTaxGrp>
+      <ExciseTaxBasedOnInvstIncmGrp>
+        <DomesticOrgMeetingSect4940eInd>X</DomesticOrgMeetingSect4940eInd>
+        <InvestmentIncomeExciseTaxAmt>445</InvestmentIncomeExciseTaxAmt>
+        <TaxUnderSection511Amt>0</TaxUnderSection511Amt>
+        <SubtotalAmt>445</SubtotalAmt>
+        <TaxBasedOnInvestmentIncomeAmt>445</TaxBasedOnInvestmentIncomeAmt>
+        <EstimatedPlusOvpmtIncmTxAmt>1058</EstimatedPlusOvpmtIncmTxAmt>
+        <TotalPaymentsAndCreditsAmt>1058</TotalPaymentsAndCreditsAmt>
+        <OriginalReturnOverpaymentAmt>-1058</OriginalReturnOverpaymentAmt>
+        <OverpaymentAmt>613</OverpaymentAmt>
+        <AppliedToESTaxAmt>613</AppliedToESTaxAmt>
+      </ExciseTaxBasedOnInvstIncmGrp>
+      <StatementsRegardingActyGrp>
+        <LegislativePoliticalActyInd>false</LegislativePoliticalActyInd>
+        <MoreThan100SpentInd>false</MoreThan100SpentInd>
+        <Form1120POLFiledInd>false</Form1120POLFiledInd>
+        <ActivitiesNotPreviouslyRptInd>false</ActivitiesNotPreviouslyRptInd>
+        <ChangesToArticlesOrBylawsInd>false</ChangesToArticlesOrBylawsInd>
+        <UnrelatedBusIncmOverLimitInd>false</UnrelatedBusIncmOverLimitInd>
+        <Form990TFiledInd>false</Form990TFiledInd>
+        <OrganizationDissolvedEtcInd>false</OrganizationDissolvedEtcInd>
+        <Section508eRqrSatisfiedInd>true</Section508eRqrSatisfiedInd>
+        <AtLeast5000InAssetsInd>true</AtLeast5000InAssetsInd>
+        <OrgReportOrRegisterStateCd>CA</OrgReportOrRegisterStateCd>
+        <Form990PFFiledWithAttyGenInd>true</Form990PFFiledWithAttyGenInd>
+        <PrivateOperatingFoundationInd>false</PrivateOperatingFoundationInd>
+        <NewSubstantialContributorsInd>false</NewSubstantialContributorsInd>
+        <OwnControlledEntityInd>false</OwnControlledEntityInd>
+        <DonorAdvisedFundInd>false</DonorAdvisedFundInd>
+        <ComplyWithPublicInspRqrInd>true</ComplyWithPublicInspRqrInd>
+        <WebsiteAddressTxt>hermanbennettfoundation.org</WebsiteAddressTxt>
+        <IndividualWithBooksNm>PAUL J MEYE</IndividualWithBooksNm>
+        <PhoneNum>7147124940</PhoneNum>
+        <LocationOfBooksUSAddress>
+          <AddressLine1Txt>2140 W Chapman Ave Suite 202</AddressLine1Txt>
+          <CityNm>Orange</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>92868</ZIPCd>
+        </LocationOfBooksUSAddress>
+        <ForeignAccountsQuestionInd>false</ForeignAccountsQuestionInd>
+      </StatementsRegardingActyGrp>
+      <StatementsRegardingActy4720Grp>
+        <SaleOrExchDisqualifiedPrsnInd>false</SaleOrExchDisqualifiedPrsnInd>
+        <BrrwOrLendDisqualifiedPrsnInd>false</BrrwOrLendDisqualifiedPrsnInd>
+        <FurnGoodsDisqualifiedPrsnInd>false</FurnGoodsDisqualifiedPrsnInd>
+        <PayCompDisqualifiedPrsnInd>false</PayCompDisqualifiedPrsnInd>
+        <TransferAstDisqualifiedPrsnInd>false</TransferAstDisqualifiedPrsnInd>
+        <PaymentToGovernmentOfficialInd>false</PaymentToGovernmentOfficialInd>
+        <UncorrectedPriorActsInd>false</UncorrectedPriorActsInd>
+        <UndistributedIncomePYInd>false</UndistributedIncomePYInd>
+        <UndistrIncmSect4942a2NotAppInd>false</UndistrIncmSect4942a2NotAppInd>
+        <BusinessHoldingsInd>true</BusinessHoldingsInd>
+        <ExcessBusinessHoldingsInd>false</ExcessBusinessHoldingsInd>
+        <JeopardyInvestmentsInd>false</JeopardyInvestmentsInd>
+        <UncorrectedPYJeopardyInvstInd>false</UncorrectedPYJeopardyInvstInd>
+        <InfluenceLegislationInd>false</InfluenceLegislationInd>
+        <InfluenceElectionInd>false</InfluenceElectionInd>
+        <GrantsToIndividualsInd>false</GrantsToIndividualsInd>
+        <GrantsToOrganizationsInd>false</GrantsToOrganizationsInd>
+        <NoncharitablePurposeInd>false</NoncharitablePurposeInd>
+        <RcvFndsToPayPrsnlBnftCntrctInd>false</RcvFndsToPayPrsnlBnftCntrctInd>
+        <PayPremiumsPrsnlBnftCntrctInd>false</PayPremiumsPrsnlBnftCntrctInd>
+        <ProhibitedTaxShelterTransInd>false</ProhibitedTaxShelterTransInd>
+      </StatementsRegardingActy4720Grp>
+      <OfficerDirTrstKeyEmplInfoGrp>
+        <OfficerDirTrstKeyEmplGrp>
+          <PersonNm>CHARLOTTE BROWN</PersonNm>
+          <USAddress>
+            <AddressLine1Txt>2784 Truman Street</AddressLine1Txt>
+            <CityNm>Camarillo</CityNm>
+            <StateAbbreviationCd>CA</StateAbbreviationCd>
+            <ZIPCd>93010</ZIPCd>
+          </USAddress>
+          <TitleTxt>President/Director</TitleTxt>
+          <AverageHrsPerWkDevotedToPosRt>3.00</AverageHrsPerWkDevotedToPosRt>
+          <CompensationAmt>0</CompensationAmt>
+          <EmployeeBenefitProgramAmt>0</EmployeeBenefitProgramAmt>
+          <ExpenseAccountOtherAllwncAmt>0</ExpenseAccountOtherAllwncAmt>
+        </OfficerDirTrstKeyEmplGrp>
+        <OfficerDirTrstKeyEmplGrp>
+          <PersonNm>PAUL MEYE</PersonNm>
+          <USAddress>
+            <AddressLine1Txt>2140 W Chapman Ave Ste 202</AddressLine1Txt>
+            <CityNm>Orange</CityNm>
+            <StateAbbreviationCd>CA</StateAbbreviationCd>
+            <ZIPCd>92868</ZIPCd>
+          </USAddress>
+          <TitleTxt>Treasurer/Director</TitleTxt>
+          <AverageHrsPerWkDevotedToPosRt>1.00</AverageHrsPerWkDevotedToPosRt>
+          <CompensationAmt>0</CompensationAmt>
+          <EmployeeBenefitProgramAmt>0</EmployeeBenefitProgramAmt>
+          <ExpenseAccountOtherAllwncAmt>0</ExpenseAccountOtherAllwncAmt>
+        </OfficerDirTrstKeyEmplGrp>
+        <OfficerDirTrstKeyEmplGrp>
+          <PersonNm>KIMBERLY KINCAID CASTRO</PersonNm>
+          <USAddress>
+            <AddressLine1Txt>2784 Truman Street</AddressLine1Txt>
+            <CityNm>Camarillo</CityNm>
+            <StateAbbreviationCd>CA</StateAbbreviationCd>
+            <ZIPCd>93010</ZIPCd>
+          </USAddress>
+          <TitleTxt>Secretary/Director</TitleTxt>
+          <AverageHrsPerWkDevotedToPosRt>3.00</AverageHrsPerWkDevotedToPosRt>
+          <CompensationAmt>0</CompensationAmt>
+          <EmployeeBenefitProgramAmt>0</EmployeeBenefitProgramAmt>
+          <ExpenseAccountOtherAllwncAmt>0</ExpenseAccountOtherAllwncAmt>
+        </OfficerDirTrstKeyEmplGrp>
+        <OfficerDirTrstKeyEmplGrp>
+          <PersonNm>MARVIN L FISHER</PersonNm>
+          <USAddress>
+            <AddressLine1Txt>309 Arcade</AddressLine1Txt>
+            <CityNm>Ventura</CityNm>
+            <StateAbbreviationCd>CA</StateAbbreviationCd>
+            <ZIPCd>93003</ZIPCd>
+          </USAddress>
+          <TitleTxt>Director</TitleTxt>
+          <AverageHrsPerWkDevotedToPosRt>40.00</AverageHrsPerWkDevotedToPosRt>
+          <CompensationAmt>51464</CompensationAmt>
+          <EmployeeBenefitProgramAmt>0</EmployeeBenefitProgramAmt>
+          <ExpenseAccountOtherAllwncAmt>0</ExpenseAccountOtherAllwncAmt>
+        </OfficerDirTrstKeyEmplGrp>
+        <CompOfHghstPdEmplOrNONETxt>NONE</CompOfHghstPdEmplOrNONETxt>
+        <OtherEmployeePaidOver50kCnt>0</OtherEmployeePaidOver50kCnt>
+        <CompOfHghstPdCntrctOrNONETxt>NONE</CompOfHghstPdCntrctOrNONETxt>
+        <ContractorPaidOver50kCnt>0</ContractorPaidOver50kCnt>
+      </OfficerDirTrstKeyEmplInfoGrp>
+      <SummaryOfDirectChrtblActyGrp>
+        <Description1Txt>Financial contributions to assist needy pet owners with the spaying and neuteringof their dogs and cats. Contributions are to those veterinariansand organizations who perform the spaying and neutering.</Description1Txt>
+        <Expenses1Amt>65100</Expenses1Amt>
+        <Description2Txt>Education to promote community awareness toward preventingthe ovepopulation and euthanizing of dogs and cats in LosAngeles and Ventura counties.</Description2Txt>
+        <Expenses2Amt>0</Expenses2Amt>
+        <Description3Txt>Support of military and police K-9 units for retired dogsand support for vets who care for them.</Description3Txt>
+        <Expenses3Amt>1500</Expenses3Amt>
+        <Expenses4Amt>0</Expenses4Amt>
+      </SummaryOfDirectChrtblActyGrp>
+      <MinimumInvestmentReturnGrp>
+        <AverageMonthlyFMVOfSecAmt>0</AverageMonthlyFMVOfSecAmt>
+        <AverageMonthlyCashBalancesAmt>0</AverageMonthlyCashBalancesAmt>
+        <FMVAllOtherNoncharitableAstAmt>0</FMVAllOtherNoncharitableAstAmt>
+        <TotalFMVOfUnusedAssetsAmt>0</TotalFMVOfUnusedAssetsAmt>
+        <AdjustedTotalFMVOfUnusedAstAmt>0</AdjustedTotalFMVOfUnusedAstAmt>
+        <CashDeemedCharitableAmt>0</CashDeemedCharitableAmt>
+        <NetVlNoncharitableAssetsAmt>0</NetVlNoncharitableAssetsAmt>
+        <MinimumInvestmentReturnAmt>0</MinimumInvestmentReturnAmt>
+      </MinimumInvestmentReturnGrp>
+      <DistributableAmountGrp>
+        <TaxBasedOnInvestmentIncomeAmt>445</TaxBasedOnInvestmentIncomeAmt>
+        <TotalTaxAmt>445</TotalTaxAmt>
+        <DistributableAsAdjustedAmt>0</DistributableAsAdjustedAmt>
+      </DistributableAmountGrp>
+      <QualifyingDistriPartXIIGrp>
+        <ExpensesAndContributionsAmt>463905</ExpensesAndContributionsAmt>
+        <QualifyingDistributionsAmt>463905</QualifyingDistributionsAmt>
+        <PctSect4940eOrgNetInvstIncmAmt>445</PctSect4940eOrgNetInvstIncmAmt>
+        <AdjustedQualifyingDistriAmt>463460</AdjustedQualifyingDistriAmt>
+      </QualifyingDistriPartXIIGrp>
+      <UndistributedIncomeGrp>
+        <DistributableAsAdjustedAmt>0</DistributableAsAdjustedAmt>
+        <UndistributedIncomePYAmt>45730</UndistributedIncomePYAmt>
+        <ExcessDistributionCyovYr5Amt>55128</ExcessDistributionCyovYr5Amt>
+        <ExcessDistributionCyovYr4Amt>101598</ExcessDistributionCyovYr4Amt>
+        <ExcessDistributionCyovYr3Amt>126023</ExcessDistributionCyovYr3Amt>
+        <ExcessDistributionCyovYr2Amt>113144</ExcessDistributionCyovYr2Amt>
+        <ExcessDistributionCyovYr1Amt>443752</ExcessDistributionCyovYr1Amt>
+        <TotalExcessDistributionCyovAmt>839645</TotalExcessDistributionCyovAmt>
+        <QualifyingDistributionsAmt>463905</QualifyingDistributionsAmt>
+        <RemainingDistriFromCorpusAmt>463905</RemainingDistriFromCorpusAmt>
+        <TotalCorpusAmt>1303550</TotalCorpusAmt>
+        <Taxable2Amt>45730</Taxable2Amt>
+        <UndistributedIncomeCYAmt>0</UndistributedIncomeCYAmt>
+        <ExcessDistriCyovFromYr5Amt>55128</ExcessDistriCyovFromYr5Amt>
+        <ExcessDistriCyovToNextYrAmt>1248422</ExcessDistriCyovToNextYrAmt>
+        <ExcessFromYear4Amt>101598</ExcessFromYear4Amt>
+        <ExcessFromYear3Amt>126023</ExcessFromYear3Amt>
+        <ExcessFromYear2Amt>113144</ExcessFromYear2Amt>
+        <ExcessFromYear1Amt>443752</ExcessFromYear1Amt>
+        <ExcessFromCurrentYearAmt>463905</ExcessFromCurrentYearAmt>
+      </UndistributedIncomeGrp>
+      <SupplementaryInformationGrp>
+        <ApplicationSubmissionInfoGrp>
+          <RecipientPersonNm>CHARLOTTE BROWN</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>1330 Flynn Road Suite D</AddressLine1Txt>
+            <CityNm>Camarillo</CityNm>
+            <StateAbbreviationCd>CA</StateAbbreviationCd>
+            <ZIPCd>93012</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientPhoneNum>8054457171</RecipientPhoneNum>
+          <FormAndInfoAndMaterialsTxt>LETTERS DESCRIBING SPAYING AND NEUTERING PROGRAM FOR NEEDY PET OWNERS.</FormAndInfoAndMaterialsTxt>
+          <SubmissionDeadlinesTxt>NONE</SubmissionDeadlinesTxt>
+          <RestrictionsOnAwardsTxt>ORGANIZATION ASSOCIATED WITH VETERINARIANS IN VENTURA COUNTY.</RestrictionsOnAwardsTxt>
+        </ApplicationSubmissionInfoGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>Mercy Crusade's Nonprofit Spay &amp; Neuter Clinic</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientUSAddress>
+            <AddressLine1Txt>2252 Craig Street</AddressLine1Txt>
+            <CityNm>Oxnard</CityNm>
+            <StateAbbreviationCd>CA</StateAbbreviationCd>
+            <ZIPCd>93036</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientFoundationStatusTxt>NC</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>Spay &amp; Neuter Assistance</GrantOrContributionPurposeTxt>
+          <Amt>8900</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>Valley Veterinary Clinic</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientUSAddress>
+            <AddressLine1Txt>845 Los Angeles Ave</AddressLine1Txt>
+            <CityNm>Simi Valley</CityNm>
+            <StateAbbreviationCd>CA</StateAbbreviationCd>
+            <ZIPCd>93065</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientFoundationStatusTxt>NC</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>Spay &amp; Neuter Assistance</GrantOrContributionPurposeTxt>
+          <Amt>23000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>Ventura County Animal Shelter</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientUSAddress>
+            <AddressLine1Txt>600 Aviation Drive</AddressLine1Txt>
+            <CityNm>Camarillo</CityNm>
+            <StateAbbreviationCd>CA</StateAbbreviationCd>
+            <ZIPCd>93010</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientFoundationStatusTxt>NC</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>Spay &amp; Neuter Assistance</GrantOrContributionPurposeTxt>
+          <Amt>16700</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>Simi Valley Spay &amp; Neuter Clinic</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientUSAddress>
+            <AddressLine1Txt>1659 E Los Angeles Ave</AddressLine1Txt>
+            <CityNm>Simi Valley</CityNm>
+            <StateAbbreviationCd>CA</StateAbbreviationCd>
+            <ZIPCd>93065</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientFoundationStatusTxt>NC</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>Spay &amp; Neuter Assistance</GrantOrContributionPurposeTxt>
+          <Amt>2500</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>K-9 Unit Oxnard Police Dept</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientUSAddress>
+            <AddressLine1Txt>251 S C St</AddressLine1Txt>
+            <CityNm>Oxnard</CityNm>
+            <StateAbbreviationCd>CA</StateAbbreviationCd>
+            <ZIPCd>93030</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientFoundationStatusTxt>NC</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>Support retired K-9 dogs</GrantOrContributionPurposeTxt>
+          <Amt>1500</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <TotalGrantOrContriPdDurYrAmt>52600</TotalGrantOrContriPdDurYrAmt>
+      </SupplementaryInformationGrp>
+      <AnalysisIncomeProducingActyGrp>
+        <OtherRevenueDescribedGrp>
+          <Desc>Deering I Investment Group</Desc>
+          <ExclusionCd>16</ExclusionCd>
+          <ExclusionAmt>21388</ExclusionAmt>
+        </OtherRevenueDescribedGrp>
+        <OtherRevenueDescribedGrp>
+          <Desc>Deering II Investment Group</Desc>
+          <ExclusionCd>16</ExclusionCd>
+          <ExclusionAmt>37284</ExclusionAmt>
+        </OtherRevenueDescribedGrp>
+        <SubtotalsIncmProducingActyGrp>
+          <ExclusionAmt>58672</ExclusionAmt>
+        </SubtotalsIncmProducingActyGrp>
+        <TotalIncomeProducingActyAmt>58672</TotalIncomeProducingActyAmt>
+      </AnalysisIncomeProducingActyGrp>
+      <TrnsfrTransRlnNonchrtblEOGrp>
+        <TrnsfrOfCashToNonchrtblEOInd>false</TrnsfrOfCashToNonchrtblEOInd>
+        <TrnsfrOtherAssetNonchrtblEOInd>false</TrnsfrOtherAssetNonchrtblEOInd>
+        <SalesOrExchangesOfAssetsInd>false</SalesOrExchangesOfAssetsInd>
+        <PurchaseOfAssetsNonchrtblEOInd>false</PurchaseOfAssetsNonchrtblEOInd>
+        <RentalOfFacilitiesOthAssetsInd>false</RentalOfFacilitiesOthAssetsInd>
+        <ReimbursementArrangementsInd>false</ReimbursementArrangementsInd>
+        <LoansOrLoanGuaranteesInd>false</LoansOrLoanGuaranteesInd>
+        <PerformanceOfServicesEtcInd>false</PerformanceOfServicesEtcInd>
+        <SharingOfFacilitiesEtcInd>false</SharingOfFacilitiesEtcInd>
+        <RelationshipsNonchrtblEOInd>false</RelationshipsNonchrtblEOInd>
+      </TrnsfrTransRlnNonchrtblEOGrp>
+    </IRS990PF>
+    <AccountingFeesSchedule documentId="00000003">
+      <AccountingFeesDetail>
+        <CategoryTxt>Schwartz &amp; Company, Inc. CPA/Tax</CategoryTxt>
+        <Amt>6630</Amt>
+      </AccountingFeesDetail>
+    </AccountingFeesSchedule>
+    <DepreciationSchedule documentId="00000004">
+      <DepreciationPropertyGrp>
+        <PropertyDesc>Furniture</PropertyDesc>
+        <AcquiredDt>2003-09-04</AcquiredDt>
+        <CostOrOtherBasisAmt>1500</CostOrOtherBasisAmt>
+        <PriorYearDepreciationAmt>1500</PriorYearDepreciationAmt>
+        <ComputationMethodTxt>200DB</ComputationMethodTxt>
+        <LifeRt>7.00</LifeRt>
+      </DepreciationPropertyGrp>
+      <DepreciationPropertyGrp>
+        <PropertyDesc>Leasehold Improvements</PropertyDesc>
+        <AcquiredDt>2003-08-05</AcquiredDt>
+        <CostOrOtherBasisAmt>1420</CostOrOtherBasisAmt>
+        <PriorYearDepreciationAmt>1420</PriorYearDepreciationAmt>
+        <ComputationMethodTxt>200DB</ComputationMethodTxt>
+        <LifeRt>7.00</LifeRt>
+      </DepreciationPropertyGrp>
+      <DepreciationPropertyGrp>
+        <PropertyDesc>Furniture</PropertyDesc>
+        <AcquiredDt>2004-04-01</AcquiredDt>
+        <CostOrOtherBasisAmt>6477</CostOrOtherBasisAmt>
+        <PriorYearDepreciationAmt>6477</PriorYearDepreciationAmt>
+        <ComputationMethodTxt>200DB</ComputationMethodTxt>
+        <LifeRt>7.00</LifeRt>
+      </DepreciationPropertyGrp>
+      <DepreciationPropertyGrp>
+        <PropertyDesc>Camera</PropertyDesc>
+        <AcquiredDt>2002-04-05</AcquiredDt>
+        <CostOrOtherBasisAmt>174</CostOrOtherBasisAmt>
+        <PriorYearDepreciationAmt>142</PriorYearDepreciationAmt>
+        <ComputationMethodTxt>200DB</ComputationMethodTxt>
+        <LifeRt>7.00</LifeRt>
+      </DepreciationPropertyGrp>
+      <DepreciationPropertyGrp>
+        <PropertyDesc>Projector</PropertyDesc>
+        <AcquiredDt>2005-04-05</AcquiredDt>
+        <CostOrOtherBasisAmt>1001</CostOrOtherBasisAmt>
+        <PriorYearDepreciationAmt>1001</PriorYearDepreciationAmt>
+        <ComputationMethodTxt>200DB</ComputationMethodTxt>
+        <LifeRt>7.00</LifeRt>
+      </DepreciationPropertyGrp>
+      <DepreciationPropertyGrp>
+        <PropertyDesc>File Cabinet</PropertyDesc>
+        <AcquiredDt>2005-04-05</AcquiredDt>
+        <CostOrOtherBasisAmt>319</CostOrOtherBasisAmt>
+        <PriorYearDepreciationAmt>319</PriorYearDepreciationAmt>
+        <ComputationMethodTxt>200DB</ComputationMethodTxt>
+        <LifeRt>7.00</LifeRt>
+      </DepreciationPropertyGrp>
+      <DepreciationPropertyGrp>
+        <PropertyDesc>Furniture &amp; Equipment-</PropertyDesc>
+        <AcquiredDt>2010-04-10</AcquiredDt>
+        <CostOrOtherBasisAmt>3264</CostOrOtherBasisAmt>
+        <PriorYearDepreciationAmt>3264</PriorYearDepreciationAmt>
+        <ComputationMethodTxt>200DB</ComputationMethodTxt>
+        <LifeRt>7.00</LifeRt>
+      </DepreciationPropertyGrp>
+      <DepreciationPropertyGrp>
+        <PropertyDesc>Equipment-Fryes Electronics</PropertyDesc>
+        <AcquiredDt>2011-08-19</AcquiredDt>
+        <CostOrOtherBasisAmt>323</CostOrOtherBasisAmt>
+        <PriorYearDepreciationAmt>298</PriorYearDepreciationAmt>
+        <ComputationMethodTxt>200DB</ComputationMethodTxt>
+        <LifeRt>7.00</LifeRt>
+        <CurrentYearExpenseAmt>25</CurrentYearExpenseAmt>
+      </DepreciationPropertyGrp>
+      <DepreciationPropertyGrp>
+        <PropertyDesc>Truck</PropertyDesc>
+        <AcquiredDt>2018-02-27</AcquiredDt>
+        <CostOrOtherBasisAmt>32454</CostOrOtherBasisAmt>
+        <ComputationMethodTxt>200DB</ComputationMethodTxt>
+        <LifeRt>5.00</LifeRt>
+        <CurrentYearExpenseAmt>6491</CurrentYearExpenseAmt>
+      </DepreciationPropertyGrp>
+      <DepreciationPropertyGrp>
+        <PropertyDesc>Truck Signage</PropertyDesc>
+        <AcquiredDt>2018-04-06</AcquiredDt>
+        <CostOrOtherBasisAmt>3181</CostOrOtherBasisAmt>
+        <ComputationMethodTxt>200DB</ComputationMethodTxt>
+        <LifeRt>5.00</LifeRt>
+        <CurrentYearExpenseAmt>636</CurrentYearExpenseAmt>
+      </DepreciationPropertyGrp>
+    </DepreciationSchedule>
+    <InvestmentsCorpStockSchedule documentId="00000005">
+      <InvestmentsCorporateStockGrp>
+        <StockNm>Healthcare Trust of America</StockNm>
+        <EOYBookValueAmt>4850</EOYBookValueAmt>
+        <EOYFMVAmt>5703</EOYFMVAmt>
+      </InvestmentsCorporateStockGrp>
+    </InvestmentsCorpStockSchedule>
+    <InvestmentsLandSchedule2 documentId="00000006">
+      <InvestmentLandGrp>
+        <CategoryOrItemTxt>Plant, Property &amp; equipment</CategoryOrItemTxt>
+        <CostOrOtherBasisAmt>50113</CostOrOtherBasisAmt>
+        <AccumulatedDepreciationAmt>21573</AccumulatedDepreciationAmt>
+        <BookValueAmt>28540</BookValueAmt>
+      </InvestmentLandGrp>
+    </InvestmentsLandSchedule2>
+    <InvestmentsOtherSchedule2 documentId="00000007">
+      <InvestmentsOtherGrp>
+        <CategoryOrItemTxt>Deering Investment I Group LP</CategoryOrItemTxt>
+        <BookValueAmt>442500</BookValueAmt>
+        <EOYFMVAmt>335000</EOYFMVAmt>
+      </InvestmentsOtherGrp>
+      <InvestmentsOtherGrp>
+        <CategoryOrItemTxt>Deering Investment II Group LP</CategoryOrItemTxt>
+        <BookValueAmt>442500</BookValueAmt>
+        <EOYFMVAmt>590000</EOYFMVAmt>
+      </InvestmentsOtherGrp>
+    </InvestmentsOtherSchedule2>
+    <LegalFeesSchedule documentId="00000008">
+      <LegalFeesGrp>
+        <CategoryTxt>LightGabler LLP Legal</CategoryTxt>
+        <LegalFeesAmt>249</LegalFeesAmt>
+      </LegalFeesGrp>
+      <LegalFeesGrp>
+        <CategoryTxt>Anker, Hymes &amp; Schreiber LLP Legal</CategoryTxt>
+        <LegalFeesAmt>16037</LegalFeesAmt>
+      </LegalFeesGrp>
+    </LegalFeesSchedule>
+    <OtherExpensesSchedule documentId="00000009">
+      <OtherExpensesScheduleGrp>
+        <Desc>Advertising</Desc>
+        <RevenueAndExpensesPerBooksAmt>24997</RevenueAndExpensesPerBooksAmt>
+        <DisbursementsCharitablePrpsAmt>24997</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>Events</Desc>
+        <RevenueAndExpensesPerBooksAmt>20508</RevenueAndExpensesPerBooksAmt>
+        <DisbursementsCharitablePrpsAmt>20508</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>Bank Charges</Desc>
+        <RevenueAndExpensesPerBooksAmt>516</RevenueAndExpensesPerBooksAmt>
+        <DisbursementsCharitablePrpsAmt>516</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>Dues &amp; Subscriptions</Desc>
+        <RevenueAndExpensesPerBooksAmt>1169</RevenueAndExpensesPerBooksAmt>
+        <DisbursementsCharitablePrpsAmt>1169</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>Meals &amp; Entertainment at 50%</Desc>
+        <RevenueAndExpensesPerBooksAmt>1152</RevenueAndExpensesPerBooksAmt>
+        <DisbursementsCharitablePrpsAmt>1152</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>Repairs &amp; Maintenance</Desc>
+        <RevenueAndExpensesPerBooksAmt>774</RevenueAndExpensesPerBooksAmt>
+        <DisbursementsCharitablePrpsAmt>774</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>Office Supplies</Desc>
+        <RevenueAndExpensesPerBooksAmt>16330</RevenueAndExpensesPerBooksAmt>
+        <DisbursementsCharitablePrpsAmt>16330</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>Outside Services</Desc>
+        <RevenueAndExpensesPerBooksAmt>20907</RevenueAndExpensesPerBooksAmt>
+        <DisbursementsCharitablePrpsAmt>20907</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>Postage</Desc>
+        <RevenueAndExpensesPerBooksAmt>457</RevenueAndExpensesPerBooksAmt>
+        <DisbursementsCharitablePrpsAmt>457</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>Expense Reimbursements - Office</Desc>
+        <RevenueAndExpensesPerBooksAmt>387</RevenueAndExpensesPerBooksAmt>
+        <DisbursementsCharitablePrpsAmt>387</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>Rental Truck</Desc>
+        <RevenueAndExpensesPerBooksAmt>229</RevenueAndExpensesPerBooksAmt>
+        <DisbursementsCharitablePrpsAmt>229</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>Telephone</Desc>
+        <RevenueAndExpensesPerBooksAmt>4895</RevenueAndExpensesPerBooksAmt>
+        <DisbursementsCharitablePrpsAmt>4895</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>Insurance</Desc>
+        <RevenueAndExpensesPerBooksAmt>4628</RevenueAndExpensesPerBooksAmt>
+        <DisbursementsCharitablePrpsAmt>4628</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>Trapper Mileage Payments</Desc>
+        <RevenueAndExpensesPerBooksAmt>7831</RevenueAndExpensesPerBooksAmt>
+        <DisbursementsCharitablePrpsAmt>7831</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>Utilities</Desc>
+        <RevenueAndExpensesPerBooksAmt>3848</RevenueAndExpensesPerBooksAmt>
+        <DisbursementsCharitablePrpsAmt>3848</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>Rent</Desc>
+        <RevenueAndExpensesPerBooksAmt>39054</RevenueAndExpensesPerBooksAmt>
+        <DisbursementsCharitablePrpsAmt>39054</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>Auto Expense</Desc>
+        <RevenueAndExpensesPerBooksAmt>1390</RevenueAndExpensesPerBooksAmt>
+        <DisbursementsCharitablePrpsAmt>1390</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>Web Maintenance</Desc>
+        <RevenueAndExpensesPerBooksAmt>25875</RevenueAndExpensesPerBooksAmt>
+        <DisbursementsCharitablePrpsAmt>25875</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>Registration</Desc>
+        <RevenueAndExpensesPerBooksAmt>355</RevenueAndExpensesPerBooksAmt>
+        <DisbursementsCharitablePrpsAmt>355</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>Save A Life Thrift Stores Single Member LLC Costs:</Desc>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>Advertising</Desc>
+        <RevenueAndExpensesPerBooksAmt>4673</RevenueAndExpensesPerBooksAmt>
+        <DisbursementsCharitablePrpsAmt>4673</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>Auto &amp; Truck</Desc>
+        <RevenueAndExpensesPerBooksAmt>1428</RevenueAndExpensesPerBooksAmt>
+        <DisbursementsCharitablePrpsAmt>1428</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>Bank Charges</Desc>
+        <RevenueAndExpensesPerBooksAmt>799</RevenueAndExpensesPerBooksAmt>
+        <DisbursementsCharitablePrpsAmt>799</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>Computer Service</Desc>
+        <RevenueAndExpensesPerBooksAmt>538</RevenueAndExpensesPerBooksAmt>
+        <DisbursementsCharitablePrpsAmt>538</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>Meetings</Desc>
+        <RevenueAndExpensesPerBooksAmt>195</RevenueAndExpensesPerBooksAmt>
+        <DisbursementsCharitablePrpsAmt>195</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>Fees</Desc>
+        <RevenueAndExpensesPerBooksAmt>80</RevenueAndExpensesPerBooksAmt>
+        <DisbursementsCharitablePrpsAmt>80</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>Insurance</Desc>
+        <RevenueAndExpensesPerBooksAmt>3596</RevenueAndExpensesPerBooksAmt>
+        <DisbursementsCharitablePrpsAmt>3596</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>Janitorial</Desc>
+        <RevenueAndExpensesPerBooksAmt>90</RevenueAndExpensesPerBooksAmt>
+        <DisbursementsCharitablePrpsAmt>90</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>Promotional Event</Desc>
+        <RevenueAndExpensesPerBooksAmt>224</RevenueAndExpensesPerBooksAmt>
+        <DisbursementsCharitablePrpsAmt>224</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>Legal &amp; Professional</Desc>
+        <RevenueAndExpensesPerBooksAmt>1740</RevenueAndExpensesPerBooksAmt>
+        <DisbursementsCharitablePrpsAmt>1740</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>50% Meals &amp; Entertainment</Desc>
+        <RevenueAndExpensesPerBooksAmt>265</RevenueAndExpensesPerBooksAmt>
+        <DisbursementsCharitablePrpsAmt>265</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>Merchant Fees</Desc>
+        <RevenueAndExpensesPerBooksAmt>1285</RevenueAndExpensesPerBooksAmt>
+        <DisbursementsCharitablePrpsAmt>1285</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>Office Expense</Desc>
+        <RevenueAndExpensesPerBooksAmt>3301</RevenueAndExpensesPerBooksAmt>
+        <DisbursementsCharitablePrpsAmt>3301</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>Outside Services</Desc>
+        <RevenueAndExpensesPerBooksAmt>6440</RevenueAndExpensesPerBooksAmt>
+        <DisbursementsCharitablePrpsAmt>6440</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>Postage</Desc>
+        <RevenueAndExpensesPerBooksAmt>272</RevenueAndExpensesPerBooksAmt>
+        <DisbursementsCharitablePrpsAmt>272</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>Reimbursements</Desc>
+        <RevenueAndExpensesPerBooksAmt>931</RevenueAndExpensesPerBooksAmt>
+        <DisbursementsCharitablePrpsAmt>931</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>Office Supplies</Desc>
+        <RevenueAndExpensesPerBooksAmt>1174</RevenueAndExpensesPerBooksAmt>
+        <DisbursementsCharitablePrpsAmt>1174</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>Telephone</Desc>
+        <RevenueAndExpensesPerBooksAmt>7049</RevenueAndExpensesPerBooksAmt>
+        <DisbursementsCharitablePrpsAmt>7049</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>Utilities</Desc>
+        <RevenueAndExpensesPerBooksAmt>2335</RevenueAndExpensesPerBooksAmt>
+        <DisbursementsCharitablePrpsAmt>2335</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>Trash</Desc>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>Storage</Desc>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>Repairs &amp; Maint</Desc>
+        <RevenueAndExpensesPerBooksAmt>2034</RevenueAndExpensesPerBooksAmt>
+        <DisbursementsCharitablePrpsAmt>2034</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>Rent</Desc>
+        <RevenueAndExpensesPerBooksAmt>35752</RevenueAndExpensesPerBooksAmt>
+        <DisbursementsCharitablePrpsAmt>35752</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>Taxes &amp; Licenses</Desc>
+        <RevenueAndExpensesPerBooksAmt>9366</RevenueAndExpensesPerBooksAmt>
+        <DisbursementsCharitablePrpsAmt>9366</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>Wages</Desc>
+        <RevenueAndExpensesPerBooksAmt>69570</RevenueAndExpensesPerBooksAmt>
+        <DisbursementsCharitablePrpsAmt>69570</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>Web Maintenance</Desc>
+        <RevenueAndExpensesPerBooksAmt>798</RevenueAndExpensesPerBooksAmt>
+        <DisbursementsCharitablePrpsAmt>798</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+    </OtherExpensesSchedule>
+    <OtherIncomeSchedule2 documentId="00000010">
+      <OtherIncomeDetail>
+        <Desc>Partnership Income</Desc>
+        <RevenueAndExpensesPerBooksAmt>58672</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>58672</NetInvestmentIncomeAmt>
+      </OtherIncomeDetail>
+      <OtherIncomeDetail>
+        <Desc>Event Income</Desc>
+        <RevenueAndExpensesPerBooksAmt>4035</RevenueAndExpensesPerBooksAmt>
+      </OtherIncomeDetail>
+    </OtherIncomeSchedule2>
+    <OtherIncreasesSchedule documentId="00000011">
+      <OtherIncreasesDetail>
+        <Desc>Prior years correction of net assets</Desc>
+        <Amt>257657</Amt>
+      </OtherIncreasesDetail>
+    </OtherIncreasesSchedule>
+    <OtherLiabilitiesSchedule documentId="00000012">
+      <OtherLiabilitiesDetail>
+        <Desc>Loan Payable-AZ Capital</Desc>
+      </OtherLiabilitiesDetail>
+    </OtherLiabilitiesSchedule>
+    <OtherLiabilitiesSchedule documentId="00000013">
+      <OtherLiabilitiesDetail>
+        <Desc>Loan Payable-AZ Capital</Desc>
+      </OtherLiabilitiesDetail>
+    </OtherLiabilitiesSchedule>
+    <SalesOfInventoryList documentId="00000014">
+      <InventorySaleGrp>
+        <CategoryTxt>Save A Life Thrift Store, LLC</CategoryTxt>
+        <GrossSalesAmt>84675</GrossSalesAmt>
+        <NetAmt>84675</NetAmt>
+      </InventorySaleGrp>
+    </SalesOfInventoryList>
+    <TaxesSchedule documentId="00000015">
+      <TaxesDetail>
+        <CategoryTxt>Property taxes</CategoryTxt>
+        <Amt>207</Amt>
+        <DisbursementsCharitablePrpsAmt>207</DisbursementsCharitablePrpsAmt>
+      </TaxesDetail>
+      <TaxesDetail>
+        <CategoryTxt>Other taxes</CategoryTxt>
+        <Amt>85</Amt>
+        <DisbursementsCharitablePrpsAmt>85</DisbursementsCharitablePrpsAmt>
+      </TaxesDetail>
+      <TaxesDetail>
+        <CategoryTxt>Payroll taxes</CategoryTxt>
+        <Amt>4399</Amt>
+        <DisbursementsCharitablePrpsAmt>4399</DisbursementsCharitablePrpsAmt>
+      </TaxesDetail>
+    </TaxesSchedule>
+  </ReturnData>
+</Return>

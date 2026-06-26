@@ -1,0 +1,833 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Return xmlns="http://www.irs.gov/efile" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.irs.gov/efile" returnVersion="2017v2.3">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2019-02-13T12:47:48-06:00</ReturnTs>
+    <TaxPeriodEndDt>2018-09-30</TaxPeriodEndDt>
+    <PreparerFirmGrp>
+      <PreparerFirmEIN>471284962</PreparerFirmEIN>
+      <PreparerFirmName>
+        <BusinessNameLine1Txt>WARRING &amp; COMPANY VA LLC CPAS</BusinessNameLine1Txt>
+      </PreparerFirmName>
+      <PreparerUSAddress>
+        <AddressLine1Txt>950 NORTH WASHINGTON ST STE 238</AddressLine1Txt>
+        <CityNm>ALEXANDRIA</CityNm>
+        <StateAbbreviationCd>VA</StateAbbreviationCd>
+        <ZIPCd>22314</ZIPCd>
+      </PreparerUSAddress>
+    </PreparerFirmGrp>
+    <ReturnTypeCd>990PF</ReturnTypeCd>
+    <TaxPeriodBeginDt>2017-10-01</TaxPeriodBeginDt>
+    <Filer>
+      <EIN>522006080</EIN>
+      <BusinessName>
+        <BusinessNameLine1Txt>IRWIN AND JUDY ZAZULIA FOUNDATION LTD</BusinessNameLine1Txt>
+      </BusinessName>
+      <BusinessNameControlTxt>IRWI</BusinessNameControlTxt>
+      <PhoneNum>4108492894</PhoneNum>
+      <USAddress>
+        <AddressLine1Txt>381 RHODEN ISLAND DRIVE</AddressLine1Txt>
+        <CityNm>DANIEL ISLAND</CityNm>
+        <StateAbbreviationCd>SC</StateAbbreviationCd>
+        <ZIPCd>29492</ZIPCd>
+      </USAddress>
+    </Filer>
+    <BusinessOfficerGrp>
+      <PersonNm>JUDY ZAZULIA</PersonNm>
+      <PersonTitleTxt>PRESIDENT</PersonTitleTxt>
+      <PhoneNum>4108492894</PhoneNum>
+      <SignatureDt>2019-02-11</SignatureDt>
+      <DiscussWithPaidPreparerInd>1</DiscussWithPaidPreparerInd>
+    </BusinessOfficerGrp>
+    <PreparerPersonGrp>
+      <PreparerPersonNm>KATHRYN COZZENS CPA</PreparerPersonNm>
+      <PTIN>P00730458</PTIN>
+      <PhoneNum>7037786548</PhoneNum>
+    </PreparerPersonGrp>
+    <FilingSecurityInformation>
+      <IPAddress>
+        <IPv4AddressTxt>73.132.117.111</IPv4AddressTxt>
+      </IPAddress>
+      <IPDt>2019-02-11</IPDt>
+      <IPTm>11:20:12</IPTm>
+      <IPTimezoneCd>ES</IPTimezoneCd>
+      <FilingLicenseTypeCd>P</FilingLicenseTypeCd>
+      <AtSubmissionCreationDeviceId>76FF2A6BB2396675DA7FC3BECCB7F23E28595D91</AtSubmissionCreationDeviceId>
+      <AtSubmissionFilingDeviceId>FF63A8BEF45084E4111860BF3B06E27E98C16888</AtSubmissionFilingDeviceId>
+    </FilingSecurityInformation>
+    <TaxYr>2017</TaxYr>
+    <BuildTS>2019-02-21 02:37:17Z</BuildTS>
+  </ReturnHeader>
+  <ReturnData documentCnt="7">
+    <IRS990PF documentId="RetDoc1235000001">
+      <Organization501c3ExemptPFInd>X</Organization501c3ExemptPFInd>
+      <FMVAssetsEOYAmt>3304386</FMVAssetsEOYAmt>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <AnalysisOfRevenueAndExpenses>
+        <ScheduleBNotRequiredInd>X</ScheduleBNotRequiredInd>
+        <InterestOnSavRevAndExpnssAmt>37290</InterestOnSavRevAndExpnssAmt>
+        <InterestOnSavNetInvstIncmAmt>37290</InterestOnSavNetInvstIncmAmt>
+        <DividendsRevAndExpnssAmt>50017</DividendsRevAndExpnssAmt>
+        <DividendsNetInvstIncmAmt>50017</DividendsNetInvstIncmAmt>
+        <NetGainSaleAstRevAndExpnssAmt>925445</NetGainSaleAstRevAndExpnssAmt>
+        <GrossSalesPriceAmt>1986165</GrossSalesPriceAmt>
+        <CapGainNetIncmNetInvstIncmAmt>925445</CapGainNetIncmNetInvstIncmAmt>
+        <OtherIncomeRevAndExpnssAmt referenceDocumentId="RetDoc2001500001">126</OtherIncomeRevAndExpnssAmt>
+        <OtherIncomeNetInvstIncmAmt>126</OtherIncomeNetInvstIncmAmt>
+        <TotalRevAndExpnssAmt>1012878</TotalRevAndExpnssAmt>
+        <TotalNetInvstIncmAmt>1012878</TotalNetInvstIncmAmt>
+        <CompOfcrDirTrstRevAndExpnssAmt>0</CompOfcrDirTrstRevAndExpnssAmt>
+        <CompOfcrDirTrstNetInvstIncmAmt>0</CompOfcrDirTrstNetInvstIncmAmt>
+        <CompOfcrDirTrstDsbrsChrtblAmt>0</CompOfcrDirTrstDsbrsChrtblAmt>
+        <AccountingFeesRevAndExpnssAmt referenceDocumentId="RetDoc2002200001">4750</AccountingFeesRevAndExpnssAmt>
+        <AccountingFeesNetInvstIncmAmt>4750</AccountingFeesNetInvstIncmAmt>
+        <AccountingFeesChrtblPrpsAmt>0</AccountingFeesChrtblPrpsAmt>
+        <OtherProfFeesRevAndExpnssAmt referenceDocumentId="RetDoc2002300001">12312</OtherProfFeesRevAndExpnssAmt>
+        <OtherProfFeesNetInvstIncmAmt>12312</OtherProfFeesNetInvstIncmAmt>
+        <OtherProfFeesDsbrsChrtblAmt>0</OtherProfFeesDsbrsChrtblAmt>
+        <TaxesRevAndExpnssAmt referenceDocumentId="RetDoc2002500001">1535</TaxesRevAndExpnssAmt>
+        <TaxesNetInvstIncmAmt>535</TaxesNetInvstIncmAmt>
+        <TaxesDsbrsChrtblAmt>0</TaxesDsbrsChrtblAmt>
+        <TotOprExpensesRevAndExpnssAmt>18597</TotOprExpensesRevAndExpnssAmt>
+        <TotOprExpensesNetInvstIncmAmt>17597</TotOprExpensesNetInvstIncmAmt>
+        <TotOprExpensesDsbrsChrtblAmt>0</TotOprExpensesDsbrsChrtblAmt>
+        <ContriPaidRevAndExpnssAmt>143000</ContriPaidRevAndExpnssAmt>
+        <ContriPaidDsbrsChrtblAmt>143000</ContriPaidDsbrsChrtblAmt>
+        <TotalExpensesRevAndExpnssAmt>161597</TotalExpensesRevAndExpnssAmt>
+        <TotalExpensesNetInvstIncmAmt>17597</TotalExpensesNetInvstIncmAmt>
+        <TotalExpensesDsbrsChrtblAmt>143000</TotalExpensesDsbrsChrtblAmt>
+        <ExcessRevenueOverExpensesAmt>851281</ExcessRevenueOverExpensesAmt>
+        <NetInvestmentIncomeAmt>995281</NetInvestmentIncomeAmt>
+      </AnalysisOfRevenueAndExpenses>
+      <Form990PFBalanceSheetsGrp>
+        <CashBOYAmt>29121</CashBOYAmt>
+        <CashEOYAmt>20371</CashEOYAmt>
+        <CashEOYFMVAmt>20371</CashEOYFMVAmt>
+        <SavAndTempCashInvstBOYAmt>67921</SavAndTempCashInvstBOYAmt>
+        <SavAndTempCashInvstEOYAmt>117430</SavAndTempCashInvstEOYAmt>
+        <SavAndTempCashInvstEOYFMVAmt>117430</SavAndTempCashInvstEOYFMVAmt>
+        <USGovernmentObligationsBOYAmt>754624</USGovernmentObligationsBOYAmt>
+        <USGovernmentObligationsEOYAmt>0</USGovernmentObligationsEOYAmt>
+        <USGovtObligationsEOYFMVAmt>0</USGovtObligationsEOYFMVAmt>
+        <CorporateStockBOYAmt>966027</CorporateStockBOYAmt>
+        <CorporateStockEOYAmt>0</CorporateStockEOYAmt>
+        <CorporateStockEOYFMVAmt>0</CorporateStockEOYFMVAmt>
+        <OtherInvestmentsBOYAmt>0</OtherInvestmentsBOYAmt>
+        <OtherInvestmentsEOYAmt referenceDocumentId="RetDoc2018100001">2531173</OtherInvestmentsEOYAmt>
+        <OtherInvestmentsEOYFMVAmt>3166585</OtherInvestmentsEOYFMVAmt>
+        <TotalAssetsBOYAmt>1817693</TotalAssetsBOYAmt>
+        <TotalAssetsEOYAmt>2668974</TotalAssetsEOYAmt>
+        <TotalAssetsEOYFMVAmt>3304386</TotalAssetsEOYFMVAmt>
+        <TotalLiabilitiesBOYAmt>0</TotalLiabilitiesBOYAmt>
+        <TotalLiabilitiesEOYAmt>0</TotalLiabilitiesEOYAmt>
+        <OrgDoesNotFollowSFAS117Ind>X</OrgDoesNotFollowSFAS117Ind>
+        <CapitalStockBOYAmt>0</CapitalStockBOYAmt>
+        <CapitalStockEOYAmt>0</CapitalStockEOYAmt>
+        <AdditionalPaidInCapitalBOYAmt>0</AdditionalPaidInCapitalBOYAmt>
+        <AdditionalPaidInCapitalEOYAmt>0</AdditionalPaidInCapitalEOYAmt>
+        <RetainedEarningBOYAmt>1817693</RetainedEarningBOYAmt>
+        <RetainedEarningEOYAmt>2668974</RetainedEarningEOYAmt>
+        <TotNetAstOrFundBalancesBOYAmt>1817693</TotNetAstOrFundBalancesBOYAmt>
+        <TotNetAstOrFundBalancesEOYAmt>2668974</TotNetAstOrFundBalancesEOYAmt>
+        <TotalLiabilitiesNetAstBOYAmt>1817693</TotalLiabilitiesNetAstBOYAmt>
+        <TotalLiabilitiesNetAstEOYAmt>2668974</TotalLiabilitiesNetAstEOYAmt>
+      </Form990PFBalanceSheetsGrp>
+      <ChgInNetAssetsFundBalancesGrp>
+        <TotNetAstOrFundBalancesBOYAmt>1817693</TotNetAstOrFundBalancesBOYAmt>
+        <ExcessRevenueOverExpensesAmt>851281</ExcessRevenueOverExpensesAmt>
+        <OtherIncreasesAmt>0</OtherIncreasesAmt>
+        <SubtotalAmt>2668974</SubtotalAmt>
+        <OtherDecreasesAmt>0</OtherDecreasesAmt>
+        <TotNetAstOrFundBalancesEOYAmt>2668974</TotNetAstOrFundBalancesEOYAmt>
+      </ChgInNetAssetsFundBalancesGrp>
+      <CapGainsLossTxInvstIncmDetail>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>AMERICAN EXPRESS CO</PropertyDesc>
+          <HowAcquiredCd>P</HowAcquiredCd>
+          <AcquiredDt>2008-02-29</AcquiredDt>
+          <SoldDt>2017-10-02</SoldDt>
+          <GrossSalesPriceAmt>9047</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>4267</CostOrOtherBasisAmt>
+          <GainOrLossAmt>4780</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>4780</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>AMGEN INC</PropertyDesc>
+          <HowAcquiredCd>P</HowAcquiredCd>
+          <AcquiredDt>1997-12-18</AcquiredDt>
+          <SoldDt>2017-10-02</SoldDt>
+          <GrossSalesPriceAmt>9336</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>667</CostOrOtherBasisAmt>
+          <GainOrLossAmt>8669</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>8669</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>BOING CO</PropertyDesc>
+          <HowAcquiredCd>P</HowAcquiredCd>
+          <AcquiredDt>1998-12-28</AcquiredDt>
+          <SoldDt>2017-10-02</SoldDt>
+          <GrossSalesPriceAmt>6393</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>808</CostOrOtherBasisAmt>
+          <GainOrLossAmt>5585</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>5585</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>CHEMOURS CO</PropertyDesc>
+          <HowAcquiredCd>P</HowAcquiredCd>
+          <AcquiredDt>1998-12-28</AcquiredDt>
+          <SoldDt>2017-10-02</SoldDt>
+          <GrossSalesPriceAmt>1851</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>475</CostOrOtherBasisAmt>
+          <GainOrLossAmt>1376</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>1376</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>CHEMOURS CO</PropertyDesc>
+          <HowAcquiredCd>P</HowAcquiredCd>
+          <AcquiredDt>2002-12-10</AcquiredDt>
+          <SoldDt>2017-10-02</SoldDt>
+          <GrossSalesPriceAmt>1304</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>255</CostOrOtherBasisAmt>
+          <GainOrLossAmt>1049</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>1049</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>CHEMOURS CO</PropertyDesc>
+          <HowAcquiredCd>P</HowAcquiredCd>
+          <AcquiredDt>2009-01-20</AcquiredDt>
+          <SoldDt>2017-10-02</SoldDt>
+          <GrossSalesPriceAmt>2103</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>234</CostOrOtherBasisAmt>
+          <GainOrLossAmt>1869</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>1869</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>CHEMOURS CO</PropertyDesc>
+          <HowAcquiredCd>P</HowAcquiredCd>
+          <AcquiredDt>2009-05-26</AcquiredDt>
+          <SoldDt>2017-10-02</SoldDt>
+          <GrossSalesPriceAmt>2103</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>275</CostOrOtherBasisAmt>
+          <GainOrLossAmt>1828</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>1828</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>PRICE T ROWE GROUP INC</PropertyDesc>
+          <HowAcquiredCd>P</HowAcquiredCd>
+          <AcquiredDt>2008-10-30</AcquiredDt>
+          <SoldDt>2017-10-02</SoldDt>
+          <GrossSalesPriceAmt>9056</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>3808</CostOrOtherBasisAmt>
+          <GainOrLossAmt>5248</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>5248</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>DOWDUPONT INC</PropertyDesc>
+          <HowAcquiredCd>P</HowAcquiredCd>
+          <AcquiredDt>1998-12-28</AcquiredDt>
+          <SoldDt>2017-12-01</SoldDt>
+          <GrossSalesPriceAmt>6892</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>4023</CostOrOtherBasisAmt>
+          <GainOrLossAmt>2869</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>2869</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>MICRO FOCUS INTERNATIONAL</PropertyDesc>
+          <HowAcquiredCd>P</HowAcquiredCd>
+          <AcquiredDt>2002-12-10</AcquiredDt>
+          <SoldDt>2017-12-01</SoldDt>
+          <GrossSalesPriceAmt>1812</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>636</CostOrOtherBasisAmt>
+          <GainOrLossAmt>1176</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>1176</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>MICRO FOCUS INTERNATIONAL</PropertyDesc>
+          <HowAcquiredCd>P</HowAcquiredCd>
+          <AcquiredDt>2011-01-10</AcquiredDt>
+          <SoldDt>2017-12-01</SoldDt>
+          <GrossSalesPriceAmt>1331</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>1147</CostOrOtherBasisAmt>
+          <GainOrLossAmt>184</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>184</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>MICRO FOCUS INTERNATIONAL</PropertyDesc>
+          <HowAcquiredCd>P</HowAcquiredCd>
+          <AcquiredDt>2011-11-04</AcquiredDt>
+          <SoldDt>2017-12-01</SoldDt>
+          <GrossSalesPriceAmt>453</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>231</CostOrOtherBasisAmt>
+          <GainOrLossAmt>222</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>222</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>NIKE INC</PropertyDesc>
+          <HowAcquiredCd>P</HowAcquiredCd>
+          <AcquiredDt>1998-03-12</AcquiredDt>
+          <SoldDt>2017-12-01</SoldDt>
+          <GrossSalesPriceAmt>5999</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>572</CostOrOtherBasisAmt>
+          <GainOrLossAmt>5427</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>5427</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>PRICE T ROWE GROUP INC</PropertyDesc>
+          <HowAcquiredCd>P</HowAcquiredCd>
+          <AcquiredDt>2008-10-30</AcquiredDt>
+          <SoldDt>2017-12-01</SoldDt>
+          <GrossSalesPriceAmt>10286</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>3808</CostOrOtherBasisAmt>
+          <GainOrLossAmt>6478</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>6478</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>BANK OF AMERICA CORP</PropertyDesc>
+          <HowAcquiredCd>P</HowAcquiredCd>
+          <AcquiredDt>1999-05-20</AcquiredDt>
+          <SoldDt>2017-12-05</SoldDt>
+          <GrossSalesPriceAmt>5844</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>7131</CostOrOtherBasisAmt>
+          <GainOrLossAmt>-1287</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>-1287</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>CHEVY CHASE TRUST #4328</PropertyDesc>
+          <HowAcquiredCd>P</HowAcquiredCd>
+          <SoldDt>2017-09-30</SoldDt>
+          <GrossSalesPriceAmt>332427</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>333446</CostOrOtherBasisAmt>
+          <GainOrLossAmt>-1019</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>-1019</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>CHEVY CHASE TRUST #4328</PropertyDesc>
+          <HowAcquiredCd>P</HowAcquiredCd>
+          <SoldDt>2017-09-30</SoldDt>
+          <GrossSalesPriceAmt>1579928</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>698937</CostOrOtherBasisAmt>
+          <GainOrLossAmt>880991</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>880991</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapitalGainNetIncomeAmt>925445</CapitalGainNetIncomeAmt>
+      </CapGainsLossTxInvstIncmDetail>
+      <QlfyUndSect4940eReducedTaxGrp>
+        <LiableSection4942TaxInd>0</LiableSection4942TaxInd>
+        <AdjustedQlfyDistriYr1Amt>150500</AdjustedQlfyDistriYr1Amt>
+        <NetVlNoncharitableAssetsYr1Amt>2994461</NetVlNoncharitableAssetsYr1Amt>
+        <DistributionYr1Rt>0.050259</DistributionYr1Rt>
+        <AdjustedQlfyDistriYr2Amt>135389</AdjustedQlfyDistriYr2Amt>
+        <NetVlNoncharitableAssetsYr2Amt>2816508</NetVlNoncharitableAssetsYr2Amt>
+        <DistributionYr2Rt>0.048070</DistributionYr2Rt>
+        <AdjustedQlfyDistriYr3Amt>150000</AdjustedQlfyDistriYr3Amt>
+        <NetVlNoncharitableAssetsYr3Amt>2887643</NetVlNoncharitableAssetsYr3Amt>
+        <DistributionYr3Rt>0.051945</DistributionYr3Rt>
+        <AdjustedQlfyDistriYr4Amt>137988</AdjustedQlfyDistriYr4Amt>
+        <NetVlNoncharitableAssetsYr4Amt>2812241</NetVlNoncharitableAssetsYr4Amt>
+        <DistributionYr4Rt>0.049067</DistributionYr4Rt>
+        <AdjustedQlfyDistriYr5Amt>117750</AdjustedQlfyDistriYr5Amt>
+        <NetVlNoncharitableAssetsYr5Amt>2510762</NetVlNoncharitableAssetsYr5Amt>
+        <DistributionYr5Rt>0.046898</DistributionYr5Rt>
+        <TotalDistributionRt>0.246239</TotalDistributionRt>
+        <AverageDistributionRt>0.049248</AverageDistributionRt>
+        <NetVlNoncharitableAssetsAmt>3242330</NetVlNoncharitableAssetsAmt>
+        <AdjNetVlNoncharitableAssetsAmt>159678</AdjNetVlNoncharitableAssetsAmt>
+        <NetInvestmentIncomePctAmt>9953</NetInvestmentIncomePctAmt>
+        <AdjNonchrtblNetInvstIncmPctAmt>169631</AdjNonchrtblNetInvstIncmPctAmt>
+        <QualifyingDistributionsAmt>143000</QualifyingDistributionsAmt>
+      </QlfyUndSect4940eReducedTaxGrp>
+      <ExciseTaxBasedOnInvstIncmGrp>
+        <InvestmentIncomeExciseTaxAmt>19906</InvestmentIncomeExciseTaxAmt>
+        <TaxUnderSection511Amt>0</TaxUnderSection511Amt>
+        <SubtotalAmt>19906</SubtotalAmt>
+        <SubtitleATaxAmt>0</SubtitleATaxAmt>
+        <TaxBasedOnInvestmentIncomeAmt>19906</TaxBasedOnInvestmentIncomeAmt>
+        <EstimatedPlusOvpmtIncmTxAmt>2039</EstimatedPlusOvpmtIncmTxAmt>
+        <ExtsnRequestIncomeTaxPaidAmt>0</ExtsnRequestIncomeTaxPaidAmt>
+        <BackupWithholdingWithheldAmt>0</BackupWithholdingWithheldAmt>
+        <TotalPaymentsAndCreditsAmt>2039</TotalPaymentsAndCreditsAmt>
+        <EsPenaltyAmt>0</EsPenaltyAmt>
+        <TaxDueAmt>17867</TaxDueAmt>
+      </ExciseTaxBasedOnInvstIncmGrp>
+      <StatementsRegardingActyGrp>
+        <LegislativePoliticalActyInd referenceDocumentId="RetDoc2138500001">0</LegislativePoliticalActyInd>
+        <MoreThan100SpentInd>0</MoreThan100SpentInd>
+        <Form1120POLFiledInd>0</Form1120POLFiledInd>
+        <Section4955OrganizationTaxAmt>0</Section4955OrganizationTaxAmt>
+        <Section4955ManagersTaxAmt>0</Section4955ManagersTaxAmt>
+        <TaxReimbursedAmt>0</TaxReimbursedAmt>
+        <ActivitiesNotPreviouslyRptInd>0</ActivitiesNotPreviouslyRptInd>
+        <ChangesToArticlesOrBylawsInd>0</ChangesToArticlesOrBylawsInd>
+        <UnrelatedBusIncmOverLimitInd>0</UnrelatedBusIncmOverLimitInd>
+        <OrganizationDissolvedEtcInd>0</OrganizationDissolvedEtcInd>
+        <Section508eRqrSatisfiedInd>1</Section508eRqrSatisfiedInd>
+        <AtLeast5000InAssetsInd>1</AtLeast5000InAssetsInd>
+        <OrgReportOrRegisterStateCd>MD</OrgReportOrRegisterStateCd>
+        <Form990PFFiledWithAttyGenInd>1</Form990PFFiledWithAttyGenInd>
+        <PrivateOperatingFoundationInd>0</PrivateOperatingFoundationInd>
+        <NewSubstantialContributorsInd>0</NewSubstantialContributorsInd>
+        <OwnControlledEntityInd>0</OwnControlledEntityInd>
+        <DonorAdvisedFundInd>0</DonorAdvisedFundInd>
+        <ComplyWithPublicInspRqrInd>1</ComplyWithPublicInspRqrInd>
+        <WebsiteAddressTxt>N/A</WebsiteAddressTxt>
+        <IndividualWithBooksNm>JUDY ZAZULIA</IndividualWithBooksNm>
+        <PhoneNum>4102671052</PhoneNum>
+        <LocationOfBooksUSAddress>
+          <AddressLine1Txt>381 RHODEN ISLAND DRIVE</AddressLine1Txt>
+          <CityNm>DANIEL ISLAND</CityNm>
+          <StateAbbreviationCd>SC</StateAbbreviationCd>
+          <ZIPCd>29492</ZIPCd>
+        </LocationOfBooksUSAddress>
+        <ForeignAccountsQuestionInd>0</ForeignAccountsQuestionInd>
+      </StatementsRegardingActyGrp>
+      <StatementsRegardingActy4720Grp>
+        <SaleOrExchDisqualifiedPrsnInd>0</SaleOrExchDisqualifiedPrsnInd>
+        <BrrwOrLendDisqualifiedPrsnInd>0</BrrwOrLendDisqualifiedPrsnInd>
+        <FurnGoodsDisqualifiedPrsnInd>0</FurnGoodsDisqualifiedPrsnInd>
+        <PayCompDisqualifiedPrsnInd>0</PayCompDisqualifiedPrsnInd>
+        <TransferAstDisqualifiedPrsnInd>0</TransferAstDisqualifiedPrsnInd>
+        <PaymentToGovernmentOfficialInd>0</PaymentToGovernmentOfficialInd>
+        <UncorrectedPriorActsInd>0</UncorrectedPriorActsInd>
+        <UndistributedIncomePYInd>0</UndistributedIncomePYInd>
+        <BusinessHoldingsInd>0</BusinessHoldingsInd>
+        <JeopardyInvestmentsInd>0</JeopardyInvestmentsInd>
+        <UncorrectedPYJeopardyInvstInd>0</UncorrectedPYJeopardyInvstInd>
+        <InfluenceLegislationInd>0</InfluenceLegislationInd>
+        <InfluenceElectionInd>0</InfluenceElectionInd>
+        <GrantsToIndividualsInd>0</GrantsToIndividualsInd>
+        <GrantsToOrganizationsInd>0</GrantsToOrganizationsInd>
+        <NoncharitablePurposeInd>0</NoncharitablePurposeInd>
+        <RcvFndsToPayPrsnlBnftCntrctInd>0</RcvFndsToPayPrsnlBnftCntrctInd>
+        <PayPremiumsPrsnlBnftCntrctInd>0</PayPremiumsPrsnlBnftCntrctInd>
+        <ProhibitedTaxShelterTransInd>0</ProhibitedTaxShelterTransInd>
+      </StatementsRegardingActy4720Grp>
+      <OfficerDirTrstKeyEmplInfoGrp>
+        <OfficerDirTrstKeyEmplGrp>
+          <PersonNm>JUDY ZAZULIA</PersonNm>
+          <USAddress>
+            <AddressLine1Txt>381 RHODEN ISLAND DRIVE</AddressLine1Txt>
+            <CityNm>DANIEL ISLAND</CityNm>
+            <StateAbbreviationCd>SC</StateAbbreviationCd>
+            <ZIPCd>29492</ZIPCd>
+          </USAddress>
+          <TitleTxt>PRESIDENT/TREASURER</TitleTxt>
+          <AverageHrsPerWkDevotedToPosRt>0.00</AverageHrsPerWkDevotedToPosRt>
+          <CompensationAmt>0</CompensationAmt>
+          <EmployeeBenefitProgramAmt>0</EmployeeBenefitProgramAmt>
+          <ExpenseAccountOtherAllwncAmt>0</ExpenseAccountOtherAllwncAmt>
+        </OfficerDirTrstKeyEmplGrp>
+        <OfficerDirTrstKeyEmplGrp>
+          <PersonNm>EMILY ZAZULIA</PersonNm>
+          <USAddress>
+            <AddressLine1Txt>42 HACIENDA ROAD</AddressLine1Txt>
+            <CityNm>ORINDA</CityNm>
+            <StateAbbreviationCd>CA</StateAbbreviationCd>
+            <ZIPCd>94563</ZIPCd>
+          </USAddress>
+          <TitleTxt>SECRETARY</TitleTxt>
+          <AverageHrsPerWkDevotedToPosRt>0.00</AverageHrsPerWkDevotedToPosRt>
+          <CompensationAmt>0</CompensationAmt>
+          <EmployeeBenefitProgramAmt>0</EmployeeBenefitProgramAmt>
+          <ExpenseAccountOtherAllwncAmt>0</ExpenseAccountOtherAllwncAmt>
+        </OfficerDirTrstKeyEmplGrp>
+        <CompOfHghstPdEmplOrNONETxt>NONE</CompOfHghstPdEmplOrNONETxt>
+        <OtherEmployeePaidOver50kCnt>0</OtherEmployeePaidOver50kCnt>
+        <CompOfHghstPdCntrctOrNONETxt>NONE</CompOfHghstPdCntrctOrNONETxt>
+        <ContractorPaidOver50kCnt>0</ContractorPaidOver50kCnt>
+      </OfficerDirTrstKeyEmplInfoGrp>
+      <SumOfProgramRelatedInvstGrp>
+        <TotalAmt>0</TotalAmt>
+      </SumOfProgramRelatedInvstGrp>
+      <MinimumInvestmentReturnGrp>
+        <AverageMonthlyFMVOfSecAmt>3131148</AverageMonthlyFMVOfSecAmt>
+        <AverageMonthlyCashBalancesAmt>160558</AverageMonthlyCashBalancesAmt>
+        <FMVAllOtherNoncharitableAstAmt>0</FMVAllOtherNoncharitableAstAmt>
+        <TotalFMVOfUnusedAssetsAmt>3291706</TotalFMVOfUnusedAssetsAmt>
+        <ReductionClaimedAmt>0</ReductionClaimedAmt>
+        <AcquisitionIndebtednessAmt>0</AcquisitionIndebtednessAmt>
+        <AdjustedTotalFMVOfUnusedAstAmt>3291706</AdjustedTotalFMVOfUnusedAstAmt>
+        <CashDeemedCharitableAmt>49376</CashDeemedCharitableAmt>
+        <NetVlNoncharitableAssetsAmt>3242330</NetVlNoncharitableAssetsAmt>
+        <MinimumInvestmentReturnAmt>162117</MinimumInvestmentReturnAmt>
+      </MinimumInvestmentReturnGrp>
+      <DistributableAmountGrp>
+        <MinimumInvestmentReturnAmt>162117</MinimumInvestmentReturnAmt>
+        <TaxBasedOnInvestmentIncomeAmt>19906</TaxBasedOnInvestmentIncomeAmt>
+        <TotalTaxAmt>19906</TotalTaxAmt>
+        <DistributableBeforeAdjAmt>142211</DistributableBeforeAdjAmt>
+        <RecoveriesQualfiedDistriAmt>0</RecoveriesQualfiedDistriAmt>
+        <DistributableBeforeDedAmt>142211</DistributableBeforeDedAmt>
+        <DeductionFromDistributableAmt>0</DeductionFromDistributableAmt>
+        <DistributableAsAdjustedAmt>142211</DistributableAsAdjustedAmt>
+      </DistributableAmountGrp>
+      <QualifyingDistriPartXIIGrp>
+        <ExpensesAndContributionsAmt>143000</ExpensesAndContributionsAmt>
+        <ProgramRelatedInvstTotalAmt>0</ProgramRelatedInvstTotalAmt>
+        <QualifyingDistributionsAmt>143000</QualifyingDistributionsAmt>
+        <PctSect4940eOrgNetInvstIncmAmt>0</PctSect4940eOrgNetInvstIncmAmt>
+        <AdjustedQualifyingDistriAmt>143000</AdjustedQualifyingDistriAmt>
+      </QualifyingDistriPartXIIGrp>
+      <UndistributedIncomeGrp>
+        <DistributableAsAdjustedAmt>142211</DistributableAsAdjustedAmt>
+        <UndistributedIncomePYAmt>0</UndistributedIncomePYAmt>
+        <TotalForPriorYearsAmt>0</TotalForPriorYearsAmt>
+        <ExcessDistributionCyovYr4Amt>7012</ExcessDistributionCyovYr4Amt>
+        <ExcessDistributionCyovYr3Amt>8367</ExcessDistributionCyovYr3Amt>
+        <ExcessDistributionCyovYr1Amt>2562</ExcessDistributionCyovYr1Amt>
+        <TotalExcessDistributionCyovAmt>17941</TotalExcessDistributionCyovAmt>
+        <QualifyingDistributionsAmt>143000</QualifyingDistributionsAmt>
+        <AppliedToYear1Amt>0</AppliedToYear1Amt>
+        <AppliedToPriorYearsAmt>0</AppliedToPriorYearsAmt>
+        <TreatedAsDistriFromCorpusAmt>0</TreatedAsDistriFromCorpusAmt>
+        <AppliedToCurrentYearAmt>142211</AppliedToCurrentYearAmt>
+        <RemainingDistriFromCorpusAmt>789</RemainingDistriFromCorpusAmt>
+        <ExcessDistriCyovAppCYCorpusAmt>0</ExcessDistriCyovAppCYCorpusAmt>
+        <ExcessDistributionCyovAppCYAmt>0</ExcessDistributionCyovAppCYAmt>
+        <TotalCorpusAmt>18730</TotalCorpusAmt>
+        <PriorYearUndistributedIncmAmt>0</PriorYearUndistributedIncmAmt>
+        <PriorYearDeficiencyOrTaxAmt>0</PriorYearDeficiencyOrTaxAmt>
+        <Taxable1Amt>0</Taxable1Amt>
+        <Taxable2Amt>0</Taxable2Amt>
+        <UndistributedIncomeCYAmt>0</UndistributedIncomeCYAmt>
+        <CorpusDistri170b1EOr4942g3Amt>0</CorpusDistri170b1EOr4942g3Amt>
+        <ExcessDistriCyovFromYr5Amt>0</ExcessDistriCyovFromYr5Amt>
+        <ExcessDistriCyovToNextYrAmt>18730</ExcessDistriCyovToNextYrAmt>
+        <ExcessFromYear4Amt>7012</ExcessFromYear4Amt>
+        <ExcessFromYear3Amt>8367</ExcessFromYear3Amt>
+        <ExcessFromYear1Amt>2562</ExcessFromYear1Amt>
+        <ExcessFromCurrentYearAmt>789</ExcessFromCurrentYearAmt>
+      </UndistributedIncomeGrp>
+      <SupplementaryInformationGrp>
+        <OnlyContriToPreselectedInd>X</OnlyContriToPreselectedInd>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>ALZHEIMER ASSOCIATION</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientUSAddress>
+            <AddressLine1Txt>225 N MICHIGAN AVE FL 17</AddressLine1Txt>
+            <CityNm>CHICAGO</CityNm>
+            <StateAbbreviationCd>IL</StateAbbreviationCd>
+            <ZIPCd>60601</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientFoundationStatusTxt>501(C)(3)</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>TO PROVIDE FUNDING FOR RESEARCH TO END ALZHEIMER'S AND DEMENTIA.</GrantOrContributionPurposeTxt>
+          <Amt>5000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>AMERICAN COLLEGE OF BUILDING ARTS</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientUSAddress>
+            <AddressLine1Txt>649 MEETING STREET</AddressLine1Txt>
+            <CityNm>CHARLESTON</CityNm>
+            <StateAbbreviationCd>SC</StateAbbreviationCd>
+            <ZIPCd>29403</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientFoundationStatusTxt>501(C)(3)</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>TO PROVIDE FUNDS TO THE SCHOOL TO EDUCATE &amp; TRAIN ARTISANS IN THE TRADITIONAL BUILDING ARTS.</GrantOrContributionPurposeTxt>
+          <Amt>10000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>AMERICAN RED CROSS</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientUSAddress>
+            <AddressLine1Txt>PO BOX 37839</AddressLine1Txt>
+            <CityNm>BOONE</CityNm>
+            <StateAbbreviationCd>IA</StateAbbreviationCd>
+            <ZIPCd>50037</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientFoundationStatusTxt>501(C)(3)</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>TO SUPPORT THE ORGANIZATION'S FINANCIAL NEEDS.</GrantOrContributionPurposeTxt>
+          <Amt>10000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>AMERICARES</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientUSAddress>
+            <AddressLine1Txt>88 HAMILTON AVE</AddressLine1Txt>
+            <CityNm>STANFORD</CityNm>
+            <StateAbbreviationCd>CT</StateAbbreviationCd>
+            <ZIPCd>06902</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientFoundationStatusTxt>501(C)(3)</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>TO SUPPORT THE EFFORTS OF THE ORGANIZATION TO SAVE LIVES AND IMPROVE HEALTH CARE FOR PEOPLE AFFECTED BY POVERTY OR DISASTER.</GrantOrContributionPurposeTxt>
+          <Amt>5000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>COASTAL CONSERVATION LEAGUE</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientUSAddress>
+            <AddressLine1Txt>PO BOX 1765</AddressLine1Txt>
+            <CityNm>CHARLESTON</CityNm>
+            <StateAbbreviationCd>SC</StateAbbreviationCd>
+            <ZIPCd>29402</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientFoundationStatusTxt>501(C)(3)</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>TO PROVIDE FINANCIAL MEANS TO THE SOCIETY TO HELP SUPPORT ANIMALS IN NEED.</GrantOrContributionPurposeTxt>
+          <Amt>5000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>CYSTIC FIBROSIS ASSOCIATION</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientUSAddress>
+            <AddressLine1Txt>4550 MONTGOMERY AVE STE 1100N</AddressLine1Txt>
+            <CityNm>BETHESDA</CityNm>
+            <StateAbbreviationCd>MD</StateAbbreviationCd>
+            <ZIPCd>20814</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientFoundationStatusTxt>501(C)(3)</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>TO SUPPORT THE ORGANIZATION'S MISSION TO SUPPORT THE SEARCH FOR A CURE.</GrantOrContributionPurposeTxt>
+          <Amt>5000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>EAST COOPER HABITAT FOR HUMANITY</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientUSAddress>
+            <AddressLine1Txt>PO BOX 1990</AddressLine1Txt>
+            <CityNm>MT PLEASANT</CityNm>
+            <StateAbbreviationCd>SC</StateAbbreviationCd>
+            <ZIPCd>29465</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientFoundationStatusTxt>501(C)(3)</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>TO PROVIDE FUNDS IN AN EFFORT TO ELIMINATE SUBSTANDARD HOUSING AND HOMELESSNESS.</GrantOrContributionPurposeTxt>
+          <Amt>5000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>EAST COOPER COMMUNITY OUTREACH</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientUSAddress>
+            <AddressLine1Txt>1145 SIX MILE RD</AddressLine1Txt>
+            <CityNm>MT PLEASANT</CityNm>
+            <StateAbbreviationCd>SC</StateAbbreviationCd>
+            <ZIPCd>29466</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientFoundationStatusTxt>501(C)(3)</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>TO PROVIDE FUNDING FOR JOB READINESS COURSES.</GrantOrContributionPurposeTxt>
+          <Amt>15000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>FLORENCE CRITTENTON PROGRAMS OF SOUTH CAROLINA</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientUSAddress>
+            <AddressLine1Txt>19 SAINT MARGARET ST</AddressLine1Txt>
+            <CityNm>CHARLESTON</CityNm>
+            <StateAbbreviationCd>SC</StateAbbreviationCd>
+            <ZIPCd>29403</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientFoundationStatusTxt>501(C)(3)</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>TO SUPPORT THE ORGANIZATION'S MISSION TO PROVIDE HOPE, SAFETY AND OPPORTUNITY TO YOUNG WOMEN IN ORDER TO INSTILL SELF WORTH AND SELF SUFFICIENCY.</GrantOrContributionPurposeTxt>
+          <Amt>10000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>LOWCOUNTRY FOOD BANK</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientUSAddress>
+            <AddressLine1Txt>2864 AZALEA DR</AddressLine1Txt>
+            <CityNm>NORTH CHARLESTON</CityNm>
+            <StateAbbreviationCd>SC</StateAbbreviationCd>
+            <ZIPCd>29405</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientFoundationStatusTxt>501(C)(3)</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>TO PROVIDE FUNDS TO SUPPORT THE ORGANIZATION'S EFFORTS OF FIGHTING HUNGER IN THE COMMUNITY.</GrantOrContributionPurposeTxt>
+          <Amt>10000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>PETHELPERS</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientUSAddress>
+            <AddressLine1Txt>726 EAST PARK AVE PMB 311</AddressLine1Txt>
+            <CityNm>FAIRMONT</CityNm>
+            <StateAbbreviationCd>WV</StateAbbreviationCd>
+            <ZIPCd>26554</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientFoundationStatusTxt>501(C)(3)</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>TO PROVIDE FINANCIAL SUPPORT FOR THE ORGANIZATION'S PET RESCUE EFFORTS.</GrantOrContributionPurposeTxt>
+          <Amt>5000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>PLANNED PARENTHOOD OF AMERICA</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientUSAddress>
+            <AddressLine1Txt>123 WILLIAM STREET</AddressLine1Txt>
+            <CityNm>NEW YORK</CityNm>
+            <StateAbbreviationCd>NY</StateAbbreviationCd>
+            <ZIPCd>10038</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientFoundationStatusTxt>501(C)(3)</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>TO PROVIDE FUNDS FOR THE ORGANIZATION'S MISSION.</GrantOrContributionPurposeTxt>
+          <Amt>5000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>SALVATION ARMY</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientUSAddress>
+            <AddressLine1Txt>2135 ASHLEY RIVER RD</AddressLine1Txt>
+            <CityNm>CHARLESTON</CityNm>
+            <StateAbbreviationCd>SC</StateAbbreviationCd>
+            <ZIPCd>29407</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientFoundationStatusTxt>501(C)(3)</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>TO PROVIDE FINANCIAL ASSISTANCE TO THE ORGANIZATION.</GrantOrContributionPurposeTxt>
+          <Amt>10000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>ST ANDREW'S SCHOOL</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientUSAddress>
+            <AddressLine1Txt>350 NOXONTOWN RD</AddressLine1Txt>
+            <CityNm>MIDDLETOWN</CityNm>
+            <StateAbbreviationCd>DE</StateAbbreviationCd>
+            <ZIPCd>19709</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientFoundationStatusTxt>501(C)(3)</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>TO PROVIDE FUNDS IN SUPPORT OF THE SCHOOL'S MISSION.</GrantOrContributionPurposeTxt>
+          <Amt>5000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>UNICEF</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientUSAddress>
+            <AddressLine1Txt>125 MAIDEN LANE</AddressLine1Txt>
+            <CityNm>NEW YORK</CityNm>
+            <StateAbbreviationCd>NY</StateAbbreviationCd>
+            <ZIPCd>10038</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientFoundationStatusTxt>501(C)(3)</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>TO SUPPORT THE ORGANIZATION'S MISSION TO FIGHT FOR THE SURVIVAL AND DEVELOPMENT OF CHILDREN.</GrantOrContributionPurposeTxt>
+          <Amt>10000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>UNIVERSITY OF TENNESSEE FOUNDATION</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientUSAddress>
+            <AddressLine1Txt>1609 MELROSE AVENUE</AddressLine1Txt>
+            <CityNm>KNOXVILLE</CityNm>
+            <StateAbbreviationCd>TN</StateAbbreviationCd>
+            <ZIPCd>37996</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientFoundationStatusTxt>501(C)(3)</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>TO SUPPORT THE UNIVERSITY'S EFFORT OF PROVIDING A TOP EDUCATIONAL EXPERIENCE TO THEIR STUDENTS.</GrantOrContributionPurposeTxt>
+          <Amt>28000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <TotalGrantOrContriPdDurYrAmt>143000</TotalGrantOrContriPdDurYrAmt>
+        <TotalGrantOrContriApprvFutAmt>0</TotalGrantOrContriApprvFutAmt>
+      </SupplementaryInformationGrp>
+      <AnalysisIncomeProducingActyGrp>
+        <IntOnSavAndTempCashInvstGrp>
+          <ExclusionCd>14</ExclusionCd>
+          <ExclusionAmt>37290</ExclusionAmt>
+        </IntOnSavAndTempCashInvstGrp>
+        <DivAndIntFromSecPartVIIGrp>
+          <ExclusionCd>14</ExclusionCd>
+          <ExclusionAmt>50017</ExclusionAmt>
+        </DivAndIntFromSecPartVIIGrp>
+        <OtherInvestmentIncmPartVIIGrp>
+          <ExclusionCd>14</ExclusionCd>
+          <ExclusionAmt>126</ExclusionAmt>
+        </OtherInvestmentIncmPartVIIGrp>
+        <GainSalesAstOthThanInvntryGrp>
+          <ExclusionCd>18</ExclusionCd>
+          <ExclusionAmt>925445</ExclusionAmt>
+        </GainSalesAstOthThanInvntryGrp>
+        <SubtotalsIncmProducingActyGrp>
+          <UnrelatedBusinessTaxblIncmAmt>0</UnrelatedBusinessTaxblIncmAmt>
+          <ExclusionAmt>1012878</ExclusionAmt>
+          <RelatedOrExemptFunctionIncmAmt>0</RelatedOrExemptFunctionIncmAmt>
+        </SubtotalsIncmProducingActyGrp>
+        <TotalIncomeProducingActyAmt>1012878</TotalIncomeProducingActyAmt>
+      </AnalysisIncomeProducingActyGrp>
+      <RlnOfActyToAccomOfExmptPrpsGrp>
+        <RlnOfActyToAccomOfExmptPrpsGrp>
+          <LineNumberTxt>8</LineNumberTxt>
+          <RelationshipStatementTxt>INCOME IS GENERATED FROM INVESTMENTS USED TO SUPPORT ALL CHARITABLE DONATIONS OF THE FOUNDATION. ADDITIONALLY, THE INCOME REMAINS IN THE FOUNDATION'S INVESTMENT ACCOUNT AND IS USED TO FURTHER ITS CHARITABLE PURPOSE.</RelationshipStatementTxt>
+        </RlnOfActyToAccomOfExmptPrpsGrp>
+      </RlnOfActyToAccomOfExmptPrpsGrp>
+      <TrnsfrTransRlnNonchrtblEOGrp>
+        <TrnsfrOfCashToNonchrtblEOInd>0</TrnsfrOfCashToNonchrtblEOInd>
+        <TrnsfrOtherAssetNonchrtblEOInd>0</TrnsfrOtherAssetNonchrtblEOInd>
+        <SalesOrExchangesOfAssetsInd>0</SalesOrExchangesOfAssetsInd>
+        <PurchaseOfAssetsNonchrtblEOInd>0</PurchaseOfAssetsNonchrtblEOInd>
+        <RentalOfFacilitiesOthAssetsInd>0</RentalOfFacilitiesOthAssetsInd>
+        <ReimbursementArrangementsInd>0</ReimbursementArrangementsInd>
+        <LoansOrLoanGuaranteesInd>0</LoansOrLoanGuaranteesInd>
+        <PerformanceOfServicesEtcInd>0</PerformanceOfServicesEtcInd>
+        <SharingOfFacilitiesEtcInd>0</SharingOfFacilitiesEtcInd>
+        <RelationshipsNonchrtblEOInd>0</RelationshipsNonchrtblEOInd>
+      </TrnsfrTransRlnNonchrtblEOGrp>
+    </IRS990PF>
+    <AccountingFeesSchedule documentId="RetDoc2002200001">
+      <AccountingFeesDetail>
+        <CategoryTxt>ACCOUNTING FEES</CategoryTxt>
+        <Amt>4750</Amt>
+        <NetInvestmentIncomeAmt>4750</NetInvestmentIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>0</DisbursementsCharitablePrpsAmt>
+      </AccountingFeesDetail>
+    </AccountingFeesSchedule>
+    <ExplanOfLegisPoliticalActvts documentId="RetDoc2138500001">
+      <MediumExplanationTxt>N/A</MediumExplanationTxt>
+    </ExplanOfLegisPoliticalActvts>
+    <InvestmentsOtherSchedule2 documentId="RetDoc2018100001">
+      <InvestmentsOtherGrp>
+        <CategoryOrItemTxt>CHEVY CHASE TRUST</CategoryOrItemTxt>
+        <ListedAtCostOrFMVCd>AT COST</ListedAtCostOrFMVCd>
+        <BookValueAmt>2531173</BookValueAmt>
+        <EOYFMVAmt>3166585</EOYFMVAmt>
+      </InvestmentsOtherGrp>
+    </InvestmentsOtherSchedule2>
+    <OtherIncomeSchedule2 documentId="RetDoc2001500001">
+      <OtherIncomeDetail>
+        <Desc>CHEVY CHASE TRUST - OTHER INCOME</Desc>
+        <RevenueAndExpensesPerBooksAmt>126</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>126</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>126</AdjustedNetIncomeAmt>
+      </OtherIncomeDetail>
+    </OtherIncomeSchedule2>
+    <OtherProfessionalFeesSchedule documentId="RetDoc2002300001">
+      <OtherProfessionalFeesDetail>
+        <CategoryTxt>CHEVY CHASE FEES</CategoryTxt>
+        <Amt>11653</Amt>
+        <NetInvestmentIncomeAmt>11653</NetInvestmentIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>0</DisbursementsCharitablePrpsAmt>
+      </OtherProfessionalFeesDetail>
+      <OtherProfessionalFeesDetail>
+        <CategoryTxt>HERITAGE MANAGEMENT FEES</CategoryTxt>
+        <Amt>629</Amt>
+        <NetInvestmentIncomeAmt>629</NetInvestmentIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>0</DisbursementsCharitablePrpsAmt>
+      </OtherProfessionalFeesDetail>
+      <OtherProfessionalFeesDetail>
+        <CategoryTxt>MISCELLANEOUS EXPENSES</CategoryTxt>
+        <Amt>30</Amt>
+        <NetInvestmentIncomeAmt>30</NetInvestmentIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>0</DisbursementsCharitablePrpsAmt>
+      </OtherProfessionalFeesDetail>
+    </OtherProfessionalFeesSchedule>
+    <TaxesSchedule documentId="RetDoc2002500001">
+      <TaxesDetail>
+        <CategoryTxt>FOREIGN TAX EXPENSE</CategoryTxt>
+        <Amt>535</Amt>
+        <NetInvestmentIncomeAmt>535</NetInvestmentIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>0</DisbursementsCharitablePrpsAmt>
+      </TaxesDetail>
+      <TaxesDetail>
+        <CategoryTxt>FEDERAL INCOME TAX PAID FOR FYE 09.30.2018</CategoryTxt>
+        <Amt>1000</Amt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>0</DisbursementsCharitablePrpsAmt>
+      </TaxesDetail>
+    </TaxesSchedule>
+  </ReturnData>
+</Return>

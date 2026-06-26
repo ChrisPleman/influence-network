@@ -1,0 +1,1053 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Return xmlns="http://www.irs.gov/efile" xsi:schemaLocation="http://www.irs.gov/efile" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" returnVersion="2018v3.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2019-05-07T09:00:44-05:00</ReturnTs>
+    <TaxPeriodEndDt>2018-12-31</TaxPeriodEndDt>
+    <PreparerFirmGrp>
+      <PreparerFirmEIN>346565596</PreparerFirmEIN>
+      <PreparerFirmName>
+        <BusinessNameLine1Txt>ERNST &amp; YOUNG US LLP</BusinessNameLine1Txt>
+      </PreparerFirmName>
+      <PreparerUSAddress>
+        <AddressLine1Txt>2100 EAST CARY ST SUITE 201</AddressLine1Txt>
+        <CityNm>RICHMOND</CityNm>
+        <StateAbbreviationCd>VA</StateAbbreviationCd>
+        <ZIPCd>23223</ZIPCd>
+      </PreparerUSAddress>
+    </PreparerFirmGrp>
+    <ReturnTypeCd>990PF</ReturnTypeCd>
+    <TaxPeriodBeginDt>2018-01-01</TaxPeriodBeginDt>
+    <Filer>
+      <EIN>546262132</EIN>
+      <BusinessName>
+        <BusinessNameLine1Txt>JOHN HARRY &amp; EDITH CARTER LEWIS CARMINE</BusinessNameLine1Txt>
+      </BusinessName>
+      <BusinessNameControlTxt>CARM</BusinessNameControlTxt>
+      <PhoneNum>8044351181</PhoneNum>
+      <USAddress>
+        <AddressLine1Txt>PO BOX 1419</AddressLine1Txt>
+        <CityNm>KILMARNOCK</CityNm>
+        <StateAbbreviationCd>VA</StateAbbreviationCd>
+        <ZIPCd>22482</ZIPCd>
+      </USAddress>
+    </Filer>
+    <BusinessOfficerGrp>
+      <PersonNm>SHERRI CLOWSER</PersonNm>
+      <PersonTitleTxt>Trust Officer</PersonTitleTxt>
+      <PhoneNum>8044351181</PhoneNum>
+      <SignatureDt>2019-04-26</SignatureDt>
+      <DiscussWithPaidPreparerInd>true</DiscussWithPaidPreparerInd>
+    </BusinessOfficerGrp>
+    <PreparerPersonGrp>
+      <PreparerPersonNm>DOAK ARTHUR PFAFF</PreparerPersonNm>
+      <PTIN>P00878518</PTIN>
+      <PhoneNum>8043444554</PhoneNum>
+      <PreparationDt>2019-04-26</PreparationDt>
+    </PreparerPersonGrp>
+    <FilingSecurityInformation>
+      <IPAddress>
+        <IPv4AddressTxt>192.168.85.1</IPv4AddressTxt>
+      </IPAddress>
+      <FilingLicenseTypeCd>P</FilingLicenseTypeCd>
+      <AtSubmissionCreationDeviceId>D15B6E5F7E1F5A63C9C759381E6F3302D40930CB</AtSubmissionCreationDeviceId>
+      <AtSubmissionFilingDeviceId>D15B6E5F7E1F5A63C9C759381E6F3302D40930CB</AtSubmissionFilingDeviceId>
+    </FilingSecurityInformation>
+    <TaxYr>2018</TaxYr>
+    <BuildTS>2019-02-21 02:37:17Z</BuildTS>
+  </ReturnHeader>
+  <ReturnData documentCnt="9">
+    <IRS990PF documentId="IRS990PF">
+      <Organization501c3ExemptPFInd>X</Organization501c3ExemptPFInd>
+      <FMVAssetsEOYAmt>839272</FMVAssetsEOYAmt>
+      <AnalysisOfRevenueAndExpenses>
+        <InterestOnSavRevAndExpnssAmt>8747</InterestOnSavRevAndExpnssAmt>
+        <InterestOnSavNetInvstIncmAmt>8747</InterestOnSavNetInvstIncmAmt>
+        <DividendsRevAndExpnssAmt>13300</DividendsRevAndExpnssAmt>
+        <DividendsNetInvstIncmAmt>13084</DividendsNetInvstIncmAmt>
+        <NetGainSaleAstRevAndExpnssAmt>4216</NetGainSaleAstRevAndExpnssAmt>
+        <GrossSalesPriceAmt>54894</GrossSalesPriceAmt>
+        <CapGainNetIncmNetInvstIncmAmt>4216</CapGainNetIncmNetInvstIncmAmt>
+        <NetSTCapitalGainAdjNetIncmAmt>0</NetSTCapitalGainAdjNetIncmAmt>
+        <TotalRevAndExpnssAmt>26263</TotalRevAndExpnssAmt>
+        <TotalNetInvstIncmAmt>26047</TotalNetInvstIncmAmt>
+        <CompOfcrDirTrstRevAndExpnssAmt>8505</CompOfcrDirTrstRevAndExpnssAmt>
+        <CompOfcrDirTrstNetInvstIncmAmt>8505</CompOfcrDirTrstNetInvstIncmAmt>
+        <OthEmplSlrsWgsNetInvstIncmAmt>0</OthEmplSlrsWgsNetInvstIncmAmt>
+        <OthEmplSlrsWgsAdjNetIncmAmt>0</OthEmplSlrsWgsAdjNetIncmAmt>
+        <OthEmplSlrsWgsDsbrsChrtblAmt>0</OthEmplSlrsWgsDsbrsChrtblAmt>
+        <PensionEmplBnftNetInvstIncmAmt>0</PensionEmplBnftNetInvstIncmAmt>
+        <PensionEmplBnftAdjNetIncmAmt>0</PensionEmplBnftAdjNetIncmAmt>
+        <LegalFeesRevAndExpnssAmt referenceDocumentId="LegalFeesSchedule">798</LegalFeesRevAndExpnssAmt>
+        <LegalFeesNetInvstIncmAmt>0</LegalFeesNetInvstIncmAmt>
+        <LegalFeesAdjNetIncmAmt>0</LegalFeesAdjNetIncmAmt>
+        <LegalFeesDsbrsChrtblAmt>798</LegalFeesDsbrsChrtblAmt>
+        <AccountingFeesRevAndExpnssAmt referenceDocumentId="AccountingFeesSchedule">600</AccountingFeesRevAndExpnssAmt>
+        <AccountingFeesNetInvstIncmAmt>600</AccountingFeesNetInvstIncmAmt>
+        <AccountingFeesAdjNetIncmAmt>0</AccountingFeesAdjNetIncmAmt>
+        <AccountingFeesChrtblPrpsAmt>0</AccountingFeesChrtblPrpsAmt>
+        <OtherProfFeesDsbrsChrtblAmt>0</OtherProfFeesDsbrsChrtblAmt>
+        <InterestDsbrsChrtblAmt>0</InterestDsbrsChrtblAmt>
+        <TaxesRevAndExpnssAmt referenceDocumentId="TaxesSchedule">371</TaxesRevAndExpnssAmt>
+        <TaxesNetInvstIncmAmt>70</TaxesNetInvstIncmAmt>
+        <TaxesDsbrsChrtblAmt>0</TaxesDsbrsChrtblAmt>
+        <DeprecAndDpltnRevAndExpnssAmt>0</DeprecAndDpltnRevAndExpnssAmt>
+        <DeprecAndDpltnNetInvstIncmAmt>0</DeprecAndDpltnNetInvstIncmAmt>
+        <TravConfMeetingNetInvstIncmAmt>0</TravConfMeetingNetInvstIncmAmt>
+        <TravConfMeetingAdjNetIncmAmt>0</TravConfMeetingAdjNetIncmAmt>
+        <PrintingAndPubNetInvstIncmAmt>0</PrintingAndPubNetInvstIncmAmt>
+        <PrintingAndPubAdjNetIncmAmt>0</PrintingAndPubAdjNetIncmAmt>
+        <OtherExpensesRevAndExpnssAmt referenceDocumentId="OtherExpensesSchedule">932</OtherExpensesRevAndExpnssAmt>
+        <OtherExpensesNetInvstIncmAmt>932</OtherExpensesNetInvstIncmAmt>
+        <TotOprExpensesRevAndExpnssAmt>11206</TotOprExpensesRevAndExpnssAmt>
+        <TotOprExpensesNetInvstIncmAmt>10107</TotOprExpensesNetInvstIncmAmt>
+        <TotOprExpensesAdjNetIncmAmt>0</TotOprExpensesAdjNetIncmAmt>
+        <TotOprExpensesDsbrsChrtblAmt>798</TotOprExpensesDsbrsChrtblAmt>
+        <ContriPaidRevAndExpnssAmt>10184</ContriPaidRevAndExpnssAmt>
+        <ContriPaidDsbrsChrtblAmt>10184</ContriPaidDsbrsChrtblAmt>
+        <TotalExpensesRevAndExpnssAmt>21390</TotalExpensesRevAndExpnssAmt>
+        <TotalExpensesNetInvstIncmAmt>10107</TotalExpensesNetInvstIncmAmt>
+        <TotalExpensesAdjNetIncmAmt>0</TotalExpensesAdjNetIncmAmt>
+        <TotalExpensesDsbrsChrtblAmt>10982</TotalExpensesDsbrsChrtblAmt>
+        <ExcessRevenueOverExpensesAmt>4873</ExcessRevenueOverExpensesAmt>
+        <NetInvestmentIncomeAmt>15940</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+      </AnalysisOfRevenueAndExpenses>
+      <Form990PFBalanceSheetsGrp>
+        <SavAndTempCashInvstBOYAmt>36773</SavAndTempCashInvstBOYAmt>
+        <SavAndTempCashInvstEOYAmt>43730</SavAndTempCashInvstEOYAmt>
+        <SavAndTempCashInvstEOYFMVAmt>43730</SavAndTempCashInvstEOYFMVAmt>
+        <AcctRcvblEOYAmt>0</AcctRcvblEOYAmt>
+        <AcctRcvblEOYFMVAmt>0</AcctRcvblEOYFMVAmt>
+        <OtherNtsAndLoansRcvblAmt>370460</OtherNtsAndLoansRcvblAmt>
+        <OtherRcvblAllwncDbtflAcctAmt>0</OtherRcvblAllwncDbtflAcctAmt>
+        <OtherNtsAndLoansRcvblBOYAmt>380911</OtherNtsAndLoansRcvblBOYAmt>
+        <OtherNtsAndLoansRcvblEOYAmt referenceDocumentId="OtherNotesLoansRecLongSch">370460</OtherNtsAndLoansRcvblEOYAmt>
+        <OtherNtsAndLoansRcvblEOYFMVAmt>370460</OtherNtsAndLoansRcvblEOYFMVAmt>
+        <OtherInvestmentsBOYAmt>408369</OtherInvestmentsBOYAmt>
+        <OtherInvestmentsEOYAmt referenceDocumentId="InvestmentsOtherSchedule2">426573</OtherInvestmentsEOYAmt>
+        <OtherInvestmentsEOYFMVAmt>425082</OtherInvestmentsEOYFMVAmt>
+        <TotalAssetsBOYAmt>826053</TotalAssetsBOYAmt>
+        <TotalAssetsEOYAmt>840763</TotalAssetsEOYAmt>
+        <TotalAssetsEOYFMVAmt>839272</TotalAssetsEOYFMVAmt>
+        <TotalLiabilitiesEOYAmt>0</TotalLiabilitiesEOYAmt>
+        <OrgDoesNotFollowSFAS117Ind>X</OrgDoesNotFollowSFAS117Ind>
+        <CapitalStockBOYAmt>826053</CapitalStockBOYAmt>
+        <CapitalStockEOYAmt>840763</CapitalStockEOYAmt>
+        <TotNetAstOrFundBalancesBOYAmt>826053</TotNetAstOrFundBalancesBOYAmt>
+        <TotNetAstOrFundBalancesEOYAmt>840763</TotNetAstOrFundBalancesEOYAmt>
+        <TotalLiabilitiesNetAstBOYAmt>826053</TotalLiabilitiesNetAstBOYAmt>
+        <TotalLiabilitiesNetAstEOYAmt>840763</TotalLiabilitiesNetAstEOYAmt>
+      </Form990PFBalanceSheetsGrp>
+      <ChgInNetAssetsFundBalancesGrp>
+        <TotNetAstOrFundBalancesBOYAmt>826053</TotNetAstOrFundBalancesBOYAmt>
+        <ExcessRevenueOverExpensesAmt>4873</ExcessRevenueOverExpensesAmt>
+        <OtherIncreasesAmt referenceDocumentId="OtherIncreasesSchedule">20291</OtherIncreasesAmt>
+        <SubtotalAmt>851217</SubtotalAmt>
+        <OtherDecreasesAmt referenceDocumentId="OtherDecreasesSchedule">10454</OtherDecreasesAmt>
+        <TotNetAstOrFundBalancesEOYAmt>840763</TotNetAstOrFundBalancesEOYAmt>
+      </ChgInNetAssetsFundBalancesGrp>
+      <CapGainsLossTxInvstIncmDetail>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>119.403 LAZARD INTERNATIONAL STRATEGIC EQUITY PORTFOLIO - OPEN #1222</PropertyDesc>
+          <AcquiredDt>2015-04-16</AcquiredDt>
+          <SoldDt>2018-01-18</SoldDt>
+          <GrossSalesPriceAmt>2000</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>1804</CostOrOtherBasisAmt>
+          <GainOrLossAmt>196</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>196</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>20. SCHWAB STRATEGIC TR US MID CAP ETF</PropertyDesc>
+          <AcquiredDt>2015-04-14</AcquiredDt>
+          <SoldDt>2018-01-18</SoldDt>
+          <GrossSalesPriceAmt>1092</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>868</CostOrOtherBasisAmt>
+          <GainOrLossAmt>224</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>224</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>30. SCHWAB STRATEGIC TR EMERGING MKTS EQUITY ETF</PropertyDesc>
+          <AcquiredDt>2015-04-14</AcquiredDt>
+          <SoldDt>2018-01-18</SoldDt>
+          <GrossSalesPriceAmt>889</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>782</CostOrOtherBasisAmt>
+          <GainOrLossAmt>107</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>107</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>20. SELECT SECTOR SPDR TR HEALTH CARE</PropertyDesc>
+          <AcquiredDt>2015-04-14</AcquiredDt>
+          <SoldDt>2018-01-18</SoldDt>
+          <GrossSalesPriceAmt>1751</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>1475</CostOrOtherBasisAmt>
+          <GainOrLossAmt>276</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>276</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>20. SELECT SECTOR SPDR TR CONSUMER STAPLES</PropertyDesc>
+          <AcquiredDt>2016-10-28</AcquiredDt>
+          <SoldDt>2018-01-18</SoldDt>
+          <GrossSalesPriceAmt>1143</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>1056</CostOrOtherBasisAmt>
+          <GainOrLossAmt>87</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>87</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>20. SELECT SECTOR SPDR TR CONSUMER DISCRETIONARY</PropertyDesc>
+          <AcquiredDt>2015-04-14</AcquiredDt>
+          <SoldDt>2018-01-18</SoldDt>
+          <GrossSalesPriceAmt>2090</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>1524</CostOrOtherBasisAmt>
+          <GainOrLossAmt>566</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>566</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>55. SELECT SECTOR SPDR TR FINANCIAL</PropertyDesc>
+          <AcquiredDt>2016-01-05</AcquiredDt>
+          <SoldDt>2018-01-18</SoldDt>
+          <GrossSalesPriceAmt>1609</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>1295</CostOrOtherBasisAmt>
+          <GainOrLossAmt>314</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>314</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>30. SELECT SECTOR SPDR TR TECHNOLOGY</PropertyDesc>
+          <AcquiredDt>2015-04-14</AcquiredDt>
+          <SoldDt>2018-01-18</SoldDt>
+          <GrossSalesPriceAmt>2026</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>1256</CostOrOtherBasisAmt>
+          <GainOrLossAmt>770</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>770</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>100. ISHARES MBS ETF</PropertyDesc>
+          <AcquiredDt>2012-11-09</AcquiredDt>
+          <SoldDt>2018-04-19</SoldDt>
+          <GrossSalesPriceAmt>10396</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>10847</CostOrOtherBasisAmt>
+          <GainOrLossAmt>-451</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>-451</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>675. SPDR SER TR BLOOMBERG BARCLAYS MTG BKD BD ETF</PropertyDesc>
+          <AcquiredDt>2016-07-21</AcquiredDt>
+          <SoldDt>2018-04-19</SoldDt>
+          <GrossSalesPriceAmt>17091</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>18369</CostOrOtherBasisAmt>
+          <GainOrLossAmt>-1278</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>-1278</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>115. SPDR SER TR BLOOMBERG BARCLAYS MTG BKD BD ETF</PropertyDesc>
+          <AcquiredDt>2017-10-18</AcquiredDt>
+          <SoldDt>2018-04-19</SoldDt>
+          <GrossSalesPriceAmt>2912</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>3024</CostOrOtherBasisAmt>
+          <GainOrLossAmt>-112</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>-112</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>95. ISHARES U.S. TELECOMMUNICATIONS ETF</PropertyDesc>
+          <AcquiredDt>2015-04-14</AcquiredDt>
+          <SoldDt>2018-10-18</SoldDt>
+          <GrossSalesPriceAmt>2701</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>2953</CostOrOtherBasisAmt>
+          <GainOrLossAmt>-252</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>-252</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>30. SELECT SECTOR SPDR TR CONSUMER DISCRETIONARY</PropertyDesc>
+          <AcquiredDt>2015-04-14</AcquiredDt>
+          <SoldDt>2018-10-18</SoldDt>
+          <GrossSalesPriceAmt>3220</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>2286</CostOrOtherBasisAmt>
+          <GainOrLossAmt>934</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>934</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>75. SELECT SECTOR SPDR TR TECHNOLOGY</PropertyDesc>
+          <AcquiredDt>2015-04-14</AcquiredDt>
+          <SoldDt>2018-10-18</SoldDt>
+          <GrossSalesPriceAmt>5247</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>3139</CostOrOtherBasisAmt>
+          <GainOrLossAmt>2108</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>2108</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>CAPITAL GAIN DIVIDENDS</PropertyDesc>
+          <HowAcquiredCd>P</HowAcquiredCd>
+          <GainOrLossAmt>727</GainOrLossAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapitalGainNetIncomeAmt>4216</CapitalGainNetIncomeAmt>
+      </CapGainsLossTxInvstIncmDetail>
+      <QlfyUndSect4940eReducedTaxGrp>
+        <LiableSection4942TaxInd>false</LiableSection4942TaxInd>
+        <AdjustedQlfyDistriYr1Amt>24294</AdjustedQlfyDistriYr1Amt>
+        <NetVlNoncharitableAssetsYr1Amt>852426</NetVlNoncharitableAssetsYr1Amt>
+        <DistributionYr1Rt>0.0285</DistributionYr1Rt>
+        <AdjustedQlfyDistriYr2Amt>108221</AdjustedQlfyDistriYr2Amt>
+        <NetVlNoncharitableAssetsYr2Amt>770796</NetVlNoncharitableAssetsYr2Amt>
+        <DistributionYr2Rt>0.140402</DistributionYr2Rt>
+        <AdjustedQlfyDistriYr3Amt>66243</AdjustedQlfyDistriYr3Amt>
+        <NetVlNoncharitableAssetsYr3Amt>752643</NetVlNoncharitableAssetsYr3Amt>
+        <DistributionYr3Rt>0.088014</DistributionYr3Rt>
+        <AdjustedQlfyDistriYr4Amt>39000</AdjustedQlfyDistriYr4Amt>
+        <NetVlNoncharitableAssetsYr4Amt>750063</NetVlNoncharitableAssetsYr4Amt>
+        <DistributionYr4Rt>0.051996</DistributionYr4Rt>
+        <AdjustedQlfyDistriYr5Amt>13474</AdjustedQlfyDistriYr5Amt>
+        <NetVlNoncharitableAssetsYr5Amt>724330</NetVlNoncharitableAssetsYr5Amt>
+        <DistributionYr5Rt>0.018602</DistributionYr5Rt>
+        <TotalDistributionRt>0.327514</TotalDistributionRt>
+        <AverageDistributionRt>0.065503</AverageDistributionRt>
+        <NetVlNoncharitableAssetsAmt>836611</NetVlNoncharitableAssetsAmt>
+        <AdjNetVlNoncharitableAssetsAmt>54801</AdjNetVlNoncharitableAssetsAmt>
+        <NetInvestmentIncomePctAmt>159</NetInvestmentIncomePctAmt>
+        <AdjNonchrtblNetInvstIncmPctAmt>54960</AdjNonchrtblNetInvstIncmPctAmt>
+        <QualifyingDistributionsAmt>21166</QualifyingDistributionsAmt>
+      </QlfyUndSect4940eReducedTaxGrp>
+      <ExciseTaxBasedOnInvstIncmGrp>
+        <InvestmentIncomeExciseTaxAmt>319</InvestmentIncomeExciseTaxAmt>
+        <TaxUnderSection511Amt>0</TaxUnderSection511Amt>
+        <SubtotalAmt>319</SubtotalAmt>
+        <SubtitleATaxAmt>0</SubtitleATaxAmt>
+        <TaxBasedOnInvestmentIncomeAmt>319</TaxBasedOnInvestmentIncomeAmt>
+        <EstimatedPlusOvpmtIncmTxAmt>200</EstimatedPlusOvpmtIncmTxAmt>
+        <ExtsnRequestIncomeTaxPaidAmt>0</ExtsnRequestIncomeTaxPaidAmt>
+        <TotalPaymentsAndCreditsAmt>200</TotalPaymentsAndCreditsAmt>
+        <EsPenaltyAmt>0</EsPenaltyAmt>
+        <TaxDueAmt>119</TaxDueAmt>
+        <AppliedToESTaxAmt>0</AppliedToESTaxAmt>
+        <RefundAmt>0</RefundAmt>
+      </ExciseTaxBasedOnInvstIncmGrp>
+      <StatementsRegardingActyGrp>
+        <LegislativePoliticalActyInd>false</LegislativePoliticalActyInd>
+        <MoreThan100SpentInd>false</MoreThan100SpentInd>
+        <Form1120POLFiledInd>false</Form1120POLFiledInd>
+        <ActivitiesNotPreviouslyRptInd>false</ActivitiesNotPreviouslyRptInd>
+        <ChangesToArticlesOrBylawsInd>false</ChangesToArticlesOrBylawsInd>
+        <UnrelatedBusIncmOverLimitInd>false</UnrelatedBusIncmOverLimitInd>
+        <OrganizationDissolvedEtcInd>false</OrganizationDissolvedEtcInd>
+        <Section508eRqrSatisfiedInd>true</Section508eRqrSatisfiedInd>
+        <AtLeast5000InAssetsInd>true</AtLeast5000InAssetsInd>
+        <OrgReportOrRegisterStateCd>VA</OrgReportOrRegisterStateCd>
+        <Form990PFFiledWithAttyGenInd>true</Form990PFFiledWithAttyGenInd>
+        <PrivateOperatingFoundationInd>false</PrivateOperatingFoundationInd>
+        <NewSubstantialContributorsInd>false</NewSubstantialContributorsInd>
+        <OwnControlledEntityInd>false</OwnControlledEntityInd>
+        <DonorAdvisedFundInd>false</DonorAdvisedFundInd>
+        <ComplyWithPublicInspRqrInd>true</ComplyWithPublicInspRqrInd>
+        <PersonsWithBooksName>
+          <BusinessNameLine1Txt>CHESAPEAKE TRUST COMPANY</BusinessNameLine1Txt>
+        </PersonsWithBooksName>
+        <PhoneNum>8044351181</PhoneNum>
+        <LocationOfBooksUSAddress>
+          <AddressLine1Txt>P O BOX 1419</AddressLine1Txt>
+          <CityNm>KILMARNOCK</CityNm>
+          <StateAbbreviationCd>VA</StateAbbreviationCd>
+          <ZIPCd>22482</ZIPCd>
+        </LocationOfBooksUSAddress>
+        <ForeignAccountsQuestionInd>false</ForeignAccountsQuestionInd>
+      </StatementsRegardingActyGrp>
+      <StatementsRegardingActy4720Grp>
+        <SaleOrExchDisqualifiedPrsnInd>false</SaleOrExchDisqualifiedPrsnInd>
+        <BrrwOrLendDisqualifiedPrsnInd>false</BrrwOrLendDisqualifiedPrsnInd>
+        <FurnGoodsDisqualifiedPrsnInd>false</FurnGoodsDisqualifiedPrsnInd>
+        <PayCompDisqualifiedPrsnInd>true</PayCompDisqualifiedPrsnInd>
+        <TransferAstDisqualifiedPrsnInd>false</TransferAstDisqualifiedPrsnInd>
+        <PaymentToGovernmentOfficialInd>false</PaymentToGovernmentOfficialInd>
+        <ActsFailToQlfyAsExceptionsInd>false</ActsFailToQlfyAsExceptionsInd>
+        <UncorrectedPriorActsInd>false</UncorrectedPriorActsInd>
+        <UndistributedIncomePYInd>false</UndistributedIncomePYInd>
+        <BusinessHoldingsInd>false</BusinessHoldingsInd>
+        <JeopardyInvestmentsInd>false</JeopardyInvestmentsInd>
+        <UncorrectedPYJeopardyInvstInd>false</UncorrectedPYJeopardyInvstInd>
+        <InfluenceLegislationInd>false</InfluenceLegislationInd>
+        <InfluenceElectionInd>false</InfluenceElectionInd>
+        <GrantsToIndividualsInd>false</GrantsToIndividualsInd>
+        <GrantsToOrganizationsInd>false</GrantsToOrganizationsInd>
+        <NoncharitablePurposeInd>false</NoncharitablePurposeInd>
+        <RcvFndsToPayPrsnlBnftCntrctInd>false</RcvFndsToPayPrsnlBnftCntrctInd>
+        <PayPremiumsPrsnlBnftCntrctInd>false</PayPremiumsPrsnlBnftCntrctInd>
+        <ProhibitedTaxShelterTransInd>false</ProhibitedTaxShelterTransInd>
+        <SubjToTaxRmnrtnExPrchtPymtInd>false</SubjToTaxRmnrtnExPrchtPymtInd>
+      </StatementsRegardingActy4720Grp>
+      <OfficerDirTrstKeyEmplInfoGrp>
+        <OfficerDirTrstKeyEmplGrp>
+          <PersonNm>CHESAPEAKE TRUST CO</PersonNm>
+          <USAddress>
+            <AddressLine1Txt>P O BOX 1419</AddressLine1Txt>
+            <CityNm>KILMARNOCK</CityNm>
+            <StateAbbreviationCd>VA</StateAbbreviationCd>
+            <ZIPCd>22482</ZIPCd>
+          </USAddress>
+          <TitleTxt>TRUSTEE</TitleTxt>
+          <AverageHrsPerWkDevotedToPosRt>4</AverageHrsPerWkDevotedToPosRt>
+          <CompensationAmt>8505</CompensationAmt>
+        </OfficerDirTrstKeyEmplGrp>
+        <CompOfHghstPdEmplOrNONETxt>NONE</CompOfHghstPdEmplOrNONETxt>
+        <OtherEmployeePaidOver50kCnt>0</OtherEmployeePaidOver50kCnt>
+        <CompOfHghstPdCntrctOrNONETxt>NONE</CompOfHghstPdCntrctOrNONETxt>
+        <ContractorPaidOver50kCnt>0</ContractorPaidOver50kCnt>
+      </OfficerDirTrstKeyEmplInfoGrp>
+      <SummaryOfDirectChrtblActyGrp />
+      <SumOfProgramRelatedInvstGrp>
+        <Description1Txt>NEW SCHOLARSHIP LOANS</Description1Txt>
+        <Expenses1Amt>10184</Expenses1Amt>
+        <TotalAmt>10184</TotalAmt>
+      </SumOfProgramRelatedInvstGrp>
+      <MinimumInvestmentReturnGrp>
+        <AverageMonthlyFMVOfSecAmt>444302</AverageMonthlyFMVOfSecAmt>
+        <AverageMonthlyCashBalancesAmt>33527</AverageMonthlyCashBalancesAmt>
+        <FMVAllOtherNoncharitableAstAmt>371522</FMVAllOtherNoncharitableAstAmt>
+        <TotalFMVOfUnusedAssetsAmt>849351</TotalFMVOfUnusedAssetsAmt>
+        <ReductionClaimedAmt>0</ReductionClaimedAmt>
+        <AcquisitionIndebtednessAmt>0</AcquisitionIndebtednessAmt>
+        <AdjustedTotalFMVOfUnusedAstAmt>849351</AdjustedTotalFMVOfUnusedAstAmt>
+        <CashDeemedCharitableAmt>12740</CashDeemedCharitableAmt>
+        <NetVlNoncharitableAssetsAmt>836611</NetVlNoncharitableAssetsAmt>
+        <MinimumInvestmentReturnAmt>41831</MinimumInvestmentReturnAmt>
+      </MinimumInvestmentReturnGrp>
+      <DistributableAmountGrp>
+        <MinimumInvestmentReturnAmt>41831</MinimumInvestmentReturnAmt>
+        <TaxBasedOnInvestmentIncomeAmt>319</TaxBasedOnInvestmentIncomeAmt>
+        <TotalTaxAmt>319</TotalTaxAmt>
+        <DistributableBeforeAdjAmt>41512</DistributableBeforeAdjAmt>
+        <RecoveriesQualfiedDistriAmt>0</RecoveriesQualfiedDistriAmt>
+        <DistributableBeforeDedAmt>41512</DistributableBeforeDedAmt>
+        <DeductionFromDistributableAmt>0</DeductionFromDistributableAmt>
+        <DistributableAsAdjustedAmt>41512</DistributableAsAdjustedAmt>
+      </DistributableAmountGrp>
+      <QualifyingDistriPartXIIGrp>
+        <ExpensesAndContributionsAmt>10982</ExpensesAndContributionsAmt>
+        <ProgramRelatedInvstTotalAmt>10184</ProgramRelatedInvstTotalAmt>
+        <CharitableAssetsAcquisPaidAmt>0</CharitableAssetsAcquisPaidAmt>
+        <SetAsideSuitabilityTestAmt>0</SetAsideSuitabilityTestAmt>
+        <SetAsideCashDistriTestAmt>0</SetAsideCashDistriTestAmt>
+        <QualifyingDistributionsAmt>21166</QualifyingDistributionsAmt>
+        <PctSect4940eOrgNetInvstIncmAmt>0</PctSect4940eOrgNetInvstIncmAmt>
+        <AdjustedQualifyingDistriAmt>21166</AdjustedQualifyingDistriAmt>
+      </QualifyingDistriPartXIIGrp>
+      <UndistributedIncomeGrp>
+        <DistributableAsAdjustedAmt>41512</DistributableAsAdjustedAmt>
+        <UndistributedIncomePYAmt>0</UndistributedIncomePYAmt>
+        <TotalForPriorYearsAmt>0</TotalForPriorYearsAmt>
+        <ExcessDistributionCyovYr5Amt>0</ExcessDistributionCyovYr5Amt>
+        <ExcessDistributionCyovYr4Amt>0</ExcessDistributionCyovYr4Amt>
+        <ExcessDistributionCyovYr3Amt>0</ExcessDistributionCyovYr3Amt>
+        <ExcessDistributionCyovYr2Amt>54835</ExcessDistributionCyovYr2Amt>
+        <ExcessDistributionCyovYr1Amt>0</ExcessDistributionCyovYr1Amt>
+        <TotalExcessDistributionCyovAmt>54835</TotalExcessDistributionCyovAmt>
+        <QualifyingDistributionsAmt>21166</QualifyingDistributionsAmt>
+        <AppliedToYear1Amt>0</AppliedToYear1Amt>
+        <AppliedToPriorYearsAmt>0</AppliedToPriorYearsAmt>
+        <TreatedAsDistriFromCorpusAmt>0</TreatedAsDistriFromCorpusAmt>
+        <AppliedToCurrentYearAmt>21166</AppliedToCurrentYearAmt>
+        <RemainingDistriFromCorpusAmt>0</RemainingDistriFromCorpusAmt>
+        <ExcessDistriCyovAppCYCorpusAmt>20346</ExcessDistriCyovAppCYCorpusAmt>
+        <ExcessDistributionCyovAppCYAmt>20346</ExcessDistributionCyovAppCYAmt>
+        <TotalCorpusAmt>34489</TotalCorpusAmt>
+        <PriorYearUndistributedIncmAmt>0</PriorYearUndistributedIncmAmt>
+        <PriorYearDeficiencyOrTaxAmt>0</PriorYearDeficiencyOrTaxAmt>
+        <Taxable1Amt>0</Taxable1Amt>
+        <Taxable2Amt>0</Taxable2Amt>
+        <UndistributedIncomeCYAmt>0</UndistributedIncomeCYAmt>
+        <CorpusDistri170b1EOr4942g3Amt>0</CorpusDistri170b1EOr4942g3Amt>
+        <ExcessDistriCyovFromYr5Amt>0</ExcessDistriCyovFromYr5Amt>
+        <ExcessDistriCyovToNextYrAmt>34489</ExcessDistriCyovToNextYrAmt>
+        <ExcessFromYear4Amt>0</ExcessFromYear4Amt>
+        <ExcessFromYear3Amt>0</ExcessFromYear3Amt>
+        <ExcessFromYear2Amt>34489</ExcessFromYear2Amt>
+        <ExcessFromYear1Amt>0</ExcessFromYear1Amt>
+        <ExcessFromCurrentYearAmt>0</ExcessFromCurrentYearAmt>
+      </UndistributedIncomeGrp>
+      <SupplementaryInformationGrp>
+        <ApplicationSubmissionInfoGrp>
+          <RecipientPersonNm>KIM MILLER CO CHESAPEAKE TRUST COM</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>P O BOX 1419</AddressLine1Txt>
+            <CityNm>KILMARNOCK</CityNm>
+            <StateAbbreviationCd>VA</StateAbbreviationCd>
+            <ZIPCd>22482</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientPhoneNum>8044354247</RecipientPhoneNum>
+          <FormAndInfoAndMaterialsTxt>PER INSTRUCTIONS POSTED IN HIGH SCHOOLS IN MATHEWS &amp; GLOUCESTER COUNTIES</FormAndInfoAndMaterialsTxt>
+          <SubmissionDeadlinesTxt>NO DEADLINES - APPLICATIONS MAY BE SUBMITTED AT ANYTIME</SubmissionDeadlinesTxt>
+          <RestrictionsOnAwardsTxt>ELIGIBLE EDUCATIONAL LOANS ARE LIMITED TO STUDENTS FROM MATHEWS &amp; GLOUCESTER COUNTIES AND TUITION TO AN ACCREDITED COLLEGE.</RestrictionsOnAwardsTxt>
+        </ApplicationSubmissionInfoGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientPersonNm>CALEB L SMITH</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>10076 MARYS LANE</AddressLine1Txt>
+            <CityNm>GLOUCESTER</CityNm>
+            <StateAbbreviationCd>VA</StateAbbreviationCd>
+            <ZIPCd>23061</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>NONE</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>N/A</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>EDUCATIONAL LOAN</GrantOrContributionPurposeTxt>
+          <Amt>4064</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>MALLORY P SANGER</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientUSAddress>
+            <AddressLine1Txt>PO BOX 811</AddressLine1Txt>
+            <CityNm>MATHEWS</CityNm>
+            <StateAbbreviationCd>VA</StateAbbreviationCd>
+            <ZIPCd>23109</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>NONE</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>N/A</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>EDUCATIONAL LOAN</GrantOrContributionPurposeTxt>
+          <Amt>3904</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>Melany P Slaughter</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientUSAddress>
+            <AddressLine1Txt>1767 WINDSOR ROAD</AddressLine1Txt>
+            <CityNm>Dutton</CityNm>
+            <StateAbbreviationCd>VA</StateAbbreviationCd>
+            <ZIPCd>23050</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>NONE</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>N/A</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>EDUCATIONAL LOAN</GrantOrContributionPurposeTxt>
+          <Amt>2216</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <TotalGrantOrContriPdDurYrAmt>10184</TotalGrantOrContriPdDurYrAmt>
+      </SupplementaryInformationGrp>
+      <AnalysisIncomeProducingActyGrp>
+        <FeesContractsFromGovtAgGrp />
+        <MembershipDuesAndAssmntGrp />
+        <IntOnSavAndTempCashInvstGrp>
+          <ExclusionCd>14</ExclusionCd>
+          <ExclusionAmt>8747</ExclusionAmt>
+        </IntOnSavAndTempCashInvstGrp>
+        <DivAndIntFromSecPartVIIGrp>
+          <ExclusionCd>14</ExclusionCd>
+          <ExclusionAmt>13300</ExclusionAmt>
+        </DivAndIntFromSecPartVIIGrp>
+        <NetRntlIncmReDebtFincdPropGrp />
+        <NetRntlIncmReNotDebtFincdProp />
+        <NetRentalIncomePersonalPropGrp />
+        <OtherInvestmentIncmPartVIIGrp />
+        <GainSalesAstOthThanInvntryGrp>
+          <ExclusionCd>18</ExclusionCd>
+          <ExclusionAmt>4216</ExclusionAmt>
+        </GainSalesAstOthThanInvntryGrp>
+        <NetIncomeLossFromSpecialEvtGrp />
+        <GrossProfitLossSlsOfInvntryGrp />
+        <SubtotalsIncmProducingActyGrp>
+          <ExclusionAmt>26263</ExclusionAmt>
+        </SubtotalsIncmProducingActyGrp>
+        <TotalIncomeProducingActyAmt>26263</TotalIncomeProducingActyAmt>
+      </AnalysisIncomeProducingActyGrp>
+      <RlnOfActyToAccomOfExmptPrpsGrp />
+      <TrnsfrTransRlnNonchrtblEOGrp>
+        <TrnsfrOfCashToNonchrtblEOInd>false</TrnsfrOfCashToNonchrtblEOInd>
+        <TrnsfrOtherAssetNonchrtblEOInd>false</TrnsfrOtherAssetNonchrtblEOInd>
+        <SalesOrExchangesOfAssetsInd>false</SalesOrExchangesOfAssetsInd>
+        <PurchaseOfAssetsNonchrtblEOInd>false</PurchaseOfAssetsNonchrtblEOInd>
+        <RentalOfFacilitiesOthAssetsInd>false</RentalOfFacilitiesOthAssetsInd>
+        <ReimbursementArrangementsInd>false</ReimbursementArrangementsInd>
+        <LoansOrLoanGuaranteesInd>false</LoansOrLoanGuaranteesInd>
+        <PerformanceOfServicesEtcInd>false</PerformanceOfServicesEtcInd>
+        <SharingOfFacilitiesEtcInd>false</SharingOfFacilitiesEtcInd>
+        <RelationshipsNonchrtblEOInd>false</RelationshipsNonchrtblEOInd>
+      </TrnsfrTransRlnNonchrtblEOGrp>
+    </IRS990PF>
+    <AccountingFeesSchedule documentId="AccountingFeesSchedule">
+      <AccountingFeesDetail>
+        <CategoryTxt>TAX PREPARATION FEE (NON-ALLOC</CategoryTxt>
+        <Amt>600</Amt>
+        <NetInvestmentIncomeAmt>600</NetInvestmentIncomeAmt>
+      </AccountingFeesDetail>
+    </AccountingFeesSchedule>
+    <InvestmentsOtherSchedule2 documentId="InvestmentsOtherSchedule2">
+      <InvestmentsOtherGrp>
+        <CategoryOrItemTxt>ISHARES MBS ETF</CategoryOrItemTxt>
+      </InvestmentsOtherGrp>
+      <InvestmentsOtherGrp>
+        <CategoryOrItemTxt>ISHARES CORE US BD MKT ETF</CategoryOrItemTxt>
+        <ListedAtCostOrFMVCd>AT COST</ListedAtCostOrFMVCd>
+        <BookValueAmt>11205</BookValueAmt>
+        <EOYFMVAmt>10649</EOYFMVAmt>
+      </InvestmentsOtherGrp>
+      <InvestmentsOtherGrp>
+        <CategoryOrItemTxt>ISHARES IBOXX INVT GRADE BOND</CategoryOrItemTxt>
+      </InvestmentsOtherGrp>
+      <InvestmentsOtherGrp>
+        <CategoryOrItemTxt>SPDR BARCLAYS MORTGAGE BACKED</CategoryOrItemTxt>
+      </InvestmentsOtherGrp>
+      <InvestmentsOtherGrp>
+        <CategoryOrItemTxt>SCHWAB US AGGREGATE BOND ETF</CategoryOrItemTxt>
+      </InvestmentsOtherGrp>
+      <InvestmentsOtherGrp>
+        <CategoryOrItemTxt>VANGUARD TOTAL INTERNATIONAL B</CategoryOrItemTxt>
+      </InvestmentsOtherGrp>
+      <InvestmentsOtherGrp>
+        <CategoryOrItemTxt>ISHARES IBOXX HIGH YIELD BOND</CategoryOrItemTxt>
+        <ListedAtCostOrFMVCd>AT COST</ListedAtCostOrFMVCd>
+        <BookValueAmt>33280</BookValueAmt>
+        <EOYFMVAmt>29602</EOYFMVAmt>
+      </InvestmentsOtherGrp>
+      <InvestmentsOtherGrp>
+        <CategoryOrItemTxt>OPPENHEIMER SENIOR FLOATING RA</CategoryOrItemTxt>
+      </InvestmentsOtherGrp>
+      <InvestmentsOtherGrp>
+        <CategoryOrItemTxt>SPDR FUND CONSUMER DISCRE SELE</CategoryOrItemTxt>
+      </InvestmentsOtherGrp>
+      <InvestmentsOtherGrp>
+        <CategoryOrItemTxt>SPDR FUND CONSUMER STAPLES ETF</CategoryOrItemTxt>
+      </InvestmentsOtherGrp>
+      <InvestmentsOtherGrp>
+        <CategoryOrItemTxt>ENERGY SELECT SECTOR SPDR ETF</CategoryOrItemTxt>
+      </InvestmentsOtherGrp>
+      <InvestmentsOtherGrp>
+        <CategoryOrItemTxt>SELECT STR FINANCIAL SELECT SP</CategoryOrItemTxt>
+      </InvestmentsOtherGrp>
+      <InvestmentsOtherGrp>
+        <CategoryOrItemTxt>SELECT SECTOR HEALTH CARE SPDR</CategoryOrItemTxt>
+      </InvestmentsOtherGrp>
+      <InvestmentsOtherGrp>
+        <CategoryOrItemTxt>SELECT SECTOR INDUSTRIAL SPDR</CategoryOrItemTxt>
+        <ListedAtCostOrFMVCd>AT COST</ListedAtCostOrFMVCd>
+        <BookValueAmt>9888</BookValueAmt>
+        <EOYFMVAmt>11272</EOYFMVAmt>
+      </InvestmentsOtherGrp>
+      <InvestmentsOtherGrp>
+        <CategoryOrItemTxt>TECHNOLOGY SELECT SECTOR SPDR</CategoryOrItemTxt>
+      </InvestmentsOtherGrp>
+      <InvestmentsOtherGrp>
+        <CategoryOrItemTxt>SPDR FUND MATERIALS SELECT SEC</CategoryOrItemTxt>
+        <ListedAtCostOrFMVCd>AT COST</ListedAtCostOrFMVCd>
+        <BookValueAmt>3237</BookValueAmt>
+        <EOYFMVAmt>3284</EOYFMVAmt>
+      </InvestmentsOtherGrp>
+      <InvestmentsOtherGrp>
+        <CategoryOrItemTxt>ISHARES US TELECOM ETF</CategoryOrItemTxt>
+      </InvestmentsOtherGrp>
+      <InvestmentsOtherGrp>
+        <CategoryOrItemTxt>SELECT SECTOR UTI SELECT SPDR</CategoryOrItemTxt>
+        <ListedAtCostOrFMVCd>AT COST</ListedAtCostOrFMVCd>
+        <BookValueAmt>3305</BookValueAmt>
+        <EOYFMVAmt>3969</EOYFMVAmt>
+      </InvestmentsOtherGrp>
+      <InvestmentsOtherGrp>
+        <CategoryOrItemTxt>SCHWAB US SMALL CAP ETF</CategoryOrItemTxt>
+        <ListedAtCostOrFMVCd>AT COST</ListedAtCostOrFMVCd>
+        <BookValueAmt>5319</BookValueAmt>
+        <EOYFMVAmt>5461</EOYFMVAmt>
+      </InvestmentsOtherGrp>
+      <InvestmentsOtherGrp>
+        <CategoryOrItemTxt>SCHWAB US MID CAP ETF</CategoryOrItemTxt>
+      </InvestmentsOtherGrp>
+      <InvestmentsOtherGrp>
+        <CategoryOrItemTxt>LAZARD INTL STRATEGIC EQUITY O</CategoryOrItemTxt>
+      </InvestmentsOtherGrp>
+      <InvestmentsOtherGrp>
+        <CategoryOrItemTxt>SCHWAB EMERGING MARKETS EQUITY</CategoryOrItemTxt>
+      </InvestmentsOtherGrp>
+      <InvestmentsOtherGrp>
+        <CategoryOrItemTxt>SCHWAB INTERNATIONAL EQUITY ET</CategoryOrItemTxt>
+        <ListedAtCostOrFMVCd>AT COST</ListedAtCostOrFMVCd>
+        <BookValueAmt>11736</BookValueAmt>
+        <EOYFMVAmt>10631</EOYFMVAmt>
+      </InvestmentsOtherGrp>
+      <InvestmentsOtherGrp>
+        <CategoryOrItemTxt>FINANCIAL SELECT SECTOR SPDR F</CategoryOrItemTxt>
+      </InvestmentsOtherGrp>
+      <InvestmentsOtherGrp>
+        <CategoryOrItemTxt>ISHARES IBOXX $ INVESTMENT GRA</CategoryOrItemTxt>
+        <ListedAtCostOrFMVCd>AT COST</ListedAtCostOrFMVCd>
+        <BookValueAmt>92879</BookValueAmt>
+        <EOYFMVAmt>88000</EOYFMVAmt>
+      </InvestmentsOtherGrp>
+      <InvestmentsOtherGrp>
+        <CategoryOrItemTxt>SPDR SER TR BLOOMBERG BARCLAYS</CategoryOrItemTxt>
+        <ListedAtCostOrFMVCd>AT COST</ListedAtCostOrFMVCd>
+        <BookValueAmt>22181</BookValueAmt>
+        <EOYFMVAmt>20963</EOYFMVAmt>
+      </InvestmentsOtherGrp>
+      <InvestmentsOtherGrp>
+        <CategoryOrItemTxt>SCHWAB STRATEGIC TR US AGGREGA</CategoryOrItemTxt>
+        <ListedAtCostOrFMVCd>AT COST</ListedAtCostOrFMVCd>
+        <BookValueAmt>93446</BookValueAmt>
+        <EOYFMVAmt>91062</EOYFMVAmt>
+      </InvestmentsOtherGrp>
+      <InvestmentsOtherGrp>
+        <CategoryOrItemTxt>VANGUARD CHARLOTTE FDS INTL BD</CategoryOrItemTxt>
+        <ListedAtCostOrFMVCd>AT COST</ListedAtCostOrFMVCd>
+        <BookValueAmt>32251</BookValueAmt>
+        <EOYFMVAmt>32279</EOYFMVAmt>
+      </InvestmentsOtherGrp>
+      <InvestmentsOtherGrp>
+        <CategoryOrItemTxt>SELECT SECTOR SPDR TR CONSUMER</CategoryOrItemTxt>
+        <ListedAtCostOrFMVCd>AT COST</ListedAtCostOrFMVCd>
+        <BookValueAmt>9157</BookValueAmt>
+        <EOYFMVAmt>9394</EOYFMVAmt>
+      </InvestmentsOtherGrp>
+      <InvestmentsOtherGrp>
+        <CategoryOrItemTxt>SELECT SECTOR SPDR TR ENERGY</CategoryOrItemTxt>
+        <ListedAtCostOrFMVCd>AT COST</ListedAtCostOrFMVCd>
+        <BookValueAmt>8479</BookValueAmt>
+        <EOYFMVAmt>6022</EOYFMVAmt>
+      </InvestmentsOtherGrp>
+      <InvestmentsOtherGrp>
+        <CategoryOrItemTxt>SELECT SECTOR SPDR TR FINANCIA</CategoryOrItemTxt>
+        <ListedAtCostOrFMVCd>AT COST</ListedAtCostOrFMVCd>
+        <BookValueAmt>13929</BookValueAmt>
+        <EOYFMVAmt>15959</EOYFMVAmt>
+      </InvestmentsOtherGrp>
+      <InvestmentsOtherGrp>
+        <CategoryOrItemTxt>SELECT SECTOR SPDR TR HEALTH C</CategoryOrItemTxt>
+        <ListedAtCostOrFMVCd>AT COST</ListedAtCostOrFMVCd>
+        <BookValueAmt>14934</BookValueAmt>
+        <EOYFMVAmt>17735</EOYFMVAmt>
+      </InvestmentsOtherGrp>
+      <InvestmentsOtherGrp>
+        <CategoryOrItemTxt>SELECT SECTOR SPDR TR TECHNOLO</CategoryOrItemTxt>
+        <ListedAtCostOrFMVCd>AT COST</ListedAtCostOrFMVCd>
+        <BookValueAmt>15905</BookValueAmt>
+        <EOYFMVAmt>23552</EOYFMVAmt>
+      </InvestmentsOtherGrp>
+      <InvestmentsOtherGrp>
+        <CategoryOrItemTxt>SELECT SECTOR SPDR TR COMMUNIC</CategoryOrItemTxt>
+        <ListedAtCostOrFMVCd>AT COST</ListedAtCostOrFMVCd>
+        <BookValueAmt>12620</BookValueAmt>
+        <EOYFMVAmt>11146</EOYFMVAmt>
+      </InvestmentsOtherGrp>
+      <InvestmentsOtherGrp>
+        <CategoryOrItemTxt>SELECT SECTOR SPDR TR RL EST S</CategoryOrItemTxt>
+        <ListedAtCostOrFMVCd>AT COST</ListedAtCostOrFMVCd>
+        <BookValueAmt>2683</BookValueAmt>
+        <EOYFMVAmt>2604</EOYFMVAmt>
+      </InvestmentsOtherGrp>
+      <InvestmentsOtherGrp>
+        <CategoryOrItemTxt>SCHWAB STRATEGIC TR US MID CAP</CategoryOrItemTxt>
+        <ListedAtCostOrFMVCd>AT COST</ListedAtCostOrFMVCd>
+        <BookValueAmt>4645</BookValueAmt>
+        <EOYFMVAmt>5033</EOYFMVAmt>
+      </InvestmentsOtherGrp>
+      <InvestmentsOtherGrp>
+        <CategoryOrItemTxt>LAZARD INTERNATIONAL STRATEGIC</CategoryOrItemTxt>
+        <ListedAtCostOrFMVCd>AT COST</ListedAtCostOrFMVCd>
+        <BookValueAmt>11196</BookValueAmt>
+        <EOYFMVAmt>9893</EOYFMVAmt>
+      </InvestmentsOtherGrp>
+      <InvestmentsOtherGrp>
+        <CategoryOrItemTxt>SCHWAB STRATEGIC TR EMERGING M</CategoryOrItemTxt>
+        <ListedAtCostOrFMVCd>AT COST</ListedAtCostOrFMVCd>
+        <BookValueAmt>2998</BookValueAmt>
+        <EOYFMVAmt>2706</EOYFMVAmt>
+      </InvestmentsOtherGrp>
+      <InvestmentsOtherGrp>
+        <CategoryOrItemTxt>CATALYST HEDGED FUTURES STRATE</CategoryOrItemTxt>
+        <ListedAtCostOrFMVCd>AT COST</ListedAtCostOrFMVCd>
+        <BookValueAmt>2000</BookValueAmt>
+        <EOYFMVAmt>1985</EOYFMVAmt>
+      </InvestmentsOtherGrp>
+      <InvestmentsOtherGrp>
+        <CategoryOrItemTxt>SELECT SECTOR SPDR TR CONSUMER</CategoryOrItemTxt>
+        <ListedAtCostOrFMVCd>AT COST</ListedAtCostOrFMVCd>
+        <BookValueAmt>9300</BookValueAmt>
+        <EOYFMVAmt>11881</EOYFMVAmt>
+      </InvestmentsOtherGrp>
+    </InvestmentsOtherSchedule2>
+    <LegalFeesSchedule documentId="LegalFeesSchedule">
+      <LegalFeesGrp>
+        <CategoryTxt>LEGAL FEES</CategoryTxt>
+        <LegalFeesAmt>798</LegalFeesAmt>
+        <DisbursementsCharitablePrpsAmt>798</DisbursementsCharitablePrpsAmt>
+      </LegalFeesGrp>
+    </LegalFeesSchedule>
+    <OtherDecreasesSchedule documentId="OtherDecreasesSchedule">
+      <OtherDecreasesDetail>
+        <Desc>COST BASIS ADJ. TO LOANS</Desc>
+        <Amt>10450</Amt>
+      </OtherDecreasesDetail>
+      <OtherDecreasesDetail>
+        <Desc>COST BASIS- ROC</Desc>
+        <Amt>4</Amt>
+      </OtherDecreasesDetail>
+    </OtherDecreasesSchedule>
+    <OtherExpensesSchedule documentId="OtherExpensesSchedule">
+      <OtherExpensesScheduleGrp>
+        <Desc>OTHER NON-ALLOCABLE EXPENSE -</Desc>
+        <RevenueAndExpensesPerBooksAmt>466</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>466</NetInvestmentIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>0</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>OTHER NON-ALLOCABLE EXPENSE -</Desc>
+        <RevenueAndExpensesPerBooksAmt>466</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>466</NetInvestmentIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>0</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+    </OtherExpensesSchedule>
+    <OtherIncreasesSchedule documentId="OtherIncreasesSchedule">
+      <OtherIncreasesDetail>
+        <Desc>PRINCIPAL PAYMENTS</Desc>
+        <Amt>20291</Amt>
+      </OtherIncreasesDetail>
+    </OtherIncreasesSchedule>
+    <OtherNotesLoansRcvblLongSch documentId="OtherNotesLoansRecLongSch">
+      <OtherNotesLoansRcvblLongGrp>
+        <BorrowerNameGrp>
+          <PersonNm>AIMEE FLORSCH BARNETT</PersonNm>
+        </BorrowerNameGrp>
+        <NoteDt>2007-08</NoteDt>
+        <InterestRt>0</InterestRt>
+      </OtherNotesLoansRcvblLongGrp>
+      <OtherNotesLoansRcvblLongGrp>
+        <BorrowerNameGrp>
+          <PersonNm>ANDREA HALL</PersonNm>
+        </BorrowerNameGrp>
+        <BalanceDueAmt>20076</BalanceDueAmt>
+        <NoteDt>2006-11</NoteDt>
+        <InterestRt>0</InterestRt>
+      </OtherNotesLoansRcvblLongGrp>
+      <OtherNotesLoansRcvblLongGrp>
+        <BorrowerNameGrp>
+          <PersonNm>BRITTANY WEBB</PersonNm>
+        </BorrowerNameGrp>
+        <NoteDt>2007-06</NoteDt>
+        <InterestRt>0</InterestRt>
+      </OtherNotesLoansRcvblLongGrp>
+      <OtherNotesLoansRcvblLongGrp>
+        <BorrowerNameGrp>
+          <PersonNm>CHELSEA C JACKSON</PersonNm>
+        </BorrowerNameGrp>
+        <BalanceDueAmt>14572</BalanceDueAmt>
+        <NoteDt>2008-08</NoteDt>
+        <InterestRt>0</InterestRt>
+      </OtherNotesLoansRcvblLongGrp>
+      <OtherNotesLoansRcvblLongGrp>
+        <BorrowerNameGrp>
+          <PersonNm>CHRISTINE POTEET</PersonNm>
+        </BorrowerNameGrp>
+        <BalanceDueAmt>14297</BalanceDueAmt>
+        <NoteDt>2009-08</NoteDt>
+        <InterestRt>0</InterestRt>
+      </OtherNotesLoansRcvblLongGrp>
+      <OtherNotesLoansRcvblLongGrp>
+        <BorrowerNameGrp>
+          <PersonNm>CHRISTOPHER D HENRY</PersonNm>
+        </BorrowerNameGrp>
+        <NoteDt>2006-07</NoteDt>
+        <InterestRt>0</InterestRt>
+      </OtherNotesLoansRcvblLongGrp>
+      <OtherNotesLoansRcvblLongGrp>
+        <BorrowerNameGrp>
+          <PersonNm>ELIZABETH ANN PARLETT</PersonNm>
+        </BorrowerNameGrp>
+        <BalanceDueAmt>17222</BalanceDueAmt>
+        <NoteDt>2006-07</NoteDt>
+        <InterestRt>0</InterestRt>
+      </OtherNotesLoansRcvblLongGrp>
+      <OtherNotesLoansRcvblLongGrp>
+        <BorrowerNameGrp>
+          <PersonNm>JEFFREY SOLES</PersonNm>
+        </BorrowerNameGrp>
+        <BalanceDueAmt>32412</BalanceDueAmt>
+        <NoteDt>2008-08</NoteDt>
+        <InterestRt>0</InterestRt>
+      </OtherNotesLoansRcvblLongGrp>
+      <OtherNotesLoansRcvblLongGrp>
+        <BorrowerNameGrp>
+          <PersonNm>JORDAN HURST</PersonNm>
+        </BorrowerNameGrp>
+        <NoteDt>2009-08</NoteDt>
+        <InterestRt>0</InterestRt>
+      </OtherNotesLoansRcvblLongGrp>
+      <OtherNotesLoansRcvblLongGrp>
+        <BorrowerNameGrp>
+          <PersonNm>KELLY D ROBINS</PersonNm>
+        </BorrowerNameGrp>
+        <BalanceDueAmt>12076</BalanceDueAmt>
+        <NoteDt>2006-08</NoteDt>
+        <InterestRt>0</InterestRt>
+      </OtherNotesLoansRcvblLongGrp>
+      <OtherNotesLoansRcvblLongGrp>
+        <BorrowerNameGrp>
+          <PersonNm>KYLE L STEIDER</PersonNm>
+        </BorrowerNameGrp>
+        <BalanceDueAmt>6195</BalanceDueAmt>
+        <NoteDt>2008-12</NoteDt>
+        <InterestRt>0</InterestRt>
+      </OtherNotesLoansRcvblLongGrp>
+      <OtherNotesLoansRcvblLongGrp>
+        <BorrowerNameGrp>
+          <PersonNm>LEWIS CARROLL MEREDITH</PersonNm>
+        </BorrowerNameGrp>
+        <BalanceDueAmt>6526</BalanceDueAmt>
+        <NoteDt>2006-07</NoteDt>
+        <InterestRt>0</InterestRt>
+      </OtherNotesLoansRcvblLongGrp>
+      <OtherNotesLoansRcvblLongGrp>
+        <BorrowerNameGrp>
+          <PersonNm>MALLORY NICOLE HURST</PersonNm>
+        </BorrowerNameGrp>
+        <BalanceDueAmt>21733</BalanceDueAmt>
+        <NoteDt>2012-07</NoteDt>
+        <InterestRt>0</InterestRt>
+      </OtherNotesLoansRcvblLongGrp>
+      <OtherNotesLoansRcvblLongGrp>
+        <BorrowerNameGrp>
+          <PersonNm>MELANIE BETH SOLES</PersonNm>
+        </BorrowerNameGrp>
+        <BalanceDueAmt>16019</BalanceDueAmt>
+        <NoteDt>2010-08</NoteDt>
+        <InterestRt>0</InterestRt>
+      </OtherNotesLoansRcvblLongGrp>
+      <OtherNotesLoansRcvblLongGrp>
+        <BorrowerNameGrp>
+          <PersonNm>MORGAN D WEBB</PersonNm>
+        </BorrowerNameGrp>
+        <NoteDt>2006-07</NoteDt>
+        <InterestRt>0</InterestRt>
+      </OtherNotesLoansRcvblLongGrp>
+      <OtherNotesLoansRcvblLongGrp>
+        <BorrowerNameGrp>
+          <PersonNm>NOELLE J DESJARLAIS BONNEY</PersonNm>
+        </BorrowerNameGrp>
+        <BalanceDueAmt>15757</BalanceDueAmt>
+        <NoteDt>2006-11</NoteDt>
+        <InterestRt>0</InterestRt>
+      </OtherNotesLoansRcvblLongGrp>
+      <OtherNotesLoansRcvblLongGrp>
+        <BorrowerNameGrp>
+          <PersonNm>RYAN DALE MORGAN</PersonNm>
+        </BorrowerNameGrp>
+        <NoteDt>2011-06</NoteDt>
+        <InterestRt>0</InterestRt>
+      </OtherNotesLoansRcvblLongGrp>
+      <OtherNotesLoansRcvblLongGrp>
+        <BorrowerNameGrp>
+          <PersonNm>SARAH J BECKLEY</PersonNm>
+        </BorrowerNameGrp>
+        <BalanceDueAmt>22490</BalanceDueAmt>
+        <NoteDt>2006-07</NoteDt>
+        <InterestRt>0</InterestRt>
+      </OtherNotesLoansRcvblLongGrp>
+      <OtherNotesLoansRcvblLongGrp>
+        <BorrowerNameGrp>
+          <PersonNm>SMANTHA HOWLETT</PersonNm>
+        </BorrowerNameGrp>
+        <BalanceDueAmt>24300</BalanceDueAmt>
+        <NoteDt>2011-08</NoteDt>
+        <InterestRt>0</InterestRt>
+      </OtherNotesLoansRcvblLongGrp>
+      <OtherNotesLoansRcvblLongGrp>
+        <BorrowerNameGrp>
+          <PersonNm>SUZANNE MCLAUGHLIN</PersonNm>
+        </BorrowerNameGrp>
+        <BalanceDueAmt>26751</BalanceDueAmt>
+        <NoteDt>2009-08</NoteDt>
+        <InterestRt>0</InterestRt>
+      </OtherNotesLoansRcvblLongGrp>
+      <OtherNotesLoansRcvblLongGrp>
+        <BorrowerNameGrp>
+          <PersonNm>TERESA L SMEDLEY</PersonNm>
+        </BorrowerNameGrp>
+        <NoteDt>2008-11</NoteDt>
+        <InterestRt>0</InterestRt>
+      </OtherNotesLoansRcvblLongGrp>
+      <OtherNotesLoansRcvblLongGrp>
+        <BorrowerNameGrp>
+          <PersonNm>TIERRA S SPRIGGS</PersonNm>
+        </BorrowerNameGrp>
+        <BalanceDueAmt>6348</BalanceDueAmt>
+        <NoteDt>2010-06</NoteDt>
+        <InterestRt>0</InterestRt>
+      </OtherNotesLoansRcvblLongGrp>
+      <OtherNotesLoansRcvblLongGrp>
+        <BorrowerNameGrp>
+          <PersonNm>TIWANA W BEVERLY</PersonNm>
+        </BorrowerNameGrp>
+        <BalanceDueAmt>6657</BalanceDueAmt>
+        <NoteDt>2006-11</NoteDt>
+        <InterestRt>0</InterestRt>
+      </OtherNotesLoansRcvblLongGrp>
+      <OtherNotesLoansRcvblLongGrp>
+        <BorrowerNameGrp>
+          <PersonNm>RILEE Q JACKSON</PersonNm>
+        </BorrowerNameGrp>
+        <BalanceDueAmt>27264</BalanceDueAmt>
+        <NoteDt>2014-11</NoteDt>
+        <InterestRt>0</InterestRt>
+      </OtherNotesLoansRcvblLongGrp>
+      <OtherNotesLoansRcvblLongGrp>
+        <BorrowerNameGrp>
+          <PersonNm>MALLORY P SANGER</PersonNm>
+        </BorrowerNameGrp>
+        <BalanceDueAmt>20866</BalanceDueAmt>
+        <InterestRt>0</InterestRt>
+      </OtherNotesLoansRcvblLongGrp>
+      <OtherNotesLoansRcvblLongGrp>
+        <BorrowerNameGrp>
+          <PersonNm>SHELBY R ROBINS</PersonNm>
+        </BorrowerNameGrp>
+        <BalanceDueAmt>244</BalanceDueAmt>
+        <InterestRt>0</InterestRt>
+      </OtherNotesLoansRcvblLongGrp>
+      <OtherNotesLoansRcvblLongGrp>
+        <BorrowerNameGrp>
+          <PersonNm>CALEB L SMITH</PersonNm>
+        </BorrowerNameGrp>
+        <BalanceDueAmt>25000</BalanceDueAmt>
+        <InterestRt>0</InterestRt>
+      </OtherNotesLoansRcvblLongGrp>
+      <OtherNotesLoansRcvblLongGrp>
+        <BorrowerNameGrp>
+          <PersonNm>MARK L WILSON</PersonNm>
+        </BorrowerNameGrp>
+        <BalanceDueAmt>21655</BalanceDueAmt>
+        <InterestRt>0</InterestRt>
+      </OtherNotesLoansRcvblLongGrp>
+      <OtherNotesLoansRcvblLongGrp>
+        <BorrowerNameGrp>
+          <PersonNm>BRIAN M OWENS 6 NOTE</PersonNm>
+        </BorrowerNameGrp>
+        <BalanceDueAmt>5500</BalanceDueAmt>
+        <InterestRt>0</InterestRt>
+      </OtherNotesLoansRcvblLongGrp>
+      <OtherNotesLoansRcvblLongGrp>
+        <BorrowerNameGrp>
+          <PersonNm>MELANY P SLAUGHTER 6 NOTE</PersonNm>
+        </BorrowerNameGrp>
+        <BalanceDueAmt>6500</BalanceDueAmt>
+        <InterestRt>0</InterestRt>
+      </OtherNotesLoansRcvblLongGrp>
+    </OtherNotesLoansRcvblLongSch>
+    <TaxesSchedule documentId="TaxesSchedule">
+      <TaxesDetail>
+        <CategoryTxt>FEDERAL TAX PAYMENT - PRIOR YE</CategoryTxt>
+        <Amt>101</Amt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>0</DisbursementsCharitablePrpsAmt>
+      </TaxesDetail>
+      <TaxesDetail>
+        <CategoryTxt>FEDERAL ESTIMATES - PRINCIPAL</CategoryTxt>
+        <Amt>200</Amt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>0</DisbursementsCharitablePrpsAmt>
+      </TaxesDetail>
+      <TaxesDetail>
+        <CategoryTxt>FOREIGN TAXES ON QUALIFIED FOR</CategoryTxt>
+        <Amt>63</Amt>
+        <NetInvestmentIncomeAmt>63</NetInvestmentIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>0</DisbursementsCharitablePrpsAmt>
+      </TaxesDetail>
+      <TaxesDetail>
+        <CategoryTxt>FOREIGN TAXES ON NONQUALIFIED</CategoryTxt>
+        <Amt>7</Amt>
+        <NetInvestmentIncomeAmt>7</NetInvestmentIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>0</DisbursementsCharitablePrpsAmt>
+      </TaxesDetail>
+    </TaxesSchedule>
+  </ReturnData>
+</Return>

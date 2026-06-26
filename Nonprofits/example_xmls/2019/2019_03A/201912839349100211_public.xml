@@ -1,0 +1,616 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Return xmlns="http://www.irs.gov/efile" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.irs.gov/efile" returnVersion="2018v3.1">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2019-10-10T10:15:38-05:00</ReturnTs>
+    <TaxPeriodEndDt>2018-12-31</TaxPeriodEndDt>
+    <PreparerFirmGrp>
+      <PreparerFirmEIN>742392222</PreparerFirmEIN>
+      <PreparerFirmName>
+        <BusinessNameLine1Txt>SOL SCHWARTZ &amp; ASSOCIATES PC</BusinessNameLine1Txt>
+      </PreparerFirmName>
+      <PreparerUSAddress>
+        <AddressLine1Txt>8000 IH 10 WEST SUITE 1100</AddressLine1Txt>
+        <CityNm>SAN ANTONIO</CityNm>
+        <StateAbbreviationCd>TX</StateAbbreviationCd>
+        <ZIPCd>78230</ZIPCd>
+      </PreparerUSAddress>
+    </PreparerFirmGrp>
+    <ReturnTypeCd>990PF</ReturnTypeCd>
+    <TaxPeriodBeginDt>2018-01-01</TaxPeriodBeginDt>
+    <Filer>
+      <EIN>743015612</EIN>
+      <BusinessName>
+        <BusinessNameLine1Txt>NATURAL BRIDGE WILDLIFE HERITAGE</BusinessNameLine1Txt>
+        <BusinessNameLine2Txt>FOUNDATION INC</BusinessNameLine2Txt>
+      </BusinessName>
+      <BusinessNameControlTxt>NATU</BusinessNameControlTxt>
+      <PhoneNum>8304387400</PhoneNum>
+      <USAddress>
+        <AddressLine1Txt>26515 NATURAL BRIDGE CAVERNS ROAD</AddressLine1Txt>
+        <CityNm>SAN ANTONIO</CityNm>
+        <StateAbbreviationCd>TX</StateAbbreviationCd>
+        <ZIPCd>78266</ZIPCd>
+      </USAddress>
+    </Filer>
+    <BusinessOfficerGrp>
+      <PersonNm>TRUDY SOECHTING</PersonNm>
+      <PersonTitleTxt>PRESIDENT</PersonTitleTxt>
+      <PhoneNum>8304387400</PhoneNum>
+      <SignatureDt>2019-10-07</SignatureDt>
+      <DiscussWithPaidPreparerInd>1</DiscussWithPaidPreparerInd>
+    </BusinessOfficerGrp>
+    <PreparerPersonGrp>
+      <PreparerPersonNm>JEFF ALBRECHT</PreparerPersonNm>
+      <PTIN>P00000906</PTIN>
+      <PhoneNum>2103848000</PhoneNum>
+    </PreparerPersonGrp>
+    <FilingSecurityInformation>
+      <IPAddress>
+        <IPv4AddressTxt>71.40.63.242</IPv4AddressTxt>
+      </IPAddress>
+      <IPDt>2019-10-07</IPDt>
+      <IPTm>09:26:21</IPTm>
+      <IPTimezoneCd>CD</IPTimezoneCd>
+      <FilingLicenseTypeCd>P</FilingLicenseTypeCd>
+      <AtSubmissionCreationDeviceId>C2A8A3F1BCC7C3FF6495C29B650980D6AD810DEE</AtSubmissionCreationDeviceId>
+      <AtSubmissionFilingDeviceId>56F8A82741D6CD18364CBB758A95960A4D607CA3</AtSubmissionFilingDeviceId>
+    </FilingSecurityInformation>
+    <TaxYr>2018</TaxYr>
+    <BuildTS>2019-02-21 02:37:17Z</BuildTS>
+  </ReturnHeader>
+  <ReturnData documentCnt="6">
+    <IRS990PF documentId="RetDoc1235000001">
+      <Organization501c3ExemptPFInd>X</Organization501c3ExemptPFInd>
+      <FMVAssetsEOYAmt>899376</FMVAssetsEOYAmt>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <AnalysisOfRevenueAndExpenses>
+        <ScheduleBNotRequiredInd>X</ScheduleBNotRequiredInd>
+        <DividendsRevAndExpnssAmt>27552</DividendsRevAndExpnssAmt>
+        <DividendsNetInvstIncmAmt>27552</DividendsNetInvstIncmAmt>
+        <NetGainSaleAstRevAndExpnssAmt>17273</NetGainSaleAstRevAndExpnssAmt>
+        <GrossSalesPriceAmt>114751</GrossSalesPriceAmt>
+        <CapGainNetIncmNetInvstIncmAmt>17273</CapGainNetIncmNetInvstIncmAmt>
+        <TotalRevAndExpnssAmt>44825</TotalRevAndExpnssAmt>
+        <TotalNetInvstIncmAmt>44825</TotalNetInvstIncmAmt>
+        <CompOfcrDirTrstRevAndExpnssAmt>0</CompOfcrDirTrstRevAndExpnssAmt>
+        <CompOfcrDirTrstNetInvstIncmAmt>0</CompOfcrDirTrstNetInvstIncmAmt>
+        <CompOfcrDirTrstDsbrsChrtblAmt>0</CompOfcrDirTrstDsbrsChrtblAmt>
+        <AccountingFeesRevAndExpnssAmt referenceDocumentId="RetDoc2002200001">1975</AccountingFeesRevAndExpnssAmt>
+        <AccountingFeesNetInvstIncmAmt>0</AccountingFeesNetInvstIncmAmt>
+        <AccountingFeesChrtblPrpsAmt>1975</AccountingFeesChrtblPrpsAmt>
+        <OtherProfFeesRevAndExpnssAmt referenceDocumentId="RetDoc2002300001">11057</OtherProfFeesRevAndExpnssAmt>
+        <OtherProfFeesNetInvstIncmAmt>11057</OtherProfFeesNetInvstIncmAmt>
+        <OtherProfFeesDsbrsChrtblAmt>0</OtherProfFeesDsbrsChrtblAmt>
+        <TotOprExpensesRevAndExpnssAmt>13032</TotOprExpensesRevAndExpnssAmt>
+        <TotOprExpensesNetInvstIncmAmt>11057</TotOprExpensesNetInvstIncmAmt>
+        <TotOprExpensesDsbrsChrtblAmt>1975</TotOprExpensesDsbrsChrtblAmt>
+        <ContriPaidRevAndExpnssAmt>46892</ContriPaidRevAndExpnssAmt>
+        <ContriPaidDsbrsChrtblAmt>46892</ContriPaidDsbrsChrtblAmt>
+        <TotalExpensesRevAndExpnssAmt>59924</TotalExpensesRevAndExpnssAmt>
+        <TotalExpensesNetInvstIncmAmt>11057</TotalExpensesNetInvstIncmAmt>
+        <TotalExpensesDsbrsChrtblAmt>48867</TotalExpensesDsbrsChrtblAmt>
+        <ExcessRevenueOverExpensesAmt>-15099</ExcessRevenueOverExpensesAmt>
+        <NetInvestmentIncomeAmt>33768</NetInvestmentIncomeAmt>
+      </AnalysisOfRevenueAndExpenses>
+      <Form990PFBalanceSheetsGrp>
+        <CashBOYAmt>35738</CashBOYAmt>
+        <CashEOYAmt>36871</CashEOYAmt>
+        <CashEOYFMVAmt>36871</CashEOYFMVAmt>
+        <SavAndTempCashInvstBOYAmt>32245</SavAndTempCashInvstBOYAmt>
+        <SavAndTempCashInvstEOYAmt>32146</SavAndTempCashInvstEOYAmt>
+        <SavAndTempCashInvstEOYFMVAmt>32146</SavAndTempCashInvstEOYFMVAmt>
+        <AcctRcvblAmt>165</AcctRcvblAmt>
+        <AcctRcvblEOYAmt>165</AcctRcvblEOYAmt>
+        <AcctRcvblEOYFMVAmt>165</AcctRcvblEOYFMVAmt>
+        <CorporateStockBOYAmt>761311</CorporateStockBOYAmt>
+        <CorporateStockEOYAmt referenceDocumentId="RetDoc2018900001">745013</CorporateStockEOYAmt>
+        <CorporateStockEOYFMVAmt>830194</CorporateStockEOYFMVAmt>
+        <LandBldgEquipCostOrOtherBssAmt>3686</LandBldgEquipCostOrOtherBssAmt>
+        <LandBldgEquipAccumDeprecAmt>3686</LandBldgEquipAccumDeprecAmt>
+        <TotalAssetsBOYAmt>829294</TotalAssetsBOYAmt>
+        <TotalAssetsEOYAmt>814195</TotalAssetsEOYAmt>
+        <TotalAssetsEOYFMVAmt>899376</TotalAssetsEOYFMVAmt>
+        <TotalLiabilitiesBOYAmt>0</TotalLiabilitiesBOYAmt>
+        <TotalLiabilitiesEOYAmt>0</TotalLiabilitiesEOYAmt>
+        <OrgDoesNotFollowSFAS117Ind>X</OrgDoesNotFollowSFAS117Ind>
+        <CapitalStockBOYAmt>0</CapitalStockBOYAmt>
+        <CapitalStockEOYAmt>0</CapitalStockEOYAmt>
+        <AdditionalPaidInCapitalBOYAmt>0</AdditionalPaidInCapitalBOYAmt>
+        <AdditionalPaidInCapitalEOYAmt>0</AdditionalPaidInCapitalEOYAmt>
+        <RetainedEarningBOYAmt>829294</RetainedEarningBOYAmt>
+        <RetainedEarningEOYAmt>814195</RetainedEarningEOYAmt>
+        <TotNetAstOrFundBalancesBOYAmt>829294</TotNetAstOrFundBalancesBOYAmt>
+        <TotNetAstOrFundBalancesEOYAmt>814195</TotNetAstOrFundBalancesEOYAmt>
+        <TotalLiabilitiesNetAstBOYAmt>829294</TotalLiabilitiesNetAstBOYAmt>
+        <TotalLiabilitiesNetAstEOYAmt>814195</TotalLiabilitiesNetAstEOYAmt>
+      </Form990PFBalanceSheetsGrp>
+      <ChgInNetAssetsFundBalancesGrp>
+        <TotNetAstOrFundBalancesBOYAmt>829294</TotNetAstOrFundBalancesBOYAmt>
+        <ExcessRevenueOverExpensesAmt>-15099</ExcessRevenueOverExpensesAmt>
+        <OtherIncreasesAmt>0</OtherIncreasesAmt>
+        <SubtotalAmt>814195</SubtotalAmt>
+        <OtherDecreasesAmt>0</OtherDecreasesAmt>
+        <TotNetAstOrFundBalancesEOYAmt>814195</TotNetAstOrFundBalancesEOYAmt>
+      </ChgInNetAssetsFundBalancesGrp>
+      <CapGainsLossTxInvstIncmDetail>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>WELLS FARGO #7871-0051</PropertyDesc>
+          <HowAcquiredCd>P</HowAcquiredCd>
+          <GrossSalesPriceAmt>3171</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>2375</CostOrOtherBasisAmt>
+          <GainOrLossAmt>796</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>796</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>WELLS FARGO #7871-0051</PropertyDesc>
+          <HowAcquiredCd>P</HowAcquiredCd>
+          <GrossSalesPriceAmt>107742</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>92782</CostOrOtherBasisAmt>
+          <GainOrLossAmt>14960</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>14960</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>WELLS FARGO #7871-0051</PropertyDesc>
+          <HowAcquiredCd>P</HowAcquiredCd>
+          <GrossSalesPriceAmt>3426</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>2321</CostOrOtherBasisAmt>
+          <GainOrLossAmt>1105</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>1105</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>CAPITAL GAINS DIVIDENDS</PropertyDesc>
+          <HowAcquiredCd>P</HowAcquiredCd>
+          <GrossSalesPriceAmt>412</GrossSalesPriceAmt>
+          <GainOrLossAmt>412</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>412</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapitalGainNetIncomeAmt>17273</CapitalGainNetIncomeAmt>
+      </CapGainsLossTxInvstIncmDetail>
+      <QlfyUndSect4940eReducedTaxGrp>
+        <LiableSection4942TaxInd>0</LiableSection4942TaxInd>
+        <AdjustedQlfyDistriYr1Amt>51543</AdjustedQlfyDistriYr1Amt>
+        <NetVlNoncharitableAssetsYr1Amt>947979</NetVlNoncharitableAssetsYr1Amt>
+        <DistributionYr1Rt>0.054371</DistributionYr1Rt>
+        <AdjustedQlfyDistriYr2Amt>47142</AdjustedQlfyDistriYr2Amt>
+        <NetVlNoncharitableAssetsYr2Amt>859410</NetVlNoncharitableAssetsYr2Amt>
+        <DistributionYr2Rt>0.054854</DistributionYr2Rt>
+        <AdjustedQlfyDistriYr3Amt>46767</AdjustedQlfyDistriYr3Amt>
+        <NetVlNoncharitableAssetsYr3Amt>918311</NetVlNoncharitableAssetsYr3Amt>
+        <DistributionYr3Rt>0.050927</DistributionYr3Rt>
+        <AdjustedQlfyDistriYr4Amt>48189</AdjustedQlfyDistriYr4Amt>
+        <NetVlNoncharitableAssetsYr4Amt>962294</NetVlNoncharitableAssetsYr4Amt>
+        <DistributionYr4Rt>0.050077</DistributionYr4Rt>
+        <AdjustedQlfyDistriYr5Amt>45349</AdjustedQlfyDistriYr5Amt>
+        <NetVlNoncharitableAssetsYr5Amt>845924</NetVlNoncharitableAssetsYr5Amt>
+        <DistributionYr5Rt>0.053609</DistributionYr5Rt>
+        <TotalDistributionRt>0.263838</TotalDistributionRt>
+        <AverageDistributionRt>0.052768</AverageDistributionRt>
+        <NetVlNoncharitableAssetsAmt>961782</NetVlNoncharitableAssetsAmt>
+        <AdjNetVlNoncharitableAssetsAmt>50751</AdjNetVlNoncharitableAssetsAmt>
+        <NetInvestmentIncomePctAmt>338</NetInvestmentIncomePctAmt>
+        <AdjNonchrtblNetInvstIncmPctAmt>51089</AdjNonchrtblNetInvstIncmPctAmt>
+        <QualifyingDistributionsAmt>48867</QualifyingDistributionsAmt>
+      </QlfyUndSect4940eReducedTaxGrp>
+      <ExciseTaxBasedOnInvstIncmGrp>
+        <InvestmentIncomeExciseTaxAmt>675</InvestmentIncomeExciseTaxAmt>
+        <TaxUnderSection511Amt>0</TaxUnderSection511Amt>
+        <SubtotalAmt>675</SubtotalAmt>
+        <SubtitleATaxAmt>0</SubtitleATaxAmt>
+        <TaxBasedOnInvestmentIncomeAmt>675</TaxBasedOnInvestmentIncomeAmt>
+        <EstimatedPlusOvpmtIncmTxAmt>354</EstimatedPlusOvpmtIncmTxAmt>
+        <ExtsnRequestIncomeTaxPaidAmt>0</ExtsnRequestIncomeTaxPaidAmt>
+        <BackupWithholdingWithheldAmt>0</BackupWithholdingWithheldAmt>
+        <TotalPaymentsAndCreditsAmt>354</TotalPaymentsAndCreditsAmt>
+        <Form2220AttachedInd referenceDocumentId="RetDoc1192000001">X</Form2220AttachedInd>
+        <EsPenaltyAmt>0</EsPenaltyAmt>
+        <TaxDueAmt>321</TaxDueAmt>
+      </ExciseTaxBasedOnInvstIncmGrp>
+      <StatementsRegardingActyGrp>
+        <LegislativePoliticalActyInd>0</LegislativePoliticalActyInd>
+        <MoreThan100SpentInd>0</MoreThan100SpentInd>
+        <Form1120POLFiledInd>0</Form1120POLFiledInd>
+        <Section4955OrganizationTaxAmt>0</Section4955OrganizationTaxAmt>
+        <Section4955ManagersTaxAmt>0</Section4955ManagersTaxAmt>
+        <TaxReimbursedAmt>0</TaxReimbursedAmt>
+        <ActivitiesNotPreviouslyRptInd>0</ActivitiesNotPreviouslyRptInd>
+        <ChangesToArticlesOrBylawsInd>0</ChangesToArticlesOrBylawsInd>
+        <UnrelatedBusIncmOverLimitInd>0</UnrelatedBusIncmOverLimitInd>
+        <OrganizationDissolvedEtcInd>0</OrganizationDissolvedEtcInd>
+        <Section508eRqrSatisfiedInd>1</Section508eRqrSatisfiedInd>
+        <AtLeast5000InAssetsInd>1</AtLeast5000InAssetsInd>
+        <OrgReportOrRegisterStateCd>TX</OrgReportOrRegisterStateCd>
+        <Form990PFFiledWithAttyGenInd>1</Form990PFFiledWithAttyGenInd>
+        <PrivateOperatingFoundationInd>0</PrivateOperatingFoundationInd>
+        <NewSubstantialContributorsInd referenceDocumentId="RetDoc2089200001">1</NewSubstantialContributorsInd>
+        <OwnControlledEntityInd>0</OwnControlledEntityInd>
+        <DonorAdvisedFundInd>0</DonorAdvisedFundInd>
+        <ComplyWithPublicInspRqrInd>1</ComplyWithPublicInspRqrInd>
+        <WebsiteAddressTxt>WWW.NBWILDLIFERANCHTX.COM</WebsiteAddressTxt>
+        <IndividualWithBooksNm>TRUDY SOECHTING</IndividualWithBooksNm>
+        <PhoneNum>8304387400</PhoneNum>
+        <LocationOfBooksUSAddress>
+          <AddressLine1Txt>26515 NATURAL BRIDGE CAVERNS</AddressLine1Txt>
+          <CityNm>SAN ANTONIO</CityNm>
+          <StateAbbreviationCd>TX</StateAbbreviationCd>
+          <ZIPCd>78266</ZIPCd>
+        </LocationOfBooksUSAddress>
+        <ForeignAccountsQuestionInd>0</ForeignAccountsQuestionInd>
+      </StatementsRegardingActyGrp>
+      <StatementsRegardingActy4720Grp>
+        <SaleOrExchDisqualifiedPrsnInd>0</SaleOrExchDisqualifiedPrsnInd>
+        <BrrwOrLendDisqualifiedPrsnInd>0</BrrwOrLendDisqualifiedPrsnInd>
+        <FurnGoodsDisqualifiedPrsnInd>0</FurnGoodsDisqualifiedPrsnInd>
+        <PayCompDisqualifiedPrsnInd>0</PayCompDisqualifiedPrsnInd>
+        <TransferAstDisqualifiedPrsnInd>0</TransferAstDisqualifiedPrsnInd>
+        <PaymentToGovernmentOfficialInd>0</PaymentToGovernmentOfficialInd>
+        <UncorrectedPriorActsInd>0</UncorrectedPriorActsInd>
+        <UndistributedIncomePYInd>0</UndistributedIncomePYInd>
+        <BusinessHoldingsInd>0</BusinessHoldingsInd>
+        <JeopardyInvestmentsInd>0</JeopardyInvestmentsInd>
+        <UncorrectedPYJeopardyInvstInd>0</UncorrectedPYJeopardyInvstInd>
+        <InfluenceLegislationInd>0</InfluenceLegislationInd>
+        <InfluenceElectionInd>0</InfluenceElectionInd>
+        <GrantsToIndividualsInd>0</GrantsToIndividualsInd>
+        <GrantsToOrganizationsInd>0</GrantsToOrganizationsInd>
+        <NoncharitablePurposeInd>0</NoncharitablePurposeInd>
+        <RcvFndsToPayPrsnlBnftCntrctInd>0</RcvFndsToPayPrsnlBnftCntrctInd>
+        <PayPremiumsPrsnlBnftCntrctInd>0</PayPremiumsPrsnlBnftCntrctInd>
+        <ProhibitedTaxShelterTransInd>0</ProhibitedTaxShelterTransInd>
+        <SubjToTaxRmnrtnExPrchtPymtInd>0</SubjToTaxRmnrtnExPrchtPymtInd>
+      </StatementsRegardingActy4720Grp>
+      <OfficerDirTrstKeyEmplInfoGrp>
+        <OfficerDirTrstKeyEmplGrp>
+          <PersonNm>RAYMOND SOECHTING</PersonNm>
+          <USAddress>
+            <AddressLine1Txt>26515 NATURAL BRIDGE CAVERNS</AddressLine1Txt>
+            <CityNm>SAN ANTONIO</CityNm>
+            <StateAbbreviationCd>TX</StateAbbreviationCd>
+            <ZIPCd>78266</ZIPCd>
+          </USAddress>
+          <TitleTxt>TREASURER</TitleTxt>
+          <AverageHrsPerWkDevotedToPosRt>0.00</AverageHrsPerWkDevotedToPosRt>
+          <CompensationAmt>0</CompensationAmt>
+          <EmployeeBenefitProgramAmt>0</EmployeeBenefitProgramAmt>
+          <ExpenseAccountOtherAllwncAmt>0</ExpenseAccountOtherAllwncAmt>
+        </OfficerDirTrstKeyEmplGrp>
+        <OfficerDirTrstKeyEmplGrp>
+          <PersonNm>TRUDY SOECHTING</PersonNm>
+          <USAddress>
+            <AddressLine1Txt>26515 NATURAL BRIDGE CAVERNS</AddressLine1Txt>
+            <CityNm>SAN ANTONIO</CityNm>
+            <StateAbbreviationCd>TX</StateAbbreviationCd>
+            <ZIPCd>78266</ZIPCd>
+          </USAddress>
+          <TitleTxt>PRESIDENT</TitleTxt>
+          <AverageHrsPerWkDevotedToPosRt>0.00</AverageHrsPerWkDevotedToPosRt>
+          <CompensationAmt>0</CompensationAmt>
+          <EmployeeBenefitProgramAmt>0</EmployeeBenefitProgramAmt>
+          <ExpenseAccountOtherAllwncAmt>0</ExpenseAccountOtherAllwncAmt>
+        </OfficerDirTrstKeyEmplGrp>
+        <OfficerDirTrstKeyEmplGrp>
+          <PersonNm>T DUDLEY SOECHTING</PersonNm>
+          <USAddress>
+            <AddressLine1Txt>26515 NATURAL BRIDGE CAVERNS</AddressLine1Txt>
+            <CityNm>SAN ANTONIO</CityNm>
+            <StateAbbreviationCd>TX</StateAbbreviationCd>
+            <ZIPCd>78266</ZIPCd>
+          </USAddress>
+          <TitleTxt>VICE PRESIDENT</TitleTxt>
+          <AverageHrsPerWkDevotedToPosRt>0.00</AverageHrsPerWkDevotedToPosRt>
+          <CompensationAmt>0</CompensationAmt>
+          <EmployeeBenefitProgramAmt>0</EmployeeBenefitProgramAmt>
+          <ExpenseAccountOtherAllwncAmt>0</ExpenseAccountOtherAllwncAmt>
+        </OfficerDirTrstKeyEmplGrp>
+        <OfficerDirTrstKeyEmplGrp>
+          <PersonNm>SHAWN SOECHTING</PersonNm>
+          <USAddress>
+            <AddressLine1Txt>26515 NATURAL BRIDGE CAVERNS</AddressLine1Txt>
+            <CityNm>SAN ANTONIO</CityNm>
+            <StateAbbreviationCd>TX</StateAbbreviationCd>
+            <ZIPCd>78266</ZIPCd>
+          </USAddress>
+          <TitleTxt>SECRETARY</TitleTxt>
+          <AverageHrsPerWkDevotedToPosRt>0.00</AverageHrsPerWkDevotedToPosRt>
+          <CompensationAmt>0</CompensationAmt>
+          <EmployeeBenefitProgramAmt>0</EmployeeBenefitProgramAmt>
+          <ExpenseAccountOtherAllwncAmt>0</ExpenseAccountOtherAllwncAmt>
+        </OfficerDirTrstKeyEmplGrp>
+        <CompOfHghstPdEmplOrNONETxt>NONE</CompOfHghstPdEmplOrNONETxt>
+        <OtherEmployeePaidOver50kCnt>0</OtherEmployeePaidOver50kCnt>
+        <CompOfHghstPdCntrctOrNONETxt>NONE</CompOfHghstPdCntrctOrNONETxt>
+        <ContractorPaidOver50kCnt>0</ContractorPaidOver50kCnt>
+      </OfficerDirTrstKeyEmplInfoGrp>
+      <SumOfProgramRelatedInvstGrp>
+        <TotalAmt>0</TotalAmt>
+      </SumOfProgramRelatedInvstGrp>
+      <MinimumInvestmentReturnGrp>
+        <AverageMonthlyFMVOfSecAmt>949284</AverageMonthlyFMVOfSecAmt>
+        <AverageMonthlyCashBalancesAmt>27144</AverageMonthlyCashBalancesAmt>
+        <FMVAllOtherNoncharitableAstAmt>0</FMVAllOtherNoncharitableAstAmt>
+        <TotalFMVOfUnusedAssetsAmt>976428</TotalFMVOfUnusedAssetsAmt>
+        <ReductionClaimedAmt>0</ReductionClaimedAmt>
+        <AcquisitionIndebtednessAmt>0</AcquisitionIndebtednessAmt>
+        <AdjustedTotalFMVOfUnusedAstAmt>976428</AdjustedTotalFMVOfUnusedAstAmt>
+        <CashDeemedCharitableAmt>14646</CashDeemedCharitableAmt>
+        <NetVlNoncharitableAssetsAmt>961782</NetVlNoncharitableAssetsAmt>
+        <MinimumInvestmentReturnAmt>48089</MinimumInvestmentReturnAmt>
+      </MinimumInvestmentReturnGrp>
+      <DistributableAmountGrp>
+        <MinimumInvestmentReturnAmt>48089</MinimumInvestmentReturnAmt>
+        <TaxBasedOnInvestmentIncomeAmt>675</TaxBasedOnInvestmentIncomeAmt>
+        <TotalTaxAmt>675</TotalTaxAmt>
+        <DistributableBeforeAdjAmt>47414</DistributableBeforeAdjAmt>
+        <RecoveriesQualfiedDistriAmt>0</RecoveriesQualfiedDistriAmt>
+        <DistributableBeforeDedAmt>47414</DistributableBeforeDedAmt>
+        <DeductionFromDistributableAmt>0</DeductionFromDistributableAmt>
+        <DistributableAsAdjustedAmt>47414</DistributableAsAdjustedAmt>
+      </DistributableAmountGrp>
+      <QualifyingDistriPartXIIGrp>
+        <ExpensesAndContributionsAmt>48867</ExpensesAndContributionsAmt>
+        <ProgramRelatedInvstTotalAmt>0</ProgramRelatedInvstTotalAmt>
+        <QualifyingDistributionsAmt>48867</QualifyingDistributionsAmt>
+        <PctSect4940eOrgNetInvstIncmAmt>0</PctSect4940eOrgNetInvstIncmAmt>
+        <AdjustedQualifyingDistriAmt>48867</AdjustedQualifyingDistriAmt>
+      </QualifyingDistriPartXIIGrp>
+      <UndistributedIncomeGrp>
+        <DistributableAsAdjustedAmt>47414</DistributableAsAdjustedAmt>
+        <UndistributedIncomePYAmt>20749</UndistributedIncomePYAmt>
+        <TotalForPriorYearsAmt>0</TotalForPriorYearsAmt>
+        <TotalExcessDistributionCyovAmt>0</TotalExcessDistributionCyovAmt>
+        <QualifyingDistributionsAmt>48867</QualifyingDistributionsAmt>
+        <AppliedToYear1Amt>20749</AppliedToYear1Amt>
+        <AppliedToPriorYearsAmt referenceDocumentId="RetDoc12000100081">0</AppliedToPriorYearsAmt>
+        <TreatedAsDistriFromCorpusAmt>0</TreatedAsDistriFromCorpusAmt>
+        <AppliedToCurrentYearAmt>28118</AppliedToCurrentYearAmt>
+        <RemainingDistriFromCorpusAmt>0</RemainingDistriFromCorpusAmt>
+        <ExcessDistriCyovAppCYCorpusAmt>0</ExcessDistriCyovAppCYCorpusAmt>
+        <ExcessDistributionCyovAppCYAmt>0</ExcessDistributionCyovAppCYAmt>
+        <TotalCorpusAmt>0</TotalCorpusAmt>
+        <PriorYearUndistributedIncmAmt>0</PriorYearUndistributedIncmAmt>
+        <PriorYearDeficiencyOrTaxAmt>0</PriorYearDeficiencyOrTaxAmt>
+        <Taxable1Amt>0</Taxable1Amt>
+        <Taxable2Amt>0</Taxable2Amt>
+        <UndistributedIncomeCYAmt>19296</UndistributedIncomeCYAmt>
+        <CorpusDistri170b1EOr4942g3Amt>0</CorpusDistri170b1EOr4942g3Amt>
+        <ExcessDistriCyovFromYr5Amt>0</ExcessDistriCyovFromYr5Amt>
+        <ExcessDistriCyovToNextYrAmt>0</ExcessDistriCyovToNextYrAmt>
+      </UndistributedIncomeGrp>
+      <SupplementaryInformationGrp>
+        <ContributingManagerNm>TRUDY SOECHTING</ContributingManagerNm>
+        <OnlyContriToPreselectedInd>X</OnlyContriToPreselectedInd>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>BELIEVING FOR BRYLEIGH FOUNDATION</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientUSAddress>
+            <AddressLine1Txt>301 MAIN PLAZA PMB 213</AddressLine1Txt>
+            <CityNm>NEW BRAUNFELS</CityNm>
+            <StateAbbreviationCd>TX</StateAbbreviationCd>
+            <ZIPCd>78130</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>NONE</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>PUBLIC</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>CHARITABLE</GrantOrContributionPurposeTxt>
+          <Amt>1500</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>COMAL COUNTY JUNIOR LIVESTOCK SHOW ASSOCIATION</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientUSAddress>
+            <AddressLine1Txt>PO BOX 311976</AddressLine1Txt>
+            <CityNm>NEW BRAUNFELS</CityNm>
+            <StateAbbreviationCd>TX</StateAbbreviationCd>
+            <ZIPCd>78131</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>NONE</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>PUBLIC</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>CHARITABLE</GrantOrContributionPurposeTxt>
+          <Amt>9692</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>COMMUNITIES IN SCHOOLS</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientUSAddress>
+            <AddressLine1Txt>161 SOUTH CASTELL AVENUE</AddressLine1Txt>
+            <CityNm>NEW BRAUNFELS</CityNm>
+            <StateAbbreviationCd>TX</StateAbbreviationCd>
+            <ZIPCd>78130</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>NONE</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>PUBLIC</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>CHARITABLE</GrantOrContributionPurposeTxt>
+          <Amt>2500</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>FIRST PROTESTANT CHURCH</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientUSAddress>
+            <AddressLine1Txt>172 WEST CALL STREET</AddressLine1Txt>
+            <CityNm>NEW BRAUNFELS</CityNm>
+            <StateAbbreviationCd>TX</StateAbbreviationCd>
+            <ZIPCd>78130</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>NONE</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>PUBLIC</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>CHARITABLE</GrantOrContributionPurposeTxt>
+          <Amt>1000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>GUADALUPE COUNTY YOUTH LIVESTOCK AND HOMEMAKERS SHOW</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientUSAddress>
+            <AddressLine1Txt>PO BOX 1400</AddressLine1Txt>
+            <CityNm>SEGUIN</CityNm>
+            <StateAbbreviationCd>TX</StateAbbreviationCd>
+            <ZIPCd>78156</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>NONE</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>PUBLIC</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>CHARITABLE</GrantOrContributionPurposeTxt>
+          <Amt>1200</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>HOSPICE OF NEW BRAUNFELS</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientUSAddress>
+            <AddressLine1Txt>611 N WALNUT AVE</AddressLine1Txt>
+            <CityNm>NEW BRAUNFELS</CityNm>
+            <StateAbbreviationCd>TX</StateAbbreviationCd>
+            <ZIPCd>78130</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>NONE</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>PUBLIC</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>CHARITABLE</GrantOrContributionPurposeTxt>
+          <Amt>2000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>NEW BRAUNFELS CHRISTIAN ACADEMY</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientUSAddress>
+            <AddressLine1Txt>220 FM 1863</AddressLine1Txt>
+            <CityNm>NEW BRAUNFELS</CityNm>
+            <StateAbbreviationCd>TX</StateAbbreviationCd>
+            <ZIPCd>78132</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>NONE</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>PUBLIC</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>CHARITABLE</GrantOrContributionPurposeTxt>
+          <Amt>2500</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>NEW BRAUNFELS ROTARY SCHOLARSHIP FUND</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientUSAddress>
+            <AddressLine1Txt>251 W SAN ANTONIO ST</AddressLine1Txt>
+            <CityNm>NEW BRAUNFELS</CityNm>
+            <StateAbbreviationCd>TX</StateAbbreviationCd>
+            <ZIPCd>78130</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>NONE</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>PUBLIC</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>CHARITABLE</GrantOrContributionPurposeTxt>
+          <Amt>1000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>SAN ANTONIO LIVESTOCK EXPOSITION</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientUSAddress>
+            <AddressLine1Txt>PO BOX 200230</AddressLine1Txt>
+            <CityNm>SAN ANTONIO</CityNm>
+            <StateAbbreviationCd>TX</StateAbbreviationCd>
+            <ZIPCd>78220</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>NONE</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>PUBLIC</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>CHARITABLE</GrantOrContributionPurposeTxt>
+          <Amt>20000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>SAVE THE GIRAFFES</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientUSAddress>
+            <AddressLine1Txt>26515 NATURAL BRIDGE CAVERNS RD</AddressLine1Txt>
+            <CityNm>SAN ANTONIO</CityNm>
+            <StateAbbreviationCd>TX</StateAbbreviationCd>
+            <ZIPCd>78266</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>NONE</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>PUBLIC</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>CHARITABLE</GrantOrContributionPurposeTxt>
+          <Amt>2000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>ST JUDE'S RANCH FOR CHILDREN</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientUSAddress>
+            <AddressLine1Txt>652 OLD BEAR CREEK RD</AddressLine1Txt>
+            <CityNm>NEW BRAUNFELS</CityNm>
+            <StateAbbreviationCd>TX</StateAbbreviationCd>
+            <ZIPCd>78132</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>NONE</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>PUBLIC</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>CHARITABLE</GrantOrContributionPurposeTxt>
+          <Amt>3500</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <TotalGrantOrContriPdDurYrAmt>46892</TotalGrantOrContriPdDurYrAmt>
+        <TotalGrantOrContriApprvFutAmt>0</TotalGrantOrContriApprvFutAmt>
+      </SupplementaryInformationGrp>
+      <AnalysisIncomeProducingActyGrp>
+        <DivAndIntFromSecPartVIIGrp>
+          <ExclusionCd>14</ExclusionCd>
+          <ExclusionAmt>27552</ExclusionAmt>
+        </DivAndIntFromSecPartVIIGrp>
+        <GainSalesAstOthThanInvntryGrp>
+          <ExclusionCd>18</ExclusionCd>
+          <ExclusionAmt>17273</ExclusionAmt>
+        </GainSalesAstOthThanInvntryGrp>
+        <SubtotalsIncmProducingActyGrp>
+          <UnrelatedBusinessTaxblIncmAmt>0</UnrelatedBusinessTaxblIncmAmt>
+          <ExclusionAmt>44825</ExclusionAmt>
+          <RelatedOrExemptFunctionIncmAmt>0</RelatedOrExemptFunctionIncmAmt>
+        </SubtotalsIncmProducingActyGrp>
+        <TotalIncomeProducingActyAmt>44825</TotalIncomeProducingActyAmt>
+      </AnalysisIncomeProducingActyGrp>
+      <TrnsfrTransRlnNonchrtblEOGrp>
+        <TrnsfrOfCashToNonchrtblEOInd>0</TrnsfrOfCashToNonchrtblEOInd>
+        <TrnsfrOtherAssetNonchrtblEOInd>0</TrnsfrOtherAssetNonchrtblEOInd>
+        <SalesOrExchangesOfAssetsInd>0</SalesOrExchangesOfAssetsInd>
+        <PurchaseOfAssetsNonchrtblEOInd>0</PurchaseOfAssetsNonchrtblEOInd>
+        <RentalOfFacilitiesOthAssetsInd>0</RentalOfFacilitiesOthAssetsInd>
+        <ReimbursementArrangementsInd>0</ReimbursementArrangementsInd>
+        <LoansOrLoanGuaranteesInd>0</LoansOrLoanGuaranteesInd>
+        <PerformanceOfServicesEtcInd>0</PerformanceOfServicesEtcInd>
+        <SharingOfFacilitiesEtcInd>0</SharingOfFacilitiesEtcInd>
+        <RelationshipsNonchrtblEOInd>0</RelationshipsNonchrtblEOInd>
+      </TrnsfrTransRlnNonchrtblEOGrp>
+    </IRS990PF>
+    <AccountingFeesSchedule documentId="RetDoc2002200001">
+      <AccountingFeesDetail>
+        <CategoryTxt>ACCOUNTING FEES</CategoryTxt>
+        <Amt>1975</Amt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>1975</DisbursementsCharitablePrpsAmt>
+      </AccountingFeesDetail>
+    </AccountingFeesSchedule>
+    <AppliedToPriorYearElection documentId="RetDoc12000100081">
+      <ElectionDesc>NATURAL BRIDGE WILDLIFE HERITAGE FOUNDATION EIN # 74-3015612FORM 990-PF TAX YEAR ENDING 12/31/2012PURSUANT TO CODE SEC. 4942(H) AND REG SECT 53.4942(A)-3(D)(2) THE FOUNDATION HEREBY ELECTS TO TREAT CURRENT YEAR QUALIFYING DISTRIBUTIONS IN EXCESS OF THE IMMEDIATELY PRECEDING TAX YEAR'S UNDISTRIBUTED INCOME AS BEING MADE OUT OF UNDISTRIBUTED INCOME FROM THE TAX YEAR 2009 IN THE AMOUNT OF $11.00</ElectionDesc>
+    </AppliedToPriorYearElection>
+    <InvestmentsCorpStockSchedule documentId="RetDoc2018900001">
+      <InvestmentsCorporateStockGrp>
+        <StockNm>WELLS FARGO COMMON &amp; PREFERRED STOCK</StockNm>
+        <EOYBookValueAmt>745013</EOYBookValueAmt>
+        <EOYFMVAmt>830194</EOYFMVAmt>
+      </InvestmentsCorporateStockGrp>
+    </InvestmentsCorpStockSchedule>
+    <OtherProfessionalFeesSchedule documentId="RetDoc2002300001">
+      <OtherProfessionalFeesDetail>
+        <CategoryTxt>INVESTMENT ADVISORY FEES</CategoryTxt>
+        <Amt>11057</Amt>
+        <NetInvestmentIncomeAmt>11057</NetInvestmentIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>0</DisbursementsCharitablePrpsAmt>
+      </OtherProfessionalFeesDetail>
+    </OtherProfessionalFeesSchedule>
+    <SubstantialContributorsSch documentId="RetDoc2089200001">
+      <SubstantialContributorDetail>
+        <PersonNm>RAYMOND SOECHTING</PersonNm>
+        <USAddress>
+          <AddressLine1Txt>26515 NATURAL BRIDGE CAVERNS ROAD</AddressLine1Txt>
+          <CityNm>SAN ANTONIO</CityNm>
+          <StateAbbreviationCd>TX</StateAbbreviationCd>
+          <ZIPCd>78266</ZIPCd>
+        </USAddress>
+      </SubstantialContributorDetail>
+    </SubstantialContributorsSch>
+  </ReturnData>
+</Return>

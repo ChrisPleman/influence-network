@@ -1,0 +1,498 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Return xmlns="http://www.irs.gov/efile" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.irs.gov/efile" returnVersion="2018v3.1">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2019-10-21T14:47:10-05:00</ReturnTs>
+    <TaxPeriodEndDt>2018-12-31</TaxPeriodEndDt>
+    <PreparerFirmGrp>
+      <PreparerFirmEIN>205972245</PreparerFirmEIN>
+      <PreparerFirmName>
+        <BusinessNameLine1Txt>ARGENT WEALTH MANAGEMENT LLC</BusinessNameLine1Txt>
+      </PreparerFirmName>
+      <PreparerUSAddress>
+        <AddressLine1Txt>200 FIFTH AVE 7TH FLOOR</AddressLine1Txt>
+        <CityNm>WALTHAM</CityNm>
+        <StateAbbreviationCd>MA</StateAbbreviationCd>
+        <ZIPCd>02451</ZIPCd>
+      </PreparerUSAddress>
+    </PreparerFirmGrp>
+    <ReturnTypeCd>990PF</ReturnTypeCd>
+    <TaxPeriodBeginDt>2018-01-01</TaxPeriodBeginDt>
+    <Filer>
+      <EIN>043509246</EIN>
+      <BusinessName>
+        <BusinessNameLine1Txt>HANAKA FAMILY CHARITABLE TRUST</BusinessNameLine1Txt>
+      </BusinessName>
+      <BusinessNameControlTxt>HANA</BusinessNameControlTxt>
+      <PhoneNum>7812904900</PhoneNum>
+      <USAddress>
+        <AddressLine1Txt>1627 SE 7TH STREET</AddressLine1Txt>
+        <CityNm>FT LAUDERDALE</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>33316</ZIPCd>
+      </USAddress>
+    </Filer>
+    <BusinessOfficerGrp>
+      <PersonNm>MARTIN E HANAKA</PersonNm>
+      <PersonTitleTxt>TRUSTEE</PersonTitleTxt>
+      <PhoneNum>7812904900</PhoneNum>
+      <SignatureDt>2019-10-21</SignatureDt>
+      <DiscussWithPaidPreparerInd>1</DiscussWithPaidPreparerInd>
+    </BusinessOfficerGrp>
+    <PreparerPersonGrp>
+      <PreparerPersonNm>DAVID M DUCHESNEAU</PreparerPersonNm>
+      <PTIN>P00955846</PTIN>
+      <PhoneNum>7812904900</PhoneNum>
+      <PreparationDt>2019-10-08</PreparationDt>
+    </PreparerPersonGrp>
+    <FilingSecurityInformation>
+      <IPAddress>
+        <IPv4AddressTxt>198.0.154.43</IPv4AddressTxt>
+      </IPAddress>
+      <IPDt>2019-10-21</IPDt>
+      <IPTm>14:47:07</IPTm>
+      <IPTimezoneCd>ED</IPTimezoneCd>
+      <FilingLicenseTypeCd>P</FilingLicenseTypeCd>
+      <AtSubmissionCreationDeviceId>DA39A3EE5E6B4B0D3255BFEF95601890AFD80709</AtSubmissionCreationDeviceId>
+      <AtSubmissionFilingDeviceId>B95DAC9ED24F2DCA5DE2747351CB5CAE4842BA8C</AtSubmissionFilingDeviceId>
+    </FilingSecurityInformation>
+    <TaxYr>2018</TaxYr>
+    <BuildTS>2020-01-14 16:20:31Z</BuildTS>
+  </ReturnHeader>
+  <ReturnData documentCnt="5">
+    <IRS990PF documentId="RetDoc1235000001">
+      <Organization501c3ExemptPFInd>X</Organization501c3ExemptPFInd>
+      <FMVAssetsEOYAmt>22645</FMVAssetsEOYAmt>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <AnalysisOfRevenueAndExpenses>
+        <ContriRcvdRevAndExpnssAmt>31035</ContriRcvdRevAndExpnssAmt>
+        <DividendsRevAndExpnssAmt>49</DividendsRevAndExpnssAmt>
+        <DividendsNetInvstIncmAmt>49</DividendsNetInvstIncmAmt>
+        <CapGainNetIncmNetInvstIncmAmt>0</CapGainNetIncmNetInvstIncmAmt>
+        <TotalRevAndExpnssAmt>31084</TotalRevAndExpnssAmt>
+        <TotalNetInvstIncmAmt>49</TotalNetInvstIncmAmt>
+        <CompOfcrDirTrstRevAndExpnssAmt>0</CompOfcrDirTrstRevAndExpnssAmt>
+        <CompOfcrDirTrstNetInvstIncmAmt>0</CompOfcrDirTrstNetInvstIncmAmt>
+        <CompOfcrDirTrstDsbrsChrtblAmt>0</CompOfcrDirTrstDsbrsChrtblAmt>
+        <AccountingFeesRevAndExpnssAmt referenceDocumentId="RetDoc2002200001">1000</AccountingFeesRevAndExpnssAmt>
+        <AccountingFeesNetInvstIncmAmt>1000</AccountingFeesNetInvstIncmAmt>
+        <AccountingFeesChrtblPrpsAmt>0</AccountingFeesChrtblPrpsAmt>
+        <OtherExpensesRevAndExpnssAmt referenceDocumentId="RetDoc2003200001">35</OtherExpensesRevAndExpnssAmt>
+        <OtherExpensesNetInvstIncmAmt>35</OtherExpensesNetInvstIncmAmt>
+        <OtherExpensesDsbrsChrtblAmt>0</OtherExpensesDsbrsChrtblAmt>
+        <TotOprExpensesRevAndExpnssAmt>1035</TotOprExpensesRevAndExpnssAmt>
+        <TotOprExpensesNetInvstIncmAmt>1035</TotOprExpensesNetInvstIncmAmt>
+        <TotOprExpensesDsbrsChrtblAmt>0</TotOprExpensesDsbrsChrtblAmt>
+        <ContriPaidRevAndExpnssAmt>22000</ContriPaidRevAndExpnssAmt>
+        <ContriPaidDsbrsChrtblAmt>22000</ContriPaidDsbrsChrtblAmt>
+        <TotalExpensesRevAndExpnssAmt>23035</TotalExpensesRevAndExpnssAmt>
+        <TotalExpensesNetInvstIncmAmt>1035</TotalExpensesNetInvstIncmAmt>
+        <TotalExpensesDsbrsChrtblAmt>22000</TotalExpensesDsbrsChrtblAmt>
+        <ExcessRevenueOverExpensesAmt>8049</ExcessRevenueOverExpensesAmt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+      </AnalysisOfRevenueAndExpenses>
+      <Form990PFBalanceSheetsGrp>
+        <SavAndTempCashInvstBOYAmt>14596</SavAndTempCashInvstBOYAmt>
+        <SavAndTempCashInvstEOYAmt>22645</SavAndTempCashInvstEOYAmt>
+        <SavAndTempCashInvstEOYFMVAmt>22645</SavAndTempCashInvstEOYFMVAmt>
+        <TotalAssetsBOYAmt>14596</TotalAssetsBOYAmt>
+        <TotalAssetsEOYAmt>22645</TotalAssetsEOYAmt>
+        <TotalAssetsEOYFMVAmt>22645</TotalAssetsEOYFMVAmt>
+        <TotalLiabilitiesBOYAmt>0</TotalLiabilitiesBOYAmt>
+        <TotalLiabilitiesEOYAmt>0</TotalLiabilitiesEOYAmt>
+        <OrgDoesNotFollowSFAS117Ind>X</OrgDoesNotFollowSFAS117Ind>
+        <CapitalStockBOYAmt>4137</CapitalStockBOYAmt>
+        <CapitalStockEOYAmt>4137</CapitalStockEOYAmt>
+        <AdditionalPaidInCapitalBOYAmt>0</AdditionalPaidInCapitalBOYAmt>
+        <AdditionalPaidInCapitalEOYAmt>0</AdditionalPaidInCapitalEOYAmt>
+        <RetainedEarningBOYAmt>10459</RetainedEarningBOYAmt>
+        <RetainedEarningEOYAmt>18508</RetainedEarningEOYAmt>
+        <TotNetAstOrFundBalancesBOYAmt>14596</TotNetAstOrFundBalancesBOYAmt>
+        <TotNetAstOrFundBalancesEOYAmt>22645</TotNetAstOrFundBalancesEOYAmt>
+        <TotalLiabilitiesNetAstBOYAmt>14596</TotalLiabilitiesNetAstBOYAmt>
+        <TotalLiabilitiesNetAstEOYAmt>22645</TotalLiabilitiesNetAstEOYAmt>
+      </Form990PFBalanceSheetsGrp>
+      <ChgInNetAssetsFundBalancesGrp>
+        <TotNetAstOrFundBalancesBOYAmt>14596</TotNetAstOrFundBalancesBOYAmt>
+        <ExcessRevenueOverExpensesAmt>8049</ExcessRevenueOverExpensesAmt>
+        <OtherIncreasesAmt>0</OtherIncreasesAmt>
+        <SubtotalAmt>22645</SubtotalAmt>
+        <OtherDecreasesAmt>0</OtherDecreasesAmt>
+        <TotNetAstOrFundBalancesEOYAmt>22645</TotNetAstOrFundBalancesEOYAmt>
+      </ChgInNetAssetsFundBalancesGrp>
+      <QlfyUndSect4940eReducedTaxGrp>
+        <LiableSection4942TaxInd>0</LiableSection4942TaxInd>
+        <AdjustedQlfyDistriYr1Amt>21250</AdjustedQlfyDistriYr1Amt>
+        <NetVlNoncharitableAssetsYr1Amt>13754</NetVlNoncharitableAssetsYr1Amt>
+        <DistributionYr1Rt>1.545005</DistributionYr1Rt>
+        <AdjustedQlfyDistriYr2Amt>30400</AdjustedQlfyDistriYr2Amt>
+        <NetVlNoncharitableAssetsYr2Amt>10316</NetVlNoncharitableAssetsYr2Amt>
+        <DistributionYr2Rt>2.946879</DistributionYr2Rt>
+        <AdjustedQlfyDistriYr3Amt>15950</AdjustedQlfyDistriYr3Amt>
+        <NetVlNoncharitableAssetsYr3Amt>8018</NetVlNoncharitableAssetsYr3Amt>
+        <DistributionYr3Rt>1.989274</DistributionYr3Rt>
+        <AdjustedQlfyDistriYr4Amt>54985</AdjustedQlfyDistriYr4Amt>
+        <NetVlNoncharitableAssetsYr4Amt>29926</NetVlNoncharitableAssetsYr4Amt>
+        <DistributionYr4Rt>1.837366</DistributionYr4Rt>
+        <AdjustedQlfyDistriYr5Amt>53700</AdjustedQlfyDistriYr5Amt>
+        <NetVlNoncharitableAssetsYr5Amt>50250</NetVlNoncharitableAssetsYr5Amt>
+        <DistributionYr5Rt>1.068657</DistributionYr5Rt>
+        <TotalDistributionRt>9.387181</TotalDistributionRt>
+        <AverageDistributionRt>1.877436</AverageDistributionRt>
+        <NetVlNoncharitableAssetsAmt>21488</NetVlNoncharitableAssetsAmt>
+        <AdjNetVlNoncharitableAssetsAmt>40342</AdjNetVlNoncharitableAssetsAmt>
+        <NetInvestmentIncomePctAmt>0</NetInvestmentIncomePctAmt>
+        <AdjNonchrtblNetInvstIncmPctAmt>40342</AdjNonchrtblNetInvstIncmPctAmt>
+        <QualifyingDistributionsAmt>22000</QualifyingDistributionsAmt>
+      </QlfyUndSect4940eReducedTaxGrp>
+      <ExciseTaxBasedOnInvstIncmGrp>
+        <InvestmentIncomeExciseTaxAmt>0</InvestmentIncomeExciseTaxAmt>
+        <TaxUnderSection511Amt>0</TaxUnderSection511Amt>
+        <SubtotalAmt>0</SubtotalAmt>
+        <SubtitleATaxAmt>0</SubtitleATaxAmt>
+        <TaxBasedOnInvestmentIncomeAmt>0</TaxBasedOnInvestmentIncomeAmt>
+        <EstimatedPlusOvpmtIncmTxAmt>0</EstimatedPlusOvpmtIncmTxAmt>
+        <ExtsnRequestIncomeTaxPaidAmt>0</ExtsnRequestIncomeTaxPaidAmt>
+        <BackupWithholdingWithheldAmt>0</BackupWithholdingWithheldAmt>
+        <TotalPaymentsAndCreditsAmt>0</TotalPaymentsAndCreditsAmt>
+        <EsPenaltyAmt>0</EsPenaltyAmt>
+        <TaxDueAmt>0</TaxDueAmt>
+      </ExciseTaxBasedOnInvstIncmGrp>
+      <StatementsRegardingActyGrp>
+        <LegislativePoliticalActyInd>0</LegislativePoliticalActyInd>
+        <MoreThan100SpentInd>0</MoreThan100SpentInd>
+        <Form1120POLFiledInd>0</Form1120POLFiledInd>
+        <Section4955OrganizationTaxAmt>0</Section4955OrganizationTaxAmt>
+        <Section4955ManagersTaxAmt>0</Section4955ManagersTaxAmt>
+        <TaxReimbursedAmt>0</TaxReimbursedAmt>
+        <ActivitiesNotPreviouslyRptInd>0</ActivitiesNotPreviouslyRptInd>
+        <ChangesToArticlesOrBylawsInd>0</ChangesToArticlesOrBylawsInd>
+        <UnrelatedBusIncmOverLimitInd>0</UnrelatedBusIncmOverLimitInd>
+        <OrganizationDissolvedEtcInd>0</OrganizationDissolvedEtcInd>
+        <Section508eRqrSatisfiedInd>1</Section508eRqrSatisfiedInd>
+        <AtLeast5000InAssetsInd>1</AtLeast5000InAssetsInd>
+        <OrgReportOrRegisterStateCd>MA</OrgReportOrRegisterStateCd>
+        <Form990PFFiledWithAttyGenInd>1</Form990PFFiledWithAttyGenInd>
+        <PrivateOperatingFoundationInd>0</PrivateOperatingFoundationInd>
+        <NewSubstantialContributorsInd>0</NewSubstantialContributorsInd>
+        <OwnControlledEntityInd>0</OwnControlledEntityInd>
+        <DonorAdvisedFundInd>0</DonorAdvisedFundInd>
+        <ComplyWithPublicInspRqrInd>1</ComplyWithPublicInspRqrInd>
+        <WebsiteAddressTxt>N/A</WebsiteAddressTxt>
+        <IndividualWithBooksNm>MARTIN E HANAKA</IndividualWithBooksNm>
+        <PhoneNum>9545250562</PhoneNum>
+        <LocationOfBooksUSAddress>
+          <AddressLine1Txt>1627 SE 7TH STREET</AddressLine1Txt>
+          <CityNm>FORT LAUDERDALE</CityNm>
+          <StateAbbreviationCd>FL</StateAbbreviationCd>
+          <ZIPCd>33316</ZIPCd>
+        </LocationOfBooksUSAddress>
+        <ForeignAccountsQuestionInd>0</ForeignAccountsQuestionInd>
+      </StatementsRegardingActyGrp>
+      <StatementsRegardingActy4720Grp>
+        <SaleOrExchDisqualifiedPrsnInd>0</SaleOrExchDisqualifiedPrsnInd>
+        <BrrwOrLendDisqualifiedPrsnInd>0</BrrwOrLendDisqualifiedPrsnInd>
+        <FurnGoodsDisqualifiedPrsnInd>0</FurnGoodsDisqualifiedPrsnInd>
+        <PayCompDisqualifiedPrsnInd>0</PayCompDisqualifiedPrsnInd>
+        <TransferAstDisqualifiedPrsnInd>0</TransferAstDisqualifiedPrsnInd>
+        <PaymentToGovernmentOfficialInd>0</PaymentToGovernmentOfficialInd>
+        <UncorrectedPriorActsInd>0</UncorrectedPriorActsInd>
+        <UndistributedIncomePYInd>0</UndistributedIncomePYInd>
+        <BusinessHoldingsInd>0</BusinessHoldingsInd>
+        <JeopardyInvestmentsInd>0</JeopardyInvestmentsInd>
+        <UncorrectedPYJeopardyInvstInd>0</UncorrectedPYJeopardyInvstInd>
+        <InfluenceLegislationInd>0</InfluenceLegislationInd>
+        <InfluenceElectionInd>0</InfluenceElectionInd>
+        <GrantsToIndividualsInd>0</GrantsToIndividualsInd>
+        <GrantsToOrganizationsInd>0</GrantsToOrganizationsInd>
+        <NoncharitablePurposeInd>0</NoncharitablePurposeInd>
+        <RcvFndsToPayPrsnlBnftCntrctInd>0</RcvFndsToPayPrsnlBnftCntrctInd>
+        <PayPremiumsPrsnlBnftCntrctInd>0</PayPremiumsPrsnlBnftCntrctInd>
+        <ProhibitedTaxShelterTransInd>0</ProhibitedTaxShelterTransInd>
+        <SubjToTaxRmnrtnExPrchtPymtInd>0</SubjToTaxRmnrtnExPrchtPymtInd>
+      </StatementsRegardingActy4720Grp>
+      <OfficerDirTrstKeyEmplInfoGrp>
+        <OfficerDirTrstKeyEmplGrp>
+          <PersonNm>MARTIN E HANAKA</PersonNm>
+          <USAddress>
+            <AddressLine1Txt>1627 SE 7TH STREET</AddressLine1Txt>
+            <CityNm>FT LAUDERDALE</CityNm>
+            <StateAbbreviationCd>FL</StateAbbreviationCd>
+            <ZIPCd>33316</ZIPCd>
+          </USAddress>
+          <TitleTxt>TRUSTEE</TitleTxt>
+          <AverageHrsPerWkDevotedToPosRt>2.00</AverageHrsPerWkDevotedToPosRt>
+          <CompensationAmt>0</CompensationAmt>
+          <EmployeeBenefitProgramAmt>0</EmployeeBenefitProgramAmt>
+          <ExpenseAccountOtherAllwncAmt>0</ExpenseAccountOtherAllwncAmt>
+        </OfficerDirTrstKeyEmplGrp>
+        <OfficerDirTrstKeyEmplGrp>
+          <PersonNm>PHILIP HANAKA</PersonNm>
+          <USAddress>
+            <AddressLine1Txt>2400 E LAS OLAS BLVD 139</AddressLine1Txt>
+            <CityNm>FT LAUDERDALE</CityNm>
+            <StateAbbreviationCd>FL</StateAbbreviationCd>
+            <ZIPCd>33301</ZIPCd>
+          </USAddress>
+          <TitleTxt>TRUSTEE</TitleTxt>
+          <AverageHrsPerWkDevotedToPosRt>2.00</AverageHrsPerWkDevotedToPosRt>
+          <CompensationAmt>0</CompensationAmt>
+          <EmployeeBenefitProgramAmt>0</EmployeeBenefitProgramAmt>
+          <ExpenseAccountOtherAllwncAmt>0</ExpenseAccountOtherAllwncAmt>
+        </OfficerDirTrstKeyEmplGrp>
+        <OfficerDirTrstKeyEmplGrp>
+          <PersonNm>NICHOLE L HANAKA</PersonNm>
+          <USAddress>
+            <AddressLine1Txt>1627 SE 7TH STREET</AddressLine1Txt>
+            <CityNm>FT LAUDERDALE</CityNm>
+            <StateAbbreviationCd>FL</StateAbbreviationCd>
+            <ZIPCd>33301</ZIPCd>
+          </USAddress>
+          <TitleTxt>TRUSTEE</TitleTxt>
+          <AverageHrsPerWkDevotedToPosRt>2.00</AverageHrsPerWkDevotedToPosRt>
+          <CompensationAmt>0</CompensationAmt>
+          <EmployeeBenefitProgramAmt>0</EmployeeBenefitProgramAmt>
+          <ExpenseAccountOtherAllwncAmt>0</ExpenseAccountOtherAllwncAmt>
+        </OfficerDirTrstKeyEmplGrp>
+        <CompOfHghstPdEmplOrNONETxt>NONE</CompOfHghstPdEmplOrNONETxt>
+        <OtherEmployeePaidOver50kCnt>0</OtherEmployeePaidOver50kCnt>
+        <CompOfHghstPdCntrctOrNONETxt>NONE</CompOfHghstPdCntrctOrNONETxt>
+        <ContractorPaidOver50kCnt>0</ContractorPaidOver50kCnt>
+      </OfficerDirTrstKeyEmplInfoGrp>
+      <SumOfProgramRelatedInvstGrp>
+        <TotalAmt>0</TotalAmt>
+      </SumOfProgramRelatedInvstGrp>
+      <MinimumInvestmentReturnGrp>
+        <AverageMonthlyFMVOfSecAmt>0</AverageMonthlyFMVOfSecAmt>
+        <AverageMonthlyCashBalancesAmt>21815</AverageMonthlyCashBalancesAmt>
+        <FMVAllOtherNoncharitableAstAmt>0</FMVAllOtherNoncharitableAstAmt>
+        <TotalFMVOfUnusedAssetsAmt>21815</TotalFMVOfUnusedAssetsAmt>
+        <ReductionClaimedAmt>0</ReductionClaimedAmt>
+        <AcquisitionIndebtednessAmt>0</AcquisitionIndebtednessAmt>
+        <AdjustedTotalFMVOfUnusedAstAmt>21815</AdjustedTotalFMVOfUnusedAstAmt>
+        <CashDeemedCharitableAmt>327</CashDeemedCharitableAmt>
+        <NetVlNoncharitableAssetsAmt>21488</NetVlNoncharitableAssetsAmt>
+        <MinimumInvestmentReturnAmt>1074</MinimumInvestmentReturnAmt>
+      </MinimumInvestmentReturnGrp>
+      <DistributableAmountGrp>
+        <MinimumInvestmentReturnAmt>1074</MinimumInvestmentReturnAmt>
+        <TotalTaxAmt>0</TotalTaxAmt>
+        <DistributableBeforeAdjAmt>1074</DistributableBeforeAdjAmt>
+        <RecoveriesQualfiedDistriAmt>0</RecoveriesQualfiedDistriAmt>
+        <DistributableBeforeDedAmt>1074</DistributableBeforeDedAmt>
+        <DeductionFromDistributableAmt>0</DeductionFromDistributableAmt>
+        <DistributableAsAdjustedAmt>1074</DistributableAsAdjustedAmt>
+      </DistributableAmountGrp>
+      <QualifyingDistriPartXIIGrp>
+        <ExpensesAndContributionsAmt>22000</ExpensesAndContributionsAmt>
+        <ProgramRelatedInvstTotalAmt>0</ProgramRelatedInvstTotalAmt>
+        <QualifyingDistributionsAmt>22000</QualifyingDistributionsAmt>
+        <PctSect4940eOrgNetInvstIncmAmt>0</PctSect4940eOrgNetInvstIncmAmt>
+        <AdjustedQualifyingDistriAmt>22000</AdjustedQualifyingDistriAmt>
+      </QualifyingDistriPartXIIGrp>
+      <UndistributedIncomeGrp>
+        <DistributableAsAdjustedAmt>1074</DistributableAsAdjustedAmt>
+        <UndistributedIncomePYAmt>0</UndistributedIncomePYAmt>
+        <TotalForPriorYearsAmt>0</TotalForPriorYearsAmt>
+        <ExcessDistributionCyovYr5Amt>51187</ExcessDistributionCyovYr5Amt>
+        <ExcessDistributionCyovYr4Amt>54985</ExcessDistributionCyovYr4Amt>
+        <ExcessDistributionCyovYr3Amt>15950</ExcessDistributionCyovYr3Amt>
+        <ExcessDistributionCyovYr2Amt>30400</ExcessDistributionCyovYr2Amt>
+        <ExcessDistributionCyovYr1Amt>20562</ExcessDistributionCyovYr1Amt>
+        <TotalExcessDistributionCyovAmt>173084</TotalExcessDistributionCyovAmt>
+        <QualifyingDistributionsAmt>22000</QualifyingDistributionsAmt>
+        <AppliedToYear1Amt>0</AppliedToYear1Amt>
+        <AppliedToPriorYearsAmt>0</AppliedToPriorYearsAmt>
+        <TreatedAsDistriFromCorpusAmt referenceDocumentId="RetDoc12000100084">0</TreatedAsDistriFromCorpusAmt>
+        <AppliedToCurrentYearAmt>1074</AppliedToCurrentYearAmt>
+        <RemainingDistriFromCorpusAmt>20926</RemainingDistriFromCorpusAmt>
+        <ExcessDistriCyovAppCYCorpusAmt>0</ExcessDistriCyovAppCYCorpusAmt>
+        <ExcessDistributionCyovAppCYAmt>0</ExcessDistributionCyovAppCYAmt>
+        <TotalCorpusAmt>194010</TotalCorpusAmt>
+        <PriorYearUndistributedIncmAmt>0</PriorYearUndistributedIncmAmt>
+        <PriorYearDeficiencyOrTaxAmt>0</PriorYearDeficiencyOrTaxAmt>
+        <Taxable1Amt>0</Taxable1Amt>
+        <Taxable2Amt>0</Taxable2Amt>
+        <UndistributedIncomeCYAmt>0</UndistributedIncomeCYAmt>
+        <CorpusDistri170b1EOr4942g3Amt>0</CorpusDistri170b1EOr4942g3Amt>
+        <ExcessDistriCyovFromYr5Amt>51187</ExcessDistriCyovFromYr5Amt>
+        <ExcessDistriCyovToNextYrAmt>142823</ExcessDistriCyovToNextYrAmt>
+        <ExcessFromYear4Amt>54985</ExcessFromYear4Amt>
+        <ExcessFromYear3Amt>15950</ExcessFromYear3Amt>
+        <ExcessFromYear2Amt>30400</ExcessFromYear2Amt>
+        <ExcessFromYear1Amt>20562</ExcessFromYear1Amt>
+        <ExcessFromCurrentYearAmt>20926</ExcessFromCurrentYearAmt>
+      </UndistributedIncomeGrp>
+      <SupplementaryInformationGrp>
+        <ContributingManagerNm>MARTIN E HANAKA</ContributingManagerNm>
+        <OnlyContriToPreselectedInd>X</OnlyContriToPreselectedInd>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>CANISIUS HIGH SCHOOL</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientUSAddress>
+            <AddressLine1Txt>1180 DELAWARE AVENUE</AddressLine1Txt>
+            <CityNm>BUFFALO</CityNm>
+            <StateAbbreviationCd>NY</StateAbbreviationCd>
+            <ZIPCd>14209</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>NONE</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>EXEMPT</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>TO SUPPORT EDUCATION.</GrantOrContributionPurposeTxt>
+          <Amt>12000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>CHARITY GUILD</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientUSAddress>
+            <AddressLine1Txt>P O BOX 39555</AddressLine1Txt>
+            <CityNm>FORT LAUDERDALE</CityNm>
+            <StateAbbreviationCd>FL</StateAbbreviationCd>
+            <ZIPCd>33339</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>NONE</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>EXEMPT</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>TO SUPPORT THE COMMUNITY</GrantOrContributionPurposeTxt>
+          <Amt>300</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>PINE CREST SCHOOL</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientUSAddress>
+            <AddressLine1Txt>1501 NE 62N ST</AddressLine1Txt>
+            <CityNm>FORT LAUDERDALE</CityNm>
+            <StateAbbreviationCd>FL</StateAbbreviationCd>
+            <ZIPCd>33334</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>NONE</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>EXEMPT</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>TO SUPPORT EDUCATION</GrantOrContributionPurposeTxt>
+          <Amt>8000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>PROJECT ALIVE</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientUSAddress>
+            <AddressLine1Txt>P O BOX 384</AddressLine1Txt>
+            <CityNm>THOMPSONS STATION</CityNm>
+            <StateAbbreviationCd>TN</StateAbbreviationCd>
+            <ZIPCd>37179</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>NONE</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>EXEMPT</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>TO SUPPORT THE COMMUNITY</GrantOrContributionPurposeTxt>
+          <Amt>200</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>BIG DOG RESCUE RANCH</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientUSAddress>
+            <AddressLine1Txt>14444 OKEECHOBEE BLVD</AddressLine1Txt>
+            <CityNm>LOXAHATCHEE</CityNm>
+            <StateAbbreviationCd>FL</StateAbbreviationCd>
+            <ZIPCd>33470</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>NONE</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>EXEMPT</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>TO SUPPORT ANIMAL WELLFARE</GrantOrContributionPurposeTxt>
+          <Amt>500</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>AMERICAN CANCER SOCIETY</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientUSAddress>
+            <AddressLine1Txt>9 RIVERSIDE ROAD</AddressLine1Txt>
+            <CityNm>WESTON</CityNm>
+            <StateAbbreviationCd>MA</StateAbbreviationCd>
+            <ZIPCd>02493</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>NONE</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>EXEMPT</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>TO SUPPORT RESEARCH</GrantOrContributionPurposeTxt>
+          <Amt>500</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>FUNDACION AMIGOS DEL HIM CON</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientForeignAddress>
+            <AddressLine1Txt>802 AVE FERNANDEZ JUNCOS</AddressLine1Txt>
+            <CityNm>SAN JUAN</CityNm>
+            <ProvinceOrStateNm>SAN JUAN</ProvinceOrStateNm>
+            <CountryCd>RQ</CountryCd>
+            <ForeignPostalCd>00907-4315</ForeignPostalCd>
+          </RecipientForeignAddress>
+          <RecipientRelationshipTxt>NONE</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>EXEMPT</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>TO SUPPORT THE COMMINUTY</GrantOrContributionPurposeTxt>
+          <Amt>500</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <TotalGrantOrContriPdDurYrAmt>22000</TotalGrantOrContriPdDurYrAmt>
+        <TotalGrantOrContriApprvFutAmt>0</TotalGrantOrContriApprvFutAmt>
+      </SupplementaryInformationGrp>
+      <AnalysisIncomeProducingActyGrp>
+        <DivAndIntFromSecPartVIIGrp>
+          <ExclusionCd>14</ExclusionCd>
+          <ExclusionAmt>49</ExclusionAmt>
+        </DivAndIntFromSecPartVIIGrp>
+        <SubtotalsIncmProducingActyGrp>
+          <UnrelatedBusinessTaxblIncmAmt>0</UnrelatedBusinessTaxblIncmAmt>
+          <ExclusionAmt>49</ExclusionAmt>
+          <RelatedOrExemptFunctionIncmAmt>0</RelatedOrExemptFunctionIncmAmt>
+        </SubtotalsIncmProducingActyGrp>
+        <TotalIncomeProducingActyAmt>49</TotalIncomeProducingActyAmt>
+      </AnalysisIncomeProducingActyGrp>
+      <TrnsfrTransRlnNonchrtblEOGrp>
+        <TrnsfrOfCashToNonchrtblEOInd>0</TrnsfrOfCashToNonchrtblEOInd>
+        <TrnsfrOtherAssetNonchrtblEOInd>0</TrnsfrOtherAssetNonchrtblEOInd>
+        <SalesOrExchangesOfAssetsInd>0</SalesOrExchangesOfAssetsInd>
+        <PurchaseOfAssetsNonchrtblEOInd>0</PurchaseOfAssetsNonchrtblEOInd>
+        <RentalOfFacilitiesOthAssetsInd>0</RentalOfFacilitiesOthAssetsInd>
+        <ReimbursementArrangementsInd>0</ReimbursementArrangementsInd>
+        <LoansOrLoanGuaranteesInd>0</LoansOrLoanGuaranteesInd>
+        <PerformanceOfServicesEtcInd>0</PerformanceOfServicesEtcInd>
+        <SharingOfFacilitiesEtcInd>0</SharingOfFacilitiesEtcInd>
+        <RelationshipsNonchrtblEOInd>0</RelationshipsNonchrtblEOInd>
+      </TrnsfrTransRlnNonchrtblEOGrp>
+    </IRS990PF>
+    <IRS990ScheduleB documentId="RetDoc1234500001">
+      <Organization501c3ExemptPFInd>X</Organization501c3ExemptPFInd>
+      <GeneralRuleInd>X</GeneralRuleInd>
+      <ContributorInformationGrp>
+        <ContributorNum>1</ContributorNum>
+        <ContributorPersonNm>MARTIN HANAKA</ContributorPersonNm>
+        <ContributorUSAddress>
+          <AddressLine1Txt>1627 SE 7TH STREET</AddressLine1Txt>
+          <CityNm>FT LAUDERDALE</CityNm>
+          <StateAbbreviationCd>FL</StateAbbreviationCd>
+          <ZIPCd>33316</ZIPCd>
+        </ContributorUSAddress>
+        <TotalContributionsAmt>31035</TotalContributionsAmt>
+        <PersonContributionInd>X</PersonContributionInd>
+      </ContributorInformationGrp>
+    </IRS990ScheduleB>
+    <AccountingFeesSchedule documentId="RetDoc2002200001">
+      <AccountingFeesDetail>
+        <CategoryTxt>TAX PREPARATION</CategoryTxt>
+        <Amt>1000</Amt>
+        <NetInvestmentIncomeAmt>1000</NetInvestmentIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>0</DisbursementsCharitablePrpsAmt>
+      </AccountingFeesDetail>
+    </AccountingFeesSchedule>
+    <DistributionFromCorpusElection documentId="RetDoc12000100084">
+      <ElectionDesc>HANAKA FAMILY CHARITABLE TRUSTELECTION2017 FORM 990PFELECTION TO TREAT QUALIFYING DISTRIBUTIONS AS A DISTRIBUTIONOUT OF CORPUS.THE HANAKA FAMILY CHARITABLE TRUSTS ELECTS, PURSUANT TO REGULATION SECTION 53.4942(A)-3(D) 2, TO TREAT $ $ 30,400 OF QUALIFYING DISTRIBUTIONS MADE IN2016 AS BEING OUT OF CORPUS.</ElectionDesc>
+    </DistributionFromCorpusElection>
+    <OtherExpensesSchedule documentId="RetDoc2003200001">
+      <OtherExpensesScheduleGrp>
+        <Desc>ANNUAL REPORT</Desc>
+        <RevenueAndExpensesPerBooksAmt>35</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>35</NetInvestmentIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>0</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+    </OtherExpensesSchedule>
+  </ReturnData>
+</Return>

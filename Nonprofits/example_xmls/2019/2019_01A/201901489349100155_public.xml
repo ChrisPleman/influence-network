@@ -1,0 +1,805 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Return xmlns="http://www.irs.gov/efile" returnVersion="2017v2.2">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2019-05-28T09:29:34-04:00</ReturnTs>
+    <TaxPeriodEndDt>2018-09-30</TaxPeriodEndDt>
+    <PreparerFirmGrp>
+      <PreparerFirmEIN>411726253</PreparerFirmEIN>
+      <PreparerFirmName>
+        <BusinessNameLine1Txt>MORRIS MORRIS CPAs</BusinessNameLine1Txt>
+      </PreparerFirmName>
+      <PreparerUSAddress>
+        <AddressLine1Txt>214 1ST AVENUE NW</AddressLine1Txt>
+        <CityNm>Aitkin</CityNm>
+        <StateAbbreviationCd>MN</StateAbbreviationCd>
+        <ZIPCd>56431</ZIPCd>
+      </PreparerUSAddress>
+    </PreparerFirmGrp>
+    <ReturnTypeCd>990PF</ReturnTypeCd>
+    <TaxPeriodBeginDt>2017-10-01</TaxPeriodBeginDt>
+    <Filer>
+      <EIN>911425050</EIN>
+      <BusinessName>
+        <BusinessNameLine1Txt>KENNETH L KELLAR FOUNDATION</BusinessNameLine1Txt>
+      </BusinessName>
+      <BusinessNameControlTxt>KENN</BusinessNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>312 MINNESOTA AVENUE NORTH</AddressLine1Txt>
+        <CityNm>Aitkin</CityNm>
+        <StateAbbreviationCd>MN</StateAbbreviationCd>
+        <ZIPCd>56431</ZIPCd>
+      </USAddress>
+    </Filer>
+    <BusinessOfficerGrp>
+      <PersonNm>HUGH JANZEN</PersonNm>
+      <PersonTitleTxt>PRESIDENT</PersonTitleTxt>
+      <PhoneNum>2189272539</PhoneNum>
+      <SignatureDt>2019-05-28</SignatureDt>
+      <DiscussWithPaidPreparerInd>false</DiscussWithPaidPreparerInd>
+    </BusinessOfficerGrp>
+    <PreparerPersonGrp>
+      <PreparerPersonNm>DONALD S MORRIS</PreparerPersonNm>
+      <PTIN>P01256951</PTIN>
+      <PhoneNum>2189274270</PhoneNum>
+      <PreparationDt>2019-05-28</PreparationDt>
+    </PreparerPersonGrp>
+    <FilingSecurityInformation>
+      <IPAddress>
+        <IPv4AddressTxt>131.93.124.93</IPv4AddressTxt>
+      </IPAddress>
+      <IPDt>2019-05-28</IPDt>
+      <IPTm>09:31:40</IPTm>
+      <FederalOriginalSubmissionId>4118312019148j0lyj54</FederalOriginalSubmissionId>
+      <FederalOriginalSubmissionIdDt>2019-05-28</FederalOriginalSubmissionIdDt>
+      <FilingLicenseTypeCd>P</FilingLicenseTypeCd>
+      <AtSubmissionCreationDeviceId>9AC045BBB814F99B00F4120336F491BA4D6DA94D</AtSubmissionCreationDeviceId>
+      <AtSubmissionFilingDeviceId>9AC045BBB814F99B00F4120336F491BA4D6DA94D</AtSubmissionFilingDeviceId>
+    </FilingSecurityInformation>
+    <TaxYr>2017</TaxYr>
+    <BuildTS>2019-02-21 02:37:17Z</BuildTS>
+  </ReturnHeader>
+  <ReturnData documentCnt="12">
+    <IRS990PF documentId="IRS990PF">
+      <Organization501c3ExemptPFInd>X</Organization501c3ExemptPFInd>
+      <FMVAssetsEOYAmt>2069615</FMVAssetsEOYAmt>
+      <MethodOfAccountingAccrualInd>X</MethodOfAccountingAccrualInd>
+      <AnalysisOfRevenueAndExpenses>
+        <ContriRcvdRevAndExpnssAmt>48</ContriRcvdRevAndExpnssAmt>
+        <ScheduleBNotRequiredInd>X</ScheduleBNotRequiredInd>
+        <InterestOnSavRevAndExpnssAmt>2176</InterestOnSavRevAndExpnssAmt>
+        <InterestOnSavNetInvstIncmAmt>2176</InterestOnSavNetInvstIncmAmt>
+        <DividendsRevAndExpnssAmt>5316</DividendsRevAndExpnssAmt>
+        <DividendsNetInvstIncmAmt>5316</DividendsNetInvstIncmAmt>
+        <GrossRentsRevAndExpnssAmt>242469</GrossRentsRevAndExpnssAmt>
+        <GrossRentsNetInvstIncmAmt>94140</GrossRentsNetInvstIncmAmt>
+        <OtherIncomeRevAndExpnssAmt referenceDocumentId="STM106">200</OtherIncomeRevAndExpnssAmt>
+        <TotalRevAndExpnssAmt>250209</TotalRevAndExpnssAmt>
+        <TotalNetInvstIncmAmt>101632</TotalNetInvstIncmAmt>
+        <OthEmplSlrsWgsRevAndExpnssAmt>19660</OthEmplSlrsWgsRevAndExpnssAmt>
+        <OthEmplSlrsWgsNetInvstIncmAmt>1966</OthEmplSlrsWgsNetInvstIncmAmt>
+        <LegalFeesRevAndExpnssAmt referenceDocumentId="STM107">80</LegalFeesRevAndExpnssAmt>
+        <AccountingFeesRevAndExpnssAmt referenceDocumentId="STM108">550</AccountingFeesRevAndExpnssAmt>
+        <InterestRevAndExpnssAmt>35296</InterestRevAndExpnssAmt>
+        <InterestNetInvstIncmAmt>23459</InterestNetInvstIncmAmt>
+        <TaxesRevAndExpnssAmt referenceDocumentId="STM110">47109</TaxesRevAndExpnssAmt>
+        <TaxesNetInvstIncmAmt>27641</TaxesNetInvstIncmAmt>
+        <DeprecAndDpltnRevAndExpnssAmt referenceDocumentId="STM126">76046</DeprecAndDpltnRevAndExpnssAmt>
+        <DeprecAndDpltnNetInvstIncmAmt>35082</DeprecAndDpltnNetInvstIncmAmt>
+        <OtherExpensesRevAndExpnssAmt referenceDocumentId="STM103">64579</OtherExpensesRevAndExpnssAmt>
+        <OtherExpensesNetInvstIncmAmt>29195</OtherExpensesNetInvstIncmAmt>
+        <TotOprExpensesRevAndExpnssAmt>243320</TotOprExpensesRevAndExpnssAmt>
+        <TotOprExpensesNetInvstIncmAmt>117343</TotOprExpensesNetInvstIncmAmt>
+        <TotOprExpensesDsbrsChrtblAmt>0</TotOprExpensesDsbrsChrtblAmt>
+        <ContriPaidRevAndExpnssAmt>22302</ContriPaidRevAndExpnssAmt>
+        <ContriPaidDsbrsChrtblAmt>22302</ContriPaidDsbrsChrtblAmt>
+        <TotalExpensesRevAndExpnssAmt>265622</TotalExpensesRevAndExpnssAmt>
+        <TotalExpensesNetInvstIncmAmt>117343</TotalExpensesNetInvstIncmAmt>
+        <TotalExpensesDsbrsChrtblAmt>22302</TotalExpensesDsbrsChrtblAmt>
+        <ExcessRevenueOverExpensesAmt>-15413</ExcessRevenueOverExpensesAmt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+      </AnalysisOfRevenueAndExpenses>
+      <Form990PFBalanceSheetsGrp>
+        <CashBOYAmt>123649</CashBOYAmt>
+        <CashEOYAmt>143526</CashEOYAmt>
+        <CashEOYFMVAmt>143526</CashEOYFMVAmt>
+        <AcctRcvblAmt>1430</AcctRcvblAmt>
+        <AcctRcvblBOYAmt>1407</AcctRcvblBOYAmt>
+        <AcctRcvblEOYAmt>1430</AcctRcvblEOYAmt>
+        <AcctRcvblEOYFMVAmt>1430</AcctRcvblEOYFMVAmt>
+        <OtherNtsAndLoansRcvblAmt>39846</OtherNtsAndLoansRcvblAmt>
+        <OtherNtsAndLoansRcvblBOYAmt>41904</OtherNtsAndLoansRcvblBOYAmt>
+        <OtherNtsAndLoansRcvblEOYAmt referenceDocumentId="STM135">39846</OtherNtsAndLoansRcvblEOYAmt>
+        <OtherNtsAndLoansRcvblEOYFMVAmt>39846</OtherNtsAndLoansRcvblEOYFMVAmt>
+        <CorporateStockBOYAmt>82241</CorporateStockBOYAmt>
+        <CorporateStockEOYAmt referenceDocumentId="STM137">82241</CorporateStockEOYAmt>
+        <InvstLandCostOrOtherBasisAmt>2908299</InvstLandCostOrOtherBasisAmt>
+        <InvstLandAccumDepreciationAmt>1383799</InvstLandAccumDepreciationAmt>
+        <LandBldgInvestmentsBOYAmt>1603647</LandBldgInvestmentsBOYAmt>
+        <LandBldgInvestmentsEOYAmt referenceDocumentId="STM117">1524500</LandBldgInvestmentsEOYAmt>
+        <LandBldgInvestmentsEOYFMVAmt>1884813</LandBldgInvestmentsEOYFMVAmt>
+        <TotalAssetsBOYAmt>1852848</TotalAssetsBOYAmt>
+        <TotalAssetsEOYAmt>1791543</TotalAssetsEOYAmt>
+        <TotalAssetsEOYFMVAmt>2069615</TotalAssetsEOYFMVAmt>
+        <AccountsPayableBOYAmt>11303</AccountsPayableBOYAmt>
+        <AccountsPayableEOYAmt>11714</AccountsPayableEOYAmt>
+        <MortgagesAndNotesPayableBOYAmt>904598</MortgagesAndNotesPayableBOYAmt>
+        <MortgagesAndNotesPayableEOYAmt referenceDocumentId="STM123">858295</MortgagesAndNotesPayableEOYAmt>
+        <TotalLiabilitiesBOYAmt>915901</TotalLiabilitiesBOYAmt>
+        <TotalLiabilitiesEOYAmt>870009</TotalLiabilitiesEOYAmt>
+        <OrgDoesNotFollowSFAS117Ind>X</OrgDoesNotFollowSFAS117Ind>
+        <CapitalStockBOYAmt>936947</CapitalStockBOYAmt>
+        <CapitalStockEOYAmt>921534</CapitalStockEOYAmt>
+        <TotNetAstOrFundBalancesBOYAmt>936947</TotNetAstOrFundBalancesBOYAmt>
+        <TotNetAstOrFundBalancesEOYAmt>921534</TotNetAstOrFundBalancesEOYAmt>
+        <TotalLiabilitiesNetAstBOYAmt>1852848</TotalLiabilitiesNetAstBOYAmt>
+        <TotalLiabilitiesNetAstEOYAmt>1791543</TotalLiabilitiesNetAstEOYAmt>
+      </Form990PFBalanceSheetsGrp>
+      <ChgInNetAssetsFundBalancesGrp>
+        <TotNetAstOrFundBalancesBOYAmt>936947</TotNetAstOrFundBalancesBOYAmt>
+        <ExcessRevenueOverExpensesAmt>-15413</ExcessRevenueOverExpensesAmt>
+        <SubtotalAmt>921534</SubtotalAmt>
+        <TotNetAstOrFundBalancesEOYAmt>921534</TotNetAstOrFundBalancesEOYAmt>
+      </ChgInNetAssetsFundBalancesGrp>
+      <QlfyUndSect4940eReducedTaxGrp>
+        <LiableSection4942TaxInd>false</LiableSection4942TaxInd>
+        <AdjustedQlfyDistriYr1Amt>2500</AdjustedQlfyDistriYr1Amt>
+        <NetVlNoncharitableAssetsYr1Amt>934566</NetVlNoncharitableAssetsYr1Amt>
+        <DistributionYr1Rt>0.002675</DistributionYr1Rt>
+        <AdjustedQlfyDistriYr2Amt>22500</AdjustedQlfyDistriYr2Amt>
+        <NetVlNoncharitableAssetsYr2Amt>542887</NetVlNoncharitableAssetsYr2Amt>
+        <DistributionYr2Rt>0.041445</DistributionYr2Rt>
+        <AdjustedQlfyDistriYr3Amt>20000</AdjustedQlfyDistriYr3Amt>
+        <NetVlNoncharitableAssetsYr3Amt>300748</NetVlNoncharitableAssetsYr3Amt>
+        <DistributionYr3Rt>0.066501</DistributionYr3Rt>
+        <AdjustedQlfyDistriYr4Amt>33696</AdjustedQlfyDistriYr4Amt>
+        <NetVlNoncharitableAssetsYr4Amt>820795</NetVlNoncharitableAssetsYr4Amt>
+        <DistributionYr4Rt>0.041053</DistributionYr4Rt>
+        <AdjustedQlfyDistriYr5Amt>5255</AdjustedQlfyDistriYr5Amt>
+        <NetVlNoncharitableAssetsYr5Amt>775499</NetVlNoncharitableAssetsYr5Amt>
+        <DistributionYr5Rt>0.006776</DistributionYr5Rt>
+        <TotalDistributionRt>0.15845</TotalDistributionRt>
+        <AverageDistributionRt>0.03169</AverageDistributionRt>
+        <NetVlNoncharitableAssetsAmt>904265</NetVlNoncharitableAssetsAmt>
+        <AdjNetVlNoncharitableAssetsAmt>28656</AdjNetVlNoncharitableAssetsAmt>
+        <AdjNonchrtblNetInvstIncmPctAmt>28656</AdjNonchrtblNetInvstIncmPctAmt>
+        <QualifyingDistributionsAmt>47281</QualifyingDistributionsAmt>
+      </QlfyUndSect4940eReducedTaxGrp>
+      <ExciseTaxBasedOnInvstIncmGrp>
+        <DomesticOrgMeetingSect4940eInd>X</DomesticOrgMeetingSect4940eInd>
+        <InvestmentIncomeExciseTaxAmt>0</InvestmentIncomeExciseTaxAmt>
+        <TaxUnderSection511Amt>0</TaxUnderSection511Amt>
+        <SubtitleATaxAmt>0</SubtitleATaxAmt>
+        <TaxBasedOnInvestmentIncomeAmt>0</TaxBasedOnInvestmentIncomeAmt>
+      </ExciseTaxBasedOnInvstIncmGrp>
+      <StatementsRegardingActyGrp>
+        <LegislativePoliticalActyInd>false</LegislativePoliticalActyInd>
+        <MoreThan100SpentInd>false</MoreThan100SpentInd>
+        <Form1120POLFiledInd>false</Form1120POLFiledInd>
+        <ActivitiesNotPreviouslyRptInd>false</ActivitiesNotPreviouslyRptInd>
+        <ChangesToArticlesOrBylawsInd>false</ChangesToArticlesOrBylawsInd>
+        <UnrelatedBusIncmOverLimitInd>false</UnrelatedBusIncmOverLimitInd>
+        <OrganizationDissolvedEtcInd>false</OrganizationDissolvedEtcInd>
+        <Section508eRqrSatisfiedInd>false</Section508eRqrSatisfiedInd>
+        <AtLeast5000InAssetsInd>true</AtLeast5000InAssetsInd>
+        <OrgReportOrRegisterStateCd>WA</OrgReportOrRegisterStateCd>
+        <PrivateOperatingFoundationInd>false</PrivateOperatingFoundationInd>
+        <NewSubstantialContributorsInd>false</NewSubstantialContributorsInd>
+        <IndividualWithBooksNm>MICHELLE MUGGLI</IndividualWithBooksNm>
+        <PhoneNum>2189272539</PhoneNum>
+        <LocationOfBooksUSAddress>
+          <AddressLine1Txt>312 MINNESOTA AVENUE NORTH - SUITE</AddressLine1Txt>
+          <CityNm>Aitkin</CityNm>
+          <StateAbbreviationCd>MN</StateAbbreviationCd>
+          <ZIPCd>56431</ZIPCd>
+        </LocationOfBooksUSAddress>
+        <ForeignAccountsQuestionInd>false</ForeignAccountsQuestionInd>
+      </StatementsRegardingActyGrp>
+      <OfficerDirTrstKeyEmplInfoGrp>
+        <OfficerDirTrstKeyEmplGrp>
+          <PersonNm>HUGH JANZEN</PersonNm>
+          <USAddress>
+            <AddressLine1Txt>402 MINNESOTA AVENUE NORTH</AddressLine1Txt>
+            <CityNm>Aitkin</CityNm>
+            <StateAbbreviationCd>MN</StateAbbreviationCd>
+            <ZIPCd>56431</ZIPCd>
+          </USAddress>
+          <TitleTxt>PRESIDENT</TitleTxt>
+          <AverageHrsPerWkDevotedToPosRt>1.00</AverageHrsPerWkDevotedToPosRt>
+          <CompensationAmt>0</CompensationAmt>
+          <EmployeeBenefitProgramAmt>0</EmployeeBenefitProgramAmt>
+          <ExpenseAccountOtherAllwncAmt>0</ExpenseAccountOtherAllwncAmt>
+        </OfficerDirTrstKeyEmplGrp>
+        <CompOfHghstPdEmplOrNONETxt>NONE</CompOfHghstPdEmplOrNONETxt>
+        <OtherEmployeePaidOver50kCnt>0</OtherEmployeePaidOver50kCnt>
+        <CompOfHghstPdCntrctOrNONETxt>NONE</CompOfHghstPdCntrctOrNONETxt>
+      </OfficerDirTrstKeyEmplInfoGrp>
+      <SummaryOfDirectChrtblActyGrp>
+        <Description1Txt>THE FOUNDATION PROVIDES LOW COST HOUSING TO RESIDENTS OF AITKIN MN THEY WERE SUBSUDIZED BY AN INTEREST FREE LOAN FROM GREATER MINNESOTA HOUSING AND RECEIVE A</Description1Txt>
+        <Expenses1Amt>0</Expenses1Amt>
+      </SummaryOfDirectChrtblActyGrp>
+      <MinimumInvestmentReturnGrp>
+        <AverageMonthlyFMVOfSecAmt>0</AverageMonthlyFMVOfSecAmt>
+        <AverageMonthlyCashBalancesAmt>111443</AverageMonthlyCashBalancesAmt>
+        <FMVAllOtherNoncharitableAstAmt>1199059</FMVAllOtherNoncharitableAstAmt>
+        <TotalFMVOfUnusedAssetsAmt>1310502</TotalFMVOfUnusedAssetsAmt>
+        <AcquisitionIndebtednessAmt>392466</AcquisitionIndebtednessAmt>
+        <AdjustedTotalFMVOfUnusedAstAmt>918036</AdjustedTotalFMVOfUnusedAstAmt>
+        <CashDeemedCharitableAmt>13771</CashDeemedCharitableAmt>
+        <NetVlNoncharitableAssetsAmt>904265</NetVlNoncharitableAssetsAmt>
+        <MinimumInvestmentReturnAmt>45213</MinimumInvestmentReturnAmt>
+      </MinimumInvestmentReturnGrp>
+      <DistributableAmountGrp>
+        <MinimumInvestmentReturnAmt>45213</MinimumInvestmentReturnAmt>
+        <DistributableBeforeAdjAmt>45213</DistributableBeforeAdjAmt>
+        <DistributableBeforeDedAmt>45213</DistributableBeforeDedAmt>
+        <DistributableAsAdjustedAmt>45213</DistributableAsAdjustedAmt>
+      </DistributableAmountGrp>
+      <QualifyingDistriPartXIIGrp>
+        <ExpensesAndContributionsAmt referenceDocumentId="STM163">47281</ExpensesAndContributionsAmt>
+        <QualifyingDistributionsAmt>47281</QualifyingDistributionsAmt>
+        <AdjustedQualifyingDistriAmt>47281</AdjustedQualifyingDistriAmt>
+      </QualifyingDistriPartXIIGrp>
+      <UndistributedIncomeGrp>
+        <DistributableAsAdjustedAmt>45213</DistributableAsAdjustedAmt>
+        <UndistributedIncomePYAmt>43909</UndistributedIncomePYAmt>
+        <QualifyingDistributionsAmt>47281</QualifyingDistributionsAmt>
+        <AppliedToYear1Amt>43909</AppliedToYear1Amt>
+        <AppliedToCurrentYearAmt>3372</AppliedToCurrentYearAmt>
+        <UndistributedIncomeCYAmt>41841</UndistributedIncomeCYAmt>
+      </UndistributedIncomeGrp>
+      <SupplementaryInformationGrp>
+        <OnlyContriToPreselectedInd>X</OnlyContriToPreselectedInd>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientPersonNm>BETHLEHEM LUTHERAN CHURCH ELCA</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>36696 320TH STREET</AddressLine1Txt>
+            <CityNm>Aitkin</CityNm>
+            <StateAbbreviationCd>MN</StateAbbreviationCd>
+            <ZIPCd>56431</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>NONE</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>PC</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>RELIGIOUS</GrantOrContributionPurposeTxt>
+          <Amt>28181</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientPersonNm>CONGREGATION BETH ISREAL</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>2200 BROADWAY</AddressLine1Txt>
+            <CityNm>Bellingham</CityNm>
+            <StateAbbreviationCd>WA</StateAbbreviationCd>
+            <ZIPCd>98225</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>NONE</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>PC</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>RELIGIOUS</GrantOrContributionPurposeTxt>
+          <Amt>5000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientPersonNm>AITKIN DOLLARS FOR SCHOLARS</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>PO BOX 19</AddressLine1Txt>
+            <CityNm>Aitkin</CityNm>
+            <StateAbbreviationCd>MN</StateAbbreviationCd>
+            <ZIPCd>56431</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>NONE</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>PC</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>EDUCATION</GrantOrContributionPurposeTxt>
+          <Amt>5000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientPersonNm>ST JAMES CATHOLIC CHURCH</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>299 RED OAK DRIVE</AddressLine1Txt>
+            <CityNm>Aitkin</CityNm>
+            <StateAbbreviationCd>MN</StateAbbreviationCd>
+            <ZIPCd>56431</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>NONE</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>PC</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>RELGIOUSEDUCATION</GrantOrContributionPurposeTxt>
+          <Amt>5000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientPersonNm>BETHESDA LUTHERAN CHURCH OF ROSSBUR</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>35941 350TH AVENUE</AddressLine1Txt>
+            <CityNm>Aitkin</CityNm>
+            <StateAbbreviationCd>MN</StateAbbreviationCd>
+            <ZIPCd>56431</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>NONE</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>PC</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>RELIGIOUS</GrantOrContributionPurposeTxt>
+          <Amt>2000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientPersonNm>THE CROSIER APOSTOLATE</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>PO BOX 500</AddressLine1Txt>
+            <CityNm>Onamia</CityNm>
+            <StateAbbreviationCd>MN</StateAbbreviationCd>
+            <ZIPCd>56359</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>NONE</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>PC</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>RELIGIOUS</GrantOrContributionPurposeTxt>
+          <Amt>100</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientPersonNm>KNIGHTS OF COLUMBUS COUNCIL 3473</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>PO BOX 39</AddressLine1Txt>
+            <CityNm>Deerwood</CityNm>
+            <StateAbbreviationCd>MN</StateAbbreviationCd>
+            <ZIPCd>56444</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>NONE</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>PC</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>COATS FOR KIDS</GrantOrContributionPurposeTxt>
+          <Amt>2000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <TotalGrantOrContriPdDurYrAmt>47281</TotalGrantOrContriPdDurYrAmt>
+        <GrantOrContriApprvForFutGrp>
+          <RecipientPersonNm>INDEPENDENT SCHOOL DISTRICT 1</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>306 2ND STREET NW</AddressLine1Txt>
+            <CityNm>Aitkin</CityNm>
+            <StateAbbreviationCd>MN</StateAbbreviationCd>
+            <ZIPCd>56431</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>NONE</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>PC</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>DAYCARE ASSISTANCE</GrantOrContributionPurposeTxt>
+          <Amt>10000</Amt>
+        </GrantOrContriApprvForFutGrp>
+        <GrantOrContriApprvForFutGrp>
+          <RecipientPersonNm>AITKIN COUNTY FAIR FOUNDATION</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>48656 US HIGHWAY 169</AddressLine1Txt>
+            <CityNm>Palisade</CityNm>
+            <StateAbbreviationCd>MN</StateAbbreviationCd>
+            <ZIPCd>56469</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>NONE</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>PC</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>EDUCATION</GrantOrContributionPurposeTxt>
+          <Amt>5000</Amt>
+        </GrantOrContriApprvForFutGrp>
+        <GrantOrContriApprvForFutGrp>
+          <RecipientPersonNm>AITKIN DOLLARS FOR SCHOLARS</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>PO BOX 19</AddressLine1Txt>
+            <CityNm>Aitkin</CityNm>
+            <StateAbbreviationCd>MN</StateAbbreviationCd>
+            <ZIPCd>56431</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>NONE</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>PC</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>EDUCATION</GrantOrContributionPurposeTxt>
+          <Amt>5000</Amt>
+        </GrantOrContriApprvForFutGrp>
+        <GrantOrContriApprvForFutGrp>
+          <RecipientPersonNm>ST JAMES CATHOLIC CHURCH</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>299 RED OAK DRIVE</AddressLine1Txt>
+            <CityNm>Aitkin</CityNm>
+            <StateAbbreviationCd>MN</StateAbbreviationCd>
+            <ZIPCd>56431</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>NONE</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>PC</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>RELIGIOUS</GrantOrContributionPurposeTxt>
+          <Amt>10000</Amt>
+        </GrantOrContriApprvForFutGrp>
+        <GrantOrContriApprvForFutGrp>
+          <RecipientPersonNm>ST JAMES CATHOLIC CHURCH</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>299 RED OAK DRIVE</AddressLine1Txt>
+            <CityNm>Aitkin</CityNm>
+            <StateAbbreviationCd>MN</StateAbbreviationCd>
+            <ZIPCd>56431</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>NONE</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>PC</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>EDUCATION</GrantOrContributionPurposeTxt>
+          <Amt>5000</Amt>
+        </GrantOrContriApprvForFutGrp>
+        <GrantOrContriApprvForFutGrp>
+          <RecipientPersonNm>CROSIER FATHERS AND BROTHERS</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>PO BOX 500</AddressLine1Txt>
+            <CityNm>Onamia</CityNm>
+            <StateAbbreviationCd>MN</StateAbbreviationCd>
+            <ZIPCd>56359</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>NONE</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>PC</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>EDUCATION</GrantOrContributionPurposeTxt>
+          <Amt>2000</Amt>
+        </GrantOrContriApprvForFutGrp>
+        <GrantOrContriApprvForFutGrp>
+          <RecipientPersonNm>WILD AND FREE WILDLIFE PROGRAM</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>PO BOX 160</AddressLine1Txt>
+            <CityNm>Garrison</CityNm>
+            <StateAbbreviationCd>MN</StateAbbreviationCd>
+            <ZIPCd>56450</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>NONE</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>PC</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>EDUCATION</GrantOrContributionPurposeTxt>
+          <Amt>5000</Amt>
+        </GrantOrContriApprvForFutGrp>
+        <TotalGrantOrContriApprvFutAmt>42000</TotalGrantOrContriApprvFutAmt>
+      </SupplementaryInformationGrp>
+      <AnalysisIncomeProducingActyGrp>
+        <IntOnSavAndTempCashInvstGrp>
+          <ExclusionCd>14</ExclusionCd>
+          <ExclusionAmt>2151</ExclusionAmt>
+        </IntOnSavAndTempCashInvstGrp>
+        <NetRntlIncmReDebtFincdPropGrp>
+          <BusinessCd>531110</BusinessCd>
+          <ExclusionCd>37</ExclusionCd>
+        </NetRntlIncmReDebtFincdPropGrp>
+        <NetRntlIncmReNotDebtFincdProp>
+          <ExclusionCd>16</ExclusionCd>
+        </NetRntlIncmReNotDebtFincdProp>
+        <SubtotalsIncmProducingActyGrp>
+          <ExclusionAmt>2151</ExclusionAmt>
+        </SubtotalsIncmProducingActyGrp>
+        <TotalIncomeProducingActyAmt>2151</TotalIncomeProducingActyAmt>
+      </AnalysisIncomeProducingActyGrp>
+      <RlnOfActyToAccomOfExmptPrpsGrp>
+        <RlnOfActyToAccomOfExmptPrpsGrp>
+          <LineNumberTxt>05a</LineNumberTxt>
+          <RelationshipStatementTxt>LOW INCOME SUBSIDIZING HOUSING</RelationshipStatementTxt>
+        </RlnOfActyToAccomOfExmptPrpsGrp>
+      </RlnOfActyToAccomOfExmptPrpsGrp>
+      <TrnsfrTransRlnNonchrtblEOGrp>
+        <TrnsfrOfCashToNonchrtblEOInd>false</TrnsfrOfCashToNonchrtblEOInd>
+        <TrnsfrOtherAssetNonchrtblEOInd>false</TrnsfrOtherAssetNonchrtblEOInd>
+        <SalesOrExchangesOfAssetsInd>false</SalesOrExchangesOfAssetsInd>
+        <PurchaseOfAssetsNonchrtblEOInd>false</PurchaseOfAssetsNonchrtblEOInd>
+        <RentalOfFacilitiesOthAssetsInd>false</RentalOfFacilitiesOthAssetsInd>
+        <ReimbursementArrangementsInd>false</ReimbursementArrangementsInd>
+        <LoansOrLoanGuaranteesInd>false</LoansOrLoanGuaranteesInd>
+        <PerformanceOfServicesEtcInd>false</PerformanceOfServicesEtcInd>
+        <SharingOfFacilitiesEtcInd>false</SharingOfFacilitiesEtcInd>
+        <RelationshipsNonchrtblEOInd>false</RelationshipsNonchrtblEOInd>
+      </TrnsfrTransRlnNonchrtblEOGrp>
+    </IRS990PF>
+    <AccountingFeesSchedule documentId="STM108">
+      <AccountingFeesDetail>
+        <CategoryTxt>MORRIS - MORRIS</CategoryTxt>
+        <Amt>550</Amt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>0</DisbursementsCharitablePrpsAmt>
+      </AccountingFeesDetail>
+    </AccountingFeesSchedule>
+    <BorrowedFundsElection documentId="STM163">
+      <BorrowedFundsGrp>
+        <PersonNm>NONE</PersonNm>
+        <BorrowedAmt>24979</BorrowedAmt>
+        <UseOfBorrowedFundsTxt>NONE</UseOfBorrowedFundsTxt>
+        <ElectionStatementTxt>SEE FORM 8253 ATTACHED - REPRESENTS DIFFERENCE IN VALUE OF LAND CONTRIBUTED</ElectionStatementTxt>
+      </BorrowedFundsGrp>
+    </BorrowedFundsElection>
+    <DepreciationSchedule documentId="STM126">
+      <DepreciationPropertyGrp>
+        <PropertyDesc>MOUNT BAKER HIGHWAY LAND</PropertyDesc>
+        <AcquiredDt>1990-01-01</AcquiredDt>
+        <CostOrOtherBasisAmt>76500</CostOrOtherBasisAmt>
+        <PriorYearDepreciationAmt>0</PriorYearDepreciationAmt>
+        <ComputationMethodTxt>NDA</ComputationMethodTxt>
+        <CurrentYearExpenseAmt>0</CurrentYearExpenseAmt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+      </DepreciationPropertyGrp>
+      <DepreciationPropertyGrp>
+        <PropertyDesc>OFFICE EQUIPMENT</PropertyDesc>
+        <AcquiredDt>2001-12-01</AcquiredDt>
+        <CostOrOtherBasisAmt>8605</CostOrOtherBasisAmt>
+        <PriorYearDepreciationAmt>8605</PriorYearDepreciationAmt>
+        <ComputationMethodTxt>SL</ComputationMethodTxt>
+        <LifeRt>7</LifeRt>
+        <CurrentYearExpenseAmt>0</CurrentYearExpenseAmt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+      </DepreciationPropertyGrp>
+      <DepreciationPropertyGrp>
+        <PropertyDesc>COMMERCE BUILDING</PropertyDesc>
+        <AcquiredDt>2002-08-01</AcquiredDt>
+        <CostOrOtherBasisAmt>992904</CostOrOtherBasisAmt>
+        <PriorYearDepreciationAmt>385067</PriorYearDepreciationAmt>
+        <ComputationMethodTxt>SL</ComputationMethodTxt>
+        <LifeRt>39</LifeRt>
+        <CurrentYearExpenseAmt>25459</CurrentYearExpenseAmt>
+        <NetInvestmentIncomeAmt>25459</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+      </DepreciationPropertyGrp>
+      <DepreciationPropertyGrp>
+        <PropertyDesc>COMMERCE BUILDING</PropertyDesc>
+        <AcquiredDt>2003-08-01</AcquiredDt>
+        <CostOrOtherBasisAmt>273273</CostOrOtherBasisAmt>
+        <PriorYearDepreciationAmt>98974</PriorYearDepreciationAmt>
+        <ComputationMethodTxt>SL</ComputationMethodTxt>
+        <LifeRt>39</LifeRt>
+        <CurrentYearExpenseAmt>7007</CurrentYearExpenseAmt>
+        <NetInvestmentIncomeAmt>7007</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+      </DepreciationPropertyGrp>
+      <DepreciationPropertyGrp>
+        <PropertyDesc>COMMERCE BUILDING</PropertyDesc>
+        <AcquiredDt>2004-09-01</AcquiredDt>
+        <CostOrOtherBasisAmt>18496</CostOrOtherBasisAmt>
+        <PriorYearDepreciationAmt>6244</PriorYearDepreciationAmt>
+        <ComputationMethodTxt>SL</ComputationMethodTxt>
+        <LifeRt>39</LifeRt>
+        <CurrentYearExpenseAmt>474</CurrentYearExpenseAmt>
+        <NetInvestmentIncomeAmt>474</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+      </DepreciationPropertyGrp>
+      <DepreciationPropertyGrp>
+        <PropertyDesc>COMMERCE BUILDING IMPROVEMENT</PropertyDesc>
+        <AcquiredDt>2012-08-03</AcquiredDt>
+        <CostOrOtherBasisAmt>10091</CostOrOtherBasisAmt>
+        <PriorYearDepreciationAmt>7691</PriorYearDepreciationAmt>
+        <ComputationMethodTxt>SL</ComputationMethodTxt>
+        <LifeRt>7</LifeRt>
+        <CurrentYearExpenseAmt>1442</CurrentYearExpenseAmt>
+        <NetInvestmentIncomeAmt>1442</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+      </DepreciationPropertyGrp>
+      <DepreciationPropertyGrp>
+        <PropertyDesc>COMMERCE BUILDING IMPROVEMENT</PropertyDesc>
+        <AcquiredDt>2006-07-01</AcquiredDt>
+        <CostOrOtherBasisAmt>24447</CostOrOtherBasisAmt>
+        <PriorYearDepreciationAmt>8334</PriorYearDepreciationAmt>
+        <ComputationMethodTxt>SL</ComputationMethodTxt>
+        <LifeRt>7</LifeRt>
+        <CurrentYearExpenseAmt>0</CurrentYearExpenseAmt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+      </DepreciationPropertyGrp>
+      <DepreciationPropertyGrp>
+        <PropertyDesc>COMMERCE BUILDING IMPROVEMENT</PropertyDesc>
+        <AcquiredDt>2011-12-14</AcquiredDt>
+        <CostOrOtherBasisAmt>4900</CostOrOtherBasisAmt>
+        <PriorYearDepreciationAmt>4200</PriorYearDepreciationAmt>
+        <ComputationMethodTxt>SL</ComputationMethodTxt>
+        <LifeRt>7</LifeRt>
+        <CurrentYearExpenseAmt>700</CurrentYearExpenseAmt>
+        <NetInvestmentIncomeAmt>700</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+      </DepreciationPropertyGrp>
+      <DepreciationPropertyGrp>
+        <PropertyDesc>OFFICE EQUIPMENT</PropertyDesc>
+        <AcquiredDt>2003-06-01</AcquiredDt>
+        <CostOrOtherBasisAmt>5718</CostOrOtherBasisAmt>
+        <PriorYearDepreciationAmt>5718</PriorYearDepreciationAmt>
+        <ComputationMethodTxt>SL</ComputationMethodTxt>
+        <LifeRt>7</LifeRt>
+        <CurrentYearExpenseAmt>0</CurrentYearExpenseAmt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+      </DepreciationPropertyGrp>
+      <DepreciationPropertyGrp>
+        <PropertyDesc>AITKIN TOWNHOUSES</PropertyDesc>
+        <AcquiredDt>1998-10-01</AcquiredDt>
+        <CostOrOtherBasisAmt>1126518</CostOrOtherBasisAmt>
+        <PriorYearDepreciationAmt>786282</PriorYearDepreciationAmt>
+        <ComputationMethodTxt>SL</ComputationMethodTxt>
+        <LifeRt>27.5</LifeRt>
+        <CurrentYearExpenseAmt>40964</CurrentYearExpenseAmt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+      </DepreciationPropertyGrp>
+    </DepreciationSchedule>
+    <InvestmentsCorpStockSchedule documentId="STM137">
+      <InvestmentsCorporateStockGrp>
+        <StockNm>STOCK AMERICAN BANCORPORATION</StockNm>
+        <EOYBookValueAmt>82241</EOYBookValueAmt>
+        <EOYFMVAmt>0</EOYFMVAmt>
+      </InvestmentsCorporateStockGrp>
+    </InvestmentsCorpStockSchedule>
+    <InvestmentsLandSchedule2 documentId="STM117">
+      <InvestmentLandGrp>
+        <CategoryOrItemTxt>AITKIN TOWN HOUSES</CategoryOrItemTxt>
+        <CostOrOtherBasisAmt>1194875</CostOrOtherBasisAmt>
+        <AccumulatedDepreciationAmt>827247</AccumulatedDepreciationAmt>
+        <BookValueAmt>367628</BookValueAmt>
+        <EOYFMVAmt>1022600</EOYFMVAmt>
+      </InvestmentLandGrp>
+      <InvestmentLandGrp>
+        <CategoryOrItemTxt>COMMERCE BUILDING</CategoryOrItemTxt>
+        <CostOrOtherBasisAmt>1518237</CostOrOtherBasisAmt>
+        <AccumulatedDepreciationAmt>542229</AccumulatedDepreciationAmt>
+        <BookValueAmt>976008</BookValueAmt>
+        <EOYFMVAmt>741400</EOYFMVAmt>
+      </InvestmentLandGrp>
+      <InvestmentLandGrp>
+        <CategoryOrItemTxt>MT BAKER LAND WASHINGTON</CategoryOrItemTxt>
+        <CostOrOtherBasisAmt>76500</CostOrOtherBasisAmt>
+        <AccumulatedDepreciationAmt>0</AccumulatedDepreciationAmt>
+        <BookValueAmt>76500</BookValueAmt>
+        <EOYFMVAmt>67313</EOYFMVAmt>
+      </InvestmentLandGrp>
+      <InvestmentLandGrp>
+        <CategoryOrItemTxt>OFFICE EQUIPMENT</CategoryOrItemTxt>
+        <CostOrOtherBasisAmt>14323</CostOrOtherBasisAmt>
+        <AccumulatedDepreciationAmt>14323</AccumulatedDepreciationAmt>
+        <BookValueAmt>0</BookValueAmt>
+        <EOYFMVAmt>500</EOYFMVAmt>
+      </InvestmentLandGrp>
+      <InvestmentLandGrp>
+        <CategoryOrItemTxt>MINERAL RIGHTS</CategoryOrItemTxt>
+        <CostOrOtherBasisAmt>104364</CostOrOtherBasisAmt>
+        <AccumulatedDepreciationAmt>0</AccumulatedDepreciationAmt>
+        <BookValueAmt>104364</BookValueAmt>
+        <EOYFMVAmt>53000</EOYFMVAmt>
+      </InvestmentLandGrp>
+    </InvestmentsLandSchedule2>
+    <LegalFeesSchedule documentId="STM107">
+      <LegalFeesGrp>
+        <CategoryTxt>HABERKORN LAW OFFICE</CategoryTxt>
+        <LegalFeesAmt>80</LegalFeesAmt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>0</DisbursementsCharitablePrpsAmt>
+      </LegalFeesGrp>
+    </LegalFeesSchedule>
+    <MortgagesAndNotesPayableSch documentId="STM123">
+      <NotePayableGrp>
+        <LenderNameGrp>
+          <PersonNm>SECURITY STATE BANK</PersonNm>
+        </LenderNameGrp>
+        <TitleTxt>910630</TitleTxt>
+        <InsiderRelationshipTxt>NONE</InsiderRelationshipTxt>
+        <LoanOriginalAmt>0</LoanOriginalAmt>
+        <BalanceDueAmt>198737</BalanceDueAmt>
+        <RepaymentTermsTxt>4663 PER MONTH</RepaymentTermsTxt>
+        <InterestRt>5.00</InterestRt>
+        <SecurityProvidedBorrowerTxt>AITKIN TOWN HOU</SecurityProvidedBorrowerTxt>
+        <LoanPurposeTxt>BUILD TOWNHOUSES</LoanPurposeTxt>
+        <ConsiderationFMVAmt>0</ConsiderationFMVAmt>
+      </NotePayableGrp>
+      <NotePayableGrp>
+        <LenderNameGrp>
+          <PersonNm>SECURITY STATE BANK</PersonNm>
+        </LenderNameGrp>
+        <TitleTxt>9269</TitleTxt>
+        <InsiderRelationshipTxt>NONE</InsiderRelationshipTxt>
+        <LoanOriginalAmt>0</LoanOriginalAmt>
+        <BalanceDueAmt>392466</BalanceDueAmt>
+        <RepaymentTermsTxt>6695 PER MONTH</RepaymentTermsTxt>
+        <InterestRt>5.00</InterestRt>
+        <SecurityProvidedBorrowerTxt>COMMERCE BUILDI</SecurityProvidedBorrowerTxt>
+        <LoanPurposeTxt>BUILD COMMERCE BUILDING</LoanPurposeTxt>
+        <ConsiderationFMVAmt>0</ConsiderationFMVAmt>
+      </NotePayableGrp>
+      <NotePayableGrp>
+        <LenderNameGrp>
+          <PersonNm>GREATER MINNESOTA HOUSING</PersonNm>
+        </LenderNameGrp>
+        <InsiderRelationshipTxt>NONE</InsiderRelationshipTxt>
+        <LoanOriginalAmt>297062</LoanOriginalAmt>
+        <BalanceDueAmt>267092</BalanceDueAmt>
+        <RepaymentTermsTxt>DUE 2018</RepaymentTermsTxt>
+        <InterestRt>0</InterestRt>
+        <SecurityProvidedBorrowerTxt>AITKIN TOWN HOU</SecurityProvidedBorrowerTxt>
+        <LoanPurposeTxt>BUILD TOWNHOUSES</LoanPurposeTxt>
+        <ConsiderationFMVAmt>0</ConsiderationFMVAmt>
+      </NotePayableGrp>
+    </MortgagesAndNotesPayableSch>
+    <OtherExpensesSchedule documentId="STM103">
+      <OtherExpensesScheduleGrp>
+        <Desc>BANK CHARGES</Desc>
+        <RevenueAndExpensesPerBooksAmt>678</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>0</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>OFFICE SUPPLIES POSTAGE</Desc>
+        <RevenueAndExpensesPerBooksAmt>987</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>987</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>0</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>INTERNET TELEPHONE</Desc>
+        <RevenueAndExpensesPerBooksAmt>2908</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>669</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>0</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>LICENSES</Desc>
+        <RevenueAndExpensesPerBooksAmt>140</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>140</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>0</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>INSURANCE</Desc>
+        <RevenueAndExpensesPerBooksAmt>12900</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>2129</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>0</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>REPAIRS AND MAINTENANCE</Desc>
+        <RevenueAndExpensesPerBooksAmt>23765</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>13492</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>0</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>LAWN CARE SNOW REMOVAL</Desc>
+        <RevenueAndExpensesPerBooksAmt>11403</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>0</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>UTILITIES</Desc>
+        <RevenueAndExpensesPerBooksAmt>11778</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>11778</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>0</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>MISCELLANEOUS</Desc>
+        <RevenueAndExpensesPerBooksAmt>20</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>0</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+    </OtherExpensesSchedule>
+    <OtherIncomeSchedule2 documentId="STM106">
+      <OtherIncomeDetail>
+        <Desc>MISCELLANANCE INCOME</Desc>
+        <RevenueAndExpensesPerBooksAmt>200</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+      </OtherIncomeDetail>
+    </OtherIncomeSchedule2>
+    <OtherNotesLoansRcvblLongSch documentId="STM135">
+      <OtherNotesLoansRcvblLongGrp>
+        <BorrowerNameGrp>
+          <PersonNm>JT DAGEN INC</PersonNm>
+        </BorrowerNameGrp>
+        <InsiderRelationshipTxt>NONE</InsiderRelationshipTxt>
+        <LoanOriginalAmt>42500</LoanOriginalAmt>
+        <BalanceDueAmt>39846</BalanceDueAmt>
+        <NoteDt>2017-05</NoteDt>
+        <LoanMaturityDt>2020-05</LoanMaturityDt>
+        <RepaymentTermsTxt>35076 PER MONTH</RepaymentTermsTxt>
+        <InterestRt>5.25</InterestRt>
+        <SecurityProvidedBorrowerTxt>FIFTH STREET HOUSE</SecurityProvidedBorrowerTxt>
+        <LoanPurposeTxt>TO PURCHASE HOUSE</LoanPurposeTxt>
+        <ConsiderationFMVAmt>0</ConsiderationFMVAmt>
+      </OtherNotesLoansRcvblLongGrp>
+    </OtherNotesLoansRcvblLongSch>
+    <TaxesSchedule documentId="STM110">
+      <TaxesDetail>
+        <CategoryTxt>REAL ESTATE TAXES</CategoryTxt>
+        <Amt>45613</Amt>
+        <NetInvestmentIncomeAmt>27491</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>0</DisbursementsCharitablePrpsAmt>
+      </TaxesDetail>
+      <TaxesDetail>
+        <CategoryTxt>PAYROLL TAXES</CategoryTxt>
+        <Amt>1496</Amt>
+        <NetInvestmentIncomeAmt>150</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>0</DisbursementsCharitablePrpsAmt>
+      </TaxesDetail>
+    </TaxesSchedule>
+  </ReturnData>
+</Return>

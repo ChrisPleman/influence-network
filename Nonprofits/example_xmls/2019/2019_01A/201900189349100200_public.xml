@@ -1,0 +1,849 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Return xmlns="http://www.irs.gov/efile" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.irs.gov/efile" returnVersion="2017v2.3">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2019-01-18T08:59:17-06:00</ReturnTs>
+    <TaxPeriodEndDt>2018-06-30</TaxPeriodEndDt>
+    <PreparerFirmGrp>
+      <PreparerFirmEIN>010448675</PreparerFirmEIN>
+      <PreparerFirmName>
+        <BusinessNameLine1Txt>OUELLETTE &amp; ASSOCIATES PA</BusinessNameLine1Txt>
+      </PreparerFirmName>
+      <PreparerUSAddress>
+        <AddressLine1Txt>1111 LISBON STREET</AddressLine1Txt>
+        <CityNm>LEWISTON</CityNm>
+        <StateAbbreviationCd>ME</StateAbbreviationCd>
+        <ZIPCd>04240</ZIPCd>
+      </PreparerUSAddress>
+    </PreparerFirmGrp>
+    <ReturnTypeCd>990PF</ReturnTypeCd>
+    <TaxPeriodBeginDt>2017-07-01</TaxPeriodBeginDt>
+    <Filer>
+      <EIN>010525617</EIN>
+      <BusinessName>
+        <BusinessNameLine1Txt>Caring Families Inc</BusinessNameLine1Txt>
+      </BusinessName>
+      <BusinessNameControlTxt>CARI</BusinessNameControlTxt>
+      <PhoneNum>2077863554</PhoneNum>
+      <USAddress>
+        <AddressLine1Txt>43 C Street</AddressLine1Txt>
+        <CityNm>South Portland</CityNm>
+        <StateAbbreviationCd>ME</StateAbbreviationCd>
+        <ZIPCd>04106</ZIPCd>
+      </USAddress>
+    </Filer>
+    <BusinessOfficerGrp>
+      <PersonNm>Kathleen Harris</PersonNm>
+      <PersonTitleTxt>President</PersonTitleTxt>
+      <PhoneNum>2077863554</PhoneNum>
+      <SignatureDt>2018-12-20</SignatureDt>
+      <DiscussWithPaidPreparerInd>1</DiscussWithPaidPreparerInd>
+    </BusinessOfficerGrp>
+    <PreparerPersonGrp>
+      <PreparerPersonNm>Jonathan A Hussey</PreparerPersonNm>
+      <PTIN>P01221689</PTIN>
+      <PhoneNum>2077860328</PhoneNum>
+      <PreparationDt>2018-12-20</PreparationDt>
+    </PreparerPersonGrp>
+    <FilingSecurityInformation>
+      <IPAddress>
+        <IPv4AddressTxt>66.231.208.22</IPv4AddressTxt>
+      </IPAddress>
+      <IPDt>2018-12-20</IPDt>
+      <IPTm>10:11:25</IPTm>
+      <IPTimezoneCd>ES</IPTimezoneCd>
+      <FilingLicenseTypeCd>P</FilingLicenseTypeCd>
+      <AtSubmissionCreationDeviceId>DA39A3EE5E6B4B0D3255BFEF95601890AFD80709</AtSubmissionCreationDeviceId>
+      <AtSubmissionFilingDeviceId>32BD575272EA731415C643E284197BD4F77D20E2</AtSubmissionFilingDeviceId>
+    </FilingSecurityInformation>
+    <TaxYr>2017</TaxYr>
+    <BuildTS>2019-02-21 02:37:17Z</BuildTS>
+  </ReturnHeader>
+  <ReturnData documentCnt="9">
+    <IRS990PF documentId="RetDoc1235000001">
+      <Organization501c3ExemptPFInd>X</Organization501c3ExemptPFInd>
+      <FMVAssetsEOYAmt>2144943</FMVAssetsEOYAmt>
+      <MethodOfAccountingAccrualInd>X</MethodOfAccountingAccrualInd>
+      <AnalysisOfRevenueAndExpenses>
+        <ContriRcvdRevAndExpnssAmt>500</ContriRcvdRevAndExpnssAmt>
+        <ScheduleBNotRequiredInd>X</ScheduleBNotRequiredInd>
+        <NetGainSaleAstRevAndExpnssAmt>-12625</NetGainSaleAstRevAndExpnssAmt>
+        <CapGainNetIncmNetInvstIncmAmt>0</CapGainNetIncmNetInvstIncmAmt>
+        <OtherIncomeRevAndExpnssAmt referenceDocumentId="RetDoc2001500001">3714014</OtherIncomeRevAndExpnssAmt>
+        <OtherIncomeNetInvstIncmAmt>0</OtherIncomeNetInvstIncmAmt>
+        <OtherIncomeAdjNetIncmAmt>3714014</OtherIncomeAdjNetIncmAmt>
+        <TotalRevAndExpnssAmt>3701889</TotalRevAndExpnssAmt>
+        <TotalNetInvstIncmAmt>0</TotalNetInvstIncmAmt>
+        <TotalAdjNetIncmAmt>3714014</TotalAdjNetIncmAmt>
+        <CompOfcrDirTrstRevAndExpnssAmt>0</CompOfcrDirTrstRevAndExpnssAmt>
+        <CompOfcrDirTrstNetInvstIncmAmt>0</CompOfcrDirTrstNetInvstIncmAmt>
+        <CompOfcrDirTrstAdjNetIncmAmt>0</CompOfcrDirTrstAdjNetIncmAmt>
+        <CompOfcrDirTrstDsbrsChrtblAmt>0</CompOfcrDirTrstDsbrsChrtblAmt>
+        <OthEmplSlrsWgsRevAndExpnssAmt>2052855</OthEmplSlrsWgsRevAndExpnssAmt>
+        <OthEmplSlrsWgsNetInvstIncmAmt>0</OthEmplSlrsWgsNetInvstIncmAmt>
+        <OthEmplSlrsWgsAdjNetIncmAmt>2052972</OthEmplSlrsWgsAdjNetIncmAmt>
+        <OthEmplSlrsWgsDsbrsChrtblAmt>0</OthEmplSlrsWgsDsbrsChrtblAmt>
+        <PensionEmplBnftRevAndExpnssAmt>550574</PensionEmplBnftRevAndExpnssAmt>
+        <PensionEmplBnftNetInvstIncmAmt>0</PensionEmplBnftNetInvstIncmAmt>
+        <PensionEmplBnftAdjNetIncmAmt>550457</PensionEmplBnftAdjNetIncmAmt>
+        <PensionEmplBnftDsbrsChrtblAmt>0</PensionEmplBnftDsbrsChrtblAmt>
+        <AccountingFeesRevAndExpnssAmt referenceDocumentId="RetDoc2002200001">14675</AccountingFeesRevAndExpnssAmt>
+        <AccountingFeesNetInvstIncmAmt>0</AccountingFeesNetInvstIncmAmt>
+        <AccountingFeesAdjNetIncmAmt>14675</AccountingFeesAdjNetIncmAmt>
+        <AccountingFeesChrtblPrpsAmt>0</AccountingFeesChrtblPrpsAmt>
+        <OtherProfFeesRevAndExpnssAmt referenceDocumentId="RetDoc2002300001">42165</OtherProfFeesRevAndExpnssAmt>
+        <OtherProfFeesNetInvstIncmAmt>0</OtherProfFeesNetInvstIncmAmt>
+        <OtherProfFeesAdjNetIncmAmt>42165</OtherProfFeesAdjNetIncmAmt>
+        <OtherProfFeesDsbrsChrtblAmt>0</OtherProfFeesDsbrsChrtblAmt>
+        <InterestRevAndExpnssAmt>57078</InterestRevAndExpnssAmt>
+        <InterestNetInvstIncmAmt>0</InterestNetInvstIncmAmt>
+        <InterestAdjNetIncmAmt>57078</InterestAdjNetIncmAmt>
+        <InterestDsbrsChrtblAmt>0</InterestDsbrsChrtblAmt>
+        <TaxesRevAndExpnssAmt referenceDocumentId="RetDoc2002500001">218144</TaxesRevAndExpnssAmt>
+        <TaxesNetInvstIncmAmt>0</TaxesNetInvstIncmAmt>
+        <TaxesAdjNetIncmAmt>218144</TaxesAdjNetIncmAmt>
+        <TaxesDsbrsChrtblAmt>0</TaxesDsbrsChrtblAmt>
+        <DeprecAndDpltnRevAndExpnssAmt>125650</DeprecAndDpltnRevAndExpnssAmt>
+        <DeprecAndDpltnNetInvstIncmAmt>0</DeprecAndDpltnNetInvstIncmAmt>
+        <DeprecAndDpltnAdjNetIncmAmt>125650</DeprecAndDpltnAdjNetIncmAmt>
+        <OccupancyRevAndExpnssAmt>177116</OccupancyRevAndExpnssAmt>
+        <OccupancyNetInvstIncmAmt>0</OccupancyNetInvstIncmAmt>
+        <OccupancyAdjNetIncmAmt>177116</OccupancyAdjNetIncmAmt>
+        <OccupancyDsbrsChrtblAmt>0</OccupancyDsbrsChrtblAmt>
+        <TravConfMeetingRevAndExpnssAmt>15702</TravConfMeetingRevAndExpnssAmt>
+        <TravConfMeetingNetInvstIncmAmt>0</TravConfMeetingNetInvstIncmAmt>
+        <TravConfMeetingAdjNetIncmAmt>15702</TravConfMeetingAdjNetIncmAmt>
+        <TravConfMeetingDsbrsChrtblAmt>0</TravConfMeetingDsbrsChrtblAmt>
+        <OtherExpensesRevAndExpnssAmt referenceDocumentId="RetDoc2003200001">406846</OtherExpensesRevAndExpnssAmt>
+        <OtherExpensesNetInvstIncmAmt>0</OtherExpensesNetInvstIncmAmt>
+        <OtherExpensesAdjNetIncmAmt>406846</OtherExpensesAdjNetIncmAmt>
+        <OtherExpensesDsbrsChrtblAmt>0</OtherExpensesDsbrsChrtblAmt>
+        <TotOprExpensesRevAndExpnssAmt>3660805</TotOprExpensesRevAndExpnssAmt>
+        <TotOprExpensesNetInvstIncmAmt>0</TotOprExpensesNetInvstIncmAmt>
+        <TotOprExpensesAdjNetIncmAmt>3660805</TotOprExpensesAdjNetIncmAmt>
+        <TotOprExpensesDsbrsChrtblAmt>0</TotOprExpensesDsbrsChrtblAmt>
+        <ContriPaidRevAndExpnssAmt>0</ContriPaidRevAndExpnssAmt>
+        <ContriPaidDsbrsChrtblAmt>0</ContriPaidDsbrsChrtblAmt>
+        <TotalExpensesRevAndExpnssAmt>3660805</TotalExpensesRevAndExpnssAmt>
+        <TotalExpensesNetInvstIncmAmt>0</TotalExpensesNetInvstIncmAmt>
+        <TotalExpensesAdjNetIncmAmt>3660805</TotalExpensesAdjNetIncmAmt>
+        <TotalExpensesDsbrsChrtblAmt>0</TotalExpensesDsbrsChrtblAmt>
+        <ExcessRevenueOverExpensesAmt>41084</ExcessRevenueOverExpensesAmt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>53209</AdjustedNetIncomeAmt>
+      </AnalysisOfRevenueAndExpenses>
+      <Form990PFBalanceSheetsGrp>
+        <CashBOYAmt>36801</CashBOYAmt>
+        <CashEOYAmt>73458</CashEOYAmt>
+        <CashEOYFMVAmt>73458</CashEOYFMVAmt>
+        <AcctRcvblAmt>344335</AcctRcvblAmt>
+        <AcctRcvblBOYAmt>341548</AcctRcvblBOYAmt>
+        <AcctRcvblEOYAmt>344335</AcctRcvblEOYAmt>
+        <AcctRcvblEOYFMVAmt>344335</AcctRcvblEOYFMVAmt>
+        <InventoriesBOYAmt>3958</InventoriesBOYAmt>
+        <InventoriesEOYAmt>4580</InventoriesEOYAmt>
+        <InventoriesEOYFMVAmt>4580</InventoriesEOYFMVAmt>
+        <PrepaidExpensesBOYAmt>28807</PrepaidExpensesBOYAmt>
+        <PrepaidExpensesEOYAmt>36769</PrepaidExpensesEOYAmt>
+        <PrepaidExpensesEOYFMVAmt>36769</PrepaidExpensesEOYFMVAmt>
+        <LandBldgEquipCostOrOtherBssAmt>2551678</LandBldgEquipCostOrOtherBssAmt>
+        <LandBldgEquipAccumDeprecAmt>883596</LandBldgEquipAccumDeprecAmt>
+        <LandBOYAmt>1782035</LandBOYAmt>
+        <LandEOYAmt>1668082</LandEOYAmt>
+        <LandEOYFMVAmt>1668082</LandEOYFMVAmt>
+        <OtherAssetsBOYAmt referenceDocumentId="RetDoc2046600001">20751</OtherAssetsBOYAmt>
+        <OtherAssetsEOYAmt referenceDocumentId="RetDoc2046600001">17719</OtherAssetsEOYAmt>
+        <OtherAssetsEOYFMVAmt referenceDocumentId="RetDoc2046600001">17719</OtherAssetsEOYFMVAmt>
+        <TotalAssetsBOYAmt>2213900</TotalAssetsBOYAmt>
+        <TotalAssetsEOYAmt>2144943</TotalAssetsEOYAmt>
+        <TotalAssetsEOYFMVAmt>2144943</TotalAssetsEOYFMVAmt>
+        <AccountsPayableBOYAmt>648838</AccountsPayableBOYAmt>
+        <AccountsPayableEOYAmt>659377</AccountsPayableEOYAmt>
+        <MortgagesAndNotesPayableBOYAmt>1421140</MortgagesAndNotesPayableBOYAmt>
+        <MortgagesAndNotesPayableEOYAmt referenceDocumentId="RetDoc2203400001">1301018</MortgagesAndNotesPayableEOYAmt>
+        <OtherLiabilitiesBOYAmt referenceDocumentId="RetDoc2065700001">112994</OtherLiabilitiesBOYAmt>
+        <OtherLiabilitiesEOYAmt referenceDocumentId="RetDoc2065700001">112536</OtherLiabilitiesEOYAmt>
+        <TotalLiabilitiesBOYAmt>2182972</TotalLiabilitiesBOYAmt>
+        <TotalLiabilitiesEOYAmt>2072931</TotalLiabilitiesEOYAmt>
+        <OrganizationFollowsSFAS117Ind>X</OrganizationFollowsSFAS117Ind>
+        <UnrestrictedBOYAmt>30928</UnrestrictedBOYAmt>
+        <UnrestrictedEOYAmt>72012</UnrestrictedEOYAmt>
+        <TotNetAstOrFundBalancesBOYAmt>30928</TotNetAstOrFundBalancesBOYAmt>
+        <TotNetAstOrFundBalancesEOYAmt>72012</TotNetAstOrFundBalancesEOYAmt>
+        <TotalLiabilitiesNetAstBOYAmt>2213900</TotalLiabilitiesNetAstBOYAmt>
+        <TotalLiabilitiesNetAstEOYAmt>2144943</TotalLiabilitiesNetAstEOYAmt>
+      </Form990PFBalanceSheetsGrp>
+      <ChgInNetAssetsFundBalancesGrp>
+        <TotNetAstOrFundBalancesBOYAmt>30928</TotNetAstOrFundBalancesBOYAmt>
+        <ExcessRevenueOverExpensesAmt>41084</ExcessRevenueOverExpensesAmt>
+        <OtherIncreasesAmt>0</OtherIncreasesAmt>
+        <SubtotalAmt>72012</SubtotalAmt>
+        <OtherDecreasesAmt>0</OtherDecreasesAmt>
+        <TotNetAstOrFundBalancesEOYAmt>72012</TotNetAstOrFundBalancesEOYAmt>
+      </ChgInNetAssetsFundBalancesGrp>
+      <CapGainsLossTxInvstIncmDetail>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>4 Lift Motors</PropertyDesc>
+          <HowAcquiredCd>P</HowAcquiredCd>
+          <AcquiredDt>2012-02-13</AcquiredDt>
+          <SoldDt>2017-07-01</SoldDt>
+          <DepreciationAmt>1334</DepreciationAmt>
+          <CostOrOtherBasisAmt>2911</CostOrOtherBasisAmt>
+          <GainOrLossAmt>-1577</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>-1577</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>Multiple Ceiling Lifts</PropertyDesc>
+          <HowAcquiredCd>P</HowAcquiredCd>
+          <AcquiredDt>2013-07-01</AcquiredDt>
+          <SoldDt>2017-07-01</SoldDt>
+          <DepreciationAmt>7365</DepreciationAmt>
+          <CostOrOtherBasisAmt>18413</CostOrOtherBasisAmt>
+          <GainOrLossAmt>-11048</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>-11048</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapitalGainNetIncomeAmt>-12625</CapitalGainNetIncomeAmt>
+        <NetShortTermCapitalGainLossAmt>0</NetShortTermCapitalGainLossAmt>
+      </CapGainsLossTxInvstIncmDetail>
+      <QlfyUndSect4940eReducedTaxGrp>
+        <LiableSection4942TaxInd>0</LiableSection4942TaxInd>
+        <AdjustedQlfyDistriYr1Amt>38432</AdjustedQlfyDistriYr1Amt>
+        <NetVlNoncharitableAssetsYr1Amt>66907</NetVlNoncharitableAssetsYr1Amt>
+        <DistributionYr1Rt>0.574409</DistributionYr1Rt>
+        <AdjustedQlfyDistriYr2Amt>26425</AdjustedQlfyDistriYr2Amt>
+        <NetVlNoncharitableAssetsYr2Amt>58234</NetVlNoncharitableAssetsYr2Amt>
+        <DistributionYr2Rt>0.453773</DistributionYr2Rt>
+        <AdjustedQlfyDistriYr3Amt>12295</AdjustedQlfyDistriYr3Amt>
+        <NetVlNoncharitableAssetsYr3Amt>0</NetVlNoncharitableAssetsYr3Amt>
+        <DistributionYr3Rt>0.000000</DistributionYr3Rt>
+        <AdjustedQlfyDistriYr4Amt>38585</AdjustedQlfyDistriYr4Amt>
+        <TotalDistributionRt>1.028182</TotalDistributionRt>
+        <AverageDistributionRt>0.257045</AverageDistributionRt>
+        <NetVlNoncharitableAssetsAmt>54303</NetVlNoncharitableAssetsAmt>
+        <AdjNetVlNoncharitableAssetsAmt>13958</AdjNetVlNoncharitableAssetsAmt>
+        <NetInvestmentIncomePctAmt>0</NetInvestmentIncomePctAmt>
+        <AdjNonchrtblNetInvstIncmPctAmt>13958</AdjNonchrtblNetInvstIncmPctAmt>
+        <QualifyingDistributionsAmt>0</QualifyingDistributionsAmt>
+      </QlfyUndSect4940eReducedTaxGrp>
+      <ExciseTaxBasedOnInvstIncmGrp>
+        <InvestmentIncomeExciseTaxAmt>0</InvestmentIncomeExciseTaxAmt>
+        <TaxUnderSection511Amt>0</TaxUnderSection511Amt>
+        <SubtotalAmt>0</SubtotalAmt>
+        <SubtitleATaxAmt>0</SubtitleATaxAmt>
+        <TaxBasedOnInvestmentIncomeAmt>0</TaxBasedOnInvestmentIncomeAmt>
+        <EstimatedPlusOvpmtIncmTxAmt>0</EstimatedPlusOvpmtIncmTxAmt>
+        <ExtsnRequestIncomeTaxPaidAmt>0</ExtsnRequestIncomeTaxPaidAmt>
+        <BackupWithholdingWithheldAmt>0</BackupWithholdingWithheldAmt>
+        <TotalPaymentsAndCreditsAmt>0</TotalPaymentsAndCreditsAmt>
+        <EsPenaltyAmt>0</EsPenaltyAmt>
+        <TaxDueAmt>0</TaxDueAmt>
+      </ExciseTaxBasedOnInvstIncmGrp>
+      <StatementsRegardingActyGrp>
+        <LegislativePoliticalActyInd>0</LegislativePoliticalActyInd>
+        <MoreThan100SpentInd>0</MoreThan100SpentInd>
+        <Form1120POLFiledInd>0</Form1120POLFiledInd>
+        <Section4955OrganizationTaxAmt>0</Section4955OrganizationTaxAmt>
+        <Section4955ManagersTaxAmt>0</Section4955ManagersTaxAmt>
+        <TaxReimbursedAmt>0</TaxReimbursedAmt>
+        <ActivitiesNotPreviouslyRptInd>0</ActivitiesNotPreviouslyRptInd>
+        <ChangesToArticlesOrBylawsInd>0</ChangesToArticlesOrBylawsInd>
+        <UnrelatedBusIncmOverLimitInd>0</UnrelatedBusIncmOverLimitInd>
+        <OrganizationDissolvedEtcInd>0</OrganizationDissolvedEtcInd>
+        <Section508eRqrSatisfiedInd>1</Section508eRqrSatisfiedInd>
+        <AtLeast5000InAssetsInd>1</AtLeast5000InAssetsInd>
+        <OrgReportOrRegisterStateCd>ME</OrgReportOrRegisterStateCd>
+        <Form990PFFiledWithAttyGenInd>1</Form990PFFiledWithAttyGenInd>
+        <PrivateOperatingFoundationInd>0</PrivateOperatingFoundationInd>
+        <NewSubstantialContributorsInd>0</NewSubstantialContributorsInd>
+        <OwnControlledEntityInd>0</OwnControlledEntityInd>
+        <DonorAdvisedFundInd>0</DonorAdvisedFundInd>
+        <ComplyWithPublicInspRqrInd>1</ComplyWithPublicInspRqrInd>
+        <WebsiteAddressTxt>N/A</WebsiteAddressTxt>
+        <IndividualWithBooksNm>North Country Associates</IndividualWithBooksNm>
+        <PhoneNum>2077863554</PhoneNum>
+        <LocationOfBooksUSAddress>
+          <AddressLine1Txt>179 Lisbon Street</AddressLine1Txt>
+          <CityNm>Lewiston</CityNm>
+          <StateAbbreviationCd>ME</StateAbbreviationCd>
+          <ZIPCd>04240</ZIPCd>
+        </LocationOfBooksUSAddress>
+        <ForeignAccountsQuestionInd>0</ForeignAccountsQuestionInd>
+      </StatementsRegardingActyGrp>
+      <StatementsRegardingActy4720Grp>
+        <SaleOrExchDisqualifiedPrsnInd>0</SaleOrExchDisqualifiedPrsnInd>
+        <BrrwOrLendDisqualifiedPrsnInd>0</BrrwOrLendDisqualifiedPrsnInd>
+        <FurnGoodsDisqualifiedPrsnInd>0</FurnGoodsDisqualifiedPrsnInd>
+        <PayCompDisqualifiedPrsnInd>0</PayCompDisqualifiedPrsnInd>
+        <TransferAstDisqualifiedPrsnInd>0</TransferAstDisqualifiedPrsnInd>
+        <PaymentToGovernmentOfficialInd>0</PaymentToGovernmentOfficialInd>
+        <UncorrectedPriorActsInd>0</UncorrectedPriorActsInd>
+        <UndistributedIncomePYInd>0</UndistributedIncomePYInd>
+        <BusinessHoldingsInd>0</BusinessHoldingsInd>
+        <JeopardyInvestmentsInd>0</JeopardyInvestmentsInd>
+        <UncorrectedPYJeopardyInvstInd>0</UncorrectedPYJeopardyInvstInd>
+        <InfluenceLegislationInd>0</InfluenceLegislationInd>
+        <InfluenceElectionInd>0</InfluenceElectionInd>
+        <GrantsToIndividualsInd>0</GrantsToIndividualsInd>
+        <GrantsToOrganizationsInd>0</GrantsToOrganizationsInd>
+        <NoncharitablePurposeInd>0</NoncharitablePurposeInd>
+        <RcvFndsToPayPrsnlBnftCntrctInd>0</RcvFndsToPayPrsnlBnftCntrctInd>
+        <PayPremiumsPrsnlBnftCntrctInd>0</PayPremiumsPrsnlBnftCntrctInd>
+        <ProhibitedTaxShelterTransInd>0</ProhibitedTaxShelterTransInd>
+      </StatementsRegardingActy4720Grp>
+      <OfficerDirTrstKeyEmplInfoGrp>
+        <OfficerDirTrstKeyEmplGrp>
+          <PersonNm>Kathleen Harris</PersonNm>
+          <USAddress>
+            <AddressLine1Txt>43 C Street</AddressLine1Txt>
+            <CityNm>South Portland</CityNm>
+            <StateAbbreviationCd>ME</StateAbbreviationCd>
+            <ZIPCd>04106</ZIPCd>
+          </USAddress>
+          <TitleTxt>President</TitleTxt>
+          <AverageHrsPerWkDevotedToPosRt>1.00</AverageHrsPerWkDevotedToPosRt>
+          <CompensationAmt>0</CompensationAmt>
+          <EmployeeBenefitProgramAmt>0</EmployeeBenefitProgramAmt>
+          <ExpenseAccountOtherAllwncAmt>0</ExpenseAccountOtherAllwncAmt>
+        </OfficerDirTrstKeyEmplGrp>
+        <OfficerDirTrstKeyEmplGrp>
+          <PersonNm>Peter Farnsworth</PersonNm>
+          <USAddress>
+            <AddressLine1Txt>14 Pine St</AddressLine1Txt>
+            <CityNm>Stratton</CityNm>
+            <StateAbbreviationCd>ME</StateAbbreviationCd>
+            <ZIPCd>04982</ZIPCd>
+          </USAddress>
+          <TitleTxt>Vice President</TitleTxt>
+          <AverageHrsPerWkDevotedToPosRt>1.00</AverageHrsPerWkDevotedToPosRt>
+          <CompensationAmt>0</CompensationAmt>
+          <EmployeeBenefitProgramAmt>0</EmployeeBenefitProgramAmt>
+          <ExpenseAccountOtherAllwncAmt>0</ExpenseAccountOtherAllwncAmt>
+        </OfficerDirTrstKeyEmplGrp>
+        <OfficerDirTrstKeyEmplGrp>
+          <PersonNm>Shawn Harris</PersonNm>
+          <USAddress>
+            <AddressLine1Txt>55 Sherman Street Suite 6</AddressLine1Txt>
+            <CityNm>Portland</CityNm>
+            <StateAbbreviationCd>ME</StateAbbreviationCd>
+            <ZIPCd>04101</ZIPCd>
+          </USAddress>
+          <TitleTxt>Secretary</TitleTxt>
+          <AverageHrsPerWkDevotedToPosRt>1.00</AverageHrsPerWkDevotedToPosRt>
+          <CompensationAmt>0</CompensationAmt>
+          <EmployeeBenefitProgramAmt>0</EmployeeBenefitProgramAmt>
+          <ExpenseAccountOtherAllwncAmt>0</ExpenseAccountOtherAllwncAmt>
+        </OfficerDirTrstKeyEmplGrp>
+        <OfficerDirTrstKeyEmplGrp>
+          <PersonNm>Lynne Hall</PersonNm>
+          <USAddress>
+            <AddressLine1Txt>157 Phillips Road</AddressLine1Txt>
+            <CityNm>Strong</CityNm>
+            <StateAbbreviationCd>ME</StateAbbreviationCd>
+            <ZIPCd>04983</ZIPCd>
+          </USAddress>
+          <TitleTxt>Treasurer</TitleTxt>
+          <AverageHrsPerWkDevotedToPosRt>1.00</AverageHrsPerWkDevotedToPosRt>
+          <CompensationAmt>0</CompensationAmt>
+          <EmployeeBenefitProgramAmt>0</EmployeeBenefitProgramAmt>
+          <ExpenseAccountOtherAllwncAmt>0</ExpenseAccountOtherAllwncAmt>
+        </OfficerDirTrstKeyEmplGrp>
+        <OfficerDirTrstKeyEmplGrp>
+          <PersonNm>Zan Harris</PersonNm>
+          <USAddress>
+            <AddressLine1Txt>43 C Street</AddressLine1Txt>
+            <CityNm>South Portland</CityNm>
+            <StateAbbreviationCd>ME</StateAbbreviationCd>
+            <ZIPCd>04106</ZIPCd>
+          </USAddress>
+          <TitleTxt>Director</TitleTxt>
+          <AverageHrsPerWkDevotedToPosRt>1.00</AverageHrsPerWkDevotedToPosRt>
+          <CompensationAmt>0</CompensationAmt>
+          <EmployeeBenefitProgramAmt>0</EmployeeBenefitProgramAmt>
+          <ExpenseAccountOtherAllwncAmt>0</ExpenseAccountOtherAllwncAmt>
+        </OfficerDirTrstKeyEmplGrp>
+        <OfficerDirTrstKeyEmplGrp>
+          <PersonNm>Lita Blanchard</PersonNm>
+          <USAddress>
+            <AddressLine1Txt>34 Old Town Road</AddressLine1Txt>
+            <CityNm>Monmouth</CityNm>
+            <StateAbbreviationCd>ME</StateAbbreviationCd>
+            <ZIPCd>04259</ZIPCd>
+          </USAddress>
+          <TitleTxt>Director</TitleTxt>
+          <AverageHrsPerWkDevotedToPosRt>1.00</AverageHrsPerWkDevotedToPosRt>
+          <CompensationAmt>0</CompensationAmt>
+          <EmployeeBenefitProgramAmt>0</EmployeeBenefitProgramAmt>
+          <ExpenseAccountOtherAllwncAmt>0</ExpenseAccountOtherAllwncAmt>
+        </OfficerDirTrstKeyEmplGrp>
+        <OfficerDirTrstKeyEmplGrp>
+          <PersonNm>Sharon Farnsworth</PersonNm>
+          <USAddress>
+            <AddressLine1Txt>14 Pine St</AddressLine1Txt>
+            <CityNm>Stratton</CityNm>
+            <StateAbbreviationCd>ME</StateAbbreviationCd>
+            <ZIPCd>04982</ZIPCd>
+          </USAddress>
+          <TitleTxt>Director</TitleTxt>
+          <AverageHrsPerWkDevotedToPosRt>1.00</AverageHrsPerWkDevotedToPosRt>
+          <CompensationAmt>0</CompensationAmt>
+          <EmployeeBenefitProgramAmt>0</EmployeeBenefitProgramAmt>
+          <ExpenseAccountOtherAllwncAmt>0</ExpenseAccountOtherAllwncAmt>
+        </OfficerDirTrstKeyEmplGrp>
+        <OfficerDirTrstKeyEmplGrp>
+          <PersonNm>Clinton Phillips</PersonNm>
+          <USAddress>
+            <AddressLine1Txt>164 JUDSON BLVD</AddressLine1Txt>
+            <CityNm>Bangor</CityNm>
+            <StateAbbreviationCd>ME</StateAbbreviationCd>
+            <ZIPCd>04401</ZIPCd>
+          </USAddress>
+          <TitleTxt>Director</TitleTxt>
+          <AverageHrsPerWkDevotedToPosRt>1.00</AverageHrsPerWkDevotedToPosRt>
+          <CompensationAmt>0</CompensationAmt>
+          <EmployeeBenefitProgramAmt>0</EmployeeBenefitProgramAmt>
+          <ExpenseAccountOtherAllwncAmt>0</ExpenseAccountOtherAllwncAmt>
+        </OfficerDirTrstKeyEmplGrp>
+        <OfficerDirTrstKeyEmplGrp>
+          <PersonNm>Katherine Phillips</PersonNm>
+          <USAddress>
+            <AddressLine1Txt>164 JUDSON BLVD</AddressLine1Txt>
+            <CityNm>Bangor</CityNm>
+            <StateAbbreviationCd>ME</StateAbbreviationCd>
+            <ZIPCd>04401</ZIPCd>
+          </USAddress>
+          <TitleTxt>Director</TitleTxt>
+          <AverageHrsPerWkDevotedToPosRt>1.00</AverageHrsPerWkDevotedToPosRt>
+          <CompensationAmt>0</CompensationAmt>
+          <EmployeeBenefitProgramAmt>0</EmployeeBenefitProgramAmt>
+          <ExpenseAccountOtherAllwncAmt>0</ExpenseAccountOtherAllwncAmt>
+        </OfficerDirTrstKeyEmplGrp>
+        <CompOfHghstPdEmplOrNONETxt>NONE</CompOfHghstPdEmplOrNONETxt>
+        <OtherEmployeePaidOver50kCnt>0</OtherEmployeePaidOver50kCnt>
+        <CompensationOfHghstPdCntrctGrp>
+          <BusinessName>
+            <BusinessNameLine1Txt>North Country Associates</BusinessNameLine1Txt>
+          </BusinessName>
+          <USAddress>
+            <AddressLine1Txt>179 Lisbon Street</AddressLine1Txt>
+            <CityNm>Lewiston</CityNm>
+            <StateAbbreviationCd>ME</StateAbbreviationCd>
+            <ZIPCd>04240</ZIPCd>
+          </USAddress>
+          <ServiceTypeTxt>Data processing and consulting</ServiceTypeTxt>
+          <CompensationAmt>140000</CompensationAmt>
+        </CompensationOfHghstPdCntrctGrp>
+        <ContractorPaidOver50kCnt>0</ContractorPaidOver50kCnt>
+      </OfficerDirTrstKeyEmplInfoGrp>
+      <SummaryOfDirectChrtblActyGrp>
+        <Description1Txt>RESIDENTIAL CARE - 16 BED ICF/MR FACILITY PRIMARILY FUNDED BY MAINCARE.</Description1Txt>
+        <Expenses1Amt>3357743</Expenses1Amt>
+        <Description2Txt>DAY HABILITATION PROGRAM FOR RESIDENTS PRIMARILY FUNDED BY MAINECARE</Description2Txt>
+        <Expenses2Amt>302760</Expenses2Amt>
+      </SummaryOfDirectChrtblActyGrp>
+      <SumOfProgramRelatedInvstGrp>
+        <TotalAmt>0</TotalAmt>
+      </SumOfProgramRelatedInvstGrp>
+      <MinimumInvestmentReturnGrp>
+        <AverageMonthlyFMVOfSecAmt>0</AverageMonthlyFMVOfSecAmt>
+        <AverageMonthlyCashBalancesAmt>55130</AverageMonthlyCashBalancesAmt>
+        <FMVAllOtherNoncharitableAstAmt>0</FMVAllOtherNoncharitableAstAmt>
+        <TotalFMVOfUnusedAssetsAmt>55130</TotalFMVOfUnusedAssetsAmt>
+        <ReductionClaimedAmt>0</ReductionClaimedAmt>
+        <AcquisitionIndebtednessAmt>0</AcquisitionIndebtednessAmt>
+        <AdjustedTotalFMVOfUnusedAstAmt>55130</AdjustedTotalFMVOfUnusedAstAmt>
+        <CashDeemedCharitableAmt>827</CashDeemedCharitableAmt>
+        <NetVlNoncharitableAssetsAmt>54303</NetVlNoncharitableAssetsAmt>
+        <MinimumInvestmentReturnAmt>2715</MinimumInvestmentReturnAmt>
+      </MinimumInvestmentReturnGrp>
+      <DistributableAmountGrp>
+        <MinimumInvestmentReturnAmt>2715</MinimumInvestmentReturnAmt>
+        <TotalTaxAmt>0</TotalTaxAmt>
+        <DistributableBeforeAdjAmt>2715</DistributableBeforeAdjAmt>
+        <RecoveriesQualfiedDistriAmt>0</RecoveriesQualfiedDistriAmt>
+        <DistributableBeforeDedAmt>2715</DistributableBeforeDedAmt>
+        <DeductionFromDistributableAmt>0</DeductionFromDistributableAmt>
+        <DistributableAsAdjustedAmt>2715</DistributableAsAdjustedAmt>
+      </DistributableAmountGrp>
+      <QualifyingDistriPartXIIGrp>
+        <ExpensesAndContributionsAmt>0</ExpensesAndContributionsAmt>
+        <ProgramRelatedInvstTotalAmt>0</ProgramRelatedInvstTotalAmt>
+        <QualifyingDistributionsAmt>0</QualifyingDistributionsAmt>
+        <PctSect4940eOrgNetInvstIncmAmt>0</PctSect4940eOrgNetInvstIncmAmt>
+        <AdjustedQualifyingDistriAmt>0</AdjustedQualifyingDistriAmt>
+      </QualifyingDistriPartXIIGrp>
+      <UndistributedIncomeGrp>
+        <DistributableAsAdjustedAmt>2715</DistributableAsAdjustedAmt>
+        <UndistributedIncomePYAmt>0</UndistributedIncomePYAmt>
+        <TotalForPriorYearsAmt>0</TotalForPriorYearsAmt>
+        <ExcessDistributionCyovYr5Amt>90896</ExcessDistributionCyovYr5Amt>
+        <ExcessDistributionCyovYr4Amt>38585</ExcessDistributionCyovYr4Amt>
+        <ExcessDistributionCyovYr3Amt>5611</ExcessDistributionCyovYr3Amt>
+        <ExcessDistributionCyovYr2Amt>23513</ExcessDistributionCyovYr2Amt>
+        <ExcessDistributionCyovYr1Amt>35087</ExcessDistributionCyovYr1Amt>
+        <TotalExcessDistributionCyovAmt>193692</TotalExcessDistributionCyovAmt>
+        <QualifyingDistributionsAmt>0</QualifyingDistributionsAmt>
+        <AppliedToYear1Amt>0</AppliedToYear1Amt>
+        <AppliedToPriorYearsAmt>0</AppliedToPriorYearsAmt>
+        <TreatedAsDistriFromCorpusAmt>0</TreatedAsDistriFromCorpusAmt>
+        <AppliedToCurrentYearAmt>0</AppliedToCurrentYearAmt>
+        <RemainingDistriFromCorpusAmt>0</RemainingDistriFromCorpusAmt>
+        <ExcessDistriCyovAppCYCorpusAmt>2715</ExcessDistriCyovAppCYCorpusAmt>
+        <ExcessDistributionCyovAppCYAmt>2715</ExcessDistributionCyovAppCYAmt>
+        <TotalCorpusAmt>190977</TotalCorpusAmt>
+        <PriorYearUndistributedIncmAmt>0</PriorYearUndistributedIncmAmt>
+        <PriorYearDeficiencyOrTaxAmt>0</PriorYearDeficiencyOrTaxAmt>
+        <Taxable1Amt>0</Taxable1Amt>
+        <Taxable2Amt>0</Taxable2Amt>
+        <UndistributedIncomeCYAmt>0</UndistributedIncomeCYAmt>
+        <CorpusDistri170b1EOr4942g3Amt>0</CorpusDistri170b1EOr4942g3Amt>
+        <ExcessDistriCyovFromYr5Amt>88181</ExcessDistriCyovFromYr5Amt>
+        <ExcessDistriCyovToNextYrAmt>102796</ExcessDistriCyovToNextYrAmt>
+        <ExcessFromYear4Amt>38585</ExcessFromYear4Amt>
+        <ExcessFromYear3Amt>5611</ExcessFromYear3Amt>
+        <ExcessFromYear2Amt>23513</ExcessFromYear2Amt>
+        <ExcessFromYear1Amt>35087</ExcessFromYear1Amt>
+      </UndistributedIncomeGrp>
+      <SupplementaryInformationGrp>
+        <OnlyContriToPreselectedInd>X</OnlyContriToPreselectedInd>
+        <TotalGrantOrContriPdDurYrAmt>0</TotalGrantOrContriPdDurYrAmt>
+        <TotalGrantOrContriApprvFutAmt>0</TotalGrantOrContriApprvFutAmt>
+      </SupplementaryInformationGrp>
+      <AnalysisIncomeProducingActyGrp>
+        <ProgramServiceRevPartVIIGrp>
+          <Desc>DAY HAB PROGRAM</Desc>
+          <RelatedOrExemptFunctionIncmAmt>338593</RelatedOrExemptFunctionIncmAmt>
+        </ProgramServiceRevPartVIIGrp>
+        <ProgramServiceRevPartVIIGrp>
+          <Desc>ICF/MR REVENUE</Desc>
+          <RelatedOrExemptFunctionIncmAmt>3370685</RelatedOrExemptFunctionIncmAmt>
+        </ProgramServiceRevPartVIIGrp>
+        <GainSalesAstOthThanInvntryGrp>
+          <RelatedOrExemptFunctionIncmAmt>-12625</RelatedOrExemptFunctionIncmAmt>
+        </GainSalesAstOthThanInvntryGrp>
+        <OtherRevenueDescribedGrp>
+          <Desc>MISCELLANEOUS REVENUE</Desc>
+          <RelatedOrExemptFunctionIncmAmt>4736</RelatedOrExemptFunctionIncmAmt>
+        </OtherRevenueDescribedGrp>
+        <SubtotalsIncmProducingActyGrp>
+          <UnrelatedBusinessTaxblIncmAmt>0</UnrelatedBusinessTaxblIncmAmt>
+          <ExclusionAmt>0</ExclusionAmt>
+          <RelatedOrExemptFunctionIncmAmt>3701389</RelatedOrExemptFunctionIncmAmt>
+        </SubtotalsIncmProducingActyGrp>
+        <TotalIncomeProducingActyAmt>3701389</TotalIncomeProducingActyAmt>
+      </AnalysisIncomeProducingActyGrp>
+      <RlnOfActyToAccomOfExmptPrpsGrp>
+        <RlnOfActyToAccomOfExmptPrpsGrp>
+          <LineNumberTxt>1A</LineNumberTxt>
+          <RelationshipStatementTxt>DAY PROGRAMMING FOR RESIDENTS.</RelationshipStatementTxt>
+        </RlnOfActyToAccomOfExmptPrpsGrp>
+        <RlnOfActyToAccomOfExmptPrpsGrp>
+          <LineNumberTxt>1B</LineNumberTxt>
+          <RelationshipStatementTxt>RESIDENTIAL SERVICES FOR RESIDENTS</RelationshipStatementTxt>
+        </RlnOfActyToAccomOfExmptPrpsGrp>
+      </RlnOfActyToAccomOfExmptPrpsGrp>
+      <TrnsfrTransRlnNonchrtblEOGrp>
+        <TrnsfrOfCashToNonchrtblEOInd>0</TrnsfrOfCashToNonchrtblEOInd>
+        <TrnsfrOtherAssetNonchrtblEOInd>0</TrnsfrOtherAssetNonchrtblEOInd>
+        <SalesOrExchangesOfAssetsInd>0</SalesOrExchangesOfAssetsInd>
+        <PurchaseOfAssetsNonchrtblEOInd>0</PurchaseOfAssetsNonchrtblEOInd>
+        <RentalOfFacilitiesOthAssetsInd>0</RentalOfFacilitiesOthAssetsInd>
+        <ReimbursementArrangementsInd>0</ReimbursementArrangementsInd>
+        <LoansOrLoanGuaranteesInd>0</LoansOrLoanGuaranteesInd>
+        <PerformanceOfServicesEtcInd>0</PerformanceOfServicesEtcInd>
+        <SharingOfFacilitiesEtcInd>0</SharingOfFacilitiesEtcInd>
+        <RelationshipsNonchrtblEOInd>0</RelationshipsNonchrtblEOInd>
+      </TrnsfrTransRlnNonchrtblEOGrp>
+    </IRS990PF>
+    <AccountingFeesSchedule documentId="RetDoc2002200001">
+      <AccountingFeesDetail>
+        <CategoryTxt>Accounting</CategoryTxt>
+        <Amt>14675</Amt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>14675</AdjustedNetIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>0</DisbursementsCharitablePrpsAmt>
+      </AccountingFeesDetail>
+    </AccountingFeesSchedule>
+    <MortgagesAndNotesPayableSch documentId="RetDoc2203400001">
+      <NotePayableGrp>
+        <LenderNameGrp>
+          <BusinessName>
+            <BusinessNameLine1Txt>Androscoggin Bank</BusinessNameLine1Txt>
+          </BusinessName>
+        </LenderNameGrp>
+        <LoanOriginalAmt>1008000</LoanOriginalAmt>
+        <BalanceDueAmt>724125</BalanceDueAmt>
+        <NoteDt>2012-06</NoteDt>
+        <LoanMaturityDt>2027-12</LoanMaturityDt>
+        <RepaymentTermsTxt>Monthly P&amp;I</RepaymentTermsTxt>
+        <InterestRt>5.000000000000</InterestRt>
+        <SecurityProvidedBorrowerTxt>Mortgage</SecurityProvidedBorrowerTxt>
+        <LoanPurposeTxt>Purchase real estate</LoanPurposeTxt>
+      </NotePayableGrp>
+      <NotePayableGrp>
+        <LenderNameGrp>
+          <BusinessName>
+            <BusinessNameLine1Txt>Androscoggin Bank</BusinessNameLine1Txt>
+          </BusinessName>
+        </LenderNameGrp>
+        <LoanOriginalAmt>400000</LoanOriginalAmt>
+        <BalanceDueAmt>0</BalanceDueAmt>
+        <NoteDt>2012-06</NoteDt>
+        <LoanMaturityDt>2017-12</LoanMaturityDt>
+        <RepaymentTermsTxt>Monthly P&amp;I</RepaymentTermsTxt>
+        <InterestRt>5.000000000000</InterestRt>
+        <SecurityProvidedBorrowerTxt>Mortgage</SecurityProvidedBorrowerTxt>
+        <LoanPurposeTxt>Capital improvements</LoanPurposeTxt>
+      </NotePayableGrp>
+      <NotePayableGrp>
+        <LenderNameGrp>
+          <BusinessName>
+            <BusinessNameLine1Txt>Net Development Corp</BusinessNameLine1Txt>
+          </BusinessName>
+        </LenderNameGrp>
+        <LoanOriginalAmt>541250</LoanOriginalAmt>
+        <BalanceDueAmt>485681</BalanceDueAmt>
+        <NoteDt>2012-06</NoteDt>
+        <LoanMaturityDt>2032-06</LoanMaturityDt>
+        <RepaymentTermsTxt>Monthly P&amp;I</RepaymentTermsTxt>
+        <InterestRt>6.000000000000</InterestRt>
+        <SecurityProvidedBorrowerTxt>Mortgage</SecurityProvidedBorrowerTxt>
+        <LoanPurposeTxt>Purchase real estate</LoanPurposeTxt>
+      </NotePayableGrp>
+      <NotePayableGrp>
+        <LenderNameGrp>
+          <BusinessName>
+            <BusinessNameLine1Txt>Androscoggin Bank</BusinessNameLine1Txt>
+          </BusinessName>
+        </LenderNameGrp>
+        <LoanOriginalAmt>14450</LoanOriginalAmt>
+        <BalanceDueAmt>0</BalanceDueAmt>
+        <NoteDt>2012-11</NoteDt>
+        <LoanMaturityDt>2017-11</LoanMaturityDt>
+        <RepaymentTermsTxt>Monthly P&amp;I</RepaymentTermsTxt>
+        <InterestRt>5.000000000000</InterestRt>
+        <SecurityProvidedBorrowerTxt>Vehicle</SecurityProvidedBorrowerTxt>
+        <LoanPurposeTxt>Purchase vehicle</LoanPurposeTxt>
+      </NotePayableGrp>
+      <NotePayableGrp>
+        <LenderNameGrp>
+          <BusinessName>
+            <BusinessNameLine1Txt>Androscoggin Bank</BusinessNameLine1Txt>
+          </BusinessName>
+        </LenderNameGrp>
+        <LoanOriginalAmt>24000</LoanOriginalAmt>
+        <BalanceDueAmt>0</BalanceDueAmt>
+        <NoteDt>2012-09</NoteDt>
+        <LoanMaturityDt>2017-10</LoanMaturityDt>
+        <RepaymentTermsTxt>Monthly P&amp;I</RepaymentTermsTxt>
+        <InterestRt>5.000000000000</InterestRt>
+        <SecurityProvidedBorrowerTxt>Vehicle</SecurityProvidedBorrowerTxt>
+        <LoanPurposeTxt>Purchase vehicle</LoanPurposeTxt>
+      </NotePayableGrp>
+      <NotePayableGrp>
+        <LenderNameGrp>
+          <BusinessName>
+            <BusinessNameLine1Txt>ANDROSCOGGIN BANK</BusinessNameLine1Txt>
+          </BusinessName>
+        </LenderNameGrp>
+        <LoanOriginalAmt>24400</LoanOriginalAmt>
+        <BalanceDueAmt>1182</BalanceDueAmt>
+        <NoteDt>2014-08</NoteDt>
+        <LoanMaturityDt>2018-09</LoanMaturityDt>
+        <RepaymentTermsTxt>MONTHLY P&amp;I</RepaymentTermsTxt>
+        <InterestRt>5.000000000000</InterestRt>
+        <SecurityProvidedBorrowerTxt>VEHICLE</SecurityProvidedBorrowerTxt>
+        <LoanPurposeTxt>PURCHASE VEHICLE</LoanPurposeTxt>
+      </NotePayableGrp>
+      <NotePayableGrp>
+        <LenderNameGrp>
+          <BusinessName>
+            <BusinessNameLine1Txt>MaineCare</BusinessNameLine1Txt>
+          </BusinessName>
+        </LenderNameGrp>
+        <LoanOriginalAmt>142030</LoanOriginalAmt>
+        <BalanceDueAmt>90030</BalanceDueAmt>
+        <NoteDt>2016-10</NoteDt>
+        <LoanMaturityDt>2019-10</LoanMaturityDt>
+        <RepaymentTermsTxt>$4000 per month principal</RepaymentTermsTxt>
+        <InterestRt>0.000000000000</InterestRt>
+        <SecurityProvidedBorrowerTxt>Unsecured</SecurityProvidedBorrowerTxt>
+        <LoanPurposeTxt>Repayment of overpayments</LoanPurposeTxt>
+      </NotePayableGrp>
+    </MortgagesAndNotesPayableSch>
+    <OtherAssetsSchedule documentId="RetDoc2046600001">
+      <OtherAssetsScheduleGrp>
+        <Desc>Organization Costs</Desc>
+        <BOYBookValueAmt>20751</BOYBookValueAmt>
+        <EOYBookValueAmt>17719</EOYBookValueAmt>
+        <EOYFMVAmt>17719</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+    </OtherAssetsSchedule>
+    <OtherExpensesSchedule documentId="RetDoc2003200001">
+      <OtherExpensesScheduleGrp>
+        <Desc>Activities Program</Desc>
+        <RevenueAndExpensesPerBooksAmt>7542</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>7542</AdjustedNetIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>0</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>ADMIN - DATA PROCESSING FEES</Desc>
+        <RevenueAndExpensesPerBooksAmt>100000</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>100000</AdjustedNetIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>0</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>Bank and late fees</Desc>
+        <RevenueAndExpensesPerBooksAmt>925</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>925</AdjustedNetIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>0</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>Dues and subscriptions</Desc>
+        <RevenueAndExpensesPerBooksAmt>2982</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>2982</AdjustedNetIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>0</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>Insurance</Desc>
+        <RevenueAndExpensesPerBooksAmt>66107</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>66107</AdjustedNetIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>0</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>Marketing and promotions</Desc>
+        <RevenueAndExpensesPerBooksAmt>2331</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>2331</AdjustedNetIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>0</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>Medical and Operating Supplies</Desc>
+        <RevenueAndExpensesPerBooksAmt>141158</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>141158</AdjustedNetIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>0</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>Nursing and Pharmacy</Desc>
+        <RevenueAndExpensesPerBooksAmt>2729</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>2729</AdjustedNetIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>0</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>Office Expense</Desc>
+        <RevenueAndExpensesPerBooksAmt>11324</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>11324</AdjustedNetIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>0</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>Payroll service fees</Desc>
+        <RevenueAndExpensesPerBooksAmt>5419</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>5419</AdjustedNetIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>0</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>Food and Dietary Supplies</Desc>
+        <RevenueAndExpensesPerBooksAmt>45430</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>45430</AdjustedNetIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>0</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>Employee recruitment and retention</Desc>
+        <RevenueAndExpensesPerBooksAmt>15757</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>15757</AdjustedNetIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>0</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>AUTO EXPENSES</Desc>
+        <RevenueAndExpensesPerBooksAmt>1806</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>1806</AdjustedNetIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>0</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>Admin - Resident expenses</Desc>
+        <RevenueAndExpensesPerBooksAmt>303</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>303</AdjustedNetIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>0</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>Amortization</Desc>
+        <RevenueAndExpensesPerBooksAmt>3033</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>3033</AdjustedNetIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>0</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+    </OtherExpensesSchedule>
+    <OtherIncomeSchedule2 documentId="RetDoc2001500001">
+      <OtherIncomeDetail>
+        <Desc>DAY HAB PROGRAM</Desc>
+        <RevenueAndExpensesPerBooksAmt>338593</RevenueAndExpensesPerBooksAmt>
+        <AdjustedNetIncomeAmt>338593</AdjustedNetIncomeAmt>
+      </OtherIncomeDetail>
+      <OtherIncomeDetail>
+        <Desc>ICF/MR REVENUE</Desc>
+        <RevenueAndExpensesPerBooksAmt>3370685</RevenueAndExpensesPerBooksAmt>
+        <AdjustedNetIncomeAmt>3370685</AdjustedNetIncomeAmt>
+      </OtherIncomeDetail>
+      <OtherIncomeDetail>
+        <Desc>MISCELLANEOUS REVENUE</Desc>
+        <RevenueAndExpensesPerBooksAmt>4736</RevenueAndExpensesPerBooksAmt>
+        <AdjustedNetIncomeAmt>4736</AdjustedNetIncomeAmt>
+      </OtherIncomeDetail>
+    </OtherIncomeSchedule2>
+    <OtherLiabilitiesSchedule documentId="RetDoc2065700001">
+      <OtherLiabilitiesDetail>
+        <Desc>DUE TO/FROM NCA</Desc>
+        <BOYBookValueAmt>112535</BOYBookValueAmt>
+        <EOYBookValueAmt>112101</EOYBookValueAmt>
+      </OtherLiabilitiesDetail>
+      <OtherLiabilitiesDetail>
+        <Desc>DUE TO/FROM NC MGT</Desc>
+        <BOYBookValueAmt>459</BOYBookValueAmt>
+        <EOYBookValueAmt>435</EOYBookValueAmt>
+      </OtherLiabilitiesDetail>
+    </OtherLiabilitiesSchedule>
+    <OtherProfessionalFeesSchedule documentId="RetDoc2002300001">
+      <OtherProfessionalFeesDetail>
+        <CategoryTxt>MANAGEMENT FEE EXPENSE</CategoryTxt>
+        <Amt>40000</Amt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>40000</AdjustedNetIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>0</DisbursementsCharitablePrpsAmt>
+      </OtherProfessionalFeesDetail>
+      <OtherProfessionalFeesDetail>
+        <CategoryTxt>Admin - Professional Fees</CategoryTxt>
+        <Amt>2034</Amt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>2034</AdjustedNetIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>0</DisbursementsCharitablePrpsAmt>
+      </OtherProfessionalFeesDetail>
+      <OtherProfessionalFeesDetail>
+        <CategoryTxt>Admin - Legal fees</CategoryTxt>
+        <Amt>131</Amt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>131</AdjustedNetIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>0</DisbursementsCharitablePrpsAmt>
+      </OtherProfessionalFeesDetail>
+    </OtherProfessionalFeesSchedule>
+    <TaxesSchedule documentId="RetDoc2002500001">
+      <TaxesDetail>
+        <CategoryTxt>Provider and other taxes</CategoryTxt>
+        <Amt>218144</Amt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>218144</AdjustedNetIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>0</DisbursementsCharitablePrpsAmt>
+      </TaxesDetail>
+    </TaxesSchedule>
+  </ReturnData>
+</Return>

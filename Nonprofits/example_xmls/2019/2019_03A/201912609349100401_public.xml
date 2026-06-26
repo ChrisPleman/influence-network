@@ -1,0 +1,456 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Return xmlns="http://www.irs.gov/efile" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" returnVersion="2016v3.1">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2019-09-17T08:08:53-05:00</ReturnTs>
+    <TaxPeriodEndDt>2016-12-31</TaxPeriodEndDt>
+    <PreparerFirmGrp>
+      <PreparerFirmEIN>261593950</PreparerFirmEIN>
+      <PreparerFirmName>
+        <BusinessNameLine1Txt>ROSEN &amp; ASSOCIATES LLP</BusinessNameLine1Txt>
+      </PreparerFirmName>
+      <PreparerUSAddress>
+        <AddressLine1Txt>1800 WEST PARK DR STE 300</AddressLine1Txt>
+        <CityNm>WESTBOROUGH</CityNm>
+        <StateAbbreviationCd>MA</StateAbbreviationCd>
+        <ZIPCd>015813960</ZIPCd>
+      </PreparerUSAddress>
+    </PreparerFirmGrp>
+    <ReturnTypeCd>990PF</ReturnTypeCd>
+    <TaxPeriodBeginDt>2016-01-01</TaxPeriodBeginDt>
+    <Filer>
+      <EIN>043540207</EIN>
+      <BusinessName>
+        <BusinessNameLine1Txt>THE LOUISE C AND ALVIN SLOTNICK</BusinessNameLine1Txt>
+        <BusinessNameLine2Txt>FAMILY CHARITABLE FOUNDATION</BusinessNameLine2Txt>
+      </BusinessName>
+      <BusinessNameControlTxt>LOUI</BusinessNameControlTxt>
+      <PhoneNum>5089262400</PhoneNum>
+      <USAddress>
+        <AddressLine1Txt>20 EASTWARD</AddressLine1Txt>
+        <CityNm>ROCKPORT</CityNm>
+        <StateAbbreviationCd>ME</StateAbbreviationCd>
+        <ZIPCd>04856</ZIPCd>
+      </USAddress>
+    </Filer>
+    <BusinessOfficerGrp>
+      <PersonNm>NANCY SLOTNICK FOSTER</PersonNm>
+      <PersonTitleTxt>TRUSTEE</PersonTitleTxt>
+      <PhoneNum>5089262400</PhoneNum>
+      <SignatureDt>2019-09-13</SignatureDt>
+      <DiscussWithPaidPreparerInd>true</DiscussWithPaidPreparerInd>
+    </BusinessOfficerGrp>
+    <PreparerPersonGrp>
+      <PreparerPersonNm>LARRY S ROSEN CPA</PreparerPersonNm>
+      <PTIN>P00062982</PTIN>
+      <PhoneNum>5089262400</PhoneNum>
+      <PreparationDt>2019-09-17</PreparationDt>
+    </PreparerPersonGrp>
+    <FilingSecurityInformation>
+      <AtSubmissionCreationDeviceId>7FA00C48FA4662A05D98ADEBC910A353AC08DA29</AtSubmissionCreationDeviceId>
+      <AtSubmissionFilingDeviceId>8F2E8911B9FB5499D4F3A25E419A1A577787530B</AtSubmissionFilingDeviceId>
+    </FilingSecurityInformation>
+    <TaxYr>2016</TaxYr>
+    <BuildTS>2019-02-21 02:37:17Z</BuildTS>
+  </ReturnHeader>
+  <ReturnData documentCnt="8">
+    <IRS990PF documentId="RetDoc1">
+      <Organization501c3ExemptPFInd>X</Organization501c3ExemptPFInd>
+      <FMVAssetsEOYAmt>645716</FMVAssetsEOYAmt>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <AnalysisOfRevenueAndExpenses>
+        <ScheduleBNotRequiredInd>X</ScheduleBNotRequiredInd>
+        <InterestOnSavRevAndExpnssAmt>1621</InterestOnSavRevAndExpnssAmt>
+        <InterestOnSavNetInvstIncmAmt>1621</InterestOnSavNetInvstIncmAmt>
+        <DividendsRevAndExpnssAmt>16770</DividendsRevAndExpnssAmt>
+        <DividendsNetInvstIncmAmt>16770</DividendsNetInvstIncmAmt>
+        <NetGainSaleAstRevAndExpnssAmt referenceDocumentId="RetDoc2">-3647</NetGainSaleAstRevAndExpnssAmt>
+        <GrossSalesPriceAmt>91312</GrossSalesPriceAmt>
+        <CapGainNetIncmNetInvstIncmAmt>6443</CapGainNetIncmNetInvstIncmAmt>
+        <TotalRevAndExpnssAmt>14744</TotalRevAndExpnssAmt>
+        <TotalNetInvstIncmAmt>24834</TotalNetInvstIncmAmt>
+        <InterestRevAndExpnssAmt>121</InterestRevAndExpnssAmt>
+        <InterestNetInvstIncmAmt>121</InterestNetInvstIncmAmt>
+        <TaxesRevAndExpnssAmt referenceDocumentId="RetDoc8">226</TaxesRevAndExpnssAmt>
+        <TaxesNetInvstIncmAmt>226</TaxesNetInvstIncmAmt>
+        <OtherExpensesRevAndExpnssAmt referenceDocumentId="RetDoc7">1597</OtherExpensesRevAndExpnssAmt>
+        <OtherExpensesNetInvstIncmAmt>1597</OtherExpensesNetInvstIncmAmt>
+        <TotOprExpensesRevAndExpnssAmt>1944</TotOprExpensesRevAndExpnssAmt>
+        <TotOprExpensesNetInvstIncmAmt>1944</TotOprExpensesNetInvstIncmAmt>
+        <TotOprExpensesDsbrsChrtblAmt>0</TotOprExpensesDsbrsChrtblAmt>
+        <ContriPaidRevAndExpnssAmt>0</ContriPaidRevAndExpnssAmt>
+        <ContriPaidDsbrsChrtblAmt>0</ContriPaidDsbrsChrtblAmt>
+        <TotalExpensesRevAndExpnssAmt>1944</TotalExpensesRevAndExpnssAmt>
+        <TotalExpensesNetInvstIncmAmt>1944</TotalExpensesNetInvstIncmAmt>
+        <TotalExpensesDsbrsChrtblAmt>0</TotalExpensesDsbrsChrtblAmt>
+        <ExcessRevenueOverExpensesAmt>12800</ExcessRevenueOverExpensesAmt>
+        <NetInvestmentIncomeAmt>22890</NetInvestmentIncomeAmt>
+      </AnalysisOfRevenueAndExpenses>
+      <Form990PFBalanceSheetsGrp>
+        <CashBOYAmt>14416</CashBOYAmt>
+        <CashEOYAmt>22830</CashEOYAmt>
+        <CashEOYFMVAmt>22830</CashEOYFMVAmt>
+        <USGovernmentObligationsBOYAmt>36061</USGovernmentObligationsBOYAmt>
+        <USGovernmentObligationsEOYAmt referenceDocumentId="RetDoc4">27173</USGovernmentObligationsEOYAmt>
+        <USGovtObligationsEOYFMVAmt>27772</USGovtObligationsEOYFMVAmt>
+        <CorporateBondsEOYAmt referenceDocumentId="RetDoc3">45898</CorporateBondsEOYAmt>
+        <CorporateBondsEOYFMVAmt>45969</CorporateBondsEOYFMVAmt>
+        <OtherInvestmentsBOYAmt>593582</OtherInvestmentsBOYAmt>
+        <OtherInvestmentsEOYAmt referenceDocumentId="RetDoc5">560158</OtherInvestmentsEOYAmt>
+        <OtherInvestmentsEOYFMVAmt>549145</OtherInvestmentsEOYFMVAmt>
+        <TotalAssetsBOYAmt>644059</TotalAssetsBOYAmt>
+        <TotalAssetsEOYAmt>656059</TotalAssetsEOYAmt>
+        <TotalAssetsEOYFMVAmt>645716</TotalAssetsEOYFMVAmt>
+        <TotalLiabilitiesEOYAmt>0</TotalLiabilitiesEOYAmt>
+        <OrgDoesNotFollowSFAS117Ind>X</OrgDoesNotFollowSFAS117Ind>
+        <RetainedEarningBOYAmt>644059</RetainedEarningBOYAmt>
+        <RetainedEarningEOYAmt>656059</RetainedEarningEOYAmt>
+        <TotNetAstOrFundBalancesBOYAmt>644059</TotNetAstOrFundBalancesBOYAmt>
+        <TotNetAstOrFundBalancesEOYAmt>656059</TotNetAstOrFundBalancesEOYAmt>
+        <TotalLiabilitiesNetAstBOYAmt>644059</TotalLiabilitiesNetAstBOYAmt>
+        <TotalLiabilitiesNetAstEOYAmt>656059</TotalLiabilitiesNetAstEOYAmt>
+      </Form990PFBalanceSheetsGrp>
+      <ChgInNetAssetsFundBalancesGrp>
+        <TotNetAstOrFundBalancesBOYAmt>644059</TotNetAstOrFundBalancesBOYAmt>
+        <ExcessRevenueOverExpensesAmt>12800</ExcessRevenueOverExpensesAmt>
+        <SubtotalAmt>656859</SubtotalAmt>
+        <OtherDecreasesAmt referenceDocumentId="RetDoc6">800</OtherDecreasesAmt>
+        <TotNetAstOrFundBalancesEOYAmt>656059</TotNetAstOrFundBalancesEOYAmt>
+      </ChgInNetAssetsFundBalancesGrp>
+      <CapGainsLossTxInvstIncmDetail>
+        <CapitalGainNetIncomeAmt>6443</CapitalGainNetIncomeAmt>
+      </CapGainsLossTxInvstIncmDetail>
+      <QlfyUndSect4940eReducedTaxGrp>
+        <LiableSection4942TaxInd>false</LiableSection4942TaxInd>
+        <AdjustedQlfyDistriYr1Amt>5000</AdjustedQlfyDistriYr1Amt>
+        <NetVlNoncharitableAssetsYr1Amt>611066</NetVlNoncharitableAssetsYr1Amt>
+        <DistributionYr1Rt>0.008182</DistributionYr1Rt>
+        <AdjustedQlfyDistriYr2Amt>129619</AdjustedQlfyDistriYr2Amt>
+        <NetVlNoncharitableAssetsYr2Amt>683582</NetVlNoncharitableAssetsYr2Amt>
+        <DistributionYr2Rt>0.189617</DistributionYr2Rt>
+        <AdjustedQlfyDistriYr3Amt>34704</AdjustedQlfyDistriYr3Amt>
+        <NetVlNoncharitableAssetsYr3Amt>686287</NetVlNoncharitableAssetsYr3Amt>
+        <DistributionYr3Rt>0.050568</DistributionYr3Rt>
+        <AdjustedQlfyDistriYr4Amt>30000</AdjustedQlfyDistriYr4Amt>
+        <NetVlNoncharitableAssetsYr4Amt>672308</NetVlNoncharitableAssetsYr4Amt>
+        <DistributionYr4Rt>0.044622</DistributionYr4Rt>
+        <AdjustedQlfyDistriYr5Amt>900</AdjustedQlfyDistriYr5Amt>
+        <NetVlNoncharitableAssetsYr5Amt>634976</NetVlNoncharitableAssetsYr5Amt>
+        <DistributionYr5Rt>0.001417</DistributionYr5Rt>
+        <TotalDistributionRt>0.294406</TotalDistributionRt>
+        <AverageDistributionRt>0.058881</AverageDistributionRt>
+        <NetVlNoncharitableAssetsAmt>605890</NetVlNoncharitableAssetsAmt>
+        <AdjNetVlNoncharitableAssetsAmt>35675</AdjNetVlNoncharitableAssetsAmt>
+        <NetInvestmentIncomePctAmt>229</NetInvestmentIncomePctAmt>
+        <AdjNonchrtblNetInvstIncmPctAmt>35904</AdjNonchrtblNetInvstIncmPctAmt>
+        <QualifyingDistributionsAmt>0</QualifyingDistributionsAmt>
+      </QlfyUndSect4940eReducedTaxGrp>
+      <ExciseTaxBasedOnInvstIncmGrp>
+        <InvestmentIncomeExciseTaxAmt>458</InvestmentIncomeExciseTaxAmt>
+        <SubtotalAmt>458</SubtotalAmt>
+        <TaxBasedOnInvestmentIncomeAmt>458</TaxBasedOnInvestmentIncomeAmt>
+        <EstimatedPlusOvpmtIncmTxAmt>141</EstimatedPlusOvpmtIncmTxAmt>
+        <TotalPaymentsAndCreditsAmt>141</TotalPaymentsAndCreditsAmt>
+        <TaxDueAmt>317</TaxDueAmt>
+      </ExciseTaxBasedOnInvstIncmGrp>
+      <StatementsRegardingActyGrp>
+        <LegislativePoliticalActyInd>false</LegislativePoliticalActyInd>
+        <MoreThan100SpentInd>false</MoreThan100SpentInd>
+        <Form1120POLFiledInd>false</Form1120POLFiledInd>
+        <ActivitiesNotPreviouslyRptInd>false</ActivitiesNotPreviouslyRptInd>
+        <ChangesToArticlesOrBylawsInd>false</ChangesToArticlesOrBylawsInd>
+        <UnrelatedBusIncmOverLimitInd>false</UnrelatedBusIncmOverLimitInd>
+        <OrganizationDissolvedEtcInd>false</OrganizationDissolvedEtcInd>
+        <Section508eRqrSatisfiedInd>true</Section508eRqrSatisfiedInd>
+        <AtLeast5000InAssetsInd>true</AtLeast5000InAssetsInd>
+        <OrgReportOrRegisterStateCd>MA</OrgReportOrRegisterStateCd>
+        <Form990PFFiledWithAttyGenInd>true</Form990PFFiledWithAttyGenInd>
+        <PrivateOperatingFoundationInd>false</PrivateOperatingFoundationInd>
+        <NewSubstantialContributorsInd>false</NewSubstantialContributorsInd>
+        <OwnControlledEntityInd>false</OwnControlledEntityInd>
+        <DonorAdvisedFundInd>false</DonorAdvisedFundInd>
+        <ComplyWithPublicInspRqrInd>true</ComplyWithPublicInspRqrInd>
+        <WebsiteAddressTxt>N/A</WebsiteAddressTxt>
+        <IndividualWithBooksNm>LARRY S ROSEN</IndividualWithBooksNm>
+        <PhoneNum>5089262400</PhoneNum>
+        <LocationOfBooksUSAddress>
+          <AddressLine1Txt>1800 W PARK DRIVE STE 300</AddressLine1Txt>
+          <CityNm>WESTBOROUGH</CityNm>
+          <StateAbbreviationCd>MA</StateAbbreviationCd>
+          <ZIPCd>01581</ZIPCd>
+        </LocationOfBooksUSAddress>
+        <ForeignAccountsQuestionInd>false</ForeignAccountsQuestionInd>
+      </StatementsRegardingActyGrp>
+      <StatementsRegardingActy4720Grp>
+        <SaleOrExchDisqualifiedPrsnInd>false</SaleOrExchDisqualifiedPrsnInd>
+        <BrrwOrLendDisqualifiedPrsnInd>false</BrrwOrLendDisqualifiedPrsnInd>
+        <FurnGoodsDisqualifiedPrsnInd>false</FurnGoodsDisqualifiedPrsnInd>
+        <PayCompDisqualifiedPrsnInd>false</PayCompDisqualifiedPrsnInd>
+        <TransferAstDisqualifiedPrsnInd>false</TransferAstDisqualifiedPrsnInd>
+        <PaymentToGovernmentOfficialInd>false</PaymentToGovernmentOfficialInd>
+        <UndistributedIncomePYInd>false</UndistributedIncomePYInd>
+        <BusinessHoldingsInd>false</BusinessHoldingsInd>
+        <JeopardyInvestmentsInd>false</JeopardyInvestmentsInd>
+        <UncorrectedPYJeopardyInvstInd>false</UncorrectedPYJeopardyInvstInd>
+        <InfluenceLegislationInd>false</InfluenceLegislationInd>
+        <InfluenceElectionInd>false</InfluenceElectionInd>
+        <GrantsToIndividualsInd>false</GrantsToIndividualsInd>
+        <GrantsToOrganizationsInd>false</GrantsToOrganizationsInd>
+        <NoncharitablePurposeInd>false</NoncharitablePurposeInd>
+        <RcvFndsToPayPrsnlBnftCntrctInd>false</RcvFndsToPayPrsnlBnftCntrctInd>
+        <PayPremiumsPrsnlBnftCntrctInd>false</PayPremiumsPrsnlBnftCntrctInd>
+        <ProhibitedTaxShelterTransInd>false</ProhibitedTaxShelterTransInd>
+      </StatementsRegardingActy4720Grp>
+      <OfficerDirTrstKeyEmplInfoGrp>
+        <OfficerDirTrstKeyEmplGrp>
+          <PersonNm>ELLEN SLOTNICK</PersonNm>
+          <USAddress>
+            <AddressLine1Txt>287 LANGLEY ROAD UNIT 38</AddressLine1Txt>
+            <CityNm>NEWTON</CityNm>
+            <StateAbbreviationCd>MA</StateAbbreviationCd>
+            <ZIPCd>02459</ZIPCd>
+          </USAddress>
+          <TitleTxt>TRUSTEE/DIRE</TitleTxt>
+          <AverageHrsPerWkDevotedToPosRt>000.00</AverageHrsPerWkDevotedToPosRt>
+          <CompensationAmt>0</CompensationAmt>
+          <EmployeeBenefitProgramAmt>0</EmployeeBenefitProgramAmt>
+          <ExpenseAccountOtherAllwncAmt>0</ExpenseAccountOtherAllwncAmt>
+        </OfficerDirTrstKeyEmplGrp>
+        <OfficerDirTrstKeyEmplGrp>
+          <PersonNm>NANCY SLOTNICK FOSTER</PersonNm>
+          <USAddress>
+            <AddressLine1Txt>19 STONECROFT CIRCLE</AddressLine1Txt>
+            <CityNm>WESTON</CityNm>
+            <StateAbbreviationCd>MA</StateAbbreviationCd>
+            <ZIPCd>02493</ZIPCd>
+          </USAddress>
+          <TitleTxt>TRUSTEE</TitleTxt>
+          <AverageHrsPerWkDevotedToPosRt>000.00</AverageHrsPerWkDevotedToPosRt>
+          <CompensationAmt>0</CompensationAmt>
+          <EmployeeBenefitProgramAmt>0</EmployeeBenefitProgramAmt>
+          <ExpenseAccountOtherAllwncAmt>0</ExpenseAccountOtherAllwncAmt>
+        </OfficerDirTrstKeyEmplGrp>
+        <CompOfHghstPdEmplOrNONETxt>NONE</CompOfHghstPdEmplOrNONETxt>
+        <CompOfHghstPdCntrctOrNONETxt>NONE</CompOfHghstPdCntrctOrNONETxt>
+      </OfficerDirTrstKeyEmplInfoGrp>
+      <SumOfProgramRelatedInvstGrp>
+        <Description1Txt>N/A</Description1Txt>
+      </SumOfProgramRelatedInvstGrp>
+      <MinimumInvestmentReturnGrp>
+        <AverageMonthlyFMVOfSecAmt>596955</AverageMonthlyFMVOfSecAmt>
+        <AverageMonthlyCashBalancesAmt>18162</AverageMonthlyCashBalancesAmt>
+        <FMVAllOtherNoncharitableAstAmt>0</FMVAllOtherNoncharitableAstAmt>
+        <TotalFMVOfUnusedAssetsAmt>615117</TotalFMVOfUnusedAssetsAmt>
+        <AdjustedTotalFMVOfUnusedAstAmt>615117</AdjustedTotalFMVOfUnusedAstAmt>
+        <CashDeemedCharitableAmt>9227</CashDeemedCharitableAmt>
+        <NetVlNoncharitableAssetsAmt>605890</NetVlNoncharitableAssetsAmt>
+        <MinimumInvestmentReturnAmt>30295</MinimumInvestmentReturnAmt>
+      </MinimumInvestmentReturnGrp>
+      <DistributableAmountGrp>
+        <MinimumInvestmentReturnAmt>30295</MinimumInvestmentReturnAmt>
+        <TaxBasedOnInvestmentIncomeAmt>458</TaxBasedOnInvestmentIncomeAmt>
+        <TotalTaxAmt>458</TotalTaxAmt>
+        <DistributableBeforeAdjAmt>29837</DistributableBeforeAdjAmt>
+        <DistributableBeforeDedAmt>29837</DistributableBeforeDedAmt>
+        <DistributableAsAdjustedAmt>29837</DistributableAsAdjustedAmt>
+      </DistributableAmountGrp>
+      <QualifyingDistriPartXIIGrp>
+        <ExpensesAndContributionsAmt>0</ExpensesAndContributionsAmt>
+        <QualifyingDistributionsAmt>0</QualifyingDistributionsAmt>
+      </QualifyingDistriPartXIIGrp>
+      <UndistributedIncomeGrp>
+        <DistributableAsAdjustedAmt>29837</DistributableAsAdjustedAmt>
+        <ExcessDistributionCyovYr2Amt>72282</ExcessDistributionCyovYr2Amt>
+        <TotalExcessDistributionCyovAmt>72282</TotalExcessDistributionCyovAmt>
+        <ExcessDistriCyovAppCYCorpusAmt>29837</ExcessDistriCyovAppCYCorpusAmt>
+        <ExcessDistributionCyovAppCYAmt>29837</ExcessDistributionCyovAppCYAmt>
+        <TotalCorpusAmt>42445</TotalCorpusAmt>
+        <UndistributedIncomeCYAmt>0</UndistributedIncomeCYAmt>
+        <ExcessDistriCyovToNextYrAmt>42445</ExcessDistriCyovToNextYrAmt>
+        <ExcessFromYear2Amt>42445</ExcessFromYear2Amt>
+      </UndistributedIncomeGrp>
+      <SupplementaryInformationGrp>
+        <OnlyContriToPreselectedInd>X</OnlyContriToPreselectedInd>
+      </SupplementaryInformationGrp>
+      <AnalysisIncomeProducingActyGrp>
+        <IntOnSavAndTempCashInvstGrp>
+          <ExclusionCd>14</ExclusionCd>
+          <ExclusionAmt>1621</ExclusionAmt>
+        </IntOnSavAndTempCashInvstGrp>
+        <DivAndIntFromSecPartVIIGrp>
+          <ExclusionCd>14</ExclusionCd>
+          <ExclusionAmt>16770</ExclusionAmt>
+        </DivAndIntFromSecPartVIIGrp>
+        <GainSalesAstOthThanInvntryGrp>
+          <RelatedOrExemptFunctionIncmAmt>-3647</RelatedOrExemptFunctionIncmAmt>
+        </GainSalesAstOthThanInvntryGrp>
+        <SubtotalsIncmProducingActyGrp>
+          <ExclusionAmt>18391</ExclusionAmt>
+          <RelatedOrExemptFunctionIncmAmt>-3647</RelatedOrExemptFunctionIncmAmt>
+        </SubtotalsIncmProducingActyGrp>
+        <TotalIncomeProducingActyAmt>14744</TotalIncomeProducingActyAmt>
+      </AnalysisIncomeProducingActyGrp>
+      <TrnsfrTransRlnNonchrtblEOGrp>
+        <TrnsfrOfCashToNonchrtblEOInd>false</TrnsfrOfCashToNonchrtblEOInd>
+        <TrnsfrOtherAssetNonchrtblEOInd>false</TrnsfrOtherAssetNonchrtblEOInd>
+        <SalesOrExchangesOfAssetsInd>false</SalesOrExchangesOfAssetsInd>
+        <PurchaseOfAssetsNonchrtblEOInd>false</PurchaseOfAssetsNonchrtblEOInd>
+        <RentalOfFacilitiesOthAssetsInd>false</RentalOfFacilitiesOthAssetsInd>
+        <ReimbursementArrangementsInd>false</ReimbursementArrangementsInd>
+        <LoansOrLoanGuaranteesInd>false</LoansOrLoanGuaranteesInd>
+        <PerformanceOfServicesEtcInd>false</PerformanceOfServicesEtcInd>
+        <SharingOfFacilitiesEtcInd>false</SharingOfFacilitiesEtcInd>
+        <RelationshipsNonchrtblEOInd>false</RelationshipsNonchrtblEOInd>
+      </TrnsfrTransRlnNonchrtblEOGrp>
+    </IRS990PF>
+    <GainLossSaleOtherAssetsSch documentId="RetDoc2">
+      <GainLossSaleOtherAssetGrp>
+        <AssetDesc>SHORT TERM - COVERED</AssetDesc>
+        <HowAcquiredTxt>PURCHASE</HowAcquiredTxt>
+        <GrossSalesPriceAmt>44716</GrossSalesPriceAmt>
+        <BasisAmt>47395</BasisAmt>
+        <TotalNetAmt>-2679</TotalNetAmt>
+      </GainLossSaleOtherAssetGrp>
+      <GainLossSaleOtherAssetGrp>
+        <AssetDesc>LONG TERM - COVERED</AssetDesc>
+        <HowAcquiredTxt>PURCHASE</HowAcquiredTxt>
+        <GrossSalesPriceAmt>31298</GrossSalesPriceAmt>
+        <BasisAmt>38121</BasisAmt>
+        <TotalNetAmt>-6823</TotalNetAmt>
+      </GainLossSaleOtherAssetGrp>
+      <GainLossSaleOtherAssetGrp>
+        <AssetDesc>LT - NONCOVERED - SEE ATTACHED</AssetDesc>
+        <HowAcquiredTxt>PURCHASE</HowAcquiredTxt>
+        <GrossSalesPriceAmt>8855</GrossSalesPriceAmt>
+        <BasisAmt>9443</BasisAmt>
+        <TotalNetAmt>-588</TotalNetAmt>
+      </GainLossSaleOtherAssetGrp>
+    </GainLossSaleOtherAssetsSch>
+    <InvestmentsCorpBondsSchedule documentId="RetDoc3">
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>PRUDENTIAL SHORT TERM CORP BOND</BondNm>
+        <EOYBookValueAmt>45898</EOYBookValueAmt>
+        <EOYFMVAmt>45969</EOYFMVAmt>
+      </InvestmentsCorporateBondsGrp>
+    </InvestmentsCorpBondsSchedule>
+    <InvestmentsGovtObligationsSch documentId="RetDoc4">
+      <USGovtObligationsBookVlEOYAmt>27173</USGovtObligationsBookVlEOYAmt>
+      <USGovtObligationsEOYFMVAmt>27772</USGovtObligationsEOYFMVAmt>
+    </InvestmentsGovtObligationsSch>
+    <InvestmentsOtherSchedule2 documentId="RetDoc5">
+      <InvestmentsOtherGrp>
+        <CategoryOrItemTxt>DELAWARE US GROWTH FUND</CategoryOrItemTxt>
+        <ListedAtCostOrFMVCd>AT COST</ListedAtCostOrFMVCd>
+        <BookValueAmt>80232</BookValueAmt>
+        <EOYFMVAmt>72687</EOYFMVAmt>
+      </InvestmentsOtherGrp>
+      <InvestmentsOtherGrp>
+        <CategoryOrItemTxt>GOLDMAN SACHS STRATEGIC INCOME</CategoryOrItemTxt>
+        <ListedAtCostOrFMVCd>AT COST</ListedAtCostOrFMVCd>
+      </InvestmentsOtherGrp>
+      <InvestmentsOtherGrp>
+        <CategoryOrItemTxt>OAKMARK INTERNATIONAL FUND</CategoryOrItemTxt>
+        <ListedAtCostOrFMVCd>AT COST</ListedAtCostOrFMVCd>
+        <BookValueAmt>58350</BookValueAmt>
+        <EOYFMVAmt>51721</EOYFMVAmt>
+      </InvestmentsOtherGrp>
+      <InvestmentsOtherGrp>
+        <CategoryOrItemTxt>HARTFORD EQUITY INCOME FD CL 1</CategoryOrItemTxt>
+        <ListedAtCostOrFMVCd>AT COST</ListedAtCostOrFMVCd>
+        <BookValueAmt>48343</BookValueAmt>
+        <EOYFMVAmt>48221</EOYFMVAmt>
+      </InvestmentsOtherGrp>
+      <InvestmentsOtherGrp>
+        <CategoryOrItemTxt>OPPENHEIMER SENIOR FLOATING RATE FD</CategoryOrItemTxt>
+        <ListedAtCostOrFMVCd>AT COST</ListedAtCostOrFMVCd>
+        <BookValueAmt>59497</BookValueAmt>
+        <EOYFMVAmt>59821</EOYFMVAmt>
+      </InvestmentsOtherGrp>
+      <InvestmentsOtherGrp>
+        <CategoryOrItemTxt>OPPENHEIMER DEVELOPING MARKETS</CategoryOrItemTxt>
+        <ListedAtCostOrFMVCd>AT COST</ListedAtCostOrFMVCd>
+      </InvestmentsOtherGrp>
+      <InvestmentsOtherGrp>
+        <CategoryOrItemTxt>PIMCO INCOME FUND</CategoryOrItemTxt>
+        <ListedAtCostOrFMVCd>AT COST</ListedAtCostOrFMVCd>
+        <BookValueAmt>129035</BookValueAmt>
+        <EOYFMVAmt>124508</EOYFMVAmt>
+      </InvestmentsOtherGrp>
+      <InvestmentsOtherGrp>
+        <CategoryOrItemTxt>PIMCO SMALL CAP STOCKSPLUS</CategoryOrItemTxt>
+        <ListedAtCostOrFMVCd>AT COST</ListedAtCostOrFMVCd>
+        <BookValueAmt>36409</BookValueAmt>
+        <EOYFMVAmt>36730</EOYFMVAmt>
+      </InvestmentsOtherGrp>
+      <InvestmentsOtherGrp>
+        <CategoryOrItemTxt>PUTNAM EQUITY SPECTRUM</CategoryOrItemTxt>
+        <ListedAtCostOrFMVCd>AT COST</ListedAtCostOrFMVCd>
+      </InvestmentsOtherGrp>
+      <InvestmentsOtherGrp>
+        <CategoryOrItemTxt>ISHARES INC MSCI EMU</CategoryOrItemTxt>
+        <ListedAtCostOrFMVCd>AT COST</ListedAtCostOrFMVCd>
+      </InvestmentsOtherGrp>
+      <InvestmentsOtherGrp>
+        <CategoryOrItemTxt>ISHARES TR SELECT DIV</CategoryOrItemTxt>
+        <ListedAtCostOrFMVCd>AT COST</ListedAtCostOrFMVCd>
+        <BookValueAmt>22527</BookValueAmt>
+        <EOYFMVAmt>26571</EOYFMVAmt>
+      </InvestmentsOtherGrp>
+      <InvestmentsOtherGrp>
+        <CategoryOrItemTxt>ISHARES TR MSCI EAFE</CategoryOrItemTxt>
+        <ListedAtCostOrFMVCd>AT COST</ListedAtCostOrFMVCd>
+        <BookValueAmt>37863</BookValueAmt>
+        <EOYFMVAmt>34638</EOYFMVAmt>
+      </InvestmentsOtherGrp>
+      <InvestmentsOtherGrp>
+        <CategoryOrItemTxt>ISHARES MSCI UNITED KINGDOM</CategoryOrItemTxt>
+        <ListedAtCostOrFMVCd>AT COST</ListedAtCostOrFMVCd>
+        <BookValueAmt>13083</BookValueAmt>
+        <EOYFMVAmt>9207</EOYFMVAmt>
+      </InvestmentsOtherGrp>
+      <InvestmentsOtherGrp>
+        <CategoryOrItemTxt>RYDEX ETF TR GUGGENHEIM S&amp;P500</CategoryOrItemTxt>
+        <ListedAtCostOrFMVCd>AT COST</ListedAtCostOrFMVCd>
+        <BookValueAmt>59082</BookValueAmt>
+        <EOYFMVAmt>69312</EOYFMVAmt>
+      </InvestmentsOtherGrp>
+      <InvestmentsOtherGrp>
+        <CategoryOrItemTxt>OPPENHEIMER INTERNATIONAL SMALL-MID</CategoryOrItemTxt>
+        <ListedAtCostOrFMVCd>AT COST</ListedAtCostOrFMVCd>
+        <BookValueAmt>15737</BookValueAmt>
+        <EOYFMVAmt>15729</EOYFMVAmt>
+      </InvestmentsOtherGrp>
+      <InvestmentsOtherGrp>
+        <CategoryOrItemTxt>BLACKROCK STRATEGIC INCOME OPPS</CategoryOrItemTxt>
+        <ListedAtCostOrFMVCd>AT COST</ListedAtCostOrFMVCd>
+      </InvestmentsOtherGrp>
+    </InvestmentsOtherSchedule2>
+    <OtherDecreasesSchedule documentId="RetDoc6">
+      <OtherDecreasesDetail>
+        <Desc>FEDERAL TAX</Desc>
+        <Amt>800</Amt>
+      </OtherDecreasesDetail>
+    </OtherDecreasesSchedule>
+    <OtherExpensesSchedule documentId="RetDoc7">
+      <OtherExpensesScheduleGrp>
+        <Desc>EXPENSES</Desc>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>INVESTMENT MANAGEMENT FEES</Desc>
+        <RevenueAndExpensesPerBooksAmt>642</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>642</NetInvestmentIncomeAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>ADMINISTRATIVE EXPENSES</Desc>
+        <RevenueAndExpensesPerBooksAmt>955</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>955</NetInvestmentIncomeAmt>
+      </OtherExpensesScheduleGrp>
+    </OtherExpensesSchedule>
+    <TaxesSchedule documentId="RetDoc8">
+      <TaxesDetail>
+        <CategoryTxt>FOREIGN TAX PAID</CategoryTxt>
+        <Amt>226</Amt>
+        <NetInvestmentIncomeAmt>226</NetInvestmentIncomeAmt>
+      </TaxesDetail>
+    </TaxesSchedule>
+  </ReturnData>
+</Return>

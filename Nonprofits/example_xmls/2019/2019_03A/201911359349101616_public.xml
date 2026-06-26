@@ -1,0 +1,695 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Return xmlns="http://www.irs.gov/efile" xsi:schemaLocation="http://www.irs.gov/efile" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" returnVersion="2017v2.3">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2019-05-15T10:16:05-05:00</ReturnTs>
+    <TaxPeriodEndDt>2018-06-30</TaxPeriodEndDt>
+    <PreparerFirmGrp>
+      <PreparerFirmName>
+        <BusinessNameLine1Txt>BDO USA LLP</BusinessNameLine1Txt>
+      </PreparerFirmName>
+      <PreparerUSAddress>
+        <AddressLine1Txt>100 PARK AVENUE</AddressLine1Txt>
+        <CityNm>NEW YORK</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>100175001</ZIPCd>
+      </PreparerUSAddress>
+    </PreparerFirmGrp>
+    <ReturnTypeCd>990PF</ReturnTypeCd>
+    <TaxPeriodBeginDt>2017-07-01</TaxPeriodBeginDt>
+    <Filer>
+      <EIN>134073752</EIN>
+      <BusinessName>
+        <BusinessNameLine1Txt>STRATFORD HOUSING DEVELOPMENT FUND CORP</BusinessNameLine1Txt>
+      </BusinessName>
+      <InCareOfNm>% TAILIN BRECHER</InCareOfNm>
+      <BusinessNameControlTxt>STRA</BusinessNameControlTxt>
+      <PhoneNum>2126336900</PhoneNum>
+      <USAddress>
+        <AddressLine1Txt>463 SEVENTH AVENUE 17TH FLOOR</AddressLine1Txt>
+        <CityNm>NEW YORK</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>10018</ZIPCd>
+      </USAddress>
+    </Filer>
+    <BusinessOfficerGrp>
+      <PersonNm>PERRY PERLMUTTER</PersonNm>
+      <PersonTitleTxt>CFO</PersonTitleTxt>
+      <PhoneNum>2126336900</PhoneNum>
+      <SignatureDt>2019-05-14</SignatureDt>
+      <DiscussWithPaidPreparerInd>true</DiscussWithPaidPreparerInd>
+    </BusinessOfficerGrp>
+    <PreparerPersonGrp>
+      <PreparerPersonNm>Paul Hammerschmidt</PreparerPersonNm>
+      <PTIN>P01384178</PTIN>
+      <PhoneNum>2128858000</PhoneNum>
+    </PreparerPersonGrp>
+    <FilingSecurityInformation>
+      <IPAddress>
+        <IPv4AddressTxt>38.140.180.210</IPv4AddressTxt>
+      </IPAddress>
+      <FederalOriginalSubmissionId>26308920191355000022</FederalOriginalSubmissionId>
+      <FederalOriginalSubmissionIdDt>2019-05-15</FederalOriginalSubmissionIdDt>
+      <FilingLicenseTypeCd>P</FilingLicenseTypeCd>
+      <AtSubmissionCreationDeviceId>D3D68E194B83D59AA3409046CF1E6FFD87DF92EC</AtSubmissionCreationDeviceId>
+      <AtSubmissionFilingDeviceId>B3CB366207B97FBF425C865AC63E7FDBA441B342</AtSubmissionFilingDeviceId>
+    </FilingSecurityInformation>
+    <TaxYr>2017</TaxYr>
+    <BuildTS>2019-02-21 02:37:17Z</BuildTS>
+  </ReturnHeader>
+  <ReturnData documentCnt="12">
+    <IRS990PF documentId="IRS990PF">
+      <Organization501c3ExemptPFInd>X</Organization501c3ExemptPFInd>
+      <FMVAssetsEOYAmt>9995550</FMVAssetsEOYAmt>
+      <MethodOfAccountingAccrualInd>X</MethodOfAccountingAccrualInd>
+      <AnalysisOfRevenueAndExpenses>
+        <ContriRcvdRevAndExpnssAmt>0</ContriRcvdRevAndExpnssAmt>
+        <InterestOnSavRevAndExpnssAmt>14051</InterestOnSavRevAndExpnssAmt>
+        <InterestOnSavNetInvstIncmAmt>14051</InterestOnSavNetInvstIncmAmt>
+        <InterestOnSavingsAdjNetIncmAmt>0</InterestOnSavingsAdjNetIncmAmt>
+        <CapGainNetIncmNetInvstIncmAmt>0</CapGainNetIncmNetInvstIncmAmt>
+        <OtherIncomeRevAndExpnssAmt referenceDocumentId="OtherIncomeSch2">563386</OtherIncomeRevAndExpnssAmt>
+        <TotalRevAndExpnssAmt>577437</TotalRevAndExpnssAmt>
+        <TotalNetInvstIncmAmt>14051</TotalNetInvstIncmAmt>
+        <TotalAdjNetIncmAmt>0</TotalAdjNetIncmAmt>
+        <CompOfcrDirTrstRevAndExpnssAmt>0</CompOfcrDirTrstRevAndExpnssAmt>
+        <LegalFeesRevAndExpnssAmt referenceDocumentId="LegalFeesSch">1189</LegalFeesRevAndExpnssAmt>
+        <LegalFeesNetInvstIncmAmt>0</LegalFeesNetInvstIncmAmt>
+        <LegalFeesAdjNetIncmAmt>0</LegalFeesAdjNetIncmAmt>
+        <LegalFeesDsbrsChrtblAmt>1189</LegalFeesDsbrsChrtblAmt>
+        <OtherProfFeesRevAndExpnssAmt referenceDocumentId="OthProfFeesSch">10727</OtherProfFeesRevAndExpnssAmt>
+        <OtherProfFeesNetInvstIncmAmt>0</OtherProfFeesNetInvstIncmAmt>
+        <OtherProfFeesAdjNetIncmAmt>0</OtherProfFeesAdjNetIncmAmt>
+        <OtherProfFeesDsbrsChrtblAmt>10727</OtherProfFeesDsbrsChrtblAmt>
+        <InterestRevAndExpnssAmt>21659</InterestRevAndExpnssAmt>
+        <InterestNetInvstIncmAmt>0</InterestNetInvstIncmAmt>
+        <InterestAdjNetIncmAmt>0</InterestAdjNetIncmAmt>
+        <InterestDsbrsChrtblAmt>0</InterestDsbrsChrtblAmt>
+        <TaxesRevAndExpnssAmt referenceDocumentId="TaxesSchedule">1605</TaxesRevAndExpnssAmt>
+        <TaxesNetInvstIncmAmt>0</TaxesNetInvstIncmAmt>
+        <TaxesAdjNetIncmAmt>0</TaxesAdjNetIncmAmt>
+        <TaxesDsbrsChrtblAmt>1605</TaxesDsbrsChrtblAmt>
+        <DeprecAndDpltnRevAndExpnssAmt referenceDocumentId="DepreciationSch">150622</DeprecAndDpltnRevAndExpnssAmt>
+        <DeprecAndDpltnNetInvstIncmAmt>0</DeprecAndDpltnNetInvstIncmAmt>
+        <DeprecAndDpltnAdjNetIncmAmt>0</DeprecAndDpltnAdjNetIncmAmt>
+        <OccupancyRevAndExpnssAmt>89377</OccupancyRevAndExpnssAmt>
+        <OccupancyNetInvstIncmAmt>0</OccupancyNetInvstIncmAmt>
+        <OccupancyAdjNetIncmAmt>0</OccupancyAdjNetIncmAmt>
+        <OccupancyDsbrsChrtblAmt>89377</OccupancyDsbrsChrtblAmt>
+        <OtherExpensesRevAndExpnssAmt referenceDocumentId="OtherExpensesSch">612420</OtherExpensesRevAndExpnssAmt>
+        <OtherExpensesNetInvstIncmAmt>0</OtherExpensesNetInvstIncmAmt>
+        <OtherExpensesAdjNetIncmAmt>0</OtherExpensesAdjNetIncmAmt>
+        <OtherExpensesDsbrsChrtblAmt>612420</OtherExpensesDsbrsChrtblAmt>
+        <TotOprExpensesRevAndExpnssAmt>887599</TotOprExpensesRevAndExpnssAmt>
+        <TotOprExpensesNetInvstIncmAmt>0</TotOprExpensesNetInvstIncmAmt>
+        <TotOprExpensesAdjNetIncmAmt>0</TotOprExpensesAdjNetIncmAmt>
+        <TotOprExpensesDsbrsChrtblAmt>715318</TotOprExpensesDsbrsChrtblAmt>
+        <ContriPaidRevAndExpnssAmt>0</ContriPaidRevAndExpnssAmt>
+        <ContriPaidDsbrsChrtblAmt>0</ContriPaidDsbrsChrtblAmt>
+        <TotalExpensesRevAndExpnssAmt>887599</TotalExpensesRevAndExpnssAmt>
+        <TotalExpensesNetInvstIncmAmt>0</TotalExpensesNetInvstIncmAmt>
+        <TotalExpensesAdjNetIncmAmt>0</TotalExpensesAdjNetIncmAmt>
+        <TotalExpensesDsbrsChrtblAmt>715318</TotalExpensesDsbrsChrtblAmt>
+        <ExcessRevenueOverExpensesAmt>-310162</ExcessRevenueOverExpensesAmt>
+        <NetInvestmentIncomeAmt>14051</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+      </AnalysisOfRevenueAndExpenses>
+      <Form990PFBalanceSheetsGrp>
+        <SavAndTempCashInvstEOYAmt>943067</SavAndTempCashInvstEOYAmt>
+        <SavAndTempCashInvstEOYFMVAmt>943067</SavAndTempCashInvstEOYFMVAmt>
+        <AcctRcvblAmt>153747</AcctRcvblAmt>
+        <AcctRcvblAllwncDbtflAcctAmt>15386</AcctRcvblAllwncDbtflAcctAmt>
+        <AcctRcvblEOYAmt>138361</AcctRcvblEOYAmt>
+        <AcctRcvblEOYFMVAmt>138361</AcctRcvblEOYFMVAmt>
+        <LandBldgEquipCostOrOtherBssAmt>10736437</LandBldgEquipCostOrOtherBssAmt>
+        <LandBldgEquipAccumDeprecAmt>4320145</LandBldgEquipAccumDeprecAmt>
+        <LandEOYAmt>6416292</LandEOYAmt>
+        <LandEOYFMVAmt>6416292</LandEOYFMVAmt>
+        <OtherAssetsBOYAmt referenceDocumentId="OtherAssetsSch">247220</OtherAssetsBOYAmt>
+        <OtherAssetsEOYAmt referenceDocumentId="OtherAssetsSch">2497830</OtherAssetsEOYAmt>
+        <OtherAssetsEOYFMVAmt referenceDocumentId="OtherAssetsSch">2497830</OtherAssetsEOYFMVAmt>
+        <TotalAssetsBOYAmt>247220</TotalAssetsBOYAmt>
+        <TotalAssetsEOYAmt>9995550</TotalAssetsEOYAmt>
+        <TotalAssetsEOYFMVAmt>9995550</TotalAssetsEOYFMVAmt>
+        <AccountsPayableBOYAmt>0</AccountsPayableBOYAmt>
+        <AccountsPayableEOYAmt>116446</AccountsPayableEOYAmt>
+        <MortgagesAndNotesPayableBOYAmt>0</MortgagesAndNotesPayableBOYAmt>
+        <MortgagesAndNotesPayableEOYAmt referenceDocumentId="MortAndNotesPayblSch">6070000</MortgagesAndNotesPayableEOYAmt>
+        <OtherLiabilitiesBOYAmt referenceDocumentId="OtherLiabSch">261893</OtherLiabilitiesBOYAmt>
+        <OtherLiabilitiesEOYAmt referenceDocumentId="OtherLiabSch">1747643</OtherLiabilitiesEOYAmt>
+        <TotalLiabilitiesBOYAmt>261893</TotalLiabilitiesBOYAmt>
+        <TotalLiabilitiesEOYAmt>7934089</TotalLiabilitiesEOYAmt>
+        <OrganizationFollowsSFAS117Ind>X</OrganizationFollowsSFAS117Ind>
+        <UnrestrictedBOYAmt>-14673</UnrestrictedBOYAmt>
+        <UnrestrictedEOYAmt>2061461</UnrestrictedEOYAmt>
+        <TotNetAstOrFundBalancesBOYAmt>-14673</TotNetAstOrFundBalancesBOYAmt>
+        <TotNetAstOrFundBalancesEOYAmt>2061461</TotNetAstOrFundBalancesEOYAmt>
+        <TotalLiabilitiesNetAstBOYAmt>247220</TotalLiabilitiesNetAstBOYAmt>
+        <TotalLiabilitiesNetAstEOYAmt>9995550</TotalLiabilitiesNetAstEOYAmt>
+      </Form990PFBalanceSheetsGrp>
+      <ChgInNetAssetsFundBalancesGrp>
+        <TotNetAstOrFundBalancesBOYAmt>-14673</TotNetAstOrFundBalancesBOYAmt>
+        <ExcessRevenueOverExpensesAmt>-310162</ExcessRevenueOverExpensesAmt>
+        <OtherIncreasesAmt referenceDocumentId="OtherIncreasesSch">2391394</OtherIncreasesAmt>
+        <SubtotalAmt>2066559</SubtotalAmt>
+        <OtherDecreasesAmt referenceDocumentId="OtherDecreasesSch">5098</OtherDecreasesAmt>
+        <TotNetAstOrFundBalancesEOYAmt>2061461</TotNetAstOrFundBalancesEOYAmt>
+      </ChgInNetAssetsFundBalancesGrp>
+      <CapGainsLossTxInvstIncmDetail />
+      <QlfyUndSect4940eReducedTaxGrp>
+        <LiableSection4942TaxInd>false</LiableSection4942TaxInd>
+        <AdjustedQlfyDistriYr1Amt>0</AdjustedQlfyDistriYr1Amt>
+        <NetVlNoncharitableAssetsYr1Amt>0</NetVlNoncharitableAssetsYr1Amt>
+        <DistributionYr1Rt>0.0</DistributionYr1Rt>
+        <AdjustedQlfyDistriYr2Amt>0</AdjustedQlfyDistriYr2Amt>
+        <NetVlNoncharitableAssetsYr2Amt>0</NetVlNoncharitableAssetsYr2Amt>
+        <DistributionYr2Rt>0.0</DistributionYr2Rt>
+        <AdjustedQlfyDistriYr3Amt>0</AdjustedQlfyDistriYr3Amt>
+        <DistributionYr3Rt>0.0</DistributionYr3Rt>
+        <AdjustedQlfyDistriYr5Amt>25</AdjustedQlfyDistriYr5Amt>
+        <TotalDistributionRt>0.0</TotalDistributionRt>
+        <AverageDistributionRt>0.0</AverageDistributionRt>
+        <NetVlNoncharitableAssetsAmt>928921</NetVlNoncharitableAssetsAmt>
+        <AdjNetVlNoncharitableAssetsAmt>0</AdjNetVlNoncharitableAssetsAmt>
+        <NetInvestmentIncomePctAmt>141</NetInvestmentIncomePctAmt>
+        <AdjNonchrtblNetInvstIncmPctAmt>141</AdjNonchrtblNetInvstIncmPctAmt>
+        <QualifyingDistributionsAmt>715318</QualifyingDistributionsAmt>
+      </QlfyUndSect4940eReducedTaxGrp>
+      <ExciseTaxBasedOnInvstIncmGrp>
+        <InvestmentIncomeExciseTaxAmt>281</InvestmentIncomeExciseTaxAmt>
+        <SubtotalAmt>281</SubtotalAmt>
+        <TaxBasedOnInvestmentIncomeAmt>281</TaxBasedOnInvestmentIncomeAmt>
+        <TotalPaymentsAndCreditsAmt>0</TotalPaymentsAndCreditsAmt>
+        <TaxDueAmt>281</TaxDueAmt>
+      </ExciseTaxBasedOnInvstIncmGrp>
+      <StatementsRegardingActyGrp>
+        <LegislativePoliticalActyInd>false</LegislativePoliticalActyInd>
+        <MoreThan100SpentInd>false</MoreThan100SpentInd>
+        <Form1120POLFiledInd>false</Form1120POLFiledInd>
+        <ActivitiesNotPreviouslyRptInd>false</ActivitiesNotPreviouslyRptInd>
+        <ChangesToArticlesOrBylawsInd>false</ChangesToArticlesOrBylawsInd>
+        <UnrelatedBusIncmOverLimitInd>false</UnrelatedBusIncmOverLimitInd>
+        <OrganizationDissolvedEtcInd>false</OrganizationDissolvedEtcInd>
+        <Section508eRqrSatisfiedInd>true</Section508eRqrSatisfiedInd>
+        <AtLeast5000InAssetsInd>true</AtLeast5000InAssetsInd>
+        <OrgReportOrRegisterStateCd>NY</OrgReportOrRegisterStateCd>
+        <Form990PFFiledWithAttyGenInd>true</Form990PFFiledWithAttyGenInd>
+        <PrivateOperatingFoundationInd>false</PrivateOperatingFoundationInd>
+        <NewSubstantialContributorsInd>false</NewSubstantialContributorsInd>
+        <OwnControlledEntityInd>false</OwnControlledEntityInd>
+        <DonorAdvisedFundInd>false</DonorAdvisedFundInd>
+        <ComplyWithPublicInspRqrInd>true</ComplyWithPublicInspRqrInd>
+        <PersonsWithBooksName>
+          <BusinessNameLine1Txt>TAILIN BRECHER</BusinessNameLine1Txt>
+        </PersonsWithBooksName>
+        <PhoneNum>6465655810</PhoneNum>
+        <LocationOfBooksUSAddress>
+          <AddressLine1Txt>463 SEVENTH AVENUE 17TH FL</AddressLine1Txt>
+          <CityNm>NEW YORK</CityNm>
+          <StateAbbreviationCd>NY</StateAbbreviationCd>
+          <ZIPCd>10018</ZIPCd>
+        </LocationOfBooksUSAddress>
+        <ForeignAccountsQuestionInd>false</ForeignAccountsQuestionInd>
+      </StatementsRegardingActyGrp>
+      <StatementsRegardingActy4720Grp>
+        <SaleOrExchDisqualifiedPrsnInd>false</SaleOrExchDisqualifiedPrsnInd>
+        <BrrwOrLendDisqualifiedPrsnInd>false</BrrwOrLendDisqualifiedPrsnInd>
+        <FurnGoodsDisqualifiedPrsnInd>false</FurnGoodsDisqualifiedPrsnInd>
+        <PayCompDisqualifiedPrsnInd>false</PayCompDisqualifiedPrsnInd>
+        <TransferAstDisqualifiedPrsnInd>false</TransferAstDisqualifiedPrsnInd>
+        <PaymentToGovernmentOfficialInd>false</PaymentToGovernmentOfficialInd>
+        <UncorrectedPriorActsInd>false</UncorrectedPriorActsInd>
+        <UndistributedIncomePYInd>false</UndistributedIncomePYInd>
+        <BusinessHoldingsInd>false</BusinessHoldingsInd>
+        <JeopardyInvestmentsInd>false</JeopardyInvestmentsInd>
+        <UncorrectedPYJeopardyInvstInd>false</UncorrectedPYJeopardyInvstInd>
+        <InfluenceLegislationInd>false</InfluenceLegislationInd>
+        <InfluenceElectionInd>false</InfluenceElectionInd>
+        <GrantsToIndividualsInd>false</GrantsToIndividualsInd>
+        <GrantsToOrganizationsInd>false</GrantsToOrganizationsInd>
+        <NoncharitablePurposeInd>false</NoncharitablePurposeInd>
+        <RcvFndsToPayPrsnlBnftCntrctInd>false</RcvFndsToPayPrsnlBnftCntrctInd>
+        <PayPremiumsPrsnlBnftCntrctInd>false</PayPremiumsPrsnlBnftCntrctInd>
+        <ProhibitedTaxShelterTransInd>false</ProhibitedTaxShelterTransInd>
+      </StatementsRegardingActy4720Grp>
+      <OfficerDirTrstKeyEmplInfoGrp>
+        <OfficerDirTrstKeyEmplGrp>
+          <PersonNm>DONNA COLONNA</PersonNm>
+          <USAddress>
+            <AddressLine1Txt>463 SEVENTH AVENUE 17TH FLOOR</AddressLine1Txt>
+            <CityNm>NEW YORK</CityNm>
+            <StateAbbreviationCd>NY</StateAbbreviationCd>
+            <ZIPCd>10018</ZIPCd>
+          </USAddress>
+          <TitleTxt>CHIEF EXECUTIVE OFFICER</TitleTxt>
+          <AverageHrsPerWkDevotedToPosRt>0.1</AverageHrsPerWkDevotedToPosRt>
+          <CompensationAmt>0</CompensationAmt>
+          <EmployeeBenefitProgramAmt>0</EmployeeBenefitProgramAmt>
+          <ExpenseAccountOtherAllwncAmt>0</ExpenseAccountOtherAllwncAmt>
+        </OfficerDirTrstKeyEmplGrp>
+        <OfficerDirTrstKeyEmplGrp>
+          <PersonNm>PERRY PERLMUTTER</PersonNm>
+          <USAddress>
+            <AddressLine1Txt>463 SEVENTH AVENUE 17TH FLOOR</AddressLine1Txt>
+            <CityNm>NEW YORK</CityNm>
+            <StateAbbreviationCd>NY</StateAbbreviationCd>
+            <ZIPCd>10018</ZIPCd>
+          </USAddress>
+          <TitleTxt>CHIEF FINANCIAL OFFICER</TitleTxt>
+          <AverageHrsPerWkDevotedToPosRt>0.1</AverageHrsPerWkDevotedToPosRt>
+          <CompensationAmt>0</CompensationAmt>
+          <EmployeeBenefitProgramAmt>0</EmployeeBenefitProgramAmt>
+          <ExpenseAccountOtherAllwncAmt>0</ExpenseAccountOtherAllwncAmt>
+        </OfficerDirTrstKeyEmplGrp>
+        <OfficerDirTrstKeyEmplGrp>
+          <PersonNm>JUDITH JACKSON</PersonNm>
+          <USAddress>
+            <AddressLine1Txt>463 SEVENTH AVENUE 17TH FLOOR</AddressLine1Txt>
+            <CityNm>NEW YORK</CityNm>
+            <StateAbbreviationCd>NY</StateAbbreviationCd>
+            <ZIPCd>10018</ZIPCd>
+          </USAddress>
+          <TitleTxt>CHIEF OF STAFF</TitleTxt>
+          <AverageHrsPerWkDevotedToPosRt>0.1</AverageHrsPerWkDevotedToPosRt>
+          <CompensationAmt>0</CompensationAmt>
+          <EmployeeBenefitProgramAmt>0</EmployeeBenefitProgramAmt>
+          <ExpenseAccountOtherAllwncAmt>0</ExpenseAccountOtherAllwncAmt>
+        </OfficerDirTrstKeyEmplGrp>
+        <OfficerDirTrstKeyEmplGrp>
+          <PersonNm>JOANN SACKS</PersonNm>
+          <USAddress>
+            <AddressLine1Txt>463 SEVENTH AVENUE 17TH FLOOR</AddressLine1Txt>
+            <CityNm>NEW YORK</CityNm>
+            <StateAbbreviationCd>NY</StateAbbreviationCd>
+            <ZIPCd>10018</ZIPCd>
+          </USAddress>
+          <TitleTxt>CHAIRPERSON</TitleTxt>
+          <AverageHrsPerWkDevotedToPosRt>0.1</AverageHrsPerWkDevotedToPosRt>
+          <CompensationAmt>0</CompensationAmt>
+          <EmployeeBenefitProgramAmt>0</EmployeeBenefitProgramAmt>
+          <ExpenseAccountOtherAllwncAmt>0</ExpenseAccountOtherAllwncAmt>
+        </OfficerDirTrstKeyEmplGrp>
+        <OfficerDirTrstKeyEmplGrp>
+          <PersonNm>AMELIA WRIGHT BREWER</PersonNm>
+          <USAddress>
+            <AddressLine1Txt>463 SEVENTH AVENUE 17TH FLOOR</AddressLine1Txt>
+            <CityNm>NEW YORK</CityNm>
+            <StateAbbreviationCd>NY</StateAbbreviationCd>
+            <ZIPCd>10018</ZIPCd>
+          </USAddress>
+          <TitleTxt>DIRECTOR</TitleTxt>
+          <AverageHrsPerWkDevotedToPosRt>0.1</AverageHrsPerWkDevotedToPosRt>
+          <CompensationAmt>0</CompensationAmt>
+          <EmployeeBenefitProgramAmt>0</EmployeeBenefitProgramAmt>
+          <ExpenseAccountOtherAllwncAmt>0</ExpenseAccountOtherAllwncAmt>
+        </OfficerDirTrstKeyEmplGrp>
+        <OfficerDirTrstKeyEmplGrp>
+          <PersonNm>EARL BROWN</PersonNm>
+          <USAddress>
+            <AddressLine1Txt>463 SEVENTH AVENUE 17TH FLOOR</AddressLine1Txt>
+            <CityNm>NEW YORK</CityNm>
+            <StateAbbreviationCd>NY</StateAbbreviationCd>
+            <ZIPCd>10018</ZIPCd>
+          </USAddress>
+          <TitleTxt>DIRECTOR</TitleTxt>
+          <AverageHrsPerWkDevotedToPosRt>0.1</AverageHrsPerWkDevotedToPosRt>
+          <CompensationAmt>0</CompensationAmt>
+          <EmployeeBenefitProgramAmt>0</EmployeeBenefitProgramAmt>
+          <ExpenseAccountOtherAllwncAmt>0</ExpenseAccountOtherAllwncAmt>
+        </OfficerDirTrstKeyEmplGrp>
+        <OfficerDirTrstKeyEmplGrp>
+          <PersonNm>SCOTT DRENVIG</PersonNm>
+          <USAddress>
+            <AddressLine1Txt>463 SEVENTH AVENUE 17TH FLOOR</AddressLine1Txt>
+            <CityNm>NEW YORK</CityNm>
+            <StateAbbreviationCd>NY</StateAbbreviationCd>
+            <ZIPCd>10018</ZIPCd>
+          </USAddress>
+          <TitleTxt>DIRECTOR</TitleTxt>
+          <AverageHrsPerWkDevotedToPosRt>0.1</AverageHrsPerWkDevotedToPosRt>
+          <CompensationAmt>0</CompensationAmt>
+          <EmployeeBenefitProgramAmt>0</EmployeeBenefitProgramAmt>
+          <ExpenseAccountOtherAllwncAmt>0</ExpenseAccountOtherAllwncAmt>
+        </OfficerDirTrstKeyEmplGrp>
+        <OfficerDirTrstKeyEmplGrp>
+          <PersonNm>ED HUBBARD</PersonNm>
+          <USAddress>
+            <AddressLine1Txt>463 SEVENTH AVENUE 17TH FLOOR</AddressLine1Txt>
+            <CityNm>NEW YORK</CityNm>
+            <StateAbbreviationCd>NY</StateAbbreviationCd>
+            <ZIPCd>10018</ZIPCd>
+          </USAddress>
+          <TitleTxt>DIRECTOR</TitleTxt>
+          <AverageHrsPerWkDevotedToPosRt>0.1</AverageHrsPerWkDevotedToPosRt>
+          <CompensationAmt>0</CompensationAmt>
+          <EmployeeBenefitProgramAmt>0</EmployeeBenefitProgramAmt>
+          <ExpenseAccountOtherAllwncAmt>0</ExpenseAccountOtherAllwncAmt>
+        </OfficerDirTrstKeyEmplGrp>
+      </OfficerDirTrstKeyEmplInfoGrp>
+      <SummaryOfDirectChrtblActyGrp>
+        <Description1Txt>TO OWN, REHABILITATE AND OPERATE A 60-UNIT HOUSING PROJECT PROVIDING PERMANENT HOUSING TO LOW-INCOME FAMILIES.</Description1Txt>
+        <Expenses1Amt>875683</Expenses1Amt>
+      </SummaryOfDirectChrtblActyGrp>
+      <SumOfProgramRelatedInvstGrp />
+      <MinimumInvestmentReturnGrp>
+        <AverageMonthlyFMVOfSecAmt>0</AverageMonthlyFMVOfSecAmt>
+        <AverageMonthlyCashBalancesAmt>943067</AverageMonthlyCashBalancesAmt>
+        <FMVAllOtherNoncharitableAstAmt>0</FMVAllOtherNoncharitableAstAmt>
+        <TotalFMVOfUnusedAssetsAmt>943067</TotalFMVOfUnusedAssetsAmt>
+        <AcquisitionIndebtednessAmt>0</AcquisitionIndebtednessAmt>
+        <AdjustedTotalFMVOfUnusedAstAmt>943067</AdjustedTotalFMVOfUnusedAstAmt>
+        <CashDeemedCharitableAmt>14146</CashDeemedCharitableAmt>
+        <NetVlNoncharitableAssetsAmt>928921</NetVlNoncharitableAssetsAmt>
+        <MinimumInvestmentReturnAmt>46446</MinimumInvestmentReturnAmt>
+      </MinimumInvestmentReturnGrp>
+      <DistributableAmountGrp>
+        <MinimumInvestmentReturnAmt>46446</MinimumInvestmentReturnAmt>
+        <TaxBasedOnInvestmentIncomeAmt>281</TaxBasedOnInvestmentIncomeAmt>
+        <TotalTaxAmt>281</TotalTaxAmt>
+        <DistributableBeforeAdjAmt>46165</DistributableBeforeAdjAmt>
+        <DistributableBeforeDedAmt>46165</DistributableBeforeDedAmt>
+        <DistributableAsAdjustedAmt>46165</DistributableAsAdjustedAmt>
+      </DistributableAmountGrp>
+      <QualifyingDistriPartXIIGrp>
+        <ExpensesAndContributionsAmt>715318</ExpensesAndContributionsAmt>
+        <ProgramRelatedInvstTotalAmt>0</ProgramRelatedInvstTotalAmt>
+        <CharitableAssetsAcquisPaidAmt>0</CharitableAssetsAcquisPaidAmt>
+        <SetAsideSuitabilityTestAmt>0</SetAsideSuitabilityTestAmt>
+        <SetAsideCashDistriTestAmt>0</SetAsideCashDistriTestAmt>
+        <QualifyingDistributionsAmt>715318</QualifyingDistributionsAmt>
+        <AdjustedQualifyingDistriAmt>715318</AdjustedQualifyingDistriAmt>
+      </QualifyingDistriPartXIIGrp>
+      <UndistributedIncomeGrp>
+        <DistributableAsAdjustedAmt>46165</DistributableAsAdjustedAmt>
+        <UndistributedIncomePYAmt>0</UndistributedIncomePYAmt>
+        <PriorYear1Yr>2015</PriorYear1Yr>
+        <PriorYear2Yr>2014</PriorYear2Yr>
+        <PriorYear3Yr>2013</PriorYear3Yr>
+        <TotalForPriorYearsAmt>0</TotalForPriorYearsAmt>
+        <ExcessDistributionCyovYr5Amt>25</ExcessDistributionCyovYr5Amt>
+        <ExcessDistributionCyovYr4Amt>25</ExcessDistributionCyovYr4Amt>
+        <TotalExcessDistributionCyovAmt>50</TotalExcessDistributionCyovAmt>
+        <QualifyingDistributionsAmt>715318</QualifyingDistributionsAmt>
+        <AppliedToYear1Amt>0</AppliedToYear1Amt>
+        <AppliedToCurrentYearAmt>46165</AppliedToCurrentYearAmt>
+        <RemainingDistriFromCorpusAmt>669153</RemainingDistriFromCorpusAmt>
+        <TotalCorpusAmt>669203</TotalCorpusAmt>
+        <PriorYearUndistributedIncmAmt>0</PriorYearUndistributedIncmAmt>
+        <Taxable1Amt>0</Taxable1Amt>
+        <Taxable2Amt>0</Taxable2Amt>
+        <UndistributedIncomeCYAmt>0</UndistributedIncomeCYAmt>
+        <ExcessDistriCyovFromYr5Amt>25</ExcessDistriCyovFromYr5Amt>
+        <ExcessDistriCyovToNextYrAmt>669178</ExcessDistriCyovToNextYrAmt>
+        <ExcessFromYear4Amt>25</ExcessFromYear4Amt>
+        <ExcessFromCurrentYearAmt>669153</ExcessFromCurrentYearAmt>
+      </UndistributedIncomeGrp>
+      <PrivateOperatingFoundationsGrp />
+      <SupplementaryInformationGrp>
+        <OnlyContriToPreselectedInd>X</OnlyContriToPreselectedInd>
+      </SupplementaryInformationGrp>
+      <AnalysisIncomeProducingActyGrp>
+        <FeesContractsFromGovtAgGrp />
+        <MembershipDuesAndAssmntGrp />
+        <IntOnSavAndTempCashInvstGrp>
+          <ExclusionCd>14</ExclusionCd>
+          <ExclusionAmt>14051</ExclusionAmt>
+        </IntOnSavAndTempCashInvstGrp>
+        <DivAndIntFromSecPartVIIGrp />
+        <NetRntlIncmReDebtFincdPropGrp />
+        <NetRntlIncmReNotDebtFincdProp />
+        <NetRentalIncomePersonalPropGrp />
+        <OtherInvestmentIncmPartVIIGrp />
+        <GainSalesAstOthThanInvntryGrp />
+        <NetIncomeLossFromSpecialEvtGrp />
+        <GrossProfitLossSlsOfInvntryGrp />
+        <OtherRevenueDescribedGrp>
+          <Desc>RENTAL INCOME</Desc>
+          <BusinessCd>624200</BusinessCd>
+          <RelatedOrExemptFunctionIncmAmt>563386</RelatedOrExemptFunctionIncmAmt>
+        </OtherRevenueDescribedGrp>
+        <SubtotalsIncmProducingActyGrp>
+          <ExclusionAmt>14051</ExclusionAmt>
+          <RelatedOrExemptFunctionIncmAmt>563386</RelatedOrExemptFunctionIncmAmt>
+        </SubtotalsIncmProducingActyGrp>
+        <TotalIncomeProducingActyAmt>577437</TotalIncomeProducingActyAmt>
+      </AnalysisIncomeProducingActyGrp>
+      <RlnOfActyToAccomOfExmptPrpsGrp>
+        <RlnOfActyToAccomOfExmptPrpsGrp>
+          <LineNumberTxt>11</LineNumberTxt>
+          <RelationshipStatementTxt>RENTAL INCOME RECEIVED IN RELATION TO OPERATING THE 60-UNIT HOUSING PROJECT.</RelationshipStatementTxt>
+        </RlnOfActyToAccomOfExmptPrpsGrp>
+      </RlnOfActyToAccomOfExmptPrpsGrp>
+      <TrnsfrTransRlnNonchrtblEOGrp>
+        <TrnsfrOfCashToNonchrtblEOInd>false</TrnsfrOfCashToNonchrtblEOInd>
+        <TrnsfrOtherAssetNonchrtblEOInd>false</TrnsfrOtherAssetNonchrtblEOInd>
+        <SalesOrExchangesOfAssetsInd>false</SalesOrExchangesOfAssetsInd>
+        <PurchaseOfAssetsNonchrtblEOInd>false</PurchaseOfAssetsNonchrtblEOInd>
+        <RentalOfFacilitiesOthAssetsInd>false</RentalOfFacilitiesOthAssetsInd>
+        <ReimbursementArrangementsInd>false</ReimbursementArrangementsInd>
+        <LoansOrLoanGuaranteesInd>false</LoansOrLoanGuaranteesInd>
+        <PerformanceOfServicesEtcInd>false</PerformanceOfServicesEtcInd>
+        <SharingOfFacilitiesEtcInd>false</SharingOfFacilitiesEtcInd>
+        <RelationshipsNonchrtblEOInd>true</RelationshipsNonchrtblEOInd>
+        <RelationshipScheduleDetail>
+          <OrganizationBusinessName>
+            <BusinessNameLine1Txt>21 TRUXTON ST HDFC</BusinessNameLine1Txt>
+          </OrganizationBusinessName>
+          <OrganizationTypeDesc>501(C)(4)</OrganizationTypeDesc>
+          <RelationshipDescriptionTxt>COMMON BOARD MEMBERS</RelationshipDescriptionTxt>
+        </RelationshipScheduleDetail>
+        <RelationshipScheduleDetail>
+          <OrganizationBusinessName>
+            <BusinessNameLine1Txt>MACOMBS ROAD HDFC</BusinessNameLine1Txt>
+          </OrganizationBusinessName>
+          <OrganizationTypeDesc>501(C)(4)</OrganizationTypeDesc>
+          <RelationshipDescriptionTxt>COMMON BOARD MEMBERS</RelationshipDescriptionTxt>
+        </RelationshipScheduleDetail>
+        <RelationshipScheduleDetail>
+          <OrganizationBusinessName>
+            <BusinessNameLine1Txt>MOTHER GASTON HDFC</BusinessNameLine1Txt>
+          </OrganizationBusinessName>
+          <OrganizationTypeDesc>501(C)(4)</OrganizationTypeDesc>
+          <RelationshipDescriptionTxt>COMMON BOARD MEMBERS</RelationshipDescriptionTxt>
+        </RelationshipScheduleDetail>
+        <RelationshipScheduleDetail>
+          <OrganizationBusinessName>
+            <BusinessNameLine1Txt>JEROME HDFC</BusinessNameLine1Txt>
+          </OrganizationBusinessName>
+          <OrganizationTypeDesc>501(C)(4)</OrganizationTypeDesc>
+          <RelationshipDescriptionTxt>COMMON BOARD MEMBERS</RelationshipDescriptionTxt>
+        </RelationshipScheduleDetail>
+        <RelationshipScheduleDetail>
+          <OrganizationBusinessName>
+            <BusinessNameLine1Txt>BOSTON TREMONT HDFC</BusinessNameLine1Txt>
+          </OrganizationBusinessName>
+          <OrganizationTypeDesc>501(C)(4)</OrganizationTypeDesc>
+          <RelationshipDescriptionTxt>COMMON BOARD MEMBERS</RelationshipDescriptionTxt>
+        </RelationshipScheduleDetail>
+        <RelationshipScheduleDetail>
+          <OrganizationBusinessName>
+            <BusinessNameLine1Txt>SUS UNDERCLIFF HDFC</BusinessNameLine1Txt>
+          </OrganizationBusinessName>
+          <OrganizationTypeDesc>501(C)(4)</OrganizationTypeDesc>
+          <RelationshipDescriptionTxt>COMMON BOARD MEMBERS</RelationshipDescriptionTxt>
+        </RelationshipScheduleDetail>
+        <RelationshipScheduleDetail>
+          <OrganizationBusinessName>
+            <BusinessNameLine1Txt>NEW LIFE HOMES HDFC</BusinessNameLine1Txt>
+          </OrganizationBusinessName>
+          <OrganizationTypeDesc>501(C)(4)</OrganizationTypeDesc>
+          <RelationshipDescriptionTxt>COMMON BOARD MEMBERS</RelationshipDescriptionTxt>
+        </RelationshipScheduleDetail>
+      </TrnsfrTransRlnNonchrtblEOGrp>
+    </IRS990PF>
+    <DepreciationSchedule documentId="DepreciationSch" />
+    <LegalFeesSchedule documentId="LegalFeesSch">
+      <LegalFeesGrp>
+        <CategoryTxt>LEGAL FEES</CategoryTxt>
+        <LegalFeesAmt>1189</LegalFeesAmt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>1189</DisbursementsCharitablePrpsAmt>
+      </LegalFeesGrp>
+    </LegalFeesSchedule>
+    <MortgagesAndNotesPayableSch documentId="MortAndNotesPayblSch">
+      <NotePayableGrp>
+        <LenderNameGrp>
+          <PersonNm>NYS HOMLESS HOUSING ASSISTANCE CO</PersonNm>
+        </LenderNameGrp>
+        <LoanOriginalAmt>5070000</LoanOriginalAmt>
+        <BalanceDueAmt>5070000</BalanceDueAmt>
+        <NoteDt>2000-07</NoteDt>
+        <LoanMaturityDt>2027-07</LoanMaturityDt>
+        <InterestRt>1.</InterestRt>
+      </NotePayableGrp>
+      <NotePayableGrp>
+        <LenderNameGrp>
+          <PersonNm>NYS HOUSING TRUST FUND CORPORATION</PersonNm>
+        </LenderNameGrp>
+        <LoanOriginalAmt>1000000</LoanOriginalAmt>
+        <BalanceDueAmt>1000000</BalanceDueAmt>
+        <NoteDt>2004-08</NoteDt>
+        <LoanMaturityDt>2034-08</LoanMaturityDt>
+        <InterestRt>1.</InterestRt>
+      </NotePayableGrp>
+    </MortgagesAndNotesPayableSch>
+    <OtherAssetsSchedule documentId="OtherAssetsSch">
+      <OtherAssetsScheduleGrp>
+        <Desc>OPERATING RESERVE</Desc>
+        <BOYBookValueAmt>247220</BOYBookValueAmt>
+        <EOYBookValueAmt>2247981</EOYBookValueAmt>
+        <EOYFMVAmt>2247981</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>REPLACEMENT RESERVE</Desc>
+        <BOYBookValueAmt>0</BOYBookValueAmt>
+        <EOYBookValueAmt>163270</EOYBookValueAmt>
+        <EOYFMVAmt>163270</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>ACCRUED INTEREST RECEIVABLE</Desc>
+        <BOYBookValueAmt>0</BOYBookValueAmt>
+        <EOYBookValueAmt>38718</EOYBookValueAmt>
+        <EOYFMVAmt>38718</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>SECURITY DEPOSITS</Desc>
+        <BOYBookValueAmt>0</BOYBookValueAmt>
+        <EOYBookValueAmt>15196</EOYBookValueAmt>
+        <EOYFMVAmt>15196</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>OTHER ASSETS</Desc>
+        <BOYBookValueAmt>0</BOYBookValueAmt>
+        <EOYBookValueAmt>32665</EOYBookValueAmt>
+        <EOYFMVAmt>32665</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+    </OtherAssetsSchedule>
+    <OtherDecreasesSchedule documentId="OtherDecreasesSch">
+      <OtherDecreasesDetail>
+        <Desc>UNREALIZED LOSS ON INVESTMENTS</Desc>
+        <Amt>5098</Amt>
+      </OtherDecreasesDetail>
+    </OtherDecreasesSchedule>
+    <OtherExpensesSchedule documentId="OtherExpensesSch">
+      <OtherExpensesScheduleGrp>
+        <Desc>BAD DEBT EXPENSE</Desc>
+        <RevenueAndExpensesPerBooksAmt>201547</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>201547</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>ALLOCATED WAGES</Desc>
+        <RevenueAndExpensesPerBooksAmt>133441</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>133441</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>REPAIRS AND MAINTENANCE</Desc>
+        <RevenueAndExpensesPerBooksAmt>48808</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>48808</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>INSURANCE</Desc>
+        <RevenueAndExpensesPerBooksAmt>22166</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>22166</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>INVESTMENT MGMT FEES</Desc>
+        <RevenueAndExpensesPerBooksAmt>5582</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>5582</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>MANAGEMENT FEES</Desc>
+        <RevenueAndExpensesPerBooksAmt>102645</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>102645</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>REAL ESTATE ADMIN. FEES</Desc>
+        <RevenueAndExpensesPerBooksAmt>14369</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>14369</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>MISCELLANEOUS EXPENSES</Desc>
+        <RevenueAndExpensesPerBooksAmt>83862</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>83862</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+    </OtherExpensesSchedule>
+    <OtherIncomeSchedule2 documentId="OtherIncomeSch2">
+      <OtherIncomeDetail>
+        <Desc>rental income</Desc>
+        <RevenueAndExpensesPerBooksAmt>563386</RevenueAndExpensesPerBooksAmt>
+      </OtherIncomeDetail>
+    </OtherIncomeSchedule2>
+    <OtherIncreasesSchedule documentId="OtherIncreasesSch">
+      <OtherIncreasesDetail>
+        <Desc>ON MAY 31, 2018 STRATFORD HOUSE LP, A</Desc>
+        <Amt>0</Amt>
+      </OtherIncreasesDetail>
+      <OtherIncreasesDetail>
+        <Desc>RELATED ORGANIZATION, TRANSFERRED ALL OF</Desc>
+        <Amt>0</Amt>
+      </OtherIncreasesDetail>
+      <OtherIncreasesDetail>
+        <Desc>ITS ASSETS AND LIABILITIES TO THE</Desc>
+        <Amt>0</Amt>
+      </OtherIncreasesDetail>
+      <OtherIncreasesDetail>
+        <Desc>REPORTING ORGANIZATION</Desc>
+        <Amt>2225286</Amt>
+      </OtherIncreasesDetail>
+      <OtherIncreasesDetail>
+        <Desc>BEGINNING EQUITY ADJUSTMENT</Desc>
+        <Amt>166108</Amt>
+      </OtherIncreasesDetail>
+    </OtherIncreasesSchedule>
+    <OtherLiabilitiesSchedule documentId="OtherLiabSch">
+      <OtherLiabilitiesDetail>
+        <Desc>DUE TO AFFILIATE</Desc>
+        <BOYBookValueAmt>261893</BOYBookValueAmt>
+        <EOYBookValueAmt>899804</EOYBookValueAmt>
+      </OtherLiabilitiesDetail>
+      <OtherLiabilitiesDetail>
+        <Desc>SECURITY DEPOSITS</Desc>
+        <BOYBookValueAmt>0</BOYBookValueAmt>
+        <EOYBookValueAmt>15196</EOYBookValueAmt>
+      </OtherLiabilitiesDetail>
+      <OtherLiabilitiesDetail>
+        <Desc>ACCRUED INTEREST</Desc>
+        <BOYBookValueAmt>0</BOYBookValueAmt>
+        <EOYBookValueAmt>832643</EOYBookValueAmt>
+      </OtherLiabilitiesDetail>
+    </OtherLiabilitiesSchedule>
+    <OtherProfessionalFeesSchedule documentId="OthProfFeesSch">
+      <OtherProfessionalFeesDetail>
+        <CategoryTxt>CONSULTANTS</CategoryTxt>
+        <Amt>10727</Amt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>10727</DisbursementsCharitablePrpsAmt>
+      </OtherProfessionalFeesDetail>
+    </OtherProfessionalFeesSchedule>
+    <TaxesSchedule documentId="TaxesSchedule">
+      <TaxesDetail>
+        <CategoryTxt>REAL ESTATE TAXES</CategoryTxt>
+        <Amt>1605</Amt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>1605</DisbursementsCharitablePrpsAmt>
+      </TaxesDetail>
+    </TaxesSchedule>
+  </ReturnData>
+</Return>
