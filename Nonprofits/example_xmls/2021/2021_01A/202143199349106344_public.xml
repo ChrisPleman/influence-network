@@ -1,0 +1,763 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Return xmlns="http://www.irs.gov/efile" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.irs.gov/efile" returnVersion="2020v4.1">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2021-11-15T03:41:11-00:00</ReturnTs>
+    <TaxPeriodEndDt>2020-12-31</TaxPeriodEndDt>
+    <PreparerFirmGrp>
+      <PreparerFirmName>
+        <BusinessNameLine1Txt>Donald J Young</BusinessNameLine1Txt>
+      </PreparerFirmName>
+      <PreparerUSAddress>
+        <AddressLine1Txt>990 Paradise Road</AddressLine1Txt>
+        <CityNm>Swampscott</CityNm>
+        <StateAbbreviationCd>MA</StateAbbreviationCd>
+        <ZIPCd>01907</ZIPCd>
+      </PreparerUSAddress>
+    </PreparerFirmGrp>
+    <ReturnTypeCd>990PF</ReturnTypeCd>
+    <TaxPeriodBeginDt>2020-01-01</TaxPeriodBeginDt>
+    <Filer>
+      <EIN>222540702</EIN>
+      <BusinessName>
+        <BusinessNameLine1Txt>Bessie Pappas Charitable Foundation Inc</BusinessNameLine1Txt>
+      </BusinessName>
+      <BusinessNameControlTxt>BESS</BusinessNameControlTxt>
+      <PhoneNum>7818622851</PhoneNum>
+      <USAddress>
+        <AddressLine1Txt>PO Box 318</AddressLine1Txt>
+        <CityNm>Belmont</CityNm>
+        <StateAbbreviationCd>MA</StateAbbreviationCd>
+        <ZIPCd>024780004</ZIPCd>
+      </USAddress>
+    </Filer>
+    <BusinessOfficerGrp>
+      <PersonNm>John C Pappas</PersonNm>
+      <PersonTitleTxt>John C Pappas President</PersonTitleTxt>
+      <SignatureDt>2021-11-15</SignatureDt>
+      <DiscussWithPaidPreparerInd>true</DiscussWithPaidPreparerInd>
+    </BusinessOfficerGrp>
+    <SigningOfficerGrp>
+      <PersonFullName>
+        <PersonFirstNm>John C</PersonFirstNm>
+        <PersonLastNm>Pappas</PersonLastNm>
+      </PersonFullName>
+      <SSN>XXX-XX-XXXX</SSN>
+    </SigningOfficerGrp>
+    <PreparerPersonGrp>
+      <PreparerPersonNm>Donald J Young</PreparerPersonNm>
+      <SSN>XXX-XX-XXXX</SSN>
+      <PhoneNum>7816651166</PhoneNum>
+      <PreparationDt>2021-11-14</PreparationDt>
+      <SelfEmployedInd>X</SelfEmployedInd>
+    </PreparerPersonGrp>
+    <AdditionalFilerInformation>
+      <TrustedCustomerGrp>
+        <TrustedCustomerCd>2</TrustedCustomerCd>
+        <AuthenticationAssuranceLevelCd>AAL1</AuthenticationAssuranceLevelCd>
+        <IdentityAssuranceLevelCd>IAL1</IdentityAssuranceLevelCd>
+      </TrustedCustomerGrp>
+    </AdditionalFilerInformation>
+    <TaxYr>2020</TaxYr>
+    <BuildTS>2022-09-23 18:48:47Z</BuildTS>
+  </ReturnHeader>
+  <ReturnData documentCnt="9">
+    <IRS990PF documentId="990PF" softwareId="20011406" softwareVersionNum="20.0.2.0">
+      <Organization501c3ExemptPFInd>X</Organization501c3ExemptPFInd>
+      <FMVAssetsEOYAmt>2735560</FMVAssetsEOYAmt>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <AnalysisOfRevenueAndExpenses>
+        <DividendsRevAndExpnssAmt>9542</DividendsRevAndExpnssAmt>
+        <DividendsNetInvstIncmAmt>9542</DividendsNetInvstIncmAmt>
+        <DividendsAdjNetIncmAmt>9542</DividendsAdjNetIncmAmt>
+        <NetGainSaleAstRevAndExpnssAmt referenceDocumentId="990PF:136">258926</NetGainSaleAstRevAndExpnssAmt>
+        <GrossSalesPriceAmt>4734065</GrossSalesPriceAmt>
+        <CapGainNetIncmNetInvstIncmAmt>258926</CapGainNetIncmNetInvstIncmAmt>
+        <NetSTCapitalGainAdjNetIncmAmt>264531</NetSTCapitalGainAdjNetIncmAmt>
+        <TotalRevAndExpnssAmt>268468</TotalRevAndExpnssAmt>
+        <TotalNetInvstIncmAmt>268468</TotalNetInvstIncmAmt>
+        <TotalAdjNetIncmAmt>274073</TotalAdjNetIncmAmt>
+        <CompOfcrDirTrstRevAndExpnssAmt>52176</CompOfcrDirTrstRevAndExpnssAmt>
+        <CompOfcrDirTrstNetInvstIncmAmt>24129</CompOfcrDirTrstNetInvstIncmAmt>
+        <CompOfcrDirTrstAdjNetIncmAmt>24129</CompOfcrDirTrstAdjNetIncmAmt>
+        <CompOfcrDirTrstDsbrsChrtblAmt>28047</CompOfcrDirTrstDsbrsChrtblAmt>
+        <AccountingFeesRevAndExpnssAmt referenceDocumentId="990PF:140">6804</AccountingFeesRevAndExpnssAmt>
+        <AccountingFeesNetInvstIncmAmt>5783</AccountingFeesNetInvstIncmAmt>
+        <AccountingFeesAdjNetIncmAmt>5783</AccountingFeesAdjNetIncmAmt>
+        <AccountingFeesChrtblPrpsAmt>1021</AccountingFeesChrtblPrpsAmt>
+        <TaxesRevAndExpnssAmt referenceDocumentId="990PF:142">6367</TaxesRevAndExpnssAmt>
+        <TaxesNetInvstIncmAmt>2156</TaxesNetInvstIncmAmt>
+        <TaxesAdjNetIncmAmt>2156</TaxesAdjNetIncmAmt>
+        <TaxesDsbrsChrtblAmt>2447</TaxesDsbrsChrtblAmt>
+        <OccupancyRevAndExpnssAmt>14512</OccupancyRevAndExpnssAmt>
+        <OccupancyNetInvstIncmAmt>8014</OccupancyNetInvstIncmAmt>
+        <OccupancyAdjNetIncmAmt>8014</OccupancyAdjNetIncmAmt>
+        <OccupancyDsbrsChrtblAmt>6498</OccupancyDsbrsChrtblAmt>
+        <OtherExpensesRevAndExpnssAmt referenceDocumentId="990PF:143">493</OtherExpensesRevAndExpnssAmt>
+        <OtherExpensesNetInvstIncmAmt>271</OtherExpensesNetInvstIncmAmt>
+        <OtherExpensesAdjNetIncmAmt>271</OtherExpensesAdjNetIncmAmt>
+        <OtherExpensesDsbrsChrtblAmt>222</OtherExpensesDsbrsChrtblAmt>
+        <TotOprExpensesRevAndExpnssAmt>80352</TotOprExpensesRevAndExpnssAmt>
+        <TotOprExpensesNetInvstIncmAmt>40353</TotOprExpensesNetInvstIncmAmt>
+        <TotOprExpensesAdjNetIncmAmt>40353</TotOprExpensesAdjNetIncmAmt>
+        <TotOprExpensesDsbrsChrtblAmt>38235</TotOprExpensesDsbrsChrtblAmt>
+        <ContriPaidRevAndExpnssAmt>37500</ContriPaidRevAndExpnssAmt>
+        <ContriPaidDsbrsChrtblAmt>37500</ContriPaidDsbrsChrtblAmt>
+        <TotalExpensesRevAndExpnssAmt>117852</TotalExpensesRevAndExpnssAmt>
+        <TotalExpensesNetInvstIncmAmt>40353</TotalExpensesNetInvstIncmAmt>
+        <TotalExpensesAdjNetIncmAmt>40353</TotalExpensesAdjNetIncmAmt>
+        <TotalExpensesDsbrsChrtblAmt>75735</TotalExpensesDsbrsChrtblAmt>
+        <ExcessRevenueOverExpensesAmt>150616</ExcessRevenueOverExpensesAmt>
+        <NetInvestmentIncomeAmt>228115</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>233720</AdjustedNetIncomeAmt>
+      </AnalysisOfRevenueAndExpenses>
+      <Form990PFBalanceSheetsGrp>
+        <CashBOYAmt>9694</CashBOYAmt>
+        <CashEOYAmt>20526</CashEOYAmt>
+        <CashEOYFMVAmt>20526</CashEOYFMVAmt>
+        <SavAndTempCashInvstBOYAmt>186783</SavAndTempCashInvstBOYAmt>
+        <SavAndTempCashInvstEOYAmt>792670</SavAndTempCashInvstEOYAmt>
+        <SavAndTempCashInvstEOYFMVAmt>792670</SavAndTempCashInvstEOYFMVAmt>
+        <PrepaidExpensesBOYAmt>10925</PrepaidExpensesBOYAmt>
+        <PrepaidExpensesEOYAmt>5649</PrepaidExpensesEOYAmt>
+        <PrepaidExpensesEOYFMVAmt>5649</PrepaidExpensesEOYFMVAmt>
+        <USGovernmentObligationsEOYAmt>1499817</USGovernmentObligationsEOYAmt>
+        <USGovtObligationsEOYFMVAmt>1499715</USGovtObligationsEOYFMVAmt>
+        <CorporateStockBOYAmt>1502644</CorporateStockBOYAmt>
+        <CorporateBondsBOYAmt>450000</CorporateBondsBOYAmt>
+        <OtherInvestmentsBOYAmt>500000</OtherInvestmentsBOYAmt>
+        <OtherInvestmentsEOYAmt referenceDocumentId="990PF:159">500000</OtherInvestmentsEOYAmt>
+        <OtherInvestmentsEOYFMVAmt>400000</OtherInvestmentsEOYFMVAmt>
+        <OtherAssetsBOYAmt referenceDocumentId="990PF:145">25000</OtherAssetsBOYAmt>
+        <OtherAssetsEOYAmt referenceDocumentId="990PF:145">17000</OtherAssetsEOYAmt>
+        <OtherAssetsEOYFMVAmt referenceDocumentId="990PF:145">17000</OtherAssetsEOYFMVAmt>
+        <TotalAssetsBOYAmt>2685046</TotalAssetsBOYAmt>
+        <TotalAssetsEOYAmt>2835662</TotalAssetsEOYAmt>
+        <TotalAssetsEOYFMVAmt>2735560</TotalAssetsEOYFMVAmt>
+        <TotalLiabilitiesEOYAmt>0</TotalLiabilitiesEOYAmt>
+        <CapitalStockBOYAmt>2685046</CapitalStockBOYAmt>
+        <CapitalStockEOYAmt>2835662</CapitalStockEOYAmt>
+        <TotNetAstOrFundBalancesBOYAmt>2685046</TotNetAstOrFundBalancesBOYAmt>
+        <TotNetAstOrFundBalancesEOYAmt>2835662</TotNetAstOrFundBalancesEOYAmt>
+        <TotalLiabilitiesNetAstBOYAmt>2685046</TotalLiabilitiesNetAstBOYAmt>
+        <TotalLiabilitiesNetAstEOYAmt>2835662</TotalLiabilitiesNetAstEOYAmt>
+      </Form990PFBalanceSheetsGrp>
+      <ChgInNetAssetsFundBalancesGrp>
+        <TotNetAstOrFundBalancesBOYAmt>2685046</TotNetAstOrFundBalancesBOYAmt>
+        <ExcessRevenueOverExpensesAmt>150616</ExcessRevenueOverExpensesAmt>
+        <SubtotalAmt>2835662</SubtotalAmt>
+        <TotNetAstOrFundBalancesEOYAmt>2835662</TotNetAstOrFundBalancesEOYAmt>
+      </ChgInNetAssetsFundBalancesGrp>
+      <CapGainsLossTxInvstIncmDetail>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>15M Shares Barrick</PropertyDesc>
+          <HowAcquiredCd>P</HowAcquiredCd>
+          <AcquiredDt>2011-01-14</AcquiredDt>
+          <SoldDt>2020-06-10</SoldDt>
+          <GrossSalesPriceAmt>410541</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>504802</CostOrOtherBasisAmt>
+          <GainOrLossAmt>-94261</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>-94261</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>20M Shares Kincross</PropertyDesc>
+          <HowAcquiredCd>P</HowAcquiredCd>
+          <AcquiredDt>2012-01-30</AcquiredDt>
+          <SoldDt>2020-06-10</SoldDt>
+          <GrossSalesPriceAmt>148880</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>170899</CostOrOtherBasisAmt>
+          <GainOrLossAmt>-22019</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>-22019</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>7788 Shares Newmont</PropertyDesc>
+          <HowAcquiredCd>P</HowAcquiredCd>
+          <AcquiredDt>1995-12-04</AcquiredDt>
+          <SoldDt>2020-04-06</SoldDt>
+          <GrossSalesPriceAmt>392428</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>314914</CostOrOtherBasisAmt>
+          <GainOrLossAmt>77514</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>77514</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>5000 Shares Newmont</PropertyDesc>
+          <HowAcquiredCd>P</HowAcquiredCd>
+          <AcquiredDt>2013-04-04</AcquiredDt>
+          <SoldDt>2020-07-10</SoldDt>
+          <GrossSalesPriceAmt>314257</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>202179</CostOrOtherBasisAmt>
+          <GainOrLossAmt>112078</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>112078</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>10000 Shares PARS</PropertyDesc>
+          <HowAcquiredCd>P</HowAcquiredCd>
+          <AcquiredDt>2012-03-16</AcquiredDt>
+          <SoldDt>2020-01-08</SoldDt>
+          <GrossSalesPriceAmt>230724</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>216595</CostOrOtherBasisAmt>
+          <GainOrLossAmt>14129</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>14129</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>154 Shares Battle North</PropertyDesc>
+          <HowAcquiredCd>P</HowAcquiredCd>
+          <AcquiredDt>2011-06-29</AcquiredDt>
+          <SoldDt>2020-07-10</SoldDt>
+          <GrossSalesPriceAmt>209</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>93255</CostOrOtherBasisAmt>
+          <GainOrLossAmt>-93046</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>-93046</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>20000 Shares PARS</PropertyDesc>
+          <HowAcquiredCd>P</HowAcquiredCd>
+          <AcquiredDt>2020-03-04</AcquiredDt>
+          <SoldDt>2020-06-24</SoldDt>
+          <GrossSalesPriceAmt>572444</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>346033</CostOrOtherBasisAmt>
+          <GainOrLossAmt>226411</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>226411</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>5000 Shares PARS</PropertyDesc>
+          <HowAcquiredCd>P</HowAcquiredCd>
+          <AcquiredDt>2020-09-21</AcquiredDt>
+          <SoldDt>2020-12-04</SoldDt>
+          <GrossSalesPriceAmt>152032</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>165995</CostOrOtherBasisAmt>
+          <GainOrLossAmt>-13963</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>-13963</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>U.S. Treasury Bill</PropertyDesc>
+          <HowAcquiredCd>P</HowAcquiredCd>
+          <AcquiredDt>2020-06-16</AcquiredDt>
+          <SoldDt>2020-09-22</SoldDt>
+          <GrossSalesPriceAmt>500000</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>499802</CostOrOtherBasisAmt>
+          <GainOrLossAmt>198</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>198</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>U.S. Treasury Bill</PropertyDesc>
+          <HowAcquiredCd>P</HowAcquiredCd>
+          <AcquiredDt>2020-09-08</AcquiredDt>
+          <SoldDt>2020-12-08</SoldDt>
+          <GrossSalesPriceAmt>500000</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>499949</CostOrOtherBasisAmt>
+          <GainOrLossAmt>51</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>51</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>Bank of China Note</PropertyDesc>
+          <HowAcquiredCd>P</HowAcquiredCd>
+          <AcquiredDt>2019-10-29</AcquiredDt>
+          <SoldDt>2020-03-20</SoldDt>
+          <GrossSalesPriceAmt>210000</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>210000</CostOrOtherBasisAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>Bank United Note</PropertyDesc>
+          <HowAcquiredCd>P</HowAcquiredCd>
+          <AcquiredDt>2019-12-04</AcquiredDt>
+          <SoldDt>2020-06-04</SoldDt>
+          <GrossSalesPriceAmt>240000</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>240000</CostOrOtherBasisAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>5000 Shares BP Petroleum</PropertyDesc>
+          <HowAcquiredCd>P</HowAcquiredCd>
+          <AcquiredDt>2020-03-23</AcquiredDt>
+          <SoldDt>2020-03-30</SoldDt>
+          <GrossSalesPriceAmt>119951</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>87039</CostOrOtherBasisAmt>
+          <GainOrLossAmt>32912</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>32912</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>5000 Shares Exxon</PropertyDesc>
+          <HowAcquiredCd>P</HowAcquiredCd>
+          <AcquiredDt>2020-09-08</AcquiredDt>
+          <SoldDt>2020-10-01</SoldDt>
+          <GrossSalesPriceAmt>169851</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>192792</CostOrOtherBasisAmt>
+          <GainOrLossAmt>-22941</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>-22941</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>2500 Shares Moderna</PropertyDesc>
+          <HowAcquiredCd>P</HowAcquiredCd>
+          <AcquiredDt>2020-09-08</AcquiredDt>
+          <SoldDt>2020-09-21</SoldDt>
+          <GrossSalesPriceAmt>167314</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>140990</CostOrOtherBasisAmt>
+          <GainOrLossAmt>26324</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>26324</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>310 Shares Viatris</PropertyDesc>
+          <HowAcquiredCd>P</HowAcquiredCd>
+          <AcquiredDt>2020-09-08</AcquiredDt>
+          <SoldDt>2020-12-08</SoldDt>
+          <GrossSalesPriceAmt>5344</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>4700</CostOrOtherBasisAmt>
+          <GainOrLossAmt>644</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>644</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>2500 Shares Pzizer</PropertyDesc>
+          <HowAcquiredCd>P</HowAcquiredCd>
+          <AcquiredDt>2020-09-08</AcquiredDt>
+          <SoldDt>2020-12-08</SoldDt>
+          <GrossSalesPriceAmt>100090</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>85222</CostOrOtherBasisAmt>
+          <GainOrLossAmt>14868</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>14868</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>U.S. Treasury Bill</PropertyDesc>
+          <HowAcquiredCd>P</HowAcquiredCd>
+          <AcquiredDt>2020-09-22</AcquiredDt>
+          <SoldDt>2020-12-17</SoldDt>
+          <GrossSalesPriceAmt>500000</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>499973</CostOrOtherBasisAmt>
+          <GainOrLossAmt>27</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>27</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapitalGainNetIncomeAmt>258926</CapitalGainNetIncomeAmt>
+        <NetShortTermCapitalGainLossAmt>264531</NetShortTermCapitalGainLossAmt>
+      </CapGainsLossTxInvstIncmDetail>
+      <ExciseTaxBasedOnInvstIncmGrp>
+        <InvestmentIncomeExciseTaxAmt>3171</InvestmentIncomeExciseTaxAmt>
+        <SubtotalAmt>3171</SubtotalAmt>
+        <TaxBasedOnInvestmentIncomeAmt>3171</TaxBasedOnInvestmentIncomeAmt>
+        <EstimatedPlusOvpmtIncmTxAmt>3236</EstimatedPlusOvpmtIncmTxAmt>
+        <TotalPaymentsAndCreditsAmt>3236</TotalPaymentsAndCreditsAmt>
+        <OriginalReturnTaxPaidAmt>3236</OriginalReturnTaxPaidAmt>
+        <OverpaymentAmt>65</OverpaymentAmt>
+        <AppliedToESTaxAmt>65</AppliedToESTaxAmt>
+      </ExciseTaxBasedOnInvstIncmGrp>
+      <StatementsRegardingActyGrp>
+        <LegislativePoliticalActyInd>false</LegislativePoliticalActyInd>
+        <MoreThan100SpentInd>false</MoreThan100SpentInd>
+        <Form1120POLFiledInd>false</Form1120POLFiledInd>
+        <ActivitiesNotPreviouslyRptInd>false</ActivitiesNotPreviouslyRptInd>
+        <ChangesToArticlesOrBylawsInd>false</ChangesToArticlesOrBylawsInd>
+        <UnrelatedBusIncmOverLimitInd>false</UnrelatedBusIncmOverLimitInd>
+        <OrganizationDissolvedEtcInd>false</OrganizationDissolvedEtcInd>
+        <Section508eRqrSatisfiedInd>true</Section508eRqrSatisfiedInd>
+        <AtLeast5000InAssetsInd>true</AtLeast5000InAssetsInd>
+        <Form990PFFiledWithAttyGenInd>true</Form990PFFiledWithAttyGenInd>
+        <PrivateOperatingFoundationInd>false</PrivateOperatingFoundationInd>
+        <NewSubstantialContributorsInd>false</NewSubstantialContributorsInd>
+        <OwnControlledEntityInd>false</OwnControlledEntityInd>
+        <DonorAdvisedFundInd>false</DonorAdvisedFundInd>
+        <ComplyWithPublicInspRqrInd>true</ComplyWithPublicInspRqrInd>
+        <PersonsWithBooksName>
+          <BusinessNameLine1Txt>The Foundation</BusinessNameLine1Txt>
+        </PersonsWithBooksName>
+        <PhoneNum>7818622851</PhoneNum>
+        <LocationOfBooksUSAddress>
+          <AddressLine1Txt>PO Box 318</AddressLine1Txt>
+          <CityNm>Belmont</CityNm>
+          <StateAbbreviationCd>MA</StateAbbreviationCd>
+          <ZIPCd>024780003</ZIPCd>
+        </LocationOfBooksUSAddress>
+        <ForeignAccountsQuestionInd>false</ForeignAccountsQuestionInd>
+      </StatementsRegardingActyGrp>
+      <StatementsRegardingActy4720Grp>
+        <SaleOrExchDisqualifiedPrsnInd>false</SaleOrExchDisqualifiedPrsnInd>
+        <BrrwOrLendDisqualifiedPrsnInd>false</BrrwOrLendDisqualifiedPrsnInd>
+        <FurnGoodsDisqualifiedPrsnInd>false</FurnGoodsDisqualifiedPrsnInd>
+        <PayCompDisqualifiedPrsnInd>true</PayCompDisqualifiedPrsnInd>
+        <TransferAstDisqualifiedPrsnInd>false</TransferAstDisqualifiedPrsnInd>
+        <PaymentToGovernmentOfficialInd>false</PaymentToGovernmentOfficialInd>
+        <ActsFailToQlfyAsExceptionsInd>false</ActsFailToQlfyAsExceptionsInd>
+        <UncorrectedPriorActsInd>false</UncorrectedPriorActsInd>
+        <UndistributedIncomePYInd>false</UndistributedIncomePYInd>
+        <BusinessHoldingsInd>false</BusinessHoldingsInd>
+        <JeopardyInvestmentsInd>false</JeopardyInvestmentsInd>
+        <UncorrectedPYJeopardyInvstInd>false</UncorrectedPYJeopardyInvstInd>
+        <InfluenceLegislationInd>false</InfluenceLegislationInd>
+        <InfluenceElectionInd>false</InfluenceElectionInd>
+        <GrantsToIndividualsInd>false</GrantsToIndividualsInd>
+        <GrantsToOrganizationsInd>false</GrantsToOrganizationsInd>
+        <NoncharitablePurposeInd>false</NoncharitablePurposeInd>
+        <RcvFndsToPayPrsnlBnftCntrctInd>false</RcvFndsToPayPrsnlBnftCntrctInd>
+        <ProhibitedTaxShelterTransInd>false</ProhibitedTaxShelterTransInd>
+        <SubjToTaxRmnrtnExPrchtPymtInd>false</SubjToTaxRmnrtnExPrchtPymtInd>
+      </StatementsRegardingActy4720Grp>
+      <OfficerDirTrstKeyEmplInfoGrp>
+        <OfficerDirTrstKeyEmplGrp>
+          <PersonNm>John C Pappas</PersonNm>
+          <USAddress>
+            <AddressLine1Txt>5 Militia Drive</AddressLine1Txt>
+            <CityNm>Lexington</CityNm>
+            <StateAbbreviationCd>MA</StateAbbreviationCd>
+            <ZIPCd>02421</ZIPCd>
+          </USAddress>
+          <TitleTxt>President Treasurer</TitleTxt>
+          <AverageHrsPerWkDevotedToPosRt>014.00</AverageHrsPerWkDevotedToPosRt>
+          <CompensationAmt>22800</CompensationAmt>
+        </OfficerDirTrstKeyEmplGrp>
+        <OfficerDirTrstKeyEmplGrp>
+          <PersonNm>Sophia Sacher</PersonNm>
+          <USAddress>
+            <AddressLine1Txt>5 Militia Drive</AddressLine1Txt>
+            <CityNm>Lexington</CityNm>
+            <StateAbbreviationCd>MA</StateAbbreviationCd>
+            <ZIPCd>02421</ZIPCd>
+          </USAddress>
+          <TitleTxt>V.P. Director Clerk</TitleTxt>
+          <AverageHrsPerWkDevotedToPosRt>005.00</AverageHrsPerWkDevotedToPosRt>
+          <CompensationAmt>9792</CompensationAmt>
+        </OfficerDirTrstKeyEmplGrp>
+        <OfficerDirTrstKeyEmplGrp>
+          <PersonNm>Betsy Demirjian</PersonNm>
+          <USAddress>
+            <AddressLine1Txt>5 Militia Drive</AddressLine1Txt>
+            <CityNm>Lexington</CityNm>
+            <StateAbbreviationCd>MA</StateAbbreviationCd>
+            <ZIPCd>02421</ZIPCd>
+          </USAddress>
+          <TitleTxt>V.P. Director</TitleTxt>
+          <AverageHrsPerWkDevotedToPosRt>005.00</AverageHrsPerWkDevotedToPosRt>
+          <CompensationAmt>9792</CompensationAmt>
+        </OfficerDirTrstKeyEmplGrp>
+        <OfficerDirTrstKeyEmplGrp>
+          <PersonNm>Thomas Pappas</PersonNm>
+          <USAddress>
+            <AddressLine1Txt>Foretop Road</AddressLine1Txt>
+            <CityNm>Bourne</CityNm>
+            <StateAbbreviationCd>MA</StateAbbreviationCd>
+            <ZIPCd>02532</ZIPCd>
+          </USAddress>
+          <TitleTxt>V.P. Director</TitleTxt>
+          <AverageHrsPerWkDevotedToPosRt>005.00</AverageHrsPerWkDevotedToPosRt>
+          <CompensationAmt>9792</CompensationAmt>
+        </OfficerDirTrstKeyEmplGrp>
+        <OfficerDirTrstKeyEmplGrp>
+          <PersonNm>Donald Young</PersonNm>
+          <USAddress>
+            <AddressLine1Txt>990 Paradise Road</AddressLine1Txt>
+            <CityNm>Swampscott</CityNm>
+            <StateAbbreviationCd>MA</StateAbbreviationCd>
+            <ZIPCd>01907</ZIPCd>
+          </USAddress>
+          <TitleTxt>Director</TitleTxt>
+          <AverageHrsPerWkDevotedToPosRt>000.00</AverageHrsPerWkDevotedToPosRt>
+          <CompensationAmt>0</CompensationAmt>
+        </OfficerDirTrstKeyEmplGrp>
+      </OfficerDirTrstKeyEmplInfoGrp>
+      <SummaryOfDirectChrtblActyGrp>
+        <Description1Txt>None</Description1Txt>
+        <Expenses1Amt>0</Expenses1Amt>
+      </SummaryOfDirectChrtblActyGrp>
+      <SumOfProgramRelatedInvstGrp>
+        <Description1Txt>None</Description1Txt>
+      </SumOfProgramRelatedInvstGrp>
+      <MinimumInvestmentReturnGrp>
+        <AverageMonthlyFMVOfSecAmt>1644183</AverageMonthlyFMVOfSecAmt>
+        <AverageMonthlyCashBalancesAmt>954547</AverageMonthlyCashBalancesAmt>
+        <FMVAllOtherNoncharitableAstAmt>22649</FMVAllOtherNoncharitableAstAmt>
+        <TotalFMVOfUnusedAssetsAmt>2621379</TotalFMVOfUnusedAssetsAmt>
+        <AdjustedTotalFMVOfUnusedAstAmt>2621379</AdjustedTotalFMVOfUnusedAstAmt>
+        <CashDeemedCharitableAmt referenceDocumentId="990PF:178">39321</CashDeemedCharitableAmt>
+        <NetVlNoncharitableAssetsAmt>2582058</NetVlNoncharitableAssetsAmt>
+        <MinimumInvestmentReturnAmt>129103</MinimumInvestmentReturnAmt>
+      </MinimumInvestmentReturnGrp>
+      <DistributableAmountGrp>
+        <MinimumInvestmentReturnAmt>129103</MinimumInvestmentReturnAmt>
+        <TaxBasedOnInvestmentIncomeAmt>3171</TaxBasedOnInvestmentIncomeAmt>
+        <TotalTaxAmt>3171</TotalTaxAmt>
+        <DistributableBeforeAdjAmt>125932</DistributableBeforeAdjAmt>
+        <DistributableBeforeDedAmt>125932</DistributableBeforeDedAmt>
+        <DistributableAsAdjustedAmt>125932</DistributableAsAdjustedAmt>
+      </DistributableAmountGrp>
+      <QualifyingDistriPartXIIGrp>
+        <ExpensesAndContributionsAmt referenceDocumentId="990PF:179">75735</ExpensesAndContributionsAmt>
+        <QualifyingDistributionsAmt>75735</QualifyingDistributionsAmt>
+        <AdjustedQualifyingDistriAmt>75735</AdjustedQualifyingDistriAmt>
+      </QualifyingDistriPartXIIGrp>
+      <UndistributedIncomeGrp>
+        <DistributableAsAdjustedAmt>125932</DistributableAsAdjustedAmt>
+        <UndistributedIncomePYAmt>33981</UndistributedIncomePYAmt>
+        <QualifyingDistributionsAmt>75735</QualifyingDistributionsAmt>
+        <AppliedToYear1Amt>33981</AppliedToYear1Amt>
+        <AppliedToCurrentYearAmt>41754</AppliedToCurrentYearAmt>
+        <UndistributedIncomeCYAmt>84178</UndistributedIncomeCYAmt>
+      </UndistributedIncomeGrp>
+      <SupplementaryInformationGrp>
+        <ApplicationSubmissionInfoGrp>
+          <RecipientPersonNm>John C Pappas</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>PO Box 318</AddressLine1Txt>
+            <CityNm>Belmont</CityNm>
+            <StateAbbreviationCd>MA</StateAbbreviationCd>
+            <ZIPCd>02478</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientPhoneNum>7818622851</RecipientPhoneNum>
+          <FormAndInfoAndMaterialsTxt>See Schedule</FormAndInfoAndMaterialsTxt>
+          <SubmissionDeadlinesTxt>September 30, 2020</SubmissionDeadlinesTxt>
+          <RestrictionsOnAwardsTxt>See Schedule</RestrictionsOnAwardsTxt>
+        </ApplicationSubmissionInfoGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>Artists for Humanity</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientUSAddress>
+            <AddressLine1Txt>100 W 2nd Street</AddressLine1Txt>
+            <CityNm>Boston</CityNm>
+            <StateAbbreviationCd>MA</StateAbbreviationCd>
+            <ZIPCd>02127</ZIPCd>
+          </RecipientUSAddress>
+          <GrantOrContributionPurposeTxt>Youth Arts Enterprises</GrantOrContributionPurposeTxt>
+          <Amt>2500</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>Barrington Stage</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientUSAddress>
+            <AddressLine1Txt>30 Union Street</AddressLine1Txt>
+            <CityNm>Pittsfield</CityNm>
+            <StateAbbreviationCd>MA</StateAbbreviationCd>
+            <ZIPCd>01201</ZIPCd>
+          </RecipientUSAddress>
+          <GrantOrContributionPurposeTxt>Playwright Mentoring Project</GrantOrContributionPurposeTxt>
+          <Amt>2500</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>Boston Ballet</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientUSAddress>
+            <AddressLine1Txt>19 Clarendon Street</AddressLine1Txt>
+            <CityNm>Boston</CityNm>
+            <StateAbbreviationCd>MA</StateAbbreviationCd>
+            <ZIPCd>02116</ZIPCd>
+          </RecipientUSAddress>
+          <GrantOrContributionPurposeTxt>Operating</GrantOrContributionPurposeTxt>
+          <Amt>2500</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>Boston Lyric Opera</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientUSAddress>
+            <AddressLine1Txt>15 Channel Center Street</AddressLine1Txt>
+            <CityNm>Boston</CityNm>
+            <StateAbbreviationCd>MA</StateAbbreviationCd>
+            <ZIPCd>02210</ZIPCd>
+          </RecipientUSAddress>
+          <GrantOrContributionPurposeTxt>Digital Programming</GrantOrContributionPurposeTxt>
+          <Amt>2500</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>BYSO</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientUSAddress>
+            <AddressLine1Txt>855 Commonwealth Avenue</AddressLine1Txt>
+            <CityNm>Boston</CityNm>
+            <StateAbbreviationCd>MA</StateAbbreviationCd>
+            <ZIPCd>02215</ZIPCd>
+          </RecipientUSAddress>
+          <GrantOrContributionPurposeTxt>Intensive Community Program</GrantOrContributionPurposeTxt>
+          <Amt>2500</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>Cahoon Museum</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientUSAddress>
+            <AddressLine1Txt>4676 Falmouth Road</AddressLine1Txt>
+            <CityNm>Cotuit</CityNm>
+            <StateAbbreviationCd>MA</StateAbbreviationCd>
+            <ZIPCd>02635</ZIPCd>
+          </RecipientUSAddress>
+          <GrantOrContributionPurposeTxt>Annual</GrantOrContributionPurposeTxt>
+          <Amt>2500</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>Celebrity Series</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientUSAddress>
+            <AddressLine1Txt>20 Park Plaza</AddressLine1Txt>
+            <CityNm>Boston</CityNm>
+            <StateAbbreviationCd>MA</StateAbbreviationCd>
+            <ZIPCd>02116</ZIPCd>
+          </RecipientUSAddress>
+          <GrantOrContributionPurposeTxt>Neighborhood Arts Program</GrantOrContributionPurposeTxt>
+          <Amt>2500</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>Lyric Stage</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientUSAddress>
+            <AddressLine1Txt>140 Claredon Street</AddressLine1Txt>
+            <CityNm>Boston</CityNm>
+            <StateAbbreviationCd>MA</StateAbbreviationCd>
+            <ZIPCd>02116</ZIPCd>
+          </RecipientUSAddress>
+          <GrantOrContributionPurposeTxt>Operating</GrantOrContributionPurposeTxt>
+          <Amt>2500</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>Raw Art Works</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientUSAddress>
+            <AddressLine1Txt>37 Central Square</AddressLine1Txt>
+            <CityNm>Lynn</CityNm>
+            <StateAbbreviationCd>MA</StateAbbreviationCd>
+            <ZIPCd>01901</ZIPCd>
+          </RecipientUSAddress>
+          <GrantOrContributionPurposeTxt>Programs</GrantOrContributionPurposeTxt>
+          <Amt>5000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>Bridge Over Trouble Waters</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientUSAddress>
+            <AddressLine1Txt>47 West Street</AddressLine1Txt>
+            <CityNm>Boston</CityNm>
+            <StateAbbreviationCd>MA</StateAbbreviationCd>
+            <ZIPCd>02111</ZIPCd>
+          </RecipientUSAddress>
+          <GrantOrContributionPurposeTxt>Transitional Living Program</GrantOrContributionPurposeTxt>
+          <Amt>2500</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>Family &amp; Children's Services</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientUSAddress>
+            <AddressLine1Txt>111 N Common Street</AddressLine1Txt>
+            <CityNm>Lynn</CityNm>
+            <StateAbbreviationCd>MA</StateAbbreviationCd>
+            <ZIPCd>01902</ZIPCd>
+          </RecipientUSAddress>
+          <GrantOrContributionPurposeTxt>Youth Programs</GrantOrContributionPurposeTxt>
+          <Amt>2500</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>Horace Mann Educational</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientUSAddress>
+            <AddressLine1Txt>8 Forge Pkwy</AddressLine1Txt>
+            <CityNm>Franklin</CityNm>
+            <StateAbbreviationCd>MA</StateAbbreviationCd>
+            <ZIPCd>02038</ZIPCd>
+          </RecipientUSAddress>
+          <GrantOrContributionPurposeTxt>Support Families/Disabled</GrantOrContributionPurposeTxt>
+          <Amt>2500</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>Lucy's Love Bus</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientUSAddress>
+            <AddressLine1Txt>21 Water Street</AddressLine1Txt>
+            <CityNm>Amesbury</CityNm>
+            <StateAbbreviationCd>MA</StateAbbreviationCd>
+            <ZIPCd>01913</ZIPCd>
+          </RecipientUSAddress>
+          <GrantOrContributionPurposeTxt>Sanji Center</GrantOrContributionPurposeTxt>
+          <Amt>2500</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>Young Audiences</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientUSAddress>
+            <AddressLine1Txt>89 South Street</AddressLine1Txt>
+            <CityNm>Boston</CityNm>
+            <StateAbbreviationCd>MA</StateAbbreviationCd>
+            <ZIPCd>02111</ZIPCd>
+          </RecipientUSAddress>
+          <GrantOrContributionPurposeTxt>Online Arts Programs</GrantOrContributionPurposeTxt>
+          <Amt>2500</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <TotalGrantOrContriPdDurYrAmt>37500</TotalGrantOrContriPdDurYrAmt>
+      </SupplementaryInformationGrp>
+      <AnalysisIncomeProducingActyGrp>
+        <DivAndIntFromSecPartVIIGrp>
+          <ExclusionCd>14</ExclusionCd>
+          <ExclusionAmt>9542</ExclusionAmt>
+        </DivAndIntFromSecPartVIIGrp>
+        <GainSalesAstOthThanInvntryGrp>
+          <ExclusionCd>18</ExclusionCd>
+          <ExclusionAmt>258926</ExclusionAmt>
+        </GainSalesAstOthThanInvntryGrp>
+        <SubtotalsIncmProducingActyGrp>
+          <ExclusionAmt>268468</ExclusionAmt>
+        </SubtotalsIncmProducingActyGrp>
+        <TotalIncomeProducingActyAmt>268468</TotalIncomeProducingActyAmt>
+      </AnalysisIncomeProducingActyGrp>
+      <TrnsfrTransRlnNonchrtblEOGrp>
+        <TrnsfrOfCashToNonchrtblEOInd>false</TrnsfrOfCashToNonchrtblEOInd>
+        <TrnsfrOtherAssetNonchrtblEOInd>false</TrnsfrOtherAssetNonchrtblEOInd>
+        <SalesOrExchangesOfAssetsInd>false</SalesOrExchangesOfAssetsInd>
+        <PurchaseOfAssetsNonchrtblEOInd>false</PurchaseOfAssetsNonchrtblEOInd>
+        <RentalOfFacilitiesOthAssetsInd>false</RentalOfFacilitiesOthAssetsInd>
+        <ReimbursementArrangementsInd>false</ReimbursementArrangementsInd>
+        <LoansOrLoanGuaranteesInd>false</LoansOrLoanGuaranteesInd>
+        <PerformanceOfServicesEtcInd>false</PerformanceOfServicesEtcInd>
+        <SharingOfFacilitiesEtcInd>false</SharingOfFacilitiesEtcInd>
+        <RelationshipsNonchrtblEOInd>false</RelationshipsNonchrtblEOInd>
+      </TrnsfrTransRlnNonchrtblEOGrp>
+    </IRS990PF>
+    <AccountingFeesSchedule documentId="990PF:140" softwareId="20011406" softwareVersionNum="20.0.2.0">
+      <AccountingFeesDetail>
+        <CategoryTxt>Accounting Fees</CategoryTxt>
+        <Amt>6804</Amt>
+        <NetInvestmentIncomeAmt>5783</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>5783</AdjustedNetIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>1021</DisbursementsCharitablePrpsAmt>
+      </AccountingFeesDetail>
+    </AccountingFeesSchedule>
+    <InvestmentsCorpBondsSchedule documentId="990PF:151" softwareId="20011406" softwareVersionNum="20.0.2.0"></InvestmentsCorpBondsSchedule>
+    <InvestmentsCorpStockSchedule documentId="990PF:150" softwareId="20011406" softwareVersionNum="20.0.2.0"></InvestmentsCorpStockSchedule>
+    <InvestmentsOtherSchedule2 documentId="990PF:159" softwareId="20011406" softwareVersionNum="20.0.2.0">
+      <InvestmentsOtherGrp>
+        <CategoryOrItemTxt>Note Receivable AJAX 12</CategoryOrItemTxt>
+        <BookValueAmt>500000</BookValueAmt>
+        <EOYFMVAmt>400000</EOYFMVAmt>
+      </InvestmentsOtherGrp>
+    </InvestmentsOtherSchedule2>
+    <OtherAssetsSchedule documentId="990PF:145" softwareId="20011406" softwareVersionNum="20.0.2.0">
+      <OtherAssetsScheduleGrp>
+        <Desc>Other Asset</Desc>
+        <BOYBookValueAmt>25000</BOYBookValueAmt>
+        <EOYBookValueAmt>17000</EOYBookValueAmt>
+        <EOYFMVAmt>17000</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+    </OtherAssetsSchedule>
+    <OtherExpensesSchedule documentId="990PF:143" softwareId="20011406" softwareVersionNum="20.0.2.0">
+      <OtherExpensesScheduleGrp>
+        <Desc>Other Expenses</Desc>
+        <RevenueAndExpensesPerBooksAmt>493</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>271</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>271</AdjustedNetIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>222</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+    </OtherExpensesSchedule>
+    <TaxesSchedule documentId="990PF:142" softwareId="20011406" softwareVersionNum="20.0.2.0">
+      <TaxesDetail>
+        <CategoryTxt>Taxes</CategoryTxt>
+        <Amt>6367</Amt>
+        <NetInvestmentIncomeAmt>2156</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>2156</AdjustedNetIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>2447</DisbursementsCharitablePrpsAmt>
+      </TaxesDetail>
+    </TaxesSchedule>
+    <TaxUnderSection511Statement documentId="990PF:166" softwareId="20011406" softwareVersionNum="20.0.2.0">
+      <ExplanationTxt>227342 X1.39 3160</ExplanationTxt>
+    </TaxUnderSection511Statement>
+  </ReturnData>
+</Return>
