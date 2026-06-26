@@ -1,0 +1,893 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Return xmlns="http://www.irs.gov/efile" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.irs.gov/efile" returnVersion="2019v5.1">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2020-11-16T17:37:51-06:00</ReturnTs>
+    <TaxPeriodEndDt>2019-12-31</TaxPeriodEndDt>
+    <PreparerFirmGrp>
+      <PreparerFirmEIN>954611603</PreparerFirmEIN>
+      <PreparerFirmName>
+        <BusinessNameLine1Txt>HENSIEK &amp; CARON CPA'S</BusinessNameLine1Txt>
+      </PreparerFirmName>
+      <PreparerUSAddress>
+        <AddressLine1Txt>650 SIERRA MADRE VILLA 303</AddressLine1Txt>
+        <CityNm>PASADENA</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>91107</ZIPCd>
+      </PreparerUSAddress>
+    </PreparerFirmGrp>
+    <ReturnTypeCd>990PF</ReturnTypeCd>
+    <TaxPeriodBeginDt>2019-01-01</TaxPeriodBeginDt>
+    <Filer>
+      <EIN>261317320</EIN>
+      <BusinessName>
+        <BusinessNameLine1Txt>DORIS M LAMB AND H RICHARD LAMB</BusinessNameLine1Txt>
+        <BusinessNameLine2Txt>FOUNDATION</BusinessNameLine2Txt>
+      </BusinessName>
+      <BusinessNameControlTxt>DORI</BusinessNameControlTxt>
+      <PhoneNum>6264492209</PhoneNum>
+      <USAddress>
+        <AddressLine1Txt>1212 MILAN AVENUE</AddressLine1Txt>
+        <CityNm>SOUTH PASADENA</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>91030</ZIPCd>
+      </USAddress>
+    </Filer>
+    <BusinessOfficerGrp>
+      <PersonNm>CAROLYN LAMB</PersonNm>
+      <PersonTitleTxt>PRESIDENT</PersonTitleTxt>
+      <PhoneNum>6264492209</PhoneNum>
+      <SignatureDt>2020-11-16</SignatureDt>
+      <DiscussWithPaidPreparerInd>1</DiscussWithPaidPreparerInd>
+    </BusinessOfficerGrp>
+    <PreparerPersonGrp>
+      <PreparerPersonNm>BARRY B HENSIEK</PreparerPersonNm>
+      <PTIN>P00163798</PTIN>
+      <PhoneNum>6267929988</PhoneNum>
+    </PreparerPersonGrp>
+    <FilingSecurityInformation>
+      <IPAddress>
+        <IPv4AddressTxt>47.51.47.218</IPv4AddressTxt>
+      </IPAddress>
+      <IPDt>2020-11-16</IPDt>
+      <IPTm>15:31:55</IPTm>
+      <IPTimezoneCd>PS</IPTimezoneCd>
+      <FilingLicenseTypeCd>P</FilingLicenseTypeCd>
+      <AtSubmissionCreationDeviceId>F7C5F2421241BF3782DBB7A27F28BC0E6D76E983</AtSubmissionCreationDeviceId>
+      <AtSubmissionFilingDeviceId>A6375775BC4F97061211AE52511E7262D2297E27</AtSubmissionFilingDeviceId>
+    </FilingSecurityInformation>
+    <TaxYr>2019</TaxYr>
+    <BuildTS>2021-04-22 16:20:28Z</BuildTS>
+  </ReturnHeader>
+  <ReturnData documentCnt="5">
+    <IRS990PF documentId="RetDoc1235000001">
+      <PFStatusTermSect507b1AInd>X</PFStatusTermSect507b1AInd>
+      <FinalReturnInd>X</FinalReturnInd>
+      <Organization501c3ExemptPFInd>X</Organization501c3ExemptPFInd>
+      <FMVAssetsEOYAmt>0</FMVAssetsEOYAmt>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <AnalysisOfRevenueAndExpenses>
+        <ScheduleBNotRequiredInd>X</ScheduleBNotRequiredInd>
+        <InterestOnSavRevAndExpnssAmt>80</InterestOnSavRevAndExpnssAmt>
+        <InterestOnSavNetInvstIncmAmt>80</InterestOnSavNetInvstIncmAmt>
+        <CapGainNetIncmNetInvstIncmAmt>0</CapGainNetIncmNetInvstIncmAmt>
+        <TotalRevAndExpnssAmt>80</TotalRevAndExpnssAmt>
+        <TotalNetInvstIncmAmt>80</TotalNetInvstIncmAmt>
+        <CompOfcrDirTrstRevAndExpnssAmt>0</CompOfcrDirTrstRevAndExpnssAmt>
+        <CompOfcrDirTrstNetInvstIncmAmt>0</CompOfcrDirTrstNetInvstIncmAmt>
+        <CompOfcrDirTrstDsbrsChrtblAmt>0</CompOfcrDirTrstDsbrsChrtblAmt>
+        <AccountingFeesRevAndExpnssAmt referenceDocumentId="RetDoc2002200001">2010</AccountingFeesRevAndExpnssAmt>
+        <AccountingFeesNetInvstIncmAmt>0</AccountingFeesNetInvstIncmAmt>
+        <AccountingFeesChrtblPrpsAmt>0</AccountingFeesChrtblPrpsAmt>
+        <TaxesRevAndExpnssAmt referenceDocumentId="RetDoc2002500001">90</TaxesRevAndExpnssAmt>
+        <TaxesNetInvstIncmAmt>0</TaxesNetInvstIncmAmt>
+        <TaxesDsbrsChrtblAmt>0</TaxesDsbrsChrtblAmt>
+        <TotOprExpensesRevAndExpnssAmt>2100</TotOprExpensesRevAndExpnssAmt>
+        <TotOprExpensesNetInvstIncmAmt>0</TotOprExpensesNetInvstIncmAmt>
+        <TotOprExpensesDsbrsChrtblAmt>0</TotOprExpensesDsbrsChrtblAmt>
+        <ContriPaidRevAndExpnssAmt>258966</ContriPaidRevAndExpnssAmt>
+        <ContriPaidDsbrsChrtblAmt>258966</ContriPaidDsbrsChrtblAmt>
+        <TotalExpensesRevAndExpnssAmt>261066</TotalExpensesRevAndExpnssAmt>
+        <TotalExpensesNetInvstIncmAmt>0</TotalExpensesNetInvstIncmAmt>
+        <TotalExpensesDsbrsChrtblAmt>258966</TotalExpensesDsbrsChrtblAmt>
+        <ExcessRevenueOverExpensesAmt>-260986</ExcessRevenueOverExpensesAmt>
+        <NetInvestmentIncomeAmt>80</NetInvestmentIncomeAmt>
+      </AnalysisOfRevenueAndExpenses>
+      <Form990PFBalanceSheetsGrp>
+        <CashBOYAmt>102468</CashBOYAmt>
+        <SavAndTempCashInvstBOYAmt>158516</SavAndTempCashInvstBOYAmt>
+        <TotalAssetsBOYAmt>260984</TotalAssetsBOYAmt>
+        <TotalAssetsEOYAmt>0</TotalAssetsEOYAmt>
+        <TotalAssetsEOYFMVAmt>0</TotalAssetsEOYFMVAmt>
+        <TotalLiabilitiesBOYAmt>0</TotalLiabilitiesBOYAmt>
+        <TotalLiabilitiesEOYAmt>0</TotalLiabilitiesEOYAmt>
+        <OrgDoesNotFollowFASB117Ind>X</OrgDoesNotFollowFASB117Ind>
+        <CapitalStockBOYAmt>0</CapitalStockBOYAmt>
+        <CapitalStockEOYAmt>0</CapitalStockEOYAmt>
+        <AdditionalPaidInCapitalBOYAmt>0</AdditionalPaidInCapitalBOYAmt>
+        <AdditionalPaidInCapitalEOYAmt>0</AdditionalPaidInCapitalEOYAmt>
+        <RetainedEarningBOYAmt>260984</RetainedEarningBOYAmt>
+        <RetainedEarningEOYAmt>0</RetainedEarningEOYAmt>
+        <TotNetAstOrFundBalancesBOYAmt>260984</TotNetAstOrFundBalancesBOYAmt>
+        <TotNetAstOrFundBalancesEOYAmt>0</TotNetAstOrFundBalancesEOYAmt>
+        <TotalLiabilitiesNetAstBOYAmt>260984</TotalLiabilitiesNetAstBOYAmt>
+        <TotalLiabilitiesNetAstEOYAmt>0</TotalLiabilitiesNetAstEOYAmt>
+      </Form990PFBalanceSheetsGrp>
+      <ChgInNetAssetsFundBalancesGrp>
+        <TotNetAstOrFundBalancesBOYAmt>260984</TotNetAstOrFundBalancesBOYAmt>
+        <ExcessRevenueOverExpensesAmt>-260986</ExcessRevenueOverExpensesAmt>
+        <OtherIncreasesAmt>0</OtherIncreasesAmt>
+        <SubtotalAmt>-2</SubtotalAmt>
+        <OtherDecreasesAmt>0</OtherDecreasesAmt>
+        <TotNetAstOrFundBalancesEOYAmt>-2</TotNetAstOrFundBalancesEOYAmt>
+      </ChgInNetAssetsFundBalancesGrp>
+      <QlfyUndSect4940eReducedTaxGrp>
+        <LiableSection4942TaxInd>0</LiableSection4942TaxInd>
+        <AdjustedQlfyDistriYr1Amt>106450</AdjustedQlfyDistriYr1Amt>
+        <NetVlNoncharitableAssetsYr1Amt>220487</NetVlNoncharitableAssetsYr1Amt>
+        <DistributionYr1Rt>0.482795</DistributionYr1Rt>
+        <AdjustedQlfyDistriYr2Amt>156750</AdjustedQlfyDistriYr2Amt>
+        <NetVlNoncharitableAssetsYr2Amt>307584</NetVlNoncharitableAssetsYr2Amt>
+        <DistributionYr2Rt>0.509617</DistributionYr2Rt>
+        <AdjustedQlfyDistriYr3Amt>101140</AdjustedQlfyDistriYr3Amt>
+        <NetVlNoncharitableAssetsYr3Amt>338350</NetVlNoncharitableAssetsYr3Amt>
+        <DistributionYr3Rt>0.298921</DistributionYr3Rt>
+        <AdjustedQlfyDistriYr4Amt>100950</AdjustedQlfyDistriYr4Amt>
+        <NetVlNoncharitableAssetsYr4Amt>348451</NetVlNoncharitableAssetsYr4Amt>
+        <DistributionYr4Rt>0.289711</DistributionYr4Rt>
+        <AdjustedQlfyDistriYr5Amt>50850</AdjustedQlfyDistriYr5Amt>
+        <NetVlNoncharitableAssetsYr5Amt>351749</NetVlNoncharitableAssetsYr5Amt>
+        <DistributionYr5Rt>0.144563</DistributionYr5Rt>
+        <TotalDistributionRt>1.725607</TotalDistributionRt>
+        <AverageDistributionRt>0.345121</AverageDistributionRt>
+        <NetVlNoncharitableAssetsAmt>142537</NetVlNoncharitableAssetsAmt>
+        <AdjNetVlNoncharitableAssetsAmt>49193</AdjNetVlNoncharitableAssetsAmt>
+        <NetInvestmentIncomePctAmt>1</NetInvestmentIncomePctAmt>
+        <AdjNonchrtblNetInvstIncmPctAmt>49194</AdjNonchrtblNetInvstIncmPctAmt>
+        <QualifyingDistributionsAmt>258966</QualifyingDistributionsAmt>
+      </QlfyUndSect4940eReducedTaxGrp>
+      <ExciseTaxBasedOnInvstIncmGrp>
+        <DomesticOrgMeetingSect4940eInd>X</DomesticOrgMeetingSect4940eInd>
+        <InvestmentIncomeExciseTaxAmt>1</InvestmentIncomeExciseTaxAmt>
+        <TaxUnderSection511Amt>0</TaxUnderSection511Amt>
+        <SubtotalAmt>1</SubtotalAmt>
+        <SubtitleATaxAmt>0</SubtitleATaxAmt>
+        <TaxBasedOnInvestmentIncomeAmt>1</TaxBasedOnInvestmentIncomeAmt>
+        <EstimatedPlusOvpmtIncmTxAmt>0</EstimatedPlusOvpmtIncmTxAmt>
+        <ExtsnRequestIncomeTaxPaidAmt>1</ExtsnRequestIncomeTaxPaidAmt>
+        <BackupWithholdingWithheldAmt>0</BackupWithholdingWithheldAmt>
+        <TotalPaymentsAndCreditsAmt>1</TotalPaymentsAndCreditsAmt>
+        <EsPenaltyAmt>0</EsPenaltyAmt>
+        <TaxDueAmt>0</TaxDueAmt>
+        <AppliedToESTaxAmt>0</AppliedToESTaxAmt>
+        <RefundAmt>0</RefundAmt>
+      </ExciseTaxBasedOnInvstIncmGrp>
+      <StatementsRegardingActyGrp>
+        <LegislativePoliticalActyInd>0</LegislativePoliticalActyInd>
+        <MoreThan100SpentInd>0</MoreThan100SpentInd>
+        <Form1120POLFiledInd>0</Form1120POLFiledInd>
+        <Section4955OrganizationTaxAmt>0</Section4955OrganizationTaxAmt>
+        <Section4955ManagersTaxAmt>0</Section4955ManagersTaxAmt>
+        <TaxReimbursedAmt>0</TaxReimbursedAmt>
+        <ActivitiesNotPreviouslyRptInd>0</ActivitiesNotPreviouslyRptInd>
+        <ChangesToArticlesOrBylawsInd>0</ChangesToArticlesOrBylawsInd>
+        <UnrelatedBusIncmOverLimitInd>0</UnrelatedBusIncmOverLimitInd>
+        <OrganizationDissolvedEtcInd referenceDocumentId="RetDoc2138700001 RetDoc2210900001 RetDoc2331300001">1</OrganizationDissolvedEtcInd>
+        <Section508eRqrSatisfiedInd>1</Section508eRqrSatisfiedInd>
+        <AtLeast5000InAssetsInd>1</AtLeast5000InAssetsInd>
+        <OrgReportOrRegisterStateCd>CA</OrgReportOrRegisterStateCd>
+        <Form990PFFiledWithAttyGenInd>1</Form990PFFiledWithAttyGenInd>
+        <PrivateOperatingFoundationInd>0</PrivateOperatingFoundationInd>
+        <NewSubstantialContributorsInd>0</NewSubstantialContributorsInd>
+        <OwnControlledEntityInd>0</OwnControlledEntityInd>
+        <DonorAdvisedFundInd>0</DonorAdvisedFundInd>
+        <ComplyWithPublicInspRqrInd>1</ComplyWithPublicInspRqrInd>
+        <WebsiteAddressTxt>N/A</WebsiteAddressTxt>
+        <IndividualWithBooksNm>CAROLYN LAMB</IndividualWithBooksNm>
+        <PhoneNum>6264492209</PhoneNum>
+        <LocationOfBooksUSAddress>
+          <AddressLine1Txt>1212 MILAN AVENUE</AddressLine1Txt>
+          <CityNm>SOUTH PASADENA</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>91030</ZIPCd>
+        </LocationOfBooksUSAddress>
+        <ForeignAccountsQuestionInd>0</ForeignAccountsQuestionInd>
+      </StatementsRegardingActyGrp>
+      <StatementsRegardingActy4720Grp>
+        <SaleOrExchDisqualifiedPrsnInd>0</SaleOrExchDisqualifiedPrsnInd>
+        <BrrwOrLendDisqualifiedPrsnInd>0</BrrwOrLendDisqualifiedPrsnInd>
+        <FurnGoodsDisqualifiedPrsnInd>0</FurnGoodsDisqualifiedPrsnInd>
+        <PayCompDisqualifiedPrsnInd>0</PayCompDisqualifiedPrsnInd>
+        <TransferAstDisqualifiedPrsnInd>0</TransferAstDisqualifiedPrsnInd>
+        <PaymentToGovernmentOfficialInd>0</PaymentToGovernmentOfficialInd>
+        <UncorrectedPriorActsInd>0</UncorrectedPriorActsInd>
+        <UndistributedIncomePYInd>0</UndistributedIncomePYInd>
+        <BusinessHoldingsInd>0</BusinessHoldingsInd>
+        <JeopardyInvestmentsInd>0</JeopardyInvestmentsInd>
+        <UncorrectedPYJeopardyInvstInd>0</UncorrectedPYJeopardyInvstInd>
+        <InfluenceLegislationInd>0</InfluenceLegislationInd>
+        <InfluenceElectionInd>0</InfluenceElectionInd>
+        <GrantsToIndividualsInd>0</GrantsToIndividualsInd>
+        <GrantsToOrganizationsInd>0</GrantsToOrganizationsInd>
+        <NoncharitablePurposeInd>0</NoncharitablePurposeInd>
+        <RcvFndsToPayPrsnlBnftCntrctInd>0</RcvFndsToPayPrsnlBnftCntrctInd>
+        <PayPremiumsPrsnlBnftCntrctInd>0</PayPremiumsPrsnlBnftCntrctInd>
+        <ProhibitedTaxShelterTransInd>0</ProhibitedTaxShelterTransInd>
+        <SubjToTaxRmnrtnExPrchtPymtInd>0</SubjToTaxRmnrtnExPrchtPymtInd>
+      </StatementsRegardingActy4720Grp>
+      <OfficerDirTrstKeyEmplInfoGrp>
+        <OfficerDirTrstKeyEmplGrp>
+          <PersonNm>CAROLYN E LAMB</PersonNm>
+          <USAddress>
+            <AddressLine1Txt>1212 AVENUE</AddressLine1Txt>
+            <CityNm>SO PASADENA</CityNm>
+            <StateAbbreviationCd>CA</StateAbbreviationCd>
+            <ZIPCd>91030</ZIPCd>
+          </USAddress>
+          <TitleTxt>SECRETARY/TREASURER</TitleTxt>
+          <AverageHrsPerWkDevotedToPosRt>1.00</AverageHrsPerWkDevotedToPosRt>
+          <CompensationAmt>0</CompensationAmt>
+          <EmployeeBenefitProgramAmt>0</EmployeeBenefitProgramAmt>
+          <ExpenseAccountOtherAllwncAmt>0</ExpenseAccountOtherAllwncAmt>
+        </OfficerDirTrstKeyEmplGrp>
+        <OfficerDirTrstKeyEmplGrp>
+          <PersonNm>MARTIN HODIS</PersonNm>
+          <USAddress>
+            <AddressLine1Txt>1212 AVENUE</AddressLine1Txt>
+            <CityNm>SO PASADENA</CityNm>
+            <StateAbbreviationCd>CA</StateAbbreviationCd>
+            <ZIPCd>91030</ZIPCd>
+          </USAddress>
+          <TitleTxt>PRESIDENT</TitleTxt>
+          <AverageHrsPerWkDevotedToPosRt>0.50</AverageHrsPerWkDevotedToPosRt>
+          <CompensationAmt>0</CompensationAmt>
+          <EmployeeBenefitProgramAmt>0</EmployeeBenefitProgramAmt>
+          <ExpenseAccountOtherAllwncAmt>0</ExpenseAccountOtherAllwncAmt>
+        </OfficerDirTrstKeyEmplGrp>
+        <CompOfHghstPdEmplOrNONETxt>NONE</CompOfHghstPdEmplOrNONETxt>
+        <OtherEmployeePaidOver50kCnt>0</OtherEmployeePaidOver50kCnt>
+        <CompOfHghstPdCntrctOrNONETxt>NONE</CompOfHghstPdCntrctOrNONETxt>
+        <ContractorPaidOver50kCnt>0</ContractorPaidOver50kCnt>
+      </OfficerDirTrstKeyEmplInfoGrp>
+      <SummaryOfDirectChrtblActyGrp>
+        <Description1Txt>THE PRIMARY PURPOSE OF THE FOUNDATION IS TO PROVIDE GRANTS TO CERTAIN 501(C)(3) ORGANIZATIONS FOR THE PURPOSES SHOWN ON THE LIST OF DONATIONS MADE.</Description1Txt>
+        <Expenses1Amt>0</Expenses1Amt>
+      </SummaryOfDirectChrtblActyGrp>
+      <SumOfProgramRelatedInvstGrp>
+        <TotalAmt>0</TotalAmt>
+      </SumOfProgramRelatedInvstGrp>
+      <MinimumInvestmentReturnGrp>
+        <AverageMonthlyFMVOfSecAmt>0</AverageMonthlyFMVOfSecAmt>
+        <AverageMonthlyCashBalancesAmt>144708</AverageMonthlyCashBalancesAmt>
+        <FMVAllOtherNoncharitableAstAmt>0</FMVAllOtherNoncharitableAstAmt>
+        <TotalFMVOfUnusedAssetsAmt>144708</TotalFMVOfUnusedAssetsAmt>
+        <ReductionClaimedAmt>0</ReductionClaimedAmt>
+        <AcquisitionIndebtednessAmt>0</AcquisitionIndebtednessAmt>
+        <AdjustedTotalFMVOfUnusedAstAmt>144708</AdjustedTotalFMVOfUnusedAstAmt>
+        <CashDeemedCharitableAmt>2171</CashDeemedCharitableAmt>
+        <NetVlNoncharitableAssetsAmt>142537</NetVlNoncharitableAssetsAmt>
+        <MinimumInvestmentReturnAmt>7127</MinimumInvestmentReturnAmt>
+      </MinimumInvestmentReturnGrp>
+      <DistributableAmountGrp>
+        <MinimumInvestmentReturnAmt>7127</MinimumInvestmentReturnAmt>
+        <TaxBasedOnInvestmentIncomeAmt>1</TaxBasedOnInvestmentIncomeAmt>
+        <TotalTaxAmt>1</TotalTaxAmt>
+        <DistributableBeforeAdjAmt>7126</DistributableBeforeAdjAmt>
+        <RecoveriesQualfiedDistriAmt>0</RecoveriesQualfiedDistriAmt>
+        <DistributableBeforeDedAmt>7126</DistributableBeforeDedAmt>
+        <DeductionFromDistributableAmt>0</DeductionFromDistributableAmt>
+        <DistributableAsAdjustedAmt>7126</DistributableAsAdjustedAmt>
+      </DistributableAmountGrp>
+      <QualifyingDistriPartXIIGrp>
+        <ExpensesAndContributionsAmt>258966</ExpensesAndContributionsAmt>
+        <ProgramRelatedInvstTotalAmt>0</ProgramRelatedInvstTotalAmt>
+        <QualifyingDistributionsAmt>258966</QualifyingDistributionsAmt>
+        <PctSect4940eOrgNetInvstIncmAmt>1</PctSect4940eOrgNetInvstIncmAmt>
+        <AdjustedQualifyingDistriAmt>258965</AdjustedQualifyingDistriAmt>
+      </QualifyingDistriPartXIIGrp>
+      <UndistributedIncomeGrp>
+        <DistributableAsAdjustedAmt>7126</DistributableAsAdjustedAmt>
+        <UndistributedIncomePYAmt>0</UndistributedIncomePYAmt>
+        <TotalForPriorYearsAmt>0</TotalForPriorYearsAmt>
+        <ExcessDistributionCyovYr5Amt>33263</ExcessDistributionCyovYr5Amt>
+        <ExcessDistributionCyovYr4Amt>83527</ExcessDistributionCyovYr4Amt>
+        <ExcessDistributionCyovYr3Amt>84222</ExcessDistributionCyovYr3Amt>
+        <ExcessDistributionCyovYr2Amt>141371</ExcessDistributionCyovYr2Amt>
+        <ExcessDistributionCyovYr1Amt>95426</ExcessDistributionCyovYr1Amt>
+        <TotalExcessDistributionCyovAmt>437809</TotalExcessDistributionCyovAmt>
+        <QualifyingDistributionsAmt>258966</QualifyingDistributionsAmt>
+        <AppliedToYear1Amt>0</AppliedToYear1Amt>
+        <AppliedToPriorYearsAmt>0</AppliedToPriorYearsAmt>
+        <TreatedAsDistriFromCorpusAmt>0</TreatedAsDistriFromCorpusAmt>
+        <AppliedToCurrentYearAmt>7126</AppliedToCurrentYearAmt>
+        <RemainingDistriFromCorpusAmt>251840</RemainingDistriFromCorpusAmt>
+        <ExcessDistriCyovAppCYCorpusAmt>0</ExcessDistriCyovAppCYCorpusAmt>
+        <ExcessDistributionCyovAppCYAmt>0</ExcessDistributionCyovAppCYAmt>
+        <TotalCorpusAmt>689649</TotalCorpusAmt>
+        <PriorYearUndistributedIncmAmt>0</PriorYearUndistributedIncmAmt>
+        <PriorYearDeficiencyOrTaxAmt>0</PriorYearDeficiencyOrTaxAmt>
+        <Taxable1Amt>0</Taxable1Amt>
+        <Taxable2Amt>0</Taxable2Amt>
+        <UndistributedIncomeCYAmt>0</UndistributedIncomeCYAmt>
+        <CorpusDistri170b1EOr4942g3Amt>0</CorpusDistri170b1EOr4942g3Amt>
+        <ExcessDistriCyovFromYr5Amt>33263</ExcessDistriCyovFromYr5Amt>
+        <ExcessDistriCyovToNextYrAmt>656386</ExcessDistriCyovToNextYrAmt>
+        <ExcessFromYear4Amt>83527</ExcessFromYear4Amt>
+        <ExcessFromYear3Amt>84222</ExcessFromYear3Amt>
+        <ExcessFromYear2Amt>141371</ExcessFromYear2Amt>
+        <ExcessFromYear1Amt>95426</ExcessFromYear1Amt>
+        <ExcessFromCurrentYearAmt>251840</ExcessFromCurrentYearAmt>
+      </UndistributedIncomeGrp>
+      <SupplementaryInformationGrp>
+        <OnlyContriToPreselectedInd>X</OnlyContriToPreselectedInd>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>CM RUSSELL MUSEUM</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientUSAddress>
+            <AddressLine1Txt>400 13TH STREET NORTH</AddressLine1Txt>
+            <CityNm>GREAT FALLS</CityNm>
+            <StateAbbreviationCd>MO</StateAbbreviationCd>
+            <ZIPCd>59401</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>NONE</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>PC</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>SUPPORT OF MUSEUM OPERATIONS</GrantOrContributionPurposeTxt>
+          <Amt>500</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>COLONIAL WILLIAMSBURG FOUNDATION</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientUSAddress>
+            <AddressLine1Txt>PO BOX 1776</AddressLine1Txt>
+            <CityNm>WILLIAMSBURG</CityNm>
+            <StateAbbreviationCd>VA</StateAbbreviationCd>
+            <ZIPCd>23187</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>NONE</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>PC</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>SUPPORT OF OPERATIONS</GrantOrContributionPurposeTxt>
+          <Amt>5000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>SEA SHEPHERD CONSERVATION SOCIETY</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientUSAddress>
+            <AddressLine1Txt>2226 EASTLAKE AVE E 45</AddressLine1Txt>
+            <CityNm>SEATTLE</CityNm>
+            <StateAbbreviationCd>WA</StateAbbreviationCd>
+            <ZIPCd>98102</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>NONE</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>PC</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>SUPPORT OF CONSERVATION EFFORTS</GrantOrContributionPurposeTxt>
+          <Amt>500</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>SIMON WIESENTHAL CENTER</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientUSAddress>
+            <AddressLine1Txt>1399 ROXBURY DR</AddressLine1Txt>
+            <CityNm>LOS ANGELES</CityNm>
+            <StateAbbreviationCd>CA</StateAbbreviationCd>
+            <ZIPCd>90035</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>NONE</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>PC</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>SUPPORT OF CENTER OPERATIONS</GrantOrContributionPurposeTxt>
+          <Amt>500</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>SMITHSONIAN INSTITUTION</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientUSAddress>
+            <AddressLine1Txt>600 MARYLAND AVENUE</AddressLine1Txt>
+            <CityNm>WASHINGTON</CityNm>
+            <StateAbbreviationCd>DC</StateAbbreviationCd>
+            <ZIPCd>20002</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>NONE</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>PC</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>SUPPORT OF OPERATIONS</GrantOrContributionPurposeTxt>
+          <Amt>500</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>SOUTH PASADENA EDUCATIONAL FUND</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientUSAddress>
+            <AddressLine1Txt>1020 EL CENTRO ST 3</AddressLine1Txt>
+            <CityNm>SOUTH PASADENA</CityNm>
+            <StateAbbreviationCd>CA</StateAbbreviationCd>
+            <ZIPCd>91030</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>NONE</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>PC</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>SUPPORT OF OPERATIONSSUPPORT OF OPERATIONS</GrantOrContributionPurposeTxt>
+          <Amt>1000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>THE HUNTINGTON LIBRARY</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientUSAddress>
+            <AddressLine1Txt>1151 OXFORD RD</AddressLine1Txt>
+            <CityNm>SAN MARINO</CityNm>
+            <StateAbbreviationCd>CA</StateAbbreviationCd>
+            <ZIPCd>91108</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>NONE</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>PC</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>SUPPORT OF OPERATIONS</GrantOrContributionPurposeTxt>
+          <Amt>500</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>SOUTH PASADENA HIGH SCHOOL BOOSTER CLUB</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientUSAddress>
+            <AddressLine1Txt>1401 FREMONT AVENUE</AddressLine1Txt>
+            <CityNm>SOUTH PASADENA</CityNm>
+            <StateAbbreviationCd>CA</StateAbbreviationCd>
+            <ZIPCd>91030</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>NONE</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>PC</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>SUPPORT OF OPERATIONS</GrantOrContributionPurposeTxt>
+          <Amt>1000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>TREATMENT ADVOCACY CENTER</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientUSAddress>
+            <AddressLine1Txt>200 NORTH GLEBE ROAD SUITE 730</AddressLine1Txt>
+            <CityNm>ARLINGTON</CityNm>
+            <StateAbbreviationCd>VA</StateAbbreviationCd>
+            <ZIPCd>22203</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>NONE</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>PC</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>SUPPORT OF OPERATIONS</GrantOrContributionPurposeTxt>
+          <Amt>235000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>US OLYMPIC COMMITTEE</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientUSAddress>
+            <AddressLine1Txt>ONE OLYMPIC PLAZA</AddressLine1Txt>
+            <CityNm>COLORADO SPRINGS</CityNm>
+            <StateAbbreviationCd>CO</StateAbbreviationCd>
+            <ZIPCd>80909</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>NONE</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>PC</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>SUPPORT OF COMMITTEE OPERATIONS</GrantOrContributionPurposeTxt>
+          <Amt>500</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>YALE SCHOOL OF MEDICINE</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientUSAddress>
+            <AddressLine1Txt>333 CEDAR ST</AddressLine1Txt>
+            <CityNm>NEW HAVEN</CityNm>
+            <StateAbbreviationCd>CT</StateAbbreviationCd>
+            <ZIPCd>06510</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>NONE</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>PC</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>SUPPORT OF SCHOOL OPERATIONS</GrantOrContributionPurposeTxt>
+          <Amt>1500</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>UNION STATION HOMELESS SERVICES</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientUSAddress>
+            <AddressLine1Txt>825 E ORANGE GROVE BLVD</AddressLine1Txt>
+            <CityNm>PASADENA</CityNm>
+            <StateAbbreviationCd>CA</StateAbbreviationCd>
+            <ZIPCd>91104</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>NONE</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>PC</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>SUPPORT OF HOMELESS RELIEF</GrantOrContributionPurposeTxt>
+          <Amt>2966</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>THE INTEGRATED RECOVERY NETWORK</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientUSAddress>
+            <AddressLine1Txt>2010 WILSHIRE BLVD STE 1012</AddressLine1Txt>
+            <CityNm>LOS ANGELES</CityNm>
+            <StateAbbreviationCd>CA</StateAbbreviationCd>
+            <ZIPCd>90057</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>NONE</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>PC</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>SUPPORT OF THE ORGANIZATION</GrantOrContributionPurposeTxt>
+          <Amt>1000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>SOUTHERN CALIFORNIA PUBLIC RADIO</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientUSAddress>
+            <AddressLine1Txt>PO BOX 511489</AddressLine1Txt>
+            <CityNm>LOS ANGELES</CityNm>
+            <StateAbbreviationCd>CA</StateAbbreviationCd>
+            <ZIPCd>90051</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>NONE</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>PC</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>SUPPORT OF PUBLIC RADIO</GrantOrContributionPurposeTxt>
+          <Amt>500</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>PLANNED PARENTHOOD - PASADENA AND SAN GABRIEL VALLEY</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientUSAddress>
+            <AddressLine1Txt>2333 LAKE AVENUE 2ND FLOOR</AddressLine1Txt>
+            <CityNm>ALTADENA</CityNm>
+            <StateAbbreviationCd>CA</StateAbbreviationCd>
+            <ZIPCd>91001</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>NONE</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>PC</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>SUPPORT OF THE ORGANIZATION</GrantOrContributionPurposeTxt>
+          <Amt>8000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <TotalGrantOrContriPdDurYrAmt>258966</TotalGrantOrContriPdDurYrAmt>
+        <TotalGrantOrContriApprvFutAmt>0</TotalGrantOrContriApprvFutAmt>
+      </SupplementaryInformationGrp>
+      <AnalysisIncomeProducingActyGrp>
+        <IntOnSavAndTempCashInvstGrp>
+          <ExclusionCd>14</ExclusionCd>
+          <ExclusionAmt>80</ExclusionAmt>
+        </IntOnSavAndTempCashInvstGrp>
+        <SubtotalsIncmProducingActyGrp>
+          <UnrelatedBusinessTaxblIncmAmt>0</UnrelatedBusinessTaxblIncmAmt>
+          <ExclusionAmt>80</ExclusionAmt>
+          <RelatedOrExemptFunctionIncmAmt>0</RelatedOrExemptFunctionIncmAmt>
+        </SubtotalsIncmProducingActyGrp>
+        <TotalIncomeProducingActyAmt>80</TotalIncomeProducingActyAmt>
+      </AnalysisIncomeProducingActyGrp>
+      <TrnsfrTransRlnNonchrtblEOGrp>
+        <TrnsfrOfCashToNonchrtblEOInd>0</TrnsfrOfCashToNonchrtblEOInd>
+        <TrnsfrOtherAssetNonchrtblEOInd>0</TrnsfrOtherAssetNonchrtblEOInd>
+        <SalesOrExchangesOfAssetsInd>0</SalesOrExchangesOfAssetsInd>
+        <PurchaseOfAssetsNonchrtblEOInd>0</PurchaseOfAssetsNonchrtblEOInd>
+        <RentalOfFacilitiesOthAssetsInd>0</RentalOfFacilitiesOthAssetsInd>
+        <ReimbursementArrangementsInd>0</ReimbursementArrangementsInd>
+        <LoansOrLoanGuaranteesInd>0</LoansOrLoanGuaranteesInd>
+        <PerformanceOfServicesEtcInd>0</PerformanceOfServicesEtcInd>
+        <SharingOfFacilitiesEtcInd>0</SharingOfFacilitiesEtcInd>
+        <RelationshipsNonchrtblEOInd>0</RelationshipsNonchrtblEOInd>
+      </TrnsfrTransRlnNonchrtblEOGrp>
+    </IRS990PF>
+    <AccountingFeesSchedule documentId="RetDoc2002200001">
+      <AccountingFeesDetail>
+        <CategoryTxt>TAX PREPARATION</CategoryTxt>
+        <Amt>2010</Amt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>0</DisbursementsCharitablePrpsAmt>
+      </AccountingFeesDetail>
+    </AccountingFeesSchedule>
+    <DissolutionStmt documentId="RetDoc2138700001">
+      <DissolutionInformationGrp>
+        <BusinessName>
+          <BusinessNameLine1Txt>TREATMENT ADVOCACY CENTER</BusinessNameLine1Txt>
+        </BusinessName>
+        <USAddress>
+          <AddressLine1Txt>200 NORTH GLEBE ROAD SUITE 7</AddressLine1Txt>
+          <CityNm>ARLINGTON</CityNm>
+          <StateAbbreviationCd>VA</StateAbbreviationCd>
+          <ZIPCd>22203</ZIPCd>
+        </USAddress>
+        <ShortExplanationTxt>CASH DONATION</ShortExplanationTxt>
+        <DissolutionAmt>100000</DissolutionAmt>
+      </DissolutionInformationGrp>
+      <DissolutionInformationGrp>
+        <BusinessName>
+          <BusinessNameLine1Txt>FRANCHISE TAX BOARD</BusinessNameLine1Txt>
+        </BusinessName>
+        <USAddress>
+          <AddressLine1Txt>PO BOX 942857</AddressLine1Txt>
+          <CityNm>SACRAMENTO</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>942570501</ZIPCd>
+        </USAddress>
+        <ShortExplanationTxt>CASH PAYMENT OF TAX FILING FEE</ShortExplanationTxt>
+        <DissolutionAmt>10</DissolutionAmt>
+      </DissolutionInformationGrp>
+      <DissolutionInformationGrp>
+        <BusinessName>
+          <BusinessNameLine1Txt>CA REGISTRY OF CHARITABLE TRUSTS</BusinessNameLine1Txt>
+        </BusinessName>
+        <USAddress>
+          <AddressLine1Txt>PO BOX 903447</AddressLine1Txt>
+          <CityNm>SACRAMENTO</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>942034470</ZIPCd>
+        </USAddress>
+        <ShortExplanationTxt>CASH PAYMENT OF FILING FEE</ShortExplanationTxt>
+        <DissolutionAmt>25</DissolutionAmt>
+      </DissolutionInformationGrp>
+      <DissolutionInformationGrp>
+        <BusinessName>
+          <BusinessNameLine1Txt>HENSIEK &amp; CARON CPA'S</BusinessNameLine1Txt>
+        </BusinessName>
+        <USAddress>
+          <AddressLine1Txt>650 SIERRA MADRE VILLA STE 303</AddressLine1Txt>
+          <CityNm>PASADENA</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>91107</ZIPCd>
+        </USAddress>
+        <ShortExplanationTxt>CASH PAYMENT FOR TAX PREPARATION SERVICES</ShortExplanationTxt>
+        <DissolutionAmt>825</DissolutionAmt>
+      </DissolutionInformationGrp>
+      <DissolutionInformationGrp>
+        <BusinessName>
+          <BusinessNameLine1Txt>SOUTH PASADENA EDUCATION FUND</BusinessNameLine1Txt>
+        </BusinessName>
+        <USAddress>
+          <AddressLine1Txt>1020 EL CENTRO ST 3</AddressLine1Txt>
+          <CityNm>SOUTH PASADENA</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>91030</ZIPCd>
+        </USAddress>
+        <ShortExplanationTxt>CASH DONATION</ShortExplanationTxt>
+        <DissolutionAmt>500</DissolutionAmt>
+      </DissolutionInformationGrp>
+      <DissolutionInformationGrp>
+        <BusinessName>
+          <BusinessNameLine1Txt>HUNTINGTON LIBRARY</BusinessNameLine1Txt>
+        </BusinessName>
+        <USAddress>
+          <AddressLine1Txt>1151 OXFORD ROAD</AddressLine1Txt>
+          <CityNm>SAN MARINO</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>91108</ZIPCd>
+        </USAddress>
+        <ShortExplanationTxt>CASH DONATION</ShortExplanationTxt>
+        <DissolutionAmt>500</DissolutionAmt>
+      </DissolutionInformationGrp>
+      <DissolutionInformationGrp>
+        <BusinessName>
+          <BusinessNameLine1Txt>SOUTH PASADENA HIGH SCHOOL BOOSTER CLUB</BusinessNameLine1Txt>
+        </BusinessName>
+        <USAddress>
+          <AddressLine1Txt>1401 FREMONT AVENUE</AddressLine1Txt>
+          <CityNm>SOUTH PASADENA</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>91030</ZIPCd>
+        </USAddress>
+        <ShortExplanationTxt>CASH DONATION</ShortExplanationTxt>
+        <DissolutionAmt>1000</DissolutionAmt>
+      </DissolutionInformationGrp>
+      <DissolutionInformationGrp>
+        <PersonNm>CAROLYN LAMB</PersonNm>
+        <USAddress>
+          <AddressLine1Txt>1212 MILAN AVENUE</AddressLine1Txt>
+          <CityNm>SOUTH PASADENA</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>91030</ZIPCd>
+        </USAddress>
+        <ShortExplanationTxt>CASH REIMBURSEMENT OF FILING FEE</ShortExplanationTxt>
+        <DissolutionAmt>20</DissolutionAmt>
+      </DissolutionInformationGrp>
+      <DissolutionInformationGrp>
+        <BusinessName>
+          <BusinessNameLine1Txt>SOUTH PASADENA EDUCATION FUND</BusinessNameLine1Txt>
+        </BusinessName>
+        <USAddress>
+          <AddressLine1Txt>1020 EL CENTRO ST 3</AddressLine1Txt>
+          <CityNm>SOUTH PASADENA</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>91030</ZIPCd>
+        </USAddress>
+        <ShortExplanationTxt>CASH DONATION</ShortExplanationTxt>
+        <DissolutionAmt>500</DissolutionAmt>
+      </DissolutionInformationGrp>
+      <DissolutionInformationGrp>
+        <BusinessName>
+          <BusinessNameLine1Txt>UNION STATION HOMELESS SERVICES</BusinessNameLine1Txt>
+        </BusinessName>
+        <USAddress>
+          <AddressLine1Txt>825 E ORANGE GROVE BLVD</AddressLine1Txt>
+          <CityNm>PASADENA</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>91104</ZIPCd>
+        </USAddress>
+        <ShortExplanationTxt>CASH DONATION</ShortExplanationTxt>
+        <DissolutionAmt>2966</DissolutionAmt>
+      </DissolutionInformationGrp>
+      <DissolutionInformationGrp>
+        <BusinessName>
+          <BusinessNameLine1Txt>THE COLONIAL WILLIAMSBURG FOUNDATION</BusinessNameLine1Txt>
+        </BusinessName>
+        <USAddress>
+          <AddressLine1Txt>PO BOX 1776</AddressLine1Txt>
+          <CityNm>WILLIAMSBURG</CityNm>
+          <StateAbbreviationCd>VA</StateAbbreviationCd>
+          <ZIPCd>23187</ZIPCd>
+        </USAddress>
+        <ShortExplanationTxt>CASH DONATION</ShortExplanationTxt>
+        <DissolutionAmt>5000</DissolutionAmt>
+      </DissolutionInformationGrp>
+      <DissolutionInformationGrp>
+        <BusinessName>
+          <BusinessNameLine1Txt>THE INTEGRATED RECOVERY NETWORK</BusinessNameLine1Txt>
+        </BusinessName>
+        <USAddress>
+          <AddressLine1Txt>2010 WILSHIRE BLVD STE 1012</AddressLine1Txt>
+          <CityNm>LOS ANGELES</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>90057</ZIPCd>
+        </USAddress>
+        <ShortExplanationTxt>CASH DONATION</ShortExplanationTxt>
+        <DissolutionAmt>1000</DissolutionAmt>
+      </DissolutionInformationGrp>
+      <DissolutionInformationGrp>
+        <BusinessName>
+          <BusinessNameLine1Txt>SOUTHERN CA PUBLIC RADIO</BusinessNameLine1Txt>
+        </BusinessName>
+        <USAddress>
+          <AddressLine1Txt>PO BOX 511489</AddressLine1Txt>
+          <CityNm>LOS ANGELES</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>90057</ZIPCd>
+        </USAddress>
+        <ShortExplanationTxt>CASH DONATION</ShortExplanationTxt>
+        <DissolutionAmt>500</DissolutionAmt>
+      </DissolutionInformationGrp>
+      <DissolutionInformationGrp>
+        <BusinessName>
+          <BusinessNameLine1Txt>CM RUSSELL MUSEUM</BusinessNameLine1Txt>
+        </BusinessName>
+        <USAddress>
+          <AddressLine1Txt>400 13TH STREET NORTH</AddressLine1Txt>
+          <CityNm>GREAT FALLS</CityNm>
+          <StateAbbreviationCd>MO</StateAbbreviationCd>
+          <ZIPCd>59401</ZIPCd>
+        </USAddress>
+        <ShortExplanationTxt>CASH DONATION</ShortExplanationTxt>
+        <DissolutionAmt>500</DissolutionAmt>
+      </DissolutionInformationGrp>
+      <DissolutionInformationGrp>
+        <BusinessName>
+          <BusinessNameLine1Txt>FRIENDS OF THE SMITHSONIAN</BusinessNameLine1Txt>
+        </BusinessName>
+        <USAddress>
+          <AddressLine1Txt>600 MARYLAND AVENUE</AddressLine1Txt>
+          <CityNm>WASHINGTON</CityNm>
+          <StateAbbreviationCd>DC</StateAbbreviationCd>
+          <ZIPCd>20002</ZIPCd>
+        </USAddress>
+        <ShortExplanationTxt>CASH DONATION</ShortExplanationTxt>
+        <DissolutionAmt>500</DissolutionAmt>
+      </DissolutionInformationGrp>
+      <DissolutionInformationGrp>
+        <BusinessName>
+          <BusinessNameLine1Txt>SEA SHEPARD CONSERVATION SOCIETY</BusinessNameLine1Txt>
+        </BusinessName>
+        <USAddress>
+          <AddressLine1Txt>2226 EASTLAKE AVE E 45</AddressLine1Txt>
+          <CityNm>SEATTLE</CityNm>
+          <StateAbbreviationCd>WA</StateAbbreviationCd>
+          <ZIPCd>98102</ZIPCd>
+        </USAddress>
+        <ShortExplanationTxt>CASH DONATION</ShortExplanationTxt>
+        <DissolutionAmt>500</DissolutionAmt>
+      </DissolutionInformationGrp>
+      <DissolutionInformationGrp>
+        <BusinessName>
+          <BusinessNameLine1Txt>TREATMENT ADVOCACY CENTER</BusinessNameLine1Txt>
+        </BusinessName>
+        <USAddress>
+          <AddressLine1Txt>200 NORTH GLEBE ROAD SUITE 7</AddressLine1Txt>
+          <CityNm>ARLINGTON</CityNm>
+          <StateAbbreviationCd>VA</StateAbbreviationCd>
+          <ZIPCd>22203</ZIPCd>
+        </USAddress>
+        <ShortExplanationTxt>CASH DONATION</ShortExplanationTxt>
+        <DissolutionAmt>135000</DissolutionAmt>
+      </DissolutionInformationGrp>
+      <DissolutionInformationGrp>
+        <BusinessName>
+          <BusinessNameLine1Txt>PLANNED PARENTHOOD PASADENA</BusinessNameLine1Txt>
+        </BusinessName>
+        <USAddress>
+          <AddressLine1Txt>2333 LAKE AVENUE 2ND FLOOR</AddressLine1Txt>
+          <CityNm>ALTADENA</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>91001</ZIPCd>
+        </USAddress>
+        <ShortExplanationTxt>CASH DONATION</ShortExplanationTxt>
+        <DissolutionAmt>8000</DissolutionAmt>
+      </DissolutionInformationGrp>
+      <DissolutionInformationGrp>
+        <BusinessName>
+          <BusinessNameLine1Txt>YALE SCHOOL OF MEDICINE MEDICAL FUND</BusinessNameLine1Txt>
+        </BusinessName>
+        <USAddress>
+          <AddressLine1Txt>333 CEDAR STREET</AddressLine1Txt>
+          <CityNm>NEW HAVEN</CityNm>
+          <StateAbbreviationCd>CT</StateAbbreviationCd>
+          <ZIPCd>06510</ZIPCd>
+        </USAddress>
+        <ShortExplanationTxt>CASH DONATION</ShortExplanationTxt>
+        <DissolutionAmt>1500</DissolutionAmt>
+      </DissolutionInformationGrp>
+      <DissolutionInformationGrp>
+        <BusinessName>
+          <BusinessNameLine1Txt>US OLYMPIC &amp; PARALYMPIC FOUNDATION</BusinessNameLine1Txt>
+        </BusinessName>
+        <USAddress>
+          <AddressLine1Txt>ONE OLYMPIC PLAZA</AddressLine1Txt>
+          <CityNm>COLORADO SPRINGS</CityNm>
+          <StateAbbreviationCd>CO</StateAbbreviationCd>
+          <ZIPCd>80909</ZIPCd>
+        </USAddress>
+        <ShortExplanationTxt>CASH DONATION</ShortExplanationTxt>
+        <DissolutionAmt>500</DissolutionAmt>
+      </DissolutionInformationGrp>
+      <DissolutionInformationGrp>
+        <BusinessName>
+          <BusinessNameLine1Txt>SIMON WIESENTHAL CENTER</BusinessNameLine1Txt>
+        </BusinessName>
+        <USAddress>
+          <AddressLine1Txt>1399 ROXBURY DRIVE</AddressLine1Txt>
+          <CityNm>LOS ANGELES</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>90035</ZIPCd>
+        </USAddress>
+        <ShortExplanationTxt>CASH DONATION</ShortExplanationTxt>
+        <DissolutionAmt>500</DissolutionAmt>
+      </DissolutionInformationGrp>
+      <DissolutionInformationGrp>
+        <BusinessName>
+          <BusinessNameLine1Txt>HENSIEK &amp; CARON CPA'S</BusinessNameLine1Txt>
+        </BusinessName>
+        <USAddress>
+          <AddressLine1Txt>650 SIERRA MADRE VILLA STE 303</AddressLine1Txt>
+          <CityNm>PASADENA</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>91107</ZIPCd>
+        </USAddress>
+        <ShortExplanationTxt>CASH PAYMENT FOR TAX PREPARATION AND OTHER SERVICES</ShortExplanationTxt>
+        <DissolutionAmt>1220</DissolutionAmt>
+      </DissolutionInformationGrp>
+    </DissolutionStmt>
+    <LiquidationExplanationStmt documentId="RetDoc2210900001">
+      <ExplanationTxt>THE FOUNDATION'S ACTIVITIES WERE WOUND UP IN 2019 WITH ALL ASSETS USED TO PAY OPERATING EXPENSES AND TO MAKE CHARITABLE DISTRIBUTIONS. FINAL DISTRIBUTIONS WERE MADE NOV 4, 2019. THE FOUNDATION WILL BE FORMALLY DISSOLVED.</ExplanationTxt>
+    </LiquidationExplanationStmt>
+    <TaxesSchedule documentId="RetDoc2002500001">
+      <TaxesDetail>
+        <CategoryTxt>FRANCHISE TAX BOARD</CategoryTxt>
+        <Amt>20</Amt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>0</DisbursementsCharitablePrpsAmt>
+      </TaxesDetail>
+      <TaxesDetail>
+        <CategoryTxt>REGISTRY OF CHARITABLE TRUSTS</CategoryTxt>
+        <Amt>50</Amt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>0</DisbursementsCharitablePrpsAmt>
+      </TaxesDetail>
+      <TaxesDetail>
+        <CategoryTxt>SECRETARY OF STATE</CategoryTxt>
+        <Amt>20</Amt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>0</DisbursementsCharitablePrpsAmt>
+      </TaxesDetail>
+    </TaxesSchedule>
+  </ReturnData>
+</Return>

@@ -1,0 +1,803 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Return xmlns="http://www.irs.gov/efile" returnVersion="2019v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2020-01-28T10:24:00-05:00</ReturnTs>
+    <TaxPeriodEndDt>2019-12-31</TaxPeriodEndDt>
+    <PreparerFirmGrp>
+      <PreparerFirmEIN>421028246</PreparerFirmEIN>
+      <PreparerFirmName>
+        <BusinessNameLine1Txt>LASHIER BONEFAS BALDWIN &amp; CO PC</BusinessNameLine1Txt>
+      </PreparerFirmName>
+      <PreparerUSAddress>
+        <AddressLine1Txt>PO BOX 307</AddressLine1Txt>
+        <CityNm>Shenandoah</CityNm>
+        <StateAbbreviationCd>IA</StateAbbreviationCd>
+        <ZIPCd>51601</ZIPCd>
+      </PreparerUSAddress>
+    </PreparerFirmGrp>
+    <ReturnTypeCd>990PF</ReturnTypeCd>
+    <TaxPeriodBeginDt>2019-01-01</TaxPeriodBeginDt>
+    <Filer>
+      <EIN>421091743</EIN>
+      <BusinessName>
+        <BusinessNameLine1Txt>MARY LOUISE GIDLEY SCHOLARSHIP FUND</BusinessNameLine1Txt>
+      </BusinessName>
+      <BusinessNameControlTxt>MARY</BusinessNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>PO BOX 54</AddressLine1Txt>
+        <CityNm>SHENANDOAH</CityNm>
+        <StateAbbreviationCd>IA</StateAbbreviationCd>
+        <ZIPCd>51601</ZIPCd>
+      </USAddress>
+    </Filer>
+    <BusinessOfficerGrp>
+      <PersonNm>DAVID LASHIER</PersonNm>
+      <PersonTitleTxt>TRUSTEE</PersonTitleTxt>
+      <PhoneNum>7122462029</PhoneNum>
+      <SignatureDt>2020-01-27</SignatureDt>
+      <DiscussWithPaidPreparerInd>true</DiscussWithPaidPreparerInd>
+    </BusinessOfficerGrp>
+    <PreparerPersonGrp>
+      <PreparerPersonNm>DAVID LASHIER</PreparerPersonNm>
+      <PTIN>P00295232</PTIN>
+      <PhoneNum>7122462029</PhoneNum>
+      <PreparationDt>2020-01-28</PreparationDt>
+    </PreparerPersonGrp>
+    <FilingSecurityInformation>
+      <IPAddress>
+        <IPv4AddressTxt>199.120.74.163</IPv4AddressTxt>
+      </IPAddress>
+      <IPDt>2020-01-28</IPDt>
+      <IPTm>10:33:42</IPTm>
+      <FederalOriginalSubmissionId>4212772020028ea4ts3s</FederalOriginalSubmissionId>
+      <FederalOriginalSubmissionIdDt>2020-01-28</FederalOriginalSubmissionIdDt>
+      <FilingLicenseTypeCd>P</FilingLicenseTypeCd>
+      <AtSubmissionCreationDeviceId>C8D8622C0C69FB0643FEB0534C6151A28DB2348E</AtSubmissionCreationDeviceId>
+      <AtSubmissionFilingDeviceId>C8D8622C0C69FB0643FEB0534C6151A28DB2348E</AtSubmissionFilingDeviceId>
+    </FilingSecurityInformation>
+    <TaxYr>2019</TaxYr>
+    <BuildTS>2021-04-22 16:20:28Z</BuildTS>
+  </ReturnHeader>
+  <ReturnData documentCnt="6">
+    <IRS990PF documentId="IRS990PF">
+      <Organization501c3ExemptPFInd>X</Organization501c3ExemptPFInd>
+      <FMVAssetsEOYAmt>405552</FMVAssetsEOYAmt>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <AnalysisOfRevenueAndExpenses>
+        <ScheduleBNotRequiredInd>X</ScheduleBNotRequiredInd>
+        <InterestOnSavRevAndExpnssAmt>917</InterestOnSavRevAndExpnssAmt>
+        <InterestOnSavNetInvstIncmAmt>917</InterestOnSavNetInvstIncmAmt>
+        <InterestOnSavingsAdjNetIncmAmt>917</InterestOnSavingsAdjNetIncmAmt>
+        <IncmModificationsAdjNetIncmAmt>48742</IncmModificationsAdjNetIncmAmt>
+        <TotalRevAndExpnssAmt>917</TotalRevAndExpnssAmt>
+        <TotalNetInvstIncmAmt>917</TotalNetInvstIncmAmt>
+        <TotalAdjNetIncmAmt>49659</TotalAdjNetIncmAmt>
+        <CompOfcrDirTrstRevAndExpnssAmt>1000</CompOfcrDirTrstRevAndExpnssAmt>
+        <CompOfcrDirTrstNetInvstIncmAmt>1000</CompOfcrDirTrstNetInvstIncmAmt>
+        <CompOfcrDirTrstAdjNetIncmAmt>1000</CompOfcrDirTrstAdjNetIncmAmt>
+        <LegalFeesRevAndExpnssAmt referenceDocumentId="STM107">750</LegalFeesRevAndExpnssAmt>
+        <LegalFeesNetInvstIncmAmt>750</LegalFeesNetInvstIncmAmt>
+        <LegalFeesAdjNetIncmAmt>750</LegalFeesAdjNetIncmAmt>
+        <AccountingFeesRevAndExpnssAmt referenceDocumentId="STM108">4400</AccountingFeesRevAndExpnssAmt>
+        <AccountingFeesNetInvstIncmAmt>4400</AccountingFeesNetInvstIncmAmt>
+        <AccountingFeesAdjNetIncmAmt>4400</AccountingFeesAdjNetIncmAmt>
+        <OtherExpensesRevAndExpnssAmt referenceDocumentId="STM103">199</OtherExpensesRevAndExpnssAmt>
+        <OtherExpensesNetInvstIncmAmt>199</OtherExpensesNetInvstIncmAmt>
+        <OtherExpensesAdjNetIncmAmt>199</OtherExpensesAdjNetIncmAmt>
+        <TotOprExpensesRevAndExpnssAmt>6349</TotOprExpensesRevAndExpnssAmt>
+        <TotOprExpensesNetInvstIncmAmt>6349</TotOprExpensesNetInvstIncmAmt>
+        <TotOprExpensesAdjNetIncmAmt>6349</TotOprExpensesAdjNetIncmAmt>
+        <TotOprExpensesDsbrsChrtblAmt>0</TotOprExpensesDsbrsChrtblAmt>
+        <ContriPaidRevAndExpnssAmt>0</ContriPaidRevAndExpnssAmt>
+        <ContriPaidDsbrsChrtblAmt>0</ContriPaidDsbrsChrtblAmt>
+        <TotalExpensesRevAndExpnssAmt>6349</TotalExpensesRevAndExpnssAmt>
+        <TotalExpensesNetInvstIncmAmt>6349</TotalExpensesNetInvstIncmAmt>
+        <TotalExpensesAdjNetIncmAmt>6349</TotalExpensesAdjNetIncmAmt>
+        <TotalExpensesDsbrsChrtblAmt>0</TotalExpensesDsbrsChrtblAmt>
+        <ExcessRevenueOverExpensesAmt>-5432</ExcessRevenueOverExpensesAmt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>43310</AdjustedNetIncomeAmt>
+      </AnalysisOfRevenueAndExpenses>
+      <Form990PFBalanceSheetsGrp>
+        <CashBOYAmt>5792</CashBOYAmt>
+        <CashEOYAmt>22221</CashEOYAmt>
+        <CashEOYFMVAmt>22221</CashEOYFMVAmt>
+        <SavAndTempCashInvstBOYAmt>131565</SavAndTempCashInvstBOYAmt>
+        <SavAndTempCashInvstEOYAmt>102448</SavAndTempCashInvstEOYAmt>
+        <SavAndTempCashInvstEOYFMVAmt>102448</SavAndTempCashInvstEOYFMVAmt>
+        <OtherNtsAndLoansRcvblAmt>280883</OtherNtsAndLoansRcvblAmt>
+        <OtherNtsAndLoansRcvblBOYAmt>273625</OtherNtsAndLoansRcvblBOYAmt>
+        <OtherNtsAndLoansRcvblEOYAmt referenceDocumentId="STM113">280883</OtherNtsAndLoansRcvblEOYAmt>
+        <OtherNtsAndLoansRcvblEOYFMVAmt>280883</OtherNtsAndLoansRcvblEOYFMVAmt>
+        <TotalAssetsBOYAmt>410982</TotalAssetsBOYAmt>
+        <TotalAssetsEOYAmt>405552</TotalAssetsEOYAmt>
+        <TotalAssetsEOYFMVAmt>405552</TotalAssetsEOYFMVAmt>
+        <TotalLiabilitiesBOYAmt>0</TotalLiabilitiesBOYAmt>
+        <TotalLiabilitiesEOYAmt>0</TotalLiabilitiesEOYAmt>
+        <OrgDoesNotFollowFASB117Ind>X</OrgDoesNotFollowFASB117Ind>
+        <CapitalStockBOYAmt>171375</CapitalStockBOYAmt>
+        <CapitalStockEOYAmt>171375</CapitalStockEOYAmt>
+        <RetainedEarningBOYAmt>239607</RetainedEarningBOYAmt>
+        <RetainedEarningEOYAmt>234177</RetainedEarningEOYAmt>
+        <TotNetAstOrFundBalancesBOYAmt>410982</TotNetAstOrFundBalancesBOYAmt>
+        <TotNetAstOrFundBalancesEOYAmt>405552</TotNetAstOrFundBalancesEOYAmt>
+        <TotalLiabilitiesNetAstBOYAmt>410982</TotalLiabilitiesNetAstBOYAmt>
+        <TotalLiabilitiesNetAstEOYAmt>405552</TotalLiabilitiesNetAstEOYAmt>
+      </Form990PFBalanceSheetsGrp>
+      <ChgInNetAssetsFundBalancesGrp>
+        <TotNetAstOrFundBalancesBOYAmt>410982</TotNetAstOrFundBalancesBOYAmt>
+        <ExcessRevenueOverExpensesAmt>-5432</ExcessRevenueOverExpensesAmt>
+        <OtherIncreasesAmt referenceDocumentId="STM115">2</OtherIncreasesAmt>
+        <SubtotalAmt>405552</SubtotalAmt>
+        <TotNetAstOrFundBalancesEOYAmt>405552</TotNetAstOrFundBalancesEOYAmt>
+      </ChgInNetAssetsFundBalancesGrp>
+      <QlfyUndSect4940eReducedTaxGrp>
+        <AdjustedQlfyDistriYr1Amt>58750</AdjustedQlfyDistriYr1Amt>
+        <NetVlNoncharitableAssetsYr1Amt>138760</NetVlNoncharitableAssetsYr1Amt>
+        <DistributionYr1Rt>0.423393</DistributionYr1Rt>
+        <AdjustedQlfyDistriYr2Amt>53250</AdjustedQlfyDistriYr2Amt>
+        <NetVlNoncharitableAssetsYr2Amt>150978</NetVlNoncharitableAssetsYr2Amt>
+        <DistributionYr2Rt>0.3527</DistributionYr2Rt>
+        <AdjustedQlfyDistriYr3Amt>44000</AdjustedQlfyDistriYr3Amt>
+        <NetVlNoncharitableAssetsYr3Amt>192084</NetVlNoncharitableAssetsYr3Amt>
+        <DistributionYr3Rt>0.229066</DistributionYr3Rt>
+        <AdjustedQlfyDistriYr4Amt>27000</AdjustedQlfyDistriYr4Amt>
+        <NetVlNoncharitableAssetsYr4Amt>200909</NetVlNoncharitableAssetsYr4Amt>
+        <DistributionYr4Rt>0.134389</DistributionYr4Rt>
+        <AdjustedQlfyDistriYr5Amt>38000</AdjustedQlfyDistriYr5Amt>
+        <NetVlNoncharitableAssetsYr5Amt>197315</NetVlNoncharitableAssetsYr5Amt>
+        <DistributionYr5Rt>0.192585</DistributionYr5Rt>
+        <TotalDistributionRt>1.332134</TotalDistributionRt>
+        <AverageDistributionRt>0.266427</AverageDistributionRt>
+        <NetVlNoncharitableAssetsAmt>120998</NetVlNoncharitableAssetsAmt>
+        <AdjNetVlNoncharitableAssetsAmt>32237</AdjNetVlNoncharitableAssetsAmt>
+        <AdjNonchrtblNetInvstIncmPctAmt>32237</AdjNonchrtblNetInvstIncmPctAmt>
+        <QualifyingDistributionsAmt>55000</QualifyingDistributionsAmt>
+      </QlfyUndSect4940eReducedTaxGrp>
+      <ExciseTaxBasedOnInvstIncmGrp>
+        <DomesticOrgMeetingSect4940eInd>X</DomesticOrgMeetingSect4940eInd>
+        <InvestmentIncomeExciseTaxAmt>0</InvestmentIncomeExciseTaxAmt>
+        <TaxUnderSection511Amt>0</TaxUnderSection511Amt>
+        <SubtitleATaxAmt>0</SubtitleATaxAmt>
+        <TaxBasedOnInvestmentIncomeAmt>0</TaxBasedOnInvestmentIncomeAmt>
+      </ExciseTaxBasedOnInvstIncmGrp>
+      <StatementsRegardingActyGrp>
+        <LegislativePoliticalActyInd>false</LegislativePoliticalActyInd>
+        <MoreThan100SpentInd>false</MoreThan100SpentInd>
+        <Form1120POLFiledInd>false</Form1120POLFiledInd>
+        <ActivitiesNotPreviouslyRptInd>false</ActivitiesNotPreviouslyRptInd>
+        <ChangesToArticlesOrBylawsInd>false</ChangesToArticlesOrBylawsInd>
+        <UnrelatedBusIncmOverLimitInd>false</UnrelatedBusIncmOverLimitInd>
+        <OrganizationDissolvedEtcInd>false</OrganizationDissolvedEtcInd>
+        <Section508eRqrSatisfiedInd>true</Section508eRqrSatisfiedInd>
+        <AtLeast5000InAssetsInd>true</AtLeast5000InAssetsInd>
+        <OrgReportOrRegisterStateCd>IA</OrgReportOrRegisterStateCd>
+        <PrivateOperatingFoundationInd>false</PrivateOperatingFoundationInd>
+        <NewSubstantialContributorsInd>false</NewSubstantialContributorsInd>
+        <OwnControlledEntityInd>false</OwnControlledEntityInd>
+        <DonorAdvisedFundInd>false</DonorAdvisedFundInd>
+        <ComplyWithPublicInspRqrInd>true</ComplyWithPublicInspRqrInd>
+        <IndividualWithBooksNm>LASHIER BONEFAS BALDWIN CO PC</IndividualWithBooksNm>
+        <PhoneNum>7122462255</PhoneNum>
+        <LocationOfBooksUSAddress>
+          <AddressLine1Txt>513 W SHERIDAN AVE</AddressLine1Txt>
+          <CityNm>SHENANDOAH</CityNm>
+          <StateAbbreviationCd>IA</StateAbbreviationCd>
+          <ZIPCd>51601</ZIPCd>
+        </LocationOfBooksUSAddress>
+        <ForeignAccountsQuestionInd>false</ForeignAccountsQuestionInd>
+      </StatementsRegardingActyGrp>
+      <StatementsRegardingActy4720Grp>
+        <SaleOrExchDisqualifiedPrsnInd>false</SaleOrExchDisqualifiedPrsnInd>
+        <BrrwOrLendDisqualifiedPrsnInd>false</BrrwOrLendDisqualifiedPrsnInd>
+        <FurnGoodsDisqualifiedPrsnInd>false</FurnGoodsDisqualifiedPrsnInd>
+        <PayCompDisqualifiedPrsnInd>false</PayCompDisqualifiedPrsnInd>
+        <TransferAstDisqualifiedPrsnInd>false</TransferAstDisqualifiedPrsnInd>
+        <PaymentToGovernmentOfficialInd>false</PaymentToGovernmentOfficialInd>
+        <UncorrectedPriorActsInd>false</UncorrectedPriorActsInd>
+        <BusinessHoldingsInd>false</BusinessHoldingsInd>
+        <JeopardyInvestmentsInd>false</JeopardyInvestmentsInd>
+        <UncorrectedPYJeopardyInvstInd>false</UncorrectedPYJeopardyInvstInd>
+        <InfluenceLegislationInd>false</InfluenceLegislationInd>
+        <InfluenceElectionInd>false</InfluenceElectionInd>
+        <GrantsToIndividualsInd>false</GrantsToIndividualsInd>
+        <GrantsToOrganizationsInd>false</GrantsToOrganizationsInd>
+        <NoncharitablePurposeInd>false</NoncharitablePurposeInd>
+        <RcvFndsToPayPrsnlBnftCntrctInd>false</RcvFndsToPayPrsnlBnftCntrctInd>
+        <PayPremiumsPrsnlBnftCntrctInd>false</PayPremiumsPrsnlBnftCntrctInd>
+        <ProhibitedTaxShelterTransInd>false</ProhibitedTaxShelterTransInd>
+        <SubjToTaxRmnrtnExPrchtPymtInd>false</SubjToTaxRmnrtnExPrchtPymtInd>
+      </StatementsRegardingActy4720Grp>
+      <OfficerDirTrstKeyEmplInfoGrp>
+        <OfficerDirTrstKeyEmplGrp>
+          <PersonNm>KERRI NELSON</PersonNm>
+          <USAddress>
+            <AddressLine1Txt>PO BOX 54</AddressLine1Txt>
+            <CityNm>SHENANDOAH</CityNm>
+            <StateAbbreviationCd>IA</StateAbbreviationCd>
+            <ZIPCd>51601</ZIPCd>
+          </USAddress>
+          <TitleTxt>CHAIRMAN</TitleTxt>
+          <AverageHrsPerWkDevotedToPosRt>1.00</AverageHrsPerWkDevotedToPosRt>
+          <CompensationAmt>0</CompensationAmt>
+          <EmployeeBenefitProgramAmt>0</EmployeeBenefitProgramAmt>
+          <ExpenseAccountOtherAllwncAmt>0</ExpenseAccountOtherAllwncAmt>
+        </OfficerDirTrstKeyEmplGrp>
+        <OfficerDirTrstKeyEmplGrp>
+          <PersonNm>GARY GEE</PersonNm>
+          <USAddress>
+            <AddressLine1Txt>PO BOX 54</AddressLine1Txt>
+            <CityNm>SHENANDOAH</CityNm>
+            <StateAbbreviationCd>IA</StateAbbreviationCd>
+            <ZIPCd>51601</ZIPCd>
+          </USAddress>
+          <TitleTxt>ATTY</TitleTxt>
+          <AverageHrsPerWkDevotedToPosRt>1.00</AverageHrsPerWkDevotedToPosRt>
+          <CompensationAmt>500</CompensationAmt>
+          <EmployeeBenefitProgramAmt>0</EmployeeBenefitProgramAmt>
+          <ExpenseAccountOtherAllwncAmt>0</ExpenseAccountOtherAllwncAmt>
+        </OfficerDirTrstKeyEmplGrp>
+        <OfficerDirTrstKeyEmplGrp>
+          <PersonNm>DAVID LASHIER</PersonNm>
+          <USAddress>
+            <AddressLine1Txt>PO BOX 54</AddressLine1Txt>
+            <CityNm>SHENANDOAH</CityNm>
+            <StateAbbreviationCd>IA</StateAbbreviationCd>
+            <ZIPCd>51601</ZIPCd>
+          </USAddress>
+          <TitleTxt>SECTREAS</TitleTxt>
+          <AverageHrsPerWkDevotedToPosRt>1.00</AverageHrsPerWkDevotedToPosRt>
+          <CompensationAmt>500</CompensationAmt>
+          <EmployeeBenefitProgramAmt>0</EmployeeBenefitProgramAmt>
+          <ExpenseAccountOtherAllwncAmt>0</ExpenseAccountOtherAllwncAmt>
+        </OfficerDirTrstKeyEmplGrp>
+        <CompOfHghstPdEmplOrNONETxt>NONE</CompOfHghstPdEmplOrNONETxt>
+        <OtherEmployeePaidOver50kCnt>0</OtherEmployeePaidOver50kCnt>
+        <CompOfHghstPdCntrctOrNONETxt>NONE</CompOfHghstPdCntrctOrNONETxt>
+      </OfficerDirTrstKeyEmplInfoGrp>
+      <SumOfProgramRelatedInvstGrp>
+        <Description1Txt>EDUCATIONAL LOANS TO INDIVIDUAL STUDENTS - STATEMENT ATTACHED</Description1Txt>
+        <Expenses1Amt>55000</Expenses1Amt>
+        <TotalAmt>55000</TotalAmt>
+      </SumOfProgramRelatedInvstGrp>
+      <MinimumInvestmentReturnGrp>
+        <AverageMonthlyFMVOfSecAmt>100000</AverageMonthlyFMVOfSecAmt>
+        <AverageMonthlyCashBalancesAmt>22841</AverageMonthlyCashBalancesAmt>
+        <FMVAllOtherNoncharitableAstAmt>0</FMVAllOtherNoncharitableAstAmt>
+        <TotalFMVOfUnusedAssetsAmt>122841</TotalFMVOfUnusedAssetsAmt>
+        <AcquisitionIndebtednessAmt>0</AcquisitionIndebtednessAmt>
+        <AdjustedTotalFMVOfUnusedAstAmt>122841</AdjustedTotalFMVOfUnusedAstAmt>
+        <CashDeemedCharitableAmt>1843</CashDeemedCharitableAmt>
+        <NetVlNoncharitableAssetsAmt>120998</NetVlNoncharitableAssetsAmt>
+        <MinimumInvestmentReturnAmt>6050</MinimumInvestmentReturnAmt>
+      </MinimumInvestmentReturnGrp>
+      <DistributableAmountGrp>
+        <MinimumInvestmentReturnAmt>6050</MinimumInvestmentReturnAmt>
+        <DistributableBeforeAdjAmt>6050</DistributableBeforeAdjAmt>
+        <DistributableBeforeDedAmt>6050</DistributableBeforeDedAmt>
+        <DistributableAsAdjustedAmt>6050</DistributableAsAdjustedAmt>
+      </DistributableAmountGrp>
+      <QualifyingDistriPartXIIGrp>
+        <ExpensesAndContributionsAmt>0</ExpensesAndContributionsAmt>
+        <ProgramRelatedInvstTotalAmt>55000</ProgramRelatedInvstTotalAmt>
+        <QualifyingDistributionsAmt>55000</QualifyingDistributionsAmt>
+        <AdjustedQualifyingDistriAmt>55000</AdjustedQualifyingDistriAmt>
+      </QualifyingDistriPartXIIGrp>
+      <UndistributedIncomeGrp>
+        <DistributableAsAdjustedAmt>6050</DistributableAsAdjustedAmt>
+        <ExcessDistributionCyovYr5Amt>28134</ExcessDistributionCyovYr5Amt>
+        <ExcessDistributionCyovYr4Amt>16955</ExcessDistributionCyovYr4Amt>
+        <ExcessDistributionCyovYr3Amt>34396</ExcessDistributionCyovYr3Amt>
+        <ExcessDistributionCyovYr2Amt>45701</ExcessDistributionCyovYr2Amt>
+        <ExcessDistributionCyovYr1Amt>51812</ExcessDistributionCyovYr1Amt>
+        <TotalExcessDistributionCyovAmt>176998</TotalExcessDistributionCyovAmt>
+        <QualifyingDistributionsAmt>55000</QualifyingDistributionsAmt>
+        <AppliedToCurrentYearAmt>6050</AppliedToCurrentYearAmt>
+        <RemainingDistriFromCorpusAmt>48950</RemainingDistriFromCorpusAmt>
+        <TotalCorpusAmt>225948</TotalCorpusAmt>
+        <UndistributedIncomeCYAmt>0</UndistributedIncomeCYAmt>
+        <ExcessDistriCyovFromYr5Amt>28134</ExcessDistriCyovFromYr5Amt>
+        <ExcessDistriCyovToNextYrAmt>197814</ExcessDistriCyovToNextYrAmt>
+        <ExcessFromYear4Amt>16955</ExcessFromYear4Amt>
+        <ExcessFromYear3Amt>34396</ExcessFromYear3Amt>
+        <ExcessFromYear2Amt>45701</ExcessFromYear2Amt>
+        <ExcessFromYear1Amt>51812</ExcessFromYear1Amt>
+        <ExcessFromCurrentYearAmt>48950</ExcessFromCurrentYearAmt>
+      </UndistributedIncomeGrp>
+      <SupplementaryInformationGrp>
+        <ContributingManagerNm>NONE</ContributingManagerNm>
+        <ShareholderManagerNm>NONE</ShareholderManagerNm>
+        <ApplicationSubmissionInfoGrp>
+          <RecipientPersonNm>KERRI NELSON SUPT</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>304 W NISHNA RD</AddressLine1Txt>
+            <CityNm>SHENANDOAH</CityNm>
+            <StateAbbreviationCd>IA</StateAbbreviationCd>
+            <ZIPCd>51601</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientPhoneNum>7122461581</RecipientPhoneNum>
+          <FormAndInfoAndMaterialsTxt>SEE COPY ATTACHED</FormAndInfoAndMaterialsTxt>
+          <SubmissionDeadlinesTxt>JUNE 1 OF EACH YEAR</SubmissionDeadlinesTxt>
+          <RestrictionsOnAwardsTxt>APPLICANTS MUST BE GRADUATE OF SHENANDOAH IA HIGH SCHOOL</RestrictionsOnAwardsTxt>
+        </ApplicationSubmissionInfoGrp>
+        <TotalGrantOrContriPdDurYrAmt>0</TotalGrantOrContriPdDurYrAmt>
+        <TotalGrantOrContriApprvFutAmt>0</TotalGrantOrContriApprvFutAmt>
+      </SupplementaryInformationGrp>
+      <AnalysisIncomeProducingActyGrp>
+        <IntOnSavAndTempCashInvstGrp>
+          <ExclusionCd>14</ExclusionCd>
+        </IntOnSavAndTempCashInvstGrp>
+        <OtherInvestmentIncmPartVIIGrp>
+          <BusinessCd>900099</BusinessCd>
+        </OtherInvestmentIncmPartVIIGrp>
+      </AnalysisIncomeProducingActyGrp>
+      <TrnsfrTransRlnNonchrtblEOGrp>
+        <TrnsfrOfCashToNonchrtblEOInd>false</TrnsfrOfCashToNonchrtblEOInd>
+        <TrnsfrOtherAssetNonchrtblEOInd>false</TrnsfrOtherAssetNonchrtblEOInd>
+        <SalesOrExchangesOfAssetsInd>false</SalesOrExchangesOfAssetsInd>
+        <PurchaseOfAssetsNonchrtblEOInd>false</PurchaseOfAssetsNonchrtblEOInd>
+        <RentalOfFacilitiesOthAssetsInd>false</RentalOfFacilitiesOthAssetsInd>
+        <ReimbursementArrangementsInd>false</ReimbursementArrangementsInd>
+        <LoansOrLoanGuaranteesInd>false</LoansOrLoanGuaranteesInd>
+        <PerformanceOfServicesEtcInd>false</PerformanceOfServicesEtcInd>
+        <SharingOfFacilitiesEtcInd>false</SharingOfFacilitiesEtcInd>
+        <RelationshipsNonchrtblEOInd>false</RelationshipsNonchrtblEOInd>
+      </TrnsfrTransRlnNonchrtblEOGrp>
+    </IRS990PF>
+    <AccountingFeesSchedule documentId="STM108">
+      <AccountingFeesDetail>
+        <CategoryTxt>ACCOUNTING FEES</CategoryTxt>
+        <Amt>4400</Amt>
+        <NetInvestmentIncomeAmt>4400</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>4400</AdjustedNetIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>0</DisbursementsCharitablePrpsAmt>
+      </AccountingFeesDetail>
+    </AccountingFeesSchedule>
+    <LegalFeesSchedule documentId="STM107">
+      <LegalFeesGrp>
+        <CategoryTxt>LEGAL FEES</CategoryTxt>
+        <LegalFeesAmt>750</LegalFeesAmt>
+        <NetInvestmentIncomeAmt>750</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>750</AdjustedNetIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>0</DisbursementsCharitablePrpsAmt>
+      </LegalFeesGrp>
+    </LegalFeesSchedule>
+    <OtherExpensesSchedule documentId="STM103">
+      <OtherExpensesScheduleGrp>
+        <Desc>OFFICE EXPENSE</Desc>
+        <RevenueAndExpensesPerBooksAmt>199</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>199</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>199</AdjustedNetIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>0</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+    </OtherExpensesSchedule>
+    <OtherIncreasesSchedule documentId="STM115">
+      <OtherIncreasesDetail>
+        <Desc>ROUNDING</Desc>
+        <Amt>2</Amt>
+      </OtherIncreasesDetail>
+    </OtherIncreasesSchedule>
+    <OtherNotesLoansRcvblShortSch2 documentId="STM113">
+      <OtherNotesLoansRcvblShortGrp>
+        <Organization501c3Name>
+          <BusinessNameLine1Txt>BREANNA ALLELY</BusinessNameLine1Txt>
+        </Organization501c3Name>
+        <BalanceDueAmt>650</BalanceDueAmt>
+      </OtherNotesLoansRcvblShortGrp>
+      <OtherNotesLoansRcvblShortGrp>
+        <Organization501c3Name>
+          <BusinessNameLine1Txt>MADISON REGAN</BusinessNameLine1Txt>
+        </Organization501c3Name>
+        <BalanceDueAmt>3750</BalanceDueAmt>
+      </OtherNotesLoansRcvblShortGrp>
+      <OtherNotesLoansRcvblShortGrp>
+        <Organization501c3Name>
+          <BusinessNameLine1Txt>AMANDA HOPKINS</BusinessNameLine1Txt>
+        </Organization501c3Name>
+        <BalanceDueAmt>2640</BalanceDueAmt>
+      </OtherNotesLoansRcvblShortGrp>
+      <OtherNotesLoansRcvblShortGrp>
+        <Organization501c3Name>
+          <BusinessNameLine1Txt>RYAN LAUGHLIN</BusinessNameLine1Txt>
+        </Organization501c3Name>
+        <BalanceDueAmt>600</BalanceDueAmt>
+      </OtherNotesLoansRcvblShortGrp>
+      <OtherNotesLoansRcvblShortGrp>
+        <Organization501c3Name>
+          <BusinessNameLine1Txt>CIARAN MULLIGAN</BusinessNameLine1Txt>
+        </Organization501c3Name>
+        <BalanceDueAmt>2025</BalanceDueAmt>
+      </OtherNotesLoansRcvblShortGrp>
+      <OtherNotesLoansRcvblShortGrp>
+        <Organization501c3Name>
+          <BusinessNameLine1Txt>MATTHEW REGAN</BusinessNameLine1Txt>
+        </Organization501c3Name>
+        <BalanceDueAmt>8750</BalanceDueAmt>
+      </OtherNotesLoansRcvblShortGrp>
+      <OtherNotesLoansRcvblShortGrp>
+        <Organization501c3Name>
+          <BusinessNameLine1Txt>BRET ALLELY</BusinessNameLine1Txt>
+        </Organization501c3Name>
+        <BalanceDueAmt>950</BalanceDueAmt>
+      </OtherNotesLoansRcvblShortGrp>
+      <OtherNotesLoansRcvblShortGrp>
+        <Organization501c3Name>
+          <BusinessNameLine1Txt>JACOB BALM</BusinessNameLine1Txt>
+        </Organization501c3Name>
+        <BalanceDueAmt>2000</BalanceDueAmt>
+      </OtherNotesLoansRcvblShortGrp>
+      <OtherNotesLoansRcvblShortGrp>
+        <Organization501c3Name>
+          <BusinessNameLine1Txt>OLIVIA DENTON</BusinessNameLine1Txt>
+        </Organization501c3Name>
+        <BalanceDueAmt>4750</BalanceDueAmt>
+      </OtherNotesLoansRcvblShortGrp>
+      <OtherNotesLoansRcvblShortGrp>
+        <Organization501c3Name>
+          <BusinessNameLine1Txt>KATELYN JOHNSON</BusinessNameLine1Txt>
+        </Organization501c3Name>
+        <BalanceDueAmt>4200</BalanceDueAmt>
+      </OtherNotesLoansRcvblShortGrp>
+      <OtherNotesLoansRcvblShortGrp>
+        <Organization501c3Name>
+          <BusinessNameLine1Txt>JORDYN LEMBRICK</BusinessNameLine1Txt>
+        </Organization501c3Name>
+        <BalanceDueAmt>2000</BalanceDueAmt>
+      </OtherNotesLoansRcvblShortGrp>
+      <OtherNotesLoansRcvblShortGrp>
+        <Organization501c3Name>
+          <BusinessNameLine1Txt>NATALIE HOLBEN</BusinessNameLine1Txt>
+        </Organization501c3Name>
+        <BalanceDueAmt>6250</BalanceDueAmt>
+      </OtherNotesLoansRcvblShortGrp>
+      <OtherNotesLoansRcvblShortGrp>
+        <Organization501c3Name>
+          <BusinessNameLine1Txt>THOMAS RICE</BusinessNameLine1Txt>
+        </Organization501c3Name>
+        <BalanceDueAmt>7000</BalanceDueAmt>
+      </OtherNotesLoansRcvblShortGrp>
+      <OtherNotesLoansRcvblShortGrp>
+        <Organization501c3Name>
+          <BusinessNameLine1Txt>JUSTIN SONS</BusinessNameLine1Txt>
+        </Organization501c3Name>
+        <BalanceDueAmt>900</BalanceDueAmt>
+      </OtherNotesLoansRcvblShortGrp>
+      <OtherNotesLoansRcvblShortGrp>
+        <Organization501c3Name>
+          <BusinessNameLine1Txt>AVERY BALDWIN</BusinessNameLine1Txt>
+        </Organization501c3Name>
+        <BalanceDueAmt>2500</BalanceDueAmt>
+      </OtherNotesLoansRcvblShortGrp>
+      <OtherNotesLoansRcvblShortGrp>
+        <Organization501c3Name>
+          <BusinessNameLine1Txt>BRITTANEE BARTLES</BusinessNameLine1Txt>
+        </Organization501c3Name>
+        <BalanceDueAmt>8756</BalanceDueAmt>
+      </OtherNotesLoansRcvblShortGrp>
+      <OtherNotesLoansRcvblShortGrp>
+        <Organization501c3Name>
+          <BusinessNameLine1Txt>DAVID EDDS</BusinessNameLine1Txt>
+        </Organization501c3Name>
+        <BalanceDueAmt>6200</BalanceDueAmt>
+      </OtherNotesLoansRcvblShortGrp>
+      <OtherNotesLoansRcvblShortGrp>
+        <Organization501c3Name>
+          <BusinessNameLine1Txt>NATALIE CUNNINGHAM</BusinessNameLine1Txt>
+        </Organization501c3Name>
+        <BalanceDueAmt>1250</BalanceDueAmt>
+      </OtherNotesLoansRcvblShortGrp>
+      <OtherNotesLoansRcvblShortGrp>
+        <Organization501c3Name>
+          <BusinessNameLine1Txt>STEVE MARTIN</BusinessNameLine1Txt>
+        </Organization501c3Name>
+        <BalanceDueAmt>5000</BalanceDueAmt>
+      </OtherNotesLoansRcvblShortGrp>
+      <OtherNotesLoansRcvblShortGrp>
+        <Organization501c3Name>
+          <BusinessNameLine1Txt>TORREY NELSON</BusinessNameLine1Txt>
+        </Organization501c3Name>
+        <BalanceDueAmt>6250</BalanceDueAmt>
+      </OtherNotesLoansRcvblShortGrp>
+      <OtherNotesLoansRcvblShortGrp>
+        <Organization501c3Name>
+          <BusinessNameLine1Txt>ALLISON ROLF</BusinessNameLine1Txt>
+        </Organization501c3Name>
+        <BalanceDueAmt>400</BalanceDueAmt>
+      </OtherNotesLoansRcvblShortGrp>
+      <OtherNotesLoansRcvblShortGrp>
+        <Organization501c3Name>
+          <BusinessNameLine1Txt>MARANDA BENGSTON</BusinessNameLine1Txt>
+        </Organization501c3Name>
+        <BalanceDueAmt>1250</BalanceDueAmt>
+      </OtherNotesLoansRcvblShortGrp>
+      <OtherNotesLoansRcvblShortGrp>
+        <Organization501c3Name>
+          <BusinessNameLine1Txt>JOSEPH BLAKE</BusinessNameLine1Txt>
+        </Organization501c3Name>
+        <BalanceDueAmt>3750</BalanceDueAmt>
+      </OtherNotesLoansRcvblShortGrp>
+      <OtherNotesLoansRcvblShortGrp>
+        <Organization501c3Name>
+          <BusinessNameLine1Txt>CHELSIE GREENE</BusinessNameLine1Txt>
+        </Organization501c3Name>
+        <BalanceDueAmt>3750</BalanceDueAmt>
+      </OtherNotesLoansRcvblShortGrp>
+      <OtherNotesLoansRcvblShortGrp>
+        <Organization501c3Name>
+          <BusinessNameLine1Txt>KELLISON DEREK</BusinessNameLine1Txt>
+        </Organization501c3Name>
+        <BalanceDueAmt>2800</BalanceDueAmt>
+      </OtherNotesLoansRcvblShortGrp>
+      <OtherNotesLoansRcvblShortGrp>
+        <Organization501c3Name>
+          <BusinessNameLine1Txt>LANCE MATTICE</BusinessNameLine1Txt>
+        </Organization501c3Name>
+        <BalanceDueAmt>1500</BalanceDueAmt>
+      </OtherNotesLoansRcvblShortGrp>
+      <OtherNotesLoansRcvblShortGrp>
+        <Organization501c3Name>
+          <BusinessNameLine1Txt>KATELYN PALMER</BusinessNameLine1Txt>
+        </Organization501c3Name>
+        <BalanceDueAmt>6250</BalanceDueAmt>
+      </OtherNotesLoansRcvblShortGrp>
+      <OtherNotesLoansRcvblShortGrp>
+        <Organization501c3Name>
+          <BusinessNameLine1Txt>MADISON SANER</BusinessNameLine1Txt>
+        </Organization501c3Name>
+        <BalanceDueAmt>4400</BalanceDueAmt>
+      </OtherNotesLoansRcvblShortGrp>
+      <OtherNotesLoansRcvblShortGrp>
+        <Organization501c3Name>
+          <BusinessNameLine1Txt>TRENTON TURNEY</BusinessNameLine1Txt>
+        </Organization501c3Name>
+        <BalanceDueAmt>12200</BalanceDueAmt>
+      </OtherNotesLoansRcvblShortGrp>
+      <OtherNotesLoansRcvblShortGrp>
+        <Organization501c3Name>
+          <BusinessNameLine1Txt>BRANDON BAIN</BusinessNameLine1Txt>
+        </Organization501c3Name>
+        <BalanceDueAmt>3750</BalanceDueAmt>
+      </OtherNotesLoansRcvblShortGrp>
+      <OtherNotesLoansRcvblShortGrp>
+        <Organization501c3Name>
+          <BusinessNameLine1Txt>BRODY BOPP</BusinessNameLine1Txt>
+        </Organization501c3Name>
+        <BalanceDueAmt>8750</BalanceDueAmt>
+      </OtherNotesLoansRcvblShortGrp>
+      <OtherNotesLoansRcvblShortGrp>
+        <Organization501c3Name>
+          <BusinessNameLine1Txt>CARLIE MANROSE</BusinessNameLine1Txt>
+        </Organization501c3Name>
+        <BalanceDueAmt>1250</BalanceDueAmt>
+      </OtherNotesLoansRcvblShortGrp>
+      <OtherNotesLoansRcvblShortGrp>
+        <Organization501c3Name>
+          <BusinessNameLine1Txt>KYLEE CONNELL</BusinessNameLine1Txt>
+        </Organization501c3Name>
+        <BalanceDueAmt>6250</BalanceDueAmt>
+      </OtherNotesLoansRcvblShortGrp>
+      <OtherNotesLoansRcvblShortGrp>
+        <Organization501c3Name>
+          <BusinessNameLine1Txt>GREGG MAX</BusinessNameLine1Txt>
+        </Organization501c3Name>
+        <BalanceDueAmt>150</BalanceDueAmt>
+      </OtherNotesLoansRcvblShortGrp>
+      <OtherNotesLoansRcvblShortGrp>
+        <Organization501c3Name>
+          <BusinessNameLine1Txt>MIKAYLA PALMER</BusinessNameLine1Txt>
+        </Organization501c3Name>
+        <BalanceDueAmt>7250</BalanceDueAmt>
+      </OtherNotesLoansRcvblShortGrp>
+      <OtherNotesLoansRcvblShortGrp>
+        <Organization501c3Name>
+          <BusinessNameLine1Txt>JACOB SCHUBERT</BusinessNameLine1Txt>
+        </Organization501c3Name>
+        <BalanceDueAmt>3200</BalanceDueAmt>
+      </OtherNotesLoansRcvblShortGrp>
+      <OtherNotesLoansRcvblShortGrp>
+        <Organization501c3Name>
+          <BusinessNameLine1Txt>SARAH WOOD</BusinessNameLine1Txt>
+        </Organization501c3Name>
+        <BalanceDueAmt>6250</BalanceDueAmt>
+      </OtherNotesLoansRcvblShortGrp>
+      <OtherNotesLoansRcvblShortGrp>
+        <Organization501c3Name>
+          <BusinessNameLine1Txt>SAMANTHA BAKER</BusinessNameLine1Txt>
+        </Organization501c3Name>
+        <BalanceDueAmt>8450</BalanceDueAmt>
+      </OtherNotesLoansRcvblShortGrp>
+      <OtherNotesLoansRcvblShortGrp>
+        <Organization501c3Name>
+          <BusinessNameLine1Txt>GARRETT CLARK</BusinessNameLine1Txt>
+        </Organization501c3Name>
+        <BalanceDueAmt>750</BalanceDueAmt>
+      </OtherNotesLoansRcvblShortGrp>
+      <OtherNotesLoansRcvblShortGrp>
+        <Organization501c3Name>
+          <BusinessNameLine1Txt>STEVE RUIZ</BusinessNameLine1Txt>
+        </Organization501c3Name>
+        <BalanceDueAmt>1250</BalanceDueAmt>
+      </OtherNotesLoansRcvblShortGrp>
+      <OtherNotesLoansRcvblShortGrp>
+        <Organization501c3Name>
+          <BusinessNameLine1Txt>JESSICA LAMBERTSEN</BusinessNameLine1Txt>
+        </Organization501c3Name>
+        <BalanceDueAmt>2170</BalanceDueAmt>
+      </OtherNotesLoansRcvblShortGrp>
+      <OtherNotesLoansRcvblShortGrp>
+        <Organization501c3Name>
+          <BusinessNameLine1Txt>JOURDAN PERKINS</BusinessNameLine1Txt>
+        </Organization501c3Name>
+        <BalanceDueAmt>3800</BalanceDueAmt>
+      </OtherNotesLoansRcvblShortGrp>
+      <OtherNotesLoansRcvblShortGrp>
+        <Organization501c3Name>
+          <BusinessNameLine1Txt>JAMIE SCHUBERT</BusinessNameLine1Txt>
+        </Organization501c3Name>
+        <BalanceDueAmt>4010</BalanceDueAmt>
+      </OtherNotesLoansRcvblShortGrp>
+      <OtherNotesLoansRcvblShortGrp>
+        <Organization501c3Name>
+          <BusinessNameLine1Txt>DREW VANCE</BusinessNameLine1Txt>
+        </Organization501c3Name>
+        <BalanceDueAmt>2375</BalanceDueAmt>
+      </OtherNotesLoansRcvblShortGrp>
+      <OtherNotesLoansRcvblShortGrp>
+        <Organization501c3Name>
+          <BusinessNameLine1Txt>MIKAYLA ADKINS</BusinessNameLine1Txt>
+        </Organization501c3Name>
+        <BalanceDueAmt>3750</BalanceDueAmt>
+      </OtherNotesLoansRcvblShortGrp>
+      <OtherNotesLoansRcvblShortGrp>
+        <Organization501c3Name>
+          <BusinessNameLine1Txt>TASHA CLARK</BusinessNameLine1Txt>
+        </Organization501c3Name>
+        <BalanceDueAmt>600</BalanceDueAmt>
+      </OtherNotesLoansRcvblShortGrp>
+      <OtherNotesLoansRcvblShortGrp>
+        <Organization501c3Name>
+          <BusinessNameLine1Txt>NICHOLAS STANLEY</BusinessNameLine1Txt>
+        </Organization501c3Name>
+        <BalanceDueAmt>3750</BalanceDueAmt>
+      </OtherNotesLoansRcvblShortGrp>
+      <OtherNotesLoansRcvblShortGrp>
+        <Organization501c3Name>
+          <BusinessNameLine1Txt>ALEX LAUGHLIN</BusinessNameLine1Txt>
+        </Organization501c3Name>
+        <BalanceDueAmt>2500</BalanceDueAmt>
+      </OtherNotesLoansRcvblShortGrp>
+      <OtherNotesLoansRcvblShortGrp>
+        <Organization501c3Name>
+          <BusinessNameLine1Txt>ANNA MEYER</BusinessNameLine1Txt>
+        </Organization501c3Name>
+        <BalanceDueAmt>1000</BalanceDueAmt>
+      </OtherNotesLoansRcvblShortGrp>
+      <OtherNotesLoansRcvblShortGrp>
+        <Organization501c3Name>
+          <BusinessNameLine1Txt>JOCELYN PERRYMAN</BusinessNameLine1Txt>
+        </Organization501c3Name>
+        <BalanceDueAmt>900</BalanceDueAmt>
+      </OtherNotesLoansRcvblShortGrp>
+      <OtherNotesLoansRcvblShortGrp>
+        <Organization501c3Name>
+          <BusinessNameLine1Txt>JORDAN SCHUBERT</BusinessNameLine1Txt>
+        </Organization501c3Name>
+        <BalanceDueAmt>700</BalanceDueAmt>
+      </OtherNotesLoansRcvblShortGrp>
+      <OtherNotesLoansRcvblShortGrp>
+        <Organization501c3Name>
+          <BusinessNameLine1Txt>MARIAH WALRAVEN</BusinessNameLine1Txt>
+        </Organization501c3Name>
+        <BalanceDueAmt>6500</BalanceDueAmt>
+      </OtherNotesLoansRcvblShortGrp>
+      <OtherNotesLoansRcvblShortGrp>
+        <Organization501c3Name>
+          <BusinessNameLine1Txt>DELANEY BOPP</BusinessNameLine1Txt>
+        </Organization501c3Name>
+        <BalanceDueAmt>3750</BalanceDueAmt>
+      </OtherNotesLoansRcvblShortGrp>
+      <OtherNotesLoansRcvblShortGrp>
+        <Organization501c3Name>
+          <BusinessNameLine1Txt>KRISTIN COMSTOCK</BusinessNameLine1Txt>
+        </Organization501c3Name>
+        <BalanceDueAmt>250</BalanceDueAmt>
+      </OtherNotesLoansRcvblShortGrp>
+      <OtherNotesLoansRcvblShortGrp>
+        <Organization501c3Name>
+          <BusinessNameLine1Txt>JACOB HOLMES</BusinessNameLine1Txt>
+        </Organization501c3Name>
+        <BalanceDueAmt>6400</BalanceDueAmt>
+      </OtherNotesLoansRcvblShortGrp>
+      <OtherNotesLoansRcvblShortGrp>
+        <Organization501c3Name>
+          <BusinessNameLine1Txt>JOHNATHAN LAUGHLIN</BusinessNameLine1Txt>
+        </Organization501c3Name>
+        <BalanceDueAmt>8750</BalanceDueAmt>
+      </OtherNotesLoansRcvblShortGrp>
+      <OtherNotesLoansRcvblShortGrp>
+        <Organization501c3Name>
+          <BusinessNameLine1Txt>BEN MULLIGAN</BusinessNameLine1Txt>
+        </Organization501c3Name>
+        <BalanceDueAmt>6667</BalanceDueAmt>
+      </OtherNotesLoansRcvblShortGrp>
+      <OtherNotesLoansRcvblShortGrp>
+        <Organization501c3Name>
+          <BusinessNameLine1Txt>CATHERINE REAFLENG</BusinessNameLine1Txt>
+        </Organization501c3Name>
+        <BalanceDueAmt>6215</BalanceDueAmt>
+      </OtherNotesLoansRcvblShortGrp>
+      <OtherNotesLoansRcvblShortGrp>
+        <Organization501c3Name>
+          <BusinessNameLine1Txt>COURTNEY SCHUSTER</BusinessNameLine1Txt>
+        </Organization501c3Name>
+        <BalanceDueAmt>5000</BalanceDueAmt>
+      </OtherNotesLoansRcvblShortGrp>
+      <OtherNotesLoansRcvblShortGrp>
+        <Organization501c3Name>
+          <BusinessNameLine1Txt>TYLER WALRAVEN</BusinessNameLine1Txt>
+        </Organization501c3Name>
+        <BalanceDueAmt>875</BalanceDueAmt>
+      </OtherNotesLoansRcvblShortGrp>
+      <OtherNotesLoansRcvblShortGrp>
+        <Organization501c3Name>
+          <BusinessNameLine1Txt>DREW BAYLESS</BusinessNameLine1Txt>
+        </Organization501c3Name>
+        <BalanceDueAmt>1950</BalanceDueAmt>
+      </OtherNotesLoansRcvblShortGrp>
+      <OtherNotesLoansRcvblShortGrp>
+        <Organization501c3Name>
+          <BusinessNameLine1Txt>DEVIN EDDS</BusinessNameLine1Txt>
+        </Organization501c3Name>
+        <BalanceDueAmt>16500</BalanceDueAmt>
+      </OtherNotesLoansRcvblShortGrp>
+      <OtherNotesLoansRcvblShortGrp>
+        <Organization501c3Name>
+          <BusinessNameLine1Txt>JAKE JORDAN</BusinessNameLine1Txt>
+        </Organization501c3Name>
+        <BalanceDueAmt>2225</BalanceDueAmt>
+      </OtherNotesLoansRcvblShortGrp>
+      <OtherNotesLoansRcvblShortGrp>
+        <Organization501c3Name>
+          <BusinessNameLine1Txt>JORDAN MATHENY</BusinessNameLine1Txt>
+        </Organization501c3Name>
+        <BalanceDueAmt>1000</BalanceDueAmt>
+      </OtherNotesLoansRcvblShortGrp>
+      <OtherNotesLoansRcvblShortGrp>
+        <Organization501c3Name>
+          <BusinessNameLine1Txt>MAGI JONES</BusinessNameLine1Txt>
+        </Organization501c3Name>
+        <BalanceDueAmt>3750</BalanceDueAmt>
+      </OtherNotesLoansRcvblShortGrp>
+      <OtherNotesLoansRcvblShortGrp>
+        <Organization501c3Name>
+          <BusinessNameLine1Txt>MACKENZIE JOHNSON</BusinessNameLine1Txt>
+        </Organization501c3Name>
+        <BalanceDueAmt>1600</BalanceDueAmt>
+      </OtherNotesLoansRcvblShortGrp>
+      <OtherNotesLoansRcvblShortGrp>
+        <Organization501c3Name>
+          <BusinessNameLine1Txt>EVAN LINDBURG</BusinessNameLine1Txt>
+        </Organization501c3Name>
+        <BalanceDueAmt>6000</BalanceDueAmt>
+      </OtherNotesLoansRcvblShortGrp>
+      <OtherNotesLoansRcvblShortGrp>
+        <Organization501c3Name>
+          <BusinessNameLine1Txt>RDONYA NELSON</BusinessNameLine1Txt>
+        </Organization501c3Name>
+        <BalanceDueAmt>10750</BalanceDueAmt>
+      </OtherNotesLoansRcvblShortGrp>
+      <OtherNotesLoansRcvblShortGrp>
+        <Organization501c3Name>
+          <BusinessNameLine1Txt>TYLER RICE</BusinessNameLine1Txt>
+        </Organization501c3Name>
+        <BalanceDueAmt>5000</BalanceDueAmt>
+      </OtherNotesLoansRcvblShortGrp>
+      <OtherNotesLoansRcvblShortGrp>
+        <Organization501c3Name>
+          <BusinessNameLine1Txt>DALTON STOAK</BusinessNameLine1Txt>
+        </Organization501c3Name>
+        <BalanceDueAmt>2125</BalanceDueAmt>
+      </OtherNotesLoansRcvblShortGrp>
+    </OtherNotesLoansRcvblShortSch2>
+  </ReturnData>
+</Return>
