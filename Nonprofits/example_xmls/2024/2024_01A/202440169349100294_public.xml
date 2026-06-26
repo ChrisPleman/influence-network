@@ -1,0 +1,963 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Return xmlns="http://www.irs.gov/efile" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" returnVersion="2022v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2024-01-09T09:57:03-05:00</ReturnTs>
+    <TaxPeriodEndDt>2023-09-30</TaxPeriodEndDt>
+    <PreparerFirmGrp>
+      <PreparerFirmName>
+        <BusinessNameLine1Txt>WHITE WITHERS MASINCUP &amp; CANNADAY PC</BusinessNameLine1Txt>
+      </PreparerFirmName>
+      <PreparerUSAddress>
+        <AddressLine1Txt>PO BOX 1048</AddressLine1Txt>
+        <CityNm>STAUNTON</CityNm>
+        <StateAbbreviationCd>VA</StateAbbreviationCd>
+        <ZIPCd>244021048</ZIPCd>
+      </PreparerUSAddress>
+    </PreparerFirmGrp>
+    <ReturnTypeCd>990PF</ReturnTypeCd>
+    <TaxPeriodBeginDt>2022-10-01</TaxPeriodBeginDt>
+    <Filer>
+      <EIN>541157065</EIN>
+      <BusinessName>
+        <BusinessNameLine1Txt>KENNARD EDUCATIONAL FUND INC</BusinessNameLine1Txt>
+        <BusinessNameLine2Txt>C/O ATLANTIC UNION BANK</BusinessNameLine2Txt>
+      </BusinessName>
+      <BusinessNameControlTxt>KENN</BusinessNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>PO BOX 1268</AddressLine1Txt>
+        <CityNm>STAUNTON</CityNm>
+        <StateAbbreviationCd>VA</StateAbbreviationCd>
+        <ZIPCd>244021268</ZIPCd>
+      </USAddress>
+    </Filer>
+    <BusinessOfficerGrp>
+      <PersonNm>CARY ROBINSON</PersonNm>
+      <PersonTitleTxt>CHAIRPERSON</PersonTitleTxt>
+      <PhoneNum>5402137241</PhoneNum>
+      <SignatureDt>2024-01-02</SignatureDt>
+      <DiscussWithPaidPreparerInd>true</DiscussWithPaidPreparerInd>
+    </BusinessOfficerGrp>
+    <SigningOfficerGrp>
+      <PersonFullName>
+        <PersonFirstNm>CARY</PersonFirstNm>
+        <PersonLastNm>ROBINSON</PersonLastNm>
+      </PersonFullName>
+      <SSN>XXX-XX-XXXX</SSN>
+    </SigningOfficerGrp>
+    <IRSResponsiblePrtyInfoCurrInd>false</IRSResponsiblePrtyInfoCurrInd>
+    <PreparerPersonGrp>
+      <PreparerPersonNm>CHRISTOPHER T CAMPBELL</PreparerPersonNm>
+      <PTIN>P02056483</PTIN>
+      <PhoneNum>5408858123</PhoneNum>
+      <PreparationDt>2024-01-02</PreparationDt>
+    </PreparerPersonGrp>
+    <TaxYr>2022</TaxYr>
+    <BuildTS>2023-04-26 12:10:37Z</BuildTS>
+  </ReturnHeader>
+  <ReturnData documentCnt="13">
+    <IRS990PF documentId="RetDoc13">
+      <Organization501c3ExemptPFInd>X</Organization501c3ExemptPFInd>
+      <FMVAssetsEOYAmt>1503343</FMVAssetsEOYAmt>
+      <MethodOfAccountingAccrualInd>X</MethodOfAccountingAccrualInd>
+      <AnalysisOfRevenueAndExpenses>
+        <ScheduleBNotRequiredInd>X</ScheduleBNotRequiredInd>
+        <DividendsRevAndExpnssAmt>50273</DividendsRevAndExpnssAmt>
+        <DividendsNetInvstIncmAmt>48721</DividendsNetInvstIncmAmt>
+        <DividendsAdjNetIncmAmt>50273</DividendsAdjNetIncmAmt>
+        <NetGainSaleAstRevAndExpnssAmt referenceDocumentId="RetDoc2">-1340</NetGainSaleAstRevAndExpnssAmt>
+        <GrossSalesPriceAmt>91045</GrossSalesPriceAmt>
+        <TotalRevAndExpnssAmt>48933</TotalRevAndExpnssAmt>
+        <TotalNetInvstIncmAmt>48721</TotalNetInvstIncmAmt>
+        <TotalAdjNetIncmAmt>50273</TotalAdjNetIncmAmt>
+        <LegalFeesRevAndExpnssAmt referenceDocumentId="RetDoc6">133</LegalFeesRevAndExpnssAmt>
+        <LegalFeesNetInvstIncmAmt>133</LegalFeesNetInvstIncmAmt>
+        <LegalFeesAdjNetIncmAmt>133</LegalFeesAdjNetIncmAmt>
+        <AccountingFeesRevAndExpnssAmt referenceDocumentId="RetDoc1">3907</AccountingFeesRevAndExpnssAmt>
+        <AccountingFeesNetInvstIncmAmt>3907</AccountingFeesNetInvstIncmAmt>
+        <AccountingFeesAdjNetIncmAmt>3907</AccountingFeesAdjNetIncmAmt>
+        <OtherProfFeesRevAndExpnssAmt referenceDocumentId="RetDoc11">13772</OtherProfFeesRevAndExpnssAmt>
+        <OtherProfFeesNetInvstIncmAmt>13772</OtherProfFeesNetInvstIncmAmt>
+        <OtherProfFeesAdjNetIncmAmt>13772</OtherProfFeesAdjNetIncmAmt>
+        <TaxesRevAndExpnssAmt referenceDocumentId="RetDoc12">50</TaxesRevAndExpnssAmt>
+        <TaxesNetInvstIncmAmt>50</TaxesNetInvstIncmAmt>
+        <TaxesAdjNetIncmAmt>50</TaxesAdjNetIncmAmt>
+        <OtherExpensesRevAndExpnssAmt referenceDocumentId="RetDoc9">763</OtherExpensesRevAndExpnssAmt>
+        <OtherExpensesNetInvstIncmAmt>763</OtherExpensesNetInvstIncmAmt>
+        <OtherExpensesAdjNetIncmAmt>763</OtherExpensesAdjNetIncmAmt>
+        <TotOprExpensesRevAndExpnssAmt>18625</TotOprExpensesRevAndExpnssAmt>
+        <TotOprExpensesNetInvstIncmAmt>18625</TotOprExpensesNetInvstIncmAmt>
+        <TotOprExpensesAdjNetIncmAmt>18625</TotOprExpensesAdjNetIncmAmt>
+        <TotOprExpensesDsbrsChrtblAmt>0</TotOprExpensesDsbrsChrtblAmt>
+        <ContriPaidRevAndExpnssAmt>0</ContriPaidRevAndExpnssAmt>
+        <ContriPaidDsbrsChrtblAmt>0</ContriPaidDsbrsChrtblAmt>
+        <TotalExpensesRevAndExpnssAmt>18625</TotalExpensesRevAndExpnssAmt>
+        <TotalExpensesNetInvstIncmAmt>18625</TotalExpensesNetInvstIncmAmt>
+        <TotalExpensesAdjNetIncmAmt>18625</TotalExpensesAdjNetIncmAmt>
+        <TotalExpensesDsbrsChrtblAmt>0</TotalExpensesDsbrsChrtblAmt>
+        <ExcessRevenueOverExpensesAmt>30308</ExcessRevenueOverExpensesAmt>
+        <NetInvestmentIncomeAmt>30096</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>31648</AdjustedNetIncomeAmt>
+      </AnalysisOfRevenueAndExpenses>
+      <Form990PFBalanceSheetsGrp>
+        <CashBOYAmt>2</CashBOYAmt>
+        <SavAndTempCashInvstBOYAmt>77940</SavAndTempCashInvstBOYAmt>
+        <SavAndTempCashInvstEOYAmt>147564</SavAndTempCashInvstEOYAmt>
+        <SavAndTempCashInvstEOYFMVAmt>147564</SavAndTempCashInvstEOYFMVAmt>
+        <OtherNtsAndLoansRcvblAmt>38205</OtherNtsAndLoansRcvblAmt>
+        <OtherNtsAndLoansRcvblBOYAmt>48916</OtherNtsAndLoansRcvblBOYAmt>
+        <OtherNtsAndLoansRcvblEOYAmt referenceDocumentId="RetDoc10">38205</OtherNtsAndLoansRcvblEOYAmt>
+        <OtherNtsAndLoansRcvblEOYFMVAmt>38205</OtherNtsAndLoansRcvblEOYFMVAmt>
+        <PrepaidExpensesBOYAmt>207</PrepaidExpensesBOYAmt>
+        <PrepaidExpensesEOYAmt>250</PrepaidExpensesEOYAmt>
+        <PrepaidExpensesEOYFMVAmt>250</PrepaidExpensesEOYFMVAmt>
+        <USGovernmentObligationsBOYAmt>162796</USGovernmentObligationsBOYAmt>
+        <USGovernmentObligationsEOYAmt referenceDocumentId="RetDoc5">72536</USGovernmentObligationsEOYAmt>
+        <USGovtObligationsEOYFMVAmt>68208</USGovtObligationsEOYFMVAmt>
+        <CorporateStockBOYAmt>538378</CorporateStockBOYAmt>
+        <CorporateStockEOYAmt referenceDocumentId="RetDoc4">504715</CorporateStockEOYAmt>
+        <CorporateStockEOYFMVAmt>794457</CorporateStockEOYFMVAmt>
+        <CorporateBondsBOYAmt>380113</CorporateBondsBOYAmt>
+        <CorporateBondsEOYAmt referenceDocumentId="RetDoc3">475186</CorporateBondsEOYAmt>
+        <CorporateBondsEOYFMVAmt>454659</CorporateBondsEOYFMVAmt>
+        <OtherAssetsBOYAmt referenceDocumentId="RetDoc7">-3</OtherAssetsBOYAmt>
+        <OtherAssetsEOYAmt referenceDocumentId="RetDoc7">-3</OtherAssetsEOYAmt>
+        <TotalAssetsBOYAmt>1208349</TotalAssetsBOYAmt>
+        <TotalAssetsEOYAmt>1238453</TotalAssetsEOYAmt>
+        <TotalAssetsEOYFMVAmt>1503343</TotalAssetsEOYFMVAmt>
+        <TotalLiabilitiesEOYAmt>0</TotalLiabilitiesEOYAmt>
+        <OrgDoesNotFollowFASB117Ind>X</OrgDoesNotFollowFASB117Ind>
+        <CapitalStockBOYAmt>177694</CapitalStockBOYAmt>
+        <CapitalStockEOYAmt>177694</CapitalStockEOYAmt>
+        <RetainedEarningBOYAmt>1030655</RetainedEarningBOYAmt>
+        <RetainedEarningEOYAmt>1060759</RetainedEarningEOYAmt>
+        <TotNetAstOrFundBalancesBOYAmt>1208349</TotNetAstOrFundBalancesBOYAmt>
+        <TotNetAstOrFundBalancesEOYAmt>1238453</TotNetAstOrFundBalancesEOYAmt>
+        <TotalLiabilitiesNetAstBOYAmt>1208349</TotalLiabilitiesNetAstBOYAmt>
+        <TotalLiabilitiesNetAstEOYAmt>1238453</TotalLiabilitiesNetAstEOYAmt>
+      </Form990PFBalanceSheetsGrp>
+      <ChgInNetAssetsFundBalancesGrp>
+        <TotNetAstOrFundBalancesBOYAmt>1208349</TotNetAstOrFundBalancesBOYAmt>
+        <ExcessRevenueOverExpensesAmt>30308</ExcessRevenueOverExpensesAmt>
+        <SubtotalAmt>1238657</SubtotalAmt>
+        <OtherDecreasesAmt referenceDocumentId="RetDoc8">204</OtherDecreasesAmt>
+        <TotNetAstOrFundBalancesEOYAmt>1238453</TotNetAstOrFundBalancesEOYAmt>
+      </ChgInNetAssetsFundBalancesGrp>
+      <ExciseTaxBasedOnInvstIncmGrp>
+        <InvestmentIncomeExciseTaxAmt>418</InvestmentIncomeExciseTaxAmt>
+        <SubtotalAmt>418</SubtotalAmt>
+        <TaxBasedOnInvestmentIncomeAmt>418</TaxBasedOnInvestmentIncomeAmt>
+        <EstimatedPlusOvpmtIncmTxAmt>250</EstimatedPlusOvpmtIncmTxAmt>
+        <TotalPaymentsAndCreditsAmt>250</TotalPaymentsAndCreditsAmt>
+        <TaxDueAmt>168</TaxDueAmt>
+      </ExciseTaxBasedOnInvstIncmGrp>
+      <StatementsRegardingActyGrp>
+        <LegislativePoliticalActyInd>false</LegislativePoliticalActyInd>
+        <MoreThan100SpentInd>false</MoreThan100SpentInd>
+        <Form1120POLFiledInd>false</Form1120POLFiledInd>
+        <ActivitiesNotPreviouslyRptInd>false</ActivitiesNotPreviouslyRptInd>
+        <ChangesToArticlesOrBylawsInd>false</ChangesToArticlesOrBylawsInd>
+        <UnrelatedBusIncmOverLimitInd>false</UnrelatedBusIncmOverLimitInd>
+        <OrganizationDissolvedEtcInd>false</OrganizationDissolvedEtcInd>
+        <Section508eRqrSatisfiedInd>true</Section508eRqrSatisfiedInd>
+        <AtLeast5000InAssetsInd>true</AtLeast5000InAssetsInd>
+        <OrgReportOrRegisterStateCd>VA</OrgReportOrRegisterStateCd>
+        <Form990PFFiledWithAttyGenInd>true</Form990PFFiledWithAttyGenInd>
+        <PrivateOperatingFoundationInd>false</PrivateOperatingFoundationInd>
+        <NewSubstantialContributorsInd>false</NewSubstantialContributorsInd>
+        <OwnControlledEntityInd>false</OwnControlledEntityInd>
+        <DonorAdvisedFundInd>false</DonorAdvisedFundInd>
+        <ComplyWithPublicInspRqrInd>true</ComplyWithPublicInspRqrInd>
+        <WebsiteAddressTxt>N/A</WebsiteAddressTxt>
+        <IndividualWithBooksNm>ATLANTIC UNION BANK</IndividualWithBooksNm>
+        <PhoneNum>5402137241</PhoneNum>
+        <LocationOfBooksUSAddress>
+          <AddressLine1Txt>24 S AUGUSTA STREET</AddressLine1Txt>
+          <CityNm>STAUNTON</CityNm>
+          <StateAbbreviationCd>VA</StateAbbreviationCd>
+          <ZIPCd>24401</ZIPCd>
+        </LocationOfBooksUSAddress>
+        <ForeignAccountsQuestionInd>false</ForeignAccountsQuestionInd>
+      </StatementsRegardingActyGrp>
+      <StatementsRegardingActy4720Grp>
+        <SaleOrExchDisqualifiedPrsnInd>false</SaleOrExchDisqualifiedPrsnInd>
+        <BrrwOrLendDisqualifiedPrsnInd>false</BrrwOrLendDisqualifiedPrsnInd>
+        <FurnGoodsDisqualifiedPrsnInd>false</FurnGoodsDisqualifiedPrsnInd>
+        <PayCompDisqualifiedPrsnInd>false</PayCompDisqualifiedPrsnInd>
+        <TransferAstDisqualifiedPrsnInd>false</TransferAstDisqualifiedPrsnInd>
+        <PaymentToGovernmentOfficialInd>false</PaymentToGovernmentOfficialInd>
+        <UndistributedIncomePYInd>false</UndistributedIncomePYInd>
+        <BusinessHoldingsInd>false</BusinessHoldingsInd>
+        <JeopardyInvestmentsInd>false</JeopardyInvestmentsInd>
+        <UncorrectedPYJeopardyInvstInd>false</UncorrectedPYJeopardyInvstInd>
+        <InfluenceLegislationInd>false</InfluenceLegislationInd>
+        <InfluenceElectionInd>false</InfluenceElectionInd>
+        <GrantsToIndividualsInd>false</GrantsToIndividualsInd>
+        <GrantsToOrganizationsInd>false</GrantsToOrganizationsInd>
+        <NoncharitablePurposeInd>false</NoncharitablePurposeInd>
+        <RcvFndsToPayPrsnlBnftCntrctInd>false</RcvFndsToPayPrsnlBnftCntrctInd>
+        <PayPremiumsPrsnlBnftCntrctInd>false</PayPremiumsPrsnlBnftCntrctInd>
+        <ProhibitedTaxShelterTransInd>false</ProhibitedTaxShelterTransInd>
+        <SubjToTaxRmnrtnExPrchtPymtInd>false</SubjToTaxRmnrtnExPrchtPymtInd>
+      </StatementsRegardingActy4720Grp>
+      <OfficerDirTrstKeyEmplInfoGrp>
+        <OfficerDirTrstKeyEmplGrp>
+          <PersonNm>CARY ROBINSON</PersonNm>
+          <USAddress>
+            <AddressLine1Txt>P O BOX 1268</AddressLine1Txt>
+            <CityNm>STAUNTON</CityNm>
+            <StateAbbreviationCd>VA</StateAbbreviationCd>
+            <ZIPCd>22402</ZIPCd>
+          </USAddress>
+          <TitleTxt>CHAIRPERSON</TitleTxt>
+          <AverageHrsPerWkDevotedToPosRt>000.00</AverageHrsPerWkDevotedToPosRt>
+          <CompensationAmt>0</CompensationAmt>
+          <EmployeeBenefitProgramAmt>0</EmployeeBenefitProgramAmt>
+          <ExpenseAccountOtherAllwncAmt>0</ExpenseAccountOtherAllwncAmt>
+        </OfficerDirTrstKeyEmplGrp>
+        <OfficerDirTrstKeyEmplGrp>
+          <PersonNm>LINNEA SPRADLIN</PersonNm>
+          <USAddress>
+            <AddressLine1Txt>P O BOX 1268</AddressLine1Txt>
+            <CityNm>STAUNTON</CityNm>
+            <StateAbbreviationCd>VA</StateAbbreviationCd>
+            <ZIPCd>22402</ZIPCd>
+          </USAddress>
+          <TitleTxt>SECRETARY</TitleTxt>
+          <AverageHrsPerWkDevotedToPosRt>000.00</AverageHrsPerWkDevotedToPosRt>
+          <CompensationAmt>0</CompensationAmt>
+          <EmployeeBenefitProgramAmt>0</EmployeeBenefitProgramAmt>
+          <ExpenseAccountOtherAllwncAmt>0</ExpenseAccountOtherAllwncAmt>
+        </OfficerDirTrstKeyEmplGrp>
+        <OfficerDirTrstKeyEmplGrp>
+          <PersonNm>ANDREW LILLY</PersonNm>
+          <USAddress>
+            <AddressLine1Txt>P O BOX 1268</AddressLine1Txt>
+            <CityNm>STAUNTON</CityNm>
+            <StateAbbreviationCd>VA</StateAbbreviationCd>
+            <ZIPCd>24402</ZIPCd>
+          </USAddress>
+          <TitleTxt>TREASURER</TitleTxt>
+          <AverageHrsPerWkDevotedToPosRt>000.00</AverageHrsPerWkDevotedToPosRt>
+          <CompensationAmt>0</CompensationAmt>
+          <EmployeeBenefitProgramAmt>0</EmployeeBenefitProgramAmt>
+          <ExpenseAccountOtherAllwncAmt>0</ExpenseAccountOtherAllwncAmt>
+        </OfficerDirTrstKeyEmplGrp>
+        <CompOfHghstPdEmplOrNONETxt>NONE</CompOfHghstPdEmplOrNONETxt>
+        <CompOfHghstPdCntrctOrNONETxt>NONE</CompOfHghstPdCntrctOrNONETxt>
+      </OfficerDirTrstKeyEmplInfoGrp>
+      <SummaryOfDirectChrtblActyGrp>
+        <Description1Txt>N/A</Description1Txt>
+      </SummaryOfDirectChrtblActyGrp>
+      <SumOfProgramRelatedInvstGrp>
+        <Description1Txt>N/A</Description1Txt>
+      </SumOfProgramRelatedInvstGrp>
+      <MinimumInvestmentReturnGrp>
+        <AverageMonthlyFMVOfSecAmt>0</AverageMonthlyFMVOfSecAmt>
+        <AverageMonthlyCashBalancesAmt>130556</AverageMonthlyCashBalancesAmt>
+        <FMVAllOtherNoncharitableAstAmt>0</FMVAllOtherNoncharitableAstAmt>
+        <TotalFMVOfUnusedAssetsAmt>130556</TotalFMVOfUnusedAssetsAmt>
+        <AdjustedTotalFMVOfUnusedAstAmt>130556</AdjustedTotalFMVOfUnusedAstAmt>
+        <CashDeemedCharitableAmt>1958</CashDeemedCharitableAmt>
+        <NetVlNoncharitableAssetsAmt>128598</NetVlNoncharitableAssetsAmt>
+        <MinimumInvestmentReturnAmt>6430</MinimumInvestmentReturnAmt>
+      </MinimumInvestmentReturnGrp>
+      <DistributableAmountGrp>
+        <MinimumInvestmentReturnAmt>6430</MinimumInvestmentReturnAmt>
+        <TaxBasedOnInvestmentIncomeAmt>418</TaxBasedOnInvestmentIncomeAmt>
+        <TotalTaxAmt>418</TotalTaxAmt>
+        <DistributableBeforeAdjAmt>6012</DistributableBeforeAdjAmt>
+        <DistributableBeforeDedAmt>6012</DistributableBeforeDedAmt>
+        <DistributableAsAdjustedAmt>6012</DistributableAsAdjustedAmt>
+      </DistributableAmountGrp>
+      <PFQualifyingDistributionsGrp>
+        <ExpensesAndContributionsAmt>0</ExpensesAndContributionsAmt>
+        <QualifyingDistributionsAmt>0</QualifyingDistributionsAmt>
+      </PFQualifyingDistributionsGrp>
+      <UndistributedIncomeGrp>
+        <DistributableAsAdjustedAmt>6012</DistributableAsAdjustedAmt>
+        <ExcessDistributionCyovYr5Amt>1946</ExcessDistributionCyovYr5Amt>
+        <ExcessDistributionCyovYr4Amt>1173</ExcessDistributionCyovYr4Amt>
+        <TotalExcessDistributionCyovAmt>3119</TotalExcessDistributionCyovAmt>
+        <ExcessDistriCyovAppCYCorpusAmt>3119</ExcessDistriCyovAppCYCorpusAmt>
+        <ExcessDistributionCyovAppCYAmt>3119</ExcessDistributionCyovAppCYAmt>
+        <UndistributedIncomeCYAmt>2893</UndistributedIncomeCYAmt>
+      </UndistributedIncomeGrp>
+      <SupplementaryInformationGrp>
+        <ApplicationSubmissionInfoGrp>
+          <RecipientPersonNm>CARY ROBINSON</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>ATLANTIC UNION BANK</AddressLine1Txt>
+            <AddressLine2Txt>P O BOX 1268</AddressLine2Txt>
+            <CityNm>STAUNTON</CityNm>
+            <StateAbbreviationCd>VA</StateAbbreviationCd>
+            <ZIPCd>24401</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientPhoneNum>5402137241</RecipientPhoneNum>
+          <RecipientEmailAddressTxt>CARY.ROBINSON@AUBWM.COM</RecipientEmailAddressTxt>
+          <FormAndInfoAndMaterialsTxt>FORMS AVAILABLE AT THE TRUST DEPARTMENT. APPLICANTS MUST PROVIDE ACADEMIC TRANSCRIPTS, FINANCIAL INFORMATION, EMPLOYMENT HISTORY, AND A STATEMENT DESCRIBING THE PURPOSE OF THE APPLICATION.</FormAndInfoAndMaterialsTxt>
+          <SubmissionDeadlinesTxt>THE JUNE 1 PRECEDING THE ACADEMIC YEAR.</SubmissionDeadlinesTxt>
+          <RestrictionsOnAwardsTxt>APPLICANTS MUST BE RESIDENTS OF THE CITIES OF STAUNTON OR WAYNESBORO OR THE COUNTY OF AUGUSTA.</RestrictionsOnAwardsTxt>
+        </ApplicationSubmissionInfoGrp>
+      </SupplementaryInformationGrp>
+      <AnalysisIncomeProducingActyGrp>
+        <DividendsAndInterestFromSecDtl>
+          <ExclusionCd>14</ExclusionCd>
+          <ExclusionAmt>1552</ExclusionAmt>
+          <RelatedOrExemptFunctionIncmAmt>48721</RelatedOrExemptFunctionIncmAmt>
+        </DividendsAndInterestFromSecDtl>
+        <GainSalesAstOthThanInvntryGrp>
+          <RelatedOrExemptFunctionIncmAmt>-1340</RelatedOrExemptFunctionIncmAmt>
+        </GainSalesAstOthThanInvntryGrp>
+        <SubtotalsIncmProducingActyGrp>
+          <ExclusionAmt>1552</ExclusionAmt>
+          <RelatedOrExemptFunctionIncmAmt>47381</RelatedOrExemptFunctionIncmAmt>
+        </SubtotalsIncmProducingActyGrp>
+        <TotalIncomeProducingActyAmt>48933</TotalIncomeProducingActyAmt>
+      </AnalysisIncomeProducingActyGrp>
+      <RlnOfActyToAccomOfExmptPrpsGrp>
+        <RlnOfActyToAccomOfExmptPrpsGrp>
+          <LineNumberTxt>4</LineNumberTxt>
+          <RelationshipStatementTxt>INCOME FROM THE FOUNDATION'S INVESTMENTS IS THE ONLY SOURCE OF INCOME TO CARRY OUT THE ORGANIZATION'S ACTIVITIES.</RelationshipStatementTxt>
+        </RlnOfActyToAccomOfExmptPrpsGrp>
+      </RlnOfActyToAccomOfExmptPrpsGrp>
+      <TrnsfrTransRlnNonchrtblEOGrp>
+        <TrnsfrOfCashToNonchrtblEOInd>false</TrnsfrOfCashToNonchrtblEOInd>
+        <TrnsfrOtherAssetNonchrtblEOInd>false</TrnsfrOtherAssetNonchrtblEOInd>
+        <SalesOrExchangesOfAssetsInd>false</SalesOrExchangesOfAssetsInd>
+        <PurchaseOfAssetsNonchrtblEOInd>false</PurchaseOfAssetsNonchrtblEOInd>
+        <RentalOfFacilitiesOthAssetsInd>false</RentalOfFacilitiesOthAssetsInd>
+        <ReimbursementArrangementsInd>false</ReimbursementArrangementsInd>
+        <LoansOrLoanGuaranteesInd>false</LoansOrLoanGuaranteesInd>
+        <PerformanceOfServicesEtcInd>false</PerformanceOfServicesEtcInd>
+        <SharingOfFacilitiesEtcInd>false</SharingOfFacilitiesEtcInd>
+        <RelationshipsNonchrtblEOInd>false</RelationshipsNonchrtblEOInd>
+      </TrnsfrTransRlnNonchrtblEOGrp>
+    </IRS990PF>
+    <AccountingFeesSchedule documentId="RetDoc1">
+      <AccountingFeesDetail>
+        <CategoryTxt>ACCOUNTING FEES</CategoryTxt>
+        <Amt>3907</Amt>
+        <NetInvestmentIncomeAmt>3907</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>3907</AdjustedNetIncomeAmt>
+      </AccountingFeesDetail>
+    </AccountingFeesSchedule>
+    <GainLossSaleOtherAssetsSch documentId="RetDoc2">
+      <GainLossSaleOtherAssetGrp>
+        <AssetDesc>VANECK GOLD MINERS ETF</AssetDesc>
+        <AcquiredDt>2020-05</AcquiredDt>
+        <HowAcquiredTxt>PURCHASE</HowAcquiredTxt>
+        <SoldDt>2022-11</SoldDt>
+        <GrossSalesPriceAmt>3809</GrossSalesPriceAmt>
+        <BasisAmt>5617</BasisAmt>
+        <TotalNetAmt>-1808</TotalNetAmt>
+      </GainLossSaleOtherAssetGrp>
+      <GainLossSaleOtherAssetGrp>
+        <AssetDesc>NATIONAL RURAL UTILS COOP FIN FR</AssetDesc>
+        <AcquiredDt>2018-01</AcquiredDt>
+        <HowAcquiredTxt>PURCHASE</HowAcquiredTxt>
+        <SoldDt>2023-03</SoldDt>
+        <GrossSalesPriceAmt>30000</GrossSalesPriceAmt>
+        <BasisAmt>30001</BasisAmt>
+        <TotalNetAmt>-1</TotalNetAmt>
+      </GainLossSaleOtherAssetGrp>
+      <GainLossSaleOtherAssetGrp>
+        <AssetDesc>PENNSYLVANIA ST GO BDS 1ST SE</AssetDesc>
+        <AcquiredDt>2021-08</AcquiredDt>
+        <HowAcquiredTxt>PURCHASE</HowAcquiredTxt>
+        <SoldDt>2023-03</SoldDt>
+        <GrossSalesPriceAmt>5000</GrossSalesPriceAmt>
+        <BasisAmt>5332</BasisAmt>
+        <TotalNetAmt>-332</TotalNetAmt>
+      </GainLossSaleOtherAssetGrp>
+      <GainLossSaleOtherAssetGrp>
+        <AssetDesc>JACOBS SOLUTIONS INC COM</AssetDesc>
+        <AcquiredDt>2020-11</AcquiredDt>
+        <HowAcquiredTxt>PURCHASE</HowAcquiredTxt>
+        <SoldDt>2023-04</SoldDt>
+        <GrossSalesPriceAmt>7658</GrossSalesPriceAmt>
+        <BasisAmt>6974</BasisAmt>
+        <TotalNetAmt>684</TotalNetAmt>
+      </GainLossSaleOtherAssetGrp>
+      <GainLossSaleOtherAssetGrp>
+        <AssetDesc>MEDTRONIC PLC SHS</AssetDesc>
+        <AcquiredDt>2020-03</AcquiredDt>
+        <HowAcquiredTxt>PURCHASE</HowAcquiredTxt>
+        <SoldDt>2023-04</SoldDt>
+        <GrossSalesPriceAmt>9739</GrossSalesPriceAmt>
+        <BasisAmt>10037</BasisAmt>
+        <TotalNetAmt>-298</TotalNetAmt>
+      </GainLossSaleOtherAssetGrp>
+      <GainLossSaleOtherAssetGrp>
+        <AssetDesc>DOMINION ENERGY, INC</AssetDesc>
+        <AcquiredDt>2019-02</AcquiredDt>
+        <HowAcquiredTxt>PURCHASE</HowAcquiredTxt>
+        <SoldDt>2023-04</SoldDt>
+        <GrossSalesPriceAmt>8200</GrossSalesPriceAmt>
+        <BasisAmt>9511</BasisAmt>
+        <TotalNetAmt>-1311</TotalNetAmt>
+      </GainLossSaleOtherAssetGrp>
+      <GainLossSaleOtherAssetGrp>
+        <AssetDesc>BROOKFIELD CORP CL A LTD VT SH</AssetDesc>
+        <AcquiredDt>2020-12</AcquiredDt>
+        <HowAcquiredTxt>PURCHASE</HowAcquiredTxt>
+        <SoldDt>2023-05</SoldDt>
+        <GrossSalesPriceAmt>8632</GrossSalesPriceAmt>
+        <BasisAmt>9091</BasisAmt>
+        <TotalNetAmt>-459</TotalNetAmt>
+      </GainLossSaleOtherAssetGrp>
+      <GainLossSaleOtherAssetGrp>
+        <AssetDesc>BROOKFIELD ASSET MANAGMT LTD CL A</AssetDesc>
+        <AcquiredDt>2020-12</AcquiredDt>
+        <HowAcquiredTxt>PURCHASE</HowAcquiredTxt>
+        <SoldDt>2023-05</SoldDt>
+        <GrossSalesPriceAmt>2247</GrossSalesPriceAmt>
+        <BasisAmt>2159</BasisAmt>
+        <TotalNetAmt>88</TotalNetAmt>
+      </GainLossSaleOtherAssetGrp>
+      <GainLossSaleOtherAssetGrp>
+        <AssetDesc>SELECT SECTOR SPDR TR UTILS</AssetDesc>
+        <AcquiredDt>2020-09</AcquiredDt>
+        <HowAcquiredTxt>PURCHASE</HowAcquiredTxt>
+        <SoldDt>2023-05</SoldDt>
+        <GrossSalesPriceAmt>15760</GrossSalesPriceAmt>
+        <BasisAmt>13663</BasisAmt>
+        <TotalNetAmt>2097</TotalNetAmt>
+      </GainLossSaleOtherAssetGrp>
+    </GainLossSaleOtherAssetsSch>
+    <InvestmentsCorpBondsSchedule documentId="RetDoc3">
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>BARCLAYS BK PLC MTN NOTE-DUE 11/4/25</BondNm>
+        <EOYBookValueAmt>20559</EOYBookValueAmt>
+        <EOYFMVAmt>19774</EOYFMVAmt>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>BARCLAYS BK PLC MTN NOTE-DUE 3/3/26</BondNm>
+        <EOYBookValueAmt>15807</EOYBookValueAmt>
+        <EOYFMVAmt>15823</EOYFMVAmt>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>CARLYE TACTICAL PRIVATE CREDIT</BondNm>
+        <EOYBookValueAmt>84923</EOYBookValueAmt>
+        <EOYFMVAmt>79700</EOYFMVAmt>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>CITIGROUP GLOBAL MARKETS 4%</BondNm>
+        <EOYBookValueAmt>30000</EOYBookValueAmt>
+        <EOYFMVAmt>29699</EOYFMVAmt>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>FEDERAL HOME LN MTG CORP 3%</BondNm>
+        <EOYBookValueAmt>45000</EOYBookValueAmt>
+        <EOYFMVAmt>44340</EOYFMVAmt>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>IBM 3.45%-DUE 2/19/16</BondNm>
+        <EOYBookValueAmt>30278</EOYBookValueAmt>
+        <EOYFMVAmt>28600</EOYFMVAmt>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>METLIFE INC SR GLBL NT 3% DUE 3/1/25</BondNm>
+        <EOYBookValueAmt>10029</EOYBookValueAmt>
+        <EOYFMVAmt>9624</EOYFMVAmt>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>MORGAN STANLEY 4%-DUE 7/23/25</BondNm>
+        <EOYBookValueAmt>20061</EOYBookValueAmt>
+        <EOYFMVAmt>19334</EOYFMVAmt>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>NATIONAL RURAL UTILS COOP 3% 3/15/12</BondNm>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>NATIONAL RURAL UTILS COOP 3% 7/15/23</BondNm>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>NATIONAL RURAL UTILS 3.45% 5/15/31</BondNm>
+        <EOYBookValueAmt>27362</EOYBookValueAmt>
+        <EOYFMVAmt>21107</EOYFMVAmt>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>QUALCOMM INC SR NT 3% DUE 5/20/22</BondNm>
+        <EOYBookValueAmt>25090</EOYBookValueAmt>
+        <EOYFMVAmt>24195</EOYFMVAmt>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>WELLS FARGO 4.3%-DUE 7/22/27</BondNm>
+        <EOYBookValueAmt>25274</EOYBookValueAmt>
+        <EOYFMVAmt>23559</EOYFMVAmt>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>FEDERAL FARM CR 4.75% DUE 11/21/23</BondNm>
+        <EOYBookValueAmt>19981</EOYBookValueAmt>
+        <EOYFMVAmt>19980</EOYFMVAmt>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>FEDERAL FARM CR 6.4% DUE 8/16/38</BondNm>
+        <EOYBookValueAmt>24888</EOYBookValueAmt>
+        <EOYFMVAmt>24582</EOYFMVAmt>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>FEDERAL NATL MTG 5.15% DUE 1/27/26</BondNm>
+        <EOYBookValueAmt>24983</EOYBookValueAmt>
+        <EOYFMVAmt>24671</EOYFMVAmt>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>INVESCO 30 CORP INDEXED FD</BondNm>
+        <EOYBookValueAmt>8307</EOYBookValueAmt>
+        <EOYFMVAmt>7977</EOYFMVAmt>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>INVESCO BELTSHS SELF-INDEXED FD</BondNm>
+        <EOYBookValueAmt>5531</EOYBookValueAmt>
+        <EOYFMVAmt>5380</EOYFMVAmt>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>INVESCO BULLETSHRS 2025 CORP BD EFT</BondNm>
+        <EOYBookValueAmt>5512</EOYBookValueAmt>
+        <EOYFMVAmt>5490</EOYFMVAmt>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>INVESCO BULLSHARES 2027 CORP BD ETF</BondNm>
+        <EOYBookValueAmt>5530</EOYBookValueAmt>
+        <EOYFMVAmt>5414</EOYFMVAmt>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>INVESCO BULLETSHRS 2026 CORP BD EFT</BondNm>
+        <EOYBookValueAmt>5516</EOYBookValueAmt>
+        <EOYFMVAmt>5448</EOYFMVAmt>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>INVESCO BULLETSHARES ETF FUND</BondNm>
+        <EOYBookValueAmt>5541</EOYBookValueAmt>
+        <EOYFMVAmt>5292</EOYFMVAmt>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>INVESCO EXCH SELF INDEED BULLTSHRS</BondNm>
+        <EOYBookValueAmt>8310</EOYBookValueAmt>
+        <EOYFMVAmt>7917</EOYFMVAmt>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>ISHARES TR IBONDS 23 TRM TS</BondNm>
+        <EOYBookValueAmt>21194</EOYBookValueAmt>
+        <EOYFMVAmt>21246</EOYFMVAmt>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>ISHARES TR IBONDS 24 TRM TS</BondNm>
+        <EOYBookValueAmt>5510</EOYBookValueAmt>
+        <EOYFMVAmt>5507</EOYFMVAmt>
+      </InvestmentsCorporateBondsGrp>
+    </InvestmentsCorpBondsSchedule>
+    <InvestmentsCorpStockSchedule documentId="RetDoc4">
+      <InvestmentsCorporateStockGrp>
+        <StockNm>ABBOTT LABS</StockNm>
+        <EOYBookValueAmt>5315</EOYBookValueAmt>
+        <EOYFMVAmt>13075</EOYFMVAmt>
+      </InvestmentsCorporateStockGrp>
+      <InvestmentsCorporateStockGrp>
+        <StockNm>ACCENTURE PLC IRELANDSHS CLASS</StockNm>
+        <EOYBookValueAmt>2408</EOYBookValueAmt>
+        <EOYFMVAmt>14434</EOYFMVAmt>
+      </InvestmentsCorporateStockGrp>
+      <InvestmentsCorporateStockGrp>
+        <StockNm>AIR PRODS &amp; CHEMS INC COM</StockNm>
+        <EOYBookValueAmt>2936</EOYBookValueAmt>
+        <EOYFMVAmt>3684</EOYFMVAmt>
+      </InvestmentsCorporateStockGrp>
+      <InvestmentsCorporateStockGrp>
+        <StockNm>AMAZON.COM INC</StockNm>
+        <EOYBookValueAmt>6574</EOYBookValueAmt>
+        <EOYFMVAmt>12712</EOYFMVAmt>
+      </InvestmentsCorporateStockGrp>
+      <InvestmentsCorporateStockGrp>
+        <StockNm>AMERICAN EXPRESS</StockNm>
+        <EOYBookValueAmt>3663</EOYBookValueAmt>
+        <EOYFMVAmt>10443</EOYFMVAmt>
+      </InvestmentsCorporateStockGrp>
+      <InvestmentsCorporateStockGrp>
+        <StockNm>AMERIPRISE FINL IN COM</StockNm>
+        <EOYBookValueAmt>5484</EOYBookValueAmt>
+        <EOYFMVAmt>5934</EOYFMVAmt>
+      </InvestmentsCorporateStockGrp>
+      <InvestmentsCorporateStockGrp>
+        <StockNm>APPLE INC</StockNm>
+        <EOYBookValueAmt>8279</EOYBookValueAmt>
+        <EOYFMVAmt>43830</EOYFMVAmt>
+      </InvestmentsCorporateStockGrp>
+      <InvestmentsCorporateStockGrp>
+        <StockNm>BANK OF AMERICA CORP</StockNm>
+        <EOYBookValueAmt>7542</EOYBookValueAmt>
+        <EOYFMVAmt>6325</EOYFMVAmt>
+      </InvestmentsCorporateStockGrp>
+      <InvestmentsCorporateStockGrp>
+        <StockNm>BECTON DICKINSON &amp; CO</StockNm>
+        <EOYBookValueAmt>3867</EOYBookValueAmt>
+        <EOYFMVAmt>9566</EOYFMVAmt>
+      </InvestmentsCorporateStockGrp>
+      <InvestmentsCorporateStockGrp>
+        <StockNm>BLUEROCK TOTAL INCOME</StockNm>
+        <EOYBookValueAmt>29054</EOYBookValueAmt>
+        <EOYFMVAmt>26053</EOYFMVAmt>
+      </InvestmentsCorporateStockGrp>
+      <InvestmentsCorporateStockGrp>
+        <StockNm>BROADCOM LTD</StockNm>
+        <EOYBookValueAmt>7591</EOYBookValueAmt>
+        <EOYFMVAmt>28240</EOYFMVAmt>
+      </InvestmentsCorporateStockGrp>
+      <InvestmentsCorporateStockGrp>
+        <StockNm>BROOKFIELD ASSET MGT IN CL A LTD</StockNm>
+      </InvestmentsCorporateStockGrp>
+      <InvestmentsCorporateStockGrp>
+        <StockNm>CANADIAN PAC</StockNm>
+        <EOYBookValueAmt>10340</EOYBookValueAmt>
+        <EOYFMVAmt>11310</EOYFMVAmt>
+      </InvestmentsCorporateStockGrp>
+      <InvestmentsCorporateStockGrp>
+        <StockNm>CHEVRON CORP</StockNm>
+        <EOYBookValueAmt>7264</EOYBookValueAmt>
+        <EOYFMVAmt>14164</EOYFMVAmt>
+      </InvestmentsCorporateStockGrp>
+      <InvestmentsCorporateStockGrp>
+        <StockNm>CISCO SYSTEMS INC</StockNm>
+        <EOYBookValueAmt>6697</EOYBookValueAmt>
+        <EOYFMVAmt>13171</EOYFMVAmt>
+      </InvestmentsCorporateStockGrp>
+      <InvestmentsCorporateStockGrp>
+        <StockNm>CROWN CASTLE INTL CORP</StockNm>
+        <EOYBookValueAmt>14189</EOYBookValueAmt>
+        <EOYFMVAmt>11504</EOYFMVAmt>
+      </InvestmentsCorporateStockGrp>
+      <InvestmentsCorporateStockGrp>
+        <StockNm>CVS HEALTH CORP</StockNm>
+        <EOYBookValueAmt>11479</EOYBookValueAmt>
+        <EOYFMVAmt>11032</EOYFMVAmt>
+      </InvestmentsCorporateStockGrp>
+      <InvestmentsCorporateStockGrp>
+        <StockNm>D R HORTON INC COM</StockNm>
+        <EOYBookValueAmt>11670</EOYBookValueAmt>
+        <EOYFMVAmt>17195</EOYFMVAmt>
+      </InvestmentsCorporateStockGrp>
+      <InvestmentsCorporateStockGrp>
+        <StockNm>DFA EMERGING MARKETS</StockNm>
+        <EOYBookValueAmt>30853</EOYBookValueAmt>
+        <EOYFMVAmt>30642</EOYFMVAmt>
+      </InvestmentsCorporateStockGrp>
+      <InvestmentsCorporateStockGrp>
+        <StockNm>DFA INTERNATIONAL CORE EQUITY</StockNm>
+        <EOYBookValueAmt>20742</EOYBookValueAmt>
+        <EOYFMVAmt>20523</EOYFMVAmt>
+      </InvestmentsCorporateStockGrp>
+      <InvestmentsCorporateStockGrp>
+        <StockNm>DIAGO PLC SPON ADR</StockNm>
+        <EOYBookValueAmt>3907</EOYBookValueAmt>
+        <EOYFMVAmt>7011</EOYFMVAmt>
+      </InvestmentsCorporateStockGrp>
+      <InvestmentsCorporateStockGrp>
+        <StockNm>DIGITAL RLTY TR INC</StockNm>
+        <EOYBookValueAmt>11058</EOYBookValueAmt>
+        <EOYFMVAmt>11013</EOYFMVAmt>
+      </InvestmentsCorporateStockGrp>
+      <InvestmentsCorporateStockGrp>
+        <StockNm>DISNEY WALT CO COM</StockNm>
+        <EOYBookValueAmt>5725</EOYBookValueAmt>
+        <EOYFMVAmt>3890</EOYFMVAmt>
+      </InvestmentsCorporateStockGrp>
+      <InvestmentsCorporateStockGrp>
+        <StockNm>DOMINION ENERGY</StockNm>
+      </InvestmentsCorporateStockGrp>
+      <InvestmentsCorporateStockGrp>
+        <StockNm>DUKE ENERGY CORP NEW COM</StockNm>
+        <EOYBookValueAmt>4984</EOYBookValueAmt>
+        <EOYFMVAmt>5560</EOYFMVAmt>
+      </InvestmentsCorporateStockGrp>
+      <InvestmentsCorporateStockGrp>
+        <StockNm>GALLAGHER ARTHUR J &amp; CO</StockNm>
+        <EOYBookValueAmt>4319</EOYBookValueAmt>
+        <EOYFMVAmt>24389</EOYFMVAmt>
+      </InvestmentsCorporateStockGrp>
+      <InvestmentsCorporateStockGrp>
+        <StockNm>GENUINE PARTS CO</StockNm>
+        <EOYBookValueAmt>3604</EOYBookValueAmt>
+        <EOYFMVAmt>10107</EOYFMVAmt>
+      </InvestmentsCorporateStockGrp>
+      <InvestmentsCorporateStockGrp>
+        <StockNm>GILEAD SCIENCES IN COM</StockNm>
+        <EOYBookValueAmt>4930</EOYBookValueAmt>
+        <EOYFMVAmt>4272</EOYFMVAmt>
+      </InvestmentsCorporateStockGrp>
+      <InvestmentsCorporateStockGrp>
+        <StockNm>GOLDMAN SACHS GROUP INC COM</StockNm>
+        <EOYBookValueAmt>4032</EOYBookValueAmt>
+        <EOYFMVAmt>6148</EOYFMVAmt>
+      </InvestmentsCorporateStockGrp>
+      <InvestmentsCorporateStockGrp>
+        <StockNm>HOME DEPOT INC COM</StockNm>
+        <EOYBookValueAmt>1722</EOYBookValueAmt>
+        <EOYFMVAmt>2417</EOYFMVAmt>
+      </InvestmentsCorporateStockGrp>
+      <InvestmentsCorporateStockGrp>
+        <StockNm>ILLINOIS TOOL WKS INC COM</StockNm>
+        <EOYBookValueAmt>7658</EOYBookValueAmt>
+        <EOYFMVAmt>7600</EOYFMVAmt>
+      </InvestmentsCorporateStockGrp>
+      <InvestmentsCorporateStockGrp>
+        <StockNm>INTEL CORP</StockNm>
+        <EOYBookValueAmt>3288</EOYBookValueAmt>
+        <EOYFMVAmt>5333</EOYFMVAmt>
+      </InvestmentsCorporateStockGrp>
+      <InvestmentsCorporateStockGrp>
+        <StockNm>ISHARES RUSSELL MID-CAP ETF</StockNm>
+        <EOYBookValueAmt>45574</EOYBookValueAmt>
+        <EOYFMVAmt>56508</EOYFMVAmt>
+      </InvestmentsCorporateStockGrp>
+      <InvestmentsCorporateStockGrp>
+        <StockNm>ISHARES RUSSELL TOP 200 GROWTH</StockNm>
+        <EOYBookValueAmt>34548</EOYBookValueAmt>
+        <EOYFMVAmt>66608</EOYFMVAmt>
+      </InvestmentsCorporateStockGrp>
+      <InvestmentsCorporateStockGrp>
+        <StockNm>J P MORGAN CHASE &amp; CO</StockNm>
+      </InvestmentsCorporateStockGrp>
+      <InvestmentsCorporateStockGrp>
+        <StockNm>JACOBS ENGR GROUP INC COM</StockNm>
+      </InvestmentsCorporateStockGrp>
+      <InvestmentsCorporateStockGrp>
+        <StockNm>JOHNSON &amp; JOHNSON</StockNm>
+        <EOYBookValueAmt>3060</EOYBookValueAmt>
+        <EOYFMVAmt>7632</EOYFMVAmt>
+      </InvestmentsCorporateStockGrp>
+      <InvestmentsCorporateStockGrp>
+        <StockNm>JP MORGAN CHASE &amp; CO COM</StockNm>
+        <EOYBookValueAmt>7436</EOYBookValueAmt>
+        <EOYFMVAmt>14357</EOYFMVAmt>
+      </InvestmentsCorporateStockGrp>
+      <InvestmentsCorporateStockGrp>
+        <StockNm>JP MORGAN EXCHANGE</StockNm>
+        <EOYBookValueAmt>45359</EOYBookValueAmt>
+        <EOYFMVAmt>42794</EOYFMVAmt>
+      </InvestmentsCorporateStockGrp>
+      <InvestmentsCorporateStockGrp>
+        <StockNm>KLA CORPORATION COM NEW</StockNm>
+        <EOYBookValueAmt>8140</EOYBookValueAmt>
+        <EOYFMVAmt>19264</EOYFMVAmt>
+      </InvestmentsCorporateStockGrp>
+      <InvestmentsCorporateStockGrp>
+        <StockNm>LOWES COS INC</StockNm>
+        <EOYBookValueAmt>6790</EOYBookValueAmt>
+        <EOYFMVAmt>23902</EOYFMVAmt>
+      </InvestmentsCorporateStockGrp>
+      <InvestmentsCorporateStockGrp>
+        <StockNm>MCDONALDS CORP</StockNm>
+        <EOYBookValueAmt>5665</EOYBookValueAmt>
+        <EOYFMVAmt>7113</EOYFMVAmt>
+      </InvestmentsCorporateStockGrp>
+      <InvestmentsCorporateStockGrp>
+        <StockNm>MEDTRONIC PLC</StockNm>
+      </InvestmentsCorporateStockGrp>
+      <InvestmentsCorporateStockGrp>
+        <StockNm>MERCK &amp; CO INC NEW COM</StockNm>
+        <EOYBookValueAmt>4259</EOYBookValueAmt>
+        <EOYFMVAmt>5971</EOYFMVAmt>
+      </InvestmentsCorporateStockGrp>
+      <InvestmentsCorporateStockGrp>
+        <StockNm>MICROSOFT CORP</StockNm>
+        <EOYBookValueAmt>5665</EOYBookValueAmt>
+        <EOYFMVAmt>31891</EOYFMVAmt>
+      </InvestmentsCorporateStockGrp>
+      <InvestmentsCorporateStockGrp>
+        <StockNm>MONDELEZ INTL INC</StockNm>
+        <EOYBookValueAmt>6171</EOYBookValueAmt>
+        <EOYFMVAmt>7842</EOYFMVAmt>
+      </InvestmentsCorporateStockGrp>
+      <InvestmentsCorporateStockGrp>
+        <StockNm>MSCI INC COM</StockNm>
+        <EOYBookValueAmt>5317</EOYBookValueAmt>
+        <EOYFMVAmt>5644</EOYFMVAmt>
+      </InvestmentsCorporateStockGrp>
+      <InvestmentsCorporateStockGrp>
+        <StockNm>NOVARTIS A G SPONSORED</StockNm>
+        <EOYBookValueAmt>5143</EOYBookValueAmt>
+        <EOYFMVAmt>9167</EOYFMVAmt>
+      </InvestmentsCorporateStockGrp>
+      <InvestmentsCorporateStockGrp>
+        <StockNm>PARKER HANNIFIN CORP</StockNm>
+        <EOYBookValueAmt>4157</EOYBookValueAmt>
+        <EOYFMVAmt>12854</EOYFMVAmt>
+      </InvestmentsCorporateStockGrp>
+      <InvestmentsCorporateStockGrp>
+        <StockNm>PEPSICO INC</StockNm>
+        <EOYBookValueAmt>11454</EOYBookValueAmt>
+        <EOYFMVAmt>16266</EOYFMVAmt>
+      </InvestmentsCorporateStockGrp>
+      <InvestmentsCorporateStockGrp>
+        <StockNm>PHILIP MORRIS INTL INC</StockNm>
+        <EOYBookValueAmt>4631</EOYBookValueAmt>
+        <EOYFMVAmt>6295</EOYFMVAmt>
+      </InvestmentsCorporateStockGrp>
+      <InvestmentsCorporateStockGrp>
+        <StockNm>PHILLIPS 66 COM</StockNm>
+        <EOYBookValueAmt>5972</EOYBookValueAmt>
+        <EOYFMVAmt>10333</EOYFMVAmt>
+      </InvestmentsCorporateStockGrp>
+      <InvestmentsCorporateStockGrp>
+        <StockNm>QUALCOMM INC</StockNm>
+        <EOYBookValueAmt>10248</EOYBookValueAmt>
+        <EOYFMVAmt>19436</EOYFMVAmt>
+      </InvestmentsCorporateStockGrp>
+      <InvestmentsCorporateStockGrp>
+        <StockNm>RAYTHEON CO</StockNm>
+      </InvestmentsCorporateStockGrp>
+      <InvestmentsCorporateStockGrp>
+        <StockNm>RTX CORPORATION COM</StockNm>
+        <EOYBookValueAmt>6611</EOYBookValueAmt>
+        <EOYFMVAmt>7845</EOYFMVAmt>
+      </InvestmentsCorporateStockGrp>
+      <InvestmentsCorporateStockGrp>
+        <StockNm>SELECT SECTOR SPDR TR UTILS</StockNm>
+      </InvestmentsCorporateStockGrp>
+      <InvestmentsCorporateStockGrp>
+        <StockNm>SPDR GOLD TR GOLD SHS</StockNm>
+        <EOYBookValueAmt>6640</EOYBookValueAmt>
+        <EOYFMVAmt>7201</EOYFMVAmt>
+      </InvestmentsCorporateStockGrp>
+      <InvestmentsCorporateStockGrp>
+        <StockNm>UNITED HEALTH GROUP INC COM</StockNm>
+        <EOYBookValueAmt>6576</EOYBookValueAmt>
+        <EOYFMVAmt>12605</EOYFMVAmt>
+      </InvestmentsCorporateStockGrp>
+      <InvestmentsCorporateStockGrp>
+        <StockNm>UNITED PARCEL SERVICE</StockNm>
+        <EOYBookValueAmt>3547</EOYBookValueAmt>
+        <EOYFMVAmt>4676</EOYFMVAmt>
+      </InvestmentsCorporateStockGrp>
+      <InvestmentsCorporateStockGrp>
+        <StockNm>VANECK VECTORS ETF TR GOLD MINERS ET</StockNm>
+      </InvestmentsCorporateStockGrp>
+      <InvestmentsCorporateStockGrp>
+        <StockNm>VERIZON COMMUNICATIONS INC</StockNm>
+        <EOYBookValueAmt>10578</EOYBookValueAmt>
+        <EOYFMVAmt>6676</EOYFMVAmt>
+      </InvestmentsCorporateStockGrp>
+    </InvestmentsCorpStockSchedule>
+    <InvestmentsGovtObligationsSch documentId="RetDoc5">
+      <USGovtObligationsBookVlEOYAmt>24904</USGovtObligationsBookVlEOYAmt>
+      <USGovtObligationsEOYFMVAmt>24048</USGovtObligationsEOYFMVAmt>
+      <StateLocalSecBookVlEOYAmt>47632</StateLocalSecBookVlEOYAmt>
+      <StateLocalSecEOYFMVAmt>44160</StateLocalSecEOYFMVAmt>
+    </InvestmentsGovtObligationsSch>
+    <LegalFeesSchedule documentId="RetDoc6">
+      <LegalFeesGrp>
+        <CategoryTxt>LEGAL FEES</CategoryTxt>
+        <LegalFeesAmt>133</LegalFeesAmt>
+        <NetInvestmentIncomeAmt>133</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>133</AdjustedNetIncomeAmt>
+      </LegalFeesGrp>
+    </LegalFeesSchedule>
+    <OtherAssetsSchedule documentId="RetDoc7">
+      <OtherAssetsScheduleGrp>
+        <Desc>ROUNDING</Desc>
+        <BOYBookValueAmt>-3</BOYBookValueAmt>
+        <EOYBookValueAmt>-3</EOYBookValueAmt>
+      </OtherAssetsScheduleGrp>
+    </OtherAssetsSchedule>
+    <OtherDecreasesSchedule documentId="RetDoc8">
+      <OtherDecreasesDetail>
+        <Desc>FEDERAL TAX 990-PRIOR YEAR</Desc>
+        <Amt>204</Amt>
+      </OtherDecreasesDetail>
+    </OtherDecreasesSchedule>
+    <OtherExpensesSchedule documentId="RetDoc9">
+      <OtherExpensesScheduleGrp>
+        <Desc>EXPENSES</Desc>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>ADVERTISING</Desc>
+        <RevenueAndExpensesPerBooksAmt>118</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>118</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>118</AdjustedNetIncomeAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>AMORTIZATION OF BOND PREMIUM</Desc>
+        <RevenueAndExpensesPerBooksAmt>644</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>644</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>644</AdjustedNetIncomeAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>FOREIGN CONVERSION EXPENSE</Desc>
+        <RevenueAndExpensesPerBooksAmt>1</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>1</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>1</AdjustedNetIncomeAmt>
+      </OtherExpensesScheduleGrp>
+    </OtherExpensesSchedule>
+    <OtherNotesLoansRcvblShortSch2 documentId="RetDoc10">
+      <OtherNotesLoansRcvblShortGrp>
+        <Organization501c3Name>
+          <BusinessNameLine1Txt>CLARK SELENA</BusinessNameLine1Txt>
+        </Organization501c3Name>
+        <BalanceDueAmt>2015</BalanceDueAmt>
+      </OtherNotesLoansRcvblShortGrp>
+      <OtherNotesLoansRcvblShortGrp>
+        <Organization501c3Name>
+          <BusinessNameLine1Txt>MARSHALL CHANDLER</BusinessNameLine1Txt>
+        </Organization501c3Name>
+        <BalanceDueAmt>1558</BalanceDueAmt>
+      </OtherNotesLoansRcvblShortGrp>
+      <OtherNotesLoansRcvblShortGrp>
+        <Organization501c3Name>
+          <BusinessNameLine1Txt>MARSHALL EVELYN</BusinessNameLine1Txt>
+        </Organization501c3Name>
+        <BalanceDueAmt>7085</BalanceDueAmt>
+      </OtherNotesLoansRcvblShortGrp>
+      <OtherNotesLoansRcvblShortGrp>
+        <Organization501c3Name>
+          <BusinessNameLine1Txt>MINNIS LIANNE</BusinessNameLine1Txt>
+        </Organization501c3Name>
+        <BalanceDueAmt>1290</BalanceDueAmt>
+      </OtherNotesLoansRcvblShortGrp>
+      <OtherNotesLoansRcvblShortGrp>
+        <Organization501c3Name>
+          <BusinessNameLine1Txt>NABERS MATTHEW</BusinessNameLine1Txt>
+        </Organization501c3Name>
+      </OtherNotesLoansRcvblShortGrp>
+      <OtherNotesLoansRcvblShortGrp>
+        <Organization501c3Name>
+          <BusinessNameLine1Txt>PANNELL APRIL</BusinessNameLine1Txt>
+        </Organization501c3Name>
+        <BalanceDueAmt>12581</BalanceDueAmt>
+      </OtherNotesLoansRcvblShortGrp>
+      <OtherNotesLoansRcvblShortGrp>
+        <Organization501c3Name>
+          <BusinessNameLine1Txt>REED EMILY</BusinessNameLine1Txt>
+        </Organization501c3Name>
+        <BalanceDueAmt>7500</BalanceDueAmt>
+      </OtherNotesLoansRcvblShortGrp>
+      <OtherNotesLoansRcvblShortGrp>
+        <Organization501c3Name>
+          <BusinessNameLine1Txt>REED WESLEY</BusinessNameLine1Txt>
+        </Organization501c3Name>
+        <BalanceDueAmt>2171</BalanceDueAmt>
+      </OtherNotesLoansRcvblShortGrp>
+      <OtherNotesLoansRcvblShortGrp>
+        <Organization501c3Name>
+          <BusinessNameLine1Txt>TURNER MIKAYLA</BusinessNameLine1Txt>
+        </Organization501c3Name>
+        <BalanceDueAmt>4005</BalanceDueAmt>
+      </OtherNotesLoansRcvblShortGrp>
+    </OtherNotesLoansRcvblShortSch2>
+    <OtherProfessionalFeesSchedule documentId="RetDoc11">
+      <OtherProfessionalFeesDetail>
+        <CategoryTxt>TRUST FEES</CategoryTxt>
+        <Amt>13772</Amt>
+        <NetInvestmentIncomeAmt>13772</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>13772</AdjustedNetIncomeAmt>
+      </OtherProfessionalFeesDetail>
+    </OtherProfessionalFeesSchedule>
+    <TaxesSchedule documentId="RetDoc12">
+      <TaxesDetail>
+        <CategoryTxt>TAX PAYMENTS-REGISTRATION FEE</CategoryTxt>
+        <Amt>50</Amt>
+        <NetInvestmentIncomeAmt>50</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>50</AdjustedNetIncomeAmt>
+      </TaxesDetail>
+    </TaxesSchedule>
+  </ReturnData>
+</Return>

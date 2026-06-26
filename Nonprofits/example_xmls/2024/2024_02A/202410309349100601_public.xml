@@ -1,0 +1,670 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Return xmlns="http://www.irs.gov/efile" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.irs.gov/efile" returnVersion="2022v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2024-01-30T09:44:04-00:00</ReturnTs>
+    <TaxPeriodEndDt>2023-06-30</TaxPeriodEndDt>
+    <PreparerFirmGrp>
+      <PreparerFirmEIN>352259748</PreparerFirmEIN>
+      <PreparerFirmName>
+        <BusinessNameLine1Txt>Professional Tax &amp; Accounting LLC</BusinessNameLine1Txt>
+      </PreparerFirmName>
+      <PreparerUSAddress>
+        <AddressLine1Txt>10433 Oak Valley Rd</AddressLine1Txt>
+        <CityNm>Fort Wayne</CityNm>
+        <StateAbbreviationCd>IN</StateAbbreviationCd>
+        <ZIPCd>46845</ZIPCd>
+      </PreparerUSAddress>
+    </PreparerFirmGrp>
+    <ReturnTypeCd>990PF</ReturnTypeCd>
+    <TaxPeriodBeginDt>2022-07-01</TaxPeriodBeginDt>
+    <Filer>
+      <EIN>356547854</EIN>
+      <BusinessName>
+        <BusinessNameLine1Txt>Stockamp Foundation</BusinessNameLine1Txt>
+      </BusinessName>
+      <BusinessNameControlTxt>STOC</BusinessNameControlTxt>
+      <PhoneNum>2602445622</PhoneNum>
+      <USAddress>
+        <AddressLine1Txt>4875 E McJunkin Street</AddressLine1Txt>
+        <CityNm>Columbia City</CityNm>
+        <StateAbbreviationCd>IN</StateAbbreviationCd>
+        <ZIPCd>46725</ZIPCd>
+      </USAddress>
+    </Filer>
+    <BusinessOfficerGrp>
+      <PersonNm>Thomas Stockamp</PersonNm>
+      <PersonTitleTxt>Trustee</PersonTitleTxt>
+      <PhoneNum>2602445622</PhoneNum>
+      <SignatureDt>2024-01-30</SignatureDt>
+      <DiscussWithPaidPreparerInd>true</DiscussWithPaidPreparerInd>
+    </BusinessOfficerGrp>
+    <SigningOfficerGrp>
+      <PersonFullName>
+        <PersonFirstNm>Thomas</PersonFirstNm>
+        <PersonLastNm>Stockamp</PersonLastNm>
+      </PersonFullName>
+      <SSN>XXX-XX-XXXX</SSN>
+    </SigningOfficerGrp>
+    <PreparerPersonGrp>
+      <PreparerPersonNm>Heather K Amador CPA</PreparerPersonNm>
+      <PTIN>P00769196</PTIN>
+      <PhoneNum>2604841673</PhoneNum>
+      <PreparationDt>2024-01-30</PreparationDt>
+    </PreparerPersonGrp>
+    <AdditionalFilerInformation>
+      <TrustedCustomerGrp>
+        <TrustedCustomerCd>2</TrustedCustomerCd>
+        <AuthenticationAssuranceLevelCd>AAL1</AuthenticationAssuranceLevelCd>
+        <IdentityAssuranceLevelCd>IAL1</IdentityAssuranceLevelCd>
+      </TrustedCustomerGrp>
+    </AdditionalFilerInformation>
+    <TaxYr>2022</TaxYr>
+    <BuildTS>2023-04-26 12:10:37Z</BuildTS>
+  </ReturnHeader>
+  <ReturnData documentCnt="12">
+    <IRS990PF documentId="990PF" softwareId="22015461" softwareVersionNum="22.0.1.0">
+      <Organization501c3ExemptPFInd>X</Organization501c3ExemptPFInd>
+      <FMVAssetsEOYAmt>165956</FMVAssetsEOYAmt>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <AnalysisOfRevenueAndExpenses>
+        <ContriRcvdRevAndExpnssAmt>6000</ContriRcvdRevAndExpnssAmt>
+        <InterestOnSavRevAndExpnssAmt>3</InterestOnSavRevAndExpnssAmt>
+        <InterestOnSavNetInvstIncmAmt>3</InterestOnSavNetInvstIncmAmt>
+        <DividendsRevAndExpnssAmt>8187</DividendsRevAndExpnssAmt>
+        <DividendsNetInvstIncmAmt>8187</DividendsNetInvstIncmAmt>
+        <CapGainNetIncmNetInvstIncmAmt>0</CapGainNetIncmNetInvstIncmAmt>
+        <TotalRevAndExpnssAmt>14190</TotalRevAndExpnssAmt>
+        <TotalNetInvstIncmAmt>8190</TotalNetInvstIncmAmt>
+        <AccountingFeesRevAndExpnssAmt referenceDocumentId="990PF:112">4132</AccountingFeesRevAndExpnssAmt>
+        <TaxesRevAndExpnssAmt referenceDocumentId="990PF:114">120</TaxesRevAndExpnssAmt>
+        <PrintingAndPubRevAndExpnssAmt>29</PrintingAndPubRevAndExpnssAmt>
+        <OtherExpensesRevAndExpnssAmt referenceDocumentId="990PF:115">1232</OtherExpensesRevAndExpnssAmt>
+        <TotOprExpensesRevAndExpnssAmt>5513</TotOprExpensesRevAndExpnssAmt>
+        <TotOprExpensesNetInvstIncmAmt>0</TotOprExpensesNetInvstIncmAmt>
+        <TotOprExpensesDsbrsChrtblAmt>0</TotOprExpensesDsbrsChrtblAmt>
+        <ContriPaidRevAndExpnssAmt>10775</ContriPaidRevAndExpnssAmt>
+        <ContriPaidDsbrsChrtblAmt>10775</ContriPaidDsbrsChrtblAmt>
+        <TotalExpensesRevAndExpnssAmt>16288</TotalExpensesRevAndExpnssAmt>
+        <TotalExpensesNetInvstIncmAmt>0</TotalExpensesNetInvstIncmAmt>
+        <TotalExpensesDsbrsChrtblAmt>10775</TotalExpensesDsbrsChrtblAmt>
+        <ExcessRevenueOverExpensesAmt>-2098</ExcessRevenueOverExpensesAmt>
+        <NetInvestmentIncomeAmt>8190</NetInvestmentIncomeAmt>
+      </AnalysisOfRevenueAndExpenses>
+      <Form990PFBalanceSheetsGrp>
+        <CashBOYAmt>6041</CashBOYAmt>
+        <CashEOYAmt>4041</CashEOYAmt>
+        <CashEOYFMVAmt>4041</CashEOYFMVAmt>
+        <OtherInvestmentsBOYAmt>161784</OtherInvestmentsBOYAmt>
+        <OtherInvestmentsEOYAmt referenceDocumentId="990PF:131">161784</OtherInvestmentsEOYAmt>
+        <OtherInvestmentsEOYFMVAmt>161915</OtherInvestmentsEOYFMVAmt>
+        <TotalAssetsBOYAmt>167825</TotalAssetsBOYAmt>
+        <TotalAssetsEOYAmt>165825</TotalAssetsEOYAmt>
+        <TotalAssetsEOYFMVAmt>165956</TotalAssetsEOYFMVAmt>
+        <LoansFromOfficersBOYAmt>5000</LoansFromOfficersBOYAmt>
+        <LoansFromOfficersEOYAmt referenceDocumentId="990PF:118">5000</LoansFromOfficersEOYAmt>
+        <TotalLiabilitiesBOYAmt>5000</TotalLiabilitiesBOYAmt>
+        <TotalLiabilitiesEOYAmt>5000</TotalLiabilitiesEOYAmt>
+        <OrganizationFollowsFASB117Ind>X</OrganizationFollowsFASB117Ind>
+        <NoDonorRstrNetAssestsBOYAmt>162825</NoDonorRstrNetAssestsBOYAmt>
+        <NoDonorRstrNetAssestsEOYAmt>160825</NoDonorRstrNetAssestsEOYAmt>
+        <TotNetAstOrFundBalancesBOYAmt>162825</TotNetAstOrFundBalancesBOYAmt>
+        <TotNetAstOrFundBalancesEOYAmt>160825</TotNetAstOrFundBalancesEOYAmt>
+        <TotalLiabilitiesNetAstBOYAmt>167825</TotalLiabilitiesNetAstBOYAmt>
+        <TotalLiabilitiesNetAstEOYAmt>165825</TotalLiabilitiesNetAstEOYAmt>
+      </Form990PFBalanceSheetsGrp>
+      <ChgInNetAssetsFundBalancesGrp>
+        <TotNetAstOrFundBalancesBOYAmt>162825</TotNetAstOrFundBalancesBOYAmt>
+        <ExcessRevenueOverExpensesAmt>-2098</ExcessRevenueOverExpensesAmt>
+        <OtherIncreasesAmt referenceDocumentId="990PF:133">98</OtherIncreasesAmt>
+        <SubtotalAmt>160825</SubtotalAmt>
+        <TotNetAstOrFundBalancesEOYAmt>160825</TotNetAstOrFundBalancesEOYAmt>
+      </ChgInNetAssetsFundBalancesGrp>
+      <ExciseTaxBasedOnInvstIncmGrp>
+        <InvestmentIncomeExciseTaxAmt>114</InvestmentIncomeExciseTaxAmt>
+        <SubtotalAmt>114</SubtotalAmt>
+        <TaxBasedOnInvestmentIncomeAmt>114</TaxBasedOnInvestmentIncomeAmt>
+        <TaxDueAmt>114</TaxDueAmt>
+      </ExciseTaxBasedOnInvstIncmGrp>
+      <StatementsRegardingActyGrp>
+        <LegislativePoliticalActyInd>false</LegislativePoliticalActyInd>
+        <MoreThan100SpentInd>true</MoreThan100SpentInd>
+        <Form1120POLFiledInd>false</Form1120POLFiledInd>
+        <ActivitiesNotPreviouslyRptInd>false</ActivitiesNotPreviouslyRptInd>
+        <ChangesToArticlesOrBylawsInd>false</ChangesToArticlesOrBylawsInd>
+        <UnrelatedBusIncmOverLimitInd>false</UnrelatedBusIncmOverLimitInd>
+        <OrganizationDissolvedEtcInd>false</OrganizationDissolvedEtcInd>
+        <Section508eRqrSatisfiedInd>true</Section508eRqrSatisfiedInd>
+        <AtLeast5000InAssetsInd>true</AtLeast5000InAssetsInd>
+        <OrgReportOrRegisterStateCd>IN</OrgReportOrRegisterStateCd>
+        <Form990PFFiledWithAttyGenInd>true</Form990PFFiledWithAttyGenInd>
+        <PrivateOperatingFoundationInd>false</PrivateOperatingFoundationInd>
+        <NewSubstantialContributorsInd referenceDocumentId="990PF:124">true</NewSubstantialContributorsInd>
+        <OwnControlledEntityInd>false</OwnControlledEntityInd>
+        <DonorAdvisedFundInd>false</DonorAdvisedFundInd>
+        <ComplyWithPublicInspRqrInd>true</ComplyWithPublicInspRqrInd>
+        <WebsiteAddressTxt>N/A</WebsiteAddressTxt>
+        <IndividualWithBooksNm>Thomas M Stockamp</IndividualWithBooksNm>
+        <PhoneNum>2602446969</PhoneNum>
+        <LocationOfBooksUSAddress>
+          <AddressLine1Txt>4875 E McJunkin Street</AddressLine1Txt>
+          <CityNm>Columbia City</CityNm>
+          <StateAbbreviationCd>IN</StateAbbreviationCd>
+          <ZIPCd>46725</ZIPCd>
+        </LocationOfBooksUSAddress>
+        <ForeignAccountsQuestionInd>false</ForeignAccountsQuestionInd>
+      </StatementsRegardingActyGrp>
+      <StatementsRegardingActy4720Grp>
+        <SaleOrExchDisqualifiedPrsnInd>false</SaleOrExchDisqualifiedPrsnInd>
+        <BrrwOrLendDisqualifiedPrsnInd>false</BrrwOrLendDisqualifiedPrsnInd>
+        <FurnGoodsDisqualifiedPrsnInd>false</FurnGoodsDisqualifiedPrsnInd>
+        <PayCompDisqualifiedPrsnInd>false</PayCompDisqualifiedPrsnInd>
+        <TransferAstDisqualifiedPrsnInd>false</TransferAstDisqualifiedPrsnInd>
+        <PaymentToGovernmentOfficialInd>false</PaymentToGovernmentOfficialInd>
+        <UncorrectedPriorActsInd>false</UncorrectedPriorActsInd>
+        <UndistributedIncomePYInd>false</UndistributedIncomePYInd>
+        <UndistributedIncomePY1Yr>2012</UndistributedIncomePY1Yr>
+        <UndistributedIncomePY2Yr>2013</UndistributedIncomePY2Yr>
+        <UndistributedIncomePY3Yr>2014</UndistributedIncomePY3Yr>
+        <UndistributedIncomePY4Yr>2015</UndistributedIncomePY4Yr>
+        <BusinessHoldingsInd>false</BusinessHoldingsInd>
+        <JeopardyInvestmentsInd>false</JeopardyInvestmentsInd>
+        <UncorrectedPYJeopardyInvstInd>false</UncorrectedPYJeopardyInvstInd>
+        <InfluenceLegislationInd>false</InfluenceLegislationInd>
+        <InfluenceElectionInd>false</InfluenceElectionInd>
+        <GrantsToIndividualsInd>false</GrantsToIndividualsInd>
+        <GrantsToOrganizationsInd>false</GrantsToOrganizationsInd>
+        <NoncharitablePurposeInd>true</NoncharitablePurposeInd>
+        <TransactionsFailToQlfyAsExcInd>false</TransactionsFailToQlfyAsExcInd>
+        <MaintainedExpenditureRspnsInd>false</MaintainedExpenditureRspnsInd>
+        <RcvFndsToPayPrsnlBnftCntrctInd>false</RcvFndsToPayPrsnlBnftCntrctInd>
+        <PayPremiumsPrsnlBnftCntrctInd>false</PayPremiumsPrsnlBnftCntrctInd>
+        <ProhibitedTaxShelterTransInd>false</ProhibitedTaxShelterTransInd>
+        <SubjToTaxRmnrtnExPrchtPymtInd>false</SubjToTaxRmnrtnExPrchtPymtInd>
+      </StatementsRegardingActy4720Grp>
+      <OfficerDirTrstKeyEmplInfoGrp>
+        <OfficerDirTrstKeyEmplGrp>
+          <PersonNm>Thomas M Stockamp</PersonNm>
+          <USAddress>
+            <AddressLine1Txt>4875 E McJunkin Street</AddressLine1Txt>
+            <CityNm>Columbia City</CityNm>
+            <StateAbbreviationCd>IN</StateAbbreviationCd>
+            <ZIPCd>46725</ZIPCd>
+          </USAddress>
+          <TitleTxt>Pt-Trustee</TitleTxt>
+          <AverageHrsPerWkDevotedToPosRt>000.00</AverageHrsPerWkDevotedToPosRt>
+          <CompensationAmt>0</CompensationAmt>
+        </OfficerDirTrstKeyEmplGrp>
+        <CompOfHghstPdEmplOrNONETxt>NONE</CompOfHghstPdEmplOrNONETxt>
+        <CompOfHghstPdCntrctOrNONETxt>NONE</CompOfHghstPdCntrctOrNONETxt>
+      </OfficerDirTrstKeyEmplInfoGrp>
+      <SummaryOfDirectChrtblActyGrp>
+        <Description1Txt>N/A</Description1Txt>
+        <Expenses1Amt>0</Expenses1Amt>
+      </SummaryOfDirectChrtblActyGrp>
+      <SumOfProgramRelatedInvstGrp>
+        <Description1Txt>N/A</Description1Txt>
+      </SumOfProgramRelatedInvstGrp>
+      <MinimumInvestmentReturnGrp>
+        <AverageMonthlyFMVOfSecAmt>161784</AverageMonthlyFMVOfSecAmt>
+        <AverageMonthlyCashBalancesAmt>0</AverageMonthlyCashBalancesAmt>
+        <FMVAllOtherNoncharitableAstAmt>0</FMVAllOtherNoncharitableAstAmt>
+        <TotalFMVOfUnusedAssetsAmt>161784</TotalFMVOfUnusedAssetsAmt>
+        <AdjustedTotalFMVOfUnusedAstAmt>161784</AdjustedTotalFMVOfUnusedAstAmt>
+        <CashDeemedCharitableAmt>2427</CashDeemedCharitableAmt>
+        <NetVlNoncharitableAssetsAmt>159357</NetVlNoncharitableAssetsAmt>
+        <MinimumInvestmentReturnAmt>7968</MinimumInvestmentReturnAmt>
+      </MinimumInvestmentReturnGrp>
+      <DistributableAmountGrp>
+        <MinimumInvestmentReturnAmt>7968</MinimumInvestmentReturnAmt>
+        <TaxBasedOnInvestmentIncomeAmt>114</TaxBasedOnInvestmentIncomeAmt>
+        <TotalTaxAmt>114</TotalTaxAmt>
+        <DistributableBeforeAdjAmt>7854</DistributableBeforeAdjAmt>
+        <DistributableBeforeDedAmt>7854</DistributableBeforeDedAmt>
+        <DistributableAsAdjustedAmt>7854</DistributableAsAdjustedAmt>
+      </DistributableAmountGrp>
+      <PFQualifyingDistributionsGrp>
+        <ExpensesAndContributionsAmt referenceDocumentId="990PF:151">10775</ExpensesAndContributionsAmt>
+        <QualifyingDistributionsAmt>10775</QualifyingDistributionsAmt>
+      </PFQualifyingDistributionsGrp>
+      <UndistributedIncomeGrp>
+        <DistributableAsAdjustedAmt>7854</DistributableAsAdjustedAmt>
+        <ExcessDistributionCyovYr3Amt>6156</ExcessDistributionCyovYr3Amt>
+        <ExcessDistributionCyovYr2Amt>4149</ExcessDistributionCyovYr2Amt>
+        <ExcessDistributionCyovYr1Amt>1320</ExcessDistributionCyovYr1Amt>
+        <TotalExcessDistributionCyovAmt>11625</TotalExcessDistributionCyovAmt>
+        <QualifyingDistributionsAmt>10775</QualifyingDistributionsAmt>
+        <AppliedToCurrentYearAmt>7854</AppliedToCurrentYearAmt>
+        <RemainingDistriFromCorpusAmt>2921</RemainingDistriFromCorpusAmt>
+        <TotalCorpusAmt>14546</TotalCorpusAmt>
+        <UndistributedIncomeCYAmt>0</UndistributedIncomeCYAmt>
+        <ExcessDistriCyovToNextYrAmt>14546</ExcessDistriCyovToNextYrAmt>
+        <ExcessFromYear3Amt>6156</ExcessFromYear3Amt>
+        <ExcessFromYear2Amt>4149</ExcessFromYear2Amt>
+        <ExcessFromYear1Amt>1320</ExcessFromYear1Amt>
+        <ExcessFromCurrentYearAmt>2921</ExcessFromCurrentYearAmt>
+      </UndistributedIncomeGrp>
+      <SupplementaryInformationGrp>
+        <ContributingManagerNm>Thomas Stockamp</ContributingManagerNm>
+        <OnlyContriToPreselectedInd>X</OnlyContriToPreselectedInd>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>American Cornerstone Institute</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientUSAddress>
+            <AddressLine1Txt>300 Independence Ave SE</AddressLine1Txt>
+            <CityNm>Washington</CityNm>
+            <StateAbbreviationCd>DC</StateAbbreviationCd>
+            <ZIPCd>20003</ZIPCd>
+          </RecipientUSAddress>
+          <GrantOrContributionPurposeTxt>Public Outreach</GrantOrContributionPurposeTxt>
+          <Amt>450</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>Chocolate Box</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientForeignAddress>
+            <AddressLine1Txt>50 Cavendish St</AddressLine1Txt>
+            <CityNm>Sheffield</CityNm>
+            <CountryCd>UK</CountryCd>
+          </RecipientForeignAddress>
+          <GrantOrContributionPurposeTxt>Public Outreach</GrantOrContributionPurposeTxt>
+          <Amt>100</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>Disabled Vets</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientUSAddress>
+            <AddressLine1Txt>4601 Forbes Blvd suite 130</AddressLine1Txt>
+            <CityNm>Lanham</CityNm>
+            <StateAbbreviationCd>MD</StateAbbreviationCd>
+            <ZIPCd>20706</ZIPCd>
+          </RecipientUSAddress>
+          <GrantOrContributionPurposeTxt>Social Services and healthcare</GrantOrContributionPurposeTxt>
+          <Amt>75</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>Discover the Jewish Jesus</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientUSAddress>
+            <AddressLine1Txt>303 East Wacker Dr Suite 2300</AddressLine1Txt>
+            <CityNm>Chicago</CityNm>
+            <StateAbbreviationCd>IL</StateAbbreviationCd>
+            <ZIPCd>60601</ZIPCd>
+          </RecipientUSAddress>
+          <GrantOrContributionPurposeTxt>Social Services</GrantOrContributionPurposeTxt>
+          <Amt>1000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>Ducks Unlimited</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientUSAddress>
+            <AddressLine1Txt>One Waterfowl Way</AddressLine1Txt>
+            <CityNm>Memphis</CityNm>
+            <StateAbbreviationCd>TN</StateAbbreviationCd>
+            <ZIPCd>38120</ZIPCd>
+          </RecipientUSAddress>
+          <GrantOrContributionPurposeTxt>Conservation</GrantOrContributionPurposeTxt>
+          <Amt>50</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>Dutch Sheets Ministries</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientUSAddress>
+            <AddressLine1Txt>PO Box 4070</AddressLine1Txt>
+            <CityNm>Batesburg Leesville</CityNm>
+            <StateAbbreviationCd>SC</StateAbbreviationCd>
+            <ZIPCd>29070</ZIPCd>
+          </RecipientUSAddress>
+          <GrantOrContributionPurposeTxt>Ministry</GrantOrContributionPurposeTxt>
+          <Amt>400</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>Environmental Defense Fund</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientUSAddress>
+            <AddressLine1Txt>555 12th St NW Suite 400</AddressLine1Txt>
+            <CityNm>Washington</CityNm>
+            <StateAbbreviationCd>DC</StateAbbreviationCd>
+            <ZIPCd>20004</ZIPCd>
+          </RecipientUSAddress>
+          <GrantOrContributionPurposeTxt>Conservation</GrantOrContributionPurposeTxt>
+          <Amt>100</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>Feeding Pets of the Homeless</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientUSAddress>
+            <AddressLine1Txt>710 W Washington St</AddressLine1Txt>
+            <CityNm>Carson</CityNm>
+            <StateAbbreviationCd>NV</StateAbbreviationCd>
+            <ZIPCd>89703</ZIPCd>
+          </RecipientUSAddress>
+          <GrantOrContributionPurposeTxt>Animal Rights</GrantOrContributionPurposeTxt>
+          <Amt>100</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>Freedom Alliance</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientUSAddress>
+            <AddressLine1Txt>25 W Piccadilly St</AddressLine1Txt>
+            <CityNm>Winchester</CityNm>
+            <StateAbbreviationCd>VA</StateAbbreviationCd>
+            <ZIPCd>22601</ZIPCd>
+          </RecipientUSAddress>
+          <GrantOrContributionPurposeTxt>Social Services</GrantOrContributionPurposeTxt>
+          <Amt>100</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>Front Range Equine Rescue</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientUSAddress>
+            <AddressLine1Txt>PO Box 458</AddressLine1Txt>
+            <CityNm>Ocala</CityNm>
+            <StateAbbreviationCd>FL</StateAbbreviationCd>
+            <ZIPCd>34478</ZIPCd>
+          </RecipientUSAddress>
+          <GrantOrContributionPurposeTxt>Animal Rescue</GrantOrContributionPurposeTxt>
+          <Amt>75</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>Jerusalem Prayer Team</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientUSAddress>
+            <AddressLine1Txt>PO Box 30000</AddressLine1Txt>
+            <CityNm>Phoenix</CityNm>
+            <StateAbbreviationCd>AZ</StateAbbreviationCd>
+            <ZIPCd>85046</ZIPCd>
+          </RecipientUSAddress>
+          <GrantOrContributionPurposeTxt>Missionary</GrantOrContributionPurposeTxt>
+          <Amt>1200</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>The Leadership Institute</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientUSAddress>
+            <AddressLine1Txt>1101 N Highland St</AddressLine1Txt>
+            <CityNm>Arlington</CityNm>
+            <StateAbbreviationCd>VA</StateAbbreviationCd>
+            <ZIPCd>22201</ZIPCd>
+          </RecipientUSAddress>
+          <GrantOrContributionPurposeTxt>Education</GrantOrContributionPurposeTxt>
+          <Amt>75</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>MCR</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientUSAddress>
+            <AddressLine1Txt>1400 McCallie Ave Suite 210</AddressLine1Txt>
+            <CityNm>Chattanooga</CityNm>
+            <StateAbbreviationCd>TN</StateAbbreviationCd>
+            <ZIPCd>37404</ZIPCd>
+          </RecipientUSAddress>
+          <GrantOrContributionPurposeTxt>Public Outreach</GrantOrContributionPurposeTxt>
+          <Amt>50</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>Mother Jones</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientUSAddress>
+            <AddressLine1Txt>PO Box 584</AddressLine1Txt>
+            <CityNm>San Francisco</CityNm>
+            <StateAbbreviationCd>CA</StateAbbreviationCd>
+            <ZIPCd>94104</ZIPCd>
+          </RecipientUSAddress>
+          <GrantOrContributionPurposeTxt>Public Outreach</GrantOrContributionPurposeTxt>
+          <Amt>100</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientPersonNm>Francis Whittacker</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>Fort Wayne</AddressLine1Txt>
+            <CityNm>Fort Wayne</CityNm>
+            <StateAbbreviationCd>IN</StateAbbreviationCd>
+            <ZIPCd>46845</ZIPCd>
+          </RecipientUSAddress>
+          <GrantOrContributionPurposeTxt>Financial Support</GrantOrContributionPurposeTxt>
+          <Amt>200</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>Peaceful Valley Donkey Rescue</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientUSAddress>
+            <AddressLine1Txt>PO Box 216</AddressLine1Txt>
+            <CityNm>Miles</CityNm>
+            <StateAbbreviationCd>TX</StateAbbreviationCd>
+            <ZIPCd>76861</ZIPCd>
+          </RecipientUSAddress>
+          <GrantOrContributionPurposeTxt>Animal Rescue</GrantOrContributionPurposeTxt>
+          <Amt>75</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>Second Chances for Blind Dogs</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientUSAddress>
+            <AddressLine1Txt>4335 Van Nuys Blvd 190</AddressLine1Txt>
+            <CityNm>Sherman Oaks</CityNm>
+            <StateAbbreviationCd>CA</StateAbbreviationCd>
+            <ZIPCd>91403</ZIPCd>
+          </RecipientUSAddress>
+          <GrantOrContributionPurposeTxt>Animal Rights</GrantOrContributionPurposeTxt>
+          <Amt>75</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>Smiling Dog Farms</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientUSAddress>
+            <AddressLine1Txt>6915 S Tx 60</AddressLine1Txt>
+            <CityNm>Wharton</CityNm>
+            <StateAbbreviationCd>TX</StateAbbreviationCd>
+            <ZIPCd>77488</ZIPCd>
+          </RecipientUSAddress>
+          <GrantOrContributionPurposeTxt>Animal Rescue</GrantOrContributionPurposeTxt>
+          <Amt>50</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>Indiana Tech</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientUSAddress>
+            <AddressLine1Txt>1600 E Washington Blvd</AddressLine1Txt>
+            <CityNm>Fort Wayne</CityNm>
+            <StateAbbreviationCd>IN</StateAbbreviationCd>
+            <ZIPCd>46803</ZIPCd>
+          </RecipientUSAddress>
+          <GrantOrContributionPurposeTxt>Education</GrantOrContributionPurposeTxt>
+          <Amt>1000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>First Assembly of God</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientUSAddress>
+            <AddressLine1Txt>1400 W Washington Center Rd</AddressLine1Txt>
+            <CityNm>Fort Wayne</CityNm>
+            <StateAbbreviationCd>IN</StateAbbreviationCd>
+            <ZIPCd>46825</ZIPCd>
+          </RecipientUSAddress>
+          <GrantOrContributionPurposeTxt>Ministry</GrantOrContributionPurposeTxt>
+          <Amt>3300</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>First Liberty Institute</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientUSAddress>
+            <AddressLine1Txt>2001 West Plano Parkway</AddressLine1Txt>
+            <CityNm>Plano</CityNm>
+            <StateAbbreviationCd>TX</StateAbbreviationCd>
+            <ZIPCd>75075</ZIPCd>
+          </RecipientUSAddress>
+          <GrantOrContributionPurposeTxt>Religious Rights</GrantOrContributionPurposeTxt>
+          <Amt>400</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>Mario Marillo Ministries</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientUSAddress>
+            <AddressLine1Txt>PO Box 408</AddressLine1Txt>
+            <CityNm>Lafayette</CityNm>
+            <StateAbbreviationCd>TN</StateAbbreviationCd>
+            <ZIPCd>37083</ZIPCd>
+          </RecipientUSAddress>
+          <GrantOrContributionPurposeTxt>Ministries</GrantOrContributionPurposeTxt>
+          <Amt>800</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientPersonNm>Greg Hood</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>Fort Wayne</AddressLine1Txt>
+            <CityNm>Fort Wayne</CityNm>
+            <StateAbbreviationCd>IN</StateAbbreviationCd>
+            <ZIPCd>46845</ZIPCd>
+          </RecipientUSAddress>
+          <GrantOrContributionPurposeTxt>Ministry</GrantOrContributionPurposeTxt>
+          <Amt>100</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>The Oasis Church</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientUSAddress>
+            <AddressLine1Txt>12264 US 287</AddressLine1Txt>
+            <CityNm>Haslet</CityNm>
+            <StateAbbreviationCd>TX</StateAbbreviationCd>
+            <ZIPCd>76052</ZIPCd>
+          </RecipientUSAddress>
+          <GrantOrContributionPurposeTxt>Ministries</GrantOrContributionPurposeTxt>
+          <Amt>900</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <TotalGrantOrContriPdDurYrAmt>10775</TotalGrantOrContriPdDurYrAmt>
+      </SupplementaryInformationGrp>
+      <AnalysisIncomeProducingActyGrp>
+        <IntOnSavAndTempCashInvstGrp>
+          <ExclusionCd>14</ExclusionCd>
+          <ExclusionAmt>3</ExclusionAmt>
+        </IntOnSavAndTempCashInvstGrp>
+        <DividendsAndInterestFromSecDtl>
+          <ExclusionCd>14</ExclusionCd>
+          <ExclusionAmt>8187</ExclusionAmt>
+        </DividendsAndInterestFromSecDtl>
+        <SubtotalsIncmProducingActyGrp>
+          <ExclusionAmt>8190</ExclusionAmt>
+        </SubtotalsIncmProducingActyGrp>
+        <TotalIncomeProducingActyAmt>8190</TotalIncomeProducingActyAmt>
+      </AnalysisIncomeProducingActyGrp>
+      <RlnOfActyToAccomOfExmptPrpsGrp>
+        <RlnOfActyToAccomOfExmptPrpsGrp>
+          <LineNumberTxt>1</LineNumberTxt>
+          <RelationshipStatementTxt>Contributions</RelationshipStatementTxt>
+        </RlnOfActyToAccomOfExmptPrpsGrp>
+      </RlnOfActyToAccomOfExmptPrpsGrp>
+      <TrnsfrTransRlnNonchrtblEOGrp>
+        <TrnsfrOfCashToNonchrtblEOInd>false</TrnsfrOfCashToNonchrtblEOInd>
+        <TrnsfrOtherAssetNonchrtblEOInd>false</TrnsfrOtherAssetNonchrtblEOInd>
+        <SalesOrExchangesOfAssetsInd>false</SalesOrExchangesOfAssetsInd>
+        <PurchaseOfAssetsNonchrtblEOInd>false</PurchaseOfAssetsNonchrtblEOInd>
+        <RentalOfFacilitiesOthAssetsInd>false</RentalOfFacilitiesOthAssetsInd>
+        <ReimbursementArrangementsInd>false</ReimbursementArrangementsInd>
+        <LoansOrLoanGuaranteesInd>false</LoansOrLoanGuaranteesInd>
+        <PerformanceOfServicesEtcInd>false</PerformanceOfServicesEtcInd>
+        <SharingOfFacilitiesEtcInd>false</SharingOfFacilitiesEtcInd>
+        <RelationshipsNonchrtblEOInd>false</RelationshipsNonchrtblEOInd>
+      </TrnsfrTransRlnNonchrtblEOGrp>
+    </IRS990PF>
+    <IRS990ScheduleB documentId="990B" softwareId="22015461" softwareVersionNum="22.0.1.0">
+      <Organization501c3ExemptPFInd>X</Organization501c3ExemptPFInd>
+      <ContributorInformationGrp>
+        <ContributorNum>1</ContributorNum>
+        <ContributorPersonNm>Thomas M Stockamp</ContributorPersonNm>
+        <ContributorUSAddress>
+          <AddressLine1Txt>4875 E McJunkin Street</AddressLine1Txt>
+          <CityNm>Columbia City</CityNm>
+          <StateAbbreviationCd>IN</StateAbbreviationCd>
+          <ZIPCd>46725</ZIPCd>
+        </ContributorUSAddress>
+        <TotalContributionsAmt>6000</TotalContributionsAmt>
+        <PersonContributionInd>X</PersonContributionInd>
+      </ContributorInformationGrp>
+    </IRS990ScheduleB>
+    <AccountingFeesSchedule documentId="990PF:112" softwareId="22015461" softwareVersionNum="22.0.1.0">
+      <AccountingFeesDetail>
+        <CategoryTxt>Accounting Fees</CategoryTxt>
+        <Amt>4132</Amt>
+      </AccountingFeesDetail>
+    </AccountingFeesSchedule>
+    <ExplanOfLegisPoliticalActvts documentId="990PF:144" softwareId="22015461" softwareVersionNum="22.0.1.0">
+      <MediumExplanationTxt>Minor donations to political causes</MediumExplanationTxt>
+    </ExplanOfLegisPoliticalActvts>
+    <InvestmentsCorpStockSchedule documentId="990PF:122" softwareId="22015461" softwareVersionNum="22.0.1.0"></InvestmentsCorpStockSchedule>
+    <InvestmentsOtherSchedule2 documentId="990PF:131" softwareId="22015461" softwareVersionNum="22.0.1.0">
+      <InvestmentsOtherGrp>
+        <CategoryOrItemTxt>Raymond James Brokerage Account</CategoryOrItemTxt>
+        <ListedAtCostOrFMVCd>AT COST</ListedAtCostOrFMVCd>
+        <BookValueAmt>161784</BookValueAmt>
+        <EOYFMVAmt>161915</EOYFMVAmt>
+      </InvestmentsOtherGrp>
+    </InvestmentsOtherSchedule2>
+    <LoansFromOfficersSchedule documentId="990PF:118" softwareId="22015461" softwareVersionNum="22.0.1.0">
+      <LoansFromOfficerGrp>
+        <LenderPersonNm>Thomas Stockamp</LenderPersonNm>
+        <TitleTxt>Trustee</TitleTxt>
+        <LoanOriginalAmt>5000</LoanOriginalAmt>
+        <BalanceDueAmt>5000</BalanceDueAmt>
+        <NoteDt>2019-12</NoteDt>
+        <LoanMaturityDt>2024-12</LoanMaturityDt>
+        <RepaymentTermsTxt>None</RepaymentTermsTxt>
+        <SecurityProvidedBorrowerTxt>Cash</SecurityProvidedBorrowerTxt>
+        <LoanPurposeTxt>Cash</LoanPurposeTxt>
+        <LenderConsiderationDesc>Cash</LenderConsiderationDesc>
+        <ConsiderationFMVAmt>5000</ConsiderationFMVAmt>
+      </LoansFromOfficerGrp>
+    </LoansFromOfficersSchedule>
+    <OtherExpensesSchedule documentId="990PF:115" softwareId="22015461" softwareVersionNum="22.0.1.0">
+      <OtherExpensesScheduleGrp>
+        <Desc>Political Donations</Desc>
+        <RevenueAndExpensesPerBooksAmt>1232</RevenueAndExpensesPerBooksAmt>
+      </OtherExpensesScheduleGrp>
+    </OtherExpensesSchedule>
+    <OtherIncreasesSchedule documentId="990PF:133" softwareId="22015461" softwareVersionNum="22.0.1.0">
+      <OtherIncreasesDetail>
+        <Desc>Uncleared checks from prior period</Desc>
+        <Amt>98</Amt>
+      </OtherIncreasesDetail>
+    </OtherIncreasesSchedule>
+    <OtherProfessionalFeesSchedule documentId="990PF:113" softwareId="22015461" softwareVersionNum="22.0.1.0"></OtherProfessionalFeesSchedule>
+    <SubstantialContributorsSch documentId="990PF:124" softwareId="22015461" softwareVersionNum="22.0.1.0">
+      <SubstantialContributorDetail>
+        <PersonNm>Thomas Laurel Stockamp</PersonNm>
+        <USAddress>
+          <AddressLine1Txt>4875 E McJunkin St</AddressLine1Txt>
+          <CityNm>Columbia City</CityNm>
+          <StateAbbreviationCd>IN</StateAbbreviationCd>
+          <ZIPCd>46725</ZIPCd>
+        </USAddress>
+      </SubstantialContributorDetail>
+    </SubstantialContributorsSch>
+    <TaxesSchedule documentId="990PF:114" softwareId="22015461" softwareVersionNum="22.0.1.0">
+      <TaxesDetail>
+        <CategoryTxt>Federal Excise Taxes</CategoryTxt>
+        <Amt>120</Amt>
+      </TaxesDetail>
+    </TaxesSchedule>
+  </ReturnData>
+</Return>

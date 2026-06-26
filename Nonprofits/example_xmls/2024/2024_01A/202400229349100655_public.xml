@@ -1,0 +1,626 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Return xmlns="http://www.irs.gov/efile" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" returnVersion="2022v5.0" xsi:schemaLocation="http://www.irs.gov/efile">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2024-01-22T12:40:42-08:00</ReturnTs>
+    <TaxPeriodEndDt>2022-12-31</TaxPeriodEndDt>
+    <PreparerFirmGrp>
+      <PreparerFirmEIN>521185156</PreparerFirmEIN>
+      <PreparerFirmName>
+        <BusinessNameLine1Txt>Lydon Fetterolf Corydon PA</BusinessNameLine1Txt>
+      </PreparerFirmName>
+      <PreparerUSAddress>
+        <AddressLine1Txt>9401 Key West Avenue</AddressLine1Txt>
+        <CityNm>Rockville</CityNm>
+        <StateAbbreviationCd>MD</StateAbbreviationCd>
+        <ZIPCd>20850</ZIPCd>
+      </PreparerUSAddress>
+    </PreparerFirmGrp>
+    <ReturnTypeCd>990PF</ReturnTypeCd>
+    <TaxPeriodBeginDt>2022-01-01</TaxPeriodBeginDt>
+    <Filer>
+      <EIN>274818015</EIN>
+      <BusinessName>
+        <BusinessNameLine1Txt>Paul M Angell Family Foundation</BusinessNameLine1Txt>
+      </BusinessName>
+      <BusinessNameControlTxt>PAUL</BusinessNameControlTxt>
+      <PhoneNum>7736286980</PhoneNum>
+      <USAddress>
+        <AddressLine1Txt>8550 W Bryn Mawr Avenue</AddressLine1Txt>
+        <CityNm>Chicago</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>60631</ZIPCd>
+      </USAddress>
+    </Filer>
+    <BusinessOfficerGrp>
+      <PersonNm>Charles T Angell</PersonNm>
+      <PersonTitleTxt>President</PersonTitleTxt>
+      <SignatureDt>2024-01-22</SignatureDt>
+      <DiscussWithPaidPreparerInd>true</DiscussWithPaidPreparerInd>
+    </BusinessOfficerGrp>
+    <SigningOfficerGrp>
+      <PersonFullName>
+        <PersonFirstNm>Charles T</PersonFirstNm>
+        <PersonLastNm>Angell</PersonLastNm>
+      </PersonFullName>
+      <SSN>999009999</SSN>
+    </SigningOfficerGrp>
+    <IRSResponsiblePrtyInfoCurrInd>true</IRSResponsiblePrtyInfoCurrInd>
+    <PreparerPersonGrp>
+      <PreparerPersonNm>Sean P Lydon CPA PFS ABV CPWA</PreparerPersonNm>
+      <PTIN>P00350959</PTIN>
+      <PhoneNum>3019484400</PhoneNum>
+    </PreparerPersonGrp>
+    <AdditionalFilerInformation>
+      <TrustedCustomerGrp>
+        <TrustedCustomerCd>2</TrustedCustomerCd>
+        <AuthenticationAssuranceLevelCd>AAL1</AuthenticationAssuranceLevelCd>
+        <IdentityAssuranceLevelCd>IAL1</IdentityAssuranceLevelCd>
+        <FederatedAssuranceLevelCd>FAL1</FederatedAssuranceLevelCd>
+      </TrustedCustomerGrp>
+    </AdditionalFilerInformation>
+    <TaxYr>2022</TaxYr>
+    <BuildTS>2023-04-26 12:10:37Z</BuildTS>
+  </ReturnHeader>
+  <ReturnData documentCnt="10">
+    <IRS990PF documentId="IRS990PF" referenceDocumentId="GeneralExplanation BinaryAttachment.1" softwareId="22015553" softwareVersionNum="2022v5.0">
+      <AddressChangeInd>X</AddressChangeInd>
+      <Organization501c3ExemptPFInd>X</Organization501c3ExemptPFInd>
+      <FMVAssetsEOYAmt>72821799</FMVAssetsEOYAmt>
+      <MethodOfAccountingAccrualInd>X</MethodOfAccountingAccrualInd>
+      <AnalysisOfRevenueAndExpenses>
+        <ContriRcvdRevAndExpnssAmt>95000000</ContriRcvdRevAndExpnssAmt>
+        <InterestOnSavRevAndExpnssAmt>163756</InterestOnSavRevAndExpnssAmt>
+        <InterestOnSavNetInvstIncmAmt>163756</InterestOnSavNetInvstIncmAmt>
+        <TotalRevAndExpnssAmt>95163756</TotalRevAndExpnssAmt>
+        <TotalNetInvstIncmAmt>163756</TotalNetInvstIncmAmt>
+        <CompOfcrDirTrstRevAndExpnssAmt>307550</CompOfcrDirTrstRevAndExpnssAmt>
+        <CompOfcrDirTrstDsbrsChrtblAmt>307550</CompOfcrDirTrstDsbrsChrtblAmt>
+        <OthEmplSlrsWgsRevAndExpnssAmt>555666</OthEmplSlrsWgsRevAndExpnssAmt>
+        <OthEmplSlrsWgsDsbrsChrtblAmt>555666</OthEmplSlrsWgsDsbrsChrtblAmt>
+        <PensionEmplBnftRevAndExpnssAmt>124651</PensionEmplBnftRevAndExpnssAmt>
+        <PensionEmplBnftDsbrsChrtblAmt>121881</PensionEmplBnftDsbrsChrtblAmt>
+        <LegalFeesRevAndExpnssAmt referenceDocumentId="LegalFeesSchedule">36573</LegalFeesRevAndExpnssAmt>
+        <LegalFeesDsbrsChrtblAmt>36573</LegalFeesDsbrsChrtblAmt>
+        <AccountingFeesRevAndExpnssAmt referenceDocumentId="AccountingFeesSchedule">85800</AccountingFeesRevAndExpnssAmt>
+        <AccountingFeesChrtblPrpsAmt>78000</AccountingFeesChrtblPrpsAmt>
+        <OtherProfFeesRevAndExpnssAmt referenceDocumentId="OtherProfessionalFeesSchedule">63185</OtherProfFeesRevAndExpnssAmt>
+        <OtherProfFeesDsbrsChrtblAmt>63185</OtherProfFeesDsbrsChrtblAmt>
+        <TaxesRevAndExpnssAmt referenceDocumentId="TaxesSchedule">56313</TaxesRevAndExpnssAmt>
+        <TaxesDsbrsChrtblAmt>52022</TaxesDsbrsChrtblAmt>
+        <DeprecAndDpltnRevAndExpnssAmt referenceDocumentId="DepreciationSchedule">1969</DeprecAndDpltnRevAndExpnssAmt>
+        <TravConfMeetingRevAndExpnssAmt>101300</TravConfMeetingRevAndExpnssAmt>
+        <TravConfMeetingDsbrsChrtblAmt>101300</TravConfMeetingDsbrsChrtblAmt>
+        <OtherExpensesRevAndExpnssAmt referenceDocumentId="OtherExpensesSchedule AmortizationSchedule">43254</OtherExpensesRevAndExpnssAmt>
+        <OtherExpensesDsbrsChrtblAmt>46279</OtherExpensesDsbrsChrtblAmt>
+        <TotOprExpensesRevAndExpnssAmt>1376261</TotOprExpensesRevAndExpnssAmt>
+        <TotOprExpensesNetInvstIncmAmt>0</TotOprExpensesNetInvstIncmAmt>
+        <TotOprExpensesDsbrsChrtblAmt>1362456</TotOprExpensesDsbrsChrtblAmt>
+        <ContriPaidRevAndExpnssAmt>22878437</ContriPaidRevAndExpnssAmt>
+        <ContriPaidDsbrsChrtblAmt>22878437</ContriPaidDsbrsChrtblAmt>
+        <TotalExpensesRevAndExpnssAmt>24254698</TotalExpensesRevAndExpnssAmt>
+        <TotalExpensesNetInvstIncmAmt>0</TotalExpensesNetInvstIncmAmt>
+        <TotalExpensesDsbrsChrtblAmt>24240893</TotalExpensesDsbrsChrtblAmt>
+        <ExcessRevenueOverExpensesAmt>70909058</ExcessRevenueOverExpensesAmt>
+        <NetInvestmentIncomeAmt>163756</NetInvestmentIncomeAmt>
+      </AnalysisOfRevenueAndExpenses>
+      <Form990PFBalanceSheetsGrp>
+        <CashBOYAmt>1807252</CashBOYAmt>
+        <SavAndTempCashInvstEOYAmt>37652250</SavAndTempCashInvstEOYAmt>
+        <SavAndTempCashInvstEOYFMVAmt>37652250</SavAndTempCashInvstEOYFMVAmt>
+        <RcvblFromOfficersEOYAmt referenceDocumentId="OtherReceivablesFromOfficersSc">10395</RcvblFromOfficersEOYAmt>
+        <RcvblFromOfficersEOYFMVAmt>10395</RcvblFromOfficersEOYFMVAmt>
+        <PrepaidExpensesBOYAmt>9075</PrepaidExpensesBOYAmt>
+        <PrepaidExpensesEOYAmt>3025</PrepaidExpensesEOYAmt>
+        <PrepaidExpensesEOYFMVAmt>3025</PrepaidExpensesEOYFMVAmt>
+        <USGovernmentObligationsEOYAmt>35144753</USGovernmentObligationsEOYAmt>
+        <USGovtObligationsEOYFMVAmt>35144753</USGovtObligationsEOYFMVAmt>
+        <LandBldgEquipCostOrOtherBssAmt>13345</LandBldgEquipCostOrOtherBssAmt>
+        <LandBldgEquipAccumDeprecAmt>1969</LandBldgEquipAccumDeprecAmt>
+        <LandEOYAmt referenceDocumentId="LandEtcSchedule2">11376</LandEOYAmt>
+        <LandEOYFMVAmt>11376</LandEOYFMVAmt>
+        <TotalAssetsBOYAmt>1816327</TotalAssetsBOYAmt>
+        <TotalAssetsEOYAmt>72821799</TotalAssetsEOYAmt>
+        <TotalAssetsEOYFMVAmt>72821799</TotalAssetsEOYFMVAmt>
+        <AccountsPayableBOYAmt>123604</AccountsPayableBOYAmt>
+        <AccountsPayableEOYAmt>35131</AccountsPayableEOYAmt>
+        <TotalLiabilitiesBOYAmt>123604</TotalLiabilitiesBOYAmt>
+        <TotalLiabilitiesEOYAmt>35131</TotalLiabilitiesEOYAmt>
+        <OrganizationFollowsFASB117Ind>X</OrganizationFollowsFASB117Ind>
+        <NoDonorRstrNetAssestsBOYAmt>1692723</NoDonorRstrNetAssestsBOYAmt>
+        <NoDonorRstrNetAssestsEOYAmt>72786668</NoDonorRstrNetAssestsEOYAmt>
+        <TotNetAstOrFundBalancesBOYAmt>1692723</TotNetAstOrFundBalancesBOYAmt>
+        <TotNetAstOrFundBalancesEOYAmt>72786668</TotNetAstOrFundBalancesEOYAmt>
+        <TotalLiabilitiesNetAstBOYAmt>1816327</TotalLiabilitiesNetAstBOYAmt>
+        <TotalLiabilitiesNetAstEOYAmt>72821799</TotalLiabilitiesNetAstEOYAmt>
+      </Form990PFBalanceSheetsGrp>
+      <ChgInNetAssetsFundBalancesGrp>
+        <TotNetAstOrFundBalancesBOYAmt>1692723</TotNetAstOrFundBalancesBOYAmt>
+        <ExcessRevenueOverExpensesAmt>70909058</ExcessRevenueOverExpensesAmt>
+        <OtherIncreasesAmt referenceDocumentId="OtherIncreasesSchedule">184887</OtherIncreasesAmt>
+        <SubtotalAmt>72786668</SubtotalAmt>
+        <TotNetAstOrFundBalancesEOYAmt>72786668</TotNetAstOrFundBalancesEOYAmt>
+      </ChgInNetAssetsFundBalancesGrp>
+      <ExciseTaxBasedOnInvstIncmGrp>
+        <InvestmentIncomeExciseTaxAmt>2276</InvestmentIncomeExciseTaxAmt>
+        <SubtotalAmt>2276</SubtotalAmt>
+        <TaxBasedOnInvestmentIncomeAmt>2276</TaxBasedOnInvestmentIncomeAmt>
+        <ExtsnRequestIncomeTaxPaidAmt>3500</ExtsnRequestIncomeTaxPaidAmt>
+        <TotalPaymentsAndCreditsAmt>3500</TotalPaymentsAndCreditsAmt>
+        <Form2220AttachedInd referenceDocumentId="IRS2220">X</Form2220AttachedInd>
+        <EsPenaltyAmt>106</EsPenaltyAmt>
+        <OverpaymentAmt>1118</OverpaymentAmt>
+        <AppliedToESTaxAmt>1118</AppliedToESTaxAmt>
+      </ExciseTaxBasedOnInvstIncmGrp>
+      <StatementsRegardingActyGrp>
+        <LegislativePoliticalActyInd>false</LegislativePoliticalActyInd>
+        <MoreThan100SpentInd>false</MoreThan100SpentInd>
+        <Form1120POLFiledInd>false</Form1120POLFiledInd>
+        <ActivitiesNotPreviouslyRptInd>false</ActivitiesNotPreviouslyRptInd>
+        <ChangesToArticlesOrBylawsInd>false</ChangesToArticlesOrBylawsInd>
+        <UnrelatedBusIncmOverLimitInd>false</UnrelatedBusIncmOverLimitInd>
+        <OrganizationDissolvedEtcInd>false</OrganizationDissolvedEtcInd>
+        <Section508eRqrSatisfiedInd>true</Section508eRqrSatisfiedInd>
+        <AtLeast5000InAssetsInd>true</AtLeast5000InAssetsInd>
+        <OrgReportOrRegisterStateCd>IL</OrgReportOrRegisterStateCd>
+        <Form990PFFiledWithAttyGenInd>true</Form990PFFiledWithAttyGenInd>
+        <PrivateOperatingFoundationInd>false</PrivateOperatingFoundationInd>
+        <NewSubstantialContributorsInd referenceDocumentId="SubstantialContributorsSchedul">true</NewSubstantialContributorsInd>
+        <OwnControlledEntityInd>false</OwnControlledEntityInd>
+        <DonorAdvisedFundInd>false</DonorAdvisedFundInd>
+        <ComplyWithPublicInspRqrInd>true</ComplyWithPublicInspRqrInd>
+        <WebsiteAddressTxt>http://pmangellfamfound.org</WebsiteAddressTxt>
+        <PersonsWithBooksName>
+          <BusinessNameLine1Txt>Sean Lydon</BusinessNameLine1Txt>
+        </PersonsWithBooksName>
+        <PhoneNum>3019484400</PhoneNum>
+        <LocationOfBooksUSAddress>
+          <AddressLine1Txt>9401 Key West Avenue</AddressLine1Txt>
+          <CityNm>Rockville</CityNm>
+          <StateAbbreviationCd>MD</StateAbbreviationCd>
+          <ZIPCd>20850</ZIPCd>
+        </LocationOfBooksUSAddress>
+        <ForeignAccountsQuestionInd>false</ForeignAccountsQuestionInd>
+      </StatementsRegardingActyGrp>
+      <StatementsRegardingActy4720Grp>
+        <SaleOrExchDisqualifiedPrsnInd>false</SaleOrExchDisqualifiedPrsnInd>
+        <BrrwOrLendDisqualifiedPrsnInd>false</BrrwOrLendDisqualifiedPrsnInd>
+        <FurnGoodsDisqualifiedPrsnInd>false</FurnGoodsDisqualifiedPrsnInd>
+        <PayCompDisqualifiedPrsnInd>true</PayCompDisqualifiedPrsnInd>
+        <TransferAstDisqualifiedPrsnInd>false</TransferAstDisqualifiedPrsnInd>
+        <PaymentToGovernmentOfficialInd>false</PaymentToGovernmentOfficialInd>
+        <ActsFailToQlfyAsExceptionsInd>false</ActsFailToQlfyAsExceptionsInd>
+        <UncorrectedPriorActsInd>false</UncorrectedPriorActsInd>
+        <UndistributedIncomePYInd>false</UndistributedIncomePYInd>
+        <BusinessHoldingsInd>false</BusinessHoldingsInd>
+        <JeopardyInvestmentsInd>false</JeopardyInvestmentsInd>
+        <UncorrectedPYJeopardyInvstInd>false</UncorrectedPYJeopardyInvstInd>
+        <InfluenceLegislationInd>false</InfluenceLegislationInd>
+        <InfluenceElectionInd>false</InfluenceElectionInd>
+        <GrantsToIndividualsInd>false</GrantsToIndividualsInd>
+        <GrantsToOrganizationsInd>false</GrantsToOrganizationsInd>
+        <NoncharitablePurposeInd>false</NoncharitablePurposeInd>
+        <RcvFndsToPayPrsnlBnftCntrctInd>false</RcvFndsToPayPrsnlBnftCntrctInd>
+        <PayPremiumsPrsnlBnftCntrctInd>false</PayPremiumsPrsnlBnftCntrctInd>
+        <ProhibitedTaxShelterTransInd>false</ProhibitedTaxShelterTransInd>
+        <SubjToTaxRmnrtnExPrchtPymtInd>false</SubjToTaxRmnrtnExPrchtPymtInd>
+      </StatementsRegardingActy4720Grp>
+      <OfficerDirTrstKeyEmplInfoGrp>
+        <OfficerDirTrstKeyEmplGrp>
+          <PersonNm>Brian Johnson</PersonNm>
+          <USAddress>
+            <AddressLine1Txt>8550 W Bryn Mawr Avenue</AddressLine1Txt>
+            <CityNm>Chicago</CityNm>
+            <StateAbbreviationCd>IL</StateAbbreviationCd>
+            <ZIPCd>60631</ZIPCd>
+          </USAddress>
+          <TitleTxt>Treasurer</TitleTxt>
+          <AverageHrsPerWkDevotedToPosRt>2.00</AverageHrsPerWkDevotedToPosRt>
+          <CompensationAmt>0</CompensationAmt>
+        </OfficerDirTrstKeyEmplGrp>
+        <OfficerDirTrstKeyEmplGrp>
+          <PersonNm>James S Angell</PersonNm>
+          <USAddress>
+            <AddressLine1Txt>8550 W Bryn Mawr Avenue</AddressLine1Txt>
+            <CityNm>Chicago</CityNm>
+            <StateAbbreviationCd>IL</StateAbbreviationCd>
+            <ZIPCd>60631</ZIPCd>
+          </USAddress>
+          <TitleTxt>President</TitleTxt>
+          <AverageHrsPerWkDevotedToPosRt>15.00</AverageHrsPerWkDevotedToPosRt>
+          <CompensationAmt>43128</CompensationAmt>
+        </OfficerDirTrstKeyEmplGrp>
+        <OfficerDirTrstKeyEmplGrp>
+          <PersonNm>Michael T Angell</PersonNm>
+          <USAddress>
+            <AddressLine1Txt>8550 W Bryn Mawr Avenue</AddressLine1Txt>
+            <CityNm>Chicago</CityNm>
+            <StateAbbreviationCd>IL</StateAbbreviationCd>
+            <ZIPCd>60631</ZIPCd>
+          </USAddress>
+          <TitleTxt>Secretary</TitleTxt>
+          <AverageHrsPerWkDevotedToPosRt>30.00</AverageHrsPerWkDevotedToPosRt>
+          <CompensationAmt>30435</CompensationAmt>
+        </OfficerDirTrstKeyEmplGrp>
+        <OfficerDirTrstKeyEmplGrp>
+          <PersonNm>Kimberly R Van Horn</PersonNm>
+          <USAddress>
+            <AddressLine1Txt>8550 W Bryn Mawr Avenue</AddressLine1Txt>
+            <CityNm>Chicago</CityNm>
+            <StateAbbreviationCd>IL</StateAbbreviationCd>
+            <ZIPCd>60631</ZIPCd>
+          </USAddress>
+          <TitleTxt>Managing Direct</TitleTxt>
+          <AverageHrsPerWkDevotedToPosRt>40.00</AverageHrsPerWkDevotedToPosRt>
+          <CompensationAmt>214667</CompensationAmt>
+          <EmployeeBenefitProgramAmt>19320</EmployeeBenefitProgramAmt>
+        </OfficerDirTrstKeyEmplGrp>
+        <CompensationHighestPaidEmplGrp>
+          <PersonNm>Rupal H Soni</PersonNm>
+          <USAddress>
+            <AddressLine1Txt>1509 Maple Knoll Court</AddressLine1Txt>
+            <CityNm>Naperville</CityNm>
+            <StateAbbreviationCd>IL</StateAbbreviationCd>
+            <ZIPCd>60563</ZIPCd>
+          </USAddress>
+          <TitleTxt>Program Officer</TitleTxt>
+          <AverageHrsPerWkDevotedToPosRt>40.00</AverageHrsPerWkDevotedToPosRt>
+          <CompensationAmt>119927</CompensationAmt>
+          <EmployeeBenefitsAmt>10654</EmployeeBenefitsAmt>
+        </CompensationHighestPaidEmplGrp>
+        <CompensationHighestPaidEmplGrp>
+          <PersonNm>Wendy A Vendel</PersonNm>
+          <USAddress>
+            <AddressLine1Txt>1264 W Ardmore Avenue</AddressLine1Txt>
+            <CityNm>Chicago</CityNm>
+            <StateAbbreviationCd>IL</StateAbbreviationCd>
+            <ZIPCd>60660</ZIPCd>
+          </USAddress>
+          <TitleTxt>Grants Manager</TitleTxt>
+          <AverageHrsPerWkDevotedToPosRt>40.00</AverageHrsPerWkDevotedToPosRt>
+          <CompensationAmt>104115</CompensationAmt>
+          <EmployeeBenefitsAmt>9370</EmployeeBenefitsAmt>
+        </CompensationHighestPaidEmplGrp>
+        <CompensationHighestPaidEmplGrp>
+          <PersonNm>Audra C Yokley</PersonNm>
+          <USAddress>
+            <AddressLine1Txt>5944 N Maplewood Avenue 2</AddressLine1Txt>
+            <CityNm>Chicago</CityNm>
+            <StateAbbreviationCd>IL</StateAbbreviationCd>
+            <ZIPCd>60659</ZIPCd>
+          </USAddress>
+          <TitleTxt>Program Officer</TitleTxt>
+          <AverageHrsPerWkDevotedToPosRt>40.00</AverageHrsPerWkDevotedToPosRt>
+          <CompensationAmt>98917</CompensationAmt>
+          <EmployeeBenefitsAmt>8903</EmployeeBenefitsAmt>
+        </CompensationHighestPaidEmplGrp>
+        <CompensationHighestPaidEmplGrp>
+          <PersonNm>Amanda E Nichson</PersonNm>
+          <USAddress>
+            <AddressLine1Txt>1640 16th Street NW 304</AddressLine1Txt>
+            <CityNm>Washington</CityNm>
+            <StateAbbreviationCd>DC</StateAbbreviationCd>
+            <ZIPCd>20009</ZIPCd>
+          </USAddress>
+          <TitleTxt>Program Officer</TitleTxt>
+          <AverageHrsPerWkDevotedToPosRt>40.00</AverageHrsPerWkDevotedToPosRt>
+          <CompensationAmt>172500</CompensationAmt>
+          <EmployeeBenefitsAmt>5625</EmployeeBenefitsAmt>
+        </CompensationHighestPaidEmplGrp>
+        <CompensationHighestPaidEmplGrp>
+          <PersonNm>Mark A Florido</PersonNm>
+          <USAddress>
+            <AddressLine1Txt>853 W Agatite Avenue 2S</AddressLine1Txt>
+            <CityNm>Chicago</CityNm>
+            <StateAbbreviationCd>IL</StateAbbreviationCd>
+            <ZIPCd>60640</ZIPCd>
+          </USAddress>
+          <TitleTxt>Program Officer</TitleTxt>
+          <AverageHrsPerWkDevotedToPosRt>40.00</AverageHrsPerWkDevotedToPosRt>
+          <CompensationAmt>60208</CompensationAmt>
+          <EmployeeBenefitsAmt>1594</EmployeeBenefitsAmt>
+        </CompensationHighestPaidEmplGrp>
+        <CompensationOfHghstPdCntrctGrp>
+          <BusinessName>
+            <BusinessNameLine1Txt>Lydon Fetterolf Corydon PA</BusinessNameLine1Txt>
+          </BusinessName>
+          <USAddress>
+            <AddressLine1Txt>9401 Key West Avenue</AddressLine1Txt>
+            <CityNm>Rockville</CityNm>
+            <StateAbbreviationCd>MD</StateAbbreviationCd>
+            <ZIPCd>20850</ZIPCd>
+          </USAddress>
+          <ServiceTypeTxt>Accounting, Tax Prep</ServiceTypeTxt>
+          <CompensationAmt>85800</CompensationAmt>
+        </CompensationOfHghstPdCntrctGrp>
+      </OfficerDirTrstKeyEmplInfoGrp>
+      <SummaryOfDirectChrtblActyGrp>
+        <Description1Txt>NoneThe Foundation only contributed cash to other charitable organizations.</Description1Txt>
+        <Expenses1Amt>0</Expenses1Amt>
+      </SummaryOfDirectChrtblActyGrp>
+      <MinimumInvestmentReturnGrp>
+        <AverageMonthlyFMVOfSecAmt>4381267</AverageMonthlyFMVOfSecAmt>
+        <AverageMonthlyCashBalancesAmt>12728140</AverageMonthlyCashBalancesAmt>
+        <FMVAllOtherNoncharitableAstAmt>12398</FMVAllOtherNoncharitableAstAmt>
+        <TotalFMVOfUnusedAssetsAmt>17121805</TotalFMVOfUnusedAssetsAmt>
+        <ReductionClaimedAmt>0</ReductionClaimedAmt>
+        <AdjustedTotalFMVOfUnusedAstAmt>17121805</AdjustedTotalFMVOfUnusedAstAmt>
+        <CashDeemedCharitableAmt>256827</CashDeemedCharitableAmt>
+        <NetVlNoncharitableAssetsAmt>16864978</NetVlNoncharitableAssetsAmt>
+        <MinimumInvestmentReturnAmt>843249</MinimumInvestmentReturnAmt>
+      </MinimumInvestmentReturnGrp>
+      <DistributableAmountGrp>
+        <MinimumInvestmentReturnAmt>843249</MinimumInvestmentReturnAmt>
+        <TaxBasedOnInvestmentIncomeAmt>2276</TaxBasedOnInvestmentIncomeAmt>
+        <TotalTaxAmt>2276</TotalTaxAmt>
+        <DistributableBeforeAdjAmt>840973</DistributableBeforeAdjAmt>
+        <DistributableBeforeDedAmt>840973</DistributableBeforeDedAmt>
+        <DistributableAsAdjustedAmt>840973</DistributableAsAdjustedAmt>
+      </DistributableAmountGrp>
+      <PFQualifyingDistributionsGrp>
+        <ExpensesAndContributionsAmt>24240893</ExpensesAndContributionsAmt>
+        <QualifyingDistributionsAmt>24240893</QualifyingDistributionsAmt>
+      </PFQualifyingDistributionsGrp>
+      <UndistributedIncomeGrp>
+        <DistributableAsAdjustedAmt>840973</DistributableAsAdjustedAmt>
+        <ExcessDistributionCyovYr5Amt>14941628</ExcessDistributionCyovYr5Amt>
+        <ExcessDistributionCyovYr4Amt>19960213</ExcessDistributionCyovYr4Amt>
+        <ExcessDistributionCyovYr3Amt>22706458</ExcessDistributionCyovYr3Amt>
+        <ExcessDistributionCyovYr2Amt>22953024</ExcessDistributionCyovYr2Amt>
+        <ExcessDistributionCyovYr1Amt>25166658</ExcessDistributionCyovYr1Amt>
+        <TotalExcessDistributionCyovAmt>105727981</TotalExcessDistributionCyovAmt>
+        <QualifyingDistributionsAmt>24240893</QualifyingDistributionsAmt>
+        <TreatedAsDistriFromCorpusAmt>0</TreatedAsDistriFromCorpusAmt>
+        <AppliedToCurrentYearAmt>840973</AppliedToCurrentYearAmt>
+        <RemainingDistriFromCorpusAmt>23399920</RemainingDistriFromCorpusAmt>
+        <TotalCorpusAmt>129127901</TotalCorpusAmt>
+        <UndistributedIncomeCYAmt>0</UndistributedIncomeCYAmt>
+        <ExcessDistriCyovFromYr5Amt>14941628</ExcessDistriCyovFromYr5Amt>
+        <ExcessDistriCyovToNextYrAmt>114186273</ExcessDistriCyovToNextYrAmt>
+        <ExcessFromYear4Amt>19960213</ExcessFromYear4Amt>
+        <ExcessFromYear3Amt>22706458</ExcessFromYear3Amt>
+        <ExcessFromYear2Amt>22953024</ExcessFromYear2Amt>
+        <ExcessFromYear1Amt>25166658</ExcessFromYear1Amt>
+        <ExcessFromCurrentYearAmt>23399920</ExcessFromCurrentYearAmt>
+      </UndistributedIncomeGrp>
+      <SupplementaryInformationGrp>
+        <ApplicationSubmissionInfoGrp>
+          <RecipientPersonNm>Kimberly R Van Horn</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>8550 W Bryn Mawr Avenue</AddressLine1Txt>
+            <CityNm>Chicago</CityNm>
+            <StateAbbreviationCd>IL</StateAbbreviationCd>
+            <ZIPCd>60631</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientPhoneNum>7736286980</RecipientPhoneNum>
+          <FormAndInfoAndMaterialsTxt>As Required</FormAndInfoAndMaterialsTxt>
+          <SubmissionDeadlinesTxt>N/A</SubmissionDeadlinesTxt>
+          <RestrictionsOnAwardsTxt>N/A</RestrictionsOnAwardsTxt>
+        </ApplicationSubmissionInfoGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientPersonNm>See Attached</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>Various</AddressLine1Txt>
+            <CityNm>Various</CityNm>
+            <StateAbbreviationCd>IL</StateAbbreviationCd>
+            <ZIPCd>60202</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>None</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>PC</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>Charitable</GrantOrContributionPurposeTxt>
+          <Amt>22878437</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <TotalGrantOrContriPdDurYrAmt>22878437</TotalGrantOrContriPdDurYrAmt>
+      </SupplementaryInformationGrp>
+      <AnalysisIncomeProducingActyGrp>
+        <IntOnSavAndTempCashInvstGrp>
+          <UnrelatedBusinessTaxblIncmAmt>163756</UnrelatedBusinessTaxblIncmAmt>
+          <ExclusionCd>14</ExclusionCd>
+        </IntOnSavAndTempCashInvstGrp>
+        <SubtotalsIncmProducingActyGrp>
+          <UnrelatedBusinessTaxblIncmAmt>163756</UnrelatedBusinessTaxblIncmAmt>
+        </SubtotalsIncmProducingActyGrp>
+        <TotalIncomeProducingActyAmt>163756</TotalIncomeProducingActyAmt>
+      </AnalysisIncomeProducingActyGrp>
+      <TrnsfrTransRlnNonchrtblEOGrp>
+        <TrnsfrOfCashToNonchrtblEOInd>false</TrnsfrOfCashToNonchrtblEOInd>
+        <TrnsfrOtherAssetNonchrtblEOInd>false</TrnsfrOtherAssetNonchrtblEOInd>
+        <SalesOrExchangesOfAssetsInd>false</SalesOrExchangesOfAssetsInd>
+        <PurchaseOfAssetsNonchrtblEOInd>false</PurchaseOfAssetsNonchrtblEOInd>
+        <RentalOfFacilitiesOthAssetsInd>false</RentalOfFacilitiesOthAssetsInd>
+        <ReimbursementArrangementsInd>false</ReimbursementArrangementsInd>
+        <LoansOrLoanGuaranteesInd>false</LoansOrLoanGuaranteesInd>
+        <PerformanceOfServicesEtcInd>false</PerformanceOfServicesEtcInd>
+        <SharingOfFacilitiesEtcInd>false</SharingOfFacilitiesEtcInd>
+        <RelationshipsNonchrtblEOInd>false</RelationshipsNonchrtblEOInd>
+      </TrnsfrTransRlnNonchrtblEOGrp>
+    </IRS990PF>
+    <IRS990ScheduleB documentId="IRS990ScheduleB" softwareId="22015553" softwareVersionNum="2022v5.0">
+      <Organization501c3ExemptPFInd>X</Organization501c3ExemptPFInd>
+      <GeneralRuleInd>X</GeneralRuleInd>
+      <ContributorInformationGrp>
+        <ContributorNum>1</ContributorNum>
+        <ContributorPersonNm>Charles T Angell</ContributorPersonNm>
+        <ContributorUSAddress>
+          <AddressLine1Txt>4140 W Fullerton Ave</AddressLine1Txt>
+          <CityNm>Chicago</CityNm>
+          <StateAbbreviationCd>IL</StateAbbreviationCd>
+          <ZIPCd>60639</ZIPCd>
+        </ContributorUSAddress>
+        <TotalContributionsAmt>15000000</TotalContributionsAmt>
+        <PersonContributionInd>X</PersonContributionInd>
+      </ContributorInformationGrp>
+      <ContributorInformationGrp>
+        <ContributorNum>2</ContributorNum>
+        <ContributorPersonNm>Charles T Angell</ContributorPersonNm>
+        <ContributorUSAddress>
+          <AddressLine1Txt>4140 W Fullerton Ave</AddressLine1Txt>
+          <CityNm>Chicago</CityNm>
+          <StateAbbreviationCd>IL</StateAbbreviationCd>
+          <ZIPCd>60639</ZIPCd>
+        </ContributorUSAddress>
+        <TotalContributionsAmt>15000000</TotalContributionsAmt>
+        <PersonContributionInd>X</PersonContributionInd>
+      </ContributorInformationGrp>
+      <ContributorInformationGrp>
+        <ContributorNum>3</ContributorNum>
+        <ContributorPersonNm>Charles T Angell</ContributorPersonNm>
+        <ContributorUSAddress>
+          <AddressLine1Txt>4140 W Fullerton Ave</AddressLine1Txt>
+          <CityNm>Chicago</CityNm>
+          <StateAbbreviationCd>IL</StateAbbreviationCd>
+          <ZIPCd>60639</ZIPCd>
+        </ContributorUSAddress>
+        <TotalContributionsAmt>30000000</TotalContributionsAmt>
+        <PersonContributionInd>X</PersonContributionInd>
+      </ContributorInformationGrp>
+      <ContributorInformationGrp>
+        <ContributorNum>4</ContributorNum>
+        <ContributorPersonNm>Charles T Angell 2010 Rev Trust</ContributorPersonNm>
+        <ContributorUSAddress>
+          <AddressLine1Txt>6420 Ichabod Place</AddressLine1Txt>
+          <CityNm>Falls Church</CityNm>
+          <StateAbbreviationCd>VA</StateAbbreviationCd>
+          <ZIPCd>22042</ZIPCd>
+        </ContributorUSAddress>
+        <TotalContributionsAmt>35000000</TotalContributionsAmt>
+        <PersonContributionInd>X</PersonContributionInd>
+      </ContributorInformationGrp>
+    </IRS990ScheduleB>
+    <AccountingFeesSchedule documentId="AccountingFeesSchedule" softwareId="22015553" softwareVersionNum="2022v5.0">
+      <AccountingFeesDetail>
+        <CategoryTxt>Accounting, Tax Prep, Consulting</CategoryTxt>
+        <Amt>85800</Amt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>78000</DisbursementsCharitablePrpsAmt>
+      </AccountingFeesDetail>
+    </AccountingFeesSchedule>
+    <LandEtcSchedule2 documentId="LandEtcSchedule2" softwareId="22015553" softwareVersionNum="2022v5.0">
+      <LandEtcGrp>
+        <CategoryOrItemTxt>Machinery and Equipment</CategoryOrItemTxt>
+        <CostOrOtherBasisAmt>13345</CostOrOtherBasisAmt>
+        <AccumulatedDepreciationAmt>1969</AccumulatedDepreciationAmt>
+        <BookValueAmt>11376</BookValueAmt>
+        <EOYFMVAmt>11376</EOYFMVAmt>
+      </LandEtcGrp>
+    </LandEtcSchedule2>
+    <LegalFeesSchedule documentId="LegalFeesSchedule" softwareId="22015553" softwareVersionNum="2022v5.0">
+      <LegalFeesGrp>
+        <CategoryTxt>General Legal Consulting</CategoryTxt>
+        <LegalFeesAmt>36573</LegalFeesAmt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>36573</DisbursementsCharitablePrpsAmt>
+      </LegalFeesGrp>
+    </LegalFeesSchedule>
+    <OtherExpensesSchedule documentId="OtherExpensesSchedule" softwareId="22015553" softwareVersionNum="2022v5.0">
+      <OtherExpensesScheduleGrp>
+        <Desc>Equipment Expense</Desc>
+        <RevenueAndExpensesPerBooksAmt>2433</RevenueAndExpensesPerBooksAmt>
+        <DisbursementsCharitablePrpsAmt>2433</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>Insurance</Desc>
+        <RevenueAndExpensesPerBooksAmt>2016</RevenueAndExpensesPerBooksAmt>
+        <DisbursementsCharitablePrpsAmt>2016</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>Membership Fees</Desc>
+        <RevenueAndExpensesPerBooksAmt>11344</RevenueAndExpensesPerBooksAmt>
+        <DisbursementsCharitablePrpsAmt>11344</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>Office Expense</Desc>
+        <RevenueAndExpensesPerBooksAmt>3499</RevenueAndExpensesPerBooksAmt>
+        <DisbursementsCharitablePrpsAmt>3499</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>Software and Web Services</Desc>
+        <RevenueAndExpensesPerBooksAmt>14258</RevenueAndExpensesPerBooksAmt>
+        <DisbursementsCharitablePrpsAmt>17283</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>Staff Development</Desc>
+        <RevenueAndExpensesPerBooksAmt>9704</RevenueAndExpensesPerBooksAmt>
+        <DisbursementsCharitablePrpsAmt>9704</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+    </OtherExpensesSchedule>
+    <OtherProfessionalFeesSchedule documentId="OtherProfessionalFeesSchedule" softwareId="22015553" softwareVersionNum="2022v5.0">
+      <OtherProfessionalFeesDetail>
+        <CategoryTxt>Consulting - Expansion Planning</CategoryTxt>
+        <Amt>24938</Amt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>24938</DisbursementsCharitablePrpsAmt>
+      </OtherProfessionalFeesDetail>
+      <OtherProfessionalFeesDetail>
+        <CategoryTxt>Consulting - NGO Source</CategoryTxt>
+        <Amt>4350</Amt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>4350</DisbursementsCharitablePrpsAmt>
+      </OtherProfessionalFeesDetail>
+      <OtherProfessionalFeesDetail>
+        <CategoryTxt>Consulting - Other</CategoryTxt>
+        <Amt>9004</Amt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>9004</DisbursementsCharitablePrpsAmt>
+      </OtherProfessionalFeesDetail>
+      <OtherProfessionalFeesDetail>
+        <CategoryTxt>Consulting - Recruiting</CategoryTxt>
+        <Amt>23643</Amt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>23643</DisbursementsCharitablePrpsAmt>
+      </OtherProfessionalFeesDetail>
+      <OtherProfessionalFeesDetail>
+        <CategoryTxt>Consulting - Retirement Plan Admin</CategoryTxt>
+        <Amt>1250</Amt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>1250</DisbursementsCharitablePrpsAmt>
+      </OtherProfessionalFeesDetail>
+    </OtherProfessionalFeesSchedule>
+    <OtherReceivablesOfficersSch documentId="OtherReceivablesFromOfficersSc" softwareId="22015553" softwareVersionNum="2022v5.0">
+      <OfficerOtherRcvblGrp>
+        <BorrowerPersonNm>James Angell</BorrowerPersonNm>
+        <BorrowerTitleTxt>President</BorrowerTitleTxt>
+        <LoanOriginalAmt>6594</LoanOriginalAmt>
+        <BalanceDueAmt>6594</BalanceDueAmt>
+        <RepaymentTermsTxt>On Demand</RepaymentTermsTxt>
+        <LoanPurposeTxt>Health Insurance Reimbursement</LoanPurposeTxt>
+      </OfficerOtherRcvblGrp>
+      <OfficerOtherRcvblGrp>
+        <BorrowerPersonNm>Michael Angell</BorrowerPersonNm>
+        <BorrowerTitleTxt>Secretary</BorrowerTitleTxt>
+        <LoanOriginalAmt>3801</LoanOriginalAmt>
+        <BalanceDueAmt>3801</BalanceDueAmt>
+        <RepaymentTermsTxt>On Demand</RepaymentTermsTxt>
+        <LoanPurposeTxt>Health Insurance Reimbursement</LoanPurposeTxt>
+      </OfficerOtherRcvblGrp>
+    </OtherReceivablesOfficersSch>
+    <SubstantialContributorsSch documentId="SubstantialContributorsSchedul" softwareId="22015553" softwareVersionNum="2022v5.0">
+      <SubstantialContributorDetail>
+        <PersonNm>Charles T Angell 2010 Rev Trust</PersonNm>
+        <USAddress>
+          <AddressLine1Txt>6420 Ichabod Place</AddressLine1Txt>
+          <CityNm>Falls Church</CityNm>
+          <StateAbbreviationCd>VA</StateAbbreviationCd>
+          <ZIPCd>22042</ZIPCd>
+        </USAddress>
+      </SubstantialContributorDetail>
+    </SubstantialContributorsSch>
+    <TaxesSchedule documentId="TaxesSchedule" softwareId="22015553" softwareVersionNum="2022v5.0">
+      <TaxesDetail>
+        <CategoryTxt>Excise Tax</CategoryTxt>
+        <Amt>2728</Amt>
+      </TaxesDetail>
+      <TaxesDetail>
+        <CategoryTxt>Payroll Tax</CategoryTxt>
+        <Amt>53585</Amt>
+        <DisbursementsCharitablePrpsAmt>52022</DisbursementsCharitablePrpsAmt>
+      </TaxesDetail>
+    </TaxesSchedule>
+  </ReturnData>
+</Return>
