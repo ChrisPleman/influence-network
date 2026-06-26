@@ -1,0 +1,2282 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Return xmlns="http://www.irs.gov/efile" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.irs.gov/efile" returnVersion="2023v6.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2025-05-01T01:44:04-05:00</ReturnTs>
+    <TaxPeriodEndDt>2023-12-31</TaxPeriodEndDt>
+    <PreparerFirmGrp>
+      <PreparerFirmEIN>861065772</PreparerFirmEIN>
+      <PreparerFirmName>
+        <BusinessNameLine1Txt>DELOITTE TAX LLP</BusinessNameLine1Txt>
+      </PreparerFirmName>
+      <PreparerUSAddress>
+        <AddressLine1Txt>50 SOUTH SIXTH STREET</AddressLine1Txt>
+        <CityNm>MINNEAPOLIS</CityNm>
+        <StateAbbreviationCd>MN</StateAbbreviationCd>
+        <ZIPCd>554021844</ZIPCd>
+      </PreparerUSAddress>
+    </PreparerFirmGrp>
+    <ReturnTypeCd>990PF</ReturnTypeCd>
+    <TaxPeriodBeginDt>2023-01-01</TaxPeriodBeginDt>
+    <Filer>
+      <EIN>463176081</EIN>
+      <BusinessName>
+        <BusinessNameLine1Txt>ISENBERG FAMILY CHARITABLE FOUNDATION</BusinessNameLine1Txt>
+        <BusinessNameLine2Txt>INC C/O CENIARTH LLC</BusinessNameLine2Txt>
+      </BusinessName>
+      <BusinessNameControlTxt>ISEN</BusinessNameControlTxt>
+      <PhoneNum>5154040301</PhoneNum>
+      <USAddress>
+        <AddressLine1Txt>PO BOX 351</AddressLine1Txt>
+        <CityNm>PALM BEACH</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>33480</ZIPCd>
+      </USAddress>
+    </Filer>
+    <BusinessOfficerGrp>
+      <PersonNm>STEFAN FREEMAN</PersonNm>
+      <PersonTitleTxt>DIRECTOR</PersonTitleTxt>
+      <PhoneNum>5154040301</PhoneNum>
+      <SignatureDt>2025-04-29</SignatureDt>
+      <DiscussWithPaidPreparerInd>1</DiscussWithPaidPreparerInd>
+    </BusinessOfficerGrp>
+    <IRSResponsiblePrtyInfoCurrInd>1</IRSResponsiblePrtyInfoCurrInd>
+    <PreparerPersonGrp>
+      <PreparerPersonNm>KRISTINA RASMUSSEN</PreparerPersonNm>
+      <PTIN>P00143920</PTIN>
+      <PhoneNum>6123974000</PhoneNum>
+    </PreparerPersonGrp>
+    <TaxYr>2023</TaxYr>
+    <BuildTS>2025-03-06 01:10:19Z</BuildTS>
+  </ReturnHeader>
+  <ReturnData documentCnt="15">
+    <IRS990PF documentId="RetDoc1235000001">
+      <Organization501c3ExemptPFInd>X</Organization501c3ExemptPFInd>
+      <FMVAssetsEOYAmt>334218001</FMVAssetsEOYAmt>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <AnalysisOfRevenueAndExpenses>
+        <ScheduleBNotRequiredInd>X</ScheduleBNotRequiredInd>
+        <DividendsRevAndExpnssAmt>7189007</DividendsRevAndExpnssAmt>
+        <DividendsNetInvstIncmAmt>7218255</DividendsNetInvstIncmAmt>
+        <NetGainSaleAstRevAndExpnssAmt>159592</NetGainSaleAstRevAndExpnssAmt>
+        <GrossSalesPriceAmt>1334795</GrossSalesPriceAmt>
+        <CapGainNetIncmNetInvstIncmAmt>0</CapGainNetIncmNetInvstIncmAmt>
+        <OtherIncomeRevAndExpnssAmt referenceDocumentId="RetDoc2001500001">1540322</OtherIncomeRevAndExpnssAmt>
+        <OtherIncomeNetInvstIncmAmt>2804977</OtherIncomeNetInvstIncmAmt>
+        <TotalRevAndExpnssAmt>8888921</TotalRevAndExpnssAmt>
+        <TotalNetInvstIncmAmt>10023232</TotalNetInvstIncmAmt>
+        <CompOfcrDirTrstRevAndExpnssAmt>0</CompOfcrDirTrstRevAndExpnssAmt>
+        <CompOfcrDirTrstNetInvstIncmAmt>0</CompOfcrDirTrstNetInvstIncmAmt>
+        <CompOfcrDirTrstDsbrsChrtblAmt>0</CompOfcrDirTrstDsbrsChrtblAmt>
+        <LegalFeesRevAndExpnssAmt referenceDocumentId="RetDoc2002100001">28653</LegalFeesRevAndExpnssAmt>
+        <LegalFeesNetInvstIncmAmt>0</LegalFeesNetInvstIncmAmt>
+        <LegalFeesDsbrsChrtblAmt>28653</LegalFeesDsbrsChrtblAmt>
+        <AccountingFeesRevAndExpnssAmt referenceDocumentId="RetDoc2002200001">158708</AccountingFeesRevAndExpnssAmt>
+        <AccountingFeesNetInvstIncmAmt>0</AccountingFeesNetInvstIncmAmt>
+        <AccountingFeesChrtblPrpsAmt>158708</AccountingFeesChrtblPrpsAmt>
+        <OtherProfFeesRevAndExpnssAmt referenceDocumentId="RetDoc2002300001">2478842</OtherProfFeesRevAndExpnssAmt>
+        <OtherProfFeesNetInvstIncmAmt>2473621</OtherProfFeesNetInvstIncmAmt>
+        <OtherProfFeesDsbrsChrtblAmt>5221</OtherProfFeesDsbrsChrtblAmt>
+        <TaxesRevAndExpnssAmt referenceDocumentId="RetDoc2002500001">154678</TaxesRevAndExpnssAmt>
+        <TaxesNetInvstIncmAmt>142194</TaxesNetInvstIncmAmt>
+        <TaxesDsbrsChrtblAmt>0</TaxesDsbrsChrtblAmt>
+        <OtherExpensesRevAndExpnssAmt referenceDocumentId="RetDoc2003200001">16764</OtherExpensesRevAndExpnssAmt>
+        <OtherExpensesNetInvstIncmAmt>732560</OtherExpensesNetInvstIncmAmt>
+        <OtherExpensesDsbrsChrtblAmt>0</OtherExpensesDsbrsChrtblAmt>
+        <TotOprExpensesRevAndExpnssAmt>2837645</TotOprExpensesRevAndExpnssAmt>
+        <TotOprExpensesNetInvstIncmAmt>3348375</TotOprExpensesNetInvstIncmAmt>
+        <TotOprExpensesDsbrsChrtblAmt>192582</TotOprExpensesDsbrsChrtblAmt>
+        <ContriPaidRevAndExpnssAmt>379500</ContriPaidRevAndExpnssAmt>
+        <ContriPaidDsbrsChrtblAmt>379500</ContriPaidDsbrsChrtblAmt>
+        <TotalExpensesRevAndExpnssAmt>3217145</TotalExpensesRevAndExpnssAmt>
+        <TotalExpensesNetInvstIncmAmt>3348375</TotalExpensesNetInvstIncmAmt>
+        <TotalExpensesDsbrsChrtblAmt>572082</TotalExpensesDsbrsChrtblAmt>
+        <ExcessRevenueOverExpensesAmt>5671776</ExcessRevenueOverExpensesAmt>
+        <NetInvestmentIncomeAmt>6674857</NetInvestmentIncomeAmt>
+      </AnalysisOfRevenueAndExpenses>
+      <Form990PFBalanceSheetsGrp>
+        <SavAndTempCashInvstBOYAmt>15355412</SavAndTempCashInvstBOYAmt>
+        <SavAndTempCashInvstEOYAmt>9910880</SavAndTempCashInvstEOYAmt>
+        <SavAndTempCashInvstEOYFMVAmt>9910880</SavAndTempCashInvstEOYFMVAmt>
+        <OtherNtsAndLoansRcvblAmt>17850000</OtherNtsAndLoansRcvblAmt>
+        <OtherRcvblAllwncDbtflAcctAmt>0</OtherRcvblAllwncDbtflAcctAmt>
+        <OtherNtsAndLoansRcvblBOYAmt>19008473</OtherNtsAndLoansRcvblBOYAmt>
+        <OtherNtsAndLoansRcvblEOYAmt>17850000</OtherNtsAndLoansRcvblEOYAmt>
+        <OtherNtsAndLoansRcvblEOYFMVAmt>12939329</OtherNtsAndLoansRcvblEOYFMVAmt>
+        <CorporateStockBOYAmt>194738233</CorporateStockBOYAmt>
+        <CorporateStockEOYAmt referenceDocumentId="RetDoc2018900001">139140208</CorporateStockEOYAmt>
+        <CorporateStockEOYFMVAmt>142989535</CorporateStockEOYFMVAmt>
+        <CorporateBondsBOYAmt>0</CorporateBondsBOYAmt>
+        <CorporateBondsEOYAmt referenceDocumentId="RetDoc2044400001">37523850</CorporateBondsEOYAmt>
+        <CorporateBondsEOYFMVAmt>33794574</CorporateBondsEOYFMVAmt>
+        <OtherInvestmentsBOYAmt>54989263</OtherInvestmentsBOYAmt>
+        <OtherInvestmentsEOYAmt referenceDocumentId="RetDoc2018100001">67234439</OtherInvestmentsEOYAmt>
+        <OtherInvestmentsEOYFMVAmt>92746580</OtherInvestmentsEOYFMVAmt>
+        <OtherAssetsBOYAmt referenceDocumentId="RetDoc2046600001">28423111</OtherAssetsBOYAmt>
+        <OtherAssetsEOYAmt referenceDocumentId="RetDoc2046600001">47033548</OtherAssetsEOYAmt>
+        <OtherAssetsEOYFMVAmt referenceDocumentId="RetDoc2046600001">41837103</OtherAssetsEOYFMVAmt>
+        <TotalAssetsBOYAmt>312514492</TotalAssetsBOYAmt>
+        <TotalAssetsEOYAmt>318692925</TotalAssetsEOYAmt>
+        <TotalAssetsEOYFMVAmt>334218001</TotalAssetsEOYFMVAmt>
+        <TotalLiabilitiesBOYAmt>0</TotalLiabilitiesBOYAmt>
+        <TotalLiabilitiesEOYAmt>0</TotalLiabilitiesEOYAmt>
+        <OrgDoesNotFollowFASB117Ind>X</OrgDoesNotFollowFASB117Ind>
+        <CapitalStockBOYAmt>0</CapitalStockBOYAmt>
+        <CapitalStockEOYAmt>0</CapitalStockEOYAmt>
+        <AdditionalPaidInCapitalBOYAmt>285621587</AdditionalPaidInCapitalBOYAmt>
+        <AdditionalPaidInCapitalEOYAmt>285621587</AdditionalPaidInCapitalEOYAmt>
+        <RetainedEarningBOYAmt>26892905</RetainedEarningBOYAmt>
+        <RetainedEarningEOYAmt>33071338</RetainedEarningEOYAmt>
+        <TotNetAstOrFundBalancesBOYAmt>312514492</TotNetAstOrFundBalancesBOYAmt>
+        <TotNetAstOrFundBalancesEOYAmt>318692925</TotNetAstOrFundBalancesEOYAmt>
+        <TotalLiabilitiesNetAstBOYAmt>312514492</TotalLiabilitiesNetAstBOYAmt>
+        <TotalLiabilitiesNetAstEOYAmt>318692925</TotalLiabilitiesNetAstEOYAmt>
+      </Form990PFBalanceSheetsGrp>
+      <ChgInNetAssetsFundBalancesGrp>
+        <TotNetAstOrFundBalancesBOYAmt>312514492</TotNetAstOrFundBalancesBOYAmt>
+        <ExcessRevenueOverExpensesAmt>5671776</ExcessRevenueOverExpensesAmt>
+        <OtherIncreasesAmt referenceDocumentId="RetDoc2049700001">506677</OtherIncreasesAmt>
+        <SubtotalAmt>318692945</SubtotalAmt>
+        <OtherDecreasesAmt referenceDocumentId="RetDoc2049800001">20</OtherDecreasesAmt>
+        <TotNetAstOrFundBalancesEOYAmt>318692925</TotNetAstOrFundBalancesEOYAmt>
+      </ChgInNetAssetsFundBalancesGrp>
+      <CapGainsLossTxInvstIncmDetail>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>BAIN CAPITAL DOUBLE IMPACT FUND, L.P.</PropertyDesc>
+          <HowAcquiredCd>P</HowAcquiredCd>
+          <AcquiredDt>2022-12-31</AcquiredDt>
+          <SoldDt>2023-12-31</SoldDt>
+          <GrossSalesPriceAmt>347474</GrossSalesPriceAmt>
+          <GainOrLossAmt>347474</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>347474</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>BAIN CAPITAL DOUBLE IMPACT FUND, L.P.</PropertyDesc>
+          <HowAcquiredCd>P</HowAcquiredCd>
+          <AcquiredDt>2023-01-01</AcquiredDt>
+          <SoldDt>2023-12-31</SoldDt>
+          <GrossSalesPriceAmt>46</GrossSalesPriceAmt>
+          <GainOrLossAmt>46</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>46</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>BOOK- PARTNERSHIP GAIN</PropertyDesc>
+          <HowAcquiredCd>P</HowAcquiredCd>
+          <AcquiredDt>2022-12-31</AcquiredDt>
+          <SoldDt>2023-12-31</SoldDt>
+          <GrossSalesPriceAmt>889693</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>889693</CostOrOtherBasisAmt>
+          <GainOrLossAmt>0</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>0</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>BRIDGES PROPERTY ALTERNATIVES FUND IV LP</PropertyDesc>
+          <HowAcquiredCd>P</HowAcquiredCd>
+          <AcquiredDt>2022-12-31</AcquiredDt>
+          <SoldDt>2023-12-31</SoldDt>
+          <CostOrOtherBasisAmt>693</CostOrOtherBasisAmt>
+          <GainOrLossAmt>-693</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>-693</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>CAPRIA FUND LLC</PropertyDesc>
+          <HowAcquiredCd>P</HowAcquiredCd>
+          <AcquiredDt>2022-12-31</AcquiredDt>
+          <SoldDt>2023-12-31</SoldDt>
+          <CostOrOtherBasisAmt>11617</CostOrOtherBasisAmt>
+          <GainOrLossAmt>-11617</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>-11617</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>ELEVAR EQUITY IV LP</PropertyDesc>
+          <HowAcquiredCd>P</HowAcquiredCd>
+          <AcquiredDt>2022-12-31</AcquiredDt>
+          <SoldDt>2023-12-31</SoldDt>
+          <GrossSalesPriceAmt>2215</GrossSalesPriceAmt>
+          <GainOrLossAmt>2215</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>2215</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>ELEVAR EQUITY IV LP</PropertyDesc>
+          <HowAcquiredCd>P</HowAcquiredCd>
+          <AcquiredDt>2023-01-01</AcquiredDt>
+          <SoldDt>2023-12-31</SoldDt>
+          <CostOrOtherBasisAmt>147</CostOrOtherBasisAmt>
+          <GainOrLossAmt>-147</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>-147</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>FORMATION8 PARTNERS FUND II LP</PropertyDesc>
+          <HowAcquiredCd>P</HowAcquiredCd>
+          <AcquiredDt>2022-12-31</AcquiredDt>
+          <SoldDt>2023-12-31</SoldDt>
+          <GrossSalesPriceAmt>57742</GrossSalesPriceAmt>
+          <GainOrLossAmt>57742</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>57742</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>GSSG SOLAR JAPAN PARTNERS, L.P.</PropertyDesc>
+          <HowAcquiredCd>P</HowAcquiredCd>
+          <AcquiredDt>2022-12-31</AcquiredDt>
+          <SoldDt>2023-12-31</SoldDt>
+          <GrossSalesPriceAmt>37625</GrossSalesPriceAmt>
+          <GainOrLossAmt>37625</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>37625</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>PUBLICLY TRADED SECURITIES</PropertyDesc>
+          <CostOrOtherBasisAmt>730101</CostOrOtherBasisAmt>
+          <GainOrLossAmt>-730101</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>-730101</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>SOCIALALPHA INVESTMENTS FUND US LP</PropertyDesc>
+          <HowAcquiredCd>P</HowAcquiredCd>
+          <AcquiredDt>2022-12-31</AcquiredDt>
+          <SoldDt>2023-12-31</SoldDt>
+          <CostOrOtherBasisAmt>192675</CostOrOtherBasisAmt>
+          <GainOrLossAmt>-192675</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>-192675</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>THE MELOY FUND I LP</PropertyDesc>
+          <HowAcquiredCd>P</HowAcquiredCd>
+          <AcquiredDt>2022-12-31</AcquiredDt>
+          <SoldDt>2023-12-31</SoldDt>
+          <CostOrOtherBasisAmt>595</CostOrOtherBasisAmt>
+          <GainOrLossAmt>-595</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>-595</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>VILCAP INVESTMENTS, LLC</PropertyDesc>
+          <HowAcquiredCd>P</HowAcquiredCd>
+          <AcquiredDt>2022-12-31</AcquiredDt>
+          <SoldDt>2023-12-31</SoldDt>
+          <CostOrOtherBasisAmt>15090</CostOrOtherBasisAmt>
+          <GainOrLossAmt>-15090</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>-15090</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapitalGainNetIncomeAmt>-505816</CapitalGainNetIncomeAmt>
+      </CapGainsLossTxInvstIncmDetail>
+      <ExciseTaxBasedOnInvstIncmGrp>
+        <InvestmentIncomeExciseTaxAmt>92781</InvestmentIncomeExciseTaxAmt>
+        <TaxUnderSection511Amt>0</TaxUnderSection511Amt>
+        <SubtotalAmt>92781</SubtotalAmt>
+        <SubtitleATaxAmt>0</SubtitleATaxAmt>
+        <TaxBasedOnInvestmentIncomeAmt>92781</TaxBasedOnInvestmentIncomeAmt>
+        <EstimatedPlusOvpmtIncmTxAmt>0</EstimatedPlusOvpmtIncmTxAmt>
+        <ExemptFrgnOrgTaxWthldAtSrceAmt>0</ExemptFrgnOrgTaxWthldAtSrceAmt>
+        <ExtsnRequestIncomeTaxPaidAmt>110000</ExtsnRequestIncomeTaxPaidAmt>
+        <BackupWithholdingWithheldAmt>0</BackupWithholdingWithheldAmt>
+        <TotalPaymentsAndCreditsAmt>110000</TotalPaymentsAndCreditsAmt>
+        <Form2220AttachedInd referenceDocumentId="RetDoc1192000001">X</Form2220AttachedInd>
+        <EsPenaltyAmt>5370</EsPenaltyAmt>
+        <OverpaymentAmt>11849</OverpaymentAmt>
+        <AppliedToESTaxAmt>11849</AppliedToESTaxAmt>
+        <RefundAmt>0</RefundAmt>
+      </ExciseTaxBasedOnInvstIncmGrp>
+      <StatementsRegardingActyGrp>
+        <LegislativePoliticalActyInd>0</LegislativePoliticalActyInd>
+        <MoreThan100SpentInd>0</MoreThan100SpentInd>
+        <Form1120POLFiledInd>0</Form1120POLFiledInd>
+        <Section4955OrganizationTaxAmt>0</Section4955OrganizationTaxAmt>
+        <Section4955ManagersTaxAmt>0</Section4955ManagersTaxAmt>
+        <TaxReimbursedAmt>0</TaxReimbursedAmt>
+        <ActivitiesNotPreviouslyRptInd>0</ActivitiesNotPreviouslyRptInd>
+        <ChangesToArticlesOrBylawsInd>0</ChangesToArticlesOrBylawsInd>
+        <UnrelatedBusIncmOverLimitInd>1</UnrelatedBusIncmOverLimitInd>
+        <Form990TFiledInd>1</Form990TFiledInd>
+        <OrganizationDissolvedEtcInd>0</OrganizationDissolvedEtcInd>
+        <Section508eRqrSatisfiedInd>1</Section508eRqrSatisfiedInd>
+        <AtLeast5000InAssetsInd>1</AtLeast5000InAssetsInd>
+        <OrgReportOrRegisterStateCd>FL</OrgReportOrRegisterStateCd>
+        <Form990PFFiledWithAttyGenInd>1</Form990PFFiledWithAttyGenInd>
+        <PrivateOperatingFoundationInd>0</PrivateOperatingFoundationInd>
+        <NewSubstantialContributorsInd>0</NewSubstantialContributorsInd>
+        <OwnControlledEntityInd>0</OwnControlledEntityInd>
+        <DonorAdvisedFundInd>0</DonorAdvisedFundInd>
+        <ComplyWithPublicInspRqrInd>1</ComplyWithPublicInspRqrInd>
+        <WebsiteAddressTxt>N/A</WebsiteAddressTxt>
+        <PersonsWithBooksName>
+          <BusinessNameLine1Txt>JENNIFER R EINZIGER</BusinessNameLine1Txt>
+        </PersonsWithBooksName>
+        <PhoneNum>9176781485</PhoneNum>
+        <LocationOfBooksUSAddress>
+          <AddressLine1Txt>CENIARTH LLC PO BOX 351</AddressLine1Txt>
+          <CityNm>PALM BEACH</CityNm>
+          <StateAbbreviationCd>FL</StateAbbreviationCd>
+          <ZIPCd>33480</ZIPCd>
+        </LocationOfBooksUSAddress>
+        <ForeignAccountsQuestionInd>1</ForeignAccountsQuestionInd>
+        <ForeignCountryCd>SN</ForeignCountryCd>
+        <ForeignCountryCd>UK</ForeignCountryCd>
+      </StatementsRegardingActyGrp>
+      <StatementsRegardingActy4720Grp>
+        <SaleOrExchDisqualifiedPrsnInd>0</SaleOrExchDisqualifiedPrsnInd>
+        <BrrwOrLendDisqualifiedPrsnInd>0</BrrwOrLendDisqualifiedPrsnInd>
+        <FurnGoodsDisqualifiedPrsnInd>1</FurnGoodsDisqualifiedPrsnInd>
+        <PayCompDisqualifiedPrsnInd>0</PayCompDisqualifiedPrsnInd>
+        <TransferAstDisqualifiedPrsnInd>0</TransferAstDisqualifiedPrsnInd>
+        <PaymentToGovernmentOfficialInd>0</PaymentToGovernmentOfficialInd>
+        <ActsFailToQlfyAsExceptionsInd>0</ActsFailToQlfyAsExceptionsInd>
+        <UncorrectedPriorActsInd>0</UncorrectedPriorActsInd>
+        <UndistributedIncomePYInd>0</UndistributedIncomePYInd>
+        <BusinessHoldingsInd>1</BusinessHoldingsInd>
+        <ExcessBusinessHoldingsInd>0</ExcessBusinessHoldingsInd>
+        <JeopardyInvestmentsInd>0</JeopardyInvestmentsInd>
+        <UncorrectedPYJeopardyInvstInd>0</UncorrectedPYJeopardyInvstInd>
+        <InfluenceLegislationInd>0</InfluenceLegislationInd>
+        <InfluenceElectionInd>0</InfluenceElectionInd>
+        <GrantsToIndividualsInd>0</GrantsToIndividualsInd>
+        <GrantsToOrganizationsInd>1</GrantsToOrganizationsInd>
+        <NoncharitablePurposeInd>0</NoncharitablePurposeInd>
+        <TransactionsFailToQlfyAsExcInd>0</TransactionsFailToQlfyAsExcInd>
+        <MaintainedExpenditureRspnsInd referenceDocumentId="RetDoc2118100001">1</MaintainedExpenditureRspnsInd>
+        <RcvFndsToPayPrsnlBnftCntrctInd>0</RcvFndsToPayPrsnlBnftCntrctInd>
+        <PayPremiumsPrsnlBnftCntrctInd>0</PayPremiumsPrsnlBnftCntrctInd>
+        <ProhibitedTaxShelterTransInd>0</ProhibitedTaxShelterTransInd>
+        <SubjToTaxRmnrtnExPrchtPymtInd>0</SubjToTaxRmnrtnExPrchtPymtInd>
+      </StatementsRegardingActy4720Grp>
+      <OfficerDirTrstKeyEmplInfoGrp>
+        <OfficerDirTrstKeyEmplGrp>
+          <PersonNm>DIANE S ISENBERG</PersonNm>
+          <USAddress>
+            <AddressLine1Txt>PO BOX 351</AddressLine1Txt>
+            <CityNm>PALM BEACH</CityNm>
+            <StateAbbreviationCd>FL</StateAbbreviationCd>
+            <ZIPCd>33480</ZIPCd>
+          </USAddress>
+          <TitleTxt>DIRECTOR &amp; PRESIDENT</TitleTxt>
+          <AverageHrsPerWkDevotedToPosRt>0.20</AverageHrsPerWkDevotedToPosRt>
+          <CompensationAmt>0</CompensationAmt>
+          <EmployeeBenefitProgramAmt>0</EmployeeBenefitProgramAmt>
+          <ExpenseAccountOtherAllwncAmt>0</ExpenseAccountOtherAllwncAmt>
+        </OfficerDirTrstKeyEmplGrp>
+        <OfficerDirTrstKeyEmplGrp>
+          <PersonNm>ROBERT DUMONT</PersonNm>
+          <USAddress>
+            <AddressLine1Txt>PO BOX 351</AddressLine1Txt>
+            <CityNm>PALM BEACH</CityNm>
+            <StateAbbreviationCd>FL</StateAbbreviationCd>
+            <ZIPCd>33480</ZIPCd>
+          </USAddress>
+          <TitleTxt>DIRECTOR</TitleTxt>
+          <AverageHrsPerWkDevotedToPosRt>0.20</AverageHrsPerWkDevotedToPosRt>
+          <CompensationAmt>0</CompensationAmt>
+          <EmployeeBenefitProgramAmt>0</EmployeeBenefitProgramAmt>
+          <ExpenseAccountOtherAllwncAmt>0</ExpenseAccountOtherAllwncAmt>
+        </OfficerDirTrstKeyEmplGrp>
+        <OfficerDirTrstKeyEmplGrp>
+          <PersonNm>ROSE EVANGELISTA</PersonNm>
+          <USAddress>
+            <AddressLine1Txt>PO BOX 351</AddressLine1Txt>
+            <CityNm>PALM BEACH</CityNm>
+            <StateAbbreviationCd>FL</StateAbbreviationCd>
+            <ZIPCd>33480</ZIPCd>
+          </USAddress>
+          <TitleTxt>DIRECTOR &amp; SECRETARY</TitleTxt>
+          <AverageHrsPerWkDevotedToPosRt>0.20</AverageHrsPerWkDevotedToPosRt>
+          <CompensationAmt>0</CompensationAmt>
+          <EmployeeBenefitProgramAmt>0</EmployeeBenefitProgramAmt>
+          <ExpenseAccountOtherAllwncAmt>0</ExpenseAccountOtherAllwncAmt>
+        </OfficerDirTrstKeyEmplGrp>
+        <OfficerDirTrstKeyEmplGrp>
+          <PersonNm>GREG NEICHIN</PersonNm>
+          <USAddress>
+            <AddressLine1Txt>PO BOX 351</AddressLine1Txt>
+            <CityNm>PALM BEACH</CityNm>
+            <StateAbbreviationCd>FL</StateAbbreviationCd>
+            <ZIPCd>33480</ZIPCd>
+          </USAddress>
+          <TitleTxt>DIRECTOR &amp; VICE PRESIDENT</TitleTxt>
+          <AverageHrsPerWkDevotedToPosRt>1.00</AverageHrsPerWkDevotedToPosRt>
+          <CompensationAmt>0</CompensationAmt>
+          <EmployeeBenefitProgramAmt>0</EmployeeBenefitProgramAmt>
+          <ExpenseAccountOtherAllwncAmt>0</ExpenseAccountOtherAllwncAmt>
+        </OfficerDirTrstKeyEmplGrp>
+        <OfficerDirTrstKeyEmplGrp>
+          <PersonNm>STEFAN FREEMAN</PersonNm>
+          <USAddress>
+            <AddressLine1Txt>PO BOX 351</AddressLine1Txt>
+            <CityNm>PALM BEACH</CityNm>
+            <StateAbbreviationCd>FL</StateAbbreviationCd>
+            <ZIPCd>33480</ZIPCd>
+          </USAddress>
+          <TitleTxt>DIRECTOR</TitleTxt>
+          <AverageHrsPerWkDevotedToPosRt>0.20</AverageHrsPerWkDevotedToPosRt>
+          <CompensationAmt>0</CompensationAmt>
+          <EmployeeBenefitProgramAmt>0</EmployeeBenefitProgramAmt>
+          <ExpenseAccountOtherAllwncAmt>0</ExpenseAccountOtherAllwncAmt>
+        </OfficerDirTrstKeyEmplGrp>
+        <OfficerDirTrstKeyEmplGrp>
+          <PersonNm>JENNIFER R EINZIGER</PersonNm>
+          <USAddress>
+            <AddressLine1Txt>PO BOX 351</AddressLine1Txt>
+            <CityNm>PALM BEACH</CityNm>
+            <StateAbbreviationCd>FL</StateAbbreviationCd>
+            <ZIPCd>33480</ZIPCd>
+          </USAddress>
+          <TitleTxt>TREASURER</TitleTxt>
+          <AverageHrsPerWkDevotedToPosRt>0.20</AverageHrsPerWkDevotedToPosRt>
+          <CompensationAmt>0</CompensationAmt>
+          <EmployeeBenefitProgramAmt>0</EmployeeBenefitProgramAmt>
+          <ExpenseAccountOtherAllwncAmt>0</ExpenseAccountOtherAllwncAmt>
+        </OfficerDirTrstKeyEmplGrp>
+        <CompOfHghstPdEmplOrNONETxt>NONE</CompOfHghstPdEmplOrNONETxt>
+        <OtherEmployeePaidOver50kCnt>0</OtherEmployeePaidOver50kCnt>
+        <CompensationOfHghstPdCntrctGrp>
+          <BusinessName>
+            <BusinessNameLine1Txt>CENIARTH LLC</BusinessNameLine1Txt>
+          </BusinessName>
+          <USAddress>
+            <AddressLine1Txt>PO BOX 351</AddressLine1Txt>
+            <CityNm>PALM BEACH</CityNm>
+            <StateAbbreviationCd>FL</StateAbbreviationCd>
+            <ZIPCd>33480</ZIPCd>
+          </USAddress>
+          <ServiceTypeTxt>INVESTMENT MANAGEMENT</ServiceTypeTxt>
+          <CompensationAmt>1997785</CompensationAmt>
+        </CompensationOfHghstPdCntrctGrp>
+        <CompensationOfHghstPdCntrctGrp>
+          <BusinessName>
+            <BusinessNameLine1Txt>GOLDMAN SACHS &amp; CO LLC</BusinessNameLine1Txt>
+          </BusinessName>
+          <USAddress>
+            <AddressLine1Txt>200 WEST STREET</AddressLine1Txt>
+            <CityNm>NEW YORK</CityNm>
+            <StateAbbreviationCd>NY</StateAbbreviationCd>
+            <ZIPCd>10282</ZIPCd>
+          </USAddress>
+          <ServiceTypeTxt>BROKERAGE FEES</ServiceTypeTxt>
+          <CompensationAmt>400398</CompensationAmt>
+        </CompensationOfHghstPdCntrctGrp>
+        <CompensationOfHghstPdCntrctGrp>
+          <BusinessName>
+            <BusinessNameLine1Txt>DELOITTE TAX LLP</BusinessNameLine1Txt>
+          </BusinessName>
+          <USAddress>
+            <AddressLine1Txt>50 SOUTH SIXTH STREET</AddressLine1Txt>
+            <CityNm>MINNEAPOLIS</CityNm>
+            <StateAbbreviationCd>MN</StateAbbreviationCd>
+            <ZIPCd>554021844</ZIPCd>
+          </USAddress>
+          <ServiceTypeTxt>TAX PREPARATION AND ADVISORY</ServiceTypeTxt>
+          <CompensationAmt>94895</CompensationAmt>
+        </CompensationOfHghstPdCntrctGrp>
+        <CompensationOfHghstPdCntrctGrp>
+          <BusinessName>
+            <BusinessNameLine1Txt>OMNIVORE AGRITECH &amp; CLIMATE SUSTAINABILITY VCC</BusinessNameLine1Txt>
+          </BusinessName>
+          <ForeignAddress>
+            <AddressLine1Txt>8 CROSS STREET</AddressLine1Txt>
+            <CityNm>SINGAPORE</CityNm>
+            <CountryCd>SN</CountryCd>
+            <ForeignPostalCd>048424</ForeignPostalCd>
+          </ForeignAddress>
+          <ServiceTypeTxt>INVESTMENT MANAGEMENT</ServiceTypeTxt>
+          <CompensationAmt>82789</CompensationAmt>
+        </CompensationOfHghstPdCntrctGrp>
+        <CompensationOfHghstPdCntrctGrp>
+          <BusinessName>
+            <BusinessNameLine1Txt>HURUMA FUND SCA</BusinessNameLine1Txt>
+          </BusinessName>
+          <ForeignAddress>
+            <AddressLine1Txt>30 BOULEVARD ROYAL</AddressLine1Txt>
+            <CityNm>LUXEMBOURG</CityNm>
+            <CountryCd>LU</CountryCd>
+            <ForeignPostalCd>2449</ForeignPostalCd>
+          </ForeignAddress>
+          <ServiceTypeTxt>INVESTMENT MANAGEMENT</ServiceTypeTxt>
+          <CompensationAmt>75405</CompensationAmt>
+        </CompensationOfHghstPdCntrctGrp>
+        <ContractorPaidOver50kCnt>4</ContractorPaidOver50kCnt>
+      </OfficerDirTrstKeyEmplInfoGrp>
+      <SumOfProgramRelatedInvstGrp>
+        <Description1Txt>SUN FUNDER GIGATION FUND - SEE EXPENDITURE RESPONSIBILITY STATEMENT</Description1Txt>
+        <Expenses1Amt>5000000</Expenses1Amt>
+        <Description2Txt>MCE EMPOWERING SUSTAINABLE AGRICULTURE FUND LLC - SEE EXPENDITURE RESPONSIBILITY STATEMENT</Description2Txt>
+        <Expenses2Amt>2500000</Expenses2Amt>
+        <AllOtherProgramRltdInvstTotAmt referenceDocumentId="RetDoc2063500001">19608033</AllOtherProgramRltdInvstTotAmt>
+        <TotalAmt>27108033</TotalAmt>
+      </SumOfProgramRelatedInvstGrp>
+      <MinimumInvestmentReturnGrp>
+        <AverageMonthlyFMVOfSecAmt>180231079</AverageMonthlyFMVOfSecAmt>
+        <AverageMonthlyCashBalancesAmt>16468585</AverageMonthlyCashBalancesAmt>
+        <FMVAllOtherNoncharitableAstAmt>100421339</FMVAllOtherNoncharitableAstAmt>
+        <TotalFMVOfUnusedAssetsAmt>297121003</TotalFMVOfUnusedAssetsAmt>
+        <ReductionClaimedAmt>0</ReductionClaimedAmt>
+        <AcquisitionIndebtednessAmt>0</AcquisitionIndebtednessAmt>
+        <AdjustedTotalFMVOfUnusedAstAmt>297121003</AdjustedTotalFMVOfUnusedAstAmt>
+        <CashDeemedCharitableAmt>4456815</CashDeemedCharitableAmt>
+        <NetVlNoncharitableAssetsAmt>292664188</NetVlNoncharitableAssetsAmt>
+        <MinimumInvestmentReturnAmt>14633209</MinimumInvestmentReturnAmt>
+      </MinimumInvestmentReturnGrp>
+      <DistributableAmountGrp>
+        <MinimumInvestmentReturnAmt>14633209</MinimumInvestmentReturnAmt>
+        <TaxBasedOnInvestmentIncomeAmt>92781</TaxBasedOnInvestmentIncomeAmt>
+        <TotalTaxAmt>92781</TotalTaxAmt>
+        <DistributableBeforeAdjAmt>14540428</DistributableBeforeAdjAmt>
+        <RecoveriesQualfiedDistriAmt>9515133</RecoveriesQualfiedDistriAmt>
+        <DistributableBeforeDedAmt>24055561</DistributableBeforeDedAmt>
+        <DeductionFromDistributableAmt>0</DeductionFromDistributableAmt>
+        <DistributableAsAdjustedAmt>24055561</DistributableAsAdjustedAmt>
+      </DistributableAmountGrp>
+      <PFQualifyingDistributionsGrp>
+        <ExpensesAndContributionsAmt>572082</ExpensesAndContributionsAmt>
+        <ProgramRelatedInvstTotalAmt>27108033</ProgramRelatedInvstTotalAmt>
+        <QualifyingDistributionsAmt>27680115</QualifyingDistributionsAmt>
+      </PFQualifyingDistributionsGrp>
+      <UndistributedIncomeGrp>
+        <DistributableAsAdjustedAmt>24055561</DistributableAsAdjustedAmt>
+        <UndistributedIncomePYAmt>20472521</UndistributedIncomePYAmt>
+        <TotalForPriorYearsAmt>0</TotalForPriorYearsAmt>
+        <TotalExcessDistributionCyovAmt>0</TotalExcessDistributionCyovAmt>
+        <QualifyingDistributionsAmt>27680115</QualifyingDistributionsAmt>
+        <AppliedToYear1Amt>20472521</AppliedToYear1Amt>
+        <AppliedToPriorYearsAmt>0</AppliedToPriorYearsAmt>
+        <TreatedAsDistriFromCorpusAmt>0</TreatedAsDistriFromCorpusAmt>
+        <AppliedToCurrentYearAmt>7207594</AppliedToCurrentYearAmt>
+        <RemainingDistriFromCorpusAmt>0</RemainingDistriFromCorpusAmt>
+        <ExcessDistriCyovAppCYCorpusAmt>0</ExcessDistriCyovAppCYCorpusAmt>
+        <ExcessDistributionCyovAppCYAmt>0</ExcessDistributionCyovAppCYAmt>
+        <TotalCorpusAmt>0</TotalCorpusAmt>
+        <PriorYearUndistributedIncmAmt>0</PriorYearUndistributedIncmAmt>
+        <PriorYearDeficiencyOrTaxAmt>0</PriorYearDeficiencyOrTaxAmt>
+        <Taxable1Amt>0</Taxable1Amt>
+        <Taxable2Amt>0</Taxable2Amt>
+        <UndistributedIncomeCYAmt>16847967</UndistributedIncomeCYAmt>
+        <CorpusDistri170b1EOr4942g3Amt>0</CorpusDistri170b1EOr4942g3Amt>
+        <ExcessDistriCyovFromYr5Amt>0</ExcessDistriCyovFromYr5Amt>
+        <ExcessDistriCyovToNextYrAmt>0</ExcessDistriCyovToNextYrAmt>
+      </UndistributedIncomeGrp>
+      <SupplementaryInformationGrp>
+        <OnlyContriToPreselectedInd>X</OnlyContriToPreselectedInd>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>60 DECIBALS INC</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientUSAddress>
+            <AddressLine1Txt>228 PARK AVENUE S PMB 54413</AddressLine1Txt>
+            <CityNm>NEW YORK</CityNm>
+            <StateAbbreviationCd>NY</StateAbbreviationCd>
+            <ZIPCd>100031502</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientFoundationStatusTxt>NC</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>GENERAL OPERATIONAL SUPPORT</GrantOrContributionPurposeTxt>
+          <Amt>50000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>ISLAND HOUSING TRUST</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientUSAddress>
+            <AddressLine1Txt>PO BOX 779</AddressLine1Txt>
+            <CityNm>WEST TISBURY</CityNm>
+            <StateAbbreviationCd>MA</StateAbbreviationCd>
+            <ZIPCd>02575</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientFoundationStatusTxt>PC</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>GENERAL OPERATIONAL SUPPORT</GrantOrContributionPurposeTxt>
+          <Amt>250000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>MCE SOCIAL CAPITAL</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientUSAddress>
+            <AddressLine1Txt>5758 GEARY BLVD 261</AddressLine1Txt>
+            <CityNm>SAN FRANCISCO</CityNm>
+            <StateAbbreviationCd>CA</StateAbbreviationCd>
+            <ZIPCd>94121</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientFoundationStatusTxt>PC</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>GENERAL OPERATIONAL SUPPORT</GrantOrContributionPurposeTxt>
+          <Amt>69500</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>UNIVERSITY OF MASSACHUSETTS AMHERST FOUNDATION</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientUSAddress>
+            <AddressLine1Txt>MEMORIAL HALL - 134 HICKS WAY</AddressLine1Txt>
+            <CityNm>AMHERST</CityNm>
+            <StateAbbreviationCd>MA</StateAbbreviationCd>
+            <ZIPCd>010039270</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientFoundationStatusTxt>PC</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>GENERAL OPERATIONAL SUPPORT</GrantOrContributionPurposeTxt>
+          <Amt>10000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <TotalGrantOrContriPdDurYrAmt>379500</TotalGrantOrContriPdDurYrAmt>
+        <TotalGrantOrContriApprvFutAmt>0</TotalGrantOrContriApprvFutAmt>
+      </SupplementaryInformationGrp>
+      <AnalysisIncomeProducingActyGrp>
+        <DividendsAndInterestFromSecDtl>
+          <ExclusionCd>14</ExclusionCd>
+          <ExclusionAmt>7189007</ExclusionAmt>
+        </DividendsAndInterestFromSecDtl>
+        <OtherInvestmentIncomeGrp>
+          <ExclusionCd>14</ExclusionCd>
+          <ExclusionAmt>1540322</ExclusionAmt>
+        </OtherInvestmentIncomeGrp>
+        <GainSalesAstOthThanInvntryGrp>
+          <ExclusionCd>18</ExclusionCd>
+          <ExclusionAmt>159592</ExclusionAmt>
+        </GainSalesAstOthThanInvntryGrp>
+        <SubtotalsIncmProducingActyGrp>
+          <UnrelatedBusinessTaxblIncmAmt>0</UnrelatedBusinessTaxblIncmAmt>
+          <ExclusionAmt>8888921</ExclusionAmt>
+          <RelatedOrExemptFunctionIncmAmt>0</RelatedOrExemptFunctionIncmAmt>
+        </SubtotalsIncmProducingActyGrp>
+        <TotalIncomeProducingActyAmt>8888921</TotalIncomeProducingActyAmt>
+      </AnalysisIncomeProducingActyGrp>
+      <TrnsfrTransRlnNonchrtblEOGrp>
+        <TrnsfrOfCashToNonchrtblEOInd>0</TrnsfrOfCashToNonchrtblEOInd>
+        <TrnsfrOtherAssetNonchrtblEOInd>0</TrnsfrOtherAssetNonchrtblEOInd>
+        <SalesOrExchangesOfAssetsInd>0</SalesOrExchangesOfAssetsInd>
+        <PurchaseOfAssetsNonchrtblEOInd>0</PurchaseOfAssetsNonchrtblEOInd>
+        <RentalOfFacilitiesOthAssetsInd>0</RentalOfFacilitiesOthAssetsInd>
+        <ReimbursementArrangementsInd>0</ReimbursementArrangementsInd>
+        <LoansOrLoanGuaranteesInd>0</LoansOrLoanGuaranteesInd>
+        <PerformanceOfServicesEtcInd>0</PerformanceOfServicesEtcInd>
+        <SharingOfFacilitiesEtcInd>0</SharingOfFacilitiesEtcInd>
+        <RelationshipsNonchrtblEOInd>0</RelationshipsNonchrtblEOInd>
+      </TrnsfrTransRlnNonchrtblEOGrp>
+    </IRS990PF>
+    <AccountingFeesSchedule documentId="RetDoc2002200001">
+      <AccountingFeesDetail>
+        <CategoryTxt>ACCOUNTING FEES</CategoryTxt>
+        <Amt>158708</Amt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>158708</DisbursementsCharitablePrpsAmt>
+      </AccountingFeesDetail>
+    </AccountingFeesSchedule>
+    <AllOthProgRltdInvestmentsSch documentId="RetDoc2063500001">
+      <AllOtherProgramRelatedInvstGrp>
+        <Desc>MELOY FUND I, LP- SEE EXPENDITURE RESPONSIBILITY STATEMENT</Desc>
+        <Amt>219000</Amt>
+      </AllOtherProgramRelatedInvstGrp>
+      <AllOtherProgramRelatedInvstGrp>
+        <Desc>THIRD MAN LTD.-SEE EXPENDITURE RESPONSIBILITY STATEMENT</Desc>
+        <Amt>250000</Amt>
+      </AllOtherProgramRelatedInvstGrp>
+      <AllOtherProgramRelatedInvstGrp>
+        <Desc>BRIDGES TO PROSPERITY, INC. -SEE EXPENDITURE RESPONSIBILITY STATEMENT</Desc>
+        <Amt>1000000</Amt>
+      </AllOtherProgramRelatedInvstGrp>
+      <AllOtherProgramRelatedInvstGrp>
+        <Desc>BLACK VISION FUND LLC-SEE EXPENDITURE RESPONSIBILITY STATEMENT</Desc>
+        <Amt>909760</Amt>
+      </AllOtherProgramRelatedInvstGrp>
+      <AllOtherProgramRelatedInvstGrp>
+        <Desc>IUNGO CAPITAL BV -SEE EXPENDITURE RESPONSIBILITY STATEMENT</Desc>
+        <Amt>535714</Amt>
+      </AllOtherProgramRelatedInvstGrp>
+      <AllOtherProgramRelatedInvstGrp>
+        <Desc>SPARK+ -SEE EXPENDITURE RESPONSIBILITY STATEMENT</Desc>
+        <Amt>294000</Amt>
+      </AllOtherProgramRelatedInvstGrp>
+      <AllOtherProgramRelatedInvstGrp>
+        <Desc>WORKING POWER IMPACT FUND-SEE EXPENDITURE RESPONSIBILITY STATEMENT</Desc>
+        <Amt>450000</Amt>
+      </AllOtherProgramRelatedInvstGrp>
+      <AllOtherProgramRelatedInvstGrp>
+        <Desc>ADM CAPITAL ACLF - SEE EXPENDITURE RESPONSIBILITY STATEMENT</Desc>
+        <Amt>38000</Amt>
+      </AllOtherProgramRelatedInvstGrp>
+      <AllOtherProgramRelatedInvstGrp>
+        <Desc>BUSINESS &amp; ENTERPRISE FINANCE (NE) LIMITED - SEE EXPENDITURE RESPONSIBILITY STATEMENT</Desc>
+        <Amt>504878</Amt>
+      </AllOtherProgramRelatedInvstGrp>
+      <AllOtherProgramRelatedInvstGrp>
+        <Desc>CARE ACCESS REAL ESTATE - SEE EXPENDITURE RESPONSIBILITY STATEMENT</Desc>
+        <Amt>1371000</Amt>
+      </AllOtherProgramRelatedInvstGrp>
+      <AllOtherProgramRelatedInvstGrp>
+        <Desc>CHANCEN ZAMUKA FUTURE OF WORK FUND - SEE EXPENDITURE RESPONSIBILITY STATEMENT</Desc>
+        <Amt>289261</Amt>
+      </AllOtherProgramRelatedInvstGrp>
+      <AllOtherProgramRelatedInvstGrp>
+        <Desc>COMMUNITY OUTCOMES FUND, LP - SEE EXPENDITURE RESPONSIBILITY STATEMENT</Desc>
+        <Amt>172788</Amt>
+      </AllOtherProgramRelatedInvstGrp>
+      <AllOtherProgramRelatedInvstGrp>
+        <Desc>FATEN (PALESTINE FOR CREDIT AND DEVELOPMENT) - SEE EXPENDITURE RESPONSIBILITY STATEMENT</Desc>
+        <Amt>2000000</Amt>
+      </AllOtherProgramRelatedInvstGrp>
+      <AllOtherProgramRelatedInvstGrp>
+        <Desc>FEDERATION OF APPALACHIAN HOUSING ENTERPRISES, INC. - SEE EXPENDITURE RESPONSIBILITY STATEMENT</Desc>
+        <Amt>2000000</Amt>
+      </AllOtherProgramRelatedInvstGrp>
+      <AllOtherProgramRelatedInvstGrp>
+        <Desc>IPDEV II CELL - SEE EXPENDITURE RESPONSIBILITY STATEMENT</Desc>
+        <Amt>83911</Amt>
+      </AllOtherProgramRelatedInvstGrp>
+      <AllOtherProgramRelatedInvstGrp>
+        <Desc>KEY FUND INVESTMENTS LIMITED - SEE EXPENDITURE RESPONSIBILITY STATEMENT</Desc>
+        <Amt>367728</Amt>
+      </AllOtherProgramRelatedInvstGrp>
+      <AllOtherProgramRelatedInvstGrp>
+        <Desc>KOMAZA GROUP, INC. - SEE EXPENDITURE RESPONSIBILITY STATEMENT</Desc>
+        <Amt>200000</Amt>
+      </AllOtherProgramRelatedInvstGrp>
+      <AllOtherProgramRelatedInvstGrp>
+        <Desc>MIKROHEROES PTE, LTD. - SEE EXPENDITURE RESPONSIBILITY STATEMENT</Desc>
+        <Amt>750000</Amt>
+      </AllOtherProgramRelatedInvstGrp>
+      <AllOtherProgramRelatedInvstGrp>
+        <Desc>MYAGRO FARMS - SEE EXPENDITURE RESPONSIBILITY STATEMENT</Desc>
+        <Amt>1000000</Amt>
+      </AllOtherProgramRelatedInvstGrp>
+      <AllOtherProgramRelatedInvstGrp>
+        <Desc>SALAD FINANCE LIMITED - SEE EXPENDITURE RESPONSIBILITY STATEMENT</Desc>
+        <Amt>1453860</Amt>
+      </AllOtherProgramRelatedInvstGrp>
+      <AllOtherProgramRelatedInvstGrp>
+        <Desc>SASH II - SEE EXPENDITURE RESPONSIBILITY STATEMENT</Desc>
+        <Amt>50769</Amt>
+      </AllOtherProgramRelatedInvstGrp>
+      <AllOtherProgramRelatedInvstGrp>
+        <Desc>UNCOMMON CACAO - SEE EXPENDITURE RESPONSIBILITY STATEMENT</Desc>
+        <Amt>1000000</Amt>
+      </AllOtherProgramRelatedInvstGrp>
+      <AllOtherProgramRelatedInvstGrp>
+        <Desc>VILCAP INVESTMENTS - SEE EXPENDITURE RESPONSIBILITY STATEMENT</Desc>
+        <Amt>17364</Amt>
+      </AllOtherProgramRelatedInvstGrp>
+      <AllOtherProgramRelatedInvstGrp>
+        <Desc>GOOD NATURE AGRO PRODUCTS LIMITED - SEE EXPENDITURE RESPONSIBILITY STATEMENT</Desc>
+        <Amt>2150000</Amt>
+      </AllOtherProgramRelatedInvstGrp>
+      <AllOtherProgramRelatedInvstGrp>
+        <Desc>VISIONFUND INTERNATIONAL - SEE EXPENDITURE RESPONSIBILITY STATEMENT</Desc>
+        <Amt>2500000</Amt>
+      </AllOtherProgramRelatedInvstGrp>
+    </AllOthProgRltdInvestmentsSch>
+    <ExpenditureResponsibilityStmt documentId="RetDoc2118100001">
+      <ExpenditureResponsibilityGrp>
+        <BusinessName>
+          <BusinessNameLine1Txt>ADM CAPITAL ASIA CLIMATE-SMART LANDSCAPE FUND LP</BusinessNameLine1Txt>
+        </BusinessName>
+        <ForeignAddress>
+          <AddressLine1Txt>C/O ADM CAPITAL CLIMATE CAYMAN</AddressLine1Txt>
+          <AddressLine2Txt>LIMITED FLOOR 4 WILLOW HOUSE CRICKE</AddressLine2Txt>
+          <CityNm>GRAND CAYMAN</CityNm>
+          <CountryCd>CJ</CountryCd>
+          <ForeignPostalCd>KY1-9010</ForeignPostalCd>
+        </ForeignAddress>
+        <GrantDt>2023-12-07</GrantDt>
+        <GrantAmt>38000</GrantAmt>
+        <PurposeOfGrantTxt>THE PRIMARY INVESTMENT STRATEGY OF ADM CAPITAL ASIA CLIMATE-SMART LANDSCAPE FUND LP IS TO PROVIDE MEDIUM- TO LONG-TERM SECURED FINANCING TO SMES FOCUSED PRIMARILY ON SUSTAINABLE AGRICULTURE PRODUCTION, LAND REGENERATION AND FOREST PROTECTION TO PROMOTE GREENHOUSE GAS (GHG) EMISSIONS REDUCTION AND BETTER LIVELIHOODS WITH SPECIFIC GENDER OBJECTIVES.</PurposeOfGrantTxt>
+        <ExpendedByGranteeAmt>37201</ExpendedByGranteeAmt>
+        <AnyDiversionByGranteeTxt>TO THE KNOWLEDGE OF THE FOUNDATION NO FUNDS HAVE BEEN DIVERTED</AnyDiversionByGranteeTxt>
+        <DatesOfReportsByGranteeTxt>10/25/24</DatesOfReportsByGranteeTxt>
+        <ResultsOfVerificationTxt>THE ISENBERG FAMILY CHARITABLE FOUNDATION HAS NO REASON TO DOUBT THE ACCURACY OR RELIABILITY OF THE REPORT; THEREFORE, NO INDEPENDANT VERIFICATION OF THE REPORT WAS MADE.</ResultsOfVerificationTxt>
+      </ExpenditureResponsibilityGrp>
+      <ExpenditureResponsibilityGrp>
+        <BusinessName>
+          <BusinessNameLine1Txt>CORPORACION AGROINDUSTRIAL AMAZONAS SA</BusinessNameLine1Txt>
+        </BusinessName>
+        <ForeignAddress>
+          <AddressLine1Txt>AVENIDA HEROES DEL CHACO NA 488</AddressLine1Txt>
+          <CityNm>RIBERALTA</CityNm>
+          <CountryCd>BL</CountryCd>
+        </ForeignAddress>
+        <GrantDt>2022-06-01</GrantDt>
+        <GrantAmt>1000000</GrantAmt>
+        <PurposeOfGrantTxt>THE FUNDS WERE DIRECTED TO OPERATING CAPITAL AND USED EXCLUSIVELY FOR THE PURCHASE OF RAW MATERIAL FOR SHELLED CHESTNUTS, RESULTING IN PAYMENTS DIRECTED DIRECTLY TO INDIVIDUAL PRODUCERS, BENEFITING THEIR ACTIVITY AS WELL AS THE WELL-BEING AND LIVELIHOOD OF THEIR ENTIRE FAMILY. THIS ALLOWED THE COMPANY TO MEET ITS OBJECTIVE AND PROJECTION OF COLLECTING MORE THAN 200,000 BOXES OF SHELLED ALMONDS IN THE 2023-2024 HARVEST. THESE FUNDS HAVE BEEN FUNDAMENTAL FOR THE GROWTH OF THE COMPANY AND THE ECONOMIC DEVELOPMENT OF THE REGION IN BOLIVIA.</PurposeOfGrantTxt>
+        <ExpendedByGranteeAmt>0</ExpendedByGranteeAmt>
+        <AnyDiversionByGranteeTxt>TO THE KNOWLEDGE OF THE FOUNDATION NO FUNDS HAVE BEEN DIVERTED</AnyDiversionByGranteeTxt>
+        <DatesOfReportsByGranteeTxt>10/29/24</DatesOfReportsByGranteeTxt>
+        <ResultsOfVerificationTxt>THE ISENBERG FAMILY CHARITABLE FOUNDATION HAS NO REASON TO DOUBT THE ACCURACY OR RELIABILITY OF THE REPORT; THEREFORE, NO INDEPENDANT VERIFICATION OF THE REPORT WAS MADE.</ResultsOfVerificationTxt>
+      </ExpenditureResponsibilityGrp>
+      <ExpenditureResponsibilityGrp>
+        <BusinessName>
+          <BusinessNameLine1Txt>APOLLO AGRICULTURE INC</BusinessNameLine1Txt>
+        </BusinessName>
+        <USAddress>
+          <AddressLine1Txt>1555 8TH STREET</AddressLine1Txt>
+          <CityNm>OAKLAND</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>94607</ZIPCd>
+        </USAddress>
+        <GrantDt>2022-05-17</GrantDt>
+        <GrantAmt>2075000</GrantAmt>
+        <PurposeOfGrantTxt>THE PURPOSE OF THE LOAN WAS TO ENABLE APOLLO AGRICULTURE TO PROVIDE FINANCING TO SMALL-SCALE FARMERS IN KENYA FOR THE PURCHASE OF HIGH-QUALITY FARMING PRODUCTS AND ADVICE. APOLLO AGRICULTURE UTILIZED THE LOAN ENTIRELY FOR THIS PURPOSE, PROVIDING FINANCING AND FARM PRODUCTS TO MORE THAN 197,000 FARMERS THROUGH 2023. APOLLO AGRICULTURE EXPANDED THE NUMBER OF FARMERS THAT IT WAS WORKING WITH DIRECTLY FROM 81,000 IN FY2022 TO 197,000 IN FY2023</PurposeOfGrantTxt>
+        <ExpendedByGranteeAmt>2075000</ExpendedByGranteeAmt>
+        <AnyDiversionByGranteeTxt>TO THE KNOWLEDGE OF THE FOUNDATION NO FUNDS HAVE BEEN DIVERTED</AnyDiversionByGranteeTxt>
+        <DatesOfReportsByGranteeTxt>10/22/24</DatesOfReportsByGranteeTxt>
+        <ResultsOfVerificationTxt>THE ISENBERG FAMILY CHARITABLE FOUNDATION HAS NO REASON TO DOUBT THE ACCURACY OR RELIABILITY OF THE REPORT; THEREFORE, NO INDEPENDANT VERIFICATION OF THE REPORT WAS MADE.</ResultsOfVerificationTxt>
+      </ExpenditureResponsibilityGrp>
+      <ExpenditureResponsibilityGrp>
+        <BusinessName>
+          <BusinessNameLine1Txt>BLACK VISION FUND LLC</BusinessNameLine1Txt>
+        </BusinessName>
+        <USAddress>
+          <AddressLine1Txt>168 NORTH CLINTON STREET 4TH FLOOR</AddressLine1Txt>
+          <CityNm>CHICAGO</CityNm>
+          <StateAbbreviationCd>IL</StateAbbreviationCd>
+          <ZIPCd>60661</ZIPCd>
+        </USAddress>
+        <GrantDt>2023-12-19</GrantDt>
+        <GrantAmt>1471905</GrantAmt>
+        <PurposeOfGrantTxt>THE FUNDS WERE EXCLUSIVELY USED FOR LENDING TO FIVE OF THE SIX COMMUNITY DEVELOPMENT FINANCIAL INSTITUTIONS (CDFIS) IN THE BLACK VISION FUNDS (FUND OR BVF) PORTFOLIO: 1) BLACK BUSINESS INVESTMENT FUND 2) CITY FIRST ENTERPRISES 3) COMMUNITY FIRST FUND 4) HOPE ENTERPRISE CORPORATION 5) NATIONAL COMMUNITY INVESTMENT FUND CREDIT STRATEGIES FUND. GENERALLY, THE CDFIS CAN UTILIZE THIS LOAN CAPITAL TO PROVIDE VARIOUS TYPES OF LOANS FOR COMMERCIAL LENDING PURPOSES ONLY AND SUPPORT EXISTING CDFI MARKETING PRACTICES THAT ARE MORE INCLUSIVE THAN TRADITIONAL LENDING PRACTICES. THIS ALLOWED THE FUND TO CONTINUE FULFILLING ITS PURPOSE OF EXPANDING ACCESS TO CAPITAL RESOURCES TO CDFIS, ENABLING EACH ONE TO INCREASE ITS VARIOUS OFFERINGS OF SUPPORT TO SMALL BLACK-OWNED ENTERPRISES IN, SERVING OR BENEFITING LOW-INCOME, DISTRESSED, OR DISADVANTAGED COMMUNITIES.</PurposeOfGrantTxt>
+        <ExpendedByGranteeAmt>1471905</ExpendedByGranteeAmt>
+        <AnyDiversionByGranteeTxt>TO THE KNOWLEDGE OF THE FOUNDATION NO FUNDS HAVE BEEN DIVERTED</AnyDiversionByGranteeTxt>
+        <DatesOfReportsByGranteeTxt>10/30/24</DatesOfReportsByGranteeTxt>
+        <ResultsOfVerificationTxt>THE ISENBERG FAMILY CHARITABLE FOUNDATION HAS NO REASON TO DOUBT THE ACCURACY OR RELIABILITY OF THE REPORT; THEREFORE, NO INDEPENDANT VERIFICATION OF THE REPORT WAS MADE.</ResultsOfVerificationTxt>
+      </ExpenditureResponsibilityGrp>
+      <ExpenditureResponsibilityGrp>
+        <BusinessName>
+          <BusinessNameLine1Txt>BUSINESS &amp; ENTERPRISE FINANCE (NE) LIMITED</BusinessNameLine1Txt>
+        </BusinessName>
+        <ForeignAddress>
+          <AddressLine1Txt>CITY HUB 9-11 PECLOEVER STREET</AddressLine1Txt>
+          <CityNm>BRADFORD</CityNm>
+          <CountryCd>UK</CountryCd>
+          <ForeignPostalCd>BD1 5BD</ForeignPostalCd>
+        </ForeignAddress>
+        <GrantDt>2023-12-21</GrantDt>
+        <GrantAmt>504878</GrantAmt>
+        <PurposeOfGrantTxt>THE FUNDS HAVE BEEN USED EXCLUSIVELY TO SUPPORT ENTREPRENEURS IN THE MOST DEPRIVED COMMUNITIES OF THE NORTHEAST OF ENGLAND. THESE ARE THE 35% MOST DEPRIVED COMMUNITIES OF THE UNITED KINGDOM. THESE FUNDS HELP THESE EXCLUDED ENTREPRENEURS ACCESS FINANCE THEY WOULD NOT ORDINARILY BE ABLE TO ACCESS, BUT THUS STARTING A BUSINESS EMPLOYING LOCAL PEOPLE, AND CREATING WEALTH. THE COMPANY PROVIDED GBP 1 MILLION OF FINANCE TO 16 CLIENTS.</PurposeOfGrantTxt>
+        <ExpendedByGranteeAmt>504878</ExpendedByGranteeAmt>
+        <AnyDiversionByGranteeTxt>TO THE KNOWLEDGE OF THE FOUNDATION NO FUNDS HAVE BEEN DIVERTED</AnyDiversionByGranteeTxt>
+        <DatesOfReportsByGranteeTxt>10/24/24</DatesOfReportsByGranteeTxt>
+        <ResultsOfVerificationTxt>THE ISENBERG FAMILY CHARITABLE FOUNDATION HAS NO REASON TO DOUBT THE ACCURACY OR RELIABILITY OF THE REPORT; THEREFORE, NO INDEPENDANT VERIFICATION OF THE REPORT WAS MADE.</ResultsOfVerificationTxt>
+      </ExpenditureResponsibilityGrp>
+      <ExpenditureResponsibilityGrp>
+        <BusinessName>
+          <BusinessNameLine1Txt>CAPRIA FUND LLC</BusinessNameLine1Txt>
+        </BusinessName>
+        <USAddress>
+          <AddressLine1Txt>220 2ND AVE SOUTH SUITE 201</AddressLine1Txt>
+          <CityNm>SEATTLE</CityNm>
+          <StateAbbreviationCd>WA</StateAbbreviationCd>
+          <ZIPCd>98104</ZIPCd>
+        </USAddress>
+        <GrantDt>2022-10-28</GrantDt>
+        <GrantAmt>226454</GrantAmt>
+        <PurposeOfGrantTxt>THE FUND HAS INVESTED PRIMARILY IN NEW OR EMERGING FUND MANAGERS ESTABLISHING FUNDS THAT TARGET EARLY-STAGE BUSINESSES (AND FOLLOW-ON FINANCINGS OF THE SAME) WHICH HAVE A CLEAR POSITIVE IMPACT ON LOW INCOME CONSUMERS, PRIMARILY IN DEVELOPING COUNTRIES, AND THAT THESE INVESTMENTS HAVE KNOWN RISKS AND MAY NOT PERFORM AS WELL AS OTHER PRIVATE INVESTMENTS EVEN IN THE SAME MARKETS.</PurposeOfGrantTxt>
+        <ExpendedByGranteeAmt>0</ExpendedByGranteeAmt>
+        <AnyDiversionByGranteeTxt>TO THE KNOWLEDGE OF THE FOUNDATION NO FUNDS HAVE BEEN DIVERTED</AnyDiversionByGranteeTxt>
+        <DatesOfReportsByGranteeTxt>10/24/24</DatesOfReportsByGranteeTxt>
+        <ResultsOfVerificationTxt>THE ISENBERG FAMILY CHARITABLE FOUNDATION HAS NO REASON TO DOUBT THE ACCURACY OR RELIABILITY OF THE REPORT; THEREFORE, NO INDEPENDANT VERIFICATION OF THE REPORT WAS MADE.</ResultsOfVerificationTxt>
+      </ExpenditureResponsibilityGrp>
+      <ExpenditureResponsibilityGrp>
+        <BusinessName>
+          <BusinessNameLine1Txt>CARE ACCESS REAL ESTATE INVESTMENTS PBC</BusinessNameLine1Txt>
+        </BusinessName>
+        <USAddress>
+          <AddressLine1Txt>2247 SAN DIEGO AVE STE 135</AddressLine1Txt>
+          <CityNm>SAN DIEGO</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>92110</ZIPCd>
+        </USAddress>
+        <GrantDt>2023-12-21</GrantDt>
+        <GrantAmt>1371000</GrantAmt>
+        <PurposeOfGrantTxt>THE FUNDS WERE USED TO FINANCE THE ACQUISITION OF SEVEN SINGLE FAMILY HOMES IN CLARK COUNTY, NEVADA. THESE HOMES ARE LEASED TO HOME-BASED CHILD CARE PROVIDERS, ALLOWING THEM TO BUILD AND EXPAND THEIR CHILD CARE BUSINESS AND INCREASE THE SUPPLY OF CHILDCARE IN CLARK COUNTY.</PurposeOfGrantTxt>
+        <ExpendedByGranteeAmt>1371000</ExpendedByGranteeAmt>
+        <AnyDiversionByGranteeTxt>TO THE KNOWLEDGE OF THE FOUNDATION NO FUNDS HAVE BEEN DIVERTED</AnyDiversionByGranteeTxt>
+        <DatesOfReportsByGranteeTxt>11/4/24</DatesOfReportsByGranteeTxt>
+        <ResultsOfVerificationTxt>THE ISENBERG FAMILY CHARITABLE FOUNDATION HAS NO REASON TO DOUBT THE ACCURACY OR RELIABILITY OF THE REPORT; THEREFORE, NO INDEPENDANT VERIFICATION OF THE REPORT WAS MADE.</ResultsOfVerificationTxt>
+      </ExpenditureResponsibilityGrp>
+      <ExpenditureResponsibilityGrp>
+        <BusinessName>
+          <BusinessNameLine1Txt>COMMUNITY OUTCOMES FUND LP</BusinessNameLine1Txt>
+        </BusinessName>
+        <USAddress>
+          <AddressLine1Txt>105 BALTIC STREET 501</AddressLine1Txt>
+          <CityNm>BROOKLYN</CityNm>
+          <StateAbbreviationCd>NY</StateAbbreviationCd>
+          <ZIPCd>11201</ZIPCd>
+        </USAddress>
+        <GrantDt>2022-12-31</GrantDt>
+        <GrantAmt>360187</GrantAmt>
+        <PurposeOfGrantTxt>THE FUNDS WERE USED TO INVEST IN THREE NEW PROJECTS THAT CREATED AND CONTINUE TO GENERATE COMMUNITY-FOCUSED IMPACT WITHIN THE FIELDS OF WORKFORCE DEVELOPMENT AND HEALTH EQUITY. THESE INVESTMENTS PROVIDE ACCESS TO A RANGE OF HIGH-QUALITY SERVICES FOR LOW-AND MIDDLE-INCOME FAMILIES AND INDIVIDUALS ACROSS CALIFORNIA, NEW YORK AND RHODE ISLAND, AND HAVE BEEN CRITICAL IN ACHIEVING MEASURABLE IMPACTFUL OUTCOMES FROM PROVIDING TECHNICAL TRAINING BOOTCAMPS FOR LOW-INCOME NEW YORKERS LOOKING TO PURSUE LONG-TERM CAREERS AS SOFTWARE ENGINEERS, TO HELPING REDUCE THE RATES OF HOMELESSNESS IN RHODE ISLAND, AND BEYOND. AS OF THE END OF FY2023, THE FUND HAD INVESTED IN A TOTAL OF 12 PROJECTS.</PurposeOfGrantTxt>
+        <ExpendedByGranteeAmt>360187</ExpendedByGranteeAmt>
+        <AnyDiversionByGranteeTxt>TO THE KNOWLEDGE OF THE FOUNDATION NO FUNDS HAVE BEEN DIVERTED</AnyDiversionByGranteeTxt>
+        <DatesOfReportsByGranteeTxt>10/30/24</DatesOfReportsByGranteeTxt>
+        <ResultsOfVerificationTxt>THE ISENBERG FAMILY CHARITABLE FOUNDATION HAS NO REASON TO DOUBT THE ACCURACY OR RELIABILITY OF THE REPORT; THEREFORE, NO INDEPENDANT VERIFICATION OF THE REPORT WAS MADE.</ResultsOfVerificationTxt>
+      </ExpenditureResponsibilityGrp>
+      <ExpenditureResponsibilityGrp>
+        <BusinessName>
+          <BusinessNameLine1Txt>COMPLETE FARMER TECHNOLOGIES INC</BusinessNameLine1Txt>
+        </BusinessName>
+        <ForeignAddress>
+          <AddressLine1Txt>NO 2 ABEASI ST</AddressLine1Txt>
+          <CityNm>ACCRA</CityNm>
+          <CountryCd>GH</CountryCd>
+        </ForeignAddress>
+        <GrantDt>2022-12-31</GrantDt>
+        <GrantAmt>50000</GrantAmt>
+        <PurposeOfGrantTxt>THE FUNDS ALLOWED THE COMPANY TO GROW ITS VOLUMES OF PRODUCT PURCHASED OVER 12,000 MT OF CROPS FROM FARMERS FROM IN FY2022 TO FY2023. THE COMPANY ALSO EXPANDED THE NUMBER OF FARMERS THAT IT WAS WORKING WITH DIRECTLY TO 28,900 FARMER IN FY2022 TO IN FY2023. THESE FUNDS HAVE BEEN INSTRUMENTAL IN THE GROWTH OF THE COMPANY AND THE AGRICULTURAL SECTOR IN GHANA AND TOGO.</PurposeOfGrantTxt>
+        <ExpendedByGranteeAmt>0</ExpendedByGranteeAmt>
+        <AnyDiversionByGranteeTxt>TO THE KNOWLEDGE OF THE FOUNDATION NO FUNDS HAVE BEEN DIVERTED</AnyDiversionByGranteeTxt>
+        <DatesOfReportsByGranteeTxt>10/30/24</DatesOfReportsByGranteeTxt>
+        <ResultsOfVerificationTxt>THE ISENBERG FAMILY CHARITABLE FOUNDATION HAS NO REASON TO DOUBT THE ACCURACY OR RELIABILITY OF THE REPORT; THEREFORE, NO INDEPENDANT VERIFICATION OF THE REPORT WAS MADE.</ResultsOfVerificationTxt>
+      </ExpenditureResponsibilityGrp>
+      <ExpenditureResponsibilityGrp>
+        <BusinessName>
+          <BusinessNameLine1Txt>EA FRUITS FARM &amp; COMPANY LIMITED</BusinessNameLine1Txt>
+        </BusinessName>
+        <ForeignAddress>
+          <AddressLine1Txt>PLOT 61 BLOCK 14 KILIMANI ROAD</AddressLine1Txt>
+          <AddressLine2Txt>BUNJU B</AddressLine2Txt>
+          <CityNm>DAR ES SALAAM</CityNm>
+          <CountryCd>TZ</CountryCd>
+        </ForeignAddress>
+        <GrantDt>2022-09-16</GrantDt>
+        <GrantAmt>500000</GrantAmt>
+        <PurposeOfGrantTxt>THE FUNDS WERE ALMOST EXCLUSIVELY USED FOR INVENTORY PURCHASING, WITH PAYMENTS GOING DIRECTLY TO SMALLHOLDER FARMERS. THIS ALLOWED THE COMPANY TO GROW ITS VOLUMES OF PRODUCT PURCHASED FROM THE SMALLHOLDER FARMERS FROM 23,718 MT IN FY2022 TO 33,598 MT IN FY2023. IT ALSO EXPANDED THE NUMBER OF SMALLHOLDER FARMERS THAT IT WAS WORKING WITH DIRECTLY FROM 6,977 IN FY2022 TO 7,962 IN FY2023. THESE FUNDS HAVE BEEN INSTRUMENTAL IN THE GROWTH OF THE COMPANY AND THE PROFESSIONALISATION OF THE SECTOR IN TANZANIA.</PurposeOfGrantTxt>
+        <ExpendedByGranteeAmt>0</ExpendedByGranteeAmt>
+        <AnyDiversionByGranteeTxt>TO THE KNOWLEDGE OF THE FOUNDATION NO FUNDS HAVE BEEN DIVERTED</AnyDiversionByGranteeTxt>
+        <DatesOfReportsByGranteeTxt>10/31/24</DatesOfReportsByGranteeTxt>
+        <ResultsOfVerificationTxt>THE ISENBERG FAMILY CHARITABLE FOUNDATION HAS NO REASON TO DOUBT THE ACCURACY OR RELIABILITY OF THE REPORT; THEREFORE, NO INDEPENDANT VERIFICATION OF THE REPORT WAS MADE.</ResultsOfVerificationTxt>
+      </ExpenditureResponsibilityGrp>
+      <ExpenditureResponsibilityGrp>
+        <BusinessName>
+          <BusinessNameLine1Txt>FARMERLINE LTD</BusinessNameLine1Txt>
+        </BusinessName>
+        <ForeignAddress>
+          <AddressLine1Txt>NO 7 SAPELE LOOP</AddressLine1Txt>
+          <CityNm>KOKOMLEMLE</CityNm>
+          <CountryCd>GH</CountryCd>
+        </ForeignAddress>
+        <GrantDt>2022-02-25</GrantDt>
+        <GrantAmt>1400000</GrantAmt>
+        <PurposeOfGrantTxt>THE FUNDS WERE UTILIZED FOR THE PROCUREMENT OF AGRO INPUTS AND COMMODITIES. THROUGH THESE FINANCIAL RESOURCES, FARMERLINE SUCCESSFULLY PROVIDED AFFORDABLE AND CLIMATE FRIENDLY AGRO INPUTS TO 14,806 FARMERS AND FACILITATED MARKET CONNECTIONS FOR 12,3260 FARMERS, GREATLY IMPROVING YIELDS AND INCREASING INCOME TO THESE HOUSEHOLDS.</PurposeOfGrantTxt>
+        <ExpendedByGranteeAmt>1400000</ExpendedByGranteeAmt>
+        <AnyDiversionByGranteeTxt>TO THE KNOWLEDGE OF THE FOUNDATION NO FUNDS HAVE BEEN DIVERTED</AnyDiversionByGranteeTxt>
+        <DatesOfReportsByGranteeTxt>7/18/24</DatesOfReportsByGranteeTxt>
+        <ResultsOfVerificationTxt>THE ISENBERG FAMILY CHARITABLE FOUNDATION HAS NO REASON TO DOUBT THE ACCURACY OR RELIABILITY OF THE REPORT; THEREFORE, NO INDEPENDANT VERIFICATION OF THE REPORT WAS MADE.</ResultsOfVerificationTxt>
+      </ExpenditureResponsibilityGrp>
+      <ExpenditureResponsibilityGrp>
+        <BusinessName>
+          <BusinessNameLine1Txt>FWWB INDIA</BusinessNameLine1Txt>
+        </BusinessName>
+        <ForeignAddress>
+          <AddressLine1Txt>101 SAKAR 1 NEAR GANDHIGRAM RAILWAY</AddressLine1Txt>
+          <AddressLine2Txt>STATION ASH</AddressLine2Txt>
+          <CityNm>AHMEDABAD</CityNm>
+          <CountryCd>IN</CountryCd>
+        </ForeignAddress>
+        <GrantDt>2022-12-31</GrantDt>
+        <GrantAmt>427754</GrantAmt>
+        <PurposeOfGrantTxt>THE CHARITABLE PURPOSE OF THE LOAN WAS TO ENABLE THE FWWB TO PROVIDE LOANS TO INDIAN FARMER PRODUCER ORGANISATIONS. IN FY 2023-24 FWWB PROVIDED LOANS WORTH INR 7 MILLION TO 1 FARMER PRODUCER ORGANISATION IN INDIA FOR PROCUREMENT OF AGRICULTURE COMMODITIES FROM FARMERS</PurposeOfGrantTxt>
+        <ExpendedByGranteeAmt>427754</ExpendedByGranteeAmt>
+        <AnyDiversionByGranteeTxt>TO THE KNOWLEDGE OF THE FOUNDATION NO FUNDS HAVE BEEN DIVERTED</AnyDiversionByGranteeTxt>
+        <DatesOfReportsByGranteeTxt>10/28/24</DatesOfReportsByGranteeTxt>
+        <ResultsOfVerificationTxt>THE ISENBERG FAMILY CHARITABLE FOUNDATION HAS NO REASON TO DOUBT THE ACCURACY OR RELIABILITY OF THE REPORT; THEREFORE, NO INDEPENDANT VERIFICATION OF THE REPORT WAS MADE.</ResultsOfVerificationTxt>
+      </ExpenditureResponsibilityGrp>
+      <ExpenditureResponsibilityGrp>
+        <BusinessName>
+          <BusinessNameLine1Txt>GOOD NATURE AGRO PRODUCTS LTD</BusinessNameLine1Txt>
+        </BusinessName>
+        <ForeignAddress>
+          <AddressLine1Txt>PLOT 3647 OFF-CHADIZA ROAD</AddressLine1Txt>
+          <CityNm>CHADIZA</CityNm>
+          <CountryCd>ZA</CountryCd>
+        </ForeignAddress>
+        <GrantDt>2022-07-20</GrantDt>
+        <GrantAmt>1408333</GrantAmt>
+        <PurposeOfGrantTxt>THE FUNDS WERE USED ALMOST EXCLUSIVELY FOR THE PURCHASE OF CROP FROM SMALLHOLDER FARMERS IN ZAMBIA, WITH PAYMENTS GOING DIRECTLY TO FARMERS. ON AVERAGE, THE COMPANY WAS ABLE TO PURCHASE FROM FARMERS AT A 23% PREMIUM FOR HIGH-QUALITY PRODUCE, WHILE PURCHASING OVER 3,600 MT OF SEED FROM SMALLHOLDER FARMERS. THESE FUNDS HAVE BEEN INSTRUMENTAL IN THE GROWTH OF THE COMPANY AND THE AGRICULTURAL SECTOR IN ZAMBIA.</PurposeOfGrantTxt>
+        <ExpendedByGranteeAmt>0</ExpendedByGranteeAmt>
+        <AnyDiversionByGranteeTxt>TO THE KNOWLEDGE OF THE FOUNDATION NO FUNDS HAVE BEEN DIVERTED</AnyDiversionByGranteeTxt>
+        <DatesOfReportsByGranteeTxt>10/23/24</DatesOfReportsByGranteeTxt>
+        <ResultsOfVerificationTxt>THE ISENBERG FAMILY CHARITABLE FOUNDATION HAS NO REASON TO DOUBT THE ACCURACY OR RELIABILITY OF THE REPORT; THEREFORE, NO INDEPENDANT VERIFICATION OF THE REPORT WAS MADE.</ResultsOfVerificationTxt>
+      </ExpenditureResponsibilityGrp>
+      <ExpenditureResponsibilityGrp>
+        <BusinessName>
+          <BusinessNameLine1Txt>GOT IT LTD</BusinessNameLine1Txt>
+        </BusinessName>
+        <ForeignAddress>
+          <AddressLine1Txt>KACYIRU GASABO</AddressLine1Txt>
+          <CityNm>KIGALI</CityNm>
+          <CountryCd>RW</CountryCd>
+        </ForeignAddress>
+        <GrantDt>2022-12-31</GrantDt>
+        <GrantAmt>313084</GrantAmt>
+        <PurposeOfGrantTxt>THE LENDER VIEWS THE BORROWERS ABILITY TO PROVIDE MARKET ACCESS AND TECHNICAL SUPPORT TO RWANDAN SMALLHOLDER FARMERS AS AN IMPORTANT PHILANTHROPIC OBJECTIVE. THE BORROWER IS SEEKING LOW-COST DEBT TO FINANCE ITS OPERATIONS. THE CHARITABLE PURPOSE OF THE LOAN WAS TO ENABLE GOT IT LTD TO PROVIDE MARKET ACCESS AND TECHNICAL SUPPORT TO RWANDAN SMALLHOLDER FARMERS. IN 2019, GOT IT WORKED WITH ABOUT 200 SMALLHOLDER FARMERS IN RWANDA TO GROW GINGER FOR EXPORT.</PurposeOfGrantTxt>
+        <ExpendedByGranteeAmt>313084</ExpendedByGranteeAmt>
+        <AnyDiversionByGranteeTxt>TO THE KNOWLEDGE OF THE FOUNDATION NO FUNDS HAVE BEEN DIVERTED</AnyDiversionByGranteeTxt>
+        <DatesOfReportsByGranteeTxt>11/18/24</DatesOfReportsByGranteeTxt>
+        <ResultsOfVerificationTxt>THE ISENBERG FAMILY CHARITABLE FOUNDATION HAS NO REASON TO DOUBT THE ACCURACY OR RELIABILITY OF THE REPORT; THEREFORE, NO INDEPENDANT VERIFICATION OF THE REPORT WAS MADE.</ResultsOfVerificationTxt>
+      </ExpenditureResponsibilityGrp>
+      <ExpenditureResponsibilityGrp>
+        <BusinessName>
+          <BusinessNameLine1Txt>IPDEV II CELL</BusinessNameLine1Txt>
+        </BusinessName>
+        <ForeignAddress>
+          <AddressLine1Txt>C/O GLOBEFIN MANAGEMENT SERVICES</AddressLine1Txt>
+          <AddressLine2Txt>LTD ROGERS HOUSE</AddressLine2Txt>
+          <CityNm>PORT LOUIS</CityNm>
+          <CountryCd>MP</CountryCd>
+        </ForeignAddress>
+        <GrantDt>2023-01-04</GrantDt>
+        <GrantAmt>387058</GrantAmt>
+        <PurposeOfGrantTxt>DURING 2023, IPDEV AND ITS PARTNER FUNDS REACHED IMPACTFUL AND POSITIVE RESULTS IN TERMS OF DEVELOPMENT, OF FINANCIAL PERFORMANCE OF THE SMES, AND OF DEPLOYMENT OF CAPITAL. 11 NEW COMPANIES WERE ADDED TO THE PORTFOLIOS OF THE EXISTING 7 PARTNER FUNDS, WITH ESPECIALLY 2 NEW ONES IN UGANDA (FORNA HEALTH FOOD AND EQUATORCHOCOLATE) AND A NEW ONE IN MALI (GAMA). THANKS TO THE 60+ COMPANIES SUPPORTED BY THE PARTNER FUNDS OF IPDEV2, 10,000 DIRECT AND INDIRECT JOBS WERE SUPPORTED, AS WELL AS 10,000 SMALLHOLDER FARMERS. ALMOST 120,000 STAKEHOLDERS BENEFIT FROM THE ACTIVITIES FINANCED BY IPDEV2 OVERALL. DURING 2023, THE FUNDS RECEIVED FROM THE ISENBERG FAMILY CHARITABLE FOUNDATION, INC. WERE USED TO REACH THIS PURPOSE BY FINANCING THE PARTNER FUNDS IN MADAGASCAR, UGANDA AND GUINEA AND THE COSTS RELATED TO RUN THE PROGRAM MAINLY.</PurposeOfGrantTxt>
+        <ExpendedByGranteeAmt>371773</ExpendedByGranteeAmt>
+        <AnyDiversionByGranteeTxt>TO THE KNOWLEDGE OF THE FOUNDATION NO FUNDS HAVE BEEN DIVERTED</AnyDiversionByGranteeTxt>
+        <DatesOfReportsByGranteeTxt>10/25/24</DatesOfReportsByGranteeTxt>
+        <ResultsOfVerificationTxt>THE ISENBERG FAMILY CHARITABLE FOUNDATION HAS NO REASON TO DOUBT THE ACCURACY OR RELIABILITY OF THE REPORT; THEREFORE, NO INDEPENDANT VERIFICATION OF THE REPORT WAS MADE.</ResultsOfVerificationTxt>
+      </ExpenditureResponsibilityGrp>
+      <ExpenditureResponsibilityGrp>
+        <BusinessName>
+          <BusinessNameLine1Txt>IPROCURE LIMITED</BusinessNameLine1Txt>
+        </BusinessName>
+        <ForeignAddress>
+          <AddressLine1Txt>47 CHALBI DRIVE PO BOX 76366-00508</AddressLine1Txt>
+          <CityNm>NAIROBI</CityNm>
+          <CountryCd>KE</CountryCd>
+        </ForeignAddress>
+        <GrantDt>2022-05-26</GrantDt>
+        <GrantAmt>1200000</GrantAmt>
+        <PurposeOfGrantTxt>THE FUNDS WERE ALLOCATED TO PAYMENTS FOR INPUT SUPPLIERS, ENABLING THE COMPANY TO INCREASE THE TOTAL VOLUME OF INPUTS DISTRIBUTED TO ITS CUSTOMER BASE. THIS ALLOWED THE COMPANY TO EXPAND ITS REACH TO MORE FARMERS THROUGH AGRO-DEALERS, THEREBY BROADENING ITS FOOTPRINT. THIS INCREASED VOLUME ALSO LED TO BETTER PRICING, BENEFITING BOTH THE DIRECT CUSTOMERS, THE AGRO-DEALERS, AND THEIR CUSTOMERS, THE FARMERS. THESE FUNDS HAVE BEEN ESSENTIAL IN SUPPORTING THE COMPANY'S GROWTH AND ENHANCING ACCESSIBILITY AND AFFORDABILITY IN THE AGRICULTURAL SUPPLY CHAIN.</PurposeOfGrantTxt>
+        <ExpendedByGranteeAmt>1200000</ExpendedByGranteeAmt>
+        <AnyDiversionByGranteeTxt>TO THE KNOWLEDGE OF THE FOUNDATION NO FUNDS HAVE BEEN DIVERTED</AnyDiversionByGranteeTxt>
+        <DatesOfReportsByGranteeTxt>10/29/24</DatesOfReportsByGranteeTxt>
+        <ResultsOfVerificationTxt>THE ISENBERG FAMILY CHARITABLE FOUNDATION HAS NO REASON TO DOUBT THE ACCURACY OR RELIABILITY OF THE REPORT; THEREFORE, NO INDEPENDANT VERIFICATION OF THE REPORT WAS MADE.</ResultsOfVerificationTxt>
+      </ExpenditureResponsibilityGrp>
+      <ExpenditureResponsibilityGrp>
+        <BusinessName>
+          <BusinessNameLine1Txt>KASHA GLOBAL INC</BusinessNameLine1Txt>
+        </BusinessName>
+        <USAddress>
+          <AddressLine1Txt>12717 NE 106TH LANE</AddressLine1Txt>
+          <CityNm>KIRKLAND</CityNm>
+          <StateAbbreviationCd>WA</StateAbbreviationCd>
+          <ZIPCd>98033</ZIPCd>
+        </USAddress>
+        <GrantDt>2022-09-07</GrantDt>
+        <GrantAmt>1000000</GrantAmt>
+        <PurposeOfGrantTxt>THE FUNDS WERE ALMOST EXCLUSIVELY USED FOR INVENTORY PURCHASING WITH PAYMENTS GOING TO 157 SUPPLIERS. THIS ALLOWED KASHA TO GROW ITS SALES REVENUE BY 149% FROM $20M IN 2022 TO $51.5M IN 2023, SERVING A TOTAL 16,615 CUSTOMERS IN THE LOW INCOME AREAS BRINGING THE CUMULATIVE TOTAL TO 87K AS OF END OF 2023. IN 2023 KASHA ALSO EXPANDED ITS OPERATIONS INTO SOUTH AFRICA. THESE FUNDS HAVE BEEN INSTRUMENTAL IN THE GROWTH OF THE COMPANY AND THE PROFESSIONALIZATION OF THE SECTOR IN KENYA, RWANDA &amp; SOUTH AFRICA.</PurposeOfGrantTxt>
+        <ExpendedByGranteeAmt>1000000</ExpendedByGranteeAmt>
+        <AnyDiversionByGranteeTxt>TO THE KNOWLEDGE OF THE FOUNDATION NO FUNDS HAVE BEEN DIVERTED</AnyDiversionByGranteeTxt>
+        <DatesOfReportsByGranteeTxt>11/1/24</DatesOfReportsByGranteeTxt>
+        <ResultsOfVerificationTxt>THE ISENBERG FAMILY CHARITABLE FOUNDATION HAS NO REASON TO DOUBT THE ACCURACY OR RELIABILITY OF THE REPORT; THEREFORE, NO INDEPENDANT VERIFICATION OF THE REPORT WAS MADE.</ResultsOfVerificationTxt>
+      </ExpenditureResponsibilityGrp>
+      <ExpenditureResponsibilityGrp>
+        <BusinessName>
+          <BusinessNameLine1Txt>KEY FUND INVESTMENTS LIMITED</BusinessNameLine1Txt>
+        </BusinessName>
+        <ForeignAddress>
+          <AddressLine1Txt>UNIT 9-12 JESSOPS RIVERSIDE</AddressLine1Txt>
+          <AddressLine2Txt>BRIGHTSIDE LANE</AddressLine2Txt>
+          <CityNm>SHEFFIELD</CityNm>
+          <CountryCd>UK</CountryCd>
+          <ForeignPostalCd>S9 2RX</ForeignPostalCd>
+        </ForeignAddress>
+        <GrantDt>2023-09-12</GrantDt>
+        <GrantAmt>367727</GrantAmt>
+        <PurposeOfGrantTxt>THE FUNDS WERE USED EXCLUSIVELY TO MATCH OTHER FUNDING IN KEY FUND TO BE ABLE TO PROVIDE FLEXIBLE FINANCE FACILITIES TO SOCIAL ENTERPRISES AND CHARITIES OPERATING IN THE MIDLANDS AND THE NORTH OF ENGLAND WHO ARE UNABLE TO ACCESS MAINSTREAM FINANCE. THE COMPANY'S FLEXIBLE FINANCE FACILITY IS EFFECTIVELY A REVOLVING CREDIT FACILITY, WHICH SUPPORTS CASH FLOW IN INVESTEES ORGANISATIONS, ALLOWING THEM TO PROVIDE ESSENTIAL SERVICES AND SUPPORT WITHIN THEIR COMMUNITIES. DURING THE FINANCIAL YEAR TO 31ST MARCH 2024 THE COMPANY APPROVED FLEXIBLE FINANCE FACILITIES OF 250,000 OF WHICH 100,000 HAS BEEN DRAWN DOWN IN YEAR, SUPPORTING 3,450 INDIVIDUAL SERVICE USER BENEFICIARIES OF THE INVESTEE.</PurposeOfGrantTxt>
+        <ExpendedByGranteeAmt>311212</ExpendedByGranteeAmt>
+        <AnyDiversionByGranteeTxt>TO THE KNOWLEDGE OF THE FOUNDATION NO FUNDS HAVE BEEN DIVERTED</AnyDiversionByGranteeTxt>
+        <DatesOfReportsByGranteeTxt>10/25/24</DatesOfReportsByGranteeTxt>
+        <ResultsOfVerificationTxt>THE ISENBERG FAMILY CHARITABLE FOUNDATION HAS NO REASON TO DOUBT THE ACCURACY OR RELIABILITY OF THE REPORT; THEREFORE, NO INDEPENDANT VERIFICATION OF THE REPORT WAS MADE.</ResultsOfVerificationTxt>
+      </ExpenditureResponsibilityGrp>
+      <ExpenditureResponsibilityGrp>
+        <BusinessName>
+          <BusinessNameLine1Txt>KOMAZA GROUP INC</BusinessNameLine1Txt>
+        </BusinessName>
+        <USAddress>
+          <AddressLine1Txt>855 E1 CAMINO REAL 13A-161</AddressLine1Txt>
+          <CityNm>PALO ALTO</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>94301</ZIPCd>
+        </USAddress>
+        <GrantDt>2022-12-31</GrantDt>
+        <GrantAmt>750000</GrantAmt>
+        <PurposeOfGrantTxt>KOMAZA PLANTED WITH 5,520 NEW FARMERS IN 2022 - OVERALL, 25,685 FARMERS WERE ACTIVELY WORKING WITH KOMAZA IN 2022. A FURTHER 7,690 FARMERS WERE ENROLLED IN 2022 FOR PLANTING NEW TREES IN 2023. HARVESTING ACTIVITIES OF MATURE TREES SAW A SUB-SET OF 243 FARMERS BENEFIT FROM APPROXIMATELY $200,000 OF TREE REVENUES, GENERATING SUBSTANTIAL INCOME FOR THESE HOUSEHOLDS.</PurposeOfGrantTxt>
+        <ExpendedByGranteeAmt>750000</ExpendedByGranteeAmt>
+        <AnyDiversionByGranteeTxt>TO THE KNOWLEDGE OF THE FOUNDATION NO FUNDS HAVE BEEN DIVERTED</AnyDiversionByGranteeTxt>
+        <DatesOfReportsByGranteeTxt>3/1/24</DatesOfReportsByGranteeTxt>
+        <ResultsOfVerificationTxt>THE ISENBERG FAMILY CHARITABLE FOUNDATION HAS NO REASON TO DOUBT THE ACCURACY OR RELIABILITY OF THE REPORT; THEREFORE, NO INDEPENDANT VERIFICATION OF THE REPORT WAS MADE.</ResultsOfVerificationTxt>
+      </ExpenditureResponsibilityGrp>
+      <ExpenditureResponsibilityGrp>
+        <BusinessName>
+          <BusinessNameLine1Txt>KULI KULI INC</BusinessNameLine1Txt>
+        </BusinessName>
+        <USAddress>
+          <AddressLine1Txt>PO BOX 32097</AddressLine1Txt>
+          <CityNm>OAKLAND</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>94604</ZIPCd>
+        </USAddress>
+        <GrantDt>2022-03-30</GrantDt>
+        <GrantAmt>800000</GrantAmt>
+        <PurposeOfGrantTxt>IN 2023, THE COMPANY SOURCED OVER 80.3 METRIC TONS OF MORINGA AND 5 METRIC TONS OF BAOBAB, ENOUGH TO SUSTAIN HUNDREDS OF FARMER LIVELIHOODS. THE CHARITABLE PURPOSE OF THE LOAN WAS TO ENABLE THE KULI KULI TO PURCHASE MORINGA AND BAOBAB FROM SMALLHOLDER FARMERS AND FARMER COOPERATIVES IN LATIN AMERICA AND THE AFRICAN CONTINENT. THE FUNDS ALSO SUPPORTED PREPAYMENTS AND SOURCING FOR 2024.</PurposeOfGrantTxt>
+        <ExpendedByGranteeAmt>0</ExpendedByGranteeAmt>
+        <AnyDiversionByGranteeTxt>TO THE KNOWLEDGE OF THE FOUNDATION NO FUNDS HAVE BEEN DIVERTED</AnyDiversionByGranteeTxt>
+        <DatesOfReportsByGranteeTxt>10/29/24</DatesOfReportsByGranteeTxt>
+        <ResultsOfVerificationTxt>THE ISENBERG FAMILY CHARITABLE FOUNDATION HAS NO REASON TO DOUBT THE ACCURACY OR RELIABILITY OF THE REPORT; THEREFORE, NO INDEPENDANT VERIFICATION OF THE REPORT WAS MADE.</ResultsOfVerificationTxt>
+      </ExpenditureResponsibilityGrp>
+      <ExpenditureResponsibilityGrp>
+        <BusinessName>
+          <BusinessNameLine1Txt>IUNGO CAPITAL BV</BusinessNameLine1Txt>
+        </BusinessName>
+        <ForeignAddress>
+          <AddressLine1Txt>WESTEINDE 105 1636 VD</AddressLine1Txt>
+          <CityNm>SCHERMERHORN</CityNm>
+          <CountryCd>NL</CountryCd>
+        </ForeignAddress>
+        <GrantDt>2023-11-27</GrantDt>
+        <GrantAmt>1499999</GrantAmt>
+        <PurposeOfGrantTxt>THE CHARITABLE PURPOSE OF THE LOAN WAS TO ENABLE IUNGO CAPITAL TO SERVE SMALL AND MEDIUM SIZED ENTERPRISES IN UGANDA, KENYA AND RWANDA; ENTERPRISES THAT HAVE LITTLE TO NO ALTERNATIVES FOR (NON-)FINANCIAL SUPPORT IN THEIR LOCAL ECOSYSTEMS. IUNGO INVITES LOCAL BUSINESS ANGELS TO CO-INVEST ALONGSIDE, AS SUCH SHARING THEIR NETWORKS AND EXPERTISE WITH INVESTEE COMPANIES. ITS OVERALL OBJECTIVE IS TO SPUR ENTERPRISE GROWTH AND JOB CREATION. IN 2023, IT PROVIDED 19 LOANS TO DIFFERENT SMES, WHILE THE TOTAL AMOUNT DISBURSED WAS $4,334,399.</PurposeOfGrantTxt>
+        <ExpendedByGranteeAmt>1499999</ExpendedByGranteeAmt>
+        <AnyDiversionByGranteeTxt>TO THE KNOWLEDGE OF THE FOUNDATION NO FUNDS HAVE BEEN DIVERTED</AnyDiversionByGranteeTxt>
+        <DatesOfReportsByGranteeTxt>10/23/24</DatesOfReportsByGranteeTxt>
+        <ResultsOfVerificationTxt>THE ISENBERG FAMILY CHARITABLE FOUNDATION HAS NO REASON TO DOUBT THE ACCURACY OR RELIABILITY OF THE REPORT; THEREFORE, NO INDEPENDANT VERIFICATION OF THE REPORT WAS MADE.</ResultsOfVerificationTxt>
+      </ExpenditureResponsibilityGrp>
+      <ExpenditureResponsibilityGrp>
+        <BusinessName>
+          <BusinessNameLine1Txt>MCE EMPOWERING SUSTAINABLE AGRICULTURE FUND LLC</BusinessNameLine1Txt>
+        </BusinessName>
+        <USAddress>
+          <AddressLine1Txt>C/O MCE SOCIAL CAPITAL 5758 GEARY</AddressLine1Txt>
+          <AddressLine2Txt>BLVD 261</AddressLine2Txt>
+          <CityNm>SAN FRANCISCO</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>94121</ZIPCd>
+        </USAddress>
+        <GrantDt>2023-10-06</GrantDt>
+        <GrantAmt>2500000</GrantAmt>
+        <PurposeOfGrantTxt>IN 2023, MESA DEPLOYED THE FUNDS RECEIVED FROM THE ISENBERG FAMILY CHARITABLE FOUNDATION, INC. AND OTHER MESA FUNDERS TO SUPPORT 24 FINANCIAL SERVICE PROVIDERS LENDING TO 1,077,122 BORROWERS (72% WOMEN AND 67% RURAL). MOREOVER, THE FSP PORTFOLIO EMPLOYED 8,195 PEOPLE (53% WOMEN). ON AVERAGE, THESE INSTITUTIONS HAVE WOMEN REPRESENTING 40% OF THEIR SENIOR MANAGEMENT AND 34% OF THEIR BOARD MEMBERS, MOST OF THEM MEETING THEIR RESPECTIVE NATIONAL 2X THRESHOLDS. MESA WAS ALSO ABLE TO SUPPORT 5 SMALL AND GROWING BUSINESSES IN AGRICULTURE, WHO PURCHASED GOODS FROM 62,479 SMALLHOLDER FARMERS AND EMPLOYED 1,309 PEOPLE (28% WOMEN). SITTING ALONGSIDE ITS CURRENT GUARANTEE MODEL, MESA WAS BUILT TO BRIDGE THAT CAPITAL GAP FASTER AND MORE EFFICIENTLY, AND OVERALL ENHANCE THE FLOW OF FINANCING TO BUSINESSES OPERATING IN THE AGRICULTURAL SECTOR.</PurposeOfGrantTxt>
+        <ExpendedByGranteeAmt>2500000</ExpendedByGranteeAmt>
+        <AnyDiversionByGranteeTxt>TO THE KNOWLEDGE OF THE FOUNDATION NO FUNDS HAVE BEEN DIVERTED</AnyDiversionByGranteeTxt>
+        <DatesOfReportsByGranteeTxt>10/23/24</DatesOfReportsByGranteeTxt>
+        <ResultsOfVerificationTxt>THE ISENBERG FAMILY CHARITABLE FOUNDATION HAS NO REASON TO DOUBT THE ACCURACY OR RELIABILITY OF THE REPORT; THEREFORE, NO INDEPENDANT VERIFICATION OF THE REPORT WAS MADE.</ResultsOfVerificationTxt>
+      </ExpenditureResponsibilityGrp>
+      <ExpenditureResponsibilityGrp>
+        <BusinessName>
+          <BusinessNameLine1Txt>MELOY FUND I GP LLC</BusinessNameLine1Txt>
+        </BusinessName>
+        <USAddress>
+          <AddressLine1Txt>1310 NORTH COURTHOUSE ROAD SUITE</AddressLine1Txt>
+          <AddressLine2Txt>110</AddressLine2Txt>
+          <CityNm>ARLINGTON</CityNm>
+          <StateAbbreviationCd>VA</StateAbbreviationCd>
+          <ZIPCd>22201</ZIPCd>
+        </USAddress>
+        <GrantDt>2022-11-01</GrantDt>
+        <GrantAmt>870000</GrantAmt>
+        <PurposeOfGrantTxt>THE FUNDS RELATED TO THIS PRI WERE USED TO FUND IMPACT INVESTMENTS FOR THE BENEFIT OF COASTAL COMMUNITIES AND ECOSYSTEMS. SPECIFICALLY, THE MELOY FUND INVESTED IN COMPANIES INCLUDING SEAFOOD AND MARICULTURE PRODUCT PROCESSORS (SUCH AS THOSE FOCUSED ON SEAWEED AND TUNA), THAT LEADS TO THE ENGAGEMENT OF SMALLHOLDER FISHERS AND FARMERS WHO THEN HAVE THE OPPORTUNITY TO INCREASE INCOMES AND CONTRIBUTE TO SUSTAINABLE MANAGEMENT OF THEIR NATURAL RESOURCES.</PurposeOfGrantTxt>
+        <ExpendedByGranteeAmt>852914</ExpendedByGranteeAmt>
+        <AnyDiversionByGranteeTxt>TO THE KNOWLEDGE OF THE FOUNDATION NO FUNDS HAVE BEEN DIVERTED</AnyDiversionByGranteeTxt>
+        <DatesOfReportsByGranteeTxt>10/23/24</DatesOfReportsByGranteeTxt>
+        <ResultsOfVerificationTxt>THE ISENBERG FAMILY CHARITABLE FOUNDATION HAS NO REASON TO DOUBT THE ACCURACY OR RELIABILITY OF THE REPORT; THEREFORE, NO INDEPENDANT VERIFICATION OF THE REPORT WAS MADE.</ResultsOfVerificationTxt>
+      </ExpenditureResponsibilityGrp>
+      <ExpenditureResponsibilityGrp>
+        <BusinessName>
+          <BusinessNameLine1Txt>MIKROHEROES PTE LTD</BusinessNameLine1Txt>
+        </BusinessName>
+        <ForeignAddress>
+          <AddressLine1Txt>68 CIRCULAR ROAD 02-01</AddressLine1Txt>
+          <CityNm>SINGAPORE</CityNm>
+          <CountryCd>SN</CountryCd>
+          <ForeignPostalCd>049422</ForeignPostalCd>
+        </ForeignAddress>
+        <GrantDt>2023-09-15</GrantDt>
+        <GrantAmt>750000</GrantAmt>
+        <PurposeOfGrantTxt>THE FUNDS HAVE BEEN DEPLOYED TO SUPPORT AND FINANCE AGRI COMMODITY TRADE TRANSACTIONS DONE ON THE PASARMIKRO PLATFORM DESIGNED FOR SMALLHOLDER FARMERS, COLLECTORS AND THEIR ECOSYSTEM. AS A RESULT PAYMENT FOR THE GOODS ARE ENSURED AND GO DIRECTLY TO THE INDIVIDUAL PRODUCERS. THIS GIVES CERTAINTY OF INCOME AND IMMEDIATE ACCESS TO FUNDS TO THOSE PRODUCERS TO PAY FOR THEIR DAILY NEEDS. THE FUNDING HAS SUPPORTED THE GROWTH OF VOLUME TRANSACTED ON PASARMIKRO FROM $12.25 MILLION IN FY2022 TO $19.12 MILLION IN FY2023. OVER THIS PERIOD THE NUMBER OF REGISTERED INDIVIDUALS GREW FROM 1,326 AT THE END 2022 TO 4,040 AT THE END OF 2023. THESE FUNDS AND THE SUPPORT HAVE BEEN INSTRUMENTAL IN THE GROWTH AND DEVELOPMENT OF THE COMPANY AND THE SMALLHOLDER ECOSYSTEM IT IS SUPPORTING IN INDONESIA.</PurposeOfGrantTxt>
+        <ExpendedByGranteeAmt>350000</ExpendedByGranteeAmt>
+        <AnyDiversionByGranteeTxt>TO THE KNOWLEDGE OF THE FOUNDATION NO FUNDS HAVE BEEN DIVERTED</AnyDiversionByGranteeTxt>
+        <DatesOfReportsByGranteeTxt>10/29/24</DatesOfReportsByGranteeTxt>
+        <ResultsOfVerificationTxt>THE ISENBERG FAMILY CHARITABLE FOUNDATION HAS NO REASON TO DOUBT THE ACCURACY OR RELIABILITY OF THE REPORT; THEREFORE, NO INDEPENDANT VERIFICATION OF THE REPORT WAS MADE.</ResultsOfVerificationTxt>
+      </ExpenditureResponsibilityGrp>
+      <ExpenditureResponsibilityGrp>
+        <BusinessName>
+          <BusinessNameLine1Txt>MIROVA GIGATON FUND SA SICAV-RAIF</BusinessNameLine1Txt>
+        </BusinessName>
+        <ForeignAddress>
+          <AddressLine1Txt>5 ALLE SCHEFFER</AddressLine1Txt>
+          <CityNm>LUXEMBOURG</CityNm>
+          <CountryCd>LU</CountryCd>
+          <ForeignPostalCd>L-2520</ForeignPostalCd>
+        </ForeignAddress>
+        <GrantDt>2023-11-27</GrantDt>
+        <GrantAmt>5000000</GrantAmt>
+        <PurposeOfGrantTxt>AS OF DECEMBER 31, 2023, $18.3 MILLION WERE DEPLOYED OVER THE FUND PORTFOLIO, HAVING THREE ASSETS IN SUB-SAHARAN AFRICA, INCLUDING THE SOLAR HOME SYSTEM, TELECOM SOLARIZATION AND AGRI-SOLAR SECTORS. THESE COMPANIES WENT THROUGH THE FUND'S ANNUAL MONITORING TO TRACK THE IMPACT AND ESG ASPECTS OF THE MIROVA GIGATON FUND. IN 2023, THE FOLLOWING IMPACT RESULTS OF THE PORTFOLIO ARE HIGHLIGHTED: 267,755 PEOPLE WITH NEW OR IMPROVED ENERGY ACCESS, 16MW ENERGY CAPACITY INSTALLED AND 31,525 MWH PRODUCED, 483,195 TCO2EQ AVOIDED, OF WHICH 100,676 TCO2EQ ATTRIBUTABLE TO THE FUNDS FINANCING, 40,888 SMALLHOLDER FARMERS BENEFITTING FROM CLIMATE-SMART SOLUTIONS, 34% SHARE OF WOMEN IN PERMANENT WORKFORCE AND 39% OF WOMEN IN SENIOR LEADERSHIP, 88,139 WOMEN WITH GREATER ACCESS TO PRODUCTS OR SERVICES THAT BENEFIT THEM, 1,415 FTE JOBS SUPPORTED.</PurposeOfGrantTxt>
+        <ExpendedByGranteeAmt>4908166</ExpendedByGranteeAmt>
+        <AnyDiversionByGranteeTxt>TO THE KNOWLEDGE OF THE FOUNDATION NO FUNDS HAVE BEEN DIVERTED</AnyDiversionByGranteeTxt>
+        <DatesOfReportsByGranteeTxt>10/22/24</DatesOfReportsByGranteeTxt>
+        <ResultsOfVerificationTxt>THE ISENBERG FAMILY CHARITABLE FOUNDATION HAS NO REASON TO DOUBT THE ACCURACY OR RELIABILITY OF THE REPORT; THEREFORE, NO INDEPENDANT VERIFICATION OF THE REPORT WAS MADE.</ResultsOfVerificationTxt>
+      </ExpenditureResponsibilityGrp>
+      <ExpenditureResponsibilityGrp>
+        <BusinessName>
+          <BusinessNameLine1Txt>MISIF LLC</BusinessNameLine1Txt>
+        </BusinessName>
+        <USAddress>
+          <AddressLine1Txt>C/O MISSIO INVEST 224 W 35TH ST STE</AddressLine1Txt>
+          <AddressLine2Txt>500 PMB 8</AddressLine2Txt>
+          <CityNm>NEW YORK</CityNm>
+          <StateAbbreviationCd>NY</StateAbbreviationCd>
+          <ZIPCd>10001</ZIPCd>
+        </USAddress>
+        <GrantDt>2022-06-01</GrantDt>
+        <GrantAmt>500000</GrantAmt>
+        <PurposeOfGrantTxt>THE FUNDS WERE USED EXCLUSIVELY FOR ISSUING NEW LOANS TO HIGH-IMPACT SOCIAL ENTERPRISES IN SUB-SAHARAN AFRICA. THIS ALLOWED MISIF TO DISBURSE 20 NEW LOANS TOTALING $6.5 MILLION IN 2023. IN 2023, MISIFS BORROWERS CREATED OR MAINTAINED 800,504 LOCAL JOBS AND INJECTED $38.4 MILLION INTO LOCAL ECONOMIES THROUGH SALARIES, WAGES, DONATIONS, PAYMENTS TO SUPPLIERS, MICROFINANCE LOANS AND AGRIFOOD PRODUCTION. MISIFS BORROWERS ALSO PLANTED 179,163 TREES AND OPERATED 2,881 SOCIAL INSTITUTIONS (SCHOOLS, HEALTHCARE FACILITIES, AND OTHER ENTERPRISES) SERVING OVER 16.2 MILLION PEOPLE AS OF 2023 YEAR-END. THE FUNDS HAVE BEEN CRITICAL IN THE GROWTH OF MISIF LLC AND IN EXPANDING ITS REACH TO PROVIDE PATIENT CAPITAL FINANCING, ADVISORY AND TECHNICAL ASSISTANCE TO MORE HIGH-IMPACT SOCIAL ENTERPRISES ACROSS THE AFRICAN CONTINENT.</PurposeOfGrantTxt>
+        <ExpendedByGranteeAmt>500000</ExpendedByGranteeAmt>
+        <AnyDiversionByGranteeTxt>TO THE KNOWLEDGE OF THE FOUNDATION NO FUNDS HAVE BEEN DIVERTED</AnyDiversionByGranteeTxt>
+        <DatesOfReportsByGranteeTxt>10/22/24</DatesOfReportsByGranteeTxt>
+        <ResultsOfVerificationTxt>THE ISENBERG FAMILY CHARITABLE FOUNDATION HAS NO REASON TO DOUBT THE ACCURACY OR RELIABILITY OF THE REPORT; THEREFORE, NO INDEPENDANT VERIFICATION OF THE REPORT WAS MADE.</ResultsOfVerificationTxt>
+      </ExpenditureResponsibilityGrp>
+      <ExpenditureResponsibilityGrp>
+        <BusinessName>
+          <BusinessNameLine1Txt>MOUNTAIN HAZELNUTS GROUP LTD</BusinessNameLine1Txt>
+        </BusinessName>
+        <ForeignAddress>
+          <AddressLine1Txt>J C BUILDING PO BOX 933 ROADTOWN</AddressLine1Txt>
+          <CityNm>TORTOLA</CityNm>
+          <CountryCd>VI</CountryCd>
+        </ForeignAddress>
+        <GrantDt>2022-12-31</GrantDt>
+        <GrantAmt>3000000</GrantAmt>
+        <PurposeOfGrantTxt>THE CHARITABLE PURPOSE OF THE LOAN WAS TO ENABLE MOUNTAIN HAZELNUTS TO SUPPORT SMALLHOLDER HAZELNUT FARMERS IN BHUTAN, IN AN EFFORT TO BUILD A SUSTAINABLE NATIONAL VALUE-CHAIN. IN 2022 WE PARTNERED WITH 8,000 SMALLHOLDER FAMILIES, ACROSS 4,250 ACRES AND 19 OF BHUTAN'S 20 DISTRICTS.</PurposeOfGrantTxt>
+        <ExpendedByGranteeAmt>3000000</ExpendedByGranteeAmt>
+        <AnyDiversionByGranteeTxt>TO THE KNOWLEDGE OF THE FOUNDATION NO FUNDS HAVE BEEN DIVERTED</AnyDiversionByGranteeTxt>
+        <DatesOfReportsByGranteeTxt>9/29/23</DatesOfReportsByGranteeTxt>
+        <ResultsOfVerificationTxt>THE ISENBERG FAMILY CHARITABLE FOUNDATION HAS NO REASON TO DOUBT THE ACCURACY OR RELIABILITY OF THE REPORT; THEREFORE, NO INDEPENDANT VERIFICATION OF THE REPORT WAS MADE.</ResultsOfVerificationTxt>
+      </ExpenditureResponsibilityGrp>
+      <ExpenditureResponsibilityGrp>
+        <BusinessName>
+          <BusinessNameLine1Txt>NATURES BOUNTY HEALTH PRODUCTS (REELFRUITS)</BusinessNameLine1Txt>
+        </BusinessName>
+        <USAddress>
+          <AddressLine1Txt>110 ORVILLE DRIVE</AddressLine1Txt>
+          <CityNm>BOHEMIA</CityNm>
+          <StateAbbreviationCd>NY</StateAbbreviationCd>
+          <ZIPCd>11716</ZIPCd>
+        </USAddress>
+        <GrantDt>2022-12-31</GrantDt>
+        <GrantAmt>50000</GrantAmt>
+        <PurposeOfGrantTxt>THE FUNDS WERE USED TO CONCLUDE FACTORY UPGRADES TO INCREASE THE COMPANY'S FACTORY CAPACITY BY 10X. THE COMPANY BOUGHT OVER $450,000 IN RAW MATERIALS FROM OVER 500 FARMERS. THE INCREASED SCALE OF THE COMPANY'S FACTORY ALLOWED IT GROW ITS VOLUMES OF PRODUCTS PURCHASED FROM FARMERS BY OVER 50%. IT ALSO ENABLED THE COMPANY TO CREATE OVER 100 NEW FACTORY JOBS, MAJORITY OF WHOM ARE YOUTH AND WOMEN. THE COMPANY EXPANDED ITS RETAIL NETWORK BY OVER 30%. THE FUNDS AND GROWTH OF THE COMPANY HAS POSITIONED IT AS THE TOP DRIED FRUIT PROCESSING COMPANY IN NIGERIA, BUYING A SIGNIFICANT PORTION OF FRESH FRUIT FROM FARMERS THAT WOULD OTHERWISE GO TO WASTE.</PurposeOfGrantTxt>
+        <ExpendedByGranteeAmt>50000</ExpendedByGranteeAmt>
+        <AnyDiversionByGranteeTxt>TO THE KNOWLEDGE OF THE FOUNDATION NO FUNDS HAVE BEEN DIVERTED</AnyDiversionByGranteeTxt>
+        <DatesOfReportsByGranteeTxt>10/29/24</DatesOfReportsByGranteeTxt>
+        <ResultsOfVerificationTxt>THE ISENBERG FAMILY CHARITABLE FOUNDATION HAS NO REASON TO DOUBT THE ACCURACY OR RELIABILITY OF THE REPORT; THEREFORE, NO INDEPENDANT VERIFICATION OF THE REPORT WAS MADE.</ResultsOfVerificationTxt>
+      </ExpenditureResponsibilityGrp>
+      <ExpenditureResponsibilityGrp>
+        <BusinessName>
+          <BusinessNameLine1Txt>ORIGEN FRESH EPZ LTD</BusinessNameLine1Txt>
+        </BusinessName>
+        <ForeignAddress>
+          <AddressLine1Txt>PO BOX 50563</AddressLine1Txt>
+          <CityNm>NAIROBI</CityNm>
+          <CountryCd>KE</CountryCd>
+        </ForeignAddress>
+        <GrantDt>2022-03-14</GrantDt>
+        <GrantAmt>1000000</GrantAmt>
+        <PurposeOfGrantTxt>THE FUNDS WERE EXCLUSIVELY USED FOR INVENTORY PURCHASING, WITH PAYMENTS GOING DIRECT TO AVOCADO PRODUCERS, WITH EMPHASIS ON YOUTH AND WOMEN. THIS ALLOWED THE COMPANY TO GROW ITS VOLUMES OF AVOCADO FRUITS PURCHASED FROM THE FARMERS AND AGGREGATORS FROM 10 MILLION METRIC TONS IN FY2022 TO 15 MILLION METRIC TONS IN FY2023. THE COMPANY ALSO EXPANDED THE NUMBER OF AVOCADO FRUIT PRODUCERS THAT IT WAS WORKING WITH DIRECTLY FROM 6,000 IN FY2022 TO 9,000 IN FY2023. THESE FUNDS HAVE BEEN INSTRUMENTAL IN THE GROWTH OF THE COMPANY AND THE PROFESSIONALISATION OF THE SECTOR IN KENYA.</PurposeOfGrantTxt>
+        <ExpendedByGranteeAmt>1000000</ExpendedByGranteeAmt>
+        <AnyDiversionByGranteeTxt>TO THE KNOWLEDGE OF THE FOUNDATION NO FUNDS HAVE BEEN DIVERTED</AnyDiversionByGranteeTxt>
+        <DatesOfReportsByGranteeTxt>10/31/24</DatesOfReportsByGranteeTxt>
+        <ResultsOfVerificationTxt>THE ISENBERG FAMILY CHARITABLE FOUNDATION HAS NO REASON TO DOUBT THE ACCURACY OR RELIABILITY OF THE REPORT; THEREFORE, NO INDEPENDANT VERIFICATION OF THE REPORT WAS MADE.</ResultsOfVerificationTxt>
+      </ExpenditureResponsibilityGrp>
+      <ExpenditureResponsibilityGrp>
+        <BusinessName>
+          <BusinessNameLine1Txt>PALESTINE FOR CREDIT AND DEVELOPMENT (FATEN)</BusinessNameLine1Txt>
+        </BusinessName>
+        <ForeignAddress>
+          <AddressLine1Txt>AL MASYOUN KHALIL ALWAZEER STREET</AddressLine1Txt>
+          <AddressLine2Txt>PO BOX 2446</AddressLine2Txt>
+          <CityNm>RAMALLAH</CityNm>
+          <ProvinceOrStateNm>WEST BANK</ProvinceOrStateNm>
+          <CountryCd>OC</CountryCd>
+        </ForeignAddress>
+        <GrantDt>2023-06-16</GrantDt>
+        <GrantAmt>2000000</GrantAmt>
+        <PurposeOfGrantTxt>IN 2023, FUNDS WERE USED TO PROVIDE LOANS TO ENTREPRENEURS THROUGH A TOTAL OF 17 LOANS AMOUNTI NG TO $400,660. THE DISTRIBUTION OF THESE FUNDS IS AS FOLLOWS: $71,549 WAS DESIGNATED FOR THE AGRICULTURAL SECTOR, $65,586 FOR THE INDUSTRIAL AND MINING SECTOR, $147,269 FOR THE TRADING SECTOR, AND $116,255 FOR THE SERVICES SECTOR. NOTABLY, 11 OF THESE LOANS, TOTALING $217,142, WERE ISSUED IN RURAL AREAS. THESE LOANS HAVE PLAYED A CRUCIAL ROLE IN ENHANCING THE BUSINESSES OF THE BENEFI CIARIES. AS A RESULT OF THIS FINANCIAL SUPPORT, THEREHAS BEEN A SIGNIFICANT POSITIVE IMPACT ON HOUSEHOLD INCOMES. CONSEQUENTLY, THE SOCIAL AND ECONOMIC CONDITIONS OF THESE INDIVIDUALS HAVE IMPROVED, LEADING TO GREATER STABILITY AND BETTER OPPORTUNITIES FOR THEIR FAMILIES.</PurposeOfGrantTxt>
+        <ExpendedByGranteeAmt>760000</ExpendedByGranteeAmt>
+        <AnyDiversionByGranteeTxt>TO THE KNOWLEDGE OF THE FOUNDATION NO FUNDS HAVE BEEN DIVERTED</AnyDiversionByGranteeTxt>
+        <DatesOfReportsByGranteeTxt>10/29/24</DatesOfReportsByGranteeTxt>
+        <ResultsOfVerificationTxt>THE ISENBERG FAMILY CHARITABLE FOUNDATION HAS NO REASON TO DOUBT THE ACCURACY OR RELIABILITY OF THE REPORT; THEREFORE, NO INDEPENDANT VERIFICATION OF THE REPORT WAS MADE.</ResultsOfVerificationTxt>
+      </ExpenditureResponsibilityGrp>
+      <ExpenditureResponsibilityGrp>
+        <BusinessName>
+          <BusinessNameLine1Txt>SALAD FINANCE LIMITED</BusinessNameLine1Txt>
+        </BusinessName>
+        <ForeignAddress>
+          <AddressLine1Txt>49 GREEK STREET</AddressLine1Txt>
+          <CityNm>LONDON</CityNm>
+          <CountryCd>UK</CountryCd>
+          <ForeignPostalCd>W1D 4EG</ForeignPostalCd>
+        </ForeignAddress>
+        <GrantDt>2023-10-25</GrantDt>
+        <GrantAmt>1453860</GrantAmt>
+        <PurposeOfGrantTxt>THE FUNDS WERE USED FOR THE PROVISION OF CUSTOMER LOANS, HELPING TO FACILITATE THE COMPANY INCREASING ITS LENDING FROM 16.5 MILLION IN FY2022 TO 31.8 MILLION IN FY2023 AND REACHING AN ADDITIONAL 23,000 NEW CUSTOMERS DURING FY2023. THESE FUNDS HAVE BEEN INSTRUMENTAL IN ENABLING MORE PEOPLE IN THE UK WITH LOW CREDIT SCORES ACCESS TO FAIR AND AFFORDABLE FINANCE, HELPING THEM TO AVOID HIGHER-INTEREST AND UNETHICAL LENDERS.</PurposeOfGrantTxt>
+        <ExpendedByGranteeAmt>1453860</ExpendedByGranteeAmt>
+        <AnyDiversionByGranteeTxt>TO THE KNOWLEDGE OF THE FOUNDATION NO FUNDS HAVE BEEN DIVERTED</AnyDiversionByGranteeTxt>
+        <DatesOfReportsByGranteeTxt>10/30/24</DatesOfReportsByGranteeTxt>
+        <ResultsOfVerificationTxt>THE ISENBERG FAMILY CHARITABLE FOUNDATION HAS NO REASON TO DOUBT THE ACCURACY OR RELIABILITY OF THE REPORT; THEREFORE, NO INDEPENDANT VERIFICATION OF THE REPORT WAS MADE.</ResultsOfVerificationTxt>
+      </ExpenditureResponsibilityGrp>
+      <ExpenditureResponsibilityGrp>
+        <BusinessName>
+          <BusinessNameLine1Txt>SARURA COMMODITIES LTD</BusinessNameLine1Txt>
+        </BusinessName>
+        <ForeignAddress>
+          <AddressLine1Txt>PO BOX 6264</AddressLine1Txt>
+          <CityNm>KIGALI</CityNm>
+          <CountryCd>RW</CountryCd>
+        </ForeignAddress>
+        <GrantDt>2022-12-31</GrantDt>
+        <GrantAmt>893929</GrantAmt>
+        <PurposeOfGrantTxt>THE CHARITABLE PURPOSE OF THE LOAN WAS TO ALLOW SARURA TO PURCHASE STAPLE CROPS, MAIZE AND BEANS, FROM RWANDAN SMALL HOLDER FARMERS - PREDOMINANTLY ORGANISED INTO CO-OPERATIVES. THROUGH ROBUST POST-HARVEST CLEANING AND STORAGE PROCESS, SARURA IS ABLE TO SERVICE HIGHER VALUE MARKETS LOOKING FOR HIGH GRADE GRAINS. IN 2021, SARURA SOLD 1,389MT OF MAIZE SOURCED FROM ITS NETWORK OF 26 CO-OPERATIVES COMPRISING 6,580 FARMING FAMILIES. SARURA PURCHASED A TOTAL OF 368MT OF COMMON MIXED BEANS SOURCE FROM ~3,000 SMALLHOLDER FARMES (ASSUMING AN AVERAGE SMALLHOLDER FARMER YIELD OF 120KG WHICH IS TRADED). BY WORKING CLOSELY WITH PRIMARY PRODUCERS AND ENGAGING THEM EARLY IN THE HARVEST PROCESS AND OFFERING TRANSPARENT PRICING FOR THEIR COMMODITIES, SARURA IS ABLE TO INCREASE THE IMPACT GENERATED FROM THE FARMERS CROPS.</PurposeOfGrantTxt>
+        <ExpendedByGranteeAmt>0</ExpendedByGranteeAmt>
+        <AnyDiversionByGranteeTxt>TO THE KNOWLEDGE OF THE FOUNDATION NO FUNDS HAVE BEEN DIVERTED</AnyDiversionByGranteeTxt>
+        <DatesOfReportsByGranteeTxt>11/13/23</DatesOfReportsByGranteeTxt>
+        <ResultsOfVerificationTxt>THE ISENBERG FAMILY CHARITABLE FOUNDATION HAS NO REASON TO DOUBT THE ACCURACY OR RELIABILITY OF THE REPORT; THEREFORE, NO INDEPENDANT VERIFICATION OF THE REPORT WAS MADE.</ResultsOfVerificationTxt>
+      </ExpenditureResponsibilityGrp>
+      <ExpenditureResponsibilityGrp>
+        <BusinessName>
+          <BusinessNameLine1Txt>SIMA ANGAZA DIST FIN FND BV</BusinessNameLine1Txt>
+        </BusinessName>
+        <USAddress>
+          <AddressLine1Txt>157 COLUMBUS AVE SUITE 512</AddressLine1Txt>
+          <CityNm>NEW YORK</CityNm>
+          <StateAbbreviationCd>NY</StateAbbreviationCd>
+          <ZIPCd>10023</ZIPCd>
+        </USAddress>
+        <GrantDt>2022-12-31</GrantDt>
+        <GrantAmt>222464</GrantAmt>
+        <PurposeOfGrantTxt>THE FUNDS WERE USED FOR INVENTORY PURCHASING, WITH PAYMENTS GOING DIRECTLY TO THE SUPPLIERS.</PurposeOfGrantTxt>
+        <ExpendedByGranteeAmt>0</ExpendedByGranteeAmt>
+        <AnyDiversionByGranteeTxt>TO THE KNOWLEDGE OF THE FOUNDATION NO FUNDS HAVE BEEN DIVERTED</AnyDiversionByGranteeTxt>
+        <DatesOfReportsByGranteeTxt>10/31/24</DatesOfReportsByGranteeTxt>
+        <ResultsOfVerificationTxt>THE ISENBERG FAMILY CHARITABLE FOUNDATION HAS NO REASON TO DOUBT THE ACCURACY OR RELIABILITY OF THE REPORT; THEREFORE, NO INDEPENDANT VERIFICATION OF THE REPORT WAS MADE.</ResultsOfVerificationTxt>
+      </ExpenditureResponsibilityGrp>
+      <ExpenditureResponsibilityGrp>
+        <BusinessName>
+          <BusinessNameLine1Txt>SOCIAL AND SUSTAINABLE HOUSING II LP</BusinessNameLine1Txt>
+        </BusinessName>
+        <ForeignAddress>
+          <AddressLine1Txt>4TH FLOOR READING BRIDGE HOUSE</AddressLine1Txt>
+          <AddressLine2Txt>GEORGE STREET</AddressLine2Txt>
+          <CityNm>READING</CityNm>
+          <ProvinceOrStateNm>BERKSHIRE</ProvinceOrStateNm>
+          <CountryCd>UK</CountryCd>
+          <ForeignPostalCd>RG1 8LS</ForeignPostalCd>
+        </ForeignAddress>
+        <GrantDt>2023-07-20</GrantDt>
+        <GrantAmt>50769</GrantAmt>
+        <PurposeOfGrantTxt>FUNDS RECEIVED IN 2023 WERE DEPLOYED IN NEW SOCIAL HOUSING INVESTMENTS, FOCUSING ON CHARITIES THAT PROVIDE HOUSING AND SUPPORT TO VULNERABLE INDIVIDUALS, INCLUDING VICTIMS OF DOMESTIC ABUSE AND PEOPLE FACING HOMELESSNESS. THROUGH THEIR EFFORTS, SASC HELPED 1,901 PEOPLE, INCLUDING 1,438 ADULTS AND 463 CHILDREN, SINCE 2017, WITH 82% OF TENANTS EXPERIENCING IMPROVED OR MAINTAINED WELLBEING IN 2023.</PurposeOfGrantTxt>
+        <ExpendedByGranteeAmt>35749</ExpendedByGranteeAmt>
+        <AnyDiversionByGranteeTxt>TO THE KNOWLEDGE OF THE FOUNDATION NO FUNDS HAVE BEEN DIVERTED</AnyDiversionByGranteeTxt>
+        <DatesOfReportsByGranteeTxt>10/23/24</DatesOfReportsByGranteeTxt>
+        <ResultsOfVerificationTxt>THE ISENBERG FAMILY CHARITABLE FOUNDATION HAS NO REASON TO DOUBT THE ACCURACY OR RELIABILITY OF THE REPORT; THEREFORE, NO INDEPENDANT VERIFICATION OF THE REPORT WAS MADE.</ResultsOfVerificationTxt>
+      </ExpenditureResponsibilityGrp>
+      <ExpenditureResponsibilityGrp>
+        <BusinessName>
+          <BusinessNameLine1Txt>SPARK AFRICA FUND SCSP</BusinessNameLine1Txt>
+        </BusinessName>
+        <ForeignAddress>
+          <AddressLine1Txt>18 RUE ROBERT STUMPER</AddressLine1Txt>
+          <CityNm>LUXEMBOURG</CityNm>
+          <CountryCd>LU</CountryCd>
+        </ForeignAddress>
+        <GrantDt>2023-12-18</GrantDt>
+        <GrantAmt>816000</GrantAmt>
+        <PurposeOfGrantTxt>THE FUNDS WERE ALMOST EXCLUSIVELY USED FOR FINANCING COMPANIES OPERATING IN THE CLEAN COOKING SECTOR, WITH PAYMENTS TO AFRICA CARBON ONE LIMITED (A MAURITIUS SPECIAL PURPOSE VEHICLE RELATED TO A CARBON CREDIT PROJECT IN ZAMBIA), AS WELL AS SM GUILGAL AND YEHU MICROFINANCE BANK (BOTH MICROFINANCE INSTITUTIONS THAT ONLEND TO CUSTOMERS FOR THE ACQUISITION OF CLEAN COOKING APPLIANCES AND FUEL). THESE DISBURSEMENTS ALLOWED THE COMPANY TO GROW ITS INVESTED CAPITAL FROM $8.5 MILLION IN FY2022 TO $12.2 MILLION IN FY2023. IT WAS ALSO ABLE TO EXPAND ITS NUMBER OF INVESTEES FROM 3 IN FY2022 TO 6 IN FY2023. THESE FUNDS HAVE BEEN INSTRUMENTAL IN THE GROWTH OF THE FUND AND TOWARDS THE ULTIMATE SCALE-UP OF THE CLEAN COOKING SECTOR IN SUB-SAHARAN AFRICA, FOR THE BETTERMENT OF THE CLIMATE/GREENHOUSE GAS EMISSION REDUCTIONS, PUBLIC HEALTH, AND GENDER EQUALITY.</PurposeOfGrantTxt>
+        <ExpendedByGranteeAmt>551000</ExpendedByGranteeAmt>
+        <AnyDiversionByGranteeTxt>TO THE KNOWLEDGE OF THE FOUNDATION NO FUNDS HAVE BEEN DIVERTED</AnyDiversionByGranteeTxt>
+        <DatesOfReportsByGranteeTxt>10/22/24</DatesOfReportsByGranteeTxt>
+        <ResultsOfVerificationTxt>THE ISENBERG FAMILY CHARITABLE FOUNDATION HAS NO REASON TO DOUBT THE ACCURACY OR RELIABILITY OF THE REPORT; THEREFORE, NO INDEPENDANT VERIFICATION OF THE REPORT WAS MADE.</ResultsOfVerificationTxt>
+      </ExpenditureResponsibilityGrp>
+      <ExpenditureResponsibilityGrp>
+        <BusinessName>
+          <BusinessNameLine1Txt>TEROVA AFRICA LTD</BusinessNameLine1Txt>
+        </BusinessName>
+        <ForeignAddress>
+          <AddressLine1Txt>REMERA GASABO</AddressLine1Txt>
+          <CityNm>KIGALI</CityNm>
+          <CountryCd>RW</CountryCd>
+        </ForeignAddress>
+        <GrantDt>2022-10-06</GrantDt>
+        <GrantAmt>186916</GrantAmt>
+        <PurposeOfGrantTxt>THE LENDER VIEWS THE BORROWERS ABILITY TO PROVIDE MARKET ACCESS AND TECHNICAL SUPPORT TO RWANDAN SMALLHOLDER FARMERS AS AN IMPORTANT PHILANTHROPIC OBJECTIVE. THE BORROWER IS SEEKING LOW-COST DEBT TO FINANCE ITS OPERATIONS. THE CHARITABLE PURPOSE OF THE LOAN WAS TO ENABLE TEROVA AFRICA LTD TO PROVIDE MARKET ACCESS AND TECHNICAL SUPPORT TO RWANDAN SMALLHOLDER FARMERS. IN 2019, TEROVA AFRICA LTD WORKED WITH ABOUT 200 SMALLHOLDER FARMERS IN RWANDA TO GROW GINGER FOR EXPORT.</PurposeOfGrantTxt>
+        <ExpendedByGranteeAmt>186916</ExpendedByGranteeAmt>
+        <AnyDiversionByGranteeTxt>TO THE KNOWLEDGE OF THE FOUNDATION NO FUNDS HAVE BEEN DIVERTED</AnyDiversionByGranteeTxt>
+        <DatesOfReportsByGranteeTxt>2/19/25</DatesOfReportsByGranteeTxt>
+        <ResultsOfVerificationTxt>THE ISENBERG FAMILY CHARITABLE FOUNDATION HAS NO REASON TO DOUBT THE ACCURACY OR RELIABILITY OF THE REPORT; THEREFORE, NO INDEPENDANT VERIFICATION OF THE REPORT WAS MADE.</ResultsOfVerificationTxt>
+      </ExpenditureResponsibilityGrp>
+      <ExpenditureResponsibilityGrp>
+        <BusinessName>
+          <BusinessNameLine1Txt>THE FARMFRESH CO LTD</BusinessNameLine1Txt>
+        </BusinessName>
+        <ForeignAddress>
+          <AddressLine1Txt>UMUYENZI PLAZA KG5 RD REMERA SECTOR</AddressLine1Txt>
+          <AddressLine2Txt>GASABO DIST</AddressLine2Txt>
+          <CityNm>KIGALI</CityNm>
+          <CountryCd>RW</CountryCd>
+        </ForeignAddress>
+        <GrantDt>2022-12-31</GrantDt>
+        <GrantAmt>363750</GrantAmt>
+        <PurposeOfGrantTxt>THE FUNDS RECEIVED WERE USED TO PURCHASE BEANS PROCESSING EQUIPMENT AND SCALE THE OPERATIONS OF THE FARMFRESHFOOD PROCESSING FACTORY. OVER FY2023, FARMFRESH CONTINUED TO GROW PROCESSING AND DISTRIBUTION OPERATIONS UNLOCKING IMPACT THROUGH (I) SOURCING BEANS FROM SMALLHOLDER FARMERS AND COOPERATIVES AND PAYING A PREMIUM FOR QUALITY BEANS, MIXED HIGH IRON AND YELLOW VARIETIES, AND SO IMPROVING RURAL LIVELIHOODS (II) REDUCING CARBON EMISSION THROUGH A REDUCTION IN FIREWOOD USED IN INSTITUTIONS THAT USE THE FARMFRESH COOKED BEANS RATHER THAN COOKING BEANS FROM DRY AND (III) IMPROVING THE NUTRITIONAL STANDARDS OF THE BEANS EATEN IN THE SCHOOLS SUPPLIED BY FARMFRESH. FARMFRESH SOLD A TOTAL OF 158,034KG OF COOKED BEANS (IN 2KG AND 700G , EQUATING TO ~50,000KG OF DRY BEANS EQUIVALENT TO THEMARKETED PRODUCTION OF ~500 SMALLHOLDER FARMERS.</PurposeOfGrantTxt>
+        <ExpendedByGranteeAmt>363750</ExpendedByGranteeAmt>
+        <AnyDiversionByGranteeTxt>TO THE KNOWLEDGE OF THE FOUNDATION NO FUNDS HAVE BEEN DIVERTED</AnyDiversionByGranteeTxt>
+        <DatesOfReportsByGranteeTxt>10/29/24</DatesOfReportsByGranteeTxt>
+        <ResultsOfVerificationTxt>THE ISENBERG FAMILY CHARITABLE FOUNDATION HAS NO REASON TO DOUBT THE ACCURACY OR RELIABILITY OF THE REPORT; THEREFORE, NO INDEPENDANT VERIFICATION OF THE REPORT WAS MADE.</ResultsOfVerificationTxt>
+      </ExpenditureResponsibilityGrp>
+      <ExpenditureResponsibilityGrp>
+        <BusinessName>
+          <BusinessNameLine1Txt>UNCOMMON CACAO INC</BusinessNameLine1Txt>
+        </BusinessName>
+        <USAddress>
+          <AddressLine1Txt>5730 WARD RD SUITE 207</AddressLine1Txt>
+          <CityNm>ARVADA</CityNm>
+          <StateAbbreviationCd>CO</StateAbbreviationCd>
+          <ZIPCd>80002</ZIPCd>
+        </USAddress>
+        <GrantDt>2023-04-03</GrantDt>
+        <GrantAmt>1000000</GrantAmt>
+        <PurposeOfGrantTxt>THE FUNDS WERE EXCLUSIVELY USED FOR CACAO PURCHASES IMPORTED TO THE US AND TO EUROPE. THIS ALLOWED THE COMPANY TO GROW ITS VOLUMES OF CACAO PURCHASES FROM 443 MT IN FY2022 TO 479 MT IN FY2023, DESPITE THE CHALLENGES ON THE HARVEST CAUSED BY EL NIO. IN TERMS OF FOB COST, THE COMPANY PURCHASED $1.9 MILLION AND 175K OF CACAO IN 2023 OF WHICH THE MAJORITY WAS PURCHASED WITH THE FUNDS FROM THE ISENBERG FAMILY CHARITABLE FOUNDATION, INC. BETWEEN APRIL 2023 AND DECEMBER 2023 ($1.356M AND 142.5K AT FOB PRICES). WEIGHTED AVERAGE FARMGATE PRICE PER KG (AMOUNT PAID TO FARMERS) WENT ALSO UP FROM $2.53/KG IN 2022 TO $2.63/KG IN 2023, MEANING NOT ONLY IS THE COMPANY BUYING MORE VOLUME OF CACAO BUT MORE FUNDS ARE GOING INTO THE HANDS OF FARMERS AS WELL.</PurposeOfGrantTxt>
+        <ExpendedByGranteeAmt>1000000</ExpendedByGranteeAmt>
+        <AnyDiversionByGranteeTxt>TO THE KNOWLEDGE OF THE FOUNDATION NO FUNDS HAVE BEEN DIVERTED</AnyDiversionByGranteeTxt>
+        <DatesOfReportsByGranteeTxt>10/29/24</DatesOfReportsByGranteeTxt>
+        <ResultsOfVerificationTxt>THE ISENBERG FAMILY CHARITABLE FOUNDATION HAS NO REASON TO DOUBT THE ACCURACY OR RELIABILITY OF THE REPORT; THEREFORE, NO INDEPENDANT VERIFICATION OF THE REPORT WAS MADE.</ResultsOfVerificationTxt>
+      </ExpenditureResponsibilityGrp>
+      <ExpenditureResponsibilityGrp>
+        <BusinessName>
+          <BusinessNameLine1Txt>WEST AFRICA RICE CO LTD</BusinessNameLine1Txt>
+        </BusinessName>
+        <ForeignAddress>
+          <AddressLine1Txt>30 BATTERY STREET KINGTOM</AddressLine1Txt>
+          <CityNm>FREETOWN</CityNm>
+          <CountryCd>SL</CountryCd>
+        </ForeignAddress>
+        <GrantDt>2022-12-31</GrantDt>
+        <GrantAmt>205000</GrantAmt>
+        <PurposeOfGrantTxt>THE FUNDS RECEIVED FROM THIS LOAN WERE USED FOR THE PURPOSE OF LAUNCHING WARC'S SERVICE DELIVERY UNIT IN SIERRA LEONE (SDU), THIS INITIATIVE CONSISTED IN PROVIDING MECHANIZATION SERVICES AND TECHNICAL ASSISTANCE TO ABOUT ONE THOUSAND OF SMALL FARMERS IN BONTE DISTRICT IN SIERRA LEONE; THE INFRASTRUCTURE OF THE SDU IS STILL WORKING WITH FARMERS TO INCREASE THEIR INCOME, TRANSFORMING RURAL LIVELIHOODS, WITH THE OBJECTIVE TO TAKE THEM OUT OF POVERTY AND PROTECT ONE OF THE MOST PRECIOUS ASSETS OF THE WORLD: THE SOILS. THE FUNDS WERE DEDICATED TO THE PURCHASE OF AGRICULTURAL INPUTS MAINLY FERTILIZERS, SEEDS AND DIESEL AND WORKING CAPITAL FOR THE PROGRAM.</PurposeOfGrantTxt>
+        <ExpendedByGranteeAmt>205000</ExpendedByGranteeAmt>
+        <AnyDiversionByGranteeTxt>TO THE KNOWLEDGE OF THE FOUNDATION NO FUNDS HAVE BEEN DIVERTED</AnyDiversionByGranteeTxt>
+        <DatesOfReportsByGranteeTxt>10/28/24</DatesOfReportsByGranteeTxt>
+        <ResultsOfVerificationTxt>THE ISENBERG FAMILY CHARITABLE FOUNDATION HAS NO REASON TO DOUBT THE ACCURACY OR RELIABILITY OF THE REPORT; THEREFORE, NO INDEPENDANT VERIFICATION OF THE REPORT WAS MADE.</ResultsOfVerificationTxt>
+      </ExpenditureResponsibilityGrp>
+      <ExpenditureResponsibilityGrp>
+        <BusinessName>
+          <BusinessNameLine1Txt>ZAMUKA FUTURE OF WORK FUND PLC</BusinessNameLine1Txt>
+        </BusinessName>
+        <ForeignAddress>
+          <AddressLine1Txt>NYARUGENGE DISTRICT</AddressLine1Txt>
+          <CityNm>KIGALI CITY</CityNm>
+          <CountryCd>RW</CountryCd>
+        </ForeignAddress>
+        <GrantDt>2023-06-28</GrantDt>
+        <GrantAmt>289261</GrantAmt>
+        <PurposeOfGrantTxt>THE FUNDS WERE ALMOST EXCLUSIVELY USED FOR FINANCING YOUTH EDUCATION, WITH PAYMENTS GOING FROM FUTURE OF WORK FUND (FWF) TO VARIOUS PARTNER EDUCATION INSTITUTIONS (PEIS) TO COVER THE COST OF TUITION OF STUDENTS. THIS FUNDING CONTRIBUTED TO FWF INCREASING STUDENT ENROLLMENT NUMBERS FROM 2,217 AS AT THE END OF FY2022 TO 4,131 AS AT THE ENDOF FY2023. OVERALL, THESE FUNDS HAVE BEEN INSTRUMENTAL IN THE GROWTH OF THE ORGANIZATION AND THE FOOTPRINT THAT IT HAS IN RWANDA, KENYA, SOUTH AFRICA AND GHANA.</PurposeOfGrantTxt>
+        <ExpendedByGranteeAmt>200309</ExpendedByGranteeAmt>
+        <AnyDiversionByGranteeTxt>TO THE KNOWLEDGE OF THE FOUNDATION NO FUNDS HAVE BEEN DIVERTED</AnyDiversionByGranteeTxt>
+        <DatesOfReportsByGranteeTxt>10/30/24</DatesOfReportsByGranteeTxt>
+        <ResultsOfVerificationTxt>THE ISENBERG FAMILY CHARITABLE FOUNDATION HAS NO REASON TO DOUBT THE ACCURACY OR RELIABILITY OF THE REPORT; THEREFORE, NO INDEPENDANT VERIFICATION OF THE REPORT WAS MADE.</ResultsOfVerificationTxt>
+      </ExpenditureResponsibilityGrp>
+      <ExpenditureResponsibilityGrp>
+        <BusinessName>
+          <BusinessNameLine1Txt>DIRT CAPITALTHE PEOPLE'S LAND FUND</BusinessNameLine1Txt>
+        </BusinessName>
+        <USAddress>
+          <AddressLine1Txt>PO BOX 457 HUDSON</AddressLine1Txt>
+          <CityNm>NEW YORK</CityNm>
+          <StateAbbreviationCd>NY</StateAbbreviationCd>
+          <ZIPCd>12534</ZIPCd>
+        </USAddress>
+        <GrantDt>2022-12-31</GrantDt>
+        <GrantAmt>250000</GrantAmt>
+        <PurposeOfGrantTxt>A KEY GOAL OF THE PROJECT REMAINS THE TRANSITION OF OWNERSHIP TO 5-10 ORGANIC LATINO IMMIGRANT GROWERS, ALL OF WHOM ARE SUCCESSFUL BUSINESS OPERATORS AND LONG-TERM CLIENTS OF KTA. THROUGHOUT 2023, RANCHO CORRALITOS FURTHERED ITS PLANS TO ROTATE THESE FARMERS AS SUBLESSEES ON PORTIONS OF THE FARM, PREPARING FOR THEIR EVENTUAL OWNERSHIP. WE WORKED WITH THE MASTER LEASEHOLDER TO ACCESS A PORTION OF THE LAND EARLIER THAN EXPECTED. THIS IS PART OF A LONG-TERM STRATEGY TO ADDRESS HISTORICAL INEQUITIES IN LAND OWNERSHIP. ALTHOUGH NO NEW FINANCIAL TRANSACTIONS WERE EXECUTED IN 2023, THE PROJECT MADE SIGNIFICANT PROGRESS TOWARD ROTATING KTA CLIENTS AS SUBLESSEES ON SPECIFIC PORTIONS OF THE FARM.</PurposeOfGrantTxt>
+        <ExpendedByGranteeAmt>250000</ExpendedByGranteeAmt>
+        <AnyDiversionByGranteeTxt>TO THE KNOWLEDGE OF THE FOUNDATION NO FUNDS HAVE BEEN DIVERTED</AnyDiversionByGranteeTxt>
+        <DatesOfReportsByGranteeTxt>11/1/24</DatesOfReportsByGranteeTxt>
+        <ResultsOfVerificationTxt>THE ISENBERG FAMILY CHARITABLE FOUNDATION HAS NO REASON TO DOUBT THE ACCURACY OR RELIABILITY OF THE REPORT; THEREFORE, NO INDEPENDANT VERIFICATION OF THE REPORT WAS MADE.</ResultsOfVerificationTxt>
+      </ExpenditureResponsibilityGrp>
+      <ExpenditureResponsibilityGrp>
+        <BusinessName>
+          <BusinessNameLine1Txt>KIVA REFUGEE FUND LLC</BusinessNameLine1Txt>
+        </BusinessName>
+        <USAddress>
+          <AddressLine1Txt>1209 N ORANGE ST</AddressLine1Txt>
+          <CityNm>WILMINGTON</CityNm>
+          <StateAbbreviationCd>DE</StateAbbreviationCd>
+          <ZIPCd>198011120</ZIPCd>
+        </USAddress>
+        <GrantDt>2022-04-12</GrantDt>
+        <GrantAmt>750000</GrantAmt>
+        <PurposeOfGrantTxt>IN 2023, THE KIVA REFUGEE INVESTMENT FUND (KRIF) DEPLOYED A TOTAL OF USD 11.25M ACROSS SIX DIFFERENT COUNTRIES, BRINGING THE OVERALL FUND DEPLOYMENT TO DATE TO USD 40.7M. KRIF SERVED A TOTAL OF 26,950 END BORROWERS IN 2023, STEADILY INCREASING THE FUND'S ANNUAL REACH BY 22% FROM THE YEAR PRIOR. OF THE TOTAL NUMBER OF UNDERLYING BORROWERS WHO RECEIVED LOANS FUNDED BY KRIF THROUGHOUT THE YEAR, 6,451 WERE REFUGEES AND IDPS, AND 9,483 WERE HOST COMMUNITY BORROWERS. WHEN TAKEN TOGETHER, DISPLACED BORROWERS AND IMPACTED HOST COMMUNITIES COMPRISED 59% OFTHE FUNDS TOTAL REACH IN 2023. THESE FIGURES SPECIFICALLY KRIFS ABILITY TO SCALE ITS REACH TO REFUGEES AND THEIR SURROUNDING COMMUNITIES EVIDENCE THE FUNDS COMMITMENT TO INCREASING FINANCIAL ACCESS, ECONOMIC OPPORTUNITY, LONGER-TERM STABILITY, AND IMPROVED LIVELIHOODS FOR ITS TARGET POPULATIONS. BY THE END OF 2023, KRIF REACHED A TOTAL OF 51,402 BORROWERS SINCE THE LAUNCH OF THE FUND.</PurposeOfGrantTxt>
+        <ExpendedByGranteeAmt>0</ExpendedByGranteeAmt>
+        <AnyDiversionByGranteeTxt>TO THE KNOWLEDGE OF THE FOUNDATION NO FUNDS HAVE BEEN DIVERTED</AnyDiversionByGranteeTxt>
+        <DatesOfReportsByGranteeTxt>10/30/24</DatesOfReportsByGranteeTxt>
+        <ResultsOfVerificationTxt>THE ISENBERG FAMILY CHARITABLE FOUNDATION HAS NO REASON TO DOUBT THE ACCURACY OR RELIABILITY OF THE REPORT; THEREFORE, NO INDEPENDANT VERIFICATION OF THE REPORT WAS MADE.</ResultsOfVerificationTxt>
+      </ExpenditureResponsibilityGrp>
+      <ExpenditureResponsibilityGrp>
+        <BusinessName>
+          <BusinessNameLine1Txt>KORET ISRAEL ECONOMIC DEVELOPMENT FUNDS</BusinessNameLine1Txt>
+        </BusinessName>
+        <ForeignAddress>
+          <AddressLine1Txt>PO BOX 33406</AddressLine1Txt>
+          <CityNm>TEL AVIV</CityNm>
+          <CountryCd>IS</CountryCd>
+        </ForeignAddress>
+        <GrantDt>2022-01-18</GrantDt>
+        <GrantAmt>1000000</GrantAmt>
+        <PurposeOfGrantTxt>THE FUNDS WERE USED FOR ON-LENDING TO LOW INCOME ARAB SMALL BUSINESS OWNERS. THE PROGRAM STARTED OPERATING IN 2021 FOLLOWING THE COVID CRISIS. THE OUTBREAK OF THE OCTOBER 2023 WAR PRESENTED NEW CHALLENGES, THAT ARE UNFORTUNATELY CONTINUING UNTIL TODAY. IN 2023 THE COMPANY HAS DISTRIBUTED 126 LOANS TOTALING NIS 10M. THESE LOANS SUPPORTED THE ONGOING OPERATION OF THE BUSINESSES, INSURING THE LIVELIHOOD OF THE BUSINESS OWNERS, FAMILIES AND COMMUNITIES.</PurposeOfGrantTxt>
+        <ExpendedByGranteeAmt>0</ExpendedByGranteeAmt>
+        <AnyDiversionByGranteeTxt>TO THE KNOWLEDGE OF THE FOUNDATION NO FUNDS HAVE BEEN DIVERTED</AnyDiversionByGranteeTxt>
+        <DatesOfReportsByGranteeTxt>10/31/24</DatesOfReportsByGranteeTxt>
+        <ResultsOfVerificationTxt>THE ISENBERG FAMILY CHARITABLE FOUNDATION HAS NO REASON TO DOUBT THE ACCURACY OR RELIABILITY OF THE REPORT; THEREFORE, NO INDEPENDANT VERIFICATION OF THE REPORT WAS MADE.</ResultsOfVerificationTxt>
+      </ExpenditureResponsibilityGrp>
+      <ExpenditureResponsibilityGrp>
+        <BusinessName>
+          <BusinessNameLine1Txt>SOAR - CLASS A SENIOR NOTE</BusinessNameLine1Txt>
+        </BusinessName>
+        <USAddress>
+          <AddressLine1Txt>39812 MISSION BLVD STE 203</AddressLine1Txt>
+          <CityNm>FREMONT</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>94539</ZIPCd>
+        </USAddress>
+        <GrantDt>2022-02-09</GrantDt>
+        <GrantAmt>1117247</GrantAmt>
+        <PurposeOfGrantTxt>THE SOUTHERN OPPORTUNITY AND RESILIENCE (SOAR) FUND WAS CREATED BY COMMUNITY LENDERS IN THE SOUTH TO PROVIDE ECONOMIC RECOVERY LOANS TO SMALL BUSINESSES IN THEIR COMMUNITIES AT A TIME WHEN THEY FACED UNPRECEDENTED HEALTH AND ECONOMIC CHALLENGES FROM THE COVID-19 PANDEMIC. THE LOANS WERE DESIGNED TO REACH THE SMALLEST OF SMALL BUSINESSES AND THOSE THAT HAVE BEEN HISTORICALLY UNDERBANKED - THE TYPE OF BUSINESSES THAT THIS COALITION OF COMMUNITY DEVELOPMENT FINANCIAL INSTITUTIONS (CDFI) HAVE BEEN SERVING FOR DECADES. THESE BUSINESSES OFTEN STRUGGLE TO ACCESS CAPITAL FROM TRADITIONAL SOURCES BUT ARE CRITICAL TO PROVIDING JOBS AND SUPPORTING ECONOMIC RECOVERY IN COMMUNITIES ACROSS THE SOUTH.</PurposeOfGrantTxt>
+        <ExpendedByGranteeAmt>0</ExpendedByGranteeAmt>
+        <AnyDiversionByGranteeTxt>TO THE KNOWLEDGE OF THE FOUNDATION NO FUNDS HAVE BEEN DIVERTED</AnyDiversionByGranteeTxt>
+        <DatesOfReportsByGranteeTxt>4/30/24</DatesOfReportsByGranteeTxt>
+        <ResultsOfVerificationTxt>THE ISENBERG FAMILY CHARITABLE FOUNDATION HAS NO REASON TO DOUBT THE ACCURACY OR RELIABILITY OF THE REPORT; THEREFORE, NO INDEPENDANT VERIFICATION OF THE REPORT WAS MADE.</ResultsOfVerificationTxt>
+      </ExpenditureResponsibilityGrp>
+      <ExpenditureResponsibilityGrp>
+        <BusinessName>
+          <BusinessNameLine1Txt>SOAR - CLASS B SUBORDINATE NOTE</BusinessNameLine1Txt>
+        </BusinessName>
+        <USAddress>
+          <AddressLine1Txt>39812 MISSION BLVD STE 203</AddressLine1Txt>
+          <CityNm>FREMONT</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>94539</ZIPCd>
+        </USAddress>
+        <GrantDt>2022-02-22</GrantDt>
+        <GrantAmt>750000</GrantAmt>
+        <PurposeOfGrantTxt>THE SOUTHERN OPPORTUNITY AND RESILIENCE (SOAR) FUND WAS CREATED BY COMMUNITY LENDERS IN THE SOUTH TO PROVIDE ECONOMIC RECOVERY LOANS TO SMALL BUSINESSES IN THEIR COMMUNITIES AT A TIME WHEN THEY FACED UNPRECEDENTED HEALTH AND ECONOMIC CHALLENGES FROM THE COVID-19 PANDEMIC. THE LOANS WERE DESIGNED TO REACH THE SMALLEST OF SMALL BUSINESSES AND THOSE THAT HAVE BEEN HISTORICALLY UNDERBANKED - THE TYPE OF BUSINESSES THAT THIS COALITION OF COMMUNITY DEVELOPMENT FINANCIAL INSTITUTIONS (CDFI) HAVE BEEN SERVING FOR DECADES. THESE BUSINESSES OFTEN STRUGGLE TO ACCESS CAPITAL FROM TRADITIONAL SOURCES BUT ARE CRITICAL TO PROVIDING JOBS AND SUPPORTING ECONOMIC RECOVERY IN COMMUNITIES ACROSS THE SOUTH.</PurposeOfGrantTxt>
+        <ExpendedByGranteeAmt>0</ExpendedByGranteeAmt>
+        <AnyDiversionByGranteeTxt>TO THE KNOWLEDGE OF THE FOUNDATION NO FUNDS HAVE BEEN DIVERTED</AnyDiversionByGranteeTxt>
+        <DatesOfReportsByGranteeTxt>4/30/24</DatesOfReportsByGranteeTxt>
+        <ResultsOfVerificationTxt>THE ISENBERG FAMILY CHARITABLE FOUNDATION HAS NO REASON TO DOUBT THE ACCURACY OR RELIABILITY OF THE REPORT; THEREFORE, NO INDEPENDANT VERIFICATION OF THE REPORT WAS MADE.</ResultsOfVerificationTxt>
+      </ExpenditureResponsibilityGrp>
+      <ExpenditureResponsibilityGrp>
+        <BusinessName>
+          <BusinessNameLine1Txt>VILCAP INVESTMENTS LLC</BusinessNameLine1Txt>
+        </BusinessName>
+        <USAddress>
+          <AddressLine1Txt>29 RIVOLI STREET</AddressLine1Txt>
+          <CityNm>SAN FRANCISCO</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>94117</ZIPCd>
+        </USAddress>
+        <GrantDt>2022-12-31</GrantDt>
+        <GrantAmt>17363</GrantAmt>
+        <PurposeOfGrantTxt>VILCAP INVESTMENTS IS AN INVESTMENT FUND THAT IS ENGAGED IN MAKING LOANS AND EQUITY INVESTMENTS IN COMPANIES THAT FURTHER CHARITABLE AND ENVIRONMENTAL PURPOSES, INCLUDING SUCH PURPOSES AS ENVIRONMENTAL PRESERVATION THROUGH CLEAN TECHNOLOGY, INCREASED ACCESS TO EDUCATION AND HEALTHCARE, AND IMPROVED LIVELIHOODS OF UNDERPRIVILEDGED POPULATIONS. VILCAP INVESTMENTS LLC CONTINUES TO BE AN INVESTMENT FUND THAT REMAINS ENGAGED IN MAKING LOANS AND EQUITY INVESTMENTS IN COMPANIES THAT FURTHER CHARITABLE AND/OR ENVIRONMENTAL PURPOSES DESCRIBED IN SECTION 170(C)(2)(B) OF THE CODE (EXEMPT PURPOSES), INCLUDING SUCH PURPOSES AS ENVIRONMENTAL PRESERVATION THROUGH CLEAN TECHNOLOGY, INCREASED ACCESS TO EDUCATION AND HEALTHCARE, AND IMPROVED LIVELIHOODS OF UNDERPRIVILEGED POPULATIONS.</PurposeOfGrantTxt>
+        <ExpendedByGranteeAmt>10810</ExpendedByGranteeAmt>
+        <AnyDiversionByGranteeTxt>TO THE KNOWLEDGE OF THE FOUNDATION NO FUNDS HAVE BEEN DIVERTED</AnyDiversionByGranteeTxt>
+        <DatesOfReportsByGranteeTxt>7/17/23</DatesOfReportsByGranteeTxt>
+        <ResultsOfVerificationTxt>THE ISENBERG FAMILY CHARITABLE FOUNDATION HAS NO REASON TO DOUBT THE ACCURACY OR RELIABILITY OF THE REPORT; THEREFORE, NO INDEPENDANT VERIFICATION OF THE REPORT WAS MADE.</ResultsOfVerificationTxt>
+      </ExpenditureResponsibilityGrp>
+      <ExpenditureResponsibilityGrp>
+        <BusinessName>
+          <BusinessNameLine1Txt>WORKING POWER IMPACT FUND I LLC</BusinessNameLine1Txt>
+        </BusinessName>
+        <USAddress>
+          <AddressLine1Txt>URBAN INGENUITY 213 SOUTH 24TH</AddressLine1Txt>
+          <AddressLine2Txt>STREET</AddressLine2Txt>
+          <CityNm>PHILADELPHIA</CityNm>
+          <StateAbbreviationCd>PA</StateAbbreviationCd>
+          <ZIPCd>19103</ZIPCd>
+        </USAddress>
+        <GrantDt>2023-03-15</GrantDt>
+        <GrantAmt>750000</GrantAmt>
+        <PurposeOfGrantTxt>THE FUNDS WERE ALMOST EXCLUSIVELY USED FOR WORKING POWER IMPACT FUND PRE-DEVELOPMENT AND CONSTRUCTION LOANS, WITH INTEREST PAYMENTS GOING DIRECT TO WORKING POWER IMPACT FUND I LLC. THIS ENABLED THE COMPANY TO MEET ITS INTEREST OBLIGATIONS TO ITS PRI LENDERS IN FY 2023. ADDITIONALLY, IT INCREASED ITS PROJECT LOANS FROM 3 IN FY2022 TO 4 IN FY2023. THESE INVESTMENTS HAVE BEEN CRUCIAL FOR EXPANDING ITS COMMUNITY SOLAR PROJECT PIPELINE, WHICH IT CO-OWNS WITH LOCAL COMMUNITY PARTNERS. BY DEPLOYING RESOURCES INTO COMMUNITY-OWNED CLEAN ENERGY ASSETS, IT IS FOSTERING WEALTH AND POWER IN THE COMMUNITY AND SUPPORTING A JUST TRANSITION TOWARD SUSTAINABLE ENERGY SOLUTIONS.</PurposeOfGrantTxt>
+        <ExpendedByGranteeAmt>548625</ExpendedByGranteeAmt>
+        <AnyDiversionByGranteeTxt>TO THE KNOWLEDGE OF THE FOUNDATION NO FUNDS HAVE BEEN DIVERTED</AnyDiversionByGranteeTxt>
+        <DatesOfReportsByGranteeTxt>11/1/24</DatesOfReportsByGranteeTxt>
+        <ResultsOfVerificationTxt>THE ISENBERG FAMILY CHARITABLE FOUNDATION HAS NO REASON TO DOUBT THE ACCURACY OR RELIABILITY OF THE REPORT; THEREFORE, NO INDEPENDANT VERIFICATION OF THE REPORT WAS MADE.</ResultsOfVerificationTxt>
+      </ExpenditureResponsibilityGrp>
+      <ExpenditureResponsibilityGrp>
+        <BusinessName>
+          <BusinessNameLine1Txt>THIRD MAN LTD</BusinessNameLine1Txt>
+        </BusinessName>
+        <ForeignAddress>
+          <AddressLine1Txt>PLOT 309 KISEZ UJIJI</AddressLine1Txt>
+          <CityNm>KIGOMA</CityNm>
+          <CountryCd>TZ</CountryCd>
+        </ForeignAddress>
+        <GrantDt>2023-09-19</GrantDt>
+        <GrantAmt>750000</GrantAmt>
+        <PurposeOfGrantTxt>THE FUNDS WERE ALMOST EXCLUSIVELY USED FOR INVENTORY PURCHASING, WITH PAYMENTS GOING DIRECT TO TRADITIONAL BEEKEEPERS. DURING THE YEAR THE COMPANY EXPANDED TO WORKING WITH 3,500 BEEKEEPERS WITH 50 COLLECTION CENTERS ACROSS WESTERN TANZANIA. THE FUNDS WERE INSTRUMENTAL IN PURCHASING FROM BEEKEEPERS AND INCREASING THE BREADTH OF WORK WITH A STRONGER FOCUS ON BIODIVERSITY. THESE FUNDS HAVE BEEN KEY IN THE GROWTH OF THE COMPANY AND THE PROFESSIONALISATION OF THE BEEKEEPING SECTOR IN TANZANIA.</PurposeOfGrantTxt>
+        <ExpendedByGranteeAmt>750000</ExpendedByGranteeAmt>
+        <AnyDiversionByGranteeTxt>TO THE KNOWLEDGE OF THE FOUNDATION NO FUNDS HAVE BEEN DIVERTED</AnyDiversionByGranteeTxt>
+        <DatesOfReportsByGranteeTxt>10/23/24</DatesOfReportsByGranteeTxt>
+        <ResultsOfVerificationTxt>THE ISENBERG FAMILY CHARITABLE FOUNDATION HAS NO REASON TO DOUBT THE ACCURACY OR RELIABILITY OF THE REPORT; THEREFORE, NO INDEPENDANT VERIFICATION OF THE REPORT WAS MADE.</ResultsOfVerificationTxt>
+      </ExpenditureResponsibilityGrp>
+      <ExpenditureResponsibilityGrp>
+        <BusinessName>
+          <BusinessNameLine1Txt>60 DECIBELS INC</BusinessNameLine1Txt>
+        </BusinessName>
+        <USAddress>
+          <AddressLine1Txt>205 EAST 42ND STREET</AddressLine1Txt>
+          <CityNm>NEW YORK</CityNm>
+          <StateAbbreviationCd>NY</StateAbbreviationCd>
+          <ZIPCd>10017</ZIPCd>
+        </USAddress>
+        <GrantDt>2023-10-24</GrantDt>
+        <GrantAmt>50000</GrantAmt>
+        <PurposeOfGrantTxt>THE PURPOSE OF THIS GRANT IS TO PROVIDE FINANCIAL INCLUSION ASSESSMENTS, USING THE 60 DECIBELS MFI INDEX, FOR A CRITICAL MASS OF QUALIFYING MICROFINANCE INSTITUTIONS IN THE ANDEAN REGION THAT WOULD OTHERWISE BE UNABLE TO ACCESS HIGH-QUALITY, IMPACT PERFORMANCE DATA; AND TO HELP ENSURE THAT THE 2022-23 MICROFINANCE INDEX HAS SUFFICIENT GEOGRAPHIC CONCENTRATION IN THIS REGION TO BE ABLE TO DRAW RELEVANT, LOCAL SOCIAL PERFORMANCE INSIGHTS.</PurposeOfGrantTxt>
+        <ExpendedByGranteeAmt>50000</ExpendedByGranteeAmt>
+        <AnyDiversionByGranteeTxt>TO THE KNOWLEDGE OF THE FOUNDATION NO FUNDS HAVE BEEN DIVERTED</AnyDiversionByGranteeTxt>
+        <DatesOfReportsByGranteeTxt>4/25/25</DatesOfReportsByGranteeTxt>
+        <ResultsOfVerificationTxt>THE ISENBERG FAMILY CHARITABLE FOUNDATION HAS NO REASON TO DOUBT THE ACCURACY OR RELIABILITY OF THE REPORT; THEREFORE, NO INDEPENDANT VERIFICATION OF THE REPORT WAS MADE.</ResultsOfVerificationTxt>
+      </ExpenditureResponsibilityGrp>
+    </ExpenditureResponsibilityStmt>
+    <InvestmentsCorpBondsSchedule documentId="RetDoc2044400001">
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>SCHWAB TIAA CREF</BondNm>
+        <EOYBookValueAmt>25983722</EOYBookValueAmt>
+        <EOYFMVAmt>22816780</EOYFMVAmt>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>GS CORPFIHYESG</BondNm>
+        <EOYBookValueAmt>11540128</EOYBookValueAmt>
+        <EOYFMVAmt>10977794</EOYFMVAmt>
+      </InvestmentsCorporateBondsGrp>
+    </InvestmentsCorpBondsSchedule>
+    <InvestmentsCorpStockSchedule documentId="RetDoc2018900001">
+      <InvestmentsCorporateStockGrp>
+        <StockNm>GS PASSIVESP500</StockNm>
+        <EOYBookValueAmt>50246271</EOYBookValueAmt>
+        <EOYFMVAmt>53772087</EOYFMVAmt>
+      </InvestmentsCorporateStockGrp>
+      <InvestmentsCorporateStockGrp>
+        <StockNm>BOSTON COMMON - US BANK</StockNm>
+        <EOYBookValueAmt>5816744</EOYBookValueAmt>
+        <EOYFMVAmt>9174907</EOYFMVAmt>
+      </InvestmentsCorporateStockGrp>
+      <InvestmentsCorporateStockGrp>
+        <StockNm>GS PASSIVESPINTL</StockNm>
+        <EOYBookValueAmt>8937294</EOYBookValueAmt>
+        <EOYFMVAmt>9011542</EOYFMVAmt>
+      </InvestmentsCorporateStockGrp>
+      <InvestmentsCorporateStockGrp>
+        <StockNm>GS GOVCORPFIESG</StockNm>
+        <EOYBookValueAmt>34796053</EOYBookValueAmt>
+        <EOYFMVAmt>33185936</EOYFMVAmt>
+      </InvestmentsCorporateStockGrp>
+      <InvestmentsCorporateStockGrp>
+        <StockNm>SCHWAB DODGE COX</StockNm>
+        <EOYBookValueAmt>17057083</EOYBookValueAmt>
+        <EOYFMVAmt>15621053</EOYFMVAmt>
+      </InvestmentsCorporateStockGrp>
+      <InvestmentsCorporateStockGrp>
+        <StockNm>GS CORPSDFIESG</StockNm>
+        <EOYBookValueAmt>20594722</EOYBookValueAmt>
+        <EOYFMVAmt>20599158</EOYFMVAmt>
+      </InvestmentsCorporateStockGrp>
+      <InvestmentsCorporateStockGrp>
+        <StockNm>SCHWAB VANGUARD ST</StockNm>
+        <EOYBookValueAmt>1692041</EOYBookValueAmt>
+        <EOYFMVAmt>1624852</EOYFMVAmt>
+      </InvestmentsCorporateStockGrp>
+    </InvestmentsCorpStockSchedule>
+    <InvestmentsOtherSchedule2 documentId="RetDoc2018100001">
+      <InvestmentsOtherGrp>
+        <CategoryOrItemTxt>WATER EQUITY GLOBAL ACCESS OFFSHORE FUND</CategoryOrItemTxt>
+        <ListedAtCostOrFMVCd>AT COST</ListedAtCostOrFMVCd>
+        <BookValueAmt>2173740</BookValueAmt>
+        <EOYFMVAmt>1920883</EOYFMVAmt>
+      </InvestmentsOtherGrp>
+      <InvestmentsOtherGrp>
+        <CategoryOrItemTxt>ROSE AFFORDABLE HOUSING IV, LP</CategoryOrItemTxt>
+        <ListedAtCostOrFMVCd>AT COST</ListedAtCostOrFMVCd>
+        <BookValueAmt>2428710</BookValueAmt>
+        <EOYFMVAmt>5773856</EOYFMVAmt>
+      </InvestmentsOtherGrp>
+      <InvestmentsOtherGrp>
+        <CategoryOrItemTxt>HEARTWOOD REIT</CategoryOrItemTxt>
+        <ListedAtCostOrFMVCd>AT COST</ListedAtCostOrFMVCd>
+        <BookValueAmt>93380</BookValueAmt>
+        <EOYFMVAmt>212735</EOYFMVAmt>
+      </InvestmentsOtherGrp>
+      <InvestmentsOtherGrp>
+        <CategoryOrItemTxt>OMNIVORE III</CategoryOrItemTxt>
+        <ListedAtCostOrFMVCd>AT COST</ListedAtCostOrFMVCd>
+        <BookValueAmt>191671</BookValueAmt>
+        <EOYFMVAmt>191127</EOYFMVAmt>
+      </InvestmentsOtherGrp>
+      <InvestmentsOtherGrp>
+        <CategoryOrItemTxt>MICRO VEST SHORT DURATION OFFSHORE FUND (PFIC)</CategoryOrItemTxt>
+        <ListedAtCostOrFMVCd>AT COST</ListedAtCostOrFMVCd>
+        <BookValueAmt>2500000</BookValueAmt>
+        <EOYFMVAmt>3063645</EOYFMVAmt>
+      </InvestmentsOtherGrp>
+      <InvestmentsOtherGrp>
+        <CategoryOrItemTxt>IMPERATIVE FUND</CategoryOrItemTxt>
+        <ListedAtCostOrFMVCd>AT COST</ListedAtCostOrFMVCd>
+        <BookValueAmt>166870</BookValueAmt>
+        <EOYFMVAmt>161474</EOYFMVAmt>
+      </InvestmentsOtherGrp>
+      <InvestmentsOtherGrp>
+        <CategoryOrItemTxt>LAFAYETTE SQUARE</CategoryOrItemTxt>
+        <ListedAtCostOrFMVCd>AT COST</ListedAtCostOrFMVCd>
+        <BookValueAmt>4237112</BookValueAmt>
+        <EOYFMVAmt>4248611</EOYFMVAmt>
+      </InvestmentsOtherGrp>
+      <InvestmentsOtherGrp>
+        <CategoryOrItemTxt>HURUMA FUND SCA SICAR EUSEF</CategoryOrItemTxt>
+        <ListedAtCostOrFMVCd>AT COST</ListedAtCostOrFMVCd>
+        <BookValueAmt>597173</BookValueAmt>
+        <EOYFMVAmt>676218</EOYFMVAmt>
+      </InvestmentsOtherGrp>
+      <InvestmentsOtherGrp>
+        <CategoryOrItemTxt>TRILINC GLOBAL SUSTAINABLE INCOME FUND LLC</CategoryOrItemTxt>
+        <ListedAtCostOrFMVCd>AT COST</ListedAtCostOrFMVCd>
+        <BookValueAmt>3561759</BookValueAmt>
+        <EOYFMVAmt>3413511</EOYFMVAmt>
+      </InvestmentsOtherGrp>
+      <InvestmentsOtherGrp>
+        <CategoryOrItemTxt>WISH FUND</CategoryOrItemTxt>
+        <ListedAtCostOrFMVCd>AT COST</ListedAtCostOrFMVCd>
+        <BookValueAmt>576133</BookValueAmt>
+        <EOYFMVAmt>568087</EOYFMVAmt>
+      </InvestmentsOtherGrp>
+      <InvestmentsOtherGrp>
+        <CategoryOrItemTxt>SOCIALALPHA INV FND US LP (ALPHAMUNDI)</CategoryOrItemTxt>
+        <ListedAtCostOrFMVCd>AT COST</ListedAtCostOrFMVCd>
+        <BookValueAmt>940856</BookValueAmt>
+        <EOYFMVAmt>639409</EOYFMVAmt>
+      </InvestmentsOtherGrp>
+      <InvestmentsOtherGrp>
+        <CategoryOrItemTxt>MCE SOCIAL CAPITAL</CategoryOrItemTxt>
+        <ListedAtCostOrFMVCd>AT COST</ListedAtCostOrFMVCd>
+        <BookValueAmt>5000000</BookValueAmt>
+        <EOYFMVAmt>5000000</EOYFMVAmt>
+      </InvestmentsOtherGrp>
+      <InvestmentsOtherGrp>
+        <CategoryOrItemTxt>WATER EQUITY INV FUND 3 LLC (F.K.A. WATERCREDIT INV FUND 3 LLC)</CategoryOrItemTxt>
+        <ListedAtCostOrFMVCd>AT COST</ListedAtCostOrFMVCd>
+        <BookValueAmt>3568852</BookValueAmt>
+        <EOYFMVAmt>3557831</EOYFMVAmt>
+      </InvestmentsOtherGrp>
+      <InvestmentsOtherGrp>
+        <CategoryOrItemTxt>LENDABLE OPPORTUNITIES FUND B</CategoryOrItemTxt>
+        <ListedAtCostOrFMVCd>AT COST</ListedAtCostOrFMVCd>
+        <BookValueAmt>5000000</BookValueAmt>
+        <EOYFMVAmt>5000000</EOYFMVAmt>
+      </InvestmentsOtherGrp>
+      <InvestmentsOtherGrp>
+        <CategoryOrItemTxt>ACCT FUND</CategoryOrItemTxt>
+        <ListedAtCostOrFMVCd>AT COST</ListedAtCostOrFMVCd>
+        <BookValueAmt>174700</BookValueAmt>
+        <EOYFMVAmt>158496</EOYFMVAmt>
+      </InvestmentsOtherGrp>
+      <InvestmentsOtherGrp>
+        <CategoryOrItemTxt>GSSG SOLAR JAPAN PARTNERS, LP</CategoryOrItemTxt>
+        <ListedAtCostOrFMVCd>AT COST</ListedAtCostOrFMVCd>
+        <BookValueAmt>223782</BookValueAmt>
+        <EOYFMVAmt>784000</EOYFMVAmt>
+      </InvestmentsOtherGrp>
+      <InvestmentsOtherGrp>
+        <CategoryOrItemTxt>GOODWELL MICROFINANCE DEVELOPMENT CO IV BV</CategoryOrItemTxt>
+        <ListedAtCostOrFMVCd>AT COST</ListedAtCostOrFMVCd>
+        <BookValueAmt>1405452</BookValueAmt>
+        <EOYFMVAmt>1117948</EOYFMVAmt>
+      </InvestmentsOtherGrp>
+      <InvestmentsOtherGrp>
+        <CategoryOrItemTxt>GENERATION I M GLOBAL EQUITY (PFIC)</CategoryOrItemTxt>
+        <ListedAtCostOrFMVCd>AT COST</ListedAtCostOrFMVCd>
+        <BookValueAmt>7000000</BookValueAmt>
+        <EOYFMVAmt>19513549</EOYFMVAmt>
+      </InvestmentsOtherGrp>
+      <InvestmentsOtherGrp>
+        <CategoryOrItemTxt>GENERATE CAPITAL INC. - SERIES A</CategoryOrItemTxt>
+        <ListedAtCostOrFMVCd>AT COST</ListedAtCostOrFMVCd>
+        <BookValueAmt>1456772</BookValueAmt>
+        <EOYFMVAmt>0</EOYFMVAmt>
+      </InvestmentsOtherGrp>
+      <InvestmentsOtherGrp>
+        <CategoryOrItemTxt>GENERATE CAPITAL - SHARES</CategoryOrItemTxt>
+        <ListedAtCostOrFMVCd>AT COST</ListedAtCostOrFMVCd>
+        <BookValueAmt>963912</BookValueAmt>
+        <EOYFMVAmt>2250000</EOYFMVAmt>
+      </InvestmentsOtherGrp>
+      <InvestmentsOtherGrp>
+        <CategoryOrItemTxt>FORMATION 8 PARTNERS FUND II, LP</CategoryOrItemTxt>
+        <ListedAtCostOrFMVCd>AT COST</ListedAtCostOrFMVCd>
+        <BookValueAmt>524301</BookValueAmt>
+        <EOYFMVAmt>2200941</EOYFMVAmt>
+      </InvestmentsOtherGrp>
+      <InvestmentsOtherGrp>
+        <CategoryOrItemTxt>ELEVAR INDIA V LP</CategoryOrItemTxt>
+        <ListedAtCostOrFMVCd>AT COST</ListedAtCostOrFMVCd>
+        <BookValueAmt>743317</BookValueAmt>
+        <EOYFMVAmt>951790</EOYFMVAmt>
+      </InvestmentsOtherGrp>
+      <InvestmentsOtherGrp>
+        <CategoryOrItemTxt>ELEVAR EQUITY IV LP</CategoryOrItemTxt>
+        <ListedAtCostOrFMVCd>AT COST</ListedAtCostOrFMVCd>
+        <BookValueAmt>1712690</BookValueAmt>
+        <EOYFMVAmt>5399057</EOYFMVAmt>
+      </InvestmentsOtherGrp>
+      <InvestmentsOtherGrp>
+        <CategoryOrItemTxt>COOPERATIVE ENERGY FUTURES</CategoryOrItemTxt>
+        <ListedAtCostOrFMVCd>AT COST</ListedAtCostOrFMVCd>
+        <BookValueAmt>450000</BookValueAmt>
+        <EOYFMVAmt>450000</EOYFMVAmt>
+      </InvestmentsOtherGrp>
+      <InvestmentsOtherGrp>
+        <CategoryOrItemTxt>CLARMONDIAL FOOD SECURITIES FND</CategoryOrItemTxt>
+        <ListedAtCostOrFMVCd>AT COST</ListedAtCostOrFMVCd>
+        <BookValueAmt>500000</BookValueAmt>
+        <EOYFMVAmt>517529</EOYFMVAmt>
+      </InvestmentsOtherGrp>
+      <InvestmentsOtherGrp>
+        <CategoryOrItemTxt>CARBON EFFICIENT BROAD MARKET FUND</CategoryOrItemTxt>
+        <ListedAtCostOrFMVCd>AT COST</ListedAtCostOrFMVCd>
+        <BookValueAmt>4453708</BookValueAmt>
+        <EOYFMVAmt>10380784</EOYFMVAmt>
+      </InvestmentsOtherGrp>
+      <InvestmentsOtherGrp>
+        <CategoryOrItemTxt>BRIDGES PROPERTY ALTERNATIVES FUND V</CategoryOrItemTxt>
+        <ListedAtCostOrFMVCd>AT COST</ListedAtCostOrFMVCd>
+        <BookValueAmt>1614706</BookValueAmt>
+        <EOYFMVAmt>1308142</EOYFMVAmt>
+      </InvestmentsOtherGrp>
+      <InvestmentsOtherGrp>
+        <CategoryOrItemTxt>BRIDGES PROPERTY ALT IV</CategoryOrItemTxt>
+        <ListedAtCostOrFMVCd>AT COST</ListedAtCostOrFMVCd>
+        <BookValueAmt>2721957</BookValueAmt>
+        <EOYFMVAmt>2129552</EOYFMVAmt>
+      </InvestmentsOtherGrp>
+      <InvestmentsOtherGrp>
+        <CategoryOrItemTxt>BLUEEARTH IMPACT CREDIT STRATEGIES (F.K.A. PG IMPACT CREDIT STRATEGIES)</CategoryOrItemTxt>
+        <ListedAtCostOrFMVCd>AT COST</ListedAtCostOrFMVCd>
+        <BookValueAmt>1038080</BookValueAmt>
+        <EOYFMVAmt>690562</EOYFMVAmt>
+      </InvestmentsOtherGrp>
+      <InvestmentsOtherGrp>
+        <CategoryOrItemTxt>BLUE ORCHARD - IIF - EQUITY SUB-FUND</CategoryOrItemTxt>
+        <ListedAtCostOrFMVCd>AT COST</ListedAtCostOrFMVCd>
+        <BookValueAmt>1415683</BookValueAmt>
+        <EOYFMVAmt>1355917</EOYFMVAmt>
+      </InvestmentsOtherGrp>
+      <InvestmentsOtherGrp>
+        <CategoryOrItemTxt>BAIN CAPITAL DOUBLE IMPACT FUND, LP</CategoryOrItemTxt>
+        <ListedAtCostOrFMVCd>AT COST</ListedAtCostOrFMVCd>
+        <BookValueAmt>347743</BookValueAmt>
+        <EOYFMVAmt>501544</EOYFMVAmt>
+      </InvestmentsOtherGrp>
+      <InvestmentsOtherGrp>
+        <CategoryOrItemTxt>ASIA ENVIRONMENTAL PARTNERS II OFFSHORE (PFIC)</CategoryOrItemTxt>
+        <ListedAtCostOrFMVCd>AT COST</ListedAtCostOrFMVCd>
+        <BookValueAmt>972708</BookValueAmt>
+        <EOYFMVAmt>693925</EOYFMVAmt>
+      </InvestmentsOtherGrp>
+      <InvestmentsOtherGrp>
+        <CategoryOrItemTxt>WOMENS LIVELIHOODS BOND V</CategoryOrItemTxt>
+        <ListedAtCostOrFMVCd>AT COST</ListedAtCostOrFMVCd>
+        <BookValueAmt>2000000</BookValueAmt>
+        <EOYFMVAmt>2000000</EOYFMVAmt>
+      </InvestmentsOtherGrp>
+      <InvestmentsOtherGrp>
+        <CategoryOrItemTxt>ROSE AFFORDABLE HOUSING FUND V</CategoryOrItemTxt>
+        <ListedAtCostOrFMVCd>AT COST</ListedAtCostOrFMVCd>
+        <BookValueAmt>4976422</BookValueAmt>
+        <EOYFMVAmt>4415457</EOYFMVAmt>
+      </InvestmentsOtherGrp>
+      <InvestmentsOtherGrp>
+        <CategoryOrItemTxt>WOMENS LIVLIHOOD BOND IV</CategoryOrItemTxt>
+        <ListedAtCostOrFMVCd>AT COST</ListedAtCostOrFMVCd>
+        <BookValueAmt>1502250</BookValueAmt>
+        <EOYFMVAmt>1500000</EOYFMVAmt>
+      </InvestmentsOtherGrp>
+    </InvestmentsOtherSchedule2>
+    <LegalFeesSchedule documentId="RetDoc2002100001">
+      <LegalFeesGrp>
+        <CategoryTxt>LEGAL FEES</CategoryTxt>
+        <LegalFeesAmt>28653</LegalFeesAmt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>28653</DisbursementsCharitablePrpsAmt>
+      </LegalFeesGrp>
+    </LegalFeesSchedule>
+    <OtherAssetsSchedule documentId="RetDoc2046600001">
+      <OtherAssetsScheduleGrp>
+        <Desc>ADM CAPITAL ACLF</Desc>
+        <BOYBookValueAmt>28423111</BOYBookValueAmt>
+        <EOYBookValueAmt>26652</EOYBookValueAmt>
+        <EOYFMVAmt>0</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>ALL ACROSS AFRICA - LOAN</Desc>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>ANDES PLUS FUND I LP</Desc>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>APOLLO AGRICULTURE 1Q22 - LOAN</Desc>
+        <EOYBookValueAmt>750000</EOYBookValueAmt>
+        <EOYFMVAmt>750000</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>APOLLO AGRICULTURE CONV NOTE 1Q18</Desc>
+        <EOYBookValueAmt>75000</EOYBookValueAmt>
+        <EOYFMVAmt>75000</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>BEF-NE 4Q23</Desc>
+        <EOYBookValueAmt>504878</EOYBookValueAmt>
+        <EOYFMVAmt>504878</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>BLACK VISION FUND LLC - LOAN</Desc>
+        <EOYBookValueAmt>1533474</EOYBookValueAmt>
+        <EOYFMVAmt>1533474</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>BRIDGES TO PROSPERITY INC - 2023 LOAN</Desc>
+        <EOYBookValueAmt>1000000</EOYBookValueAmt>
+        <EOYFMVAmt>1000000</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>CAPRIA FUND LLC</Desc>
+        <EOYBookValueAmt>202417</EOYBookValueAmt>
+        <EOYFMVAmt>287583</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>CARE ACCESS REAL ESTATE</Desc>
+        <EOYBookValueAmt>1371000</EOYBookValueAmt>
+        <EOYFMVAmt>1371000</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>CHANCEN IFCF-PRI 2Q23</Desc>
+        <EOYBookValueAmt>289261</EOYBookValueAmt>
+        <EOYFMVAmt>289261</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>COMMUNITY OUTCOMES FUND LP</Desc>
+        <EOYBookValueAmt>182486</EOYBookValueAmt>
+        <EOYFMVAmt>197864</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>COMPLETE FARMER TECHNOLOGIES INC</Desc>
+        <EOYBookValueAmt>50000</EOYBookValueAmt>
+        <EOYFMVAmt>50000</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>DIRT CAPITAL/PLF - LOAN</Desc>
+        <EOYBookValueAmt>250000</EOYBookValueAmt>
+        <EOYFMVAmt>250000</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>EAST AFRICA FRUITS - LOAN</Desc>
+        <EOYBookValueAmt>333333</EOYBookValueAmt>
+        <EOYFMVAmt>333333</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>FARMERLINE LTD - LOAN</Desc>
+        <EOYBookValueAmt>30</EOYBookValueAmt>
+        <EOYFMVAmt>0</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>FAHE 4Q23</Desc>
+        <EOYBookValueAmt>2000000</EOYBookValueAmt>
+        <EOYFMVAmt>2000000</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>FATEN (KIVA)</Desc>
+        <EOYBookValueAmt>2000000</EOYBookValueAmt>
+        <EOYFMVAmt>2000000</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>FWWB INDIA - LOAN</Desc>
+        <EOYBookValueAmt>273844</EOYBookValueAmt>
+        <EOYFMVAmt>273844</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>GLOBAL PARTNERSHIPS IFGF 3Q21 - LOAN</Desc>
+        <EOYBookValueAmt>3000000</EOYBookValueAmt>
+        <EOYFMVAmt>3000000</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>GNA WC 4Q23 LOAN</Desc>
+        <EOYBookValueAmt>1075000</EOYBookValueAmt>
+        <EOYFMVAmt>1075000</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>GOT IT LTD - LOAN</Desc>
+        <EOYBookValueAmt>313084</EOYBookValueAmt>
+        <EOYFMVAmt>31308</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>IPDEV II CELL, LTD.</Desc>
+        <EOYBookValueAmt>387058</EOYBookValueAmt>
+        <EOYFMVAmt>249969</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>IUNGO CAPITAL BV - LOAN</Desc>
+        <EOYBookValueAmt>1500000</EOYBookValueAmt>
+        <EOYFMVAmt>1500000</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>JAZA ENERGY INC - LOAN</Desc>
+        <EOYBookValueAmt>40</EOYBookValueAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>KASHA 2022 - LOAN</Desc>
+        <EOYBookValueAmt>1000000</EOYBookValueAmt>
+        <EOYFMVAmt>1000000</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>KEY FUND</Desc>
+        <EOYBookValueAmt>367728</EOYBookValueAmt>
+        <EOYFMVAmt>367728</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>KIVA REFUGEE FUND LLC</Desc>
+        <EOYBookValueAmt>807634</EOYBookValueAmt>
+        <EOYFMVAmt>830712</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>KOMAZA GROUP INC</Desc>
+        <EOYBookValueAmt>500000</EOYBookValueAmt>
+        <EOYFMVAmt>0</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>KOMAZA GROUP INC - CONV NOTE</Desc>
+        <EOYBookValueAmt>250000</EOYBookValueAmt>
+        <EOYFMVAmt>0</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>KOMAZA BRIDGE 2Q23</Desc>
+        <EOYBookValueAmt>200000</EOYBookValueAmt>
+        <EOYFMVAmt>0</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>KORET ISRAEL ECONOMIC DEVELOPMENT FUNDS - LOAN</Desc>
+        <EOYBookValueAmt>1000000</EOYBookValueAmt>
+        <EOYFMVAmt>1000000</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>KULI KULI INC - LOAN</Desc>
+        <EOYBookValueAmt>800000</EOYBookValueAmt>
+        <EOYFMVAmt>800000</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>MCE MESA FUND</Desc>
+        <EOYBookValueAmt>2500000</EOYBookValueAmt>
+        <EOYFMVAmt>2500000</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>MELOY FUND LP</Desc>
+        <EOYBookValueAmt>728076</EOYBookValueAmt>
+        <EOYFMVAmt>1017677</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>MISSIO INVEST - LOAN</Desc>
+        <EOYBookValueAmt>500000</EOYBookValueAmt>
+        <EOYFMVAmt>500000</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>MOUNTAIN HAZELNUTS GROUP LTD. - LOAN</Desc>
+        <EOYBookValueAmt>3000000</EOYBookValueAmt>
+        <EOYFMVAmt>0</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>MYAGRO 3Q23</Desc>
+        <EOYBookValueAmt>1000000</EOYBookValueAmt>
+        <EOYFMVAmt>1000000</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>NATURES BOUNTY HEALTH PRDTS(REELFRUITS)</Desc>
+        <EOYBookValueAmt>50000</EOYBookValueAmt>
+        <EOYFMVAmt>50000</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>ORIGEN FRESH EPZ LTD - LOAN</Desc>
+        <EOYBookValueAmt>750000</EOYBookValueAmt>
+        <EOYFMVAmt>750000</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>PASARMIKRO</Desc>
+        <EOYBookValueAmt>750000</EOYBookValueAmt>
+        <EOYFMVAmt>750000</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>RCAC - LOAN #2</Desc>
+        <EOYBookValueAmt>50000</EOYBookValueAmt>
+        <EOYFMVAmt>50000</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>SALAD MONEY</Desc>
+        <EOYBookValueAmt>1453860</EOYBookValueAmt>
+        <EOYFMVAmt>1453860</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>SARURA COMMODITIES LTD - LOAN</Desc>
+        <EOYBookValueAmt>893929</EOYBookValueAmt>
+        <EOYFMVAmt>893929</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>SASH II</Desc>
+        <EOYBookValueAmt>9400</EOYBookValueAmt>
+        <EOYFMVAmt>50769</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>SIMA ANGAZA DIST FIN FND BV - LOAN</Desc>
+        <EOYBookValueAmt>222464</EOYBookValueAmt>
+        <EOYFMVAmt>222464</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>SOAR - CLASS A SENIOR NOTE - LOAN</Desc>
+        <EOYBookValueAmt>917373</EOYBookValueAmt>
+        <EOYFMVAmt>839396</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>SOAR - CLASS B - SUB NOTE - LOAN</Desc>
+        <EOYBookValueAmt>750000</EOYBookValueAmt>
+        <EOYFMVAmt>0</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>SPARK+</Desc>
+        <EOYBookValueAmt>816000</EOYBookValueAmt>
+        <EOYFMVAmt>816000</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>SUNFUNDER GIGATON FUND</Desc>
+        <EOYBookValueAmt>5000000</EOYBookValueAmt>
+        <EOYFMVAmt>5000000</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>TEROVA AFRICA 2022 - LOAN</Desc>
+        <EOYBookValueAmt>186916</EOYBookValueAmt>
+        <EOYFMVAmt>112150</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>THE FARMFRESH CO. LTD. - LOAN</Desc>
+        <EOYBookValueAmt>363750</EOYBookValueAmt>
+        <EOYFMVAmt>18188</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>THIRD MAN LTD - 3Q23</Desc>
+        <EOYBookValueAmt>500001</EOYBookValueAmt>
+        <EOYFMVAmt>500000</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>UNCOMMON CACAO</Desc>
+        <EOYBookValueAmt>1000000</EOYBookValueAmt>
+        <EOYFMVAmt>1000000</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>VISION FUND INTERNATIONAL</Desc>
+        <EOYBookValueAmt>2500000</EOYBookValueAmt>
+        <EOYFMVAmt>2500000</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>VILCAP INVESTMENTS LLC</Desc>
+        <EOYBookValueAmt>213860</EOYBookValueAmt>
+        <EOYFMVAmt>207716</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>WEST AFRICA RICE CO LTD. - LOAN</Desc>
+        <EOYBookValueAmt>85000</EOYBookValueAmt>
+        <EOYFMVAmt>84000</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>WORKING POWER IMPACT FUND - LOAN</Desc>
+        <EOYBookValueAmt>750000</EOYBookValueAmt>
+        <EOYFMVAmt>750000</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+    </OtherAssetsSchedule>
+    <OtherDecreasesSchedule documentId="RetDoc2049800001">
+      <OtherDecreasesDetail>
+        <Desc>OTHER BASIS ADJUSTMENT</Desc>
+        <Amt>20</Amt>
+      </OtherDecreasesDetail>
+    </OtherDecreasesSchedule>
+    <OtherExpensesSchedule documentId="RetDoc2003200001">
+      <OtherExpensesScheduleGrp>
+        <Desc>DEDUCTIONS RELATED TO PORTFOLIO INCOME FROM PASS-THROUGHS</Desc>
+        <RevenueAndExpensesPerBooksAmt>0</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>715796</NetInvestmentIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>0</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>FOREIGN FEES</Desc>
+        <RevenueAndExpensesPerBooksAmt>5664</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>5664</NetInvestmentIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>0</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>DUES/SUBSCRIPTIONS</Desc>
+        <RevenueAndExpensesPerBooksAmt>11100</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>11100</NetInvestmentIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>0</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+    </OtherExpensesSchedule>
+    <OtherIncomeSchedule2 documentId="RetDoc2001500001">
+      <OtherIncomeDetail>
+        <Desc>OTHER PORTFOLIO INCOME</Desc>
+        <RevenueAndExpensesPerBooksAmt>157849</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>157849</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>157849</AdjustedNetIncomeAmt>
+      </OtherIncomeDetail>
+      <OtherIncomeDetail>
+        <Desc>PARTNERSHIP INCOME</Desc>
+        <RevenueAndExpensesPerBooksAmt>0</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>1269677</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+      </OtherIncomeDetail>
+      <OtherIncomeDetail>
+        <Desc>INTEREST FROM PROGRAM RELATED INVESTMENTS</Desc>
+        <RevenueAndExpensesPerBooksAmt>1377451</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>1377451</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>1377451</AdjustedNetIncomeAmt>
+      </OtherIncomeDetail>
+      <OtherIncomeDetail>
+        <Desc>NON DIVIDEND DISTRIBUTION</Desc>
+        <RevenueAndExpensesPerBooksAmt>5022</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>5022</AdjustedNetIncomeAmt>
+      </OtherIncomeDetail>
+    </OtherIncomeSchedule2>
+    <OtherIncreasesSchedule documentId="RetDoc2049700001">
+      <OtherIncreasesDetail>
+        <Desc>PRIOR PERIOD ADJUSTMENT</Desc>
+        <Amt>506524</Amt>
+      </OtherIncreasesDetail>
+      <OtherIncreasesDetail>
+        <Desc>REVERSE NEGATIVE BOOK BASIS OF INVESTMENTS</Desc>
+        <Amt>153</Amt>
+      </OtherIncreasesDetail>
+    </OtherIncreasesSchedule>
+    <OtherProfessionalFeesSchedule documentId="RetDoc2002300001">
+      <OtherProfessionalFeesDetail>
+        <CategoryTxt>INVESTMENT MANAGEMENT FEES</CategoryTxt>
+        <Amt>2473621</Amt>
+        <NetInvestmentIncomeAmt>2473621</NetInvestmentIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>0</DisbursementsCharitablePrpsAmt>
+      </OtherProfessionalFeesDetail>
+      <OtherProfessionalFeesDetail>
+        <CategoryTxt>CONSULTING FEES</CategoryTxt>
+        <Amt>5221</Amt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>5221</DisbursementsCharitablePrpsAmt>
+      </OtherProfessionalFeesDetail>
+    </OtherProfessionalFeesSchedule>
+    <TaxesSchedule documentId="RetDoc2002500001">
+      <TaxesDetail>
+        <CategoryTxt>FEDERAL TAXES PAID</CategoryTxt>
+        <Amt>12484</Amt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>0</DisbursementsCharitablePrpsAmt>
+      </TaxesDetail>
+      <TaxesDetail>
+        <CategoryTxt>FOREIGN TAXES PAID</CategoryTxt>
+        <Amt>142194</Amt>
+        <NetInvestmentIncomeAmt>142194</NetInvestmentIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>0</DisbursementsCharitablePrpsAmt>
+      </TaxesDetail>
+    </TaxesSchedule>
+  </ReturnData>
+</Return>

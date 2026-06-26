@@ -1,0 +1,3370 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Return xmlns="http://www.irs.gov/efile" xsi:schemaLocation="http://www.irs.gov/efile" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" returnVersion="2023v5.1">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2024-12-20T16:01:12-06:00</ReturnTs>
+    <TaxPeriodEndDt>2024-07-31</TaxPeriodEndDt>
+    <PreparerFirmGrp>
+      <PreparerFirmEIN>346565596</PreparerFirmEIN>
+      <PreparerFirmName>
+        <BusinessNameLine1Txt>ERNST &amp; YOUNG US LLP</BusinessNameLine1Txt>
+      </PreparerFirmName>
+      <PreparerUSAddress>
+        <AddressLine1Txt>99 WOOD AVE SOUTH</AddressLine1Txt>
+        <CityNm>ISELIN</CityNm>
+        <StateAbbreviationCd>NJ</StateAbbreviationCd>
+        <ZIPCd>08830</ZIPCd>
+      </PreparerUSAddress>
+    </PreparerFirmGrp>
+    <ReturnTypeCd>990PF</ReturnTypeCd>
+    <TaxPeriodBeginDt>2023-08-01</TaxPeriodBeginDt>
+    <Filer>
+      <EIN>731128665</EIN>
+      <BusinessName>
+        <BusinessNameLine1Txt>HARGROVE HUDSON CHARITABLE TRUST XXXXX8005</BusinessNameLine1Txt>
+      </BusinessName>
+      <BusinessNameControlTxt>HARG</BusinessNameControlTxt>
+      <PhoneNum>8004962583</PhoneNum>
+      <USAddress>
+        <AddressLine1Txt>10 S DEARBORN IL1-0111</AddressLine1Txt>
+        <CityNm>CHICAGO</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>60603</ZIPCd>
+      </USAddress>
+    </Filer>
+    <BusinessOfficerGrp>
+      <PersonNm>KRYSTAL ZEC</PersonNm>
+      <PersonTitleTxt>Vice President</PersonTitleTxt>
+      <PhoneNum>8004962583</PhoneNum>
+      <SignatureDt>2024-12-19</SignatureDt>
+      <DiscussWithPaidPreparerInd>true</DiscussWithPaidPreparerInd>
+    </BusinessOfficerGrp>
+    <IRSResponsiblePrtyInfoCurrInd>true</IRSResponsiblePrtyInfoCurrInd>
+    <PreparerPersonGrp>
+      <PreparerPersonNm>HEATHER A HAWES</PreparerPersonNm>
+      <PTIN>P01379658</PTIN>
+      <PhoneNum>7327679100</PhoneNum>
+      <PreparationDt>2024-12-19</PreparationDt>
+    </PreparerPersonGrp>
+    <TaxYr>2023</TaxYr>
+    <BuildTS>2024-10-15 13:58:12Z</BuildTS>
+  </ReturnHeader>
+  <ReturnData documentCnt="11">
+    <IRS990PF documentId="IRS990PF">
+      <Organization501c3ExemptPFInd>X</Organization501c3ExemptPFInd>
+      <FMVAssetsEOYAmt>86339435</FMVAssetsEOYAmt>
+      <AnalysisOfRevenueAndExpenses>
+        <ScheduleBNotRequiredInd>X</ScheduleBNotRequiredInd>
+        <DividendsRevAndExpnssAmt>1843604</DividendsRevAndExpnssAmt>
+        <DividendsNetInvstIncmAmt>1728459</DividendsNetInvstIncmAmt>
+        <GrossRentsRevAndExpnssAmt>0</GrossRentsRevAndExpnssAmt>
+        <GrossRentsNetInvstIncmAmt>0</GrossRentsNetInvstIncmAmt>
+        <GrossRentsAdjNetIncmAmt>0</GrossRentsAdjNetIncmAmt>
+        <NetRentalIncomeOrLossAmt>0</NetRentalIncomeOrLossAmt>
+        <NetGainSaleAstRevAndExpnssAmt>1357835</NetGainSaleAstRevAndExpnssAmt>
+        <GrossSalesPriceAmt>11806617</GrossSalesPriceAmt>
+        <CapGainNetIncmNetInvstIncmAmt>1357835</CapGainNetIncmNetInvstIncmAmt>
+        <NetSTCapitalGainAdjNetIncmAmt>0</NetSTCapitalGainAdjNetIncmAmt>
+        <OtherIncomeRevAndExpnssAmt referenceDocumentId="OtherIncomeSchedule2">1032444</OtherIncomeRevAndExpnssAmt>
+        <OtherIncomeNetInvstIncmAmt>1032444</OtherIncomeNetInvstIncmAmt>
+        <TotalRevAndExpnssAmt>4233883</TotalRevAndExpnssAmt>
+        <TotalNetInvstIncmAmt>4118738</TotalNetInvstIncmAmt>
+        <TotalAdjNetIncmAmt>0</TotalAdjNetIncmAmt>
+        <CompOfcrDirTrstRevAndExpnssAmt>342171</CompOfcrDirTrstRevAndExpnssAmt>
+        <CompOfcrDirTrstNetInvstIncmAmt>227075</CompOfcrDirTrstNetInvstIncmAmt>
+        <CompOfcrDirTrstDsbrsChrtblAmt>115096</CompOfcrDirTrstDsbrsChrtblAmt>
+        <OthEmplSlrsWgsNetInvstIncmAmt>0</OthEmplSlrsWgsNetInvstIncmAmt>
+        <OthEmplSlrsWgsAdjNetIncmAmt>0</OthEmplSlrsWgsAdjNetIncmAmt>
+        <OthEmplSlrsWgsDsbrsChrtblAmt>0</OthEmplSlrsWgsDsbrsChrtblAmt>
+        <PensionEmplBnftNetInvstIncmAmt>0</PensionEmplBnftNetInvstIncmAmt>
+        <PensionEmplBnftAdjNetIncmAmt>0</PensionEmplBnftAdjNetIncmAmt>
+        <LegalFeesDsbrsChrtblAmt>0</LegalFeesDsbrsChrtblAmt>
+        <OtherProfFeesRevAndExpnssAmt referenceDocumentId="OtherProfessionalFeesSchedule">54014</OtherProfFeesRevAndExpnssAmt>
+        <OtherProfFeesNetInvstIncmAmt>54014</OtherProfFeesNetInvstIncmAmt>
+        <OtherProfFeesDsbrsChrtblAmt>0</OtherProfFeesDsbrsChrtblAmt>
+        <InterestDsbrsChrtblAmt>0</InterestDsbrsChrtblAmt>
+        <TaxesRevAndExpnssAmt referenceDocumentId="TaxesSchedule">110777</TaxesRevAndExpnssAmt>
+        <TaxesNetInvstIncmAmt>41064</TaxesNetInvstIncmAmt>
+        <TaxesDsbrsChrtblAmt>0</TaxesDsbrsChrtblAmt>
+        <DeprecAndDpltnRevAndExpnssAmt>0</DeprecAndDpltnRevAndExpnssAmt>
+        <DeprecAndDpltnNetInvstIncmAmt>0</DeprecAndDpltnNetInvstIncmAmt>
+        <TravConfMeetingNetInvstIncmAmt>0</TravConfMeetingNetInvstIncmAmt>
+        <TravConfMeetingAdjNetIncmAmt>0</TravConfMeetingAdjNetIncmAmt>
+        <PrintingAndPubNetInvstIncmAmt>0</PrintingAndPubNetInvstIncmAmt>
+        <PrintingAndPubAdjNetIncmAmt>0</PrintingAndPubAdjNetIncmAmt>
+        <OtherExpensesRevAndExpnssAmt referenceDocumentId="OtherExpensesSchedule">138703</OtherExpensesRevAndExpnssAmt>
+        <OtherExpensesNetInvstIncmAmt>138703</OtherExpensesNetInvstIncmAmt>
+        <TotOprExpensesRevAndExpnssAmt>645665</TotOprExpensesRevAndExpnssAmt>
+        <TotOprExpensesNetInvstIncmAmt>460856</TotOprExpensesNetInvstIncmAmt>
+        <TotOprExpensesAdjNetIncmAmt>0</TotOprExpensesAdjNetIncmAmt>
+        <TotOprExpensesDsbrsChrtblAmt>115096</TotOprExpensesDsbrsChrtblAmt>
+        <ContriPaidRevAndExpnssAmt>3534317</ContriPaidRevAndExpnssAmt>
+        <ContriPaidDsbrsChrtblAmt>3534317</ContriPaidDsbrsChrtblAmt>
+        <TotalExpensesRevAndExpnssAmt>4179982</TotalExpensesRevAndExpnssAmt>
+        <TotalExpensesNetInvstIncmAmt>460856</TotalExpensesNetInvstIncmAmt>
+        <TotalExpensesAdjNetIncmAmt>0</TotalExpensesAdjNetIncmAmt>
+        <TotalExpensesDsbrsChrtblAmt>3649413</TotalExpensesDsbrsChrtblAmt>
+        <ExcessRevenueOverExpensesAmt>53901</ExcessRevenueOverExpensesAmt>
+        <NetInvestmentIncomeAmt>3657882</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+      </AnalysisOfRevenueAndExpenses>
+      <Form990PFBalanceSheetsGrp>
+        <CashBOYAmt>820101</CashBOYAmt>
+        <CashEOYAmt>1205014</CashEOYAmt>
+        <CashEOYFMVAmt>1205014</CashEOYFMVAmt>
+        <SavAndTempCashInvstBOYAmt>393967</SavAndTempCashInvstBOYAmt>
+        <SavAndTempCashInvstEOYAmt>899194</SavAndTempCashInvstEOYAmt>
+        <SavAndTempCashInvstEOYFMVAmt>899194</SavAndTempCashInvstEOYFMVAmt>
+        <AcctRcvblEOYAmt>0</AcctRcvblEOYAmt>
+        <AcctRcvblEOYFMVAmt>0</AcctRcvblEOYFMVAmt>
+        <OtherRcvblAllwncDbtflAcctAmt>0</OtherRcvblAllwncDbtflAcctAmt>
+        <CorporateStockBOYAmt>31521521</CorporateStockBOYAmt>
+        <CorporateStockEOYAmt referenceDocumentId="InvestmentsCorpStockSchedule">29573962</CorporateStockEOYAmt>
+        <CorporateStockEOYFMVAmt>45409912</CorporateStockEOYFMVAmt>
+        <CorporateBondsBOYAmt>26470702</CorporateBondsBOYAmt>
+        <CorporateBondsEOYAmt referenceDocumentId="InvestmentsCorpBondsSchedule">27893340</CorporateBondsEOYAmt>
+        <CorporateBondsEOYFMVAmt>26944718</CorporateBondsEOYFMVAmt>
+        <OtherInvestmentsBOYAmt>6085573</OtherInvestmentsBOYAmt>
+        <OtherInvestmentsEOYAmt referenceDocumentId="InvestmentsOtherSchedule2">5666484</OtherInvestmentsEOYAmt>
+        <OtherInvestmentsEOYFMVAmt>8825932</OtherInvestmentsEOYFMVAmt>
+        <OtherAssetsBOYAmt referenceDocumentId="OtherAssetsSchedule">12544</OtherAssetsBOYAmt>
+        <OtherAssetsEOYAmt referenceDocumentId="OtherAssetsSchedule">12197</OtherAssetsEOYAmt>
+        <OtherAssetsEOYFMVAmt referenceDocumentId="OtherAssetsSchedule">3054665</OtherAssetsEOYFMVAmt>
+        <TotalAssetsBOYAmt>65304408</TotalAssetsBOYAmt>
+        <TotalAssetsEOYAmt>65250191</TotalAssetsEOYAmt>
+        <TotalAssetsEOYFMVAmt>86339435</TotalAssetsEOYFMVAmt>
+        <TotalLiabilitiesEOYAmt>0</TotalLiabilitiesEOYAmt>
+        <OrgDoesNotFollowFASB117Ind>X</OrgDoesNotFollowFASB117Ind>
+        <CapitalStockBOYAmt>65304408</CapitalStockBOYAmt>
+        <CapitalStockEOYAmt>65250191</CapitalStockEOYAmt>
+        <TotNetAstOrFundBalancesBOYAmt>65304408</TotNetAstOrFundBalancesBOYAmt>
+        <TotNetAstOrFundBalancesEOYAmt>65250191</TotNetAstOrFundBalancesEOYAmt>
+        <TotalLiabilitiesNetAstBOYAmt>65304408</TotalLiabilitiesNetAstBOYAmt>
+        <TotalLiabilitiesNetAstEOYAmt>65250191</TotalLiabilitiesNetAstEOYAmt>
+      </Form990PFBalanceSheetsGrp>
+      <ChgInNetAssetsFundBalancesGrp>
+        <TotNetAstOrFundBalancesBOYAmt>65304408</TotNetAstOrFundBalancesBOYAmt>
+        <ExcessRevenueOverExpensesAmt>53901</ExcessRevenueOverExpensesAmt>
+        <OtherIncreasesAmt referenceDocumentId="OtherIncreasesSchedule">189</OtherIncreasesAmt>
+        <SubtotalAmt>65358498</SubtotalAmt>
+        <OtherDecreasesAmt referenceDocumentId="OtherDecreasesSchedule">108307</OtherDecreasesAmt>
+        <TotNetAstOrFundBalancesEOYAmt>65250191</TotNetAstOrFundBalancesEOYAmt>
+      </ChgInNetAssetsFundBalancesGrp>
+      <CapGainsLossTxInvstIncmDetail>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>200000. US TREAS 2.5% 08/15/23</PropertyDesc>
+          <SoldDt>2023-08-15</SoldDt>
+          <GrossSalesPriceAmt>200000</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>203580</CostOrOtherBasisAmt>
+          <GainOrLossAmt>-3580</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>-3580</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>200000. US TREAS 2.75% 11/15/23</PropertyDesc>
+          <SoldDt>2023-11-15</SoldDt>
+          <GrossSalesPriceAmt>200000</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>206365</CostOrOtherBasisAmt>
+          <GainOrLossAmt>-6365</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>-6365</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>2000. JPMORGAN BETABUILDERS JAPAN ETF</PropertyDesc>
+          <AcquiredDt>2021-01-25</AcquiredDt>
+          <SoldDt>2023-11-29</SoldDt>
+          <GrossSalesPriceAmt>104123</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>114798</CostOrOtherBasisAmt>
+          <GainOrLossAmt>-10675</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>-10675</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>2750. SPDR TR UNIT SER 1</PropertyDesc>
+          <SoldDt>2023-11-29</SoldDt>
+          <GrossSalesPriceAmt>1250126</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>390452</CostOrOtherBasisAmt>
+          <GainOrLossAmt>859674</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>859674</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>33577.53 SIX CIRCLES GLOBAL BOND</PropertyDesc>
+          <AcquiredDt>2021-01-26</AcquiredDt>
+          <SoldDt>2023-11-29</SoldDt>
+          <GrossSalesPriceAmt>275672</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>334144</CostOrOtherBasisAmt>
+          <GainOrLossAmt>-58472</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>-58472</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>18753.168 VANGUARD TTL INTL BND-ADM</PropertyDesc>
+          <AcquiredDt>2019-09-24</AcquiredDt>
+          <SoldDt>2023-11-29</SoldDt>
+          <GrossSalesPriceAmt>370000</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>441637</CostOrOtherBasisAmt>
+          <GainOrLossAmt>-71637</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>-71637</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>3600. ISHARES TR 7-10 YR TREAS INDEX FD</PropertyDesc>
+          <AcquiredDt>2023-06-15</AcquiredDt>
+          <SoldDt>2023-12-11</SoldDt>
+          <GrossSalesPriceAmt>338235</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>350298</CostOrOtherBasisAmt>
+          <GainOrLossAmt>-12063</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>-12063</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>15250. ISHARES US TREASURY BOND ETF</PropertyDesc>
+          <AcquiredDt>2023-06-15</AcquiredDt>
+          <SoldDt>2023-12-11</SoldDt>
+          <GrossSalesPriceAmt>344002</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>351360</CostOrOtherBasisAmt>
+          <GainOrLossAmt>-7358</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>-7358</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>2750. ISHARES TR S &amp; P MIDCAP 400 INDEX FD</PropertyDesc>
+          <SoldDt>2023-12-21</SoldDt>
+          <GrossSalesPriceAmt>760571</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>745786</CostOrOtherBasisAmt>
+          <GainOrLossAmt>14785</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>14785</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>6426.735 VANGUARD TTL INTL BND-ADM</PropertyDesc>
+          <AcquiredDt>2019-09-24</AcquiredDt>
+          <SoldDt>2024-02-08</SoldDt>
+          <GrossSalesPriceAmt>125000</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>151350</CostOrOtherBasisAmt>
+          <GainOrLossAmt>-26350</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>-26350</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>15000. VANGUARD MORTGAGE-BACKED SEC</PropertyDesc>
+          <SoldDt>2024-02-08</SoldDt>
+          <GrossSalesPriceAmt>681988</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>767151</CostOrOtherBasisAmt>
+          <GainOrLossAmt>-85163</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>-85163</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>200000. US TREAS 2.75% 02/15/24</PropertyDesc>
+          <SoldDt>2024-02-15</SoldDt>
+          <GrossSalesPriceAmt>200000</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>206213</CostOrOtherBasisAmt>
+          <GainOrLossAmt>-6213</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>-6213</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>29852.662 SIX CIRCLES US UNCONSTR EQ</PropertyDesc>
+          <AcquiredDt>2023-06-15</AcquiredDt>
+          <SoldDt>2024-02-26</SoldDt>
+          <GrossSalesPriceAmt>475851</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>407787</CostOrOtherBasisAmt>
+          <GainOrLossAmt>68064</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>68064</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>32882.595 SIX CIRCLES US UNCONSTR EQ</PropertyDesc>
+          <SoldDt>2024-02-26</SoldDt>
+          <GrossSalesPriceAmt>524149</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>475000</CostOrOtherBasisAmt>
+          <GainOrLossAmt>49149</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>49149</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>148794.253 VANGUARD TTL INTL BND-ADM</PropertyDesc>
+          <SoldDt>2024-02-26</SoldDt>
+          <GrossSalesPriceAmt>2900000</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>3367096</CostOrOtherBasisAmt>
+          <GainOrLossAmt>-467096</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>-467096</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>166000. US TREAS 0.25% 03/15/24</PropertyDesc>
+          <AcquiredDt>2023-02-16</AcquiredDt>
+          <SoldDt>2024-03-15</SoldDt>
+          <GrossSalesPriceAmt>166000</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>166000</CostOrOtherBasisAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>. CASH RECEIPT SECURITIES LITIGATION</PropertyDesc>
+          <SoldDt>2024-05-07</SoldDt>
+          <GrossSalesPriceAmt>50</GrossSalesPriceAmt>
+          <GainOrLossAmt>50</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>50</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>115000. US TREAS 2.5% 05/15/24</PropertyDesc>
+          <SoldDt>2024-05-15</SoldDt>
+          <GrossSalesPriceAmt>115000</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>119873</CostOrOtherBasisAmt>
+          <GainOrLossAmt>-4873</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>-4873</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>18. JPMORGAN BETABUILDERS EUROPE ETF</PropertyDesc>
+          <AcquiredDt>2024-02-26</AcquiredDt>
+          <SoldDt>2024-07-22</SoldDt>
+          <GrossSalesPriceAmt>1079</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>1039</CostOrOtherBasisAmt>
+          <GainOrLossAmt>40</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>40</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>4982. JPMORGAN BETABUILDERS EUROPE ETF</PropertyDesc>
+          <SoldDt>2024-07-22</SoldDt>
+          <GrossSalesPriceAmt>299106</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>287438</CostOrOtherBasisAmt>
+          <GainOrLossAmt>11668</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>11668</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>145. JPMORGAN BETABUILDERS CANADA</PropertyDesc>
+          <AcquiredDt>2018-08-14</AcquiredDt>
+          <SoldDt>2024-07-22</SoldDt>
+          <GrossSalesPriceAmt>9772</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>7218</CostOrOtherBasisAmt>
+          <GainOrLossAmt>2554</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>2554</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>3855. JPMORGAN BETABUILDERS CANADA</PropertyDesc>
+          <AcquiredDt>2018-08-14</AcquiredDt>
+          <SoldDt>2024-07-22</SoldDt>
+          <GrossSalesPriceAmt>259638</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>191891</CostOrOtherBasisAmt>
+          <GainOrLossAmt>67747</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>67747</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>2008. SPDR TR UNIT SER 1</PropertyDesc>
+          <AcquiredDt>2012-11-05</AcquiredDt>
+          <SoldDt>2024-07-22</SoldDt>
+          <GrossSalesPriceAmt>1111564</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>284511</CostOrOtherBasisAmt>
+          <GainOrLossAmt>827053</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>827053</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>492. SPDR TR UNIT SER 1</PropertyDesc>
+          <AcquiredDt>2012-11-05</AcquiredDt>
+          <SoldDt>2024-07-22</SoldDt>
+          <GrossSalesPriceAmt>272130</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>69711</CostOrOtherBasisAmt>
+          <GainOrLossAmt>202419</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>202419</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>19943.02 SIX CIRCLES US UNCONSTR EQ</PropertyDesc>
+          <AcquiredDt>2023-06-15</AcquiredDt>
+          <SoldDt>2024-07-22</SoldDt>
+          <GrossSalesPriceAmt>350000</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>272422</CostOrOtherBasisAmt>
+          <GainOrLossAmt>77578</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>77578</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>1. JPM ACCESS MULTI-STRATEGY FUND II RIC ENDOWMENTS &amp; FOUNDATIONS &amp; OT</PropertyDesc>
+          <AcquiredDt>2024-07-31</AcquiredDt>
+          <SoldDt>2024-07-31</SoldDt>
+          <GrossSalesPriceAmt>25000</GrossSalesPriceAmt>
+          <GainOrLossAmt>25000</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>25000</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>1. JPM ACCESS MULTI-STRATEGY FUND II RIC ENDOWMENTS &amp; FOUNDATIONS &amp; OT</PropertyDesc>
+          <AcquiredDt>2024-07-31</AcquiredDt>
+          <SoldDt>2024-07-31</SoldDt>
+          <GrossSalesPriceAmt>591573</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>535662</CostOrOtherBasisAmt>
+          <GainOrLossAmt>55911</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>55911</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>CAPITAL GAIN DIVIDENDS</PropertyDesc>
+          <HowAcquiredCd>P</HowAcquiredCd>
+          <GainOrLossAmt>-144012</GainOrLossAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>CAPITAL GAIN DIVIDENDS</PropertyDesc>
+          <HowAcquiredCd>P</HowAcquiredCd>
+          <GainOrLossAmt>-144012</GainOrLossAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>CAPITAL GAIN DIVIDENDS</PropertyDesc>
+          <HowAcquiredCd>P</HowAcquiredCd>
+          <GainOrLossAmt>-144012</GainOrLossAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>CAPITAL GAIN DIVIDENDS</PropertyDesc>
+          <HowAcquiredCd>P</HowAcquiredCd>
+          <GainOrLossAmt>-144012</GainOrLossAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>CAPITAL GAIN DIVIDENDS</PropertyDesc>
+          <HowAcquiredCd>P</HowAcquiredCd>
+          <GainOrLossAmt>-144012</GainOrLossAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>CAPITAL GAIN DIVIDENDS</PropertyDesc>
+          <HowAcquiredCd>P</HowAcquiredCd>
+          <GainOrLossAmt>-144012</GainOrLossAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>CAPITAL GAIN DIVIDENDS</PropertyDesc>
+          <HowAcquiredCd>P</HowAcquiredCd>
+          <GainOrLossAmt>-144012</GainOrLossAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>CAPITAL GAIN DIVIDENDS</PropertyDesc>
+          <HowAcquiredCd>P</HowAcquiredCd>
+          <GainOrLossAmt>-144012</GainOrLossAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>CAPITAL GAIN DIVIDENDS</PropertyDesc>
+          <HowAcquiredCd>P</HowAcquiredCd>
+          <GainOrLossAmt>-144012</GainOrLossAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>CAPITAL GAIN DIVIDENDS</PropertyDesc>
+          <HowAcquiredCd>P</HowAcquiredCd>
+          <GainOrLossAmt>-144012</GainOrLossAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>CAPITAL GAIN DIVIDENDS</PropertyDesc>
+          <HowAcquiredCd>P</HowAcquiredCd>
+          <GainOrLossAmt>-144012</GainOrLossAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>CAPITAL GAIN DIVIDENDS</PropertyDesc>
+          <HowAcquiredCd>P</HowAcquiredCd>
+          <GainOrLossAmt>-144012</GainOrLossAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>CAPITAL GAIN DIVIDENDS</PropertyDesc>
+          <HowAcquiredCd>P</HowAcquiredCd>
+          <GainOrLossAmt>-144012</GainOrLossAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>CAPITAL GAIN DIVIDENDS</PropertyDesc>
+          <HowAcquiredCd>P</HowAcquiredCd>
+          <GainOrLossAmt>-144012</GainOrLossAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>CAPITAL GAIN DIVIDENDS</PropertyDesc>
+          <HowAcquiredCd>P</HowAcquiredCd>
+          <GainOrLossAmt>-144012</GainOrLossAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>CAPITAL GAIN DIVIDENDS</PropertyDesc>
+          <HowAcquiredCd>P</HowAcquiredCd>
+          <GainOrLossAmt>-144012</GainOrLossAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>CAPITAL GAIN DIVIDENDS</PropertyDesc>
+          <HowAcquiredCd>P</HowAcquiredCd>
+          <GainOrLossAmt>-144012</GainOrLossAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>CAPITAL GAIN DIVIDENDS</PropertyDesc>
+          <HowAcquiredCd>P</HowAcquiredCd>
+          <GainOrLossAmt>-144012</GainOrLossAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>CAPITAL GAIN DIVIDENDS</PropertyDesc>
+          <HowAcquiredCd>P</HowAcquiredCd>
+          <GainOrLossAmt>-144012</GainOrLossAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>CAPITAL GAIN DIVIDENDS</PropertyDesc>
+          <HowAcquiredCd>P</HowAcquiredCd>
+          <GainOrLossAmt>-144012</GainOrLossAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>CAPITAL GAIN DIVIDENDS</PropertyDesc>
+          <HowAcquiredCd>P</HowAcquiredCd>
+          <GainOrLossAmt>-144012</GainOrLossAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>CAPITAL GAIN DIVIDENDS</PropertyDesc>
+          <HowAcquiredCd>P</HowAcquiredCd>
+          <GainOrLossAmt>-144012</GainOrLossAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>CAPITAL GAIN DIVIDENDS</PropertyDesc>
+          <HowAcquiredCd>P</HowAcquiredCd>
+          <GainOrLossAmt>-144012</GainOrLossAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>CAPITAL GAIN DIVIDENDS</PropertyDesc>
+          <HowAcquiredCd>P</HowAcquiredCd>
+          <GainOrLossAmt>-144012</GainOrLossAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>CAPITAL GAIN DIVIDENDS</PropertyDesc>
+          <HowAcquiredCd>P</HowAcquiredCd>
+          <GainOrLossAmt>-144012</GainOrLossAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>CAPITAL GAIN DIVIDENDS</PropertyDesc>
+          <HowAcquiredCd>P</HowAcquiredCd>
+          <GainOrLossAmt>-144012</GainOrLossAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>CAPITAL GAIN DIVIDENDS</PropertyDesc>
+          <HowAcquiredCd>P</HowAcquiredCd>
+          <GainOrLossAmt>-144012</GainOrLossAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapitalGainNetIncomeAmt>1357835</CapitalGainNetIncomeAmt>
+      </CapGainsLossTxInvstIncmDetail>
+      <ExciseTaxBasedOnInvstIncmGrp>
+        <InvestmentIncomeExciseTaxAmt>50845</InvestmentIncomeExciseTaxAmt>
+        <TaxUnderSection511Amt>0</TaxUnderSection511Amt>
+        <SubtotalAmt>50845</SubtotalAmt>
+        <SubtitleATaxAmt>0</SubtitleATaxAmt>
+        <TaxBasedOnInvestmentIncomeAmt>50845</TaxBasedOnInvestmentIncomeAmt>
+        <EstimatedPlusOvpmtIncmTxAmt>42735</EstimatedPlusOvpmtIncmTxAmt>
+        <ExemptFrgnOrgTaxWthldAtSrceAmt>0</ExemptFrgnOrgTaxWthldAtSrceAmt>
+        <ExtsnRequestIncomeTaxPaidAmt>33533</ExtsnRequestIncomeTaxPaidAmt>
+        <TotalPaymentsAndCreditsAmt>76268</TotalPaymentsAndCreditsAmt>
+        <Form2220AttachedInd referenceDocumentId="IRS2220">X</Form2220AttachedInd>
+        <EsPenaltyAmt>0</EsPenaltyAmt>
+        <OverpaymentAmt>25423</OverpaymentAmt>
+        <AppliedToESTaxAmt>25423</AppliedToESTaxAmt>
+        <RefundAmt>0</RefundAmt>
+      </ExciseTaxBasedOnInvstIncmGrp>
+      <StatementsRegardingActyGrp>
+        <LegislativePoliticalActyInd>false</LegislativePoliticalActyInd>
+        <MoreThan100SpentInd>false</MoreThan100SpentInd>
+        <Form1120POLFiledInd>false</Form1120POLFiledInd>
+        <ActivitiesNotPreviouslyRptInd>false</ActivitiesNotPreviouslyRptInd>
+        <ChangesToArticlesOrBylawsInd>false</ChangesToArticlesOrBylawsInd>
+        <UnrelatedBusIncmOverLimitInd>false</UnrelatedBusIncmOverLimitInd>
+        <OrganizationDissolvedEtcInd>false</OrganizationDissolvedEtcInd>
+        <Section508eRqrSatisfiedInd>true</Section508eRqrSatisfiedInd>
+        <AtLeast5000InAssetsInd>true</AtLeast5000InAssetsInd>
+        <OrgReportOrRegisterStateCd>OK</OrgReportOrRegisterStateCd>
+        <Form990PFFiledWithAttyGenInd>true</Form990PFFiledWithAttyGenInd>
+        <PrivateOperatingFoundationInd>false</PrivateOperatingFoundationInd>
+        <NewSubstantialContributorsInd>false</NewSubstantialContributorsInd>
+        <OwnControlledEntityInd>false</OwnControlledEntityInd>
+        <DonorAdvisedFundInd>false</DonorAdvisedFundInd>
+        <ComplyWithPublicInspRqrInd>true</ComplyWithPublicInspRqrInd>
+        <PersonsWithBooksName>
+          <BusinessNameLine1Txt>JP MORGAN CHASE BANKNA</BusinessNameLine1Txt>
+        </PersonsWithBooksName>
+        <PhoneNum>8004962583</PhoneNum>
+        <LocationOfBooksUSAddress>
+          <AddressLine1Txt>10 S DEARBORN ST MC IL 1-0111</AddressLine1Txt>
+          <CityNm>CHICAGO</CityNm>
+          <StateAbbreviationCd>IL</StateAbbreviationCd>
+          <ZIPCd>60603</ZIPCd>
+        </LocationOfBooksUSAddress>
+        <ForeignAccountsQuestionInd>false</ForeignAccountsQuestionInd>
+      </StatementsRegardingActyGrp>
+      <StatementsRegardingActy4720Grp>
+        <SaleOrExchDisqualifiedPrsnInd>false</SaleOrExchDisqualifiedPrsnInd>
+        <BrrwOrLendDisqualifiedPrsnInd>false</BrrwOrLendDisqualifiedPrsnInd>
+        <FurnGoodsDisqualifiedPrsnInd>false</FurnGoodsDisqualifiedPrsnInd>
+        <PayCompDisqualifiedPrsnInd>true</PayCompDisqualifiedPrsnInd>
+        <TransferAstDisqualifiedPrsnInd>false</TransferAstDisqualifiedPrsnInd>
+        <PaymentToGovernmentOfficialInd>false</PaymentToGovernmentOfficialInd>
+        <ActsFailToQlfyAsExceptionsInd>false</ActsFailToQlfyAsExceptionsInd>
+        <UncorrectedPriorActsInd>false</UncorrectedPriorActsInd>
+        <UndistributedIncomePYInd>false</UndistributedIncomePYInd>
+        <BusinessHoldingsInd>false</BusinessHoldingsInd>
+        <JeopardyInvestmentsInd>false</JeopardyInvestmentsInd>
+        <UncorrectedPYJeopardyInvstInd>false</UncorrectedPYJeopardyInvstInd>
+        <InfluenceLegislationInd>false</InfluenceLegislationInd>
+        <InfluenceElectionInd>false</InfluenceElectionInd>
+        <GrantsToIndividualsInd>false</GrantsToIndividualsInd>
+        <GrantsToOrganizationsInd>false</GrantsToOrganizationsInd>
+        <NoncharitablePurposeInd>false</NoncharitablePurposeInd>
+        <RcvFndsToPayPrsnlBnftCntrctInd>false</RcvFndsToPayPrsnlBnftCntrctInd>
+        <PayPremiumsPrsnlBnftCntrctInd>false</PayPremiumsPrsnlBnftCntrctInd>
+        <ProhibitedTaxShelterTransInd>false</ProhibitedTaxShelterTransInd>
+        <SubjToTaxRmnrtnExPrchtPymtInd>false</SubjToTaxRmnrtnExPrchtPymtInd>
+      </StatementsRegardingActy4720Grp>
+      <OfficerDirTrstKeyEmplInfoGrp>
+        <OfficerDirTrstKeyEmplGrp>
+          <BusinessName>
+            <BusinessNameLine1Txt>JP MORGAN CHASE BANK NA</BusinessNameLine1Txt>
+          </BusinessName>
+          <USAddress>
+            <AddressLine1Txt>10 S DEARBORN ST MC IL 1-0111</AddressLine1Txt>
+            <CityNm>CHICAGO</CityNm>
+            <StateAbbreviationCd>IL</StateAbbreviationCd>
+            <ZIPCd>60603</ZIPCd>
+          </USAddress>
+          <TitleTxt>TRUSTEE</TitleTxt>
+          <AverageHrsPerWkDevotedToPosRt>2</AverageHrsPerWkDevotedToPosRt>
+          <CompensationAmt>342171</CompensationAmt>
+        </OfficerDirTrstKeyEmplGrp>
+        <CompOfHghstPdEmplOrNONETxt>NONE</CompOfHghstPdEmplOrNONETxt>
+        <OtherEmployeePaidOver50kCnt>0</OtherEmployeePaidOver50kCnt>
+        <CompOfHghstPdCntrctOrNONETxt>NONE</CompOfHghstPdCntrctOrNONETxt>
+        <ContractorPaidOver50kCnt>0</ContractorPaidOver50kCnt>
+      </OfficerDirTrstKeyEmplInfoGrp>
+      <SummaryOfDirectChrtblActyGrp />
+      <SumOfProgramRelatedInvstGrp />
+      <MinimumInvestmentReturnGrp>
+        <AverageMonthlyFMVOfSecAmt>75547859</AverageMonthlyFMVOfSecAmt>
+        <AverageMonthlyCashBalancesAmt>1863441</AverageMonthlyCashBalancesAmt>
+        <FMVAllOtherNoncharitableAstAmt>3054663</FMVAllOtherNoncharitableAstAmt>
+        <TotalFMVOfUnusedAssetsAmt>80465963</TotalFMVOfUnusedAssetsAmt>
+        <ReductionClaimedAmt>0</ReductionClaimedAmt>
+        <AcquisitionIndebtednessAmt>0</AcquisitionIndebtednessAmt>
+        <AdjustedTotalFMVOfUnusedAstAmt>80465963</AdjustedTotalFMVOfUnusedAstAmt>
+        <CashDeemedCharitableAmt>1206989</CashDeemedCharitableAmt>
+        <NetVlNoncharitableAssetsAmt>79258974</NetVlNoncharitableAssetsAmt>
+        <MinimumInvestmentReturnAmt>3962949</MinimumInvestmentReturnAmt>
+      </MinimumInvestmentReturnGrp>
+      <DistributableAmountGrp>
+        <MinimumInvestmentReturnAmt>3962949</MinimumInvestmentReturnAmt>
+        <TaxBasedOnInvestmentIncomeAmt>50845</TaxBasedOnInvestmentIncomeAmt>
+        <TotalTaxAmt>50845</TotalTaxAmt>
+        <DistributableBeforeAdjAmt>3912104</DistributableBeforeAdjAmt>
+        <RecoveriesQualfiedDistriAmt>0</RecoveriesQualfiedDistriAmt>
+        <DistributableBeforeDedAmt>3912104</DistributableBeforeDedAmt>
+        <DeductionFromDistributableAmt>0</DeductionFromDistributableAmt>
+        <DistributableAsAdjustedAmt>3912104</DistributableAsAdjustedAmt>
+      </DistributableAmountGrp>
+      <PFQualifyingDistributionsGrp>
+        <ExpensesAndContributionsAmt>3649413</ExpensesAndContributionsAmt>
+        <ProgramRelatedInvstTotalAmt>0</ProgramRelatedInvstTotalAmt>
+        <CharitableAssetsAcquisPaidAmt>0</CharitableAssetsAcquisPaidAmt>
+        <SetAsideSuitabilityTestAmt>0</SetAsideSuitabilityTestAmt>
+        <SetAsideCashDistriTestAmt>0</SetAsideCashDistriTestAmt>
+        <QualifyingDistributionsAmt>3649413</QualifyingDistributionsAmt>
+      </PFQualifyingDistributionsGrp>
+      <UndistributedIncomeGrp>
+        <DistributableAsAdjustedAmt>3912104</DistributableAsAdjustedAmt>
+        <UndistributedIncomePYAmt>3534317</UndistributedIncomePYAmt>
+        <TotalForPriorYearsAmt>0</TotalForPriorYearsAmt>
+        <ExcessDistributionCyovYr5Amt>0</ExcessDistributionCyovYr5Amt>
+        <ExcessDistributionCyovYr4Amt>0</ExcessDistributionCyovYr4Amt>
+        <ExcessDistributionCyovYr3Amt>0</ExcessDistributionCyovYr3Amt>
+        <ExcessDistributionCyovYr2Amt>0</ExcessDistributionCyovYr2Amt>
+        <ExcessDistributionCyovYr1Amt>0</ExcessDistributionCyovYr1Amt>
+        <TotalExcessDistributionCyovAmt>0</TotalExcessDistributionCyovAmt>
+        <QualifyingDistributionsAmt>3649413</QualifyingDistributionsAmt>
+        <AppliedToYear1Amt>3534317</AppliedToYear1Amt>
+        <AppliedToPriorYearsAmt>0</AppliedToPriorYearsAmt>
+        <TreatedAsDistriFromCorpusAmt>0</TreatedAsDistriFromCorpusAmt>
+        <AppliedToCurrentYearAmt>115096</AppliedToCurrentYearAmt>
+        <RemainingDistriFromCorpusAmt>0</RemainingDistriFromCorpusAmt>
+        <ExcessDistriCyovAppCYCorpusAmt>0</ExcessDistriCyovAppCYCorpusAmt>
+        <ExcessDistributionCyovAppCYAmt>0</ExcessDistributionCyovAppCYAmt>
+        <TotalCorpusAmt>0</TotalCorpusAmt>
+        <PriorYearUndistributedIncmAmt>0</PriorYearUndistributedIncmAmt>
+        <PriorYearDeficiencyOrTaxAmt>0</PriorYearDeficiencyOrTaxAmt>
+        <Taxable1Amt>0</Taxable1Amt>
+        <Taxable2Amt>0</Taxable2Amt>
+        <UndistributedIncomeCYAmt>3797008</UndistributedIncomeCYAmt>
+        <CorpusDistri170b1EOr4942g3Amt>0</CorpusDistri170b1EOr4942g3Amt>
+        <ExcessDistriCyovFromYr5Amt>0</ExcessDistriCyovFromYr5Amt>
+        <ExcessDistriCyovToNextYrAmt>0</ExcessDistriCyovToNextYrAmt>
+        <ExcessFromYear4Amt>0</ExcessFromYear4Amt>
+        <ExcessFromYear3Amt>0</ExcessFromYear3Amt>
+        <ExcessFromYear2Amt>0</ExcessFromYear2Amt>
+        <ExcessFromYear1Amt>0</ExcessFromYear1Amt>
+        <ExcessFromCurrentYearAmt>0</ExcessFromCurrentYearAmt>
+      </UndistributedIncomeGrp>
+      <SupplementaryInformationGrp>
+        <ContributingManagerNm>NA</ContributingManagerNm>
+        <ShareholderManagerNm>NA</ShareholderManagerNm>
+        <OnlyContriToPreselectedInd>X</OnlyContriToPreselectedInd>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>SISTERS OF CHARITY OF THE INCARNATE WORD</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientUSAddress>
+            <AddressLine1Txt>6510 LAWNDALE STREET</AddressLine1Txt>
+            <CityNm>HOUSTON</CityNm>
+            <StateAbbreviationCd>TX</StateAbbreviationCd>
+            <ZIPCd>77023</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>NONE</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>PC</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>GENERAL</GrantOrContributionPurposeTxt>
+          <Amt>1004067</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>SISTERS OF THE GOOD SHEPHERD</BusinessNameLine1Txt>
+            <BusinessNameLine2Txt>NY PROVINCE</BusinessNameLine2Txt>
+          </RecipientBusinessName>
+          <RecipientUSAddress>
+            <AddressLine1Txt>2530 21ST AVE</AddressLine1Txt>
+            <CityNm>ASTORIA</CityNm>
+            <StateAbbreviationCd>NY</StateAbbreviationCd>
+            <ZIPCd>11105</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>NONE</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>PC</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>GENERAL</GrantOrContributionPurposeTxt>
+          <Amt>374852</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>SISTERS OF THE SORROWFUL MOTHER</BusinessNameLine1Txt>
+            <BusinessNameLine2Txt>US PROVINCES</BusinessNameLine2Txt>
+          </RecipientBusinessName>
+          <RecipientUSAddress>
+            <AddressLine1Txt>8858 N 60 TH STREET</AddressLine1Txt>
+            <CityNm>BROWN DEER</CityNm>
+            <StateAbbreviationCd>WI</StateAbbreviationCd>
+            <ZIPCd>53223</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>NONE</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>PC</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>GENERAL</GrantOrContributionPurposeTxt>
+          <Amt>615828</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>SISTERS OF GOOD SHEPHERD</BusinessNameLine1Txt>
+            <BusinessNameLine2Txt>PROVINCE OF CENTRAL SOUTH</BusinessNameLine2Txt>
+          </RecipientBusinessName>
+          <RecipientUSAddress>
+            <AddressLine1Txt>620 ROSWELL RD NW</AddressLine1Txt>
+            <CityNm>CARROLLTON</CityNm>
+            <StateAbbreviationCd>OH</StateAbbreviationCd>
+            <ZIPCd>44615</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>NONE</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>PC</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>GENERAL</GrantOrContributionPurposeTxt>
+          <Amt>562278</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>SISTERS OF GOOD SHEPHERD</BusinessNameLine1Txt>
+            <BusinessNameLine2Txt>PROVINCE MID NORTH AMERICA</BusinessNameLine2Txt>
+          </RecipientBusinessName>
+          <RecipientUSAddress>
+            <AddressLine1Txt>7654 NATURAL BRIDGE RD</AddressLine1Txt>
+            <CityNm>SAINT LOUIS</CityNm>
+            <StateAbbreviationCd>MO</StateAbbreviationCd>
+            <ZIPCd>63121</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>NONE</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>PC</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>GENERAL</GrantOrContributionPurposeTxt>
+          <Amt>977292</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <TotalGrantOrContriPdDurYrAmt>3534317</TotalGrantOrContriPdDurYrAmt>
+      </SupplementaryInformationGrp>
+      <AnalysisIncomeProducingActyGrp>
+        <FeesContractsFromGovtAgGrp />
+        <MembershipDuesAndAssmntGrp />
+        <IntOnSavAndTempCashInvstGrp />
+        <DividendsAndInterestFromSecDtl>
+          <ExclusionCd>14</ExclusionCd>
+          <ExclusionAmt>1843604</ExclusionAmt>
+        </DividendsAndInterestFromSecDtl>
+        <NetRntlIncmReDebtFincdPropGrp />
+        <NetRntlIncmReNotDebtFincdProp>
+          <ExclusionAmt>0</ExclusionAmt>
+        </NetRntlIncmReNotDebtFincdProp>
+        <NetRentalIncomePersonalPropGrp />
+        <OtherInvestmentIncomeGrp />
+        <GainSalesAstOthThanInvntryGrp>
+          <ExclusionCd>18</ExclusionCd>
+          <ExclusionAmt>1357835</ExclusionAmt>
+        </GainSalesAstOthThanInvntryGrp>
+        <NetIncomeLossFromSpecialEvtGrp />
+        <GrossProfitLossSlsOfInvntryGrp />
+        <OtherRevenueDescribedGrp>
+          <Desc>ROYALTY INCOME</Desc>
+          <ExclusionCd>15</ExclusionCd>
+          <ExclusionAmt>992816</ExclusionAmt>
+        </OtherRevenueDescribedGrp>
+        <OtherRevenueDescribedGrp>
+          <Desc>STATE TAX REFUND</Desc>
+          <ExclusionCd>1</ExclusionCd>
+          <ExclusionAmt>39628</ExclusionAmt>
+        </OtherRevenueDescribedGrp>
+        <SubtotalsIncmProducingActyGrp>
+          <ExclusionAmt>4233883</ExclusionAmt>
+        </SubtotalsIncmProducingActyGrp>
+        <TotalIncomeProducingActyAmt>4233883</TotalIncomeProducingActyAmt>
+      </AnalysisIncomeProducingActyGrp>
+      <RlnOfActyToAccomOfExmptPrpsGrp />
+      <TrnsfrTransRlnNonchrtblEOGrp>
+        <TrnsfrOfCashToNonchrtblEOInd>false</TrnsfrOfCashToNonchrtblEOInd>
+        <TrnsfrOtherAssetNonchrtblEOInd>false</TrnsfrOtherAssetNonchrtblEOInd>
+        <SalesOrExchangesOfAssetsInd>false</SalesOrExchangesOfAssetsInd>
+        <PurchaseOfAssetsNonchrtblEOInd>false</PurchaseOfAssetsNonchrtblEOInd>
+        <RentalOfFacilitiesOthAssetsInd>false</RentalOfFacilitiesOthAssetsInd>
+        <ReimbursementArrangementsInd>false</ReimbursementArrangementsInd>
+        <LoansOrLoanGuaranteesInd>false</LoansOrLoanGuaranteesInd>
+        <PerformanceOfServicesEtcInd>false</PerformanceOfServicesEtcInd>
+        <SharingOfFacilitiesEtcInd>false</SharingOfFacilitiesEtcInd>
+        <RelationshipsNonchrtblEOInd>false</RelationshipsNonchrtblEOInd>
+      </TrnsfrTransRlnNonchrtblEOGrp>
+    </IRS990PF>
+    <InvestmentsCorpBondsSchedule documentId="InvestmentsCorpBondsSchedule">
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>46429B267 ISHARES US TREASURY</BondNm>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>83002G108 SIX CIRCLES ULTR SHR</BondNm>
+        <EOYBookValueAmt>653884</EOYBookValueAmt>
+        <EOYFMVAmt>649619</EOYFMVAmt>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>83002G702 SIX CIRCLES GLOBAL B</BondNm>
+        <EOYBookValueAmt>12450678</EOYBookValueAmt>
+        <EOYFMVAmt>12097344</EOYFMVAmt>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>83002G884 SIX CIRCLES CREDIT O</BondNm>
+        <EOYBookValueAmt>3722639</EOYBookValueAmt>
+        <EOYFMVAmt>3766660</EOYFMVAmt>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>9128282A7 US TREAS 1.5% 08/15/</BondNm>
+        <EOYBookValueAmt>140596</EOYBookValueAmt>
+        <EOYFMVAmt>136299</EOYFMVAmt>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>9128282R0 US TREAS 2.25% 08/15</BondNm>
+        <EOYBookValueAmt>286616</EOYBookValueAmt>
+        <EOYFMVAmt>288301</EOYFMVAmt>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>9128283F5 US TREAS 2.25% 11/15</BondNm>
+        <EOYBookValueAmt>219161</EOYBookValueAmt>
+        <EOYFMVAmt>198483</EOYFMVAmt>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>9128283W8 US TREAS 2.75% 02/15</BondNm>
+        <EOYBookValueAmt>168915</EOYBookValueAmt>
+        <EOYFMVAmt>143707</EOYFMVAmt>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>9128284N7 US TREAS 2.875% 05/1</BondNm>
+        <EOYBookValueAmt>156434</EOYBookValueAmt>
+        <EOYFMVAmt>144064</EOYFMVAmt>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>9128285M8 US TREAS 3.125% 11/1</BondNm>
+        <EOYBookValueAmt>154020</EOYBookValueAmt>
+        <EOYFMVAmt>140169</EOYFMVAmt>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>9128286B1 US TREAS 2.625% 02/1</BondNm>
+        <EOYBookValueAmt>148326</EOYBookValueAmt>
+        <EOYFMVAmt>137008</EOYFMVAmt>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>912828B66 US TREAS 2.75% 02/15</BondNm>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>912828D56 US TREAS 2.375% 08/1</BondNm>
+        <EOYBookValueAmt>201438</EOYBookValueAmt>
+        <EOYFMVAmt>199763</EOYFMVAmt>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>912828G38 US TREAS 2.25% 11/15</BondNm>
+        <EOYBookValueAmt>238400</EOYBookValueAmt>
+        <EOYFMVAmt>237921</EOYFMVAmt>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>912828J27 US TREAS 2% 02/15/25</BondNm>
+        <EOYBookValueAmt>239379</EOYBookValueAmt>
+        <EOYFMVAmt>245972</EOYFMVAmt>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>912828K74 US TREAS 2% 08/15/25</BondNm>
+        <EOYBookValueAmt>113094</EOYBookValueAmt>
+        <EOYFMVAmt>111894</EOYFMVAmt>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>912828M56 US TREAS 2.25% 11/15</BondNm>
+        <EOYBookValueAmt>93520</EOYBookValueAmt>
+        <EOYFMVAmt>82556</EOYFMVAmt>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>912828P46 US TREAS 1.625% 02/1</BondNm>
+        <EOYBookValueAmt>133007</EOYBookValueAmt>
+        <EOYFMVAmt>136093</EOYFMVAmt>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>912828R36 US TREAS 1.625% 05/1</BondNm>
+        <EOYBookValueAmt>133566</EOYBookValueAmt>
+        <EOYFMVAmt>136336</EOYFMVAmt>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>912828V98 US TREAS 2.25% 02/15</BondNm>
+        <EOYBookValueAmt>165981</EOYBookValueAmt>
+        <EOYFMVAmt>157569</EOYFMVAmt>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>912828VS6 US TREAS 2.5% 08/15/</BondNm>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>912828WE6 US TREAS 2.75% 11/15</BondNm>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>912828XB1 US TREAS 2.125% 05/1</BondNm>
+        <EOYBookValueAmt>97793</EOYBookValueAmt>
+        <EOYFMVAmt>97880</EOYFMVAmt>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>912828YB0 US TREAS 1.625% 08/1</BondNm>
+        <EOYBookValueAmt>209779</EOYBookValueAmt>
+        <EOYFMVAmt>188106</EOYFMVAmt>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>912828YS3 US TREAS 1.75% 11/15</BondNm>
+        <EOYBookValueAmt>93480</EOYBookValueAmt>
+        <EOYFMVAmt>76294</EOYFMVAmt>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>912828Z94 US TREAS 1.5% 02/15/</BondNm>
+        <EOYBookValueAmt>75603</EOYBookValueAmt>
+        <EOYFMVAmt>61507</EOYFMVAmt>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>91282CAB7 US TREAS 0.25% 07/31</BondNm>
+        <EOYBookValueAmt>213945</EOYBookValueAmt>
+        <EOYFMVAmt>205715</EOYFMVAmt>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>92203J308 VANGUARD TTL INTL BN</BondNm>
+        <EOYBookValueAmt>1602337</EOYBookValueAmt>
+        <EOYFMVAmt>1459285</EOYFMVAmt>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>92203J407 VANGUARD TOTAL INTL</BondNm>
+        <EOYBookValueAmt>2044940</EOYBookValueAmt>
+        <EOYFMVAmt>1736350</EOYFMVAmt>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>92206C771 VANGUARD MORTGAGE-BA</BondNm>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>912828WJ5 US TREAS 2.5% 05/15/</BondNm>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>912828YU8 US TREAS 1.625% 11/3</BondNm>
+        <EOYBookValueAmt>144369</EOYBookValueAmt>
+        <EOYFMVAmt>136798</EOYFMVAmt>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>912828ZQ6 US TREAS 0.625% 05/1</BondNm>
+        <EOYBookValueAmt>84142</EOYBookValueAmt>
+        <EOYFMVAmt>74616</EOYFMVAmt>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>91282CAE1 US TREAS 0.625% 08/1</BondNm>
+        <EOYBookValueAmt>83878</EOYBookValueAmt>
+        <EOYFMVAmt>74029</EOYFMVAmt>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>91282CBH3 US TREAS 0.375% 01/3</BondNm>
+        <EOYBookValueAmt>137222</EOYBookValueAmt>
+        <EOYFMVAmt>139270</EOYFMVAmt>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>91282CBL4 US TREAS 1.125% 02/1</BondNm>
+        <EOYBookValueAmt>118238</EOYBookValueAmt>
+        <EOYFMVAmt>100739</EOYFMVAmt>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>91282CCB5 US TREAS 1.625% 05/1</BondNm>
+        <EOYBookValueAmt>123516</EOYBookValueAmt>
+        <EOYFMVAmt>103411</EOYFMVAmt>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>91282CCS8 US TREAS 1.25% 08/15</BondNm>
+        <EOYBookValueAmt>109736</EOYBookValueAmt>
+        <EOYFMVAmt>104233</EOYFMVAmt>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>91282CDJ7 US TREAS 1.375% 11/1</BondNm>
+        <EOYBookValueAmt>61949</EOYBookValueAmt>
+        <EOYFMVAmt>56849</EOYFMVAmt>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>464287440 ISHARES 7-10 YEAR TR</BondNm>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>91282CAV3 US TREAS 0.875% 11/1</BondNm>
+        <EOYBookValueAmt>174956</EOYBookValueAmt>
+        <EOYFMVAmt>172729</EOYFMVAmt>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>91282CBR1 US TREAS 0.25% 03/15</BondNm>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>91282CBS9 US TREAS 1.25% 03/31</BondNm>
+        <EOYBookValueAmt>131727</EOYBookValueAmt>
+        <EOYFMVAmt>132375</EOYFMVAmt>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>91282CCR0 US TREAS 1% 07/31/28</BondNm>
+        <EOYBookValueAmt>214910</EOYBookValueAmt>
+        <EOYFMVAmt>218213</EOYFMVAmt>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>91282CDY4 US TREAS 1.875% 02/1</BondNm>
+        <EOYBookValueAmt>887</EOYBookValueAmt>
+        <EOYFMVAmt>863</EOYFMVAmt>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>91282CEC1 US TREAS 1.875% 02/2</BondNm>
+        <EOYBookValueAmt>258347</EOYBookValueAmt>
+        <EOYFMVAmt>266545</EOYFMVAmt>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>91282CFF3 US TREAS 2.75% 08/15</BondNm>
+        <EOYBookValueAmt>62198</EOYBookValueAmt>
+        <EOYFMVAmt>63963</EOYFMVAmt>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>91282CFV8 US TREAS 4.125% 11/1</BondNm>
+        <EOYBookValueAmt>37682</EOYBookValueAmt>
+        <EOYFMVAmt>36276</EOYFMVAmt>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>91282CGJ4 US TREAS 3.5% 01/31/</BondNm>
+        <EOYBookValueAmt>154866</EOYBookValueAmt>
+        <EOYFMVAmt>150535</EOYFMVAmt>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>46435U853 ISHARES BROAD USD HI</BondNm>
+        <EOYBookValueAmt>827266</EOYBookValueAmt>
+        <EOYFMVAmt>830250</EOYFMVAmt>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>91282CAZ4 US TREAS 0.375% 11/3</BondNm>
+        <EOYBookValueAmt>200659</EOYBookValueAmt>
+        <EOYFMVAmt>210111</EOYFMVAmt>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>91282CFJ5 US TREAS 3.125% 08/3</BondNm>
+        <EOYBookValueAmt>159827</EOYBookValueAmt>
+        <EOYFMVAmt>163625</EOYFMVAmt>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>91282CGM7 US TREAS 3.5% 02/15/</BondNm>
+        <EOYBookValueAmt>63059</EOYBookValueAmt>
+        <EOYFMVAmt>65381</EOYFMVAmt>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>91282CHT1 US TREAS 3.875% 08/1</BondNm>
+        <EOYBookValueAmt>24127</EOYBookValueAmt>
+        <EOYFMVAmt>24672</EOYFMVAmt>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>92206C847 VANGUARD LONG-TERM T</BondNm>
+        <EOYBookValueAmt>205533</EOYBookValueAmt>
+        <EOYFMVAmt>208285</EOYFMVAmt>
+      </InvestmentsCorporateBondsGrp>
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>92206C870 VANGUARD INT-TERM CO</BondNm>
+        <EOYBookValueAmt>756715</EOYBookValueAmt>
+        <EOYFMVAmt>776055</EOYFMVAmt>
+      </InvestmentsCorporateBondsGrp>
+    </InvestmentsCorpBondsSchedule>
+    <InvestmentsCorpStockSchedule documentId="InvestmentsCorpStockSchedule">
+      <InvestmentsCorporateStockGrp>
+        <StockNm>315911750 FIDELITY 500 INDEX F</StockNm>
+        <EOYBookValueAmt>12791699</EOYBookValueAmt>
+        <EOYFMVAmt>22756312</EOYFMVAmt>
+      </InvestmentsCorporateStockGrp>
+      <InvestmentsCorporateStockGrp>
+        <StockNm>46641Q191 JPMORGAN BETABUILDER</StockNm>
+        <EOYBookValueAmt>1147218</EOYBookValueAmt>
+        <EOYFMVAmt>1291075</EOYFMVAmt>
+      </InvestmentsCorporateStockGrp>
+      <InvestmentsCorporateStockGrp>
+        <StockNm>46641Q217 JPMORGAN BETABUILDER</StockNm>
+        <EOYBookValueAmt>1985680</EOYBookValueAmt>
+        <EOYFMVAmt>2350000</EOYFMVAmt>
+      </InvestmentsCorporateStockGrp>
+      <InvestmentsCorporateStockGrp>
+        <StockNm>46641Q225 JPMORGAN BETABUILDER</StockNm>
+        <EOYBookValueAmt>932297</EOYBookValueAmt>
+        <EOYFMVAmt>1293520</EOYFMVAmt>
+      </InvestmentsCorporateStockGrp>
+      <InvestmentsCorporateStockGrp>
+        <StockNm>46641Q233 JPMORGAN BETABUILDER</StockNm>
+        <EOYBookValueAmt>1157549</EOYBookValueAmt>
+        <EOYFMVAmt>1111725</EOYFMVAmt>
+      </InvestmentsCorporateStockGrp>
+      <InvestmentsCorporateStockGrp>
+        <StockNm>78462F103 SPDR S&amp;P 500 ETF TRU</StockNm>
+      </InvestmentsCorporateStockGrp>
+      <InvestmentsCorporateStockGrp>
+        <StockNm>83002G306 SIX CIRCLES US UNCON</StockNm>
+        <EOYBookValueAmt>5950519</EOYBookValueAmt>
+        <EOYFMVAmt>9916716</EOYFMVAmt>
+      </InvestmentsCorporateStockGrp>
+      <InvestmentsCorporateStockGrp>
+        <StockNm>83002G405 SIX CIRCLES INTL UNC</StockNm>
+        <EOYBookValueAmt>5609000</EOYBookValueAmt>
+        <EOYFMVAmt>6690564</EOYFMVAmt>
+      </InvestmentsCorporateStockGrp>
+      <InvestmentsCorporateStockGrp>
+        <StockNm>464287507 ISHARES CORE S&amp;P MID</StockNm>
+      </InvestmentsCorporateStockGrp>
+    </InvestmentsCorpStockSchedule>
+    <InvestmentsOtherSchedule2 documentId="InvestmentsOtherSchedule2">
+      <InvestmentsOtherGrp>
+        <CategoryOrItemTxt>HEBLAAAK6 BLACKSTONE PARTNERS</CategoryOrItemTxt>
+        <ListedAtCostOrFMVCd>AT COST</ListedAtCostOrFMVCd>
+        <BookValueAmt>3191957</BookValueAmt>
+        <EOYFMVAmt>6443618</EOYFMVAmt>
+      </InvestmentsOtherGrp>
+      <InvestmentsOtherGrp>
+        <CategoryOrItemTxt>HFGAPBWF1 JPM ACCESS MULTI-STR</CategoryOrItemTxt>
+        <ListedAtCostOrFMVCd>AT COST</ListedAtCostOrFMVCd>
+        <BookValueAmt>2474527</BookValueAmt>
+        <EOYFMVAmt>2382314</EOYFMVAmt>
+      </InvestmentsOtherGrp>
+    </InvestmentsOtherSchedule2>
+    <OtherAssetsSchedule documentId="OtherAssetsSchedule">
+      <OtherAssetsScheduleGrp>
+        <Desc>70F000775 H.HUDSON PECOS COUNT</Desc>
+        <BOYBookValueAmt>1665</BOYBookValueAmt>
+        <EOYBookValueAmt>1665</EOYBookValueAmt>
+        <EOYFMVAmt>26632</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>70F000783 H.HUDSON PECOS COUNT</Desc>
+        <BOYBookValueAmt>2685</BOYBookValueAmt>
+        <EOYBookValueAmt>2685</EOYBookValueAmt>
+        <EOYFMVAmt>51063</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>70F000791 H.HUDSON PECOS COUNT</Desc>
+        <BOYBookValueAmt>2330</BOYBookValueAmt>
+        <EOYBookValueAmt>2330</EOYBookValueAmt>
+        <EOYFMVAmt>53629</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>70F000809 H.HUDSON PECOS COUNT</Desc>
+        <BOYBookValueAmt>1340</BOYBookValueAmt>
+        <EOYBookValueAmt>1340</EOYBookValueAmt>
+        <EOYFMVAmt>42511</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>70F000817 H.HUDSON PECOS COUNT</Desc>
+        <BOYBookValueAmt>1320</BOYBookValueAmt>
+        <EOYBookValueAmt>1320</EOYBookValueAmt>
+        <EOYFMVAmt>25080</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>70F000825 H.HUDSON PECOS COUNT</Desc>
+        <BOYBookValueAmt>1465</BOYBookValueAmt>
+        <EOYBookValueAmt>1465</EOYBookValueAmt>
+        <EOYFMVAmt>23468</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>70F000833 H.HUDSON PECOS COUNT</Desc>
+        <BOYBookValueAmt>1390</BOYBookValueAmt>
+        <EOYBookValueAmt>1390</EOYBookValueAmt>
+        <EOYFMVAmt>31994</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>70F000882 H.HUDSON PECOS COUNT</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>1</EOYBookValueAmt>
+        <EOYFMVAmt>23468</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>70F002151 H.HUDSON SEMINOLE CO</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>1</EOYBookValueAmt>
+        <EOYFMVAmt>108000</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 12 7N 6E SEMINOL</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 22 17S 20W COLUM</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>299124</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 14 17S 20W COLUM</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 14 17S 20W COLUM</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 15 17S 20W COLUM</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>38537</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 22 17S 20W COLUM</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 22 17S 20W COLUM</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 22 17S 20W COLUM</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 22 17S 20W COLUM</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 23 17S 20W COLUM</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 23 17S 20W COLUM</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 23 17S 20W COLUM</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 24 17S 20W COLUM</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 24 17S 20W COLUM</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 11 15S 19W OUACH</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>218</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 19 15S 18W OUACH</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 23 15S 19W OUACH</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>2070</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 26 15S 19W OUACH</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>3959</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 26 15S 19W OUACH</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>2708</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 33 15S 18W OUACH</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 31 17S 15W UNION</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 13 17S 20W COLUM</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 24 17S 20W COLUM</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 27 11S 17W ELLIS</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>23025</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 12 22S 10E GREEN</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 23 34S 2W SUMNER</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 28 7S 2W ACADIA</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>12511</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 28 7S 2W ACADIA</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 29 7S 2W ACADIA</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 29 7S 2W ACADIA</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 29 7S 2W ACADIA</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 29 7S 2W ACADIA</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>27799</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 29 7S 2W ACADIA</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 29 7S 2W ACADIA</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 1 15S 5W CAMERON</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 1 15S 5W CAMERON</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 1 15S 5W CAMERON</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 1 15S 5W CAMERON</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 1 15S 5W CAMERON</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 2 15S 5W CAMERON</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 11 15S 5W CAMERO</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 12 15S 5W CAMERO</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>70833</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 12 15S 5W CAMERO</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 12 15S 5W CAMERO</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 12 15S 5W CAMERO</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 21 15S 6W CAMERO</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 22 &amp; 27 15S 6W C</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 27 &amp; 22 15S 6W C</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 28 15S 6W CAMERO</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 29 7S 2W ACADIA</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 29 7S 2W ACADIA</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 34 7S 2W ACADIA</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 12 15S 5W CAMERO</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 11 15S 5W COMERO</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 18 8N 7E SEMINOL</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 8 6N 4E POTTAWAT</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>248</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 32 8N 7E SEMINOL</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 13 9N 5E SEMINOL</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 30 7N 1E CLEVELA</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 4 2S 9E ATOKA CO</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 1 6N 13W CADDO C</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 2 6N 13W CADDO C</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 29 6N 1W CLEVELA</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>8032</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 29 7N 1E CLEVELA</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 29 7N 1E CLEVELA</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 30 7N 1E CLEVELA</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 31 7N 1E CLEVELA</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 14 8N 1W CLEVELA</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 26 8N 1W CLEVELA</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 32 8N 1W CLEVELA</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 34 8N 1W CLEVELA</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 6 1N 10E COAL CO</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>17740</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 7 1N 10E COAL CO</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>443</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 26 2N 93 COAL CO</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 27 2N 9E COAL CO</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1163</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 28 2N 9E COAL CO</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 28 2N 9E COAL CO</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>256</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 1 1N 9E COAL CO</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>3396</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 34 2N 9E COAL CO</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>245</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 27 15S 19E COAL</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 28 1S 9E COAL CO</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 28 1S 9E COAL CO</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 28 1S 9E COAL CO</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 33 1S 9E COAL CO</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 34 1S 9E COAL CO</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 23 8N 5W GRADY C</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>14497</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 17 8N 6W GRADY C</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>30029</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 19 29N 23W HARPE</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX UND 1/8 MI WEST 8 AC</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1287</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 26 9N 9E HUGHES</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 22 17N 2E LINCOL</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 23 15N 3W LOGAN</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 26 15N 3W LOGAN</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 26 15N 3W LOGAN</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 26 15N 3W LOGAN</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 26 15N 3W LOGAN</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>2811</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 27 15N 3W LOGAN</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 11 17N 1W LOGAN</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 3 17N 4W LOGAN C</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>492</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 22 17N 4W LOGAN</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 22 17N 4W LOGAN</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 22 17N 4W LOGAN</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>350</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 22 17N 4W LOGAN</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 27 17N 4W LOGAN</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 27 17N 4W LOGAN</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 28 17N 4W LOGAN</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>404</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 28 17N 4W LOGAN</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 33 17N 4W LOGAN</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>37976</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 33 17N 4W LOGAN</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>27922</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 17 18N 4W LOGAN</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 20 18N 4W LOGAN</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>461</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 20 18N 4W LOGAN</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 20 18N 4W LOGAN</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 5 19N 2W LOGAN C</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1460</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 26 &amp; 35 6S 2W LO</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>268</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 21 5N 4W MCCLAIN</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>90</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 22 5N 4W MCCLAIN</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>459</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 27 5N 4W MCCLAIN</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>118</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 19 7N 2W MCCLAIN</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 1 7N 3W MCCLAIN</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>6786</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 2 7N 3W MCCLAIN</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 8 7N 3W MCCLAIN</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 10 7N 3W MCCLAIN</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 14 7N 3W MCCLAIN</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 14 7N 3W MCCLAIN</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 16 7N 3W MCCLAIN</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 16 7N 3W MCCLAIN</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 28 7N 3W MCCLAIN</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 6 7N 4W MCCLAIN</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>45078</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 7 7N 4W MCCLAIN</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>121548</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 17 7N 4W MCCLAIN</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>69438</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 17 7N 4W MCCLAIN</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1820</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 18 7N 4W MCCLAIN</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>15073</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 20 7N 4W MCCLAIN</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 20 7N 4W MCCLAIN</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>134</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 20&amp;21 7N 4W MCCL</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1865</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 9 20N 2W NOBLE C</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 17 20N 2W NOBLE</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>607</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 17 20N 2W NOBLE</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 19 20N 2W NOBLE</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1487</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 20 20N 2W NOBLE</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>12078</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 21 20N 2W NOBLE</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>760</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 28 20N 2W NOBLE</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>478</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 33 20N 2W NOBLE</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 33 20N 2W NOBLE</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1232</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 20 21N 1W NOBLE</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 16 23N 2W NOBLE</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 18 23N 2W NOBLE</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 21 23N 2W NOBLE</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>4272</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 1 10N 9E OKFUSKE</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>173</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 19 11N 7E OKFUSK</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 20 11N 7E OKFUSK</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1035</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 30 12N 9E OKFUSK</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 1 17N 1E PAYNE C</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 2 17N 1E PAYNE C</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 1 18N 1E PAYNE C</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 12 18N 1E PAYNE</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 12 18N 1E PAYNE</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 13 18N 1E PAYNE</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 13 18N 1E PAYNE</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 13 18N 1E PAYNE</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 18 18N 2E PAYNE</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 18 18N 2E PAYNE</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>33836</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 19 18N 2E PAYNE</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 19 18N 2E PAYNE</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 31 19N 2E PAYNE</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 31 19N 2E PAYNE</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 32 19N 2E PAYNE</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 32 19N 2E PAYNE</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 25 19N 4E PAYNE</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 34 19N 6E PAYNE</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>150</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 3 1N 7E PONTOTOC</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 3 1N 7E PONTOTOC</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>785</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 11 1N 7E PONTOTO</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>29181</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 26 2N 6E PONTOTO</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 7 2N 7E PONTOTOC</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 14 2N 7E PONTOTO</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>43312</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 23 2N 7E PONTOTO</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 23-2N-7E PONTOTO</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 28 2N 7E PONTOTO</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 28 2N 7E PONTOTO</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>12203</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 28 2N 7E PONTOTO</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>256837</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 28 2N 7E PONTOTO</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 28 2N 7E PONTOTO</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 29 2N 7E PONTOTO</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 29 2N 7E PONTOTO</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 32 2N 7E PONTOTO</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>166395</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 33 2N 7E PONTOTO</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 12 4N 5E PONTOTO</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 5 4N 6E PONTOTOC</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 6 4N 6E PONTOTOC</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 7 4N 6E PONTOTOC</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 8 5N 4E PONTOTOC</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 27 6N 3E POTTAWA</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 28 6N 3E POTTAWA</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 1 6N 4E POTTAWAT</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 1 6N 4E POTTAWAT</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 31 6N 5E POTTAWA</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 4 7N 3E POTTAWAT</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 9 7N 3E POTTAWAT</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>5016</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 12 17N 3E POTTAW</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 6 7N 4E POTTAWAO</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 3 8N 3E POTTAWOT</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 12 8N 4E POTTAWA</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 23 8N 4E POTTAWA</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>335</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 7 8N 5E POTTAWAT</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>17</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 8 1N 5E POTTAWAT</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 17 8N 5E POTTAWA</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>5220</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 17 8N 5E POTTAWA</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 18 8N 5E POTTAWA</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>247</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 20 9N 5E POTTAWA</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 20 9N 5E POTTAWA</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 12 5N 7E SEMINOL</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>354</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 13 5N 7E SEMINOL</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>6257</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 13 5N 7E SEMINOL</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 14 5N 7E SEMINOL</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 23 5N 7E SEMINOL</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 23 5N 7E SEMINOL</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>429</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 25 5N 7E SEMINOL</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 7 5N 8E SEMINOLE</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>8216</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 7 5N 8E SEMINOLE</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>24103</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 8 5N 8E SEMINOLE</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>4955</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 18 5N 8E SEMINOL</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>20460</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 18 5N 8E SEMINOL</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 27 6N 5E SEMINOL</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 10 6N 6E SEMINOL</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 33 6N 6E SEMINOL</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 2 6N 7E SEMINOLE</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 8 6N 7E SEMINOLE</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 10 6N 7E SEMINOL</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 11 6N 7E SEMINOL</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 14 6N 7E SEMINOL</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 14 6N 7E SEMINOL</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 14 6N 7E SEMINOL</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 15 6N 7E SEMINOL</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 20 6N 7E SEMINOL</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 20 6N 7E SEMINOL</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 20 6N 7E SEMINOL</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 7 6N 8E SEMINOLE</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>4935</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 13 7N 5E SEMINOL</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 24 7N 5E SEMINOL</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 27 7N 5E SEMINOL</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 11 7N 6E SEMINOL</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 12 7N 6E SEMINOL</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 30 7N 8E SEMINOL</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 22 8N 5E SEMINOL</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 2 8N 5E SEMINOLE</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 22 8N 5E SMINOLE</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 1 8N 6E SEMINOLE</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 11 8N 6E SEMINOL</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 19 8N 6E SEMINOL</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 16 8N 7E SEMINOL</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 18 8N 7E SEMINOL</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 19,29&amp;30 8N 7E S</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 19 8N 7E SEMINOL</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 19 8N 7E SEMINOL</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 29 8N 7E SEMINOL</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 28 8N 8E SEMINOL</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>5354</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 14 9N 5E SEMINOO</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 16 9N 6E SEMINOL</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 30 9N 6E SEMINOL</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 32 9N 6E SEMINOL</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 12 9N 7E SEMINOL</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 16 9N 8E SEMINOL</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 16 9N 8E SEMINOL</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 20 9N 8E SEMINOL</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 25 10N 7E SEMINO</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>21367</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 26 10N 7E SEMINO</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>6393</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 4 28N 14W WOODS</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>40135</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 9 28N 15W WOODS</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>5381</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 10 28N 15W WOODS</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>235</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 34 2N 9E COAL CO</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 10 7N 3W MCCLAIN</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 18 8N 7E SEMINOL</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 23 15N 3W LOGAN</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 30 7N 8E SEMINOL</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 2 7N 3W MCCLAIN</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>21614</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 11 17N 1W LOGAN</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 8 7N 4W MCCLAIN</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1104</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 2 1N 7E PONTOTOC</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>3380</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 24 5N 7E SEMINOL</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>2995</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 102 TC RR SVY PE</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>6042</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 9 GC&amp;SF SVY PECO</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 18 GC&amp;SF SVY PEC</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>767</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 26 GC&amp;SF SVY PEC</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>343606</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX UND 493.83/1111.14 M</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>44</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 9 T&amp;P RR CO SVY</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>11293</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 65 SA&amp;MG SVY JIM</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>26074</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 50 SA&amp;MG SVY JIM</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>7452</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 14 T&amp;P SVY PALO</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 40 J POITEVENT P</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 42 J POITEVENT P</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>102</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 56 J POITEVENT P</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 13 T&amp;STL SVY PEC</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 15 T&amp;STL SVY PEC</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 17 T&amp;STL SVY PEC</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 19 T&amp;STL SVY PEC</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 20 T&amp;STL SVY PEC</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>427</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 21 T&amp;STL SVY PEC</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 22 T&amp;STL SVY PEC</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 23 T&amp;STL SVY PEC</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 25 T&amp;STL SVY PEC</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 27 T&amp;STL SVY PEC</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 28 T&amp;STL SVY PEC</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 29 T&amp;STL SVY PEC</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 31 T&amp;STL SVY PEC</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>285769</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 33 T&amp;STL SVY PEC</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 34 T&amp;STL SVY PEC</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 35 T&amp;STL SVY PEC</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 9 GC&amp;SF SVY PECO</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 10 GC&amp;SF SVY PEC</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 11 GC&amp;SF SVY PEC</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 19 GC&amp;SF SVY PEC</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 20 GC&amp;SF SVY PEC</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 21 GC&amp;SF SVY PEC</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 23 GC&amp;SF SVY PEC</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 25 GC&amp;SF SVY PEC</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 29 GC&amp;SF SVY PEC</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 31 GC&amp;SF SVY PEC</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>39068</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 33 GC&amp;SF SVY PEC</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 35 GC&amp;SF SVY PEC</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 37 GC&amp;SF SVY PEC</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 39 GC&amp;SF SVY PEC</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>31261</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 103 GC&amp;SF SVY PE</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>3737</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX J W BENNETT SVY RUSK</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX J H CHAMBERS SVY RUS</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX J B CADENA SVY RUSK</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX W H MCVEY SVY RUSK C</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX J A PRUITT SVY RUSK</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX JAMES MCCUNE SVY RUS</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX D ROSE SVY VAN ZANDT</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>466</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX PSL SVY WINKLER CO T</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>6525</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 36 GC&amp;SF SVY PEC</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 104 TC RR SVY PE</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 16 GC&amp;SF SVY PEC</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>4442</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 28 GC&amp;SF SVY PEC</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>4710</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 38 GC&amp;SF SVY PEC</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 22 GC&amp;SF SVY PEC</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 23 GC&amp;SF SVY PEC</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 24 GC&amp;SF SVY PEC</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 16 GC&amp;SF SVY PEC</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 22 GC&amp;SF SVY PEC</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 24 GC&amp;SF SVY PEC</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 28 GC&amp;SF SVY PEC</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 36 GC&amp;SF SVY PEC</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>236450</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 38 GC&amp;SF SVY PEC</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>1</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>XXX-XX-XXXX SEC 104 GC&amp;SF SVY PE</Desc>
+        <BOYBookValueAmt>1</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>14342</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+    </OtherAssetsSchedule>
+    <OtherDecreasesSchedule documentId="OtherDecreasesSchedule">
+      <OtherDecreasesDetail>
+        <Desc>RETURN OF CAPITAL ADJUSTMENT</Desc>
+        <Amt>107481</Amt>
+      </OtherDecreasesDetail>
+      <OtherDecreasesDetail>
+        <Desc>2023 TRANSACTIONS POSTED IN 2024</Desc>
+        <Amt>826</Amt>
+      </OtherDecreasesDetail>
+    </OtherDecreasesSchedule>
+    <OtherExpensesSchedule documentId="OtherExpensesSchedule">
+      <OtherExpensesScheduleGrp>
+        <Desc>MINERAL INT-PRODUCTION TAX</Desc>
+        <RevenueAndExpensesPerBooksAmt>48111</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>48111</NetInvestmentIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>0</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>MINERAL INT-AD VALOREM TAX</Desc>
+        <RevenueAndExpensesPerBooksAmt>74145</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>74145</NetInvestmentIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>0</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>FARM-TAXES</Desc>
+        <RevenueAndExpensesPerBooksAmt>117</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>117</NetInvestmentIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>0</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>FARM-INSURANCE</Desc>
+        <RevenueAndExpensesPerBooksAmt>3874</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>3874</NetInvestmentIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>0</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>ROYALTY - OTHER EXPENSES</Desc>
+        <RevenueAndExpensesPerBooksAmt>12456</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>12456</NetInvestmentIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>0</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+    </OtherExpensesSchedule>
+    <OtherIncomeSchedule2 documentId="OtherIncomeSchedule2">
+      <OtherIncomeDetail>
+        <Desc>ROYALTY INCOME</Desc>
+        <RevenueAndExpensesPerBooksAmt>992816</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>992816</NetInvestmentIncomeAmt>
+      </OtherIncomeDetail>
+      <OtherIncomeDetail>
+        <Desc>STATE TAX REFUND</Desc>
+        <RevenueAndExpensesPerBooksAmt>39628</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>39628</NetInvestmentIncomeAmt>
+      </OtherIncomeDetail>
+    </OtherIncomeSchedule2>
+    <OtherIncreasesSchedule documentId="OtherIncreasesSchedule">
+      <OtherIncreasesDetail>
+        <Desc>2022 TRANSACTIONS POSTED IN 2023</Desc>
+        <Amt>187</Amt>
+      </OtherIncreasesDetail>
+      <OtherIncreasesDetail>
+        <Desc>ROUNDING</Desc>
+        <Amt>2</Amt>
+      </OtherIncreasesDetail>
+    </OtherIncreasesSchedule>
+    <OtherProfessionalFeesSchedule documentId="OtherProfessionalFeesSchedule">
+      <OtherProfessionalFeesDetail>
+        <CategoryTxt>INVESTMNT MNGMNT FEES (NON-DED</CategoryTxt>
+        <Amt>54014</Amt>
+        <NetInvestmentIncomeAmt>54014</NetInvestmentIncomeAmt>
+      </OtherProfessionalFeesDetail>
+    </OtherProfessionalFeesSchedule>
+    <TaxesSchedule documentId="TaxesSchedule">
+      <TaxesDetail>
+        <CategoryTxt>STATE INCOME TAXES</CategoryTxt>
+        <Amt>11386</Amt>
+        <NetInvestmentIncomeAmt>11386</NetInvestmentIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>0</DisbursementsCharitablePrpsAmt>
+      </TaxesDetail>
+      <TaxesDetail>
+        <CategoryTxt>FEDERAL TAX PAYMENT - PRIOR YE</CategoryTxt>
+        <Amt>26978</Amt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>0</DisbursementsCharitablePrpsAmt>
+      </TaxesDetail>
+      <TaxesDetail>
+        <CategoryTxt>FEDERAL ESTIMATES - INCOME</CategoryTxt>
+        <Amt>42735</Amt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>0</DisbursementsCharitablePrpsAmt>
+      </TaxesDetail>
+      <TaxesDetail>
+        <CategoryTxt>FOREIGN TAXES ON QUALIFIED FOR</CategoryTxt>
+        <Amt>24977</Amt>
+        <NetInvestmentIncomeAmt>24977</NetInvestmentIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>0</DisbursementsCharitablePrpsAmt>
+      </TaxesDetail>
+      <TaxesDetail>
+        <CategoryTxt>FOREIGN TAXES ON NONQUALIFIED</CategoryTxt>
+        <Amt>4701</Amt>
+        <NetInvestmentIncomeAmt>4701</NetInvestmentIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>0</DisbursementsCharitablePrpsAmt>
+      </TaxesDetail>
+    </TaxesSchedule>
+  </ReturnData>
+</Return>
