@@ -263,19 +263,52 @@ RETURN_CHILD_MAPPER = {
         # No: OrgDoesNotFollowFASB117Ind
 }
 
-def get_org_type(xml_root):
-    irs990 = xml_root.find(IRS990_PATH)
+def get_return_type(xml_root):
+    return xml_root.find(f'.//{NAMESPACE}ReturnTypeCd').text
 
+def get_990PF_org_type(xml_root):
+    try: # Element may not be present, and may not indicate appropriate org type
+        c_type = xml_root.find(f'.//{NAMESPACE}Organization501c3ExemptPFInd').text
+        return '501c3'
+    except AttributeError:
+        pass
+    
+    try: #
+        o_type = xml_root.find(f'.//{NAMESPACE}Organization4947a1TrtdPFInd').text
+        return '4947 Trust'
+    except AttributeError:
+        pass
+    
+    try: #
+        o_type = xml_root.find(f'.//{NAMESPACE}InitialReturnFormerPubChrtyInd').text
+        return 'Former Public Charity'
+    except AttributeError:
+        return 'Other'
+    
+    
+    
+    
+
+def get_990T_org_type(xml_root):
+    try: # Element may not be present, and may not indicate appropriate org type
+        c_type = xml_root.find(f'.//{NAMESPACE}Organization501cTypeText').text
+        # Also want type to be 'Corporation' and not 'Trust'
+        org_type = xml_root.find(f'.//{NAMESPACE}Organization501cCorporationInd').text
+        return f'501{c_type}'
+    except AttributeError:
+        return 'Other'
+
+def get_990Standard_org_type(xml_root):
     # Is a 501c3
     try: # If this field exits, then it's a 501c3
-        _501c3 = irs990.find(f'{NAMESPACE}Organization501c3Ind').text
+        _501c3 = xml_root.find(f'.//{NAMESPACE}Organization501c3Ind').text
         return '501c3'
     except AttributeError:
         pass
 
     # Is a 501c4
     try: # Element may not be present, and may not indicate appropriate org type
-        _501c = irs990.find(f'{NAMESPACE}Organization501cInd').attrib
+        _501c = xml_root.find(f'.//{NAMESPACE}Organization501cInd').attrib
         c_type = _501c['organization501cTypeTxt']
         return f'501c{c_type}'
     except AttributeError:
@@ -284,13 +317,24 @@ def get_org_type(xml_root):
     # Is a 527
     # TODO: Confirm the 527 target is spelled this way
     try:
-        _527 = irs990.find(f'{NAMESPACE}Organization527').text
+        _527 = xml_root.find(f'.//{NAMESPACE}Organization527').text
         return '527'
     except AttributeError:
         pass
 
     # Assuming no other possible values in field I
     return '4947a1'
+
+def get_org_type(xml_root, return_type_cd):
+    
+    if return_type_cd in ['990', '990N', '990EZ']:
+        return get_990Standard_org_type(xml_root)
+    elif return_type_cd == '990T':
+        return get_990T_org_type(xml_root)
+    elif return_type_cd == '990PF':
+        return get_990PF_org_type(xml_root)
+    else:
+        return 'Unknown'
 
 
 def map_elements(xml_element, content_dict, mapper):
