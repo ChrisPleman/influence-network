@@ -1,0 +1,175 @@
+{
+    "Part I": {
+        "Title": "",
+        "Stipulation": "Complete if the organization is exempt under section 501(c) or is a section 527 organization.",
+        "OrgTypes": [],
+        "Flat Content": {
+            "Part I-A": {
+                "Title": "",
+                "Stipulation": "",
+                "OrgTypes": [
+                    "501c\\d{1}",
+                    "527"
+                ],
+                "Flat Content": {
+                    "(0, 'PoliticalExpendituresAmt')": "PoliticalExpendituresAmt",
+                    "(1, 'VolunteerHoursCnt')": "VolunteerHoursCnt"
+                }
+            },
+            "Part I-B": {
+                "Title": "",
+                "Stipulation": "Complete if the organization is exempt under section 501(c)(3).",
+                "OrgTypes": [
+                    "501c3"
+                ],
+                "Flat Content": {
+                    "(0, 'Section4955OrganizationTaxAmt')": "Section4955OrganizationTaxAmt",
+                    "(1, 'Section4955ManagersTaxAmt')": "Section4955ManagersTaxAmt",
+                    "(2, 'Form4720FiledSection4955TaxInd')": "CorrectionMadeInd",
+                    "(3, 'CorrectionMadeInd')": "CorrectionMadeInd"
+                }
+            },
+            "Part I-C": {
+                "Title": "",
+                "Stipulation": "Complete if the organization is exempt under section 501(c), except section 501(c)(3).",
+                "OrgTypes": [
+                    "501c4"
+                ],
+                "Flat Content": {
+                    "(0, 'Expended527ActivitiesAmt')": "Expended527ActivitiesAmt",
+                    "(1, 'InternalFundsContributedAmt')": "InternalFundsContributedAmt",
+                    "(2, 'TotalExemptFunctionExpendAmt')": "TotalExemptFunctionExpendAmt",
+                    "(3, 'Form1120POLFiledInd')": "Form1120POLFiledInd"
+                },
+                "Nested Content": [
+                    {
+                        "Group": "Section527PoliticalOrgGrp",
+                        "Column Name Mapper": {
+                            "BusinessNameLine1Txt": "BusinessName",
+                            "AddressLine1Txt": "Address",
+                            "CityNm": "City",
+                            "StateAbbreviationCd": "StateCode",
+                            "ZIPCd": "ZipCode",
+                            "PaidInternalFundsAmt": "PaidInternalFunds",
+                            "ContributionsRcvdDlvrAmt": "ContributionsReceivedAndDelivered"
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "Part II": {
+        "Title": "",
+        "Stipulation": "",
+        "OrgTypes": [],
+        "Flat Content": {
+            "Part II-A": {
+                "Title": "",
+                "Stipulation": "Complete if the organization is exempt under section 501(c)(3) and filed Form 5768 (election under section 501(h)).",
+                "OrgTypes": [
+                    "501c\\d{1}",
+                    "527"
+                ],
+                "Flat Content": {
+                    "(0, 'TotalGrassrootsLobbyingGrp')": {
+                        "(0, 'FilingOrganizationsTotalAmt')": "FilingOrganizationsTotalGrassrootsLobbyingAmt",
+                        "(1, 'AffiliatedGroupTotalAmt')": "AffiliatedGroupTotalGrassrootsLobbyingAmt"
+                    },
+                    "(1, 'TotalDirectLobbyingGrp')": {
+                        "(0, 'FilingOrganizationsTotalAmt')": "FilingOrganizationsTotalDirectLobbyingAmt",
+                        "(1, 'AffiliatedGroupTotalAmt')": "AffiliatedGroupTotalDirectLobbyingAmt"
+                    },
+                    "(2, 'TotalLobbyingExpendGrp')": {
+                        "(0, 'FilingOrganizationsTotalAmt')": "FilingOrganizationsTotalLobbyingExpendAmt",
+                        "(1, 'AffiliatedGroupTotalAmt')": "AffiliatedGroupTotalLobbyingExpendAmt"
+                    },
+                    "(3, 'OtherExemptPurposeExpendGrp')": {
+                        "(0, 'FilingOrganizationsTotalAmt')": "FilingOrganizationsTotalOtherExemptPurposeExpendAmt",
+                        "(1, 'AffiliatedGroupTotalAmt')": "AffiliatedGroupTotalOtherExemptPurposeExpendAmt"
+                    },
+                    "(4, 'TotalExemptPurposeExpendGrp')": {
+                        "(0, 'FilingOrganizationsTotalAmt')": "FilingOrganizationsTotalExemptPurposeExpendAmt",
+                        "(1, 'AffiliatedGroupTotalAmt')": "AffiliatedGroupTotalExemptPurposeExpendAmt"
+                    },
+                    "(5, 'LobbyingNontaxableAmountGrp')": {
+                        "(0, 'FilingOrganizationsTotalAmt')": "FilingOrganizationsTotalLobbyingNontaxableAmt",
+                        "(1, 'AffiliatedGroupTotalAmt')": "AffiliatedGroupTotalLobbyingNontaxableAmt"
+                    },
+                    "(6, 'GrassrootsNontaxableGrp')": {
+                        "(0, 'FilingOrganizationsTotalAmt')": "FilingOrganizationsTotalGrassrootsNontaxableAmt",
+                        "(1, 'AffiliatedGroupTotalAmt')": "AffiliatedGroupTotalGrassrootsNontaxableAmt"
+                    },
+                    "(7, 'TotLbbyngGrassrootMnsNonTxGrp')": {
+                        "(0, 'FilingOrganizationsTotalAmt')": "FilingOrganizationsTotalTotLbbyngGrassrootMnsNonTxAmt",
+                        "(1, 'AffiliatedGroupTotalAmt')": "AffiliatedGroupTotalTotLbbyngGrassrootMnsNonTxAmt"
+                    },
+                    "(8, 'TotLbbyExpendMnsLbbyngNonTxGrp')": {
+                        "(0, 'FilingOrganizationsTotalAmt')": "FilingOrganizationsTotalTotLbbyExpendMnsLbbyngNonTxAmt",
+                        "(1, 'AffiliatedGroupTotalAmt')": "AffiliatedGroupTotalTotLbbyExpendMnsLbbyngNonTxAmt"
+                    },
+                    "(9, 'Form4720FiledInd')": "Form4720FiledInd"
+                }
+            },
+            "Part II-B": {
+                "Title": "",
+                "Stipulation": "Complete if the organization is exempt under section 501(c)(3) and has NOT filed Form 5768 (election under section 501(h)).",
+                "OrgTypes": [
+                    "501c3"
+                ],
+                "Flat Content": {
+                    "(0, 'VolunteersInd')": "VolunteersInd",
+                    "(1, 'PaidStaffOrManagementInd')": "PaidStaffOrManagementInd",
+                    "(2, 'MediaAdvertisementsInd')": "MediaAdvertisementsInd",
+                    "(3, 'MailingsMembersInd')": "MailingsMembersInd",
+                    "(4, 'PublicationsOrBroadcastInd')": "PublicationsOrBroadcastInd",
+                    "(5, 'GrantsOtherOrganizationsInd')": "GrantsOtherOrganizationsInd",
+                    "(6, 'DirectContactLegislatorsInd')": "DirectContactLegislatorsInd",
+                    "(7, 'RalliesDemonstrationsInd')": "RalliesDemonstrationsInd",
+                    "(8, 'OtherActivitiesInd')": "OtherActivitiesInd",
+                    "(9, 'NotDescribedSection501c3Ind')": "NotDescribedSection501c3Ind",
+                    "(10, 'Form4720Filed4912TaxInd')": "Form4720Filed4912TaxInd"
+                }
+            }
+        }
+    },
+    "Part III": {
+        "Title": "",
+        "Stipulation": "",
+        "OrgTypes": [],
+        "Flat Content": {
+            "Part III-A": {
+                "Title": "",
+                "Stipulation": "Complete if the organization is exempt under section 501(c)(4), section 501(c)(5), or section 501(c)(6).",
+                "OrgTypes": [
+                    "501c4"
+                ],
+                "Flat Content": {
+                    "(0, 'SubstantiallyAllDuesNondedInd')": "SubstantiallyAllDuesNondedInd",
+                    "(1, 'OnlyInHouseLobbyingInd')": "OnlyInHouseLobbyingInd",
+                    "(2, 'AgreeCarryoverPriorYearInd')": "AgreeCarryoverPriorYearInd"
+                }
+            },
+            "Part III-B": {
+                "Title": "",
+                "Stipulation": "Complete if the organization is exempt under section 501(c)(4), section 501(c)(5), or section 501(c)(6) and if either (a) BOTH Part III-A, lines 1 and 2, are answered \"No\" OR (b) Part III-A, line 3, is answered \"Yes.\"",
+                "OrgTypes": [
+                    "501c4"
+                ],
+                "Flat Content": {}
+            }
+        }
+    },
+    "Part IV": {
+        "Title": "",
+        "Stipulation": "Complete if the organization is exempt under section 501(c)(4), section 501(c)(5), or section 501(c)(6).",
+        "OrgTypes": [
+            "501c4"
+        ],
+        "Flat Content": {
+            "(0, 'SupplementalInformationDetail')": {
+                "(0, 'FormAndLineReferenceDesc')": "FormAndLineReferenceDesc",
+                "(1, 'ExplanationTxt')": "ExplanationTxt"
+            }
+        }
+    }
+}
