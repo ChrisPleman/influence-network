@@ -55,6 +55,12 @@ class Form990Parser():
             _formatter_dict = json.loads(json_file.read())
             return self.recursive_literal_dict_formatter(_formatter_dict, _new_dict={})
 
+    def is_group_header(self, _element: ET.Element) -> bool:
+        # Identify parent element with no real content
+        if len(re.sub(r'\s', '', _element.text)) == 0:
+            return True
+        return False
+
     def create_xml_target_mapping_list(self, _target_type, _format_mappings_func: Callable, _dict: dict, _accum: list | None = None):
         # _accum was persisting across multiple calls without this
         if _accum is None:
@@ -104,8 +110,7 @@ class Form990Parser():
             for _nested_target_group in _nested_target_groups:
                 _nested_target_content = {'EIN': _ein}
                 for _nested_element in _nested_target_group.iter():
-                    # Identify parent element with no real content
-                    if len(re.sub(r'\s', '', _nested_element.text)) == 0:
+                    if self.is_group_header(_nested_element):
                         continue
                     _nested_element_field = re.sub(self._namespace_str, '', _nested_element.tag)
                     _nested_target_content[_nested_element_field] = _nested_element.text
@@ -117,8 +122,7 @@ class Form990Parser():
 
         _flat_target_content = {'EIN': _ein}
         for _elem in _schedule_c_root.iter():
-            # Identify parent element with no real content
-            if len(re.sub(r'\s', '', _elem.text)) == 0:
+            if self.is_group_header(_nested_element):
                 continue
             _elem_tag = re.sub(self._namespace_str, '', _elem.tag)
             try:
