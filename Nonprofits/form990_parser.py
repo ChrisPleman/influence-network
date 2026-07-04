@@ -57,11 +57,13 @@ class Form990Parser():
 
     def is_group_header(self, _element: ET.Element) -> bool:
         # Identify parent element with no real content
+        if _element.text is None:
+            return True
         if len(re.sub(r'\s', '', _element.text)) == 0:
             return True
         return False
 
-    def create_xml_target_mapping_list(self, _target_type, _format_mappings_func: Callable, _dict: dict, _accum: list | None = None):
+    def create_xml_target_mapping_list(self, _target_type, _format_mappings_func: Callable, _dict: dict, _accum: list | None = None) -> list:
         # _accum was persisting across multiple calls without this
         if _accum is None:
             _accum = []
@@ -82,7 +84,7 @@ class Form990Parser():
                     continue
         return _accum
 
-    def create_xml_target_mapping_dict(self, _target_type, _format_mappings_func: Callable, _dict: dict, _accum: dict | None = None):
+    def create_xml_target_mapping_dict(self, _target_type, _format_mappings_func: Callable, _dict: dict, _accum: dict | None = None) -> dict:
         # _accum was persisting across multiple calls without this
         if _accum is None:
             _accum = {}
@@ -101,33 +103,45 @@ class Form990Parser():
                     continue
         return _accum
 
-    def parse_schedule_c(self, _ein: str, _schedule_c_root: ET.Element, _flat_targets: dict, _nested_targets: list) -> dict:
+    def parse_schedule(self, _ein: str, _tax_year: str | int, _schedule_root: ET.Element, _flat_targets: dict, _nested_targets: list) -> dict:
         _target_dfs = {}
         for _nested_target_dict in _nested_targets:
+            #print(1.1)
             _nested_target = _nested_target_dict['Group']
-            _nested_target_groups = _schedule_c_root.findall(f'namespace:{_nested_target}', self._namespace)
+            _nested_target_groups = _schedule_root.findall(f'namespace:{_nested_target}', self._namespace)
             _nested_target_list = []
             for _nested_target_group in _nested_target_groups:
-                _nested_target_content = {'EIN': _ein}
+                #print(1.2)
+                _nested_target_content = {'FilerEIN': _ein, 'TaxYear': _tax_year}
                 for _nested_element in _nested_target_group.iter():
                     if self.is_group_header(_nested_element):
+                        #print(1.3)
                         continue
+                    #print(1.4)
                     _nested_element_field = re.sub(self._namespace_str, '', _nested_element.tag)
                     _nested_target_content[_nested_element_field] = _nested_element.text
+                    #print(1.5)
                 _nested_target_list.append(_nested_target_content)
                 # Avoid re-parsing when using iter below
-                _schedule_c_root.remove(_nested_target_group)
+                _schedule_root.remove(_nested_target_group)
+                #print(1.6)
             target_df = pd.DataFrame(_nested_target_list)
             _target_dfs[_nested_target] = target_df.rename(columns=_nested_target_dict['Column Name Mapper'])
 
-        _flat_target_content = {'EIN': _ein}
-        for _elem in _schedule_c_root.iter():
-            if self.is_group_header(_nested_element):
+        _missed_targets = []
+        _flat_target_content = {'FilerEIN': _ein, 'TaxYear': _tax_year}
+        for _elem in _schedule_root.iter():
+            #print(2.1, _elem, _elem.text)
+            if self.is_group_header(_elem):
+                #print(2.2)
                 continue
+            #print(2.3)
             _elem_tag = re.sub(self._namespace_str, '', _elem.tag)
             try:
                 _flat_target_content[_flat_targets[_elem_tag]] = _elem.text
+                #print(2.4)
             except KeyError:
-                print(_elem_tag)
-        _target_dfs['Flat Content'] = _flat_target_content
-        return _target_dfs
+                #print(2.5)
+                _missed_targets.append(_elem_tag)
+        _target_dfs['Flat Content'] = pd.DataFrame([_flat_target_content])
+        return _target_dfs, _missed_targets
