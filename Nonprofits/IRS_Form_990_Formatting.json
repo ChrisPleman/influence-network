@@ -1,4 +1,48 @@
 {
+    "Header": {
+        "Filer": {
+            "EIN": "EIN",
+            "BusinessNameLine1Txt": "BusinessName",
+            "BusinessNameLine2Txt": "BusinessNameLine2",
+            "BusinessNameControlTxt": "BusinessNameControlTxt",
+            "PhoneNum": "Phone",
+            "AddressLine1Txt": "BusinessName",
+            "AddressLine2Txt": "BusinessNameLine2",
+            "CityNm": "City",
+            "StateAbbreviationCd": "StateCode",
+            "ZIPCd": "ZipCode"
+        },
+        "PreparerFirmGrp": {
+            "PreparerFirmEIN": "PreparerEIN",
+            "BusinessNameLine1Txt": "PreparerName",
+            "BusinessNameLine2Txt": "PreparerNameLine2",
+            "AddressLine1Txt": "PreparerAddress",
+            "AddressLine2Txt": "PreparerAddressLine2",
+            "CityNm": "PreparerCity",
+            "StateAbbreviationCd": "PreparerStateCode",
+            "ZIPCd": "PreparerZipCode"
+        },
+        "BusinessOfficerGrp": {
+            "PersonNm": "BusinessOfficer",
+            "PersonTitleTxt": "BusinessOfficerTitle",
+            "SignatureDt": "BusinessOfficerSignatureDate",
+            "DiscussWithPaidPreparerInd": "DiscussWithPaidPreparerInd"
+        },
+        "SigningOfficerGrp": {
+            "PersonFirstNm": "SigningOfficerFirstName",
+            "PersonLastNm": "SigningOfficerLastName",
+            "SSN": "SigningOfficerSSN",
+            "SignatureDt": "BusinessOfficerSignatureDate",
+            "DiscussWithPaidPreparerInd": "DiscussWithPaidPreparerInd"
+        },
+        "IRSResponsiblePrtyInfoCurrInd": "IRSResponsiblePrtyInfoCurrInd",
+        "PreparerPersonGrp": {
+            "PreparerPersonNm": "PreparerPersonName",
+            "PTIN": "PreparerPersonPTIN",
+            "PhoneNum": "PreparerPersonPhone"
+        },
+        "TaxYr": "TaxYear"
+    },
     "IRS990ScheduleC": {
         "Title": "Political Campaign and Lobbying Activities",
         "Stipulation": "If the organization answered \"Yes\" on Form 990, Part IV, Line 3, or Form 990-EZ, Part V, line 46 (Political Campaign Activities), then\n\t\u2022 Section 501(c)(3) organizations: Complete Parts I-A and B. Do not complete Part I-C.\n\t\u2022 Section 501(c) (other than section 501(c)(3)) organizations: Complete Parts I-A and C below. Do not complete Part I-\u0412.\n\t\u2022 Section 527 organizations: Complete Part I-A only.\nIf the organization answered \"Yes\" on Form 990, Part IV, Line 4, or Form 990-EZ, Part VI, line 47 (Lobbying Activities), then\n\t\u2022 Section 501(c)(3) organizations that have filed Form 5768 (election under section 501(h)): Complete Part II-A. Do not complete Part II-B.\n\t\u2022 Section 501(c)(3) organizations that have NOT filed Form 5768 (election under section 501(h)): Complete Part II-B. Do not complete Part II-A.\nIf the organization answered \"Yes\" on Form 990, Part IV, Line 5 (Proxy Tax) (see separate instructions) or Form 990-EZ, Part V, line 35c\n(Proxy Tax) (see separate instructions), then\n\t\u2022 Section 501(c)(4), (5), or (6) organizations: Complete Part III.\n",
