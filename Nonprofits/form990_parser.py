@@ -27,9 +27,12 @@ class Form990Parser():
         else:
             return {'namespace': ''}
 
-    def find_element(self, _target: str) -> ET.Element | None:
+    def find_element(self, _target: str) -> ET.Element:
         # Can leverage xpath and cleaner namespace prefixing all at once
-        return self._xml_root.find(f'.//namespace:{_target}', self._namespace)
+        _element = self._xml_root.find(f'.//namespace:{_target}', self._namespace)
+        if _element is None:
+            raise ValueError("This element does not exist")
+        return _element
     
     def recursive_literal_dict_formatter(self, _dict, _new_dict) -> dict:
         for _key, _val in _dict.items():
@@ -102,6 +105,27 @@ class Form990Parser():
                 else:
                     continue
         return _accum
+
+    def parse_header(self, _header_hierarchy_dict: dict) -> pd.DataFrame:
+        _header = self.find_element('ReturnHeader')
+        _header_content = {}
+        for _header_sub_group in _header:
+            _header_sub_group_tag = re.sub(self._namespace_str, '', _header_sub_group.tag)
+            if _header_sub_group_tag not in _header_hierarchy_dict.keys():
+                continue
+            _header_sub_group_mapping = _header_hierarchy_dict[_header_sub_group_tag]
+            if isinstance(_header_sub_group_mapping, str):
+                _header_content[_header_sub_group_mapping] = _header_sub_group.text
+                continue
+            for _header_sub_group_elem in _header_sub_group.iter():
+                _header_sub_group_elem_tag = re.sub(self._namespace_str, '', _header_sub_group_elem.tag)
+                try:
+                    _header_sub_group_elem_mapping = _header_sub_group_mapping[_header_sub_group_elem_tag]
+                    _header_content[_header_sub_group_elem_mapping] = _header_sub_group_elem.text
+                except KeyError:
+                    continue
+        return pd.DataFrame([_header_content])
+                
 
     def parse_schedule(self, _ein: str, _tax_year: str | int, _schedule_root: ET.Element, _flat_targets: dict, _nested_targets: list) -> dict:
         _target_dfs = {}
