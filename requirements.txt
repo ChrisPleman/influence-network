@@ -7,3 +7,6 @@ tqdm>=4.66.0          # progress bars for bulk pulls
 pandas>=2.1.0         # downstream wrangling
 sentence-transformers>=3.0.0  # semantic text embeddings
 numpy>=1.26.0         # vector math for cosine similarity
+scikit-learn>=1.6.0   # TF-IDF cosine similarity backend (analysis/align.py)
+pypdf>=6.1.0          # PDF text extraction (pdf_similarity notebook)
+pymupdf>=1.26.0       # fitz - used to build sample PDFs for the PDF similarity demo
