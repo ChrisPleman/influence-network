@@ -127,9 +127,13 @@ RETURN_CHILD_MAPPER = {
     #Q23 - Yes to Part VII, Section A line 3, 4, or 5? --> If yes, Schedule J
     'ScheduleJRequiredInd': f'{NAMESPACE}ScheduleJRequiredInd', 
     # TODO: Find target for Q25a
+        # <EngagedInExcessBenefitTransInd>false</EngagedInExcessBenefitTransInd>
     # TODO: Find target for Q25b
+        # <PYExcessBenefitTransInd>false</PYExcessBenefitTransInd>
     # TODO: Find target for Q26
+        # <LoanOutstandingInd referenceDocumentId="DOCID204329740">true</LoanOutstandingInd>
     # ? is this both Q26 and Q27?
+    # <LoanOutstandingInd referenceDocumentId="DOCID204329740">true</LoanOutstandingInd> relates to 26
     'GrantToRelatedPersonInd': f'{NAMESPACE}GrantToRelatedPersonInd',
     # Q28 - Org party to business transaction w/:
     # Q28a - current former officer, director... --> If yes, Schedule L, Part IV
@@ -137,7 +141,7 @@ RETURN_CHILD_MAPPER = {
     # Q28b - family member or anything in 28a --> If yes, Schedule L, Part IV
     'BusinessRlnWithFamMemInd': f'{NAMESPACE}BusinessRlnWithFamMemInd',
     # Q28c - 35% controlled entity or 28a or 28b --> If yes, Schedule L, Part IV
-    'BusinessRlnWith35CtrlEntInd': f'{NAMESPACE}BusinessRlnWith35CtrlEntInd',
+    'BusinessRlnWith35CtrlEntInd': f'{NAMESPACE}BusinessRlnWith35CtrlEntInd', # ! Not found in a 2018 filing: 201903199349310630_public.xml
     # Q31 - Did org terminate --> If yes, Schedule N, Part I
     'TerminateOperationsInd': f'{NAMESPACE}TerminateOperationsInd',
     # Q32 - >25% assets --> If yes, Schedule N, Part II
@@ -191,6 +195,7 @@ RETURN_CHILD_MAPPER = {
     # 7a - Members/Stockholders have power to elect board
     'ElectionOfBoardMembersInd': f'{NAMESPACE}ElectionOfBoardMembersInd',
     # 7b - Decisions subject to approval from anyone besides the board
+    # ! Notice how it is not 'Approval' but 'Approva'. This is actually how it is spelled in the xml file
     'DecisionsSubjectToApprovaInd': f'{NAMESPACE}DecisionsSubjectToApprovaInd',
     # 8a - Documented governing body's actions
     'MinutesOfGoverningBodyInd': f'{NAMESPACE}MinutesOfGoverningBodyInd',
