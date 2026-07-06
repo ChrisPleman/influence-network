@@ -147,6 +147,30 @@ CREATE TABLE IF NOT EXISTS org_people (
 );
 CREATE INDEX IF NOT EXISTS idx_people_ein ON org_people(ein);
 CREATE INDEX IF NOT EXISTS idx_people_name ON org_people(person_name);
+
+-- Schedule C: lobbying expenditures. One row per filing; not every org files
+-- Schedule C, and which Part (II-A, II-B, III) is populated depends on the
+-- filer's exemption type (501(h)-electing 501(c)(3), non-electing 501(c)(3),
+-- or 501(c)(4)/(5)/(6)).
+CREATE TABLE IF NOT EXISTS org_lobbying (
+    ein                               TEXT PRIMARY KEY,
+    tax_year                          INTEGER,
+    total_exempt_function_expend_amt  REAL,  -- Part I-A (political orgs / 527)
+    total_lobbying_expend_amt         REAL,  -- Part II-A line 1e (501(h) electors)
+    total_exempt_purpose_expend_amt   REAL,  -- Part II-A line 1f
+    lobbying_nontaxable_amt           REAL,  -- Part II-A line 1g
+    grassroots_nontaxable_amt         REAL,  -- Part II-A line 1h
+    lobbying_ceiling_amt              REAL,  -- Part II-A line 3 (4-yr avg base)
+    grassroots_ceiling_amt            REAL,  -- Part II-A line 8 (4-yr avg base)
+    total_lobbying_expenditures_amt   REAL,  -- Part II-B total (non-electing 501(c)(3))
+    direct_contact_legislators_amt    REAL,  -- Part II-B line 1f
+    other_lobbying_activities_amt     REAL,  -- Part II-B line 1j
+    lobbying_activity_types           TEXT,  -- JSON list of checked Part II-B activities
+    nondeductible_lobbying_pltcl_amt  REAL,  -- Part III-B (501(c)(4)/(5)/(6) dues nondeduct.)
+    taxable_amt                       REAL,  -- Part III-B line 5 excise-tax base
+    raw_json                          TEXT
+);
+CREATE INDEX IF NOT EXISTS idx_lobbying_ein ON org_lobbying(ein);
 """
 
 

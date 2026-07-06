@@ -6,7 +6,8 @@ downloads. Schemas vary by year, and elements live in the
 this parser matches on element *local-name* rather than fixed namespaced paths.
 
 Extracted into SQLite: organization header (EIN, name, revenue, expenses,
-mission), grants paid (Schedule I), and officers/directors/key employees.
+mission), grants paid (Schedule I), officers/directors/key employees, and
+lobbying expenditures (Schedule C).
 
 Usage:
     from extract.irs990 import parse_990_file, ingest_990_directory
@@ -110,15 +111,27 @@ def parse_990_file(path: str | Path) -> dict[str, Any]:
                 or _text(form, "ActivityOrMissionDesc")
                 or _text(form, "MissionStatement")
             )
-            # Political activity signal: Schedule C presence / 501(c)(4) flag.
-            pol = _text(form, "PoliticalCampaignActyInd") or _text(form, "PoliticalActivitiesInd")
-            org["political_activity_flag"] = 1 if (pol and pol.lower() in {"1", "true", "x"}) else 0
-
             people.extend(_parse_officers(form, org["ein"], org["tax_year"]))
 
         grants.extend(_parse_grants(return_data, org["ein"], org["tax_year"]))
+        lobbying = _parse_schedule_c(return_data, org["ein"], org["tax_year"])
 
-    return {"org": org, "grants": grants, "people": people}
+        # Political activity signal: an explicit Part IV flag on the core
+        # form, OR the presence of reported lobbying expenditures on
+        # Schedule C (whichever Part applies to the filer's exemption type).
+        pol = _text(form, "PoliticalCampaignActyInd") or _text(form, "PoliticalActivitiesInd")
+        pol_flag = bool(pol and pol.lower() in {"1", "true", "x"})
+        lobbying_spend = 0.0
+        if lobbying:
+            lobbying_spend = sum(
+                lobbying.get(key) or 0.0
+                for key in ("total_lobbying_expend_amt", "total_lobbying_expenditures_amt")
+            )
+        org["political_activity_flag"] = 1 if (pol_flag or lobbying_spend > 0) else 0
+    else:
+        lobbying = None
+
+    return {"org": org, "grants": grants, "people": people, "lobbying": lobbying}
 
 
 def _parse_officers(form: etree._Element, ein: str | None,
@@ -172,6 +185,78 @@ def _parse_grants(return_data: etree._Element, ein: str | None,
     return rows
 
 
+# Part II-B checklist: which lobbying activities the filer engaged in.
+# (element local-name, human-readable label)
+_SCHEDULE_C_ACTIVITY_FLAGS = (
+    ("VolunteersInd", "volunteers"),
+    ("PaidStaffOrManagementInd", "paid_staff_or_management"),
+    ("MediaAdvertisementsInd", "media_advertisements"),
+    ("MailingsMembersInd", "mailings_to_members"),
+    ("PublicationsOrBroadcastInd", "publications_or_broadcast"),
+    ("GrantsOtherOrganizationsInd", "grants_to_other_organizations"),
+    ("DirectContactLegislatorsInd", "direct_contact_with_legislators"),
+    ("RalliesDemonstrationsInd", "rallies_or_demonstrations"),
+    ("OtherActivitiesInd", "other_activities"),
+)
+
+
+def _parse_schedule_c(return_data: etree._Element, ein: str | None,
+                      tax_year: int | None) -> dict[str, Any] | None:
+    """Extract lobbying-expenditure data (Schedule C) for one return.
+
+    Schedule C has three mutually-exclusive lobbying sections depending on
+    the filer's exemption type and 501(h) election:
+      - Part I-A: political organizations / 527(f) exempt-function spending.
+      - Part II-A: 501(c)(3) orgs that elected the 501(h) expenditure test.
+      - Part II-B: 501(c)(3) orgs that did NOT elect 501(h) (activity-based
+        test); reports an activity checklist plus dollar amounts.
+      - Part III-B: 501(c)(4)/(5)/(6) orgs; reports nondeductible lobbying
+        and political dues allocations.
+    Returns None if the filer did not attach Schedule C at all.
+    """
+    sched_c = _child(return_data, "IRS990ScheduleC")
+    if sched_c is None:
+        return None
+
+    row: dict[str, Any] = {
+        "ein": ein,
+        "tax_year": tax_year,
+        # Part I-A
+        "total_exempt_function_expend_amt": _float(_text(sched_c, "TotalExemptFunctionExpendAmt")),
+        # Part II-A (501(h) electors)
+        "total_lobbying_expend_amt": _float(
+            _text(sched_c, "TotalLobbyingExpendGrp", "FilingOrganizationsTotalAmt")
+        ),
+        "total_exempt_purpose_expend_amt": _float(
+            _text(sched_c, "TotalExemptPurposeExpendGrp", "FilingOrganizationsTotalAmt")
+        ),
+        "lobbying_nontaxable_amt": _float(
+            _text(sched_c, "LobbyingNontaxableAmountGrp", "FilingOrganizationsTotalAmt")
+        ),
+        "grassroots_nontaxable_amt": _float(
+            _text(sched_c, "GrassrootsNontaxableGrp", "FilingOrganizationsTotalAmt")
+        ),
+        "lobbying_ceiling_amt": _float(_text(sched_c, "LobbyingCeilingAmt")),
+        "grassroots_ceiling_amt": _float(_text(sched_c, "GrassrootsCeilingAmt")),
+        # Part II-B (non-electing 501(c)(3))
+        "total_lobbying_expenditures_amt": _float(_text(sched_c, "TotalLobbyingExpendituresAmt")),
+        "direct_contact_legislators_amt": _float(_text(sched_c, "DirectContactLegislatorsAmt")),
+        "other_lobbying_activities_amt": _float(_text(sched_c, "OtherActivitiesAmt")),
+        # Part III-B (501(c)(4)/(5)/(6))
+        "nondeductible_lobbying_pltcl_amt": _float(_text(sched_c, "NonDeductibleLbbyngPltclTotAmt")),
+        "taxable_amt": _float(_text(sched_c, "TaxableAmt")),
+        "raw_json": None,
+    }
+
+    activity_types = [
+        label for tag, label in _SCHEDULE_C_ACTIVITY_FLAGS
+        if (_text(sched_c, tag) or "").lower() in {"1", "true", "x"}
+    ]
+    row["lobbying_activity_types"] = activity_types or None
+
+    return row
+
+
 def ingest_990_file(path: str | Path) -> None:
     """Parse and write a single 990 XML file to SQLite."""
     init_db()
@@ -184,6 +269,8 @@ def ingest_990_file(path: str | Path) -> None:
         upsert(conn, "orgs", org)
         insert_many(conn, "org_grants", parsed["grants"])
         insert_many(conn, "org_people", parsed["people"])
+        if parsed["lobbying"]:
+            upsert(conn, "org_lobbying", parsed["lobbying"])
 
 
 def ingest_990_directory(directory: str | Path, pattern: str = "*.xml") -> int:
@@ -204,6 +291,8 @@ def ingest_990_directory(directory: str | Path, pattern: str = "*.xml") -> int:
             upsert(conn, "orgs", org)
             insert_many(conn, "org_grants", parsed["grants"])
             insert_many(conn, "org_people", parsed["people"])
+            if parsed["lobbying"]:
+                upsert(conn, "org_lobbying", parsed["lobbying"])
             count += 1
             if count % 500 == 0:
                 logger.info("Ingested %d 990 files...", count)
