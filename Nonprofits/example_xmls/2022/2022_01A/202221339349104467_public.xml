@@ -1,0 +1,955 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Return xmlns="http://www.irs.gov/efile" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.irs.gov/efile" returnVersion="2021v4.2">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2022-05-13T16:24:49-05:00</ReturnTs>
+    <TaxPeriodEndDt>2021-12-31</TaxPeriodEndDt>
+    <PreparerFirmGrp>
+      <PreparerFirmEIN>950858589</PreparerFirmEIN>
+      <PreparerFirmName>
+        <BusinessNameLine1Txt>HUTCHINSON &amp; BLOODGOOD LLP</BusinessNameLine1Txt>
+      </PreparerFirmName>
+      <PreparerUSAddress>
+        <AddressLine1Txt>200 EAST CARRILLO STREET SUITE 303</AddressLine1Txt>
+        <CityNm>SANTA BARBARA</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>93101</ZIPCd>
+      </PreparerUSAddress>
+    </PreparerFirmGrp>
+    <ReturnTypeCd>990PF</ReturnTypeCd>
+    <TaxPeriodBeginDt>2021-01-01</TaxPeriodBeginDt>
+    <Filer>
+      <EIN>956225967</EIN>
+      <BusinessName>
+        <BusinessNameLine1Txt>BATTISTONE FOUNDATION</BusinessNameLine1Txt>
+      </BusinessName>
+      <BusinessNameControlTxt>BATT</BusinessNameControlTxt>
+      <PhoneNum>8059652250</PhoneNum>
+      <USAddress>
+        <AddressLine1Txt>PO BOX 3858</AddressLine1Txt>
+        <CityNm>SANTA BARBARA</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>93130</ZIPCd>
+      </USAddress>
+    </Filer>
+    <BusinessOfficerGrp>
+      <PersonNm>CINDY BATTISTONE HILL</PersonNm>
+      <PersonTitleTxt>CHIEF EXECUTIVE OFFICER</PersonTitleTxt>
+      <PhoneNum>8059652250</PhoneNum>
+      <SignatureDt>2022-05-12</SignatureDt>
+      <DiscussWithPaidPreparerInd>1</DiscussWithPaidPreparerInd>
+    </BusinessOfficerGrp>
+    <SigningOfficerGrp>
+      <PersonFullName>
+        <PersonFirstNm>CINDY</PersonFirstNm>
+        <PersonLastNm>BATTISTONE HILL</PersonLastNm>
+      </PersonFullName>
+      <SSN>999009999</SSN>
+    </SigningOfficerGrp>
+    <PreparerPersonGrp>
+      <PreparerPersonNm>CATHERINE MACAULAY</PreparerPersonNm>
+      <PTIN>P00178796</PTIN>
+      <PhoneNum>8059631837</PhoneNum>
+    </PreparerPersonGrp>
+    <AdditionalFilerInformation>
+      <TrustedCustomerGrp>
+        <TrustedCustomerCd>3</TrustedCustomerCd>
+        <AuthenticationAssuranceLevelCd>AAL1</AuthenticationAssuranceLevelCd>
+        <IdentityAssuranceLevelCd>IAL1</IdentityAssuranceLevelCd>
+      </TrustedCustomerGrp>
+    </AdditionalFilerInformation>
+    <TaxYr>2021</TaxYr>
+    <BuildTS>2022-09-23 18:48:47Z</BuildTS>
+  </ReturnHeader>
+  <ReturnData documentCnt="15">
+    <IRS990PF documentId="RetDoc1235000001" referenceDocumentId="RetDoc2258700001">
+      <Organization501c3ExemptPFInd>X</Organization501c3ExemptPFInd>
+      <FMVAssetsEOYAmt>40025515</FMVAssetsEOYAmt>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <AnalysisOfRevenueAndExpenses>
+        <ScheduleBNotRequiredInd>X</ScheduleBNotRequiredInd>
+        <DividendsRevAndExpnssAmt>122681</DividendsRevAndExpnssAmt>
+        <DividendsNetInvstIncmAmt>122681</DividendsNetInvstIncmAmt>
+        <DividendsAdjNetIncmAmt>122681</DividendsAdjNetIncmAmt>
+        <GrossRentsRevAndExpnssAmt>22308</GrossRentsRevAndExpnssAmt>
+        <GrossRentsNetInvstIncmAmt>22308</GrossRentsNetInvstIncmAmt>
+        <GrossRentsAdjNetIncmAmt>22308</GrossRentsAdjNetIncmAmt>
+        <NetRentalIncomeOrLossAmt>16218</NetRentalIncomeOrLossAmt>
+        <NetGainSaleAstRevAndExpnssAmt>236594</NetGainSaleAstRevAndExpnssAmt>
+        <GrossSalesPriceAmt>1169293</GrossSalesPriceAmt>
+        <CapGainNetIncmNetInvstIncmAmt>236594</CapGainNetIncmNetInvstIncmAmt>
+        <NetSTCapitalGainAdjNetIncmAmt>36716</NetSTCapitalGainAdjNetIncmAmt>
+        <OtherIncomeRevAndExpnssAmt referenceDocumentId="RetDoc2001500001">1911600</OtherIncomeRevAndExpnssAmt>
+        <OtherIncomeNetInvstIncmAmt>0</OtherIncomeNetInvstIncmAmt>
+        <OtherIncomeAdjNetIncmAmt>1911600</OtherIncomeAdjNetIncmAmt>
+        <TotalRevAndExpnssAmt>2293183</TotalRevAndExpnssAmt>
+        <TotalNetInvstIncmAmt>381583</TotalNetInvstIncmAmt>
+        <TotalAdjNetIncmAmt>2093305</TotalAdjNetIncmAmt>
+        <CompOfcrDirTrstRevAndExpnssAmt>304250</CompOfcrDirTrstRevAndExpnssAmt>
+        <CompOfcrDirTrstNetInvstIncmAmt>22413</CompOfcrDirTrstNetInvstIncmAmt>
+        <CompOfcrDirTrstAdjNetIncmAmt>144225</CompOfcrDirTrstAdjNetIncmAmt>
+        <CompOfcrDirTrstDsbrsChrtblAmt>137613</CompOfcrDirTrstDsbrsChrtblAmt>
+        <OthEmplSlrsWgsRevAndExpnssAmt>463268</OthEmplSlrsWgsRevAndExpnssAmt>
+        <OthEmplSlrsWgsNetInvstIncmAmt>0</OthEmplSlrsWgsNetInvstIncmAmt>
+        <OthEmplSlrsWgsAdjNetIncmAmt>463268</OthEmplSlrsWgsAdjNetIncmAmt>
+        <OthEmplSlrsWgsDsbrsChrtblAmt>0</OthEmplSlrsWgsDsbrsChrtblAmt>
+        <PensionEmplBnftRevAndExpnssAmt>13703</PensionEmplBnftRevAndExpnssAmt>
+        <PensionEmplBnftNetInvstIncmAmt>0</PensionEmplBnftNetInvstIncmAmt>
+        <PensionEmplBnftAdjNetIncmAmt>13703</PensionEmplBnftAdjNetIncmAmt>
+        <PensionEmplBnftDsbrsChrtblAmt>0</PensionEmplBnftDsbrsChrtblAmt>
+        <LegalFeesRevAndExpnssAmt referenceDocumentId="RetDoc2002100001">55176</LegalFeesRevAndExpnssAmt>
+        <LegalFeesNetInvstIncmAmt>0</LegalFeesNetInvstIncmAmt>
+        <LegalFeesAdjNetIncmAmt>41817</LegalFeesAdjNetIncmAmt>
+        <LegalFeesDsbrsChrtblAmt>13359</LegalFeesDsbrsChrtblAmt>
+        <AccountingFeesRevAndExpnssAmt referenceDocumentId="RetDoc2002200001">9912</AccountingFeesRevAndExpnssAmt>
+        <AccountingFeesNetInvstIncmAmt>992</AccountingFeesNetInvstIncmAmt>
+        <AccountingFeesAdjNetIncmAmt>4460</AccountingFeesAdjNetIncmAmt>
+        <AccountingFeesChrtblPrpsAmt>4460</AccountingFeesChrtblPrpsAmt>
+        <OtherProfFeesRevAndExpnssAmt referenceDocumentId="RetDoc2002300001">67637</OtherProfFeesRevAndExpnssAmt>
+        <OtherProfFeesNetInvstIncmAmt>59763</OtherProfFeesNetInvstIncmAmt>
+        <OtherProfFeesAdjNetIncmAmt>7874</OtherProfFeesAdjNetIncmAmt>
+        <OtherProfFeesDsbrsChrtblAmt>0</OtherProfFeesDsbrsChrtblAmt>
+        <TaxesRevAndExpnssAmt referenceDocumentId="RetDoc2002500001">56392</TaxesRevAndExpnssAmt>
+        <TaxesNetInvstIncmAmt>1879</TaxesNetInvstIncmAmt>
+        <TaxesAdjNetIncmAmt>54761</TaxesAdjNetIncmAmt>
+        <TaxesDsbrsChrtblAmt>486</TaxesDsbrsChrtblAmt>
+        <DeprecAndDpltnRevAndExpnssAmt>291920</DeprecAndDpltnRevAndExpnssAmt>
+        <DeprecAndDpltnNetInvstIncmAmt>757</DeprecAndDpltnNetInvstIncmAmt>
+        <DeprecAndDpltnAdjNetIncmAmt>291920</DeprecAndDpltnAdjNetIncmAmt>
+        <OtherExpensesRevAndExpnssAmt referenceDocumentId="RetDoc2003200001">696972</OtherExpensesRevAndExpnssAmt>
+        <OtherExpensesNetInvstIncmAmt>9664</OtherExpensesNetInvstIncmAmt>
+        <OtherExpensesAdjNetIncmAmt>688247</OtherExpensesAdjNetIncmAmt>
+        <OtherExpensesDsbrsChrtblAmt>3298</OtherExpensesDsbrsChrtblAmt>
+        <TotOprExpensesRevAndExpnssAmt>1959230</TotOprExpensesRevAndExpnssAmt>
+        <TotOprExpensesNetInvstIncmAmt>95468</TotOprExpensesNetInvstIncmAmt>
+        <TotOprExpensesAdjNetIncmAmt>1710275</TotOprExpensesAdjNetIncmAmt>
+        <TotOprExpensesDsbrsChrtblAmt>159216</TotOprExpensesDsbrsChrtblAmt>
+        <ContriPaidRevAndExpnssAmt>0</ContriPaidRevAndExpnssAmt>
+        <ContriPaidDsbrsChrtblAmt>0</ContriPaidDsbrsChrtblAmt>
+        <TotalExpensesRevAndExpnssAmt>1959230</TotalExpensesRevAndExpnssAmt>
+        <TotalExpensesNetInvstIncmAmt>95468</TotalExpensesNetInvstIncmAmt>
+        <TotalExpensesAdjNetIncmAmt>1710275</TotalExpensesAdjNetIncmAmt>
+        <TotalExpensesDsbrsChrtblAmt>159216</TotalExpensesDsbrsChrtblAmt>
+        <ExcessRevenueOverExpensesAmt>333953</ExcessRevenueOverExpensesAmt>
+        <NetInvestmentIncomeAmt>286115</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>383030</AdjustedNetIncomeAmt>
+      </AnalysisOfRevenueAndExpenses>
+      <Form990PFBalanceSheetsGrp>
+        <SavAndTempCashInvstBOYAmt>605089</SavAndTempCashInvstBOYAmt>
+        <SavAndTempCashInvstEOYAmt>482499</SavAndTempCashInvstEOYAmt>
+        <SavAndTempCashInvstEOYFMVAmt>482499</SavAndTempCashInvstEOYFMVAmt>
+        <USGovernmentObligationsBOYAmt>732318</USGovernmentObligationsBOYAmt>
+        <USGovernmentObligationsEOYAmt referenceDocumentId="RetDoc2210400001">634952</USGovernmentObligationsEOYAmt>
+        <USGovtObligationsEOYFMVAmt>663116</USGovtObligationsEOYFMVAmt>
+        <CorporateStockBOYAmt>2779799</CorporateStockBOYAmt>
+        <CorporateStockEOYAmt referenceDocumentId="RetDoc2018900001">3170866</CorporateStockEOYAmt>
+        <CorporateStockEOYFMVAmt>4757520</CorporateStockEOYFMVAmt>
+        <CorporateBondsBOYAmt>39765</CorporateBondsBOYAmt>
+        <CorporateBondsEOYAmt referenceDocumentId="RetDoc2044400001">9764</CorporateBondsEOYAmt>
+        <CorporateBondsEOYFMVAmt>10568</CorporateBondsEOYFMVAmt>
+        <OtherInvestmentsBOYAmt>378075</OtherInvestmentsBOYAmt>
+        <OtherInvestmentsEOYAmt referenceDocumentId="RetDoc2018100001">413941</OtherInvestmentsEOYAmt>
+        <OtherInvestmentsEOYFMVAmt>410510</OtherInvestmentsEOYFMVAmt>
+        <LandBldgEquipCostOrOtherBssAmt>14470098</LandBldgEquipCostOrOtherBssAmt>
+        <LandBldgEquipAccumDeprecAmt>8115014</LandBldgEquipAccumDeprecAmt>
+        <LandBOYAmt>5994781</LandBOYAmt>
+        <LandEOYAmt>6355084</LandEOYAmt>
+        <LandEOYFMVAmt>33581816</LandEOYFMVAmt>
+        <OtherAssetsBOYAmt referenceDocumentId="RetDoc2046600001">319798</OtherAssetsBOYAmt>
+        <OtherAssetsEOYAmt referenceDocumentId="RetDoc2046600001">119486</OtherAssetsEOYAmt>
+        <OtherAssetsEOYFMVAmt referenceDocumentId="RetDoc2046600001">119486</OtherAssetsEOYFMVAmt>
+        <TotalAssetsBOYAmt>10849625</TotalAssetsBOYAmt>
+        <TotalAssetsEOYAmt>11186592</TotalAssetsEOYAmt>
+        <TotalAssetsEOYFMVAmt>40025515</TotalAssetsEOYFMVAmt>
+        <OtherLiabilitiesBOYAmt referenceDocumentId="RetDoc2065700001">132315</OtherLiabilitiesBOYAmt>
+        <OtherLiabilitiesEOYAmt referenceDocumentId="RetDoc2065700001">135329</OtherLiabilitiesEOYAmt>
+        <TotalLiabilitiesBOYAmt>132315</TotalLiabilitiesBOYAmt>
+        <TotalLiabilitiesEOYAmt>135329</TotalLiabilitiesEOYAmt>
+        <OrgDoesNotFollowFASB117Ind>X</OrgDoesNotFollowFASB117Ind>
+        <CapitalStockBOYAmt>0</CapitalStockBOYAmt>
+        <CapitalStockEOYAmt>0</CapitalStockEOYAmt>
+        <AdditionalPaidInCapitalBOYAmt>0</AdditionalPaidInCapitalBOYAmt>
+        <AdditionalPaidInCapitalEOYAmt>0</AdditionalPaidInCapitalEOYAmt>
+        <RetainedEarningBOYAmt>10717310</RetainedEarningBOYAmt>
+        <RetainedEarningEOYAmt>11051263</RetainedEarningEOYAmt>
+        <TotNetAstOrFundBalancesBOYAmt>10717310</TotNetAstOrFundBalancesBOYAmt>
+        <TotNetAstOrFundBalancesEOYAmt>11051263</TotNetAstOrFundBalancesEOYAmt>
+        <TotalLiabilitiesNetAstBOYAmt>10849625</TotalLiabilitiesNetAstBOYAmt>
+        <TotalLiabilitiesNetAstEOYAmt>11186592</TotalLiabilitiesNetAstEOYAmt>
+      </Form990PFBalanceSheetsGrp>
+      <ChgInNetAssetsFundBalancesGrp>
+        <TotNetAstOrFundBalancesBOYAmt>10717310</TotNetAstOrFundBalancesBOYAmt>
+        <ExcessRevenueOverExpensesAmt>333953</ExcessRevenueOverExpensesAmt>
+        <OtherIncreasesAmt>0</OtherIncreasesAmt>
+        <SubtotalAmt>11051263</SubtotalAmt>
+        <OtherDecreasesAmt>0</OtherDecreasesAmt>
+        <TotNetAstOrFundBalancesEOYAmt>11051263</TotNetAstOrFundBalancesEOYAmt>
+      </ChgInNetAssetsFundBalancesGrp>
+      <CapGainsLossTxInvstIncmDetail>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>TD AMERITRADE</PropertyDesc>
+          <HowAcquiredCd>P</HowAcquiredCd>
+          <AcquiredDt>2021-01-01</AcquiredDt>
+          <SoldDt>2021-12-31</SoldDt>
+          <GrossSalesPriceAmt>281832</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>245116</CostOrOtherBasisAmt>
+          <GainOrLossAmt>36716</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>36716</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>TD AMERITRADE</PropertyDesc>
+          <HowAcquiredCd>P</HowAcquiredCd>
+          <AcquiredDt>2020-01-01</AcquiredDt>
+          <SoldDt>2021-12-31</SoldDt>
+          <GrossSalesPriceAmt>823798</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>687583</CostOrOtherBasisAmt>
+          <GainOrLossAmt>136215</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>136215</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>CAPITAL GAINS DIVIDENDS</PropertyDesc>
+          <HowAcquiredCd>P</HowAcquiredCd>
+          <GrossSalesPriceAmt>63663</GrossSalesPriceAmt>
+          <GainOrLossAmt>63663</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>63663</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapitalGainNetIncomeAmt>236594</CapitalGainNetIncomeAmt>
+        <NetShortTermCapitalGainLossAmt>36716</NetShortTermCapitalGainLossAmt>
+      </CapGainsLossTxInvstIncmDetail>
+      <ExciseTaxBasedOnInvstIncmGrp>
+        <InvestmentIncomeExciseTaxAmt>3977</InvestmentIncomeExciseTaxAmt>
+        <TaxUnderSection511Amt>0</TaxUnderSection511Amt>
+        <SubtotalAmt>3977</SubtotalAmt>
+        <SubtitleATaxAmt>0</SubtitleATaxAmt>
+        <TaxBasedOnInvestmentIncomeAmt>3977</TaxBasedOnInvestmentIncomeAmt>
+        <EstimatedPlusOvpmtIncmTxAmt>1200</EstimatedPlusOvpmtIncmTxAmt>
+        <ExemptFrgnOrgTaxWthldAtSrceAmt>0</ExemptFrgnOrgTaxWthldAtSrceAmt>
+        <ExtsnRequestIncomeTaxPaidAmt>0</ExtsnRequestIncomeTaxPaidAmt>
+        <BackupWithholdingWithheldAmt>0</BackupWithholdingWithheldAmt>
+        <TotalPaymentsAndCreditsAmt>1200</TotalPaymentsAndCreditsAmt>
+        <EsPenaltyAmt>0</EsPenaltyAmt>
+        <TaxDueAmt>2777</TaxDueAmt>
+      </ExciseTaxBasedOnInvstIncmGrp>
+      <StatementsRegardingActyGrp>
+        <LegislativePoliticalActyInd>0</LegislativePoliticalActyInd>
+        <MoreThan100SpentInd>0</MoreThan100SpentInd>
+        <Form1120POLFiledInd>0</Form1120POLFiledInd>
+        <Section4955OrganizationTaxAmt>0</Section4955OrganizationTaxAmt>
+        <Section4955ManagersTaxAmt>0</Section4955ManagersTaxAmt>
+        <TaxReimbursedAmt>0</TaxReimbursedAmt>
+        <ActivitiesNotPreviouslyRptInd>0</ActivitiesNotPreviouslyRptInd>
+        <ChangesToArticlesOrBylawsInd>0</ChangesToArticlesOrBylawsInd>
+        <UnrelatedBusIncmOverLimitInd>0</UnrelatedBusIncmOverLimitInd>
+        <OrganizationDissolvedEtcInd>0</OrganizationDissolvedEtcInd>
+        <Section508eRqrSatisfiedInd>1</Section508eRqrSatisfiedInd>
+        <AtLeast5000InAssetsInd>1</AtLeast5000InAssetsInd>
+        <OrgReportOrRegisterStateCd>CA</OrgReportOrRegisterStateCd>
+        <Form990PFFiledWithAttyGenInd>1</Form990PFFiledWithAttyGenInd>
+        <PrivateOperatingFoundationInd>1</PrivateOperatingFoundationInd>
+        <NewSubstantialContributorsInd>0</NewSubstantialContributorsInd>
+        <OwnControlledEntityInd referenceDocumentId="RetDoc2204900001">1</OwnControlledEntityInd>
+        <DonorAdvisedFundInd>0</DonorAdvisedFundInd>
+        <ComplyWithPublicInspRqrInd>1</ComplyWithPublicInspRqrInd>
+        <WebsiteAddressTxt>BFSB.ORG</WebsiteAddressTxt>
+        <IndividualWithBooksNm>CINDY HILL</IndividualWithBooksNm>
+        <PhoneNum>8059652250</PhoneNum>
+        <LocationOfBooksUSAddress>
+          <AddressLine1Txt>1324 DE LA VINA STREET</AddressLine1Txt>
+          <CityNm>SANTA BARBARA</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>93101</ZIPCd>
+        </LocationOfBooksUSAddress>
+        <ForeignAccountsQuestionInd>0</ForeignAccountsQuestionInd>
+      </StatementsRegardingActyGrp>
+      <StatementsRegardingActy4720Grp>
+        <SaleOrExchDisqualifiedPrsnInd>0</SaleOrExchDisqualifiedPrsnInd>
+        <BrrwOrLendDisqualifiedPrsnInd>0</BrrwOrLendDisqualifiedPrsnInd>
+        <FurnGoodsDisqualifiedPrsnInd>1</FurnGoodsDisqualifiedPrsnInd>
+        <PayCompDisqualifiedPrsnInd>1</PayCompDisqualifiedPrsnInd>
+        <TransferAstDisqualifiedPrsnInd>0</TransferAstDisqualifiedPrsnInd>
+        <PaymentToGovernmentOfficialInd>0</PaymentToGovernmentOfficialInd>
+        <ActsFailToQlfyAsExceptionsInd>0</ActsFailToQlfyAsExceptionsInd>
+        <UncorrectedPriorActsInd>0</UncorrectedPriorActsInd>
+        <UndistributedIncomePYInd>0</UndistributedIncomePYInd>
+        <BusinessHoldingsInd>0</BusinessHoldingsInd>
+        <JeopardyInvestmentsInd>0</JeopardyInvestmentsInd>
+        <UncorrectedPYJeopardyInvstInd>0</UncorrectedPYJeopardyInvstInd>
+        <InfluenceLegislationInd>0</InfluenceLegislationInd>
+        <InfluenceElectionInd>0</InfluenceElectionInd>
+        <GrantsToIndividualsInd>0</GrantsToIndividualsInd>
+        <GrantsToOrganizationsInd>0</GrantsToOrganizationsInd>
+        <NoncharitablePurposeInd>0</NoncharitablePurposeInd>
+        <RcvFndsToPayPrsnlBnftCntrctInd>0</RcvFndsToPayPrsnlBnftCntrctInd>
+        <PayPremiumsPrsnlBnftCntrctInd>0</PayPremiumsPrsnlBnftCntrctInd>
+        <ProhibitedTaxShelterTransInd>0</ProhibitedTaxShelterTransInd>
+        <SubjToTaxRmnrtnExPrchtPymtInd>0</SubjToTaxRmnrtnExPrchtPymtInd>
+      </StatementsRegardingActy4720Grp>
+      <OfficerDirTrstKeyEmplInfoGrp>
+        <OfficerDirTrstKeyEmplGrp>
+          <PersonNm>CINDY HILL</PersonNm>
+          <USAddress>
+            <AddressLine1Txt>1324 DE LA VINA STREET</AddressLine1Txt>
+            <CityNm>SANTA BARBARA</CityNm>
+            <StateAbbreviationCd>CA</StateAbbreviationCd>
+            <ZIPCd>93101</ZIPCd>
+          </USAddress>
+          <TitleTxt>CHIEF EXECUTIVE OFFICER</TitleTxt>
+          <AverageHrsPerWkDevotedToPosRt>40.00</AverageHrsPerWkDevotedToPosRt>
+          <CompensationAmt>160250</CompensationAmt>
+          <EmployeeBenefitProgramAmt>29882</EmployeeBenefitProgramAmt>
+          <ExpenseAccountOtherAllwncAmt>120527</ExpenseAccountOtherAllwncAmt>
+        </OfficerDirTrstKeyEmplGrp>
+        <OfficerDirTrstKeyEmplGrp>
+          <PersonNm>J ROGER BATTISTONE</PersonNm>
+          <USAddress>
+            <AddressLine1Txt>1324 DE LA VINA STREET</AddressLine1Txt>
+            <CityNm>SANTA BARBARA</CityNm>
+            <StateAbbreviationCd>CA</StateAbbreviationCd>
+            <ZIPCd>93101</ZIPCd>
+          </USAddress>
+          <TitleTxt>TRUSTEE/RETIRED CEO</TitleTxt>
+          <AverageHrsPerWkDevotedToPosRt>8.00</AverageHrsPerWkDevotedToPosRt>
+          <CompensationAmt>36000</CompensationAmt>
+          <EmployeeBenefitProgramAmt>0</EmployeeBenefitProgramAmt>
+          <ExpenseAccountOtherAllwncAmt>0</ExpenseAccountOtherAllwncAmt>
+        </OfficerDirTrstKeyEmplGrp>
+        <OfficerDirTrstKeyEmplGrp>
+          <PersonNm>DONA KIRBY</PersonNm>
+          <USAddress>
+            <AddressLine1Txt>1324 DE LA VINA STREET</AddressLine1Txt>
+            <CityNm>SANTA BARBARA</CityNm>
+            <StateAbbreviationCd>CA</StateAbbreviationCd>
+            <ZIPCd>93101</ZIPCd>
+          </USAddress>
+          <TitleTxt>TRUSTEE</TitleTxt>
+          <AverageHrsPerWkDevotedToPosRt>8.00</AverageHrsPerWkDevotedToPosRt>
+          <CompensationAmt>36000</CompensationAmt>
+          <EmployeeBenefitProgramAmt>0</EmployeeBenefitProgramAmt>
+          <ExpenseAccountOtherAllwncAmt>0</ExpenseAccountOtherAllwncAmt>
+        </OfficerDirTrstKeyEmplGrp>
+        <OfficerDirTrstKeyEmplGrp>
+          <PersonNm>CHAD STEVENS</PersonNm>
+          <USAddress>
+            <AddressLine1Txt>1324 DE LA VINA STREET</AddressLine1Txt>
+            <CityNm>SANTA BARBARA</CityNm>
+            <StateAbbreviationCd>CA</StateAbbreviationCd>
+            <ZIPCd>93101</ZIPCd>
+          </USAddress>
+          <TitleTxt>TRUSTEE</TitleTxt>
+          <AverageHrsPerWkDevotedToPosRt>8.00</AverageHrsPerWkDevotedToPosRt>
+          <CompensationAmt>36000</CompensationAmt>
+          <EmployeeBenefitProgramAmt>0</EmployeeBenefitProgramAmt>
+          <ExpenseAccountOtherAllwncAmt>0</ExpenseAccountOtherAllwncAmt>
+        </OfficerDirTrstKeyEmplGrp>
+        <OfficerDirTrstKeyEmplGrp>
+          <PersonNm>DANN BATTISTONE</PersonNm>
+          <USAddress>
+            <AddressLine1Txt>1324 DE LA VINA STREET</AddressLine1Txt>
+            <CityNm>SANTA BARBARA</CityNm>
+            <StateAbbreviationCd>CA</StateAbbreviationCd>
+            <ZIPCd>93101</ZIPCd>
+          </USAddress>
+          <TitleTxt>TRUSTEE</TitleTxt>
+          <AverageHrsPerWkDevotedToPosRt>8.00</AverageHrsPerWkDevotedToPosRt>
+          <CompensationAmt>36000</CompensationAmt>
+          <EmployeeBenefitProgramAmt>0</EmployeeBenefitProgramAmt>
+          <ExpenseAccountOtherAllwncAmt>0</ExpenseAccountOtherAllwncAmt>
+        </OfficerDirTrstKeyEmplGrp>
+        <CompensationHighestPaidEmplGrp>
+          <PersonNm>CARLOS GUERRERO</PersonNm>
+          <USAddress>
+            <AddressLine1Txt>3635 SAN PABLO LANE</AddressLine1Txt>
+            <CityNm>SANTA BARBARA</CityNm>
+            <StateAbbreviationCd>CA</StateAbbreviationCd>
+            <ZIPCd>93105</ZIPCd>
+          </USAddress>
+          <TitleTxt>MAINTENANCE AND RENO</TitleTxt>
+          <AverageHrsPerWkDevotedToPosRt>40.00</AverageHrsPerWkDevotedToPosRt>
+          <CompensationAmt>78029</CompensationAmt>
+          <EmployeeBenefitsAmt>10723</EmployeeBenefitsAmt>
+          <ExpenseAccountAmt>0</ExpenseAccountAmt>
+        </CompensationHighestPaidEmplGrp>
+        <CompensationHighestPaidEmplGrp>
+          <PersonNm>ANTHONY LENZI</PersonNm>
+          <USAddress>
+            <AddressLine1Txt>522 WEST VICTORIA STREET APT E</AddressLine1Txt>
+            <CityNm>SANTA BARBARA</CityNm>
+            <StateAbbreviationCd>CA</StateAbbreviationCd>
+            <ZIPCd>93101</ZIPCd>
+          </USAddress>
+          <TitleTxt>PAINTER AND MAINTENA</TitleTxt>
+          <AverageHrsPerWkDevotedToPosRt>40.00</AverageHrsPerWkDevotedToPosRt>
+          <CompensationAmt>59596</CompensationAmt>
+          <EmployeeBenefitsAmt>10787</EmployeeBenefitsAmt>
+          <ExpenseAccountAmt>0</ExpenseAccountAmt>
+        </CompensationHighestPaidEmplGrp>
+        <OtherEmployeePaidOver50kCnt>0</OtherEmployeePaidOver50kCnt>
+        <CompensationOfHghstPdCntrctGrp>
+          <BusinessName>
+            <BusinessNameLine1Txt>QUALITY ROOFING OF SB INC</BusinessNameLine1Txt>
+          </BusinessName>
+          <USAddress>
+            <AddressLine1Txt>4141 STATE ST F5</AddressLine1Txt>
+            <CityNm>SANTA BARBARA</CityNm>
+            <StateAbbreviationCd>CA</StateAbbreviationCd>
+            <ZIPCd>93110</ZIPCd>
+          </USAddress>
+          <ServiceTypeTxt>ROOFING</ServiceTypeTxt>
+          <CompensationAmt>200058</CompensationAmt>
+        </CompensationOfHghstPdCntrctGrp>
+        <CompensationOfHghstPdCntrctGrp>
+          <BusinessName>
+            <BusinessNameLine1Txt>ONE CAPITAL MGMT LLC</BusinessNameLine1Txt>
+          </BusinessName>
+          <USAddress>
+            <AddressLine1Txt>3075 TOWNSGATE RD STE 350</AddressLine1Txt>
+            <CityNm>WESTLAKE VILLAGE</CityNm>
+            <StateAbbreviationCd>CA</StateAbbreviationCd>
+            <ZIPCd>91361</ZIPCd>
+          </USAddress>
+          <ServiceTypeTxt>INVESTMENT ADVISORY SERVICES</ServiceTypeTxt>
+          <CompensationAmt>59763</CompensationAmt>
+        </CompensationOfHghstPdCntrctGrp>
+        <CompensationOfHghstPdCntrctGrp>
+          <BusinessName>
+            <BusinessNameLine1Txt>FANCY FLOORS</BusinessNameLine1Txt>
+          </BusinessName>
+          <USAddress>
+            <AddressLine1Txt>723 HALEY ST</AddressLine1Txt>
+            <CityNm>SANTA BARBARA</CityNm>
+            <StateAbbreviationCd>CA</StateAbbreviationCd>
+            <ZIPCd>93103</ZIPCd>
+          </USAddress>
+          <ServiceTypeTxt>FLOORING INSTALLATION</ServiceTypeTxt>
+          <CompensationAmt>55845</CompensationAmt>
+        </CompensationOfHghstPdCntrctGrp>
+        <CompensationOfHghstPdCntrctGrp>
+          <BusinessName>
+            <BusinessNameLine1Txt>MULLEN AND HENZELL LLP</BusinessNameLine1Txt>
+          </BusinessName>
+          <USAddress>
+            <AddressLine1Txt>112 E VICTORIA ST</AddressLine1Txt>
+            <CityNm>SANTA BARBARA</CityNm>
+            <StateAbbreviationCd>CA</StateAbbreviationCd>
+            <ZIPCd>93101</ZIPCd>
+          </USAddress>
+          <ServiceTypeTxt>LEGAL</ServiceTypeTxt>
+          <CompensationAmt>55176</CompensationAmt>
+        </CompensationOfHghstPdCntrctGrp>
+        <CompensationOfHghstPdCntrctGrp>
+          <BusinessName>
+            <BusinessNameLine1Txt>JERRY THE PLUMBER INC</BusinessNameLine1Txt>
+          </BusinessName>
+          <USAddress>
+            <AddressLine1Txt>PO BOX 30567</AddressLine1Txt>
+            <CityNm>SANTA BARBARA</CityNm>
+            <StateAbbreviationCd>CA</StateAbbreviationCd>
+            <ZIPCd>93130</ZIPCd>
+          </USAddress>
+          <ServiceTypeTxt>PLUMBING</ServiceTypeTxt>
+          <CompensationAmt>50600</CompensationAmt>
+        </CompensationOfHghstPdCntrctGrp>
+        <ContractorPaidOver50kCnt>0</ContractorPaidOver50kCnt>
+      </OfficerDirTrstKeyEmplInfoGrp>
+      <SummaryOfDirectChrtblActyGrp>
+        <Description1Txt>PROVIDE HOUSING FOR THE ELDERLY.</Description1Txt>
+        <Expenses1Amt>1704187</Expenses1Amt>
+      </SummaryOfDirectChrtblActyGrp>
+      <SumOfProgramRelatedInvstGrp>
+        <TotalAmt>0</TotalAmt>
+      </SumOfProgramRelatedInvstGrp>
+      <MinimumInvestmentReturnGrp>
+        <AverageMonthlyFMVOfSecAmt>5033111</AverageMonthlyFMVOfSecAmt>
+        <AverageMonthlyCashBalancesAmt>651072</AverageMonthlyCashBalancesAmt>
+        <FMVAllOtherNoncharitableAstAmt>410510</FMVAllOtherNoncharitableAstAmt>
+        <TotalFMVOfUnusedAssetsAmt>6094693</TotalFMVOfUnusedAssetsAmt>
+        <ReductionClaimedAmt>0</ReductionClaimedAmt>
+        <AcquisitionIndebtednessAmt>0</AcquisitionIndebtednessAmt>
+        <AdjustedTotalFMVOfUnusedAstAmt>6094693</AdjustedTotalFMVOfUnusedAstAmt>
+        <CashDeemedCharitableAmt>91420</CashDeemedCharitableAmt>
+        <NetVlNoncharitableAssetsAmt>6003273</NetVlNoncharitableAssetsAmt>
+        <MinimumInvestmentReturnAmt>300164</MinimumInvestmentReturnAmt>
+      </MinimumInvestmentReturnGrp>
+      <DistributableAmountGrp>
+        <Sect4942j3j5FndtnAndFrgnOrgInd>X</Sect4942j3j5FndtnAndFrgnOrgInd>
+      </DistributableAmountGrp>
+      <PFQualifyingDistributionsGrp>
+        <ExpensesAndContributionsAmt>159216</ExpensesAndContributionsAmt>
+        <ProgramRelatedInvstTotalAmt>0</ProgramRelatedInvstTotalAmt>
+        <CharitableAssetsAcquisPaidAmt>652223</CharitableAssetsAcquisPaidAmt>
+        <QualifyingDistributionsAmt>811439</QualifyingDistributionsAmt>
+      </PFQualifyingDistributionsGrp>
+      <PrivateOperatingFoundationsGrp>
+        <Section4942j3Ind>X</Section4942j3Ind>
+        <LessorAdjNetIncmMinInvstRetGrp>
+          <CurrentYearAmt>300164</CurrentYearAmt>
+          <Year1Amt>249440</Year1Amt>
+          <Year2Amt>227247</Year2Amt>
+          <Year3Amt>206751</Year3Amt>
+          <TotalAmt>983602</TotalAmt>
+        </LessorAdjNetIncmMinInvstRetGrp>
+        <Pct85LessorAdjIncmOrMinRetGrp>
+          <CurrentYearAmt>255139</CurrentYearAmt>
+          <Year1Amt>212024</Year1Amt>
+          <Year2Amt>193160</Year2Amt>
+          <Year3Amt>175738</Year3Amt>
+          <TotalAmt>836062</TotalAmt>
+        </Pct85LessorAdjIncmOrMinRetGrp>
+        <QualifyingDistributionsGrp>
+          <CurrentYearAmt>811439</CurrentYearAmt>
+          <Year1Amt>255211</Year1Amt>
+          <Year2Amt>340354</Year2Amt>
+          <Year3Amt>257993</Year3Amt>
+          <TotalAmt>1664997</TotalAmt>
+        </QualifyingDistributionsGrp>
+        <QualifyingDistriNotUsedDrtGrp>
+          <CurrentYearAmt>0</CurrentYearAmt>
+          <Year1Amt>0</Year1Amt>
+          <Year2Amt>0</Year2Amt>
+          <Year3Amt>0</Year3Amt>
+          <TotalAmt>0</TotalAmt>
+        </QualifyingDistriNotUsedDrtGrp>
+        <QualifyingDistriMadeDrtGrp>
+          <CurrentYearAmt>811439</CurrentYearAmt>
+          <Year1Amt>255211</Year1Amt>
+          <Year2Amt>340354</Year2Amt>
+          <Year3Amt>257993</Year3Amt>
+          <TotalAmt>1664997</TotalAmt>
+        </QualifyingDistriMadeDrtGrp>
+        <TotalAssetsGrp>
+          <CurrentYearAmt>31910501</CurrentYearAmt>
+          <Year1Amt>31726493</Year1Amt>
+          <Year2Amt>31256209</Year2Amt>
+          <Year3Amt>29679337</Year3Amt>
+          <TotalAmt>124572540</TotalAmt>
+        </TotalAssetsGrp>
+        <TotalAssetsSect4942j3BiGrp>
+          <CurrentYearAmt>25298104</CurrentYearAmt>
+          <Year1Amt>25747378</Year1Amt>
+          <Year2Amt>26006842</Year2Amt>
+          <Year3Amt>18156358</Year3Amt>
+          <TotalAmt>95208682</TotalAmt>
+        </TotalAssetsSect4942j3BiGrp>
+        <TwoThirdsMinimumInvstRetGrp>
+          <CurrentYearAmt>200109</CurrentYearAmt>
+          <Year1Amt>166293</Year1Amt>
+          <Year2Amt>151498</Year2Amt>
+          <Year3Amt>137834</Year3Amt>
+          <TotalAmt>655734</TotalAmt>
+        </TwoThirdsMinimumInvstRetGrp>
+        <TotalSupportGrp>
+          <TotalAmt>0</TotalAmt>
+        </TotalSupportGrp>
+        <PublicSupportType>
+          <TotalAmt>0</TotalAmt>
+        </PublicSupportType>
+        <LargestSupportFromEOGrp>
+          <TotalAmt>0</TotalAmt>
+        </LargestSupportFromEOGrp>
+        <GrossInvestmentIncomeGrp>
+          <TotalAmt>0</TotalAmt>
+        </GrossInvestmentIncomeGrp>
+      </PrivateOperatingFoundationsGrp>
+      <SupplementaryInformationGrp>
+        <OnlyContriToPreselectedInd>X</OnlyContriToPreselectedInd>
+        <TotalGrantOrContriPdDurYrAmt>0</TotalGrantOrContriPdDurYrAmt>
+        <TotalGrantOrContriApprvFutAmt>0</TotalGrantOrContriApprvFutAmt>
+      </SupplementaryInformationGrp>
+      <AnalysisIncomeProducingActyGrp>
+        <ProgramServiceRevenueDtl>
+          <Desc>LOW COST HOUSING-ELDERLY</Desc>
+          <RelatedOrExemptFunctionIncmAmt>1897334</RelatedOrExemptFunctionIncmAmt>
+        </ProgramServiceRevenueDtl>
+        <DividendsAndInterestFromSecDtl>
+          <ExclusionCd>14</ExclusionCd>
+          <ExclusionAmt>122681</ExclusionAmt>
+        </DividendsAndInterestFromSecDtl>
+        <NetRntlIncmReNotDebtFincdProp>
+          <ExclusionCd>16</ExclusionCd>
+          <ExclusionAmt>16218</ExclusionAmt>
+        </NetRntlIncmReNotDebtFincdProp>
+        <GainSalesAstOthThanInvntryGrp>
+          <ExclusionCd>18</ExclusionCd>
+          <ExclusionAmt>236594</ExclusionAmt>
+        </GainSalesAstOthThanInvntryGrp>
+        <OtherRevenueDescribedGrp>
+          <Desc>LAUNDRY INCOME</Desc>
+          <RelatedOrExemptFunctionIncmAmt>12141</RelatedOrExemptFunctionIncmAmt>
+        </OtherRevenueDescribedGrp>
+        <OtherRevenueDescribedGrp>
+          <Desc>OTHER INCOME</Desc>
+          <RelatedOrExemptFunctionIncmAmt>2125</RelatedOrExemptFunctionIncmAmt>
+        </OtherRevenueDescribedGrp>
+        <SubtotalsIncmProducingActyGrp>
+          <UnrelatedBusinessTaxblIncmAmt>0</UnrelatedBusinessTaxblIncmAmt>
+          <ExclusionAmt>375493</ExclusionAmt>
+          <RelatedOrExemptFunctionIncmAmt>1911600</RelatedOrExemptFunctionIncmAmt>
+        </SubtotalsIncmProducingActyGrp>
+        <TotalIncomeProducingActyAmt>2287093</TotalIncomeProducingActyAmt>
+      </AnalysisIncomeProducingActyGrp>
+      <RlnOfActyToAccomOfExmptPrpsGrp>
+        <RlnOfActyToAccomOfExmptPrpsGrp>
+          <LineNumberTxt>1</LineNumberTxt>
+          <RelationshipStatementTxt>THE BATTISTONE FOUNDATION PROVIDES LOW COST HOUSING FOR THE ELDERLY.</RelationshipStatementTxt>
+        </RlnOfActyToAccomOfExmptPrpsGrp>
+      </RlnOfActyToAccomOfExmptPrpsGrp>
+      <TrnsfrTransRlnNonchrtblEOGrp>
+        <TrnsfrOfCashToNonchrtblEOInd>0</TrnsfrOfCashToNonchrtblEOInd>
+        <TrnsfrOtherAssetNonchrtblEOInd>0</TrnsfrOtherAssetNonchrtblEOInd>
+        <SalesOrExchangesOfAssetsInd>0</SalesOrExchangesOfAssetsInd>
+        <PurchaseOfAssetsNonchrtblEOInd>0</PurchaseOfAssetsNonchrtblEOInd>
+        <RentalOfFacilitiesOthAssetsInd>0</RentalOfFacilitiesOthAssetsInd>
+        <ReimbursementArrangementsInd>0</ReimbursementArrangementsInd>
+        <LoansOrLoanGuaranteesInd>0</LoansOrLoanGuaranteesInd>
+        <PerformanceOfServicesEtcInd>0</PerformanceOfServicesEtcInd>
+        <SharingOfFacilitiesEtcInd>0</SharingOfFacilitiesEtcInd>
+        <RelationshipsNonchrtblEOInd>0</RelationshipsNonchrtblEOInd>
+      </TrnsfrTransRlnNonchrtblEOGrp>
+    </IRS990PF>
+    <AccountingFeesSchedule documentId="RetDoc2002200001">
+      <AccountingFeesDetail>
+        <CategoryTxt>DAMITZ, BROOKS, NIGHTINGALE</CategoryTxt>
+        <Amt>9912</Amt>
+        <NetInvestmentIncomeAmt>992</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>4460</AdjustedNetIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>4460</DisbursementsCharitablePrpsAmt>
+      </AccountingFeesDetail>
+    </AccountingFeesSchedule>
+    <GeneralExplanationAttachment documentId="RetDoc2258700001">
+      <GeneralExplanationGrp>
+        <IdentifierTxt>FORM 990-PF, PART VIII, LINE 1</IdentifierTxt>
+        <FormAndLineReferenceDesc>FORM 990-PF, PART VII-B, LINE 1(A)(3)</FormAndLineReferenceDesc>
+        <MediumExplanationTxt>THE FOUNDATION UTILTIZES THE SERVICES OF CINDY HILL AS RESIDENT MANAGER; MRS. HILL IS THE CHIEF EXECUTIVE OFFICER AND TRUSTEE OF THE FOUNDATION. AS A CONDITION OF MRS. HILL'S EMPLOYMENT AS RESIDENT MANAGER, SHE IS REQUIRED TO RESIDE IN THE RESIDENT MANAGER'S RESIDENCE IN ORDER TO PROVIDE INCREASED SERVICES AND SECURITY FOR THE PROPERTIES AND THE FOUNDATION. AS RESIDENT MANAGER, MRS. HILL OCCUPIES THE RESIDENCE RENT-FREE. THE FMV OF THE RENTAL VALUE FOR THE RESIDENCE IS REPORTED AS COMPENSATION TO MRS. HILL.</MediumExplanationTxt>
+      </GeneralExplanationGrp>
+      <GeneralExplanationGrp>
+        <IdentifierTxt>CONTROLLED ENTITIES</IdentifierTxt>
+        <FormAndLineReferenceDesc>FORM 990-PF, PART VII-A, LINE 11</FormAndLineReferenceDesc>
+        <MediumExplanationTxt>NAME OF ENTITY OWNERSHIP %BATTISTONE ADMINISTRATION, LLC 100%1324 DE LA VINA STSANTA BARBARA, CA 93101EIN 81-5033858THE EDGERLY SANTA BARBARA, LLC 100%1324 DE LA VINA STSANTA BARBARA, CA 93101EIN 81-5058451THE PALM TREE SANTA BARBARA, LLC 100%1324 DE LA VINA STSANTA BARBARA, CA 93101EIN 81-5048002</MediumExplanationTxt>
+      </GeneralExplanationGrp>
+    </GeneralExplanationAttachment>
+    <InvestmentsCorpBondsSchedule documentId="RetDoc2044400001">
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>AMERITRADE #9512 CORPORATE BONDS</BondNm>
+        <EOYBookValueAmt>9764</EOYBookValueAmt>
+        <EOYFMVAmt>10568</EOYFMVAmt>
+      </InvestmentsCorporateBondsGrp>
+    </InvestmentsCorpBondsSchedule>
+    <InvestmentsCorpStockSchedule documentId="RetDoc2018900001">
+      <InvestmentsCorporateStockGrp>
+        <StockNm>AMERITRADE #9500 MUTUAL FUNDS</StockNm>
+        <EOYBookValueAmt>1586619</EOYBookValueAmt>
+        <EOYFMVAmt>1936616</EOYFMVAmt>
+      </InvestmentsCorporateStockGrp>
+      <InvestmentsCorporateStockGrp>
+        <StockNm>AMERITRADE #9518 STOCKS</StockNm>
+        <EOYBookValueAmt>716457</EOYBookValueAmt>
+        <EOYFMVAmt>1544559</EOYFMVAmt>
+      </InvestmentsCorporateStockGrp>
+      <InvestmentsCorporateStockGrp>
+        <StockNm>AMERITRADE #0668 STOCKS</StockNm>
+        <EOYBookValueAmt>534996</EOYBookValueAmt>
+        <EOYFMVAmt>888100</EOYFMVAmt>
+      </InvestmentsCorporateStockGrp>
+      <InvestmentsCorporateStockGrp>
+        <StockNm>AMERITRADE #8672 ETFS</StockNm>
+        <EOYBookValueAmt>182508</EOYBookValueAmt>
+        <EOYFMVAmt>209362</EOYFMVAmt>
+      </InvestmentsCorporateStockGrp>
+      <InvestmentsCorporateStockGrp>
+        <StockNm>AMERITRADE #8672 STOCKS</StockNm>
+        <EOYBookValueAmt>150286</EOYBookValueAmt>
+        <EOYFMVAmt>178883</EOYFMVAmt>
+      </InvestmentsCorporateStockGrp>
+    </InvestmentsCorpStockSchedule>
+    <InvestmentsGovtObligationsSch documentId="RetDoc2210400001">
+      <USGovtObligationsBookVlEOYAmt>0</USGovtObligationsBookVlEOYAmt>
+      <USGovtObligationsEOYFMVAmt>0</USGovtObligationsEOYFMVAmt>
+      <StateLocalSecBookVlEOYAmt>634952</StateLocalSecBookVlEOYAmt>
+      <StateLocalSecEOYFMVAmt>663116</StateLocalSecEOYFMVAmt>
+    </InvestmentsGovtObligationsSch>
+    <InvestmentsOtherSchedule2 documentId="RetDoc2018100001">
+      <InvestmentsOtherGrp>
+        <CategoryOrItemTxt>GREENLAKE REAL ESTATE FUND</CategoryOrItemTxt>
+        <ListedAtCostOrFMVCd>AT COST</ListedAtCostOrFMVCd>
+        <BookValueAmt>413941</BookValueAmt>
+        <EOYFMVAmt>410510</EOYFMVAmt>
+      </InvestmentsOtherGrp>
+    </InvestmentsOtherSchedule2>
+    <LegalFeesSchedule documentId="RetDoc2002100001">
+      <LegalFeesGrp>
+        <CategoryTxt>MULLEN &amp; HENZELL</CategoryTxt>
+        <LegalFeesAmt>55176</LegalFeesAmt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>41817</AdjustedNetIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>13359</DisbursementsCharitablePrpsAmt>
+      </LegalFeesGrp>
+    </LegalFeesSchedule>
+    <OtherAssetsSchedule documentId="RetDoc2046600001">
+      <OtherAssetsScheduleGrp>
+        <Desc>LLC STARTUP COSTS (NET)</Desc>
+        <BOYBookValueAmt>134107</BOYBookValueAmt>
+        <EOYBookValueAmt>89405</EOYBookValueAmt>
+        <EOYFMVAmt>89405</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>CONSTRUCTION IN PROGRESS</Desc>
+        <BOYBookValueAmt>178413</BOYBookValueAmt>
+        <EOYBookValueAmt>30081</EOYBookValueAmt>
+        <EOYFMVAmt>30081</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>SECURITY DEPOSITS</Desc>
+        <BOYBookValueAmt>7278</BOYBookValueAmt>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>0</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+    </OtherAssetsSchedule>
+    <OtherExpensesSchedule documentId="RetDoc2003200001">
+      <OtherExpensesScheduleGrp>
+        <Desc>REPAIRS</Desc>
+        <RevenueAndExpensesPerBooksAmt>131806</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>131806</AdjustedNetIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>0</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>GARDENING</Desc>
+        <RevenueAndExpensesPerBooksAmt>9296</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>9296</AdjustedNetIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>0</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>OFFICE EXPENSE</Desc>
+        <RevenueAndExpensesPerBooksAmt>3275</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>3221</AdjustedNetIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>54</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>UTILITIES</Desc>
+        <RevenueAndExpensesPerBooksAmt>269480</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>269480</AdjustedNetIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>0</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>INSURANCE</Desc>
+        <RevenueAndExpensesPerBooksAmt>210630</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>1494</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>207642</AdjustedNetIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>1494</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>AUTO EXPENSE</Desc>
+        <RevenueAndExpensesPerBooksAmt>617</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>617</AdjustedNetIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>0</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>LICENSES AND PERMITS</Desc>
+        <RevenueAndExpensesPerBooksAmt>210</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>60</AdjustedNetIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>150</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>GREENLAKE REAL ESTATE FUND EXPENSES</Desc>
+        <RevenueAndExpensesPerBooksAmt>4289</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>3933</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>356</AdjustedNetIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>0</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>PAYROLL PROCESSING</Desc>
+        <RevenueAndExpensesPerBooksAmt>2288</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>2288</AdjustedNetIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>0</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>TENANT EVENTS</Desc>
+        <RevenueAndExpensesPerBooksAmt>3526</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>3526</AdjustedNetIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>0</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>STAFF EVENTS</Desc>
+        <RevenueAndExpensesPerBooksAmt>1348</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>1348</AdjustedNetIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>0</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>OPERATING EXPENSE</Desc>
+        <RevenueAndExpensesPerBooksAmt>11072</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>9472</AdjustedNetIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>1600</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>AMORTIZATION</Desc>
+        <RevenueAndExpensesPerBooksAmt>44702</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>44702</AdjustedNetIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>0</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>SUPPLIES</Desc>
+        <RevenueAndExpensesPerBooksAmt>196</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>196</AdjustedNetIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>0</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>REPAIRS - N/E RENTAL</Desc>
+        <RevenueAndExpensesPerBooksAmt>561</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>561</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>561</AdjustedNetIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>0</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>UTILITIES - N/E RENTAL</Desc>
+        <RevenueAndExpensesPerBooksAmt>3563</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>3563</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>3563</AdjustedNetIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>0</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>PEST CONTROL- N/E RENTAL</Desc>
+        <RevenueAndExpensesPerBooksAmt>113</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>113</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>113</AdjustedNetIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>0</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+    </OtherExpensesSchedule>
+    <OtherIncomeSchedule2 documentId="RetDoc2001500001">
+      <OtherIncomeDetail>
+        <Desc>LOW COST HOUSING-ELDERLY</Desc>
+        <RevenueAndExpensesPerBooksAmt>1897334</RevenueAndExpensesPerBooksAmt>
+        <AdjustedNetIncomeAmt>1897334</AdjustedNetIncomeAmt>
+      </OtherIncomeDetail>
+      <OtherIncomeDetail>
+        <Desc>LAUNDRY INCOME</Desc>
+        <RevenueAndExpensesPerBooksAmt>12141</RevenueAndExpensesPerBooksAmt>
+        <AdjustedNetIncomeAmt>12141</AdjustedNetIncomeAmt>
+      </OtherIncomeDetail>
+      <OtherIncomeDetail>
+        <Desc>OTHER INCOME</Desc>
+        <RevenueAndExpensesPerBooksAmt>2125</RevenueAndExpensesPerBooksAmt>
+        <AdjustedNetIncomeAmt>2125</AdjustedNetIncomeAmt>
+      </OtherIncomeDetail>
+    </OtherIncomeSchedule2>
+    <OtherLiabilitiesSchedule documentId="RetDoc2065700001">
+      <OtherLiabilitiesDetail>
+        <Desc>TENANT SECURITY DEPOSITS</Desc>
+        <BOYBookValueAmt>129245</BOYBookValueAmt>
+        <EOYBookValueAmt>129375</EOYBookValueAmt>
+      </OtherLiabilitiesDetail>
+      <OtherLiabilitiesDetail>
+        <Desc>CREDIT CARD PAYABLE</Desc>
+        <BOYBookValueAmt>3070</BOYBookValueAmt>
+        <EOYBookValueAmt>5954</EOYBookValueAmt>
+      </OtherLiabilitiesDetail>
+    </OtherLiabilitiesSchedule>
+    <OtherProfessionalFeesSchedule documentId="RetDoc2002300001">
+      <OtherProfessionalFeesDetail>
+        <CategoryTxt>INVESTMENT FEES</CategoryTxt>
+        <Amt>59763</Amt>
+        <NetInvestmentIncomeAmt>59763</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>0</DisbursementsCharitablePrpsAmt>
+      </OtherProfessionalFeesDetail>
+      <OtherProfessionalFeesDetail>
+        <CategoryTxt>PROFESSIONAL SERVICES</CategoryTxt>
+        <Amt>7874</Amt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>7874</AdjustedNetIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>0</DisbursementsCharitablePrpsAmt>
+      </OtherProfessionalFeesDetail>
+    </OtherProfessionalFeesSchedule>
+    <TaxesSchedule documentId="RetDoc2002500001">
+      <TaxesDetail>
+        <CategoryTxt>PROPERTY TAXES</CategoryTxt>
+        <Amt>7139</Amt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>7139</AdjustedNetIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>0</DisbursementsCharitablePrpsAmt>
+      </TaxesDetail>
+      <TaxesDetail>
+        <CategoryTxt>PAYROLL TAX EXPENSE</CategoryTxt>
+        <Amt>47498</Amt>
+        <NetInvestmentIncomeAmt>486</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>46526</AdjustedNetIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>486</DisbursementsCharitablePrpsAmt>
+      </TaxesDetail>
+      <TaxesDetail>
+        <CategoryTxt>FOREIGN TAX WITHHELD</CategoryTxt>
+        <Amt>297</Amt>
+        <NetInvestmentIncomeAmt>297</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>0</DisbursementsCharitablePrpsAmt>
+      </TaxesDetail>
+      <TaxesDetail>
+        <CategoryTxt>FEDERAL TAXES</CategoryTxt>
+        <Amt>362</Amt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>0</DisbursementsCharitablePrpsAmt>
+      </TaxesDetail>
+      <TaxesDetail>
+        <CategoryTxt>PROPERTY TAX - N/E RENTAL</CategoryTxt>
+        <Amt>1096</Amt>
+        <NetInvestmentIncomeAmt>1096</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>1096</AdjustedNetIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>0</DisbursementsCharitablePrpsAmt>
+      </TaxesDetail>
+    </TaxesSchedule>
+    <TransfersFrmControlledEntities documentId="RetDoc2204900001">
+      <TransfersFromControlledEntGrp>
+        <BusinessName>
+          <BusinessNameLine1Txt>BATTISTONE ADMINISTRATION LLC</BusinessNameLine1Txt>
+        </BusinessName>
+        <USAddress>
+          <AddressLine1Txt>1324 DE LA VINA STREET</AddressLine1Txt>
+          <CityNm>SANTA BARBARA</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>93101</ZIPCd>
+        </USAddress>
+        <EIN>815033858</EIN>
+        <Desc>CASH</Desc>
+        <Amt>0</Amt>
+      </TransfersFromControlledEntGrp>
+      <TransfersFromControlledEntGrp>
+        <BusinessName>
+          <BusinessNameLine1Txt>PALM TREE SANTA BARBARA LLC</BusinessNameLine1Txt>
+        </BusinessName>
+        <USAddress>
+          <AddressLine1Txt>1324 DE LA VINA STREET</AddressLine1Txt>
+          <CityNm>SANTA BARBARA</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>93101</ZIPCd>
+        </USAddress>
+        <EIN>815048002</EIN>
+        <Desc>CASH</Desc>
+        <Amt>0</Amt>
+      </TransfersFromControlledEntGrp>
+      <TransfersFromControlledEntGrp>
+        <BusinessName>
+          <BusinessNameLine1Txt>EDGERLY SANTA BARBARA LLC</BusinessNameLine1Txt>
+        </BusinessName>
+        <USAddress>
+          <AddressLine1Txt>1324 DE LA VINA STREET</AddressLine1Txt>
+          <CityNm>SANTA BARBARA</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>93101</ZIPCd>
+        </USAddress>
+        <EIN>815058451</EIN>
+        <Desc>CASH</Desc>
+        <Amt>0</Amt>
+      </TransfersFromControlledEntGrp>
+      <TotalAmt>195000</TotalAmt>
+    </TransfersFrmControlledEntities>
+  </ReturnData>
+</Return>

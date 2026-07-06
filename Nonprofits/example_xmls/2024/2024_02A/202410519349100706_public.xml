@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Return xmlns="http://www.irs.gov/efile" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.irs.gov/efile" returnVersion="2023v4.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2024-02-20T11:47:11-00:00</ReturnTs>
+    <TaxPeriodEndDt>2023-12-31</TaxPeriodEndDt>
+    <PreparerFirmGrp>
+      <PreparerFirmEIN>871092115</PreparerFirmEIN>
+      <PreparerFirmName>
+        <BusinessNameLine1Txt>JESMORE &amp; ASSOCIATES CPA</BusinessNameLine1Txt>
+      </PreparerFirmName>
+      <PreparerUSAddress>
+        <AddressLine1Txt>PO BOX 211</AddressLine1Txt>
+        <CityNm>WATERTOWN</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>13601</ZIPCd>
+      </PreparerUSAddress>
+    </PreparerFirmGrp>
+    <ReturnTypeCd>990PF</ReturnTypeCd>
+    <TaxPeriodBeginDt>2023-01-01</TaxPeriodBeginDt>
+    <Filer>
+      <EIN>852640579</EIN>
+      <BusinessName>
+        <BusinessNameLine1Txt>UNITY ATHLETIC CLUB INC</BusinessNameLine1Txt>
+      </BusinessName>
+      <InCareOfNm>% JON ADAMS</InCareOfNm>
+      <BusinessNameControlTxt>UNIT</BusinessNameControlTxt>
+      <PhoneNum>3157670268</PhoneNum>
+      <USAddress>
+        <AddressLine1Txt>20595 HADCOCK RD</AddressLine1Txt>
+        <CityNm>WATERTOWN</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>13601</ZIPCd>
+      </USAddress>
+    </Filer>
+    <BusinessOfficerGrp>
+      <PersonNm>JON ADAMS</PersonNm>
+      <PersonTitleTxt>TREAS</PersonTitleTxt>
+      <PhoneNum>3157670268</PhoneNum>
+      <SignatureDt>2024-02-20</SignatureDt>
+      <DiscussWithPaidPreparerInd>true</DiscussWithPaidPreparerInd>
+    </BusinessOfficerGrp>
+    <SigningOfficerGrp>
+      <PersonFullName>
+        <PersonFirstNm>JON</PersonFirstNm>
+        <PersonLastNm>ADAMS</PersonLastNm>
+      </PersonFullName>
+      <SSN>XXX-XX-XXXX</SSN>
+    </SigningOfficerGrp>
+    <PreparerPersonGrp>
+      <PreparerPersonNm>TAMASINA M SHARLOW</PreparerPersonNm>
+      <PTIN>P01397136</PTIN>
+      <PhoneNum>3157822661</PhoneNum>
+      <PreparationDt>2024-02-20</PreparationDt>
+      <SelfEmployedInd>X</SelfEmployedInd>
+    </PreparerPersonGrp>
+    <AdditionalFilerInformation>
+      <TrustedCustomerGrp>
+        <TrustedCustomerCd>2</TrustedCustomerCd>
+        <AuthenticationAssuranceLevelCd>AAL1</AuthenticationAssuranceLevelCd>
+        <IdentityAssuranceLevelCd>IAL1</IdentityAssuranceLevelCd>
+      </TrustedCustomerGrp>
+    </AdditionalFilerInformation>
+    <TaxYr>2023</TaxYr>
+    <BuildTS>2023-04-26 12:10:37Z</BuildTS>
+  </ReturnHeader>
+  <ReturnData documentCnt="7">
+    <IRS990PF documentId="990PF" softwareId="23017659" softwareVersionNum="23.1.0.0">
+      <ApplicationPendingInd>X</ApplicationPendingInd>
+      <Organization501c3ExemptPFInd>X</Organization501c3ExemptPFInd>
+      <FMVAssetsEOYAmt>2190</FMVAssetsEOYAmt>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <AnalysisOfRevenueAndExpenses>
+        <ContriRcvdRevAndExpnssAmt>1092</ContriRcvdRevAndExpnssAmt>
+        <ScheduleBNotRequiredInd>X</ScheduleBNotRequiredInd>
+        <CapGainNetIncmNetInvstIncmAmt>0</CapGainNetIncmNetInvstIncmAmt>
+        <GrossSalesLessRetAndAllwncAmt>254</GrossSalesLessRetAndAllwncAmt>
+        <GrossProfitRevAndExpnssAmt referenceDocumentId="990PF:109">254</GrossProfitRevAndExpnssAmt>
+        <OtherIncomeRevAndExpnssAmt referenceDocumentId="990PF:110">109036</OtherIncomeRevAndExpnssAmt>
+        <TotalRevAndExpnssAmt>110382</TotalRevAndExpnssAmt>
+        <TotalNetInvstIncmAmt>0</TotalNetInvstIncmAmt>
+        <CompOfcrDirTrstRevAndExpnssAmt>19555</CompOfcrDirTrstRevAndExpnssAmt>
+        <CompOfcrDirTrstDsbrsChrtblAmt>19555</CompOfcrDirTrstDsbrsChrtblAmt>
+        <AccountingFeesRevAndExpnssAmt referenceDocumentId="990PF:112">1891</AccountingFeesRevAndExpnssAmt>
+        <AccountingFeesChrtblPrpsAmt>1891</AccountingFeesChrtblPrpsAmt>
+        <OccupancyRevAndExpnssAmt>1558</OccupancyRevAndExpnssAmt>
+        <OccupancyDsbrsChrtblAmt>1558</OccupancyDsbrsChrtblAmt>
+        <TravConfMeetingRevAndExpnssAmt>1671</TravConfMeetingRevAndExpnssAmt>
+        <TravConfMeetingDsbrsChrtblAmt>1671</TravConfMeetingDsbrsChrtblAmt>
+        <OtherExpensesRevAndExpnssAmt referenceDocumentId="990PF:115">118446</OtherExpensesRevAndExpnssAmt>
+        <OtherExpensesDsbrsChrtblAmt>118446</OtherExpensesDsbrsChrtblAmt>
+        <TotOprExpensesRevAndExpnssAmt>143121</TotOprExpensesRevAndExpnssAmt>
+        <TotOprExpensesNetInvstIncmAmt>0</TotOprExpensesNetInvstIncmAmt>
+        <TotOprExpensesDsbrsChrtblAmt>143121</TotOprExpensesDsbrsChrtblAmt>
+        <ContriPaidRevAndExpnssAmt>10050</ContriPaidRevAndExpnssAmt>
+        <ContriPaidDsbrsChrtblAmt>10050</ContriPaidDsbrsChrtblAmt>
+        <TotalExpensesRevAndExpnssAmt>153171</TotalExpensesRevAndExpnssAmt>
+        <TotalExpensesNetInvstIncmAmt>0</TotalExpensesNetInvstIncmAmt>
+        <TotalExpensesDsbrsChrtblAmt>153171</TotalExpensesDsbrsChrtblAmt>
+        <ExcessRevenueOverExpensesAmt>-42789</ExcessRevenueOverExpensesAmt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+      </AnalysisOfRevenueAndExpenses>
+      <Form990PFBalanceSheetsGrp>
+        <CashBOYAmt>44979</CashBOYAmt>
+        <CashEOYAmt>2190</CashEOYAmt>
+        <CashEOYFMVAmt>2190</CashEOYFMVAmt>
+        <TotalAssetsBOYAmt>44979</TotalAssetsBOYAmt>
+        <TotalAssetsEOYAmt>2190</TotalAssetsEOYAmt>
+        <TotalAssetsEOYFMVAmt>2190</TotalAssetsEOYFMVAmt>
+        <TotalLiabilitiesEOYAmt>0</TotalLiabilitiesEOYAmt>
+        <OrgDoesNotFollowFASB117Ind>X</OrgDoesNotFollowFASB117Ind>
+        <RetainedEarningBOYAmt>44979</RetainedEarningBOYAmt>
+        <RetainedEarningEOYAmt>2190</RetainedEarningEOYAmt>
+        <TotNetAstOrFundBalancesBOYAmt>44979</TotNetAstOrFundBalancesBOYAmt>
+        <TotNetAstOrFundBalancesEOYAmt>2190</TotNetAstOrFundBalancesEOYAmt>
+        <TotalLiabilitiesNetAstBOYAmt>44979</TotalLiabilitiesNetAstBOYAmt>
+        <TotalLiabilitiesNetAstEOYAmt>2190</TotalLiabilitiesNetAstEOYAmt>
+      </Form990PFBalanceSheetsGrp>
+      <ChgInNetAssetsFundBalancesGrp>
+        <TotNetAstOrFundBalancesBOYAmt>44979</TotNetAstOrFundBalancesBOYAmt>
+        <ExcessRevenueOverExpensesAmt>-42789</ExcessRevenueOverExpensesAmt>
+        <SubtotalAmt>2190</SubtotalAmt>
+        <TotNetAstOrFundBalancesEOYAmt>2190</TotNetAstOrFundBalancesEOYAmt>
+      </ChgInNetAssetsFundBalancesGrp>
+      <StatementsRegardingActyGrp>
+        <LegislativePoliticalActyInd>false</LegislativePoliticalActyInd>
+        <MoreThan100SpentInd>false</MoreThan100SpentInd>
+        <Form1120POLFiledInd>false</Form1120POLFiledInd>
+        <ActivitiesNotPreviouslyRptInd>false</ActivitiesNotPreviouslyRptInd>
+        <ChangesToArticlesOrBylawsInd>false</ChangesToArticlesOrBylawsInd>
+        <UnrelatedBusIncmOverLimitInd>false</UnrelatedBusIncmOverLimitInd>
+        <OrganizationDissolvedEtcInd>false</OrganizationDissolvedEtcInd>
+        <Section508eRqrSatisfiedInd>false</Section508eRqrSatisfiedInd>
+        <AtLeast5000InAssetsInd>true</AtLeast5000InAssetsInd>
+        <OrgReportOrRegisterStateCd>NY</OrgReportOrRegisterStateCd>
+        <Form990PFFiledWithAttyGenInd>true</Form990PFFiledWithAttyGenInd>
+        <PrivateOperatingFoundationInd>false</PrivateOperatingFoundationInd>
+        <NewSubstantialContributorsInd>false</NewSubstantialContributorsInd>
+        <OwnControlledEntityInd>false</OwnControlledEntityInd>
+        <DonorAdvisedFundInd>false</DonorAdvisedFundInd>
+        <ComplyWithPublicInspRqrInd>true</ComplyWithPublicInspRqrInd>
+        <WebsiteAddressTxt>N/A</WebsiteAddressTxt>
+        <IndividualWithBooksNm>JON ADAMS</IndividualWithBooksNm>
+        <PhoneNum>3157670268</PhoneNum>
+        <LocationOfBooksUSAddress>
+          <AddressLine1Txt>25989 CTY RT 49</AddressLine1Txt>
+          <CityNm>WATERTOWN</CityNm>
+          <StateAbbreviationCd>NY</StateAbbreviationCd>
+          <ZIPCd>13601</ZIPCd>
+        </LocationOfBooksUSAddress>
+        <ForeignAccountsQuestionInd>false</ForeignAccountsQuestionInd>
+      </StatementsRegardingActyGrp>
+      <StatementsRegardingActy4720Grp>
+        <SaleOrExchDisqualifiedPrsnInd>false</SaleOrExchDisqualifiedPrsnInd>
+        <BrrwOrLendDisqualifiedPrsnInd>false</BrrwOrLendDisqualifiedPrsnInd>
+        <FurnGoodsDisqualifiedPrsnInd>false</FurnGoodsDisqualifiedPrsnInd>
+        <PayCompDisqualifiedPrsnInd>false</PayCompDisqualifiedPrsnInd>
+        <TransferAstDisqualifiedPrsnInd>false</TransferAstDisqualifiedPrsnInd>
+        <PaymentToGovernmentOfficialInd>false</PaymentToGovernmentOfficialInd>
+        <UncorrectedPriorActsInd>false</UncorrectedPriorActsInd>
+        <UndistributedIncomePYInd>false</UndistributedIncomePYInd>
+        <UndistributedIncomePY4Yr>2022</UndistributedIncomePY4Yr>
+        <BusinessHoldingsInd>false</BusinessHoldingsInd>
+        <JeopardyInvestmentsInd>false</JeopardyInvestmentsInd>
+        <UncorrectedPYJeopardyInvstInd>false</UncorrectedPYJeopardyInvstInd>
+        <InfluenceLegislationInd>false</InfluenceLegislationInd>
+        <InfluenceElectionInd>false</InfluenceElectionInd>
+        <GrantsToIndividualsInd>false</GrantsToIndividualsInd>
+        <GrantsToOrganizationsInd>false</GrantsToOrganizationsInd>
+        <NoncharitablePurposeInd>false</NoncharitablePurposeInd>
+        <RcvFndsToPayPrsnlBnftCntrctInd>false</RcvFndsToPayPrsnlBnftCntrctInd>
+        <PayPremiumsPrsnlBnftCntrctInd>false</PayPremiumsPrsnlBnftCntrctInd>
+        <ProhibitedTaxShelterTransInd>false</ProhibitedTaxShelterTransInd>
+        <SubjToTaxRmnrtnExPrchtPymtInd>false</SubjToTaxRmnrtnExPrchtPymtInd>
+      </StatementsRegardingActy4720Grp>
+      <OfficerDirTrstKeyEmplInfoGrp>
+        <OfficerDirTrstKeyEmplGrp>
+          <PersonNm>JON ADAMS</PersonNm>
+          <USAddress>
+            <AddressLine1Txt>25989 CTY RT 49</AddressLine1Txt>
+            <CityNm>WATERTOWN</CityNm>
+            <StateAbbreviationCd>NY</StateAbbreviationCd>
+            <ZIPCd>13601</ZIPCd>
+          </USAddress>
+          <TitleTxt>DIR</TitleTxt>
+          <AverageHrsPerWkDevotedToPosRt>005.00</AverageHrsPerWkDevotedToPosRt>
+          <CompensationAmt>7209</CompensationAmt>
+        </OfficerDirTrstKeyEmplGrp>
+        <OfficerDirTrstKeyEmplGrp>
+          <PersonNm>DAVID HOPKINS</PersonNm>
+          <USAddress>
+            <AddressLine1Txt>74 EAST CHURCH STREEET</AddressLine1Txt>
+            <CityNm>ADAMS</CityNm>
+            <StateAbbreviationCd>NY</StateAbbreviationCd>
+            <ZIPCd>13605</ZIPCd>
+          </USAddress>
+          <TitleTxt>DIR</TitleTxt>
+          <AverageHrsPerWkDevotedToPosRt>005.00</AverageHrsPerWkDevotedToPosRt>
+          <CompensationAmt>4399</CompensationAmt>
+        </OfficerDirTrstKeyEmplGrp>
+        <OfficerDirTrstKeyEmplGrp>
+          <PersonNm>MICHAEL LADOUX</PersonNm>
+          <USAddress>
+            <AddressLine1Txt>20595 HADCOCK ROAD</AddressLine1Txt>
+            <CityNm>WATERTOWN</CityNm>
+            <StateAbbreviationCd>NY</StateAbbreviationCd>
+            <ZIPCd>13601</ZIPCd>
+          </USAddress>
+          <TitleTxt>DIR</TitleTxt>
+          <AverageHrsPerWkDevotedToPosRt>005.00</AverageHrsPerWkDevotedToPosRt>
+          <CompensationAmt>7947</CompensationAmt>
+        </OfficerDirTrstKeyEmplGrp>
+        <CompOfHghstPdEmplOrNONETxt>NONE</CompOfHghstPdEmplOrNONETxt>
+        <CompOfHghstPdCntrctOrNONETxt>NONE</CompOfHghstPdCntrctOrNONETxt>
+      </OfficerDirTrstKeyEmplInfoGrp>
+      <SummaryOfDirectChrtblActyGrp>
+        <Description1Txt>N/a</Description1Txt>
+        <Expenses1Amt>0</Expenses1Amt>
+      </SummaryOfDirectChrtblActyGrp>
+      <DistributableAmountGrp>
+        <DistributableAsAdjustedAmt>0</DistributableAsAdjustedAmt>
+      </DistributableAmountGrp>
+      <PFQualifyingDistributionsGrp>
+        <ExpensesAndContributionsAmt referenceDocumentId="990PF:151">153171</ExpensesAndContributionsAmt>
+        <QualifyingDistributionsAmt>153171</QualifyingDistributionsAmt>
+      </PFQualifyingDistributionsGrp>
+      <UndistributedIncomeGrp>
+        <DistributableAsAdjustedAmt>0</DistributableAsAdjustedAmt>
+        <QualifyingDistributionsAmt>153171</QualifyingDistributionsAmt>
+        <UndistributedIncomeCYAmt>0</UndistributedIncomeCYAmt>
+      </UndistributedIncomeGrp>
+      <PrivateOperatingFoundationsGrp>
+        <PublicSupportType>
+          <CurrentYearAmt>110382</CurrentYearAmt>
+          <Year1Amt>201005</Year1Amt>
+          <Year2Amt>155249</Year2Amt>
+          <TotalAmt>466636</TotalAmt>
+        </PublicSupportType>
+      </PrivateOperatingFoundationsGrp>
+      <SupplementaryInformationGrp>
+        <OnlyContriToPreselectedInd>X</OnlyContriToPreselectedInd>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>TYLER CHRISTMAN FOUNDATION</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientUSAddress>
+            <AddressLine1Txt>4529 OLD STATE ROAD</AddressLine1Txt>
+            <CityNm>CARTHAGE</CityNm>
+            <StateAbbreviationCd>NY</StateAbbreviationCd>
+            <ZIPCd>13619</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientFoundationStatusTxt>NC</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>SCHOLARSHIPS</GrantOrContributionPurposeTxt>
+          <Amt>8050</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientPersonNm>EATHAN HOPKINSHopkins74 E Church St</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>74 E Church Street</AddressLine1Txt>
+            <CityNm>ADAMS</CityNm>
+            <StateAbbreviationCd>NY</StateAbbreviationCd>
+            <ZIPCd>13605</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientFoundationStatusTxt>I</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>SCHOLARSHIP</GrantOrContributionPurposeTxt>
+          <Amt>500</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientPersonNm>LOGAN KELLEY</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>18436 COUTY ROUTE 65</AddressLine1Txt>
+            <CityNm>WATERTOWN</CityNm>
+            <StateAbbreviationCd>NY</StateAbbreviationCd>
+            <ZIPCd>13601</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientFoundationStatusTxt>I</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>SCHOLARSHIP</GrantOrContributionPurposeTxt>
+          <Amt>500</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientPersonNm>BENJAMIN MCGRATH</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>39 LEVYDALE PARK</AddressLine1Txt>
+            <CityNm>CORTLAND</CityNm>
+            <StateAbbreviationCd>NY</StateAbbreviationCd>
+            <ZIPCd>13045</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientFoundationStatusTxt>I</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>SCHOLARSHIP</GrantOrContributionPurposeTxt>
+          <Amt>500</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientPersonNm>SHEMUS DEVINE</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>18451 NYS RT 12F</AddressLine1Txt>
+            <CityNm>DEXTER</CityNm>
+            <StateAbbreviationCd>NY</StateAbbreviationCd>
+            <ZIPCd>13634</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientFoundationStatusTxt>I</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>SCHOLARSHIP</GrantOrContributionPurposeTxt>
+          <Amt>500</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <TotalGrantOrContriPdDurYrAmt>10050</TotalGrantOrContriPdDurYrAmt>
+      </SupplementaryInformationGrp>
+      <AnalysisIncomeProducingActyGrp>
+        <ProgramServiceRevenueDtl>
+          <Desc>PLAYER REGISTRATIONS</Desc>
+          <ExclusionCd>03</ExclusionCd>
+          <RelatedOrExemptFunctionIncmAmt>109036</RelatedOrExemptFunctionIncmAmt>
+        </ProgramServiceRevenueDtl>
+        <ProgramServiceRevenueDtl>
+          <Desc>SPONSERSHIPS</Desc>
+          <ExclusionCd>05</ExclusionCd>
+          <RelatedOrExemptFunctionIncmAmt>1092</RelatedOrExemptFunctionIncmAmt>
+        </ProgramServiceRevenueDtl>
+        <GrossProfitLossSlsOfInvntryGrp>
+          <ExclusionCd>10</ExclusionCd>
+          <RelatedOrExemptFunctionIncmAmt>254</RelatedOrExemptFunctionIncmAmt>
+        </GrossProfitLossSlsOfInvntryGrp>
+        <SubtotalsIncmProducingActyGrp>
+          <RelatedOrExemptFunctionIncmAmt>110382</RelatedOrExemptFunctionIncmAmt>
+        </SubtotalsIncmProducingActyGrp>
+        <TotalIncomeProducingActyAmt>110382</TotalIncomeProducingActyAmt>
+      </AnalysisIncomeProducingActyGrp>
+      <TrnsfrTransRlnNonchrtblEOGrp>
+        <TrnsfrOfCashToNonchrtblEOInd>false</TrnsfrOfCashToNonchrtblEOInd>
+        <TrnsfrOtherAssetNonchrtblEOInd>false</TrnsfrOtherAssetNonchrtblEOInd>
+        <SalesOrExchangesOfAssetsInd>false</SalesOrExchangesOfAssetsInd>
+        <PurchaseOfAssetsNonchrtblEOInd>false</PurchaseOfAssetsNonchrtblEOInd>
+        <RentalOfFacilitiesOthAssetsInd>false</RentalOfFacilitiesOthAssetsInd>
+        <ReimbursementArrangementsInd>false</ReimbursementArrangementsInd>
+        <LoansOrLoanGuaranteesInd>false</LoansOrLoanGuaranteesInd>
+        <PerformanceOfServicesEtcInd>false</PerformanceOfServicesEtcInd>
+        <SharingOfFacilitiesEtcInd>false</SharingOfFacilitiesEtcInd>
+        <RelationshipsNonchrtblEOInd>false</RelationshipsNonchrtblEOInd>
+      </TrnsfrTransRlnNonchrtblEOGrp>
+    </IRS990PF>
+    <AccountingFeesSchedule documentId="990PF:112" softwareId="23017659" softwareVersionNum="23.1.0.0">
+      <AccountingFeesDetail>
+        <CategoryTxt>ACCOUNTING</CategoryTxt>
+        <Amt>1891</Amt>
+        <DisbursementsCharitablePrpsAmt>1891</DisbursementsCharitablePrpsAmt>
+      </AccountingFeesDetail>
+    </AccountingFeesSchedule>
+    <BorrowedFundsElection documentId="990PF:151" softwareId="23017659" softwareVersionNum="23.1.0.0">
+      <BorrowedFundsGrp></BorrowedFundsGrp>
+    </BorrowedFundsElection>
+    <OtherExpensesSchedule documentId="990PF:115" softwareId="23017659" softwareVersionNum="23.1.0.0">
+      <OtherExpensesScheduleGrp>
+        <Desc>PRIZES AND TROPHIES/ PLAYERS PACK</Desc>
+        <RevenueAndExpensesPerBooksAmt>19693</RevenueAndExpensesPerBooksAmt>
+        <DisbursementsCharitablePrpsAmt>19693</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>REGISTRATUON /</Desc>
+        <RevenueAndExpensesPerBooksAmt>62732</RevenueAndExpensesPerBooksAmt>
+        <DisbursementsCharitablePrpsAmt>62732</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>COACHES</Desc>
+        <RevenueAndExpensesPerBooksAmt>16826</RevenueAndExpensesPerBooksAmt>
+        <DisbursementsCharitablePrpsAmt>16826</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>FIELD AND ICE RENTALS</Desc>
+        <RevenueAndExpensesPerBooksAmt>15405</RevenueAndExpensesPerBooksAmt>
+        <DisbursementsCharitablePrpsAmt>15405</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>REFFEREE</Desc>
+        <RevenueAndExpensesPerBooksAmt>1225</RevenueAndExpensesPerBooksAmt>
+        <DisbursementsCharitablePrpsAmt>1225</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>MISC SUPPLIES</Desc>
+        <RevenueAndExpensesPerBooksAmt>2565</RevenueAndExpensesPerBooksAmt>
+        <DisbursementsCharitablePrpsAmt>2565</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+    </OtherExpensesSchedule>
+    <OtherIncomeSchedule2 documentId="990PF:110" softwareId="23017659" softwareVersionNum="23.1.0.0">
+      <OtherIncomeDetail>
+        <Desc>tournament</Desc>
+        <RevenueAndExpensesPerBooksAmt>109036</RevenueAndExpensesPerBooksAmt>
+      </OtherIncomeDetail>
+    </OtherIncomeSchedule2>
+    <OtherProfessionalFeesSchedule documentId="990PF:113" softwareId="23017659" softwareVersionNum="23.1.0.0"></OtherProfessionalFeesSchedule>
+    <SalesOfInventoryList documentId="990PF:109" softwareId="23017659" softwareVersionNum="23.1.0.0">
+      <InventorySaleGrp>
+        <CategoryTxt>Apparel sales for fund raising at tournaments</CategoryTxt>
+        <GrossSalesAmt>254</GrossSalesAmt>
+        <NetAmt>254</NetAmt>
+      </InventorySaleGrp>
+    </SalesOfInventoryList>
+  </ReturnData>
+</Return>

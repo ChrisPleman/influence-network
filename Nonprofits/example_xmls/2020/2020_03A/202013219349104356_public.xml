@@ -1,0 +1,1984 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Return xmlns="http://www.irs.gov/efile" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" returnVersion="2019v5.1" xsi:schemaLocation="http://www.irs.gov/efile">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2020-11-16T11:50:44-08:00</ReturnTs>
+    <TaxPeriodEndDt>2019-12-31</TaxPeriodEndDt>
+    <PreparerFirmGrp>
+      <PreparerFirmName>
+        <BusinessNameLine1Txt>Qualified Tax Service</BusinessNameLine1Txt>
+      </PreparerFirmName>
+      <PreparerUSAddress>
+        <AddressLine1Txt>153 E Whittier Blvd Suite A</AddressLine1Txt>
+        <CityNm>La Habra</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>90631</ZIPCd>
+      </PreparerUSAddress>
+    </PreparerFirmGrp>
+    <ReturnTypeCd>990PF</ReturnTypeCd>
+    <TaxPeriodBeginDt>2019-01-01</TaxPeriodBeginDt>
+    <Filer>
+      <EIN>330043464</EIN>
+      <BusinessName>
+        <BusinessNameLine1Txt>PENFOLD COMMUNICATIONS INC</BusinessNameLine1Txt>
+      </BusinessName>
+      <BusinessNameControlTxt>PENF</BusinessNameControlTxt>
+      <PhoneNum>7145457868</PhoneNum>
+      <USAddress>
+        <AddressLine1Txt>PO BOX 890820</AddressLine1Txt>
+        <CityNm>TEMECULA</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>92589</ZIPCd>
+      </USAddress>
+    </Filer>
+    <BusinessOfficerGrp>
+      <PersonNm>JEFF SMITH</PersonNm>
+      <PersonTitleTxt>PRESIDENT</PersonTitleTxt>
+      <PhoneNum>7145457868</PhoneNum>
+      <SignatureDt>2020-11-16</SignatureDt>
+    </BusinessOfficerGrp>
+    <PreparerPersonGrp>
+      <PreparerPersonNm>Diane Barocio</PreparerPersonNm>
+      <PTIN>P01792036</PTIN>
+      <PhoneNum>5626944008</PhoneNum>
+      <SelfEmployedInd>X</SelfEmployedInd>
+    </PreparerPersonGrp>
+    <FilingSecurityInformation>
+      <IPAddress>
+        <IPv4AddressTxt>172.115.166.9</IPv4AddressTxt>
+      </IPAddress>
+      <IPDt>2020-11-16</IPDt>
+      <IPTm>11:50:32</IPTm>
+      <IPTimezoneCd>PS</IPTimezoneCd>
+      <FilingLicenseTypeCd>P</FilingLicenseTypeCd>
+      <AtSubmissionCreationDeviceId>FAFBB0BEDE5873CDAD98FCCCD4A83E2CFEA13B92</AtSubmissionCreationDeviceId>
+      <AtSubmissionFilingDeviceId>F43E12C5FDFDD0CB8D99C85448830EA158DD314A</AtSubmissionFilingDeviceId>
+    </FilingSecurityInformation>
+    <TaxYr>2019</TaxYr>
+    <BuildTS>2021-04-22 16:20:28Z</BuildTS>
+  </ReturnHeader>
+  <ReturnData documentCnt="14">
+    <IRS990PF documentId="IRS990PF-01">
+      <Organization501c3ExemptPFInd>X</Organization501c3ExemptPFInd>
+      <FMVAssetsEOYAmt>2162605</FMVAssetsEOYAmt>
+      <MethodOfAccountingAccrualInd>X</MethodOfAccountingAccrualInd>
+      <AnalysisOfRevenueAndExpenses>
+        <ContriRcvdRevAndExpnssAmt>105455</ContriRcvdRevAndExpnssAmt>
+        <InterestOnSavRevAndExpnssAmt>9</InterestOnSavRevAndExpnssAmt>
+        <NetGainSaleAstRevAndExpnssAmt referenceDocumentId="GainLossSaleOtherAssetsSch-01" referenceDocumentName="GainLossFromSaleOtherAssetsSchedule">906953</NetGainSaleAstRevAndExpnssAmt>
+        <GrossSalesPriceAmt>1100000</GrossSalesPriceAmt>
+        <CapGainNetIncmNetInvstIncmAmt>0</CapGainNetIncmNetInvstIncmAmt>
+        <GrossProfitRevAndExpnssAmt>0</GrossProfitRevAndExpnssAmt>
+        <OtherIncomeRevAndExpnssAmt referenceDocumentId="OtherIncomeSchedule2-01" referenceDocumentName="OtherIncomeSchedule2">866775</OtherIncomeRevAndExpnssAmt>
+        <TotalRevAndExpnssAmt>1879192</TotalRevAndExpnssAmt>
+        <TotalNetInvstIncmAmt>0</TotalNetInvstIncmAmt>
+        <OthEmplSlrsWgsRevAndExpnssAmt>222944</OthEmplSlrsWgsRevAndExpnssAmt>
+        <LegalFeesRevAndExpnssAmt referenceDocumentId="LegalFeesSchedule-01" referenceDocumentName="LegalFeesSchedule">23448</LegalFeesRevAndExpnssAmt>
+        <AccountingFeesRevAndExpnssAmt referenceDocumentId="AccountingFeesSchedule-01" referenceDocumentName="AccountingFeesSchedule">1250</AccountingFeesRevAndExpnssAmt>
+        <OtherProfFeesRevAndExpnssAmt>0</OtherProfFeesRevAndExpnssAmt>
+        <TaxesRevAndExpnssAmt referenceDocumentId="TaxesSchedule-01" referenceDocumentName="TaxesSchedule">1093</TaxesRevAndExpnssAmt>
+        <DeprecAndDpltnRevAndExpnssAmt referenceDocumentId="DepreciationSchedule-01" referenceDocumentName="DepreciationSchedule">97220</DeprecAndDpltnRevAndExpnssAmt>
+        <TravConfMeetingRevAndExpnssAmt>20126</TravConfMeetingRevAndExpnssAmt>
+        <OtherExpensesRevAndExpnssAmt referenceDocumentId="OtherExpensesSchedule-01" referenceDocumentName="AmortizationSchedule OtherExpensesSchedule">839359</OtherExpensesRevAndExpnssAmt>
+        <TotOprExpensesRevAndExpnssAmt>1205440</TotOprExpensesRevAndExpnssAmt>
+        <TotOprExpensesNetInvstIncmAmt>0</TotOprExpensesNetInvstIncmAmt>
+        <TotOprExpensesDsbrsChrtblAmt>0</TotOprExpensesDsbrsChrtblAmt>
+        <ContriPaidRevAndExpnssAmt>12877</ContriPaidRevAndExpnssAmt>
+        <ContriPaidDsbrsChrtblAmt>0</ContriPaidDsbrsChrtblAmt>
+        <TotalExpensesRevAndExpnssAmt>1218317</TotalExpensesRevAndExpnssAmt>
+        <TotalExpensesNetInvstIncmAmt>0</TotalExpensesNetInvstIncmAmt>
+        <TotalExpensesDsbrsChrtblAmt>0</TotalExpensesDsbrsChrtblAmt>
+        <ExcessRevenueOverExpensesAmt>660875</ExcessRevenueOverExpensesAmt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+      </AnalysisOfRevenueAndExpenses>
+      <Form990PFBalanceSheetsGrp>
+        <CashBOYAmt>57637</CashBOYAmt>
+        <CashEOYAmt>374746</CashEOYAmt>
+        <CashEOYFMVAmt>374746</CashEOYFMVAmt>
+        <SavAndTempCashInvstBOYAmt>2217</SavAndTempCashInvstBOYAmt>
+        <SavAndTempCashInvstEOYAmt>76666</SavAndTempCashInvstEOYAmt>
+        <SavAndTempCashInvstEOYFMVAmt>76666</SavAndTempCashInvstEOYFMVAmt>
+        <AcctRcvblAmt>50479</AcctRcvblAmt>
+        <AcctRcvblBOYAmt>65676</AcctRcvblBOYAmt>
+        <AcctRcvblEOYAmt>50479</AcctRcvblEOYAmt>
+        <AcctRcvblEOYFMVAmt>50479</AcctRcvblEOYFMVAmt>
+        <RcvblFromOfficersBOYAmt>828700</RcvblFromOfficersBOYAmt>
+        <RcvblFromOfficersEOYAmt referenceDocumentId="OtherReceivablesOfficersSch-01" referenceDocumentName="OtherReceivablesFromOfficersSchedule">1128431</RcvblFromOfficersEOYAmt>
+        <RcvblFromOfficersEOYFMVAmt>1128431</RcvblFromOfficersEOYFMVAmt>
+        <OtherNtsAndLoansRcvblAmt>30808</OtherNtsAndLoansRcvblAmt>
+        <OtherRcvblAllwncDbtflAcctAmt>0</OtherRcvblAllwncDbtflAcctAmt>
+        <OtherNtsAndLoansRcvblBOYAmt>30808</OtherNtsAndLoansRcvblBOYAmt>
+        <OtherNtsAndLoansRcvblEOYAmt referenceDocumentId="OtherNotesLoansRcvblShortS2-01" referenceDocumentName="OtherNotesLoansReceivableLongSchedule OtherNotesLoansReceivableShortSchedule2">30808</OtherNtsAndLoansRcvblEOYAmt>
+        <OtherNtsAndLoansRcvblEOYFMVAmt>30808</OtherNtsAndLoansRcvblEOYFMVAmt>
+        <LandBldgInvestmentsEOYAmt>0</LandBldgInvestmentsEOYAmt>
+        <OtherInvestmentsEOYAmt>0</OtherInvestmentsEOYAmt>
+        <LandBldgEquipCostOrOtherBssAmt>1430775</LandBldgEquipCostOrOtherBssAmt>
+        <LandBldgEquipAccumDeprecAmt>929300</LandBldgEquipAccumDeprecAmt>
+        <LandBOYAmt>767376</LandBOYAmt>
+        <LandEOYAmt referenceDocumentId="LandEtcSchedule2-01" referenceDocumentName="LandEtcSchedule2">501475</LandEOYAmt>
+        <LandEOYFMVAmt>501475</LandEOYFMVAmt>
+        <OtherAssetsBOYAmt>0</OtherAssetsBOYAmt>
+        <OtherAssetsEOYAmt>0</OtherAssetsEOYAmt>
+        <OtherAssetsEOYFMVAmt>0</OtherAssetsEOYFMVAmt>
+        <TotalAssetsBOYAmt>1752414</TotalAssetsBOYAmt>
+        <TotalAssetsEOYAmt>2162605</TotalAssetsEOYAmt>
+        <TotalAssetsEOYFMVAmt>2162605</TotalAssetsEOYFMVAmt>
+        <AccountsPayableBOYAmt>13206</AccountsPayableBOYAmt>
+        <AccountsPayableEOYAmt>-4833</AccountsPayableEOYAmt>
+        <LoansFromOfficersEOYAmt>0</LoansFromOfficersEOYAmt>
+        <MortgagesAndNotesPayableEOYAmt>0</MortgagesAndNotesPayableEOYAmt>
+        <OtherLiabilitiesBOYAmt referenceDocumentId="OtherLiabilitiesSchedule-01" referenceDocumentName="OtherLiabilitiesSchedule">378969</OtherLiabilitiesBOYAmt>
+        <OtherLiabilitiesEOYAmt referenceDocumentId="OtherLiabilitiesSchedule-01" referenceDocumentName="OtherLiabilitiesSchedule">146326</OtherLiabilitiesEOYAmt>
+        <TotalLiabilitiesBOYAmt>392175</TotalLiabilitiesBOYAmt>
+        <TotalLiabilitiesEOYAmt>141493</TotalLiabilitiesEOYAmt>
+        <OrgDoesNotFollowFASB117Ind>X</OrgDoesNotFollowFASB117Ind>
+        <RetainedEarningBOYAmt>1360239</RetainedEarningBOYAmt>
+        <RetainedEarningEOYAmt>2021112</RetainedEarningEOYAmt>
+        <TotNetAstOrFundBalancesBOYAmt>1360239</TotNetAstOrFundBalancesBOYAmt>
+        <TotNetAstOrFundBalancesEOYAmt>2021112</TotNetAstOrFundBalancesEOYAmt>
+        <TotalLiabilitiesNetAstBOYAmt>1752414</TotalLiabilitiesNetAstBOYAmt>
+        <TotalLiabilitiesNetAstEOYAmt>2162605</TotalLiabilitiesNetAstEOYAmt>
+      </Form990PFBalanceSheetsGrp>
+      <ChgInNetAssetsFundBalancesGrp>
+        <TotNetAstOrFundBalancesBOYAmt>1360239</TotNetAstOrFundBalancesBOYAmt>
+        <ExcessRevenueOverExpensesAmt>660875</ExcessRevenueOverExpensesAmt>
+        <SubtotalAmt>2021114</SubtotalAmt>
+        <OtherDecreasesAmt referenceDocumentId="OtherDecreasesSchedule-01" referenceDocumentName="OtherDecreasesSchedule">2</OtherDecreasesAmt>
+        <TotNetAstOrFundBalancesEOYAmt>2021112</TotNetAstOrFundBalancesEOYAmt>
+      </ChgInNetAssetsFundBalancesGrp>
+      <QlfyUndSect4940eReducedTaxGrp>
+        <LiableSection4942TaxInd>false</LiableSection4942TaxInd>
+        <AdjustedQlfyDistriYr1Amt>3313</AdjustedQlfyDistriYr1Amt>
+        <NetVlNoncharitableAssetsYr1Amt>0</NetVlNoncharitableAssetsYr1Amt>
+        <DistributionYr1Rt>0.000000</DistributionYr1Rt>
+        <AdjustedQlfyDistriYr2Amt>26526</AdjustedQlfyDistriYr2Amt>
+        <NetVlNoncharitableAssetsYr2Amt>0</NetVlNoncharitableAssetsYr2Amt>
+        <DistributionYr2Rt>0.000000</DistributionYr2Rt>
+        <AdjustedQlfyDistriYr3Amt>364207</AdjustedQlfyDistriYr3Amt>
+        <NetVlNoncharitableAssetsYr3Amt>0</NetVlNoncharitableAssetsYr3Amt>
+        <DistributionYr3Rt>0.000000</DistributionYr3Rt>
+        <AdjustedQlfyDistriYr4Amt>228699</AdjustedQlfyDistriYr4Amt>
+        <NetVlNoncharitableAssetsYr4Amt>0</NetVlNoncharitableAssetsYr4Amt>
+        <DistributionYr4Rt>0.000000</DistributionYr4Rt>
+        <AdjustedQlfyDistriYr5Amt>247957</AdjustedQlfyDistriYr5Amt>
+        <TotalDistributionRt>0.000000</TotalDistributionRt>
+        <AverageDistributionRt>0.000000</AverageDistributionRt>
+        <NetVlNoncharitableAssetsAmt>0</NetVlNoncharitableAssetsAmt>
+        <AdjNetVlNoncharitableAssetsAmt>0</AdjNetVlNoncharitableAssetsAmt>
+        <AdjNonchrtblNetInvstIncmPctAmt>0</AdjNonchrtblNetInvstIncmPctAmt>
+        <QualifyingDistributionsAmt>0</QualifyingDistributionsAmt>
+      </QlfyUndSect4940eReducedTaxGrp>
+      <ExciseTaxBasedOnInvstIncmGrp>
+        <DomesticOrgMeetingSect4940eInd>X</DomesticOrgMeetingSect4940eInd>
+        <InvestmentIncomeExciseTaxAmt>0</InvestmentIncomeExciseTaxAmt>
+        <TaxUnderSection511Amt>0</TaxUnderSection511Amt>
+        <SubtotalAmt>0</SubtotalAmt>
+        <TaxBasedOnInvestmentIncomeAmt>0</TaxBasedOnInvestmentIncomeAmt>
+        <ExtsnRequestIncomeTaxPaidAmt>0</ExtsnRequestIncomeTaxPaidAmt>
+        <TotalPaymentsAndCreditsAmt>0</TotalPaymentsAndCreditsAmt>
+        <TaxDueAmt>0</TaxDueAmt>
+        <AppliedToESTaxAmt>0</AppliedToESTaxAmt>
+      </ExciseTaxBasedOnInvstIncmGrp>
+      <StatementsRegardingActyGrp>
+        <LegislativePoliticalActyInd>false</LegislativePoliticalActyInd>
+        <MoreThan100SpentInd>false</MoreThan100SpentInd>
+        <Form1120POLFiledInd>false</Form1120POLFiledInd>
+        <ActivitiesNotPreviouslyRptInd>false</ActivitiesNotPreviouslyRptInd>
+        <ChangesToArticlesOrBylawsInd>false</ChangesToArticlesOrBylawsInd>
+        <UnrelatedBusIncmOverLimitInd>false</UnrelatedBusIncmOverLimitInd>
+        <OrganizationDissolvedEtcInd>false</OrganizationDissolvedEtcInd>
+        <Section508eRqrSatisfiedInd>true</Section508eRqrSatisfiedInd>
+        <AtLeast5000InAssetsInd>true</AtLeast5000InAssetsInd>
+        <Form990PFFiledWithAttyGenInd>true</Form990PFFiledWithAttyGenInd>
+        <PrivateOperatingFoundationInd>false</PrivateOperatingFoundationInd>
+        <NewSubstantialContributorsInd>false</NewSubstantialContributorsInd>
+        <OwnControlledEntityInd>false</OwnControlledEntityInd>
+        <DonorAdvisedFundInd>false</DonorAdvisedFundInd>
+        <ComplyWithPublicInspRqrInd>true</ComplyWithPublicInspRqrInd>
+        <WebsiteAddressTxt>www.krtmradio.com</WebsiteAddressTxt>
+        <IndividualWithBooksNm>Patricia Thomas</IndividualWithBooksNm>
+        <PhoneNum>7145457868</PhoneNum>
+        <LocationOfBooksUSAddress>
+          <AddressLine1Txt>PO Box 890820</AddressLine1Txt>
+          <CityNm>Temecula</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>92589</ZIPCd>
+        </LocationOfBooksUSAddress>
+        <ForeignAccountsQuestionInd>false</ForeignAccountsQuestionInd>
+      </StatementsRegardingActyGrp>
+      <StatementsRegardingActy4720Grp>
+        <SaleOrExchDisqualifiedPrsnInd>false</SaleOrExchDisqualifiedPrsnInd>
+        <BrrwOrLendDisqualifiedPrsnInd>false</BrrwOrLendDisqualifiedPrsnInd>
+        <FurnGoodsDisqualifiedPrsnInd>false</FurnGoodsDisqualifiedPrsnInd>
+        <PayCompDisqualifiedPrsnInd>false</PayCompDisqualifiedPrsnInd>
+        <TransferAstDisqualifiedPrsnInd>false</TransferAstDisqualifiedPrsnInd>
+        <PaymentToGovernmentOfficialInd>false</PaymentToGovernmentOfficialInd>
+        <UncorrectedPriorActsInd>false</UncorrectedPriorActsInd>
+        <UndistributedIncomePYInd>false</UndistributedIncomePYInd>
+        <BusinessHoldingsInd>false</BusinessHoldingsInd>
+        <JeopardyInvestmentsInd>false</JeopardyInvestmentsInd>
+        <UncorrectedPYJeopardyInvstInd>false</UncorrectedPYJeopardyInvstInd>
+        <InfluenceLegislationInd>false</InfluenceLegislationInd>
+        <InfluenceElectionInd>false</InfluenceElectionInd>
+        <GrantsToIndividualsInd>false</GrantsToIndividualsInd>
+        <GrantsToOrganizationsInd>false</GrantsToOrganizationsInd>
+        <NoncharitablePurposeInd>false</NoncharitablePurposeInd>
+        <RcvFndsToPayPrsnlBnftCntrctInd>false</RcvFndsToPayPrsnlBnftCntrctInd>
+        <PayPremiumsPrsnlBnftCntrctInd>false</PayPremiumsPrsnlBnftCntrctInd>
+        <ProhibitedTaxShelterTransInd>false</ProhibitedTaxShelterTransInd>
+        <ProceedsOrNetIncomeInd>false</ProceedsOrNetIncomeInd>
+      </StatementsRegardingActy4720Grp>
+      <OfficerDirTrstKeyEmplInfoGrp>
+        <OfficerDirTrstKeyEmplGrp>
+          <PersonNm>JEFFERY SMITH</PersonNm>
+          <USAddress>
+            <AddressLine1Txt>PO BOX 890820</AddressLine1Txt>
+            <CityNm>TEMECULA</CityNm>
+            <StateAbbreviationCd>CA</StateAbbreviationCd>
+            <ZIPCd>92589</ZIPCd>
+          </USAddress>
+          <TitleTxt>PRESIDENT</TitleTxt>
+          <AverageHrsPerWkDevotedToPosRt>5.00</AverageHrsPerWkDevotedToPosRt>
+          <CompensationAmt>0</CompensationAmt>
+          <EmployeeBenefitProgramAmt>0</EmployeeBenefitProgramAmt>
+          <ExpenseAccountOtherAllwncAmt>0</ExpenseAccountOtherAllwncAmt>
+        </OfficerDirTrstKeyEmplGrp>
+        <OfficerDirTrstKeyEmplGrp>
+          <PersonNm>CHAD SMITH</PersonNm>
+          <USAddress>
+            <AddressLine1Txt>PO BOX 890820</AddressLine1Txt>
+            <CityNm>TEMECULA</CityNm>
+            <StateAbbreviationCd>CA</StateAbbreviationCd>
+            <ZIPCd>92589</ZIPCd>
+          </USAddress>
+          <TitleTxt>VICE PRESIDENT</TitleTxt>
+          <AverageHrsPerWkDevotedToPosRt>5.00</AverageHrsPerWkDevotedToPosRt>
+          <CompensationAmt>0</CompensationAmt>
+          <EmployeeBenefitProgramAmt>0</EmployeeBenefitProgramAmt>
+          <ExpenseAccountOtherAllwncAmt>0</ExpenseAccountOtherAllwncAmt>
+        </OfficerDirTrstKeyEmplGrp>
+        <OfficerDirTrstKeyEmplGrp>
+          <PersonNm>VANESSA BERRY</PersonNm>
+          <USAddress>
+            <AddressLine1Txt>PO BOX 890820</AddressLine1Txt>
+            <CityNm>TEMECULA</CityNm>
+            <StateAbbreviationCd>CA</StateAbbreviationCd>
+            <ZIPCd>92589</ZIPCd>
+          </USAddress>
+          <TitleTxt>SECRETARY</TitleTxt>
+          <AverageHrsPerWkDevotedToPosRt>0.00</AverageHrsPerWkDevotedToPosRt>
+          <CompensationAmt>0</CompensationAmt>
+          <EmployeeBenefitProgramAmt>0</EmployeeBenefitProgramAmt>
+          <ExpenseAccountOtherAllwncAmt>0</ExpenseAccountOtherAllwncAmt>
+        </OfficerDirTrstKeyEmplGrp>
+        <CompensationHighestPaidEmplGrp>
+          <PersonNm>LEE WAGNER</PersonNm>
+          <USAddress>
+            <AddressLine1Txt>28829 CHAMPIONS DRIVE</AddressLine1Txt>
+            <CityNm>MENIFEE</CityNm>
+            <StateAbbreviationCd>CA</StateAbbreviationCd>
+            <ZIPCd>92584</ZIPCd>
+          </USAddress>
+          <TitleTxt>Engineer</TitleTxt>
+          <AverageHrsPerWkDevotedToPosRt>40.00</AverageHrsPerWkDevotedToPosRt>
+          <CompensationAmt>56435</CompensationAmt>
+          <EmployeeBenefitsAmt>0</EmployeeBenefitsAmt>
+          <ExpenseAccountAmt>0</ExpenseAccountAmt>
+        </CompensationHighestPaidEmplGrp>
+        <CompensationHighestPaidEmplGrp>
+          <PersonNm>PATRICIA SUTTON</PersonNm>
+          <USAddress>
+            <AddressLine1Txt>3433 W OVERLOOK DRIVE</AddressLine1Txt>
+            <CityNm>LAYTON</CityNm>
+            <StateAbbreviationCd>UT</StateAbbreviationCd>
+            <ZIPCd>84041</ZIPCd>
+          </USAddress>
+          <TitleTxt>Secretary</TitleTxt>
+          <AverageHrsPerWkDevotedToPosRt>40.00</AverageHrsPerWkDevotedToPosRt>
+          <CompensationAmt>56093</CompensationAmt>
+          <EmployeeBenefitsAmt>0</EmployeeBenefitsAmt>
+          <ExpenseAccountAmt>0</ExpenseAccountAmt>
+        </CompensationHighestPaidEmplGrp>
+        <OtherEmployeePaidOver50kCnt>0</OtherEmployeePaidOver50kCnt>
+        <CompOfHghstPdCntrctOrNONETxt>NONE</CompOfHghstPdCntrctOrNONETxt>
+        <ContractorPaidOver50kCnt>0</ContractorPaidOver50kCnt>
+      </OfficerDirTrstKeyEmplInfoGrp>
+      <SummaryOfDirectChrtblActyGrp>
+        <Description1Txt>Broadcast non-profit religious programming through the use of a noncommercial radio network.</Description1Txt>
+        <Expenses1Amt>1218317</Expenses1Amt>
+      </SummaryOfDirectChrtblActyGrp>
+      <SumOfProgramRelatedInvstGrp>
+        <Description1Txt>NONE</Description1Txt>
+        <Expenses1Amt>0</Expenses1Amt>
+        <TotalAmt>0</TotalAmt>
+      </SumOfProgramRelatedInvstGrp>
+      <MinimumInvestmentReturnGrp>
+        <AverageMonthlyFMVOfSecAmt>0</AverageMonthlyFMVOfSecAmt>
+        <AverageMonthlyCashBalancesAmt>0</AverageMonthlyCashBalancesAmt>
+        <FMVAllOtherNoncharitableAstAmt>0</FMVAllOtherNoncharitableAstAmt>
+        <TotalFMVOfUnusedAssetsAmt>0</TotalFMVOfUnusedAssetsAmt>
+        <ReductionClaimedAmt>0</ReductionClaimedAmt>
+        <AdjustedTotalFMVOfUnusedAstAmt>0</AdjustedTotalFMVOfUnusedAstAmt>
+        <CashDeemedCharitableAmt>0</CashDeemedCharitableAmt>
+        <NetVlNoncharitableAssetsAmt>0</NetVlNoncharitableAssetsAmt>
+        <MinimumInvestmentReturnAmt>0</MinimumInvestmentReturnAmt>
+      </MinimumInvestmentReturnGrp>
+      <DistributableAmountGrp>
+        <MinimumInvestmentReturnAmt>0</MinimumInvestmentReturnAmt>
+        <TaxBasedOnInvestmentIncomeAmt>0</TaxBasedOnInvestmentIncomeAmt>
+        <TotalTaxAmt>0</TotalTaxAmt>
+        <DistributableBeforeAdjAmt>0</DistributableBeforeAdjAmt>
+        <DistributableBeforeDedAmt>0</DistributableBeforeDedAmt>
+        <DistributableAsAdjustedAmt>0</DistributableAsAdjustedAmt>
+      </DistributableAmountGrp>
+      <QualifyingDistriPartXIIGrp>
+        <ExpensesAndContributionsAmt>0</ExpensesAndContributionsAmt>
+        <ProgramRelatedInvstTotalAmt>0</ProgramRelatedInvstTotalAmt>
+        <QualifyingDistributionsAmt>0</QualifyingDistributionsAmt>
+        <AdjustedQualifyingDistriAmt>0</AdjustedQualifyingDistriAmt>
+      </QualifyingDistriPartXIIGrp>
+      <UndistributedIncomeGrp>
+        <DistributableAsAdjustedAmt>0</DistributableAsAdjustedAmt>
+        <ExcessDistributionCyovYr5Amt>247957</ExcessDistributionCyovYr5Amt>
+        <ExcessDistributionCyovYr4Amt>228747</ExcessDistributionCyovYr4Amt>
+        <ExcessDistributionCyovYr3Amt>364217</ExcessDistributionCyovYr3Amt>
+        <ExcessDistributionCyovYr2Amt>26526</ExcessDistributionCyovYr2Amt>
+        <ExcessDistributionCyovYr1Amt>3313</ExcessDistributionCyovYr1Amt>
+        <TotalExcessDistributionCyovAmt>870760</TotalExcessDistributionCyovAmt>
+        <QualifyingDistributionsAmt>0</QualifyingDistributionsAmt>
+        <TreatedAsDistriFromCorpusAmt>0</TreatedAsDistriFromCorpusAmt>
+        <RemainingDistriFromCorpusAmt>0</RemainingDistriFromCorpusAmt>
+        <TotalCorpusAmt>870760</TotalCorpusAmt>
+        <PriorYearUndistributedIncmAmt>0</PriorYearUndistributedIncmAmt>
+        <Taxable1Amt>0</Taxable1Amt>
+        <Taxable2Amt>0</Taxable2Amt>
+        <UndistributedIncomeCYAmt>0</UndistributedIncomeCYAmt>
+        <ExcessDistriCyovFromYr5Amt>247957</ExcessDistriCyovFromYr5Amt>
+        <ExcessDistriCyovToNextYrAmt>622803</ExcessDistriCyovToNextYrAmt>
+        <ExcessFromYear4Amt>228747</ExcessFromYear4Amt>
+        <ExcessFromYear3Amt>364217</ExcessFromYear3Amt>
+        <ExcessFromYear2Amt>26526</ExcessFromYear2Amt>
+        <ExcessFromYear1Amt>3313</ExcessFromYear1Amt>
+        <ExcessFromCurrentYearAmt>0</ExcessFromCurrentYearAmt>
+      </UndistributedIncomeGrp>
+      <SupplementaryInformationGrp>
+        <ContributingManagerNm>NA</ContributingManagerNm>
+        <ShareholderManagerNm>NA</ShareholderManagerNm>
+        <OnlyContriToPreselectedInd>X</OnlyContriToPreselectedInd>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientPersonNm>Theresa Babian</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>not available</AddressLine1Txt>
+            <CityNm>na</CityNm>
+            <StateAbbreviationCd>CA</StateAbbreviationCd>
+            <ZIPCd>00000</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientFoundationStatusTxt>n/a</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>Assistance to indigent family</GrantOrContributionPurposeTxt>
+          <Amt>615</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>Cross Current Intl Ministries</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientUSAddress>
+            <AddressLine1Txt>PO Box 12201</AddressLine1Txt>
+            <CityNm>Dallas</CityNm>
+            <StateAbbreviationCd>TX</StateAbbreviationCd>
+            <ZIPCd>75225</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientFoundationStatusTxt>501(c)(3)</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>For the supportof Africanministry.</GrantOrContributionPurposeTxt>
+          <Amt>5000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientPersonNm>Paul Smith</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>PO Box 231</AddressLine1Txt>
+            <CityNm>Lucerne Valley</CityNm>
+            <StateAbbreviationCd>CA</StateAbbreviationCd>
+            <ZIPCd>92356</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>Related toPresident</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>n/a</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>Assistance forexpenses</GrantOrContributionPurposeTxt>
+          <Amt>500</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>Living Water Radio</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientUSAddress>
+            <AddressLine1Txt>508 W 24th Avenue</AddressLine1Txt>
+            <CityNm>Bellevue</CityNm>
+            <StateAbbreviationCd>NE</StateAbbreviationCd>
+            <ZIPCd>68005</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientFoundationStatusTxt>501(c)3</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>Ministrysupport</GrantOrContributionPurposeTxt>
+          <Amt>1500</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientPersonNm>Mike Short</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>jail inmate</AddressLine1Txt>
+            <CityNm>na</CityNm>
+            <StateAbbreviationCd>CA</StateAbbreviationCd>
+            <ZIPCd>00000</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientFoundationStatusTxt>n/a</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>Assistance forhelp back intosociety</GrantOrContributionPurposeTxt>
+          <Amt>2000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>Step Forward Ministries</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientUSAddress>
+            <AddressLine1Txt>730 Grant Avenue</AddressLine1Txt>
+            <CityNm>Twin Falls</CityNm>
+            <StateAbbreviationCd>ID</StateAbbreviationCd>
+            <ZIPCd>83301</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientFoundationStatusTxt>501(c)3</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>Ministry support</GrantOrContributionPurposeTxt>
+          <Amt>1000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientPersonNm>Brent Higginson</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>4309 1/2 Bellflower Blvd</AddressLine1Txt>
+            <CityNm>Long Beach</CityNm>
+            <StateAbbreviationCd>CA</StateAbbreviationCd>
+            <ZIPCd>90808</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientFoundationStatusTxt>n/a</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>Assistance forexpenses</GrantOrContributionPurposeTxt>
+          <Amt>250</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientPersonNm>Cash Donations for the</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>needy and homeless</AddressLine1Txt>
+            <CityNm>na</CityNm>
+            <StateAbbreviationCd>CA</StateAbbreviationCd>
+            <ZIPCd>00000</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientFoundationStatusTxt>n/a</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>Financial assistance toneedy &amp; homeless</GrantOrContributionPurposeTxt>
+          <Amt>2012</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <TotalGrantOrContriPdDurYrAmt>12877</TotalGrantOrContriPdDurYrAmt>
+      </SupplementaryInformationGrp>
+      <AnalysisIncomeProducingActyGrp>
+        <ProgramServiceRevPartVIIGrp>
+          <Desc>Program Support</Desc>
+          <RelatedOrExemptFunctionIncmAmt>865893</RelatedOrExemptFunctionIncmAmt>
+        </ProgramServiceRevPartVIIGrp>
+        <GainSalesAstOthThanInvntryGrp>
+          <RelatedOrExemptFunctionIncmAmt>906953</RelatedOrExemptFunctionIncmAmt>
+        </GainSalesAstOthThanInvntryGrp>
+        <SubtotalsIncmProducingActyGrp>
+          <RelatedOrExemptFunctionIncmAmt>1772846</RelatedOrExemptFunctionIncmAmt>
+        </SubtotalsIncmProducingActyGrp>
+        <TotalIncomeProducingActyAmt>1772846</TotalIncomeProducingActyAmt>
+      </AnalysisIncomeProducingActyGrp>
+      <RlnOfActyToAccomOfExmptPrpsGrp>
+        <RlnOfActyToAccomOfExmptPrpsGrp>
+          <LineNumberTxt>1a</LineNumberTxt>
+          <RelationshipStatementTxt>Programmers are requested to donate funds for broadcasting their</RelationshipStatementTxt>
+        </RlnOfActyToAccomOfExmptPrpsGrp>
+        <RlnOfActyToAccomOfExmptPrpsGrp>
+          <LineNumberTxt>1a</LineNumberTxt>
+          <RelationshipStatementTxt>programs on the non-commercial radio network. Programmers are</RelationshipStatementTxt>
+        </RlnOfActyToAccomOfExmptPrpsGrp>
+        <RlnOfActyToAccomOfExmptPrpsGrp>
+          <LineNumberTxt>1a</LineNumberTxt>
+          <RelationshipStatementTxt>generally churches and pastors, which is the primary means of</RelationshipStatementTxt>
+        </RlnOfActyToAccomOfExmptPrpsGrp>
+        <RlnOfActyToAccomOfExmptPrpsGrp>
+          <LineNumberTxt>1a</LineNumberTxt>
+          <RelationshipStatementTxt>broadcasting its non-profit religious programming.</RelationshipStatementTxt>
+        </RlnOfActyToAccomOfExmptPrpsGrp>
+      </RlnOfActyToAccomOfExmptPrpsGrp>
+      <TrnsfrTransRlnNonchrtblEOGrp>
+        <TrnsfrOfCashToNonchrtblEOInd>false</TrnsfrOfCashToNonchrtblEOInd>
+        <TrnsfrOtherAssetNonchrtblEOInd>false</TrnsfrOtherAssetNonchrtblEOInd>
+        <SalesOrExchangesOfAssetsInd>false</SalesOrExchangesOfAssetsInd>
+        <PurchaseOfAssetsNonchrtblEOInd>false</PurchaseOfAssetsNonchrtblEOInd>
+        <RentalOfFacilitiesOthAssetsInd>false</RentalOfFacilitiesOthAssetsInd>
+        <ReimbursementArrangementsInd>false</ReimbursementArrangementsInd>
+        <LoansOrLoanGuaranteesInd>false</LoansOrLoanGuaranteesInd>
+        <PerformanceOfServicesEtcInd>false</PerformanceOfServicesEtcInd>
+        <SharingOfFacilitiesEtcInd>false</SharingOfFacilitiesEtcInd>
+        <RelationshipsNonchrtblEOInd>false</RelationshipsNonchrtblEOInd>
+      </TrnsfrTransRlnNonchrtblEOGrp>
+    </IRS990PF>
+    <IRS990ScheduleB documentId="IRS990ScheduleB-01">
+      <Organization501c3ExemptPFInd>X</Organization501c3ExemptPFInd>
+      <GeneralRuleInd>X</GeneralRuleInd>
+      <ContributorInformationGrp>
+        <ContributorNum>1</ContributorNum>
+        <ContributorBusinessName>
+          <BusinessNameLine1Txt>Experiencing Real Life</BusinessNameLine1Txt>
+        </ContributorBusinessName>
+        <ContributorUSAddress>
+          <AddressLine1Txt>301 E Dobson</AddressLine1Txt>
+          <CityNm>Burleson</CityNm>
+          <StateAbbreviationCd>TX</StateAbbreviationCd>
+          <ZIPCd>76028</ZIPCd>
+        </ContributorUSAddress>
+        <TotalContributionsAmt>63485</TotalContributionsAmt>
+        <PersonContributionInd>X</PersonContributionInd>
+      </ContributorInformationGrp>
+      <ContributorInformationGrp>
+        <ContributorNum>2</ContributorNum>
+        <ContributorBusinessName>
+          <BusinessNameLine1Txt>A New Beginning</BusinessNameLine1Txt>
+        </ContributorBusinessName>
+        <ContributorUSAddress>
+          <AddressLine1Txt>205 Addison Drive</AddressLine1Txt>
+          <CityNm>Fayetteville</CityNm>
+          <StateAbbreviationCd>GA</StateAbbreviationCd>
+          <ZIPCd>30215</ZIPCd>
+        </ContributorUSAddress>
+        <TotalContributionsAmt>33278</TotalContributionsAmt>
+        <PersonContributionInd>X</PersonContributionInd>
+      </ContributorInformationGrp>
+      <ContributorInformationGrp>
+        <ContributorNum>3</ContributorNum>
+        <ContributorBusinessName>
+          <BusinessNameLine1Txt>A Place To Grow</BusinessNameLine1Txt>
+        </ContributorBusinessName>
+        <ContributorUSAddress>
+          <AddressLine1Txt>PO Box 2255</AddressLine1Txt>
+          <CityNm>Grapevine</CityNm>
+          <StateAbbreviationCd>TX</StateAbbreviationCd>
+          <ZIPCd>76099</ZIPCd>
+        </ContributorUSAddress>
+        <TotalContributionsAmt>36700</TotalContributionsAmt>
+        <PersonContributionInd>X</PersonContributionInd>
+      </ContributorInformationGrp>
+      <ContributorInformationGrp>
+        <ContributorNum>4</ContributorNum>
+        <ContributorBusinessName>
+          <BusinessNameLine1Txt>Cornerstone Communications</BusinessNameLine1Txt>
+        </ContributorBusinessName>
+        <ContributorUSAddress>
+          <AddressLine1Txt>24551 Del Prado 71</AddressLine1Txt>
+          <CityNm>Dana Point</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>92629</ZIPCd>
+        </ContributorUSAddress>
+        <TotalContributionsAmt>8925</TotalContributionsAmt>
+        <PersonContributionInd>X</PersonContributionInd>
+      </ContributorInformationGrp>
+      <ContributorInformationGrp>
+        <ContributorNum>5</ContributorNum>
+        <ContributorBusinessName>
+          <BusinessNameLine1Txt>Destined For Victory</BusinessNameLine1Txt>
+        </ContributorBusinessName>
+        <ContributorUSAddress>
+          <AddressLine1Txt>PO Box 516</AddressLine1Txt>
+          <CityNm>Hainesport</CityNm>
+          <StateAbbreviationCd>NJ</StateAbbreviationCd>
+          <ZIPCd>08036</ZIPCd>
+        </ContributorUSAddress>
+        <TotalContributionsAmt>55378</TotalContributionsAmt>
+        <PersonContributionInd>X</PersonContributionInd>
+      </ContributorInformationGrp>
+      <ContributorInformationGrp>
+        <ContributorNum>6</ContributorNum>
+        <ContributorBusinessName>
+          <BusinessNameLine1Txt>Faith Hope &amp; Love</BusinessNameLine1Txt>
+        </ContributorBusinessName>
+        <ContributorUSAddress>
+          <AddressLine1Txt>1701 Oakhurst Scenic Drive</AddressLine1Txt>
+          <CityNm>Fort Worth</CityNm>
+          <StateAbbreviationCd>TX</StateAbbreviationCd>
+          <ZIPCd>76111</ZIPCd>
+        </ContributorUSAddress>
+        <TotalContributionsAmt>11000</TotalContributionsAmt>
+        <PersonContributionInd>X</PersonContributionInd>
+      </ContributorInformationGrp>
+      <ContributorInformationGrp>
+        <ContributorNum>7</ContributorNum>
+        <ContributorBusinessName>
+          <BusinessNameLine1Txt>Focal Point</BusinessNameLine1Txt>
+        </ContributorBusinessName>
+        <ContributorUSAddress>
+          <AddressLine1Txt>PO Box 2850</AddressLine1Txt>
+          <CityNm>Laguna Hills</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>92654</ZIPCd>
+        </ContributorUSAddress>
+        <TotalContributionsAmt>33278</TotalContributionsAmt>
+        <PersonContributionInd>X</PersonContributionInd>
+      </ContributorInformationGrp>
+      <ContributorInformationGrp>
+        <ContributorNum>8</ContributorNum>
+        <ContributorBusinessName>
+          <BusinessNameLine1Txt>RESEARCH EDUCATIONAL FOUNDATION INC</BusinessNameLine1Txt>
+        </ContributorBusinessName>
+        <ContributorUSAddress>
+          <AddressLine1Txt>PO BOX 796936</AddressLine1Txt>
+          <CityNm>DALLAS</CityNm>
+          <StateAbbreviationCd>TX</StateAbbreviationCd>
+          <ZIPCd>75379</ZIPCd>
+        </ContributorUSAddress>
+        <TotalContributionsAmt>5000</TotalContributionsAmt>
+        <PersonContributionInd>X</PersonContributionInd>
+      </ContributorInformationGrp>
+      <ContributorInformationGrp>
+        <ContributorNum>9</ContributorNum>
+        <ContributorPersonNm>CROSSWALK</ContributorPersonNm>
+        <ContributorUSAddress>
+          <AddressLine1Txt>10611 W CLEARWATER AVENUE</AddressLine1Txt>
+          <CityNm>KENNEWICK</CityNm>
+          <StateAbbreviationCd>WA</StateAbbreviationCd>
+          <ZIPCd>99336</ZIPCd>
+        </ContributorUSAddress>
+        <TotalContributionsAmt>6525</TotalContributionsAmt>
+        <PersonContributionInd>X</PersonContributionInd>
+      </ContributorInformationGrp>
+      <ContributorInformationGrp>
+        <ContributorNum>10</ContributorNum>
+        <ContributorBusinessName>
+          <BusinessNameLine1Txt>Jay Sekulow Live</BusinessNameLine1Txt>
+        </ContributorBusinessName>
+        <ContributorUSAddress>
+          <AddressLine1Txt>100 Crescent Centre Pkwy 700</AddressLine1Txt>
+          <CityNm>Tucker</CityNm>
+          <StateAbbreviationCd>GA</StateAbbreviationCd>
+          <ZIPCd>30084</ZIPCd>
+        </ContributorUSAddress>
+        <TotalContributionsAmt>39150</TotalContributionsAmt>
+        <PersonContributionInd>X</PersonContributionInd>
+      </ContributorInformationGrp>
+      <ContributorInformationGrp>
+        <ContributorNum>11</ContributorNum>
+        <ContributorBusinessName>
+          <BusinessNameLine1Txt>DR WA CRISWELL FOUNDATION</BusinessNameLine1Txt>
+        </ContributorBusinessName>
+        <ContributorUSAddress>
+          <AddressLine1Txt>1389 MELANIE DRIVE</AddressLine1Txt>
+          <CityNm>UNIONTOWN</CityNm>
+          <StateAbbreviationCd>OH</StateAbbreviationCd>
+          <ZIPCd>44685</ZIPCd>
+        </ContributorUSAddress>
+        <TotalContributionsAmt>35550</TotalContributionsAmt>
+        <PersonContributionInd>X</PersonContributionInd>
+      </ContributorInformationGrp>
+      <ContributorInformationGrp>
+        <ContributorNum>12</ContributorNum>
+        <ContributorBusinessName>
+          <BusinessNameLine1Txt>Life Talk</BusinessNameLine1Txt>
+        </ContributorBusinessName>
+        <ContributorUSAddress>
+          <AddressLine1Txt>10700 Old Burleson Road</AddressLine1Txt>
+          <CityNm>Fort Worth</CityNm>
+          <StateAbbreviationCd>TX</StateAbbreviationCd>
+          <ZIPCd>76140</ZIPCd>
+        </ContributorUSAddress>
+        <TotalContributionsAmt>58650</TotalContributionsAmt>
+        <PersonContributionInd>X</PersonContributionInd>
+      </ContributorInformationGrp>
+      <ContributorInformationGrp>
+        <ContributorNum>13</ContributorNum>
+        <ContributorBusinessName>
+          <BusinessNameLine1Txt>Line of Fire</BusinessNameLine1Txt>
+        </ContributorBusinessName>
+        <ContributorUSAddress>
+          <AddressLine1Txt>4405 Providence Lane Suite D</AddressLine1Txt>
+          <CityNm>Winston Salem</CityNm>
+          <StateAbbreviationCd>NC</StateAbbreviationCd>
+          <ZIPCd>27106</ZIPCd>
+        </ContributorUSAddress>
+        <TotalContributionsAmt>12000</TotalContributionsAmt>
+        <PersonContributionInd>X</PersonContributionInd>
+      </ContributorInformationGrp>
+      <ContributorInformationGrp>
+        <ContributorNum>14</ContributorNum>
+        <ContributorBusinessName>
+          <BusinessNameLine1Txt>Live the Word</BusinessNameLine1Txt>
+        </ContributorBusinessName>
+        <ContributorUSAddress>
+          <AddressLine1Txt>PO Box 1729</AddressLine1Txt>
+          <CityNm>Coppell</CityNm>
+          <StateAbbreviationCd>TX</StateAbbreviationCd>
+          <ZIPCd>75019</ZIPCd>
+        </ContributorUSAddress>
+        <TotalContributionsAmt>30450</TotalContributionsAmt>
+        <PersonContributionInd>X</PersonContributionInd>
+      </ContributorInformationGrp>
+      <ContributorInformationGrp>
+        <ContributorNum>15</ContributorNum>
+        <ContributorBusinessName>
+          <BusinessNameLine1Txt>IN TOUCH MINISTRIES</BusinessNameLine1Txt>
+        </ContributorBusinessName>
+        <ContributorUSAddress>
+          <AddressLine1Txt>1389 MELANIE DRIVE</AddressLine1Txt>
+          <CityNm>UNIONTOWN</CityNm>
+          <StateAbbreviationCd>OH</StateAbbreviationCd>
+          <ZIPCd>446857959</ZIPCd>
+        </ContributorUSAddress>
+        <TotalContributionsAmt>26535</TotalContributionsAmt>
+        <PersonContributionInd>X</PersonContributionInd>
+      </ContributorInformationGrp>
+      <ContributorInformationGrp>
+        <ContributorNum>16</ContributorNum>
+        <ContributorBusinessName>
+          <BusinessNameLine1Txt>SW RADIO</BusinessNameLine1Txt>
+        </ContributorBusinessName>
+        <ContributorUSAddress>
+          <AddressLine1Txt>1389 MELANIE DRIVE</AddressLine1Txt>
+          <CityNm>UNIONTOWN</CityNm>
+          <StateAbbreviationCd>OH</StateAbbreviationCd>
+          <ZIPCd>446857959</ZIPCd>
+        </ContributorUSAddress>
+        <TotalContributionsAmt>27580</TotalContributionsAmt>
+        <PersonContributionInd>X</PersonContributionInd>
+      </ContributorInformationGrp>
+      <ContributorInformationGrp>
+        <ContributorNum>17</ContributorNum>
+        <ContributorBusinessName>
+          <BusinessNameLine1Txt>Peace by Believing</BusinessNameLine1Txt>
+        </ContributorBusinessName>
+        <ContributorUSAddress>
+          <AddressLine1Txt>7500 Fairmont Parkway</AddressLine1Txt>
+          <CityNm>Pasadena</CityNm>
+          <StateAbbreviationCd>TX</StateAbbreviationCd>
+          <ZIPCd>77505</ZIPCd>
+        </ContributorUSAddress>
+        <TotalContributionsAmt>8075</TotalContributionsAmt>
+        <PersonContributionInd>X</PersonContributionInd>
+      </ContributorInformationGrp>
+      <ContributorInformationGrp>
+        <ContributorNum>18</ContributorNum>
+        <ContributorBusinessName>
+          <BusinessNameLine1Txt>Prudent Money</BusinessNameLine1Txt>
+        </ContributorBusinessName>
+        <ContributorUSAddress>
+          <AddressLine1Txt>16633 Dallas Parkway 275</AddressLine1Txt>
+          <CityNm>Addison</CityNm>
+          <StateAbbreviationCd>TX</StateAbbreviationCd>
+          <ZIPCd>75001</ZIPCd>
+        </ContributorUSAddress>
+        <TotalContributionsAmt>26100</TotalContributionsAmt>
+        <PersonContributionInd>X</PersonContributionInd>
+      </ContributorInformationGrp>
+      <ContributorInformationGrp>
+        <ContributorNum>19</ContributorNum>
+        <ContributorBusinessName>
+          <BusinessNameLine1Txt>Real Radio</BusinessNameLine1Txt>
+        </ContributorBusinessName>
+        <ContributorUSAddress>
+          <AddressLine1Txt>4201 Eucalyptus Avenue</AddressLine1Txt>
+          <CityNm>Chino</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>91710</ZIPCd>
+        </ContributorUSAddress>
+        <TotalContributionsAmt>52100</TotalContributionsAmt>
+        <PersonContributionInd>X</PersonContributionInd>
+      </ContributorInformationGrp>
+      <ContributorInformationGrp>
+        <ContributorNum>20</ContributorNum>
+        <ContributorBusinessName>
+          <BusinessNameLine1Txt>Running To Win</BusinessNameLine1Txt>
+        </ContributorBusinessName>
+        <ContributorUSAddress>
+          <AddressLine1Txt>1635 N La Salle Street</AddressLine1Txt>
+          <CityNm>Chicago</CityNm>
+          <StateAbbreviationCd>IL</StateAbbreviationCd>
+          <ZIPCd>60614</ZIPCd>
+        </ContributorUSAddress>
+        <TotalContributionsAmt>33278</TotalContributionsAmt>
+        <PersonContributionInd>X</PersonContributionInd>
+      </ContributorInformationGrp>
+      <ContributorInformationGrp>
+        <ContributorNum>21</ContributorNum>
+        <ContributorBusinessName>
+          <BusinessNameLine1Txt>Searchlight</BusinessNameLine1Txt>
+        </ContributorBusinessName>
+        <ContributorUSAddress>
+          <AddressLine1Txt>PO Box 360</AddressLine1Txt>
+          <CityNm>Jacksonville</CityNm>
+          <StateAbbreviationCd>OR</StateAbbreviationCd>
+          <ZIPCd>97530</ZIPCd>
+        </ContributorUSAddress>
+        <TotalContributionsAmt>26100</TotalContributionsAmt>
+        <PersonContributionInd>X</PersonContributionInd>
+      </ContributorInformationGrp>
+      <ContributorInformationGrp>
+        <ContributorNum>22</ContributorNum>
+        <ContributorBusinessName>
+          <BusinessNameLine1Txt>THE POWER OF HOPE</BusinessNameLine1Txt>
+        </ContributorBusinessName>
+        <ContributorUSAddress>
+          <AddressLine1Txt>1701 HEMPHILL STREET</AddressLine1Txt>
+          <CityNm>FORT WORTH</CityNm>
+          <StateAbbreviationCd>TX</StateAbbreviationCd>
+          <ZIPCd>76110</ZIPCd>
+        </ContributorUSAddress>
+        <TotalContributionsAmt>64450</TotalContributionsAmt>
+        <PersonContributionInd>X</PersonContributionInd>
+      </ContributorInformationGrp>
+      <ContributorInformationGrp>
+        <ContributorNum>23</ContributorNum>
+        <ContributorBusinessName>
+          <BusinessNameLine1Txt>Somebody Loves You</BusinessNameLine1Txt>
+        </ContributorBusinessName>
+        <ContributorUSAddress>
+          <AddressLine1Txt>22324 Golden Springs Dr</AddressLine1Txt>
+          <CityNm>Diamond Bar</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>91765</ZIPCd>
+        </ContributorUSAddress>
+        <TotalContributionsAmt>6450</TotalContributionsAmt>
+        <PersonContributionInd>X</PersonContributionInd>
+      </ContributorInformationGrp>
+      <ContributorInformationGrp>
+        <ContributorNum>24</ContributorNum>
+        <ContributorBusinessName>
+          <BusinessNameLine1Txt>TRUTH FOR LIFE</BusinessNameLine1Txt>
+        </ContributorBusinessName>
+        <ContributorUSAddress>
+          <AddressLine1Txt>PO BOX 398000</AddressLine1Txt>
+          <CityNm>SOLON</CityNm>
+          <StateAbbreviationCd>OH</StateAbbreviationCd>
+          <ZIPCd>44139</ZIPCd>
+        </ContributorUSAddress>
+        <TotalContributionsAmt>35756</TotalContributionsAmt>
+        <PersonContributionInd>X</PersonContributionInd>
+      </ContributorInformationGrp>
+      <ContributorInformationGrp>
+        <ContributorNum>25</ContributorNum>
+        <ContributorBusinessName>
+          <BusinessNameLine1Txt>The Gospel Truth</BusinessNameLine1Txt>
+        </ContributorBusinessName>
+        <ContributorUSAddress>
+          <AddressLine1Txt>2648 FM 407 Suite 250</AddressLine1Txt>
+          <CityNm>Argyle</CityNm>
+          <StateAbbreviationCd>TX</StateAbbreviationCd>
+          <ZIPCd>76226</ZIPCd>
+        </ContributorUSAddress>
+        <TotalContributionsAmt>11180</TotalContributionsAmt>
+        <PersonContributionInd>X</PersonContributionInd>
+      </ContributorInformationGrp>
+      <ContributorInformationGrp>
+        <ContributorNum>26</ContributorNum>
+        <ContributorBusinessName>
+          <BusinessNameLine1Txt>The Invisible War</BusinessNameLine1Txt>
+        </ContributorBusinessName>
+        <ContributorUSAddress>
+          <AddressLine1Txt>PO Box 535787</AddressLine1Txt>
+          <CityNm>Grand Prairie</CityNm>
+          <StateAbbreviationCd>TX</StateAbbreviationCd>
+          <ZIPCd>75053</ZIPCd>
+        </ContributorUSAddress>
+        <TotalContributionsAmt>10400</TotalContributionsAmt>
+        <PersonContributionInd>X</PersonContributionInd>
+      </ContributorInformationGrp>
+      <ContributorInformationGrp>
+        <ContributorNum>27</ContributorNum>
+        <ContributorBusinessName>
+          <BusinessNameLine1Txt>The Power of Hope</BusinessNameLine1Txt>
+        </ContributorBusinessName>
+        <ContributorUSAddress>
+          <AddressLine1Txt>1701 Hemphill Street</AddressLine1Txt>
+          <CityNm>Fort Worth</CityNm>
+          <StateAbbreviationCd>TX</StateAbbreviationCd>
+          <ZIPCd>76110</ZIPCd>
+        </ContributorUSAddress>
+        <TotalContributionsAmt>64450</TotalContributionsAmt>
+        <PersonContributionInd>X</PersonContributionInd>
+      </ContributorInformationGrp>
+      <ContributorInformationGrp>
+        <ContributorNum>28</ContributorNum>
+        <ContributorBusinessName>
+          <BusinessNameLine1Txt>TURNING POINT</BusinessNameLine1Txt>
+        </ContributorBusinessName>
+        <ContributorUSAddress>
+          <AddressLine1Txt>10007 RIVERFORD ROAD</AddressLine1Txt>
+          <CityNm>LAKESIDE</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>92040</ZIPCd>
+        </ContributorUSAddress>
+        <TotalContributionsAmt>33278</TotalContributionsAmt>
+        <PersonContributionInd>X</PersonContributionInd>
+      </ContributorInformationGrp>
+      <ContributorInformationGrp>
+        <ContributorNum>29</ContributorNum>
+        <ContributorBusinessName>
+          <BusinessNameLine1Txt>Truth for Life</BusinessNameLine1Txt>
+        </ContributorBusinessName>
+        <ContributorUSAddress>
+          <AddressLine1Txt>PO Box 398000</AddressLine1Txt>
+          <CityNm>Solon</CityNm>
+          <StateAbbreviationCd>OH</StateAbbreviationCd>
+          <ZIPCd>44139</ZIPCd>
+        </ContributorUSAddress>
+        <TotalContributionsAmt>35756</TotalContributionsAmt>
+        <PersonContributionInd>X</PersonContributionInd>
+      </ContributorInformationGrp>
+      <ContributorInformationGrp>
+        <ContributorNum>30</ContributorNum>
+        <ContributorBusinessName>
+          <BusinessNameLine1Txt>Turning Point</BusinessNameLine1Txt>
+        </ContributorBusinessName>
+        <ContributorUSAddress>
+          <AddressLine1Txt>10007 Riverford Road</AddressLine1Txt>
+          <CityNm>Lakeside</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>92040</ZIPCd>
+        </ContributorUSAddress>
+        <TotalContributionsAmt>33278</TotalContributionsAmt>
+        <PersonContributionInd>X</PersonContributionInd>
+      </ContributorInformationGrp>
+      <ContributorInformationGrp>
+        <ContributorNum>31</ContributorNum>
+        <ContributorBusinessName>
+          <BusinessNameLine1Txt>Understanding the Times</BusinessNameLine1Txt>
+        </ContributorBusinessName>
+        <ContributorUSAddress>
+          <AddressLine1Txt>1389 Melanie Drive</AddressLine1Txt>
+          <CityNm>Uniontown</CityNm>
+          <StateAbbreviationCd>OH</StateAbbreviationCd>
+          <ZIPCd>44685</ZIPCd>
+        </ContributorUSAddress>
+        <TotalContributionsAmt>12287</TotalContributionsAmt>
+        <PersonContributionInd>X</PersonContributionInd>
+      </ContributorInformationGrp>
+      <ContributorInformationGrp>
+        <ContributorNum>32</ContributorNum>
+        <ContributorBusinessName>
+          <BusinessNameLine1Txt>LASTING TRUTH</BusinessNameLine1Txt>
+        </ContributorBusinessName>
+        <ContributorUSAddress>
+          <AddressLine1Txt>1404 TULIP CIRCLE N</AddressLine1Txt>
+          <CityNm>BEAUMONT</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>92223</ZIPCd>
+        </ContributorUSAddress>
+        <TotalContributionsAmt>11000</TotalContributionsAmt>
+        <PersonContributionInd>X</PersonContributionInd>
+      </ContributorInformationGrp>
+      <ContributorInformationGrp>
+        <ContributorNum>33</ContributorNum>
+        <ContributorBusinessName>
+          <BusinessNameLine1Txt>PARENTING TODAY'S YOUTH</BusinessNameLine1Txt>
+        </ContributorBusinessName>
+        <ContributorUSAddress>
+          <AddressLine1Txt>PO BOX 764499</AddressLine1Txt>
+          <CityNm>DALLAS</CityNm>
+          <StateAbbreviationCd>TX</StateAbbreviationCd>
+          <ZIPCd>75376</ZIPCd>
+        </ContributorUSAddress>
+        <TotalContributionsAmt>6375</TotalContributionsAmt>
+        <PersonContributionInd>X</PersonContributionInd>
+      </ContributorInformationGrp>
+    </IRS990ScheduleB>
+    <AccountingFeesSchedule documentId="AccountingFeesSchedule-01">
+      <AccountingFeesDetail>
+        <CategoryTxt>Qualified Tax Service Acctg &amp; Tax Services</CategoryTxt>
+        <Amt>1250</Amt>
+      </AccountingFeesDetail>
+    </AccountingFeesSchedule>
+    <DepreciationSchedule documentId="DepreciationSchedule-01">
+      <DepreciationPropertyGrp>
+        <PropertyDesc>1320 KDKR</PropertyDesc>
+        <AcquiredDt>2009-09-03</AcquiredDt>
+        <CostOrOtherBasisAmt>692263</CostOrOtherBasisAmt>
+        <PriorYearDepreciationAmt>467437</PriorYearDepreciationAmt>
+        <ComputationMethodTxt>SL</ComputationMethodTxt>
+        <LifeRt>15.000000000000</LifeRt>
+        <CurrentYearExpenseAmt>40877</CurrentYearExpenseAmt>
+      </DepreciationPropertyGrp>
+      <DepreciationPropertyGrp>
+        <PropertyDesc>KKRS</PropertyDesc>
+        <AcquiredDt>2009-09-03</AcquiredDt>
+        <CostOrOtherBasisAmt>140416</CostOrOtherBasisAmt>
+        <PriorYearDepreciationAmt>94813</PriorYearDepreciationAmt>
+        <ComputationMethodTxt>SL</ComputationMethodTxt>
+        <LifeRt>15.000000000000</LifeRt>
+        <CurrentYearExpenseAmt>8291</CurrentYearExpenseAmt>
+      </DepreciationPropertyGrp>
+      <DepreciationPropertyGrp>
+        <PropertyDesc>KTWD</PropertyDesc>
+        <AcquiredDt>2009-09-03</AcquiredDt>
+        <CostOrOtherBasisAmt>97041</CostOrOtherBasisAmt>
+        <PriorYearDepreciationAmt>65524</PriorYearDepreciationAmt>
+        <ComputationMethodTxt>SL</ComputationMethodTxt>
+        <LifeRt>15.000000000000</LifeRt>
+        <CurrentYearExpenseAmt>5730</CurrentYearExpenseAmt>
+      </DepreciationPropertyGrp>
+      <DepreciationPropertyGrp>
+        <PropertyDesc>KYJC</PropertyDesc>
+        <AcquiredDt>2009-12-31</AcquiredDt>
+        <CostOrOtherBasisAmt>82694</CostOrOtherBasisAmt>
+        <PriorYearDepreciationAmt>55838</PriorYearDepreciationAmt>
+        <ComputationMethodTxt>SL</ComputationMethodTxt>
+        <LifeRt>15.000000000000</LifeRt>
+        <CurrentYearExpenseAmt>4883</CurrentYearExpenseAmt>
+      </DepreciationPropertyGrp>
+      <DepreciationPropertyGrp>
+        <PropertyDesc>PRINTER - KDKR</PropertyDesc>
+        <AcquiredDt>2009-12-31</AcquiredDt>
+        <CostOrOtherBasisAmt>1085</CostOrOtherBasisAmt>
+        <PriorYearDepreciationAmt>1085</PriorYearDepreciationAmt>
+        <ComputationMethodTxt>200DB</ComputationMethodTxt>
+        <LifeRt>7.000000000000</LifeRt>
+        <CurrentYearExpenseAmt>0</CurrentYearExpenseAmt>
+      </DepreciationPropertyGrp>
+      <DepreciationPropertyGrp>
+        <PropertyDesc>OFFICE EQUIPMENT</PropertyDesc>
+        <AcquiredDt>2010-10-15</AcquiredDt>
+        <CostOrOtherBasisAmt>1984</CostOrOtherBasisAmt>
+        <PriorYearDepreciationAmt>1984</PriorYearDepreciationAmt>
+        <ComputationMethodTxt>200DB</ComputationMethodTxt>
+        <LifeRt>5.000000000000</LifeRt>
+        <CurrentYearExpenseAmt>0</CurrentYearExpenseAmt>
+      </DepreciationPropertyGrp>
+      <DepreciationPropertyGrp>
+        <PropertyDesc>TRANSLATOR RALEIGH NC 89.3</PropertyDesc>
+        <AcquiredDt>2010-06-03</AcquiredDt>
+        <CostOrOtherBasisAmt>12519</CostOrOtherBasisAmt>
+        <PriorYearDepreciationAmt>6932</PriorYearDepreciationAmt>
+        <ComputationMethodTxt>SL</ComputationMethodTxt>
+        <LifeRt>15.000000000000</LifeRt>
+        <CurrentYearExpenseAmt>860</CurrentYearExpenseAmt>
+      </DepreciationPropertyGrp>
+      <DepreciationPropertyGrp>
+        <PropertyDesc>TRANSLATOR IRVING TX 92.1</PropertyDesc>
+        <AcquiredDt>2010-05-01</AcquiredDt>
+        <CostOrOtherBasisAmt>31308</CostOrOtherBasisAmt>
+        <PriorYearDepreciationAmt>16488</PriorYearDepreciationAmt>
+        <ComputationMethodTxt>SL</ComputationMethodTxt>
+        <LifeRt>15.000000000000</LifeRt>
+        <CurrentYearExpenseAmt>2280</CurrentYearExpenseAmt>
+      </DepreciationPropertyGrp>
+      <DepreciationPropertyGrp>
+        <PropertyDesc>TRANSLATOR DALLAS TX 97.5</PropertyDesc>
+        <AcquiredDt>2010-02-04</AcquiredDt>
+        <CostOrOtherBasisAmt>9950</CostOrOtherBasisAmt>
+        <PriorYearDepreciationAmt>6112</PriorYearDepreciationAmt>
+        <ComputationMethodTxt>SL</ComputationMethodTxt>
+        <LifeRt>15.000000000000</LifeRt>
+        <CurrentYearExpenseAmt>590</CurrentYearExpenseAmt>
+      </DepreciationPropertyGrp>
+      <DepreciationPropertyGrp>
+        <PropertyDesc>KDKR TRANSMITTER &amp; ADDITIONS</PropertyDesc>
+        <AcquiredDt>2010-09-30</AcquiredDt>
+        <CostOrOtherBasisAmt>18378</CostOrOtherBasisAmt>
+        <PriorYearDepreciationAmt>16431</PriorYearDepreciationAmt>
+        <ComputationMethodTxt>SL</ComputationMethodTxt>
+        <LifeRt>15.000000000000</LifeRt>
+        <CurrentYearExpenseAmt>300</CurrentYearExpenseAmt>
+      </DepreciationPropertyGrp>
+      <DepreciationPropertyGrp>
+        <PropertyDesc>TOLEDO, OH EQUIPMENT</PropertyDesc>
+        <AcquiredDt>2011-11-30</AcquiredDt>
+        <CostOrOtherBasisAmt>78134</CostOrOtherBasisAmt>
+        <PriorYearDepreciationAmt>35283</PriorYearDepreciationAmt>
+        <ComputationMethodTxt>SL</ComputationMethodTxt>
+        <LifeRt>15.000000000000</LifeRt>
+        <CurrentYearExpenseAmt>2857</CurrentYearExpenseAmt>
+      </DepreciationPropertyGrp>
+      <DepreciationPropertyGrp>
+        <PropertyDesc>WKJA BRUNSWICK, OH 91.9</PropertyDesc>
+        <AcquiredDt>2011-04-30</AcquiredDt>
+        <CostOrOtherBasisAmt>108844</CostOrOtherBasisAmt>
+        <PriorYearDepreciationAmt>55210</PriorYearDepreciationAmt>
+        <ComputationMethodTxt>SL</ComputationMethodTxt>
+        <LifeRt>15.000000000000</LifeRt>
+        <CurrentYearExpenseAmt>3576</CurrentYearExpenseAmt>
+      </DepreciationPropertyGrp>
+      <DepreciationPropertyGrp>
+        <PropertyDesc>ADMIN EQUIPMENT</PropertyDesc>
+        <AcquiredDt>2011-11-30</AcquiredDt>
+        <CostOrOtherBasisAmt>7227</CostOrOtherBasisAmt>
+        <PriorYearDepreciationAmt>7227</PriorYearDepreciationAmt>
+        <ComputationMethodTxt>200DB</ComputationMethodTxt>
+        <LifeRt>5.000000000000</LifeRt>
+        <CurrentYearExpenseAmt>0</CurrentYearExpenseAmt>
+      </DepreciationPropertyGrp>
+      <DepreciationPropertyGrp>
+        <PropertyDesc>1360 KRTM YUCCA VALLEY CA 88.1</PropertyDesc>
+        <AcquiredDt>2011-03-17</AcquiredDt>
+        <CostOrOtherBasisAmt>1107</CostOrOtherBasisAmt>
+        <PriorYearDepreciationAmt>565</PriorYearDepreciationAmt>
+        <ComputationMethodTxt>SL</ComputationMethodTxt>
+        <LifeRt>15.000000000000</LifeRt>
+        <CurrentYearExpenseAmt>72</CurrentYearExpenseAmt>
+      </DepreciationPropertyGrp>
+      <DepreciationPropertyGrp>
+        <PropertyDesc>1360 EQUIPMENT YUCCA VALLEY</PropertyDesc>
+        <AcquiredDt>2011-09-30</AcquiredDt>
+        <CostOrOtherBasisAmt>2386</CostOrOtherBasisAmt>
+        <PriorYearDepreciationAmt>1167</PriorYearDepreciationAmt>
+        <ComputationMethodTxt>SL</ComputationMethodTxt>
+        <LifeRt>15.000000000000</LifeRt>
+        <CurrentYearExpenseAmt>163</CurrentYearExpenseAmt>
+      </DepreciationPropertyGrp>
+      <DepreciationPropertyGrp>
+        <PropertyDesc>KDKR DALLAS FORT WORTH TX 91.3</PropertyDesc>
+        <AcquiredDt>2011-04-30</AcquiredDt>
+        <CostOrOtherBasisAmt>8671</CostOrOtherBasisAmt>
+        <PriorYearDepreciationAmt>4400</PriorYearDepreciationAmt>
+        <ComputationMethodTxt>SL</ComputationMethodTxt>
+        <LifeRt>15.000000000000</LifeRt>
+        <CurrentYearExpenseAmt>569</CurrentYearExpenseAmt>
+      </DepreciationPropertyGrp>
+      <DepreciationPropertyGrp>
+        <PropertyDesc>KDKR STL EQUIPMENT</PropertyDesc>
+        <AcquiredDt>2012-07-25</AcquiredDt>
+        <CostOrOtherBasisAmt>10464</CostOrOtherBasisAmt>
+        <PriorYearDepreciationAmt>4494</PriorYearDepreciationAmt>
+        <ComputationMethodTxt>SL</ComputationMethodTxt>
+        <LifeRt>15.000000000000</LifeRt>
+        <CurrentYearExpenseAmt>702</CurrentYearExpenseAmt>
+      </DepreciationPropertyGrp>
+      <DepreciationPropertyGrp>
+        <PropertyDesc>KRTM YUCCA VALLEY</PropertyDesc>
+        <AcquiredDt>2012-09-27</AcquiredDt>
+        <CostOrOtherBasisAmt>25381</CostOrOtherBasisAmt>
+        <PriorYearDepreciationAmt>10711</PriorYearDepreciationAmt>
+        <ComputationMethodTxt>SL</ComputationMethodTxt>
+        <LifeRt>15.000000000000</LifeRt>
+        <CurrentYearExpenseAmt>1726</CurrentYearExpenseAmt>
+      </DepreciationPropertyGrp>
+      <DepreciationPropertyGrp>
+        <PropertyDesc>WTPG EQUIPMENT</PropertyDesc>
+        <AcquiredDt>2012-01-01</AcquiredDt>
+        <CostOrOtherBasisAmt>13706</CostOrOtherBasisAmt>
+        <PriorYearDepreciationAmt>6249</PriorYearDepreciationAmt>
+        <ComputationMethodTxt>SL</ComputationMethodTxt>
+        <LifeRt>15.000000000000</LifeRt>
+        <CurrentYearExpenseAmt>439</CurrentYearExpenseAmt>
+      </DepreciationPropertyGrp>
+      <DepreciationPropertyGrp>
+        <PropertyDesc>WKJA BUNSWICK</PropertyDesc>
+        <AcquiredDt>2012-06-25</AcquiredDt>
+        <CostOrOtherBasisAmt>3001</CostOrOtherBasisAmt>
+        <PriorYearDepreciationAmt>1300</PriorYearDepreciationAmt>
+        <ComputationMethodTxt>SL</ComputationMethodTxt>
+        <LifeRt>15.000000000000</LifeRt>
+        <CurrentYearExpenseAmt>100</CurrentYearExpenseAmt>
+      </DepreciationPropertyGrp>
+      <DepreciationPropertyGrp>
+        <PropertyDesc>ADMIN EQUIPMENT</PropertyDesc>
+        <AcquiredDt>2012-02-21</AcquiredDt>
+        <CostOrOtherBasisAmt>5752</CostOrOtherBasisAmt>
+        <PriorYearDepreciationAmt>5752</PriorYearDepreciationAmt>
+        <ComputationMethodTxt>200DB</ComputationMethodTxt>
+        <LifeRt>5.000000000000</LifeRt>
+        <CurrentYearExpenseAmt>0</CurrentYearExpenseAmt>
+      </DepreciationPropertyGrp>
+      <DepreciationPropertyGrp>
+        <PropertyDesc>1525 FM30R TRANSMITTER</PropertyDesc>
+        <AcquiredDt>2013-11-01</AcquiredDt>
+        <CostOrOtherBasisAmt>3267</CostOrOtherBasisAmt>
+        <PriorYearDepreciationAmt>1146</PriorYearDepreciationAmt>
+        <ComputationMethodTxt>SL</ComputationMethodTxt>
+        <LifeRt>15.000000000000</LifeRt>
+        <CurrentYearExpenseAmt>223</CurrentYearExpenseAmt>
+      </DepreciationPropertyGrp>
+      <DepreciationPropertyGrp>
+        <PropertyDesc>WTPG EQUIPMENT</PropertyDesc>
+        <AcquiredDt>2013-12-18</AcquiredDt>
+        <CostOrOtherBasisAmt>2053</CostOrOtherBasisAmt>
+        <PriorYearDepreciationAmt>705</PriorYearDepreciationAmt>
+        <ComputationMethodTxt>SL</ComputationMethodTxt>
+        <LifeRt>15.000000000000</LifeRt>
+        <CurrentYearExpenseAmt>71</CurrentYearExpenseAmt>
+      </DepreciationPropertyGrp>
+      <DepreciationPropertyGrp>
+        <PropertyDesc>WKJA EAS SYSTEM</PropertyDesc>
+        <AcquiredDt>2013-04-04</AcquiredDt>
+        <CostOrOtherBasisAmt>3626</CostOrOtherBasisAmt>
+        <PriorYearDepreciationAmt>1371</PriorYearDepreciationAmt>
+        <ComputationMethodTxt>SL</ComputationMethodTxt>
+        <LifeRt>15.000000000000</LifeRt>
+        <CurrentYearExpenseAmt>119</CurrentYearExpenseAmt>
+      </DepreciationPropertyGrp>
+      <DepreciationPropertyGrp>
+        <PropertyDesc>ADMIN EQUIPMENT</PropertyDesc>
+        <AcquiredDt>2013-12-30</AcquiredDt>
+        <CostOrOtherBasisAmt>1313</CostOrOtherBasisAmt>
+        <PriorYearDepreciationAmt>452</PriorYearDepreciationAmt>
+        <ComputationMethodTxt>SL</ComputationMethodTxt>
+        <LifeRt>15.000000000000</LifeRt>
+        <CurrentYearExpenseAmt>91</CurrentYearExpenseAmt>
+      </DepreciationPropertyGrp>
+      <DepreciationPropertyGrp>
+        <PropertyDesc>KRTM EQUIPMENT</PropertyDesc>
+        <AcquiredDt>2013-01-09</AcquiredDt>
+        <CostOrOtherBasisAmt>9234</CostOrOtherBasisAmt>
+        <PriorYearDepreciationAmt>3603</PriorYearDepreciationAmt>
+        <ComputationMethodTxt>SL</ComputationMethodTxt>
+        <LifeRt>15.000000000000</LifeRt>
+        <CurrentYearExpenseAmt>593</CurrentYearExpenseAmt>
+      </DepreciationPropertyGrp>
+      <DepreciationPropertyGrp>
+        <PropertyDesc>KTWD EQUIPMENT</PropertyDesc>
+        <AcquiredDt>2013-09-03</AcquiredDt>
+        <CostOrOtherBasisAmt>2083</CostOrOtherBasisAmt>
+        <PriorYearDepreciationAmt>748</PriorYearDepreciationAmt>
+        <ComputationMethodTxt>SL</ComputationMethodTxt>
+        <LifeRt>15.000000000000</LifeRt>
+        <CurrentYearExpenseAmt>141</CurrentYearExpenseAmt>
+      </DepreciationPropertyGrp>
+      <DepreciationPropertyGrp>
+        <PropertyDesc>KDKR EQUIPMENT</PropertyDesc>
+        <AcquiredDt>2013-08-14</AcquiredDt>
+        <CostOrOtherBasisAmt>3208</CostOrOtherBasisAmt>
+        <PriorYearDepreciationAmt>1163</PriorYearDepreciationAmt>
+        <ComputationMethodTxt>SL</ComputationMethodTxt>
+        <LifeRt>15.000000000000</LifeRt>
+        <CurrentYearExpenseAmt>215</CurrentYearExpenseAmt>
+      </DepreciationPropertyGrp>
+      <DepreciationPropertyGrp>
+        <PropertyDesc>ADMIN EQUIPMENT</PropertyDesc>
+        <AcquiredDt>2014-03-04</AcquiredDt>
+        <CostOrOtherBasisAmt>3520</CostOrOtherBasisAmt>
+        <PriorYearDepreciationAmt>3281</PriorYearDepreciationAmt>
+        <ComputationMethodTxt>200DB</ComputationMethodTxt>
+        <LifeRt>5.000000000000</LifeRt>
+        <CurrentYearExpenseAmt>239</CurrentYearExpenseAmt>
+      </DepreciationPropertyGrp>
+      <DepreciationPropertyGrp>
+        <PropertyDesc>TRANS-RALEIGH, NC 89.3</PropertyDesc>
+        <AcquiredDt>2014-03-20</AcquiredDt>
+        <CostOrOtherBasisAmt>13874</CostOrOtherBasisAmt>
+        <PriorYearDepreciationAmt>4807</PriorYearDepreciationAmt>
+        <ComputationMethodTxt>SL</ComputationMethodTxt>
+        <LifeRt>15.000000000000</LifeRt>
+        <CurrentYearExpenseAmt>864</CurrentYearExpenseAmt>
+      </DepreciationPropertyGrp>
+      <DepreciationPropertyGrp>
+        <PropertyDesc>KRTM - YUCCA VALLEY, CA 88.1</PropertyDesc>
+        <AcquiredDt>2014-01-22</AcquiredDt>
+        <CostOrOtherBasisAmt>9814</CostOrOtherBasisAmt>
+        <PriorYearDepreciationAmt>3141</PriorYearDepreciationAmt>
+        <ComputationMethodTxt>SL</ComputationMethodTxt>
+        <LifeRt>15.000000000000</LifeRt>
+        <CurrentYearExpenseAmt>636</CurrentYearExpenseAmt>
+      </DepreciationPropertyGrp>
+      <DepreciationPropertyGrp>
+        <PropertyDesc>KDKR - DALLAS FORT WORTH, TX 91.3</PropertyDesc>
+        <AcquiredDt>2014-04-02</AcquiredDt>
+        <CostOrOtherBasisAmt>3159</CostOrOtherBasisAmt>
+        <PriorYearDepreciationAmt>949</PriorYearDepreciationAmt>
+        <ComputationMethodTxt>SL</ComputationMethodTxt>
+        <LifeRt>15.000000000000</LifeRt>
+        <CurrentYearExpenseAmt>210</CurrentYearExpenseAmt>
+      </DepreciationPropertyGrp>
+      <DepreciationPropertyGrp>
+        <PropertyDesc>1510 Trans-Coachella Equipment 2015</PropertyDesc>
+        <AcquiredDt>2015-10-02</AcquiredDt>
+        <CostOrOtherBasisAmt>12489</CostOrOtherBasisAmt>
+        <PriorYearDepreciationAmt>2915</PriorYearDepreciationAmt>
+        <ComputationMethodTxt>SL</ComputationMethodTxt>
+        <LifeRt>15.000000000000</LifeRt>
+        <CurrentYearExpenseAmt>833</CurrentYearExpenseAmt>
+      </DepreciationPropertyGrp>
+      <DepreciationPropertyGrp>
+        <PropertyDesc>1525 Trans-Hemet, CA Equipment</PropertyDesc>
+        <AcquiredDt>2015-01-26</AcquiredDt>
+        <CostOrOtherBasisAmt>4475</CostOrOtherBasisAmt>
+        <PriorYearDepreciationAmt>1043</PriorYearDepreciationAmt>
+        <ComputationMethodTxt>SL</ComputationMethodTxt>
+        <LifeRt>15.000000000000</LifeRt>
+        <CurrentYearExpenseAmt>298</CurrentYearExpenseAmt>
+      </DepreciationPropertyGrp>
+      <DepreciationPropertyGrp>
+        <PropertyDesc>1450 WKJA-Brunswick, OH Equipment</PropertyDesc>
+        <AcquiredDt>2015-10-21</AcquiredDt>
+        <CostOrOtherBasisAmt>658</CostOrOtherBasisAmt>
+        <PriorYearDepreciationAmt>154</PriorYearDepreciationAmt>
+        <ComputationMethodTxt>SL</ComputationMethodTxt>
+        <LifeRt>15.000000000000</LifeRt>
+        <CurrentYearExpenseAmt>22</CurrentYearExpenseAmt>
+      </DepreciationPropertyGrp>
+      <DepreciationPropertyGrp>
+        <PropertyDesc>1600 Admin Equipment 2015</PropertyDesc>
+        <AcquiredDt>2015-09-01</AcquiredDt>
+        <CostOrOtherBasisAmt>1690</CostOrOtherBasisAmt>
+        <PriorYearDepreciationAmt>1162</PriorYearDepreciationAmt>
+        <ComputationMethodTxt>200DB</ComputationMethodTxt>
+        <LifeRt>7.000000000000</LifeRt>
+        <CurrentYearExpenseAmt>151</CurrentYearExpenseAmt>
+      </DepreciationPropertyGrp>
+      <DepreciationPropertyGrp>
+        <PropertyDesc>1360 KRTM-Yucca Valley 88.1 Equipment 2015</PropertyDesc>
+        <AcquiredDt>2015-06-04</AcquiredDt>
+        <CostOrOtherBasisAmt>4466</CostOrOtherBasisAmt>
+        <PriorYearDepreciationAmt>1043</PriorYearDepreciationAmt>
+        <ComputationMethodTxt>SL</ComputationMethodTxt>
+        <LifeRt>15.000000000000</LifeRt>
+        <CurrentYearExpenseAmt>298</CurrentYearExpenseAmt>
+      </DepreciationPropertyGrp>
+      <DepreciationPropertyGrp>
+        <PropertyDesc>1370 KTWD-Wallace, ID 97.5 Equipment</PropertyDesc>
+        <AcquiredDt>2015-07-21</AcquiredDt>
+        <CostOrOtherBasisAmt>2433</CostOrOtherBasisAmt>
+        <PriorYearDepreciationAmt>567</PriorYearDepreciationAmt>
+        <ComputationMethodTxt>SL</ComputationMethodTxt>
+        <LifeRt>15.000000000000</LifeRt>
+        <CurrentYearExpenseAmt>162</CurrentYearExpenseAmt>
+      </DepreciationPropertyGrp>
+      <DepreciationPropertyGrp>
+        <PropertyDesc>1320 KDKR-Dallas/FortWorth, TX 91.3 Equipment</PropertyDesc>
+        <AcquiredDt>2015-08-03</AcquiredDt>
+        <CostOrOtherBasisAmt>1292</CostOrOtherBasisAmt>
+        <PriorYearDepreciationAmt>308</PriorYearDepreciationAmt>
+        <ComputationMethodTxt>SL</ComputationMethodTxt>
+        <LifeRt>15.000000000000</LifeRt>
+        <CurrentYearExpenseAmt>86</CurrentYearExpenseAmt>
+      </DepreciationPropertyGrp>
+      <DepreciationPropertyGrp>
+        <PropertyDesc>1470 WTPG EQUIPMENT</PropertyDesc>
+        <AcquiredDt>2015-09-15</AcquiredDt>
+        <CostOrOtherBasisAmt>70850</CostOrOtherBasisAmt>
+        <PriorYearDepreciationAmt>16531</PriorYearDepreciationAmt>
+        <ComputationMethodTxt>SL</ComputationMethodTxt>
+        <LifeRt>15.000000000000</LifeRt>
+        <CurrentYearExpenseAmt>2362</CurrentYearExpenseAmt>
+      </DepreciationPropertyGrp>
+      <DepreciationPropertyGrp>
+        <PropertyDesc>1360 KRTM Yucca Valley, CA 88.1 2008</PropertyDesc>
+        <AcquiredDt>2008-06-30</AcquiredDt>
+        <CostOrOtherBasisAmt>16500</CostOrOtherBasisAmt>
+        <PriorYearDepreciationAmt>10967</PriorYearDepreciationAmt>
+        <ComputationMethodTxt>SL</ComputationMethodTxt>
+        <LifeRt>15.000000000000</LifeRt>
+        <CurrentYearExpenseAmt>1230</CurrentYearExpenseAmt>
+      </DepreciationPropertyGrp>
+      <DepreciationPropertyGrp>
+        <PropertyDesc>1360 KRTM Yucca Valley, CA 88.1 2010</PropertyDesc>
+        <AcquiredDt>2010-07-22</AcquiredDt>
+        <CostOrOtherBasisAmt>33335</CostOrOtherBasisAmt>
+        <PriorYearDepreciationAmt>17513</PriorYearDepreciationAmt>
+        <ComputationMethodTxt>SL</ComputationMethodTxt>
+        <LifeRt>15.000000000000</LifeRt>
+        <CurrentYearExpenseAmt>2434</CurrentYearExpenseAmt>
+      </DepreciationPropertyGrp>
+      <DepreciationPropertyGrp>
+        <PropertyDesc>1340 KMWC - Bethany, MO</PropertyDesc>
+        <AcquiredDt>2016-11-30</AcquiredDt>
+        <CostOrOtherBasisAmt>2767</CostOrOtherBasisAmt>
+        <PriorYearDepreciationAmt>461</PriorYearDepreciationAmt>
+        <ComputationMethodTxt>SL</ComputationMethodTxt>
+        <LifeRt>15.000000000000</LifeRt>
+        <CurrentYearExpenseAmt>184</CurrentYearExpenseAmt>
+      </DepreciationPropertyGrp>
+      <DepreciationPropertyGrp>
+        <PropertyDesc>1360 KRTM - Yucca Valley, CA 88.1</PropertyDesc>
+        <AcquiredDt>2016-05-11</AcquiredDt>
+        <CostOrOtherBasisAmt>2156</CostOrOtherBasisAmt>
+        <PriorYearDepreciationAmt>360</PriorYearDepreciationAmt>
+        <ComputationMethodTxt>SL</ComputationMethodTxt>
+        <LifeRt>15.000000000000</LifeRt>
+        <CurrentYearExpenseAmt>144</CurrentYearExpenseAmt>
+      </DepreciationPropertyGrp>
+      <DepreciationPropertyGrp>
+        <PropertyDesc>1446 KRTM-Yucca Valley upgrade 2012</PropertyDesc>
+        <AcquiredDt>2016-07-26</AcquiredDt>
+        <CostOrOtherBasisAmt>1153</CostOrOtherBasisAmt>
+        <PriorYearDepreciationAmt>192</PriorYearDepreciationAmt>
+        <ComputationMethodTxt>SL</ComputationMethodTxt>
+        <LifeRt>15.000000000000</LifeRt>
+        <CurrentYearExpenseAmt>77</CurrentYearExpenseAmt>
+      </DepreciationPropertyGrp>
+      <DepreciationPropertyGrp>
+        <PropertyDesc>1450 WKJA - Brunswick OH 91.9</PropertyDesc>
+        <AcquiredDt>2016-09-06</AcquiredDt>
+        <CostOrOtherBasisAmt>3596</CostOrOtherBasisAmt>
+        <PriorYearDepreciationAmt>600</PriorYearDepreciationAmt>
+        <ComputationMethodTxt>SL</ComputationMethodTxt>
+        <LifeRt>15.000000000000</LifeRt>
+        <CurrentYearExpenseAmt>120</CurrentYearExpenseAmt>
+      </DepreciationPropertyGrp>
+      <DepreciationPropertyGrp>
+        <PropertyDesc>1470 WTPG-equipment Toledo, OH 88.9</PropertyDesc>
+        <AcquiredDt>2016-04-28</AcquiredDt>
+        <CostOrOtherBasisAmt>22398</CostOrOtherBasisAmt>
+        <PriorYearDepreciationAmt>3733</PriorYearDepreciationAmt>
+        <ComputationMethodTxt>SL</ComputationMethodTxt>
+        <LifeRt>15.000000000000</LifeRt>
+        <CurrentYearExpenseAmt>747</CurrentYearExpenseAmt>
+      </DepreciationPropertyGrp>
+      <DepreciationPropertyGrp>
+        <PropertyDesc>1510 Trans-Coachella, CA K280FQ</PropertyDesc>
+        <AcquiredDt>2016-07-26</AcquiredDt>
+        <CostOrOtherBasisAmt>524</CostOrOtherBasisAmt>
+        <PriorYearDepreciationAmt>87</PriorYearDepreciationAmt>
+        <ComputationMethodTxt>SL</ComputationMethodTxt>
+        <LifeRt>15.000000000000</LifeRt>
+        <CurrentYearExpenseAmt>35</CurrentYearExpenseAmt>
+      </DepreciationPropertyGrp>
+      <DepreciationPropertyGrp>
+        <PropertyDesc>1516 Trans - Des Moines, IA K225BP</PropertyDesc>
+        <AcquiredDt>2016-06-03</AcquiredDt>
+        <CostOrOtherBasisAmt>14025</CostOrOtherBasisAmt>
+        <PriorYearDepreciationAmt>2338</PriorYearDepreciationAmt>
+        <ComputationMethodTxt>SL</ComputationMethodTxt>
+        <LifeRt>15.000000000000</LifeRt>
+        <CurrentYearExpenseAmt>935</CurrentYearExpenseAmt>
+      </DepreciationPropertyGrp>
+      <DepreciationPropertyGrp>
+        <PropertyDesc>1526 Trans - Briggs, NE K255CJ</PropertyDesc>
+        <AcquiredDt>2016-06-03</AcquiredDt>
+        <CostOrOtherBasisAmt>13133</CostOrOtherBasisAmt>
+        <PriorYearDepreciationAmt>2189</PriorYearDepreciationAmt>
+        <ComputationMethodTxt>SL</ComputationMethodTxt>
+        <LifeRt>15.000000000000</LifeRt>
+        <CurrentYearExpenseAmt>876</CurrentYearExpenseAmt>
+      </DepreciationPropertyGrp>
+      <DepreciationPropertyGrp>
+        <PropertyDesc>1545 Trans - Monticello, IN W233BT</PropertyDesc>
+        <AcquiredDt>2016-02-25</AcquiredDt>
+        <CostOrOtherBasisAmt>4750</CostOrOtherBasisAmt>
+        <PriorYearDepreciationAmt>792</PriorYearDepreciationAmt>
+        <ComputationMethodTxt>SL</ComputationMethodTxt>
+        <LifeRt>15.000000000000</LifeRt>
+        <CurrentYearExpenseAmt>317</CurrentYearExpenseAmt>
+      </DepreciationPropertyGrp>
+      <DepreciationPropertyGrp>
+        <PropertyDesc>1630 Vehicles- 2007 GMC</PropertyDesc>
+        <AcquiredDt>2016-01-19</AcquiredDt>
+        <CostOrOtherBasisAmt>17500</CostOrOtherBasisAmt>
+        <PriorYearDepreciationAmt>11310</PriorYearDepreciationAmt>
+        <ComputationMethodTxt>200DB</ComputationMethodTxt>
+        <LifeRt>5.000000000000</LifeRt>
+        <CurrentYearExpenseAmt>1875</CurrentYearExpenseAmt>
+      </DepreciationPropertyGrp>
+      <DepreciationPropertyGrp>
+        <PropertyDesc>1567 Trans - San Diego, CA K241CH</PropertyDesc>
+        <AcquiredDt>2017-07-12</AcquiredDt>
+        <CostOrOtherBasisAmt>1541</CostOrOtherBasisAmt>
+        <PriorYearDepreciationAmt>154</PriorYearDepreciationAmt>
+        <ComputationMethodTxt>SL</ComputationMethodTxt>
+        <LifeRt>15.000000000000</LifeRt>
+        <CurrentYearExpenseAmt>103</CurrentYearExpenseAmt>
+      </DepreciationPropertyGrp>
+      <DepreciationPropertyGrp>
+        <PropertyDesc>1527 Trans - Borrego Springs, CA K239CE</PropertyDesc>
+        <AcquiredDt>2017-04-05</AcquiredDt>
+        <CostOrOtherBasisAmt>1948</CostOrOtherBasisAmt>
+        <PriorYearDepreciationAmt>195</PriorYearDepreciationAmt>
+        <ComputationMethodTxt>SL</ComputationMethodTxt>
+        <LifeRt>15.000000000000</LifeRt>
+        <CurrentYearExpenseAmt>130</CurrentYearExpenseAmt>
+      </DepreciationPropertyGrp>
+      <DepreciationPropertyGrp>
+        <PropertyDesc>1517 Trans - Fallbrook, CA K294CS</PropertyDesc>
+        <AcquiredDt>2017-08-14</AcquiredDt>
+        <CostOrOtherBasisAmt>4642</CostOrOtherBasisAmt>
+        <PriorYearDepreciationAmt>464</PriorYearDepreciationAmt>
+        <ComputationMethodTxt>SL</ComputationMethodTxt>
+        <LifeRt>15.000000000000</LifeRt>
+        <CurrentYearExpenseAmt>309</CurrentYearExpenseAmt>
+      </DepreciationPropertyGrp>
+      <DepreciationPropertyGrp>
+        <PropertyDesc>1575 Trans - Layfayette, IN</PropertyDesc>
+        <AcquiredDt>2017-03-30</AcquiredDt>
+        <CostOrOtherBasisAmt>9790</CostOrOtherBasisAmt>
+        <PriorYearDepreciationAmt>979</PriorYearDepreciationAmt>
+        <ComputationMethodTxt>SL</ComputationMethodTxt>
+        <LifeRt>15.000000000000</LifeRt>
+        <CurrentYearExpenseAmt>653</CurrentYearExpenseAmt>
+      </DepreciationPropertyGrp>
+      <DepreciationPropertyGrp>
+        <PropertyDesc>1320 KDKR - Dallas/FortWorth, TX 91.3</PropertyDesc>
+        <AcquiredDt>2017-01-30</AcquiredDt>
+        <CostOrOtherBasisAmt>1403</CostOrOtherBasisAmt>
+        <PriorYearDepreciationAmt>141</PriorYearDepreciationAmt>
+        <ComputationMethodTxt>SL</ComputationMethodTxt>
+        <LifeRt>15.000000000000</LifeRt>
+        <CurrentYearExpenseAmt>93</CurrentYearExpenseAmt>
+      </DepreciationPropertyGrp>
+      <DepreciationPropertyGrp>
+        <PropertyDesc>1340 KMWC Transmitter</PropertyDesc>
+        <AcquiredDt>2018-02-05</AcquiredDt>
+        <CostOrOtherBasisAmt>21635</CostOrOtherBasisAmt>
+        <PriorYearDepreciationAmt>721</PriorYearDepreciationAmt>
+        <ComputationMethodTxt>SL</ComputationMethodTxt>
+        <LifeRt>15.000000000000</LifeRt>
+        <CurrentYearExpenseAmt>1442</CurrentYearExpenseAmt>
+      </DepreciationPropertyGrp>
+      <DepreciationPropertyGrp>
+        <PropertyDesc>1526 Briggs NE Transmitter</PropertyDesc>
+        <AcquiredDt>2018-02-05</AcquiredDt>
+        <CostOrOtherBasisAmt>13760</CostOrOtherBasisAmt>
+        <PriorYearDepreciationAmt>459</PriorYearDepreciationAmt>
+        <ComputationMethodTxt>SL</ComputationMethodTxt>
+        <LifeRt>15.000000000000</LifeRt>
+        <CurrentYearExpenseAmt>917</CurrentYearExpenseAmt>
+      </DepreciationPropertyGrp>
+      <DepreciationPropertyGrp>
+        <PropertyDesc>1470 WTPG Transmitter</PropertyDesc>
+        <AcquiredDt>2018-02-05</AcquiredDt>
+        <CostOrOtherBasisAmt>7518</CostOrOtherBasisAmt>
+        <PriorYearDepreciationAmt>251</PriorYearDepreciationAmt>
+        <ComputationMethodTxt>SL</ComputationMethodTxt>
+        <LifeRt>15.000000000000</LifeRt>
+        <CurrentYearExpenseAmt>251</CurrentYearExpenseAmt>
+      </DepreciationPropertyGrp>
+      <DepreciationPropertyGrp>
+        <PropertyDesc>1320 KDKR EAS Alerting System</PropertyDesc>
+        <AcquiredDt>2018-07-19</AcquiredDt>
+        <CostOrOtherBasisAmt>3985</CostOrOtherBasisAmt>
+        <PriorYearDepreciationAmt>133</PriorYearDepreciationAmt>
+        <ComputationMethodTxt>SL</ComputationMethodTxt>
+        <LifeRt>15.000000000000</LifeRt>
+        <CurrentYearExpenseAmt>266</CurrentYearExpenseAmt>
+      </DepreciationPropertyGrp>
+      <DepreciationPropertyGrp>
+        <PropertyDesc>1340 KMWC Receivers</PropertyDesc>
+        <AcquiredDt>2018-02-27</AcquiredDt>
+        <CostOrOtherBasisAmt>2482</CostOrOtherBasisAmt>
+        <PriorYearDepreciationAmt>83</PriorYearDepreciationAmt>
+        <ComputationMethodTxt>SL</ComputationMethodTxt>
+        <LifeRt>15.000000000000</LifeRt>
+        <CurrentYearExpenseAmt>165</CurrentYearExpenseAmt>
+      </DepreciationPropertyGrp>
+      <DepreciationPropertyGrp>
+        <PropertyDesc>1450 WKJA Transmitter</PropertyDesc>
+        <AcquiredDt>2018-06-27</AcquiredDt>
+        <CostOrOtherBasisAmt>3908</CostOrOtherBasisAmt>
+        <PriorYearDepreciationAmt>130</PriorYearDepreciationAmt>
+        <ComputationMethodTxt>SL</ComputationMethodTxt>
+        <LifeRt>15.000000000000</LifeRt>
+        <CurrentYearExpenseAmt>130</CurrentYearExpenseAmt>
+      </DepreciationPropertyGrp>
+      <DepreciationPropertyGrp>
+        <PropertyDesc>1470 WTPG Transmitter</PropertyDesc>
+        <AcquiredDt>2018-09-25</AcquiredDt>
+        <CostOrOtherBasisAmt>7570</CostOrOtherBasisAmt>
+        <PriorYearDepreciationAmt>252</PriorYearDepreciationAmt>
+        <ComputationMethodTxt>SL</ComputationMethodTxt>
+        <LifeRt>15.000000000000</LifeRt>
+        <CurrentYearExpenseAmt>252</CurrentYearExpenseAmt>
+      </DepreciationPropertyGrp>
+      <DepreciationPropertyGrp>
+        <PropertyDesc>1600 Admin Laptop</PropertyDesc>
+        <AcquiredDt>2018-02-20</AcquiredDt>
+        <CostOrOtherBasisAmt>1500</CostOrOtherBasisAmt>
+        <PriorYearDepreciationAmt>300</PriorYearDepreciationAmt>
+        <ComputationMethodTxt>200DB</ComputationMethodTxt>
+        <LifeRt>5.000000000000</LifeRt>
+        <CurrentYearExpenseAmt>480</CurrentYearExpenseAmt>
+      </DepreciationPropertyGrp>
+      <DepreciationPropertyGrp>
+        <PropertyDesc>1600 Admin - Equipment COMPUTER</PropertyDesc>
+        <AcquiredDt>2019-02-28</AcquiredDt>
+        <CostOrOtherBasisAmt>1088</CostOrOtherBasisAmt>
+        <ComputationMethodTxt>200DB</ComputationMethodTxt>
+        <LifeRt>5.000000000000</LifeRt>
+        <CurrentYearExpenseAmt>218</CurrentYearExpenseAmt>
+      </DepreciationPropertyGrp>
+      <DepreciationPropertyGrp>
+        <PropertyDesc>1526 EQUIPMENT</PropertyDesc>
+        <AcquiredDt>2019-06-30</AcquiredDt>
+        <CostOrOtherBasisAmt>14927</CostOrOtherBasisAmt>
+        <ComputationMethodTxt>SL</ComputationMethodTxt>
+        <LifeRt>15.000000000000</LifeRt>
+        <CurrentYearExpenseAmt>498</CurrentYearExpenseAmt>
+      </DepreciationPropertyGrp>
+      <DepreciationPropertyGrp>
+        <PropertyDesc>1528 Trans-Lincoln, NE K255CS EQUIPMENT</PropertyDesc>
+        <AcquiredDt>2019-06-30</AcquiredDt>
+        <CostOrOtherBasisAmt>21287</CostOrOtherBasisAmt>
+        <ComputationMethodTxt>SL</ComputationMethodTxt>
+        <LifeRt>15.000000000000</LifeRt>
+        <CurrentYearExpenseAmt>710</CurrentYearExpenseAmt>
+      </DepreciationPropertyGrp>
+    </DepreciationSchedule>
+    <GainLossSaleOtherAssetsSch documentId="GainLossSaleOtherAssetsSch-01">
+      <GainLossSaleOtherAssetGrp>
+        <AssetDesc>TOLEDO, OH EQUIPMENT</AssetDesc>
+        <AcquiredDt>2011-11</AcquiredDt>
+        <SoldDt>2019-11</SoldDt>
+        <GrossSalesPriceAmt>193325</GrossSalesPriceAmt>
+        <BasisAmt>78134</BasisAmt>
+        <TotalNetAmt>153331</TotalNetAmt>
+        <AccumulatedDepreciationAmt>38140</AccumulatedDepreciationAmt>
+      </GainLossSaleOtherAssetGrp>
+      <GainLossSaleOtherAssetGrp>
+        <AssetDesc>WKJA BRUNSWICK, OH 91.9</AssetDesc>
+        <AcquiredDt>2011-04</AcquiredDt>
+        <SoldDt>2019-02</SoldDt>
+        <GrossSalesPriceAmt>528228</GrossSalesPriceAmt>
+        <BasisAmt>108844</BasisAmt>
+        <TotalNetAmt>478170</TotalNetAmt>
+        <AccumulatedDepreciationAmt>58786</AccumulatedDepreciationAmt>
+      </GainLossSaleOtherAssetGrp>
+      <GainLossSaleOtherAssetGrp>
+        <AssetDesc>WTPG EQUIPMENT</AssetDesc>
+        <AcquiredDt>2012-01</AcquiredDt>
+        <SoldDt>2019-11</SoldDt>
+        <GrossSalesPriceAmt>33885</GrossSalesPriceAmt>
+        <BasisAmt>13706</BasisAmt>
+        <TotalNetAmt>26867</TotalNetAmt>
+        <AccumulatedDepreciationAmt>6688</AccumulatedDepreciationAmt>
+      </GainLossSaleOtherAssetGrp>
+      <GainLossSaleOtherAssetGrp>
+        <AssetDesc>WKJA BUNSWICK</AssetDesc>
+        <AcquiredDt>2012-06</AcquiredDt>
+        <SoldDt>2019-02</SoldDt>
+        <GrossSalesPriceAmt>14564</GrossSalesPriceAmt>
+        <BasisAmt>3001</BasisAmt>
+        <TotalNetAmt>12963</TotalNetAmt>
+        <AccumulatedDepreciationAmt>1400</AccumulatedDepreciationAmt>
+      </GainLossSaleOtherAssetGrp>
+      <GainLossSaleOtherAssetGrp>
+        <AssetDesc>WTPG EQUIPMENT</AssetDesc>
+        <AcquiredDt>2013-12</AcquiredDt>
+        <SoldDt>2019-11</SoldDt>
+        <GrossSalesPriceAmt>5075</GrossSalesPriceAmt>
+        <BasisAmt>2053</BasisAmt>
+        <TotalNetAmt>3798</TotalNetAmt>
+        <AccumulatedDepreciationAmt>776</AccumulatedDepreciationAmt>
+      </GainLossSaleOtherAssetGrp>
+      <GainLossSaleOtherAssetGrp>
+        <AssetDesc>WKJA EAS SYSTEM</AssetDesc>
+        <AcquiredDt>2013-04</AcquiredDt>
+        <SoldDt>2019-02</SoldDt>
+        <GrossSalesPriceAmt>17597</GrossSalesPriceAmt>
+        <BasisAmt>3626</BasisAmt>
+        <TotalNetAmt>15461</TotalNetAmt>
+        <AccumulatedDepreciationAmt>1490</AccumulatedDepreciationAmt>
+      </GainLossSaleOtherAssetGrp>
+      <GainLossSaleOtherAssetGrp>
+        <AssetDesc>1450 WKJA-Brunswick, OH Equipment</AssetDesc>
+        <AcquiredDt>2015-10</AcquiredDt>
+        <SoldDt>2019-02</SoldDt>
+        <GrossSalesPriceAmt>3193</GrossSalesPriceAmt>
+        <BasisAmt>658</BasisAmt>
+        <TotalNetAmt>2711</TotalNetAmt>
+        <AccumulatedDepreciationAmt>176</AccumulatedDepreciationAmt>
+      </GainLossSaleOtherAssetGrp>
+      <GainLossSaleOtherAssetGrp>
+        <AssetDesc>1470 WTPG EQUIPMENT</AssetDesc>
+        <AcquiredDt>2015-09</AcquiredDt>
+        <SoldDt>2019-11</SoldDt>
+        <GrossSalesPriceAmt>175170</GrossSalesPriceAmt>
+        <BasisAmt>70850</BasisAmt>
+        <TotalNetAmt>123213</TotalNetAmt>
+        <AccumulatedDepreciationAmt>18893</AccumulatedDepreciationAmt>
+      </GainLossSaleOtherAssetGrp>
+      <GainLossSaleOtherAssetGrp>
+        <AssetDesc>1450 WKJA - Brunswick OH 91.9</AssetDesc>
+        <AcquiredDt>2016-09</AcquiredDt>
+        <SoldDt>2019-02</SoldDt>
+        <GrossSalesPriceAmt>17452</GrossSalesPriceAmt>
+        <BasisAmt>3596</BasisAmt>
+        <TotalNetAmt>14576</TotalNetAmt>
+        <AccumulatedDepreciationAmt>720</AccumulatedDepreciationAmt>
+      </GainLossSaleOtherAssetGrp>
+      <GainLossSaleOtherAssetGrp>
+        <AssetDesc>1470 WTPG-equipment Toledo, OH 88.9</AssetDesc>
+        <AcquiredDt>2016-04</AcquiredDt>
+        <SoldDt>2019-11</SoldDt>
+        <GrossSalesPriceAmt>55375</GrossSalesPriceAmt>
+        <BasisAmt>22398</BasisAmt>
+        <TotalNetAmt>37457</TotalNetAmt>
+        <AccumulatedDepreciationAmt>4480</AccumulatedDepreciationAmt>
+      </GainLossSaleOtherAssetGrp>
+      <GainLossSaleOtherAssetGrp>
+        <AssetDesc>1470 WTPG Transmitter</AssetDesc>
+        <AcquiredDt>2018-02</AcquiredDt>
+        <SoldDt>2019-11</SoldDt>
+        <GrossSalesPriceAmt>18585</GrossSalesPriceAmt>
+        <BasisAmt>7518</BasisAmt>
+        <TotalNetAmt>11569</TotalNetAmt>
+        <AccumulatedDepreciationAmt>502</AccumulatedDepreciationAmt>
+      </GainLossSaleOtherAssetGrp>
+      <GainLossSaleOtherAssetGrp>
+        <AssetDesc>1450 WKJA Transmitter</AssetDesc>
+        <AcquiredDt>2018-06</AcquiredDt>
+        <SoldDt>2019-02</SoldDt>
+        <GrossSalesPriceAmt>18966</GrossSalesPriceAmt>
+        <BasisAmt>3908</BasisAmt>
+        <TotalNetAmt>15318</TotalNetAmt>
+        <AccumulatedDepreciationAmt>260</AccumulatedDepreciationAmt>
+      </GainLossSaleOtherAssetGrp>
+      <GainLossSaleOtherAssetGrp>
+        <AssetDesc>1470 WTPG Transmitter</AssetDesc>
+        <AcquiredDt>2018-09</AcquiredDt>
+        <SoldDt>2019-11</SoldDt>
+        <GrossSalesPriceAmt>18585</GrossSalesPriceAmt>
+        <BasisAmt>7570</BasisAmt>
+        <TotalNetAmt>11519</TotalNetAmt>
+        <AccumulatedDepreciationAmt>504</AccumulatedDepreciationAmt>
+      </GainLossSaleOtherAssetGrp>
+    </GainLossSaleOtherAssetsSch>
+    <LandEtcSchedule2 documentId="LandEtcSchedule2-01">
+      <LandEtcGrp>
+        <CategoryOrItemTxt>LAND ,BUILDING AND EQUIPMENT</CategoryOrItemTxt>
+        <CostOrOtherBasisAmt>1430775</CostOrOtherBasisAmt>
+        <AccumulatedDepreciationAmt>929300</AccumulatedDepreciationAmt>
+        <BookValueAmt>501475</BookValueAmt>
+      </LandEtcGrp>
+    </LandEtcSchedule2>
+    <LegalFeesSchedule documentId="LegalFeesSchedule-01">
+      <LegalFeesGrp>
+        <CategoryTxt>Putbrese, Hunsaker &amp; Trent Legal Services</CategoryTxt>
+        <LegalFeesAmt>23448</LegalFeesAmt>
+      </LegalFeesGrp>
+    </LegalFeesSchedule>
+    <OtherDecreasesSchedule documentId="OtherDecreasesSchedule-01">
+      <OtherDecreasesDetail>
+        <Desc>ROUNDING ADJ</Desc>
+        <Amt>2</Amt>
+      </OtherDecreasesDetail>
+    </OtherDecreasesSchedule>
+    <OtherExpensesSchedule documentId="OtherExpensesSchedule-01">
+      <OtherExpensesScheduleGrp>
+        <Desc>Engineering Services</Desc>
+        <RevenueAndExpensesPerBooksAmt>25222</RevenueAndExpensesPerBooksAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>Music Dues</Desc>
+        <RevenueAndExpensesPerBooksAmt>11367</RevenueAndExpensesPerBooksAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>Outside Services</Desc>
+        <RevenueAndExpensesPerBooksAmt>63630</RevenueAndExpensesPerBooksAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>Shipping</Desc>
+        <RevenueAndExpensesPerBooksAmt>395</RevenueAndExpensesPerBooksAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>Studio Lease</Desc>
+        <RevenueAndExpensesPerBooksAmt>6500</RevenueAndExpensesPerBooksAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>Supplies &amp; Small Equipment</Desc>
+        <RevenueAndExpensesPerBooksAmt>16428</RevenueAndExpensesPerBooksAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>Tower &amp; Translator Lease</Desc>
+        <RevenueAndExpensesPerBooksAmt>416729</RevenueAndExpensesPerBooksAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>Agency Fee</Desc>
+        <RevenueAndExpensesPerBooksAmt>33914</RevenueAndExpensesPerBooksAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>Bank Service Charge</Desc>
+        <RevenueAndExpensesPerBooksAmt>1485</RevenueAndExpensesPerBooksAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>Office Equip</Desc>
+        <RevenueAndExpensesPerBooksAmt>1345</RevenueAndExpensesPerBooksAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>Office Expense</Desc>
+        <RevenueAndExpensesPerBooksAmt>22548</RevenueAndExpensesPerBooksAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>Dues &amp; Subscriptions</Desc>
+        <RevenueAndExpensesPerBooksAmt>175</RevenueAndExpensesPerBooksAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>Insurance</Desc>
+        <RevenueAndExpensesPerBooksAmt>131743</RevenueAndExpensesPerBooksAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>Licenses &amp; Fees</Desc>
+        <RevenueAndExpensesPerBooksAmt>595</RevenueAndExpensesPerBooksAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>Meals &amp; Entertainment</Desc>
+        <RevenueAndExpensesPerBooksAmt>3269</RevenueAndExpensesPerBooksAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>Payroll Service Fees</Desc>
+        <RevenueAndExpensesPerBooksAmt>2672</RevenueAndExpensesPerBooksAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>Payroll Tax</Desc>
+        <RevenueAndExpensesPerBooksAmt>19570</RevenueAndExpensesPerBooksAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>Repairs &amp; Maintenance</Desc>
+        <RevenueAndExpensesPerBooksAmt>4340</RevenueAndExpensesPerBooksAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>Supplies</Desc>
+        <RevenueAndExpensesPerBooksAmt>2901</RevenueAndExpensesPerBooksAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>Storage</Desc>
+        <RevenueAndExpensesPerBooksAmt>2996</RevenueAndExpensesPerBooksAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>Telephone</Desc>
+        <RevenueAndExpensesPerBooksAmt>32122</RevenueAndExpensesPerBooksAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>Utilities</Desc>
+        <RevenueAndExpensesPerBooksAmt>19403</RevenueAndExpensesPerBooksAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>Vehicle Expense</Desc>
+        <RevenueAndExpensesPerBooksAmt>4352</RevenueAndExpensesPerBooksAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>Workers Comp. Insurance</Desc>
+        <RevenueAndExpensesPerBooksAmt>2722</RevenueAndExpensesPerBooksAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>Miscellaneous</Desc>
+        <RevenueAndExpensesPerBooksAmt>12936</RevenueAndExpensesPerBooksAmt>
+      </OtherExpensesScheduleGrp>
+    </OtherExpensesSchedule>
+    <OtherIncomeSchedule2 documentId="OtherIncomeSchedule2-01">
+      <OtherIncomeDetail>
+        <Desc>Program Support</Desc>
+        <RevenueAndExpensesPerBooksAmt>865893</RevenueAndExpensesPerBooksAmt>
+      </OtherIncomeDetail>
+      <OtherIncomeDetail>
+        <Desc>Tax Refund</Desc>
+        <RevenueAndExpensesPerBooksAmt>882</RevenueAndExpensesPerBooksAmt>
+      </OtherIncomeDetail>
+    </OtherIncomeSchedule2>
+    <OtherLiabilitiesSchedule documentId="OtherLiabilitiesSchedule-01">
+      <OtherLiabilitiesDetail>
+        <Desc>PAYROLL LIABILITIES</Desc>
+        <BOYBookValueAmt>-440</BOYBookValueAmt>
+        <EOYBookValueAmt>916</EOYBookValueAmt>
+      </OtherLiabilitiesDetail>
+      <OtherLiabilitiesDetail>
+        <Desc>LONG-TERM NOTE - CSN</Desc>
+        <BOYBookValueAmt>379409</BOYBookValueAmt>
+        <EOYBookValueAmt>145410</EOYBookValueAmt>
+      </OtherLiabilitiesDetail>
+    </OtherLiabilitiesSchedule>
+    <OtherNotesLoansRcvblShortSch2 documentId="OtherNotesLoansRcvblShortS2-01">
+      <OtherNotesLoansRcvblShortGrp>
+        <Organization501c3Name>
+          <BusinessNameLine1Txt>CALVARY CHAPEL SANTA CRUZ</BusinessNameLine1Txt>
+        </Organization501c3Name>
+        <BalanceDueAmt>27408</BalanceDueAmt>
+      </OtherNotesLoansRcvblShortGrp>
+      <OtherNotesLoansRcvblShortGrp>
+        <Organization501c3Name>
+          <BusinessNameLine1Txt>CALVARY CHAPEL OMAHA</BusinessNameLine1Txt>
+        </Organization501c3Name>
+        <BalanceDueAmt>1400</BalanceDueAmt>
+      </OtherNotesLoansRcvblShortGrp>
+      <OtherNotesLoansRcvblShortGrp>
+        <Organization501c3Name>
+          <BusinessNameLine1Txt>BRADLEY SMITH</BusinessNameLine1Txt>
+        </Organization501c3Name>
+        <BalanceDueAmt>2000</BalanceDueAmt>
+      </OtherNotesLoansRcvblShortGrp>
+    </OtherNotesLoansRcvblShortSch2>
+    <OtherReceivablesOfficersSch documentId="OtherReceivablesOfficersSch-01">
+      <OfficerOtherRcvblGrp>
+        <BorrowerPersonNm>CHUCK SMITH TRUST</BorrowerPersonNm>
+        <BorrowerTitleTxt>N/A</BorrowerTitleTxt>
+        <LoanOriginalAmt>776</LoanOriginalAmt>
+        <BalanceDueAmt>776</BalanceDueAmt>
+        <NoteDt>2015-06</NoteDt>
+        <RepaymentTermsTxt>N/A</RepaymentTermsTxt>
+        <InterestRt>0.00000000</InterestRt>
+        <SecurityProvidedBorrowerTxt>N/A</SecurityProvidedBorrowerTxt>
+        <LoanPurposeTxt>N/A</LoanPurposeTxt>
+        <LenderConsiderationDesc>776</LenderConsiderationDesc>
+        <ConsiderationFMVAmt>776</ConsiderationFMVAmt>
+      </OfficerOtherRcvblGrp>
+      <OfficerOtherRcvblGrp>
+        <BorrowerPersonNm>WISE TREATMENT CENTER</BorrowerPersonNm>
+        <BorrowerTitleTxt>N/A</BorrowerTitleTxt>
+        <LoanOriginalAmt>1956</LoanOriginalAmt>
+        <BalanceDueAmt>3021</BalanceDueAmt>
+        <NoteDt>2015-10</NoteDt>
+        <RepaymentTermsTxt>N/A</RepaymentTermsTxt>
+        <InterestRt>0.00000000</InterestRt>
+        <SecurityProvidedBorrowerTxt>N/A</SecurityProvidedBorrowerTxt>
+        <LoanPurposeTxt>EXPENSES</LoanPurposeTxt>
+        <LenderConsiderationDesc>3021</LenderConsiderationDesc>
+        <ConsiderationFMVAmt>3021</ConsiderationFMVAmt>
+      </OfficerOtherRcvblGrp>
+      <OfficerOtherRcvblGrp>
+        <BorrowerPersonNm>A CALVARY CHAPEL INTERNATIONAL</BorrowerPersonNm>
+        <BorrowerTitleTxt>N/A</BorrowerTitleTxt>
+        <LoanOriginalAmt>1940</LoanOriginalAmt>
+        <BalanceDueAmt>1990</BalanceDueAmt>
+        <NoteDt>2013-12</NoteDt>
+        <RepaymentTermsTxt>N/A</RepaymentTermsTxt>
+        <InterestRt>0.00000000</InterestRt>
+        <SecurityProvidedBorrowerTxt>N/A</SecurityProvidedBorrowerTxt>
+        <LoanPurposeTxt>EXPENSES</LoanPurposeTxt>
+        <LenderConsiderationDesc>1990</LenderConsiderationDesc>
+        <ConsiderationFMVAmt>1990</ConsiderationFMVAmt>
+      </OfficerOtherRcvblGrp>
+      <OfficerOtherRcvblGrp>
+        <BorrowerPersonNm>THE WORD FOR TODAY</BorrowerPersonNm>
+        <BorrowerTitleTxt>N/A</BorrowerTitleTxt>
+        <LoanOriginalAmt>19623</LoanOriginalAmt>
+        <BalanceDueAmt>90877</BalanceDueAmt>
+        <NoteDt>2014-01</NoteDt>
+        <RepaymentTermsTxt>N/A</RepaymentTermsTxt>
+        <InterestRt>0.00000000</InterestRt>
+        <SecurityProvidedBorrowerTxt>N/A</SecurityProvidedBorrowerTxt>
+        <LoanPurposeTxt>EXPENSES</LoanPurposeTxt>
+        <LenderConsiderationDesc>90877</LenderConsiderationDesc>
+        <ConsiderationFMVAmt>90877</ConsiderationFMVAmt>
+      </OfficerOtherRcvblGrp>
+      <OfficerOtherRcvblGrp>
+        <BorrowerPersonNm>CUTTING EDGE FILMS CEF</BorrowerPersonNm>
+        <BorrowerTitleTxt>N/A</BorrowerTitleTxt>
+        <LoanOriginalAmt>460</LoanOriginalAmt>
+        <BalanceDueAmt>8171</BalanceDueAmt>
+        <NoteDt>2012-08</NoteDt>
+        <RepaymentTermsTxt>N/A</RepaymentTermsTxt>
+        <InterestRt>0.00000000</InterestRt>
+        <SecurityProvidedBorrowerTxt>N/A</SecurityProvidedBorrowerTxt>
+        <LoanPurposeTxt>EXPENSES</LoanPurposeTxt>
+        <LenderConsiderationDesc>8171</LenderConsiderationDesc>
+        <ConsiderationFMVAmt>8171</ConsiderationFMVAmt>
+      </OfficerOtherRcvblGrp>
+      <OfficerOtherRcvblGrp>
+        <BorrowerPersonNm>HOPE FOR THE CHILDREN</BorrowerPersonNm>
+        <BorrowerTitleTxt>N/A</BorrowerTitleTxt>
+        <LoanOriginalAmt>696004</LoanOriginalAmt>
+        <BalanceDueAmt>903706</BalanceDueAmt>
+        <NoteDt>2010-09</NoteDt>
+        <RepaymentTermsTxt>N/A</RepaymentTermsTxt>
+        <InterestRt>0.00000000</InterestRt>
+        <SecurityProvidedBorrowerTxt>N/A</SecurityProvidedBorrowerTxt>
+        <LoanPurposeTxt>EXPENSES</LoanPurposeTxt>
+        <LenderConsiderationDesc>903706</LenderConsiderationDesc>
+        <ConsiderationFMVAmt>903706</ConsiderationFMVAmt>
+      </OfficerOtherRcvblGrp>
+      <OfficerOtherRcvblGrp>
+        <BorrowerPersonNm>CSN INTERNATIONAL</BorrowerPersonNm>
+        <BorrowerTitleTxt>N/A</BorrowerTitleTxt>
+        <LoanOriginalAmt>9890</LoanOriginalAmt>
+        <BalanceDueAmt>119890</BalanceDueAmt>
+        <NoteDt>2016-02</NoteDt>
+        <RepaymentTermsTxt>N/A</RepaymentTermsTxt>
+        <InterestRt>0.00000000</InterestRt>
+        <SecurityProvidedBorrowerTxt>N/A</SecurityProvidedBorrowerTxt>
+        <LoanPurposeTxt>EQUIPMENT PURCHASE</LoanPurposeTxt>
+        <LenderConsiderationDesc>119890</LenderConsiderationDesc>
+        <ConsiderationFMVAmt>119890</ConsiderationFMVAmt>
+      </OfficerOtherRcvblGrp>
+    </OtherReceivablesOfficersSch>
+    <TaxesSchedule documentId="TaxesSchedule-01">
+      <TaxesDetail>
+        <CategoryTxt>Property Tax/Other</CategoryTxt>
+        <Amt>1071</Amt>
+      </TaxesDetail>
+      <TaxesDetail>
+        <CategoryTxt>State BOE</CategoryTxt>
+        <Amt>22</Amt>
+      </TaxesDetail>
+    </TaxesSchedule>
+  </ReturnData>
+</Return>

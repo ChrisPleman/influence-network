@@ -1,0 +1,669 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Return xmlns="http://www.irs.gov/efile" xsi:schemaLocation="http://www.irs.gov/efile" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" returnVersion="2024v5.1">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2025-05-09T08:44:08-05:00</ReturnTs>
+    <TaxPeriodEndDt>2024-12-31</TaxPeriodEndDt>
+    <PreparerFirmGrp>
+      <PreparerFirmName>
+        <BusinessNameLine1Txt>Labenz &amp; Associates LLC</BusinessNameLine1Txt>
+      </PreparerFirmName>
+      <PreparerUSAddress>
+        <AddressLine1Txt>8555 Pioneers Boulevard</AddressLine1Txt>
+        <CityNm>Lincoln</CityNm>
+        <StateAbbreviationCd>NE</StateAbbreviationCd>
+        <ZIPCd>68520</ZIPCd>
+      </PreparerUSAddress>
+    </PreparerFirmGrp>
+    <ReturnTypeCd>990PF</ReturnTypeCd>
+    <TaxPeriodBeginDt>2024-01-01</TaxPeriodBeginDt>
+    <Filer>
+      <EIN>854351399</EIN>
+      <BusinessName>
+        <BusinessNameLine1Txt>Scudder Family Charitable Foundation</BusinessNameLine1Txt>
+      </BusinessName>
+      <InCareOfNm>% EARL H SCUDDER JR</InCareOfNm>
+      <BusinessNameControlTxt>SCUD</BusinessNameControlTxt>
+      <PhoneNum>4024353223</PhoneNum>
+      <USAddress>
+        <AddressLine1Txt>411 S 13th St 411 Building 2nd Fl</AddressLine1Txt>
+        <CityNm>Lincoln</CityNm>
+        <StateAbbreviationCd>NE</StateAbbreviationCd>
+        <ZIPCd>68508</ZIPCd>
+      </USAddress>
+    </Filer>
+    <BusinessOfficerGrp>
+      <PersonNm>Earl Scudder</PersonNm>
+      <PersonTitleTxt>Officer</PersonTitleTxt>
+      <PhoneNum>4024378383</PhoneNum>
+      <SignatureDt>2025-05-15</SignatureDt>
+      <DiscussWithPaidPreparerInd>true</DiscussWithPaidPreparerInd>
+    </BusinessOfficerGrp>
+    <IRSResponsiblePrtyInfoCurrInd>true</IRSResponsiblePrtyInfoCurrInd>
+    <PreparerPersonGrp>
+      <PreparerPersonNm>Vonita L Wood</PreparerPersonNm>
+      <PTIN>P00415828</PTIN>
+      <PhoneNum>4024378383</PhoneNum>
+      <PreparationDt>2025-05-07</PreparationDt>
+    </PreparerPersonGrp>
+    <TaxYr>2024</TaxYr>
+    <BuildTS>2025-03-06 01:10:19Z</BuildTS>
+  </ReturnHeader>
+  <ReturnData documentCnt="10">
+    <IRS990PF documentId="IRS990PF">
+      <Organization501c3ExemptPFInd>X</Organization501c3ExemptPFInd>
+      <FMVAssetsEOYAmt>275487</FMVAssetsEOYAmt>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <AnalysisOfRevenueAndExpenses>
+        <ContriRcvdRevAndExpnssAmt>152225</ContriRcvdRevAndExpnssAmt>
+        <DividendsRevAndExpnssAmt>6215</DividendsRevAndExpnssAmt>
+        <DividendsNetInvstIncmAmt>6215</DividendsNetInvstIncmAmt>
+        <NetGainSaleAstRevAndExpnssAmt>3996</NetGainSaleAstRevAndExpnssAmt>
+        <GrossSalesPriceAmt>83993</GrossSalesPriceAmt>
+        <CapGainNetIncmNetInvstIncmAmt>3996</CapGainNetIncmNetInvstIncmAmt>
+        <OtherIncomeRevAndExpnssAmt referenceDocumentId="OtherIncomeSch2">5431</OtherIncomeRevAndExpnssAmt>
+        <TotalRevAndExpnssAmt>167867</TotalRevAndExpnssAmt>
+        <TotalNetInvstIncmAmt>10211</TotalNetInvstIncmAmt>
+        <CompOfcrDirTrstRevAndExpnssAmt>0</CompOfcrDirTrstRevAndExpnssAmt>
+        <AccountingFeesRevAndExpnssAmt referenceDocumentId="AccountingFeesSch">10285</AccountingFeesRevAndExpnssAmt>
+        <AccountingFeesNetInvstIncmAmt>9257</AccountingFeesNetInvstIncmAmt>
+        <AccountingFeesAdjNetIncmAmt>0</AccountingFeesAdjNetIncmAmt>
+        <AccountingFeesChrtblPrpsAmt>1028</AccountingFeesChrtblPrpsAmt>
+        <InterestRevAndExpnssAmt>11</InterestRevAndExpnssAmt>
+        <TaxesRevAndExpnssAmt referenceDocumentId="TaxesSchedule">56</TaxesRevAndExpnssAmt>
+        <OtherExpensesRevAndExpnssAmt referenceDocumentId="OtherExpensesSch">600</OtherExpensesRevAndExpnssAmt>
+        <TotOprExpensesRevAndExpnssAmt>10952</TotOprExpensesRevAndExpnssAmt>
+        <TotOprExpensesNetInvstIncmAmt>9257</TotOprExpensesNetInvstIncmAmt>
+        <TotOprExpensesAdjNetIncmAmt>0</TotOprExpensesAdjNetIncmAmt>
+        <TotOprExpensesDsbrsChrtblAmt>1028</TotOprExpensesDsbrsChrtblAmt>
+        <ContriPaidRevAndExpnssAmt>156996</ContriPaidRevAndExpnssAmt>
+        <ContriPaidDsbrsChrtblAmt>156996</ContriPaidDsbrsChrtblAmt>
+        <TotalExpensesRevAndExpnssAmt>167948</TotalExpensesRevAndExpnssAmt>
+        <TotalExpensesNetInvstIncmAmt>9257</TotalExpensesNetInvstIncmAmt>
+        <TotalExpensesAdjNetIncmAmt>0</TotalExpensesAdjNetIncmAmt>
+        <TotalExpensesDsbrsChrtblAmt>158024</TotalExpensesDsbrsChrtblAmt>
+        <ExcessRevenueOverExpensesAmt>-81</ExcessRevenueOverExpensesAmt>
+        <NetInvestmentIncomeAmt>954</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+      </AnalysisOfRevenueAndExpenses>
+      <Form990PFBalanceSheetsGrp>
+        <CashBOYAmt>1610</CashBOYAmt>
+        <CashEOYAmt>1645</CashEOYAmt>
+        <CashEOYFMVAmt>1645</CashEOYFMVAmt>
+        <SavAndTempCashInvstBOYAmt>1950</SavAndTempCashInvstBOYAmt>
+        <SavAndTempCashInvstEOYAmt>1223</SavAndTempCashInvstEOYAmt>
+        <SavAndTempCashInvstEOYFMVAmt>1223</SavAndTempCashInvstEOYFMVAmt>
+        <CorporateStockBOYAmt>179259</CorporateStockBOYAmt>
+        <CorporateStockEOYAmt referenceDocumentId="InvestCorpStockSch">212860</CorporateStockEOYAmt>
+        <CorporateStockEOYFMVAmt>272619</CorporateStockEOYFMVAmt>
+        <TotalAssetsBOYAmt>182819</TotalAssetsBOYAmt>
+        <TotalAssetsEOYAmt>215728</TotalAssetsEOYAmt>
+        <TotalAssetsEOYFMVAmt>275487</TotalAssetsEOYFMVAmt>
+        <TotalLiabilitiesBOYAmt>0</TotalLiabilitiesBOYAmt>
+        <TotalLiabilitiesEOYAmt>0</TotalLiabilitiesEOYAmt>
+        <OrgDoesNotFollowFASB117Ind>X</OrgDoesNotFollowFASB117Ind>
+        <RetainedEarningBOYAmt>182819</RetainedEarningBOYAmt>
+        <RetainedEarningEOYAmt>215728</RetainedEarningEOYAmt>
+        <TotNetAstOrFundBalancesBOYAmt>182819</TotNetAstOrFundBalancesBOYAmt>
+        <TotNetAstOrFundBalancesEOYAmt>215728</TotNetAstOrFundBalancesEOYAmt>
+        <TotalLiabilitiesNetAstBOYAmt>182819</TotalLiabilitiesNetAstBOYAmt>
+        <TotalLiabilitiesNetAstEOYAmt>215728</TotalLiabilitiesNetAstEOYAmt>
+      </Form990PFBalanceSheetsGrp>
+      <ChgInNetAssetsFundBalancesGrp>
+        <TotNetAstOrFundBalancesBOYAmt>182819</TotNetAstOrFundBalancesBOYAmt>
+        <ExcessRevenueOverExpensesAmt>-81</ExcessRevenueOverExpensesAmt>
+        <OtherIncreasesAmt referenceDocumentId="OtherIncreasesSch">101082</OtherIncreasesAmt>
+        <SubtotalAmt>283820</SubtotalAmt>
+        <OtherDecreasesAmt referenceDocumentId="OtherDecreasesSch">68092</OtherDecreasesAmt>
+        <TotNetAstOrFundBalancesEOYAmt>215728</TotNetAstOrFundBalancesEOYAmt>
+      </ChgInNetAssetsFundBalancesGrp>
+      <CapGainsLossTxInvstIncmDetail>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>500 SH CITIGROUP INC</PropertyDesc>
+          <HowAcquiredCd>P</HowAcquiredCd>
+          <AcquiredDt>2023-05-26</AcquiredDt>
+          <SoldDt>2024-01-30</SoldDt>
+          <GrossSalesPriceAmt>28507</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>22290</CostOrOtherBasisAmt>
+          <GainOrLossAmt>6217</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>6217</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>500 SH CITIGROUP INC</PropertyDesc>
+          <HowAcquiredCd>P</HowAcquiredCd>
+          <AcquiredDt>2021-02-12</AcquiredDt>
+          <SoldDt>2024-01-30</SoldDt>
+          <GrossSalesPriceAmt>28507</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>31647</CostOrOtherBasisAmt>
+          <GainOrLossAmt>-3140</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>-3140</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>500 SH GENERAL MOTORS CO</PropertyDesc>
+          <HowAcquiredCd>P</HowAcquiredCd>
+          <AcquiredDt>2021-02-18</AcquiredDt>
+          <SoldDt>2024-10-22</SoldDt>
+          <GrossSalesPriceAmt>26979</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>26060</CostOrOtherBasisAmt>
+          <GainOrLossAmt>919</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>919</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapitalGainNetIncomeAmt>3996</CapitalGainNetIncomeAmt>
+      </CapGainsLossTxInvstIncmDetail>
+      <ExciseTaxBasedOnInvstIncmGrp>
+        <InvestmentIncomeExciseTaxAmt>13</InvestmentIncomeExciseTaxAmt>
+        <SubtotalAmt>13</SubtotalAmt>
+        <TaxBasedOnInvestmentIncomeAmt>13</TaxBasedOnInvestmentIncomeAmt>
+        <EstimatedPlusOvpmtIncmTxAmt>0</EstimatedPlusOvpmtIncmTxAmt>
+        <ExemptFrgnOrgTaxWthldAtSrceAmt>0</ExemptFrgnOrgTaxWthldAtSrceAmt>
+        <TotalPaymentsAndCreditsAmt>0</TotalPaymentsAndCreditsAmt>
+        <TaxDueAmt>13</TaxDueAmt>
+      </ExciseTaxBasedOnInvstIncmGrp>
+      <StatementsRegardingActyGrp>
+        <LegislativePoliticalActyInd>false</LegislativePoliticalActyInd>
+        <MoreThan100SpentInd>false</MoreThan100SpentInd>
+        <Form1120POLFiledInd>false</Form1120POLFiledInd>
+        <Section4955OrganizationTaxAmt>0</Section4955OrganizationTaxAmt>
+        <Section4955ManagersTaxAmt>0</Section4955ManagersTaxAmt>
+        <TaxReimbursedAmt>0</TaxReimbursedAmt>
+        <ActivitiesNotPreviouslyRptInd>false</ActivitiesNotPreviouslyRptInd>
+        <ChangesToArticlesOrBylawsInd>false</ChangesToArticlesOrBylawsInd>
+        <UnrelatedBusIncmOverLimitInd>false</UnrelatedBusIncmOverLimitInd>
+        <OrganizationDissolvedEtcInd>false</OrganizationDissolvedEtcInd>
+        <Section508eRqrSatisfiedInd>true</Section508eRqrSatisfiedInd>
+        <AtLeast5000InAssetsInd>true</AtLeast5000InAssetsInd>
+        <OrgReportOrRegisterStateCd>NE</OrgReportOrRegisterStateCd>
+        <Form990PFFiledWithAttyGenInd>true</Form990PFFiledWithAttyGenInd>
+        <PrivateOperatingFoundationInd>false</PrivateOperatingFoundationInd>
+        <NewSubstantialContributorsInd>false</NewSubstantialContributorsInd>
+        <OwnControlledEntityInd>false</OwnControlledEntityInd>
+        <DonorAdvisedFundInd>false</DonorAdvisedFundInd>
+        <ComplyWithPublicInspRqrInd>true</ComplyWithPublicInspRqrInd>
+        <PersonsWithBooksName>
+          <BusinessNameLine1Txt>EARL H SCUDDER JR</BusinessNameLine1Txt>
+        </PersonsWithBooksName>
+        <PhoneNum>4024353223</PhoneNum>
+        <LocationOfBooksUSAddress>
+          <AddressLine1Txt>411 S 13TH ST 411 BUILDING 2ND FL</AddressLine1Txt>
+          <CityNm>Lincoln</CityNm>
+          <StateAbbreviationCd>NE</StateAbbreviationCd>
+          <ZIPCd>68508</ZIPCd>
+        </LocationOfBooksUSAddress>
+        <ForeignAccountsQuestionInd>false</ForeignAccountsQuestionInd>
+      </StatementsRegardingActyGrp>
+      <StatementsRegardingActy4720Grp>
+        <SaleOrExchDisqualifiedPrsnInd>false</SaleOrExchDisqualifiedPrsnInd>
+        <BrrwOrLendDisqualifiedPrsnInd>false</BrrwOrLendDisqualifiedPrsnInd>
+        <FurnGoodsDisqualifiedPrsnInd>false</FurnGoodsDisqualifiedPrsnInd>
+        <PayCompDisqualifiedPrsnInd>false</PayCompDisqualifiedPrsnInd>
+        <TransferAstDisqualifiedPrsnInd>false</TransferAstDisqualifiedPrsnInd>
+        <PaymentToGovernmentOfficialInd>false</PaymentToGovernmentOfficialInd>
+        <UncorrectedPriorActsInd>false</UncorrectedPriorActsInd>
+        <UndistributedIncomePYInd>false</UndistributedIncomePYInd>
+        <BusinessHoldingsInd>false</BusinessHoldingsInd>
+        <JeopardyInvestmentsInd>false</JeopardyInvestmentsInd>
+        <UncorrectedPYJeopardyInvstInd>false</UncorrectedPYJeopardyInvstInd>
+        <InfluenceLegislationInd>false</InfluenceLegislationInd>
+        <InfluenceElectionInd>false</InfluenceElectionInd>
+        <GrantsToIndividualsInd>false</GrantsToIndividualsInd>
+        <GrantsToOrganizationsInd>false</GrantsToOrganizationsInd>
+        <NoncharitablePurposeInd>false</NoncharitablePurposeInd>
+        <RcvFndsToPayPrsnlBnftCntrctInd>false</RcvFndsToPayPrsnlBnftCntrctInd>
+        <PayPremiumsPrsnlBnftCntrctInd>false</PayPremiumsPrsnlBnftCntrctInd>
+        <ProhibitedTaxShelterTransInd>false</ProhibitedTaxShelterTransInd>
+        <SubjToTaxRmnrtnExPrchtPymtInd>false</SubjToTaxRmnrtnExPrchtPymtInd>
+      </StatementsRegardingActy4720Grp>
+      <OfficerDirTrstKeyEmplInfoGrp>
+        <OfficerDirTrstKeyEmplGrp>
+          <PersonNm>Patricia H Scudder</PersonNm>
+          <USAddress>
+            <AddressLine1Txt>4401 S 93rd Circle</AddressLine1Txt>
+            <CityNm>Lincoln</CityNm>
+            <StateAbbreviationCd>NE</StateAbbreviationCd>
+            <ZIPCd>68520</ZIPCd>
+          </USAddress>
+          <TitleTxt>Pres/Treas- Time as Needed</TitleTxt>
+          <AverageHrsPerWkDevotedToPosRt>0</AverageHrsPerWkDevotedToPosRt>
+          <CompensationAmt>0</CompensationAmt>
+          <EmployeeBenefitProgramAmt>0</EmployeeBenefitProgramAmt>
+          <ExpenseAccountOtherAllwncAmt>0</ExpenseAccountOtherAllwncAmt>
+        </OfficerDirTrstKeyEmplGrp>
+        <OfficerDirTrstKeyEmplGrp>
+          <PersonNm>Earl H Scudder Jr</PersonNm>
+          <USAddress>
+            <AddressLine1Txt>4401 S 93rd Circle</AddressLine1Txt>
+            <CityNm>Lincoln</CityNm>
+            <StateAbbreviationCd>NE</StateAbbreviationCd>
+            <ZIPCd>68520</ZIPCd>
+          </USAddress>
+          <TitleTxt>Vice-Pres/Sec- Time as Needed</TitleTxt>
+          <AverageHrsPerWkDevotedToPosRt>0</AverageHrsPerWkDevotedToPosRt>
+          <CompensationAmt>0</CompensationAmt>
+          <EmployeeBenefitProgramAmt>0</EmployeeBenefitProgramAmt>
+          <ExpenseAccountOtherAllwncAmt>0</ExpenseAccountOtherAllwncAmt>
+        </OfficerDirTrstKeyEmplGrp>
+        <OfficerDirTrstKeyEmplGrp>
+          <PersonNm>Alison Armstrong</PersonNm>
+          <USAddress>
+            <AddressLine1Txt>4500 S 93rd Circle</AddressLine1Txt>
+            <CityNm>Lincoln</CityNm>
+            <StateAbbreviationCd>NE</StateAbbreviationCd>
+            <ZIPCd>68520</ZIPCd>
+          </USAddress>
+          <TitleTxt>Director- Time as needed</TitleTxt>
+          <AverageHrsPerWkDevotedToPosRt>0</AverageHrsPerWkDevotedToPosRt>
+          <CompensationAmt>0</CompensationAmt>
+          <EmployeeBenefitProgramAmt>0</EmployeeBenefitProgramAmt>
+          <ExpenseAccountOtherAllwncAmt>0</ExpenseAccountOtherAllwncAmt>
+        </OfficerDirTrstKeyEmplGrp>
+        <OfficerDirTrstKeyEmplGrp>
+          <PersonNm>Christine Scudder Kemper</PersonNm>
+          <USAddress>
+            <AddressLine1Txt>14905 Little Blue Road</AddressLine1Txt>
+            <CityNm>Kansas City</CityNm>
+            <StateAbbreviationCd>MO</StateAbbreviationCd>
+            <ZIPCd>64136</ZIPCd>
+          </USAddress>
+          <TitleTxt>Director- Time as needed</TitleTxt>
+          <AverageHrsPerWkDevotedToPosRt>0</AverageHrsPerWkDevotedToPosRt>
+          <CompensationAmt>0</CompensationAmt>
+          <EmployeeBenefitProgramAmt>0</EmployeeBenefitProgramAmt>
+          <ExpenseAccountOtherAllwncAmt>0</ExpenseAccountOtherAllwncAmt>
+        </OfficerDirTrstKeyEmplGrp>
+        <OfficerDirTrstKeyEmplGrp>
+          <PersonNm>Barbara Scudder Soucie</PersonNm>
+          <USAddress>
+            <AddressLine1Txt>4700 S 93rd Circle</AddressLine1Txt>
+            <CityNm>Lincoln</CityNm>
+            <StateAbbreviationCd>NE</StateAbbreviationCd>
+            <ZIPCd>68520</ZIPCd>
+          </USAddress>
+          <TitleTxt>Director- Time as needed</TitleTxt>
+          <AverageHrsPerWkDevotedToPosRt>0</AverageHrsPerWkDevotedToPosRt>
+          <CompensationAmt>0</CompensationAmt>
+          <EmployeeBenefitProgramAmt>0</EmployeeBenefitProgramAmt>
+          <ExpenseAccountOtherAllwncAmt>0</ExpenseAccountOtherAllwncAmt>
+        </OfficerDirTrstKeyEmplGrp>
+      </OfficerDirTrstKeyEmplInfoGrp>
+      <SummaryOfDirectChrtblActyGrp />
+      <SumOfProgramRelatedInvstGrp />
+      <MinimumInvestmentReturnGrp>
+        <AverageMonthlyFMVOfSecAmt>222850</AverageMonthlyFMVOfSecAmt>
+        <AverageMonthlyCashBalancesAmt>957</AverageMonthlyCashBalancesAmt>
+        <FMVAllOtherNoncharitableAstAmt>0</FMVAllOtherNoncharitableAstAmt>
+        <TotalFMVOfUnusedAssetsAmt>223807</TotalFMVOfUnusedAssetsAmt>
+        <AcquisitionIndebtednessAmt>0</AcquisitionIndebtednessAmt>
+        <AdjustedTotalFMVOfUnusedAstAmt>223807</AdjustedTotalFMVOfUnusedAstAmt>
+        <CashDeemedCharitableAmt>3357</CashDeemedCharitableAmt>
+        <NetVlNoncharitableAssetsAmt>220450</NetVlNoncharitableAssetsAmt>
+        <MinimumInvestmentReturnAmt>11023</MinimumInvestmentReturnAmt>
+      </MinimumInvestmentReturnGrp>
+      <DistributableAmountGrp>
+        <MinimumInvestmentReturnAmt>11023</MinimumInvestmentReturnAmt>
+        <TaxBasedOnInvestmentIncomeAmt>13</TaxBasedOnInvestmentIncomeAmt>
+        <TotalTaxAmt>13</TotalTaxAmt>
+        <DistributableBeforeAdjAmt>11010</DistributableBeforeAdjAmt>
+        <DistributableBeforeDedAmt>11010</DistributableBeforeDedAmt>
+        <DistributableAsAdjustedAmt>11010</DistributableAsAdjustedAmt>
+      </DistributableAmountGrp>
+      <PFQualifyingDistributionsGrp>
+        <ExpensesAndContributionsAmt>158024</ExpensesAndContributionsAmt>
+        <ProgramRelatedInvstTotalAmt>0</ProgramRelatedInvstTotalAmt>
+        <CharitableAssetsAcquisPaidAmt>0</CharitableAssetsAcquisPaidAmt>
+        <SetAsideSuitabilityTestAmt>0</SetAsideSuitabilityTestAmt>
+        <SetAsideCashDistriTestAmt>0</SetAsideCashDistriTestAmt>
+        <QualifyingDistributionsAmt>158024</QualifyingDistributionsAmt>
+      </PFQualifyingDistributionsGrp>
+      <UndistributedIncomeGrp>
+        <DistributableAsAdjustedAmt>11010</DistributableAsAdjustedAmt>
+        <UndistributedIncomePYAmt>0</UndistributedIncomePYAmt>
+        <PriorYear1Yr>2022</PriorYear1Yr>
+        <PriorYear2Yr>2021</PriorYear2Yr>
+        <PriorYear3Yr>2020</PriorYear3Yr>
+        <TotalForPriorYearsAmt>0</TotalForPriorYearsAmt>
+        <ExcessDistributionCyovYr4Amt>0</ExcessDistributionCyovYr4Amt>
+        <ExcessDistributionCyovYr3Amt>11815</ExcessDistributionCyovYr3Amt>
+        <ExcessDistributionCyovYr2Amt>131080</ExcessDistributionCyovYr2Amt>
+        <ExcessDistributionCyovYr1Amt>150981</ExcessDistributionCyovYr1Amt>
+        <TotalExcessDistributionCyovAmt>293876</TotalExcessDistributionCyovAmt>
+        <QualifyingDistributionsAmt>158024</QualifyingDistributionsAmt>
+        <AppliedToYear1Amt>0</AppliedToYear1Amt>
+        <AppliedToCurrentYearAmt>11010</AppliedToCurrentYearAmt>
+        <RemainingDistriFromCorpusAmt>147014</RemainingDistriFromCorpusAmt>
+        <TotalCorpusAmt>440890</TotalCorpusAmt>
+        <PriorYearUndistributedIncmAmt>0</PriorYearUndistributedIncmAmt>
+        <Taxable1Amt>0</Taxable1Amt>
+        <Taxable2Amt>0</Taxable2Amt>
+        <UndistributedIncomeCYAmt>0</UndistributedIncomeCYAmt>
+        <ExcessDistriCyovToNextYrAmt>440890</ExcessDistriCyovToNextYrAmt>
+        <ExcessFromYear4Amt>0</ExcessFromYear4Amt>
+        <ExcessFromYear3Amt>11815</ExcessFromYear3Amt>
+        <ExcessFromYear2Amt>131080</ExcessFromYear2Amt>
+        <ExcessFromYear1Amt>150981</ExcessFromYear1Amt>
+        <ExcessFromCurrentYearAmt>147014</ExcessFromCurrentYearAmt>
+      </UndistributedIncomeGrp>
+      <PrivateOperatingFoundationsGrp></PrivateOperatingFoundationsGrp>
+      <SupplementaryInformationGrp>
+        <ContributingManagerNm>EARL H SCUDDER JR AND PATRICIA H SC</ContributingManagerNm>
+        <ApplicationSubmissionInfoGrp>
+          <RecipientPersonNm>Patricia H and Earl H Scudder Jr</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>4401 South 93rd Circle</AddressLine1Txt>
+            <CityNm>Lincoln</CityNm>
+            <StateAbbreviationCd>NE</StateAbbreviationCd>
+            <ZIPCd>68520</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientPhoneNum>4024353223</RecipientPhoneNum>
+          <FormAndInfoAndMaterialsTxt>CURRENTLY THERE IS NOT A SPECIFIED FORMAT.</FormAndInfoAndMaterialsTxt>
+          <SubmissionDeadlinesTxt>CURRENTLY THERE IS NOT A DEADLINE.</SubmissionDeadlinesTxt>
+          <RestrictionsOnAwardsTxt>CURRENTLY THERE IS NOT A PUBLISHED LIMITATION OR RESTRICTION.</RestrictionsOnAwardsTxt>
+        </ApplicationSubmissionInfoGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>University of Nebraska-Lincoln College of Law</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientUSAddress>
+            <AddressLine1Txt>PO Box 830861</AddressLine1Txt>
+            <CityNm>Lincoln</CityNm>
+            <StateAbbreviationCd>NE</StateAbbreviationCd>
+            <ZIPCd>685830861</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>None</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>PC</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>Scholarships provided by the University of Nebraska College of Law to law students.</GrantOrContributionPurposeTxt>
+          <Amt>105773</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>University of Nebraska-Lincoln College of Law</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientUSAddress>
+            <AddressLine1Txt>PO Box 830861</AddressLine1Txt>
+            <CityNm>Lincoln</CityNm>
+            <StateAbbreviationCd>NE</StateAbbreviationCd>
+            <ZIPCd>685830861</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>None</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>PC</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>Scholarships provided by the University of Nebraska College of Law to law students.</GrantOrContributionPurposeTxt>
+          <Amt>51223</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <TotalGrantOrContriPdDurYrAmt>156996</TotalGrantOrContriPdDurYrAmt>
+      </SupplementaryInformationGrp>
+      <AnalysisIncomeProducingActyGrp>
+        <FeesContractsFromGovtAgGrp />
+        <MembershipDuesAndAssmntGrp />
+        <IntOnSavAndTempCashInvstGrp />
+        <DividendsAndInterestFromSecDtl>
+          <ExclusionCd>14</ExclusionCd>
+          <ExclusionAmt>6215</ExclusionAmt>
+        </DividendsAndInterestFromSecDtl>
+        <NetRntlIncmReDebtFincdPropGrp />
+        <NetRntlIncmReNotDebtFincdProp />
+        <NetRentalIncomePersonalPropGrp />
+        <OtherInvestmentIncomeGrp />
+        <GainSalesAstOthThanInvntryGrp>
+          <ExclusionCd>18</ExclusionCd>
+          <ExclusionAmt>3996</ExclusionAmt>
+        </GainSalesAstOthThanInvntryGrp>
+        <NetIncomeLossFromSpecialEvtGrp />
+        <GrossProfitLossSlsOfInvntryGrp />
+        <OtherRevenueDescribedGrp>
+          <Desc>FEDERAL TAX REFUND</Desc>
+          <RelatedOrExemptFunctionIncmAmt>5431</RelatedOrExemptFunctionIncmAmt>
+        </OtherRevenueDescribedGrp>
+        <SubtotalsIncmProducingActyGrp>
+          <ExclusionAmt>10211</ExclusionAmt>
+          <RelatedOrExemptFunctionIncmAmt>5431</RelatedOrExemptFunctionIncmAmt>
+        </SubtotalsIncmProducingActyGrp>
+        <TotalIncomeProducingActyAmt>15642</TotalIncomeProducingActyAmt>
+      </AnalysisIncomeProducingActyGrp>
+      <TrnsfrTransRlnNonchrtblEOGrp>
+        <TrnsfrOfCashToNonchrtblEOInd>false</TrnsfrOfCashToNonchrtblEOInd>
+        <TrnsfrOtherAssetNonchrtblEOInd>false</TrnsfrOtherAssetNonchrtblEOInd>
+        <SalesOrExchangesOfAssetsInd>false</SalesOrExchangesOfAssetsInd>
+        <PurchaseOfAssetsNonchrtblEOInd>false</PurchaseOfAssetsNonchrtblEOInd>
+        <RentalOfFacilitiesOthAssetsInd>false</RentalOfFacilitiesOthAssetsInd>
+        <ReimbursementArrangementsInd>false</ReimbursementArrangementsInd>
+        <LoansOrLoanGuaranteesInd>false</LoansOrLoanGuaranteesInd>
+        <PerformanceOfServicesEtcInd>false</PerformanceOfServicesEtcInd>
+        <SharingOfFacilitiesEtcInd>false</SharingOfFacilitiesEtcInd>
+        <RelationshipsNonchrtblEOInd>false</RelationshipsNonchrtblEOInd>
+      </TrnsfrTransRlnNonchrtblEOGrp>
+    </IRS990PF>
+    <IRS990ScheduleB documentId="IRS990ScheduleB">
+      <Organization501c3ExemptPFInd>X</Organization501c3ExemptPFInd>
+      <GeneralRuleInd>X</GeneralRuleInd>
+      <ContributorInformationGrp>
+        <ContributorNum>1</ContributorNum>
+        <ContributorPersonNm>Patricia H and Earl H Scudder Jr</ContributorPersonNm>
+        <ContributorUSAddress>
+          <AddressLine1Txt>4401 South 93rd Circle</AddressLine1Txt>
+          <CityNm>Lincoln</CityNm>
+          <StateAbbreviationCd>NE</StateAbbreviationCd>
+          <ZIPCd>68520</ZIPCd>
+        </ContributorUSAddress>
+        <TotalContributionsAmt>144225</TotalContributionsAmt>
+        <PersonContributionInd>X</PersonContributionInd>
+        <NoncashContributionInd>X</NoncashContributionInd>
+      </ContributorInformationGrp>
+      <ContributorInformationGrp>
+        <ContributorNum>2</ContributorNum>
+        <ContributorPersonNm>Patricia H and Earl H Scudder Jr</ContributorPersonNm>
+        <ContributorUSAddress>
+          <AddressLine1Txt>4401 South 93rd Circle</AddressLine1Txt>
+          <CityNm>Lincoln</CityNm>
+          <StateAbbreviationCd>NE</StateAbbreviationCd>
+          <ZIPCd>68520</ZIPCd>
+        </ContributorUSAddress>
+        <TotalContributionsAmt>8000</TotalContributionsAmt>
+        <PersonContributionInd>X</PersonContributionInd>
+      </ContributorInformationGrp>
+      <NonCashPropertyContributionGrp>
+        <ContributorNum>1</ContributorNum>
+        <NoncashPropertyDesc>1,000 sh NVIDIA Corporation</NoncashPropertyDesc>
+        <FairMarketValueAmt>144225</FairMarketValueAmt>
+        <ReceivedDt>2024-11-06</ReceivedDt>
+      </NonCashPropertyContributionGrp>
+    </IRS990ScheduleB>
+    <AccountingFeesSchedule documentId="AccountingFeesSch">
+      <AccountingFeesDetail>
+        <CategoryTxt>TAX PREPARATION AND ACCOUNTING</CategoryTxt>
+        <Amt>10285</Amt>
+        <NetInvestmentIncomeAmt>9257</NetInvestmentIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>1028</DisbursementsCharitablePrpsAmt>
+      </AccountingFeesDetail>
+    </AccountingFeesSchedule>
+    <DepreciationSchedule documentId="DepreciationSch" />
+    <InvestmentsCorpStockSchedule documentId="InvestCorpStockSch">
+      <InvestmentsCorporateStockGrp>
+        <StockNm>500 SH APPLE INC</StockNm>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>0</EOYFMVAmt>
+      </InvestmentsCorporateStockGrp>
+      <InvestmentsCorporateStockGrp>
+        <StockNm>150 SH AMAZON.COM</StockNm>
+        <EOYBookValueAmt>27346</EOYBookValueAmt>
+        <EOYFMVAmt>32909</EOYFMVAmt>
+      </InvestmentsCorporateStockGrp>
+      <InvestmentsCorporateStockGrp>
+        <StockNm>1000 SH CITIGROUP INC</StockNm>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>0</EOYFMVAmt>
+      </InvestmentsCorporateStockGrp>
+      <InvestmentsCorporateStockGrp>
+        <StockNm>500 SH CHEVRON CORP</StockNm>
+        <EOYBookValueAmt>76381</EOYBookValueAmt>
+        <EOYFMVAmt>72420</EOYFMVAmt>
+      </InvestmentsCorporateStockGrp>
+      <InvestmentsCorporateStockGrp>
+        <StockNm>500 SH GENERAL MOTORS CO</StockNm>
+        <EOYBookValueAmt>0</EOYBookValueAmt>
+        <EOYFMVAmt>0</EOYFMVAmt>
+      </InvestmentsCorporateStockGrp>
+      <InvestmentsCorporateStockGrp>
+        <StockNm>1,000 NVIDIA CORP</StockNm>
+        <EOYBookValueAmt>76133</EOYBookValueAmt>
+        <EOYFMVAmt>134290</EOYFMVAmt>
+      </InvestmentsCorporateStockGrp>
+      <InvestmentsCorporateStockGrp>
+        <StockNm>90,000 GOVT MOMEY MARKET</StockNm>
+        <EOYBookValueAmt>33000</EOYBookValueAmt>
+        <EOYFMVAmt>33000</EOYFMVAmt>
+      </InvestmentsCorporateStockGrp>
+    </InvestmentsCorpStockSchedule>
+    <OtherDecreasesSchedule documentId="OtherDecreasesSch">
+      <OtherDecreasesDetail>
+        <Desc>STOCK CONTRIBUTION-ADJ TO COST BASIS</Desc>
+        <Amt>68092</Amt>
+      </OtherDecreasesDetail>
+    </OtherDecreasesSchedule>
+    <OtherExpensesSchedule documentId="OtherExpensesSch">
+      <OtherExpensesScheduleGrp>
+        <Desc>FORM 1023 FEE</Desc>
+        <RevenueAndExpensesPerBooksAmt>600</RevenueAndExpensesPerBooksAmt>
+      </OtherExpensesScheduleGrp>
+    </OtherExpensesSchedule>
+    <OtherIncomeSchedule2 documentId="OtherIncomeSch2">
+      <OtherIncomeDetail>
+        <Desc>Federal tax refund</Desc>
+        <RevenueAndExpensesPerBooksAmt>5431</RevenueAndExpensesPerBooksAmt>
+      </OtherIncomeDetail>
+    </OtherIncomeSchedule2>
+    <OtherIncreasesSchedule documentId="OtherIncreasesSch">
+      <OtherIncreasesDetail>
+        <Desc>ON 6/20/2024, 500 SHARES OF APPLE INC</Desc>
+        <Amt>0</Amt>
+      </OtherIncreasesDetail>
+      <OtherIncreasesDetail>
+        <Desc>COMMON STOCK WERE GIVEN TO UNIVERSITY OF</Desc>
+        <Amt>0</Amt>
+      </OtherIncreasesDetail>
+      <OtherIncreasesDetail>
+        <Desc>NEBRASKA-LINCOLN AS 2024 GRANTS;</Desc>
+        <Amt>0</Amt>
+      </OtherIncreasesDetail>
+      <OtherIncreasesDetail>
+        <Desc>.</Desc>
+        <Amt>0</Amt>
+      </OtherIncreasesDetail>
+      <OtherIncreasesDetail>
+        <Desc>COST BASIS FOR THESE SHARES DONATED BY</Desc>
+        <Amt>0</Amt>
+      </OtherIncreasesDetail>
+      <OtherIncreasesDetail>
+        <Desc>EARL AND PATRICIA SCUDDER WAS $18.5234</Desc>
+        <Amt>0</Amt>
+      </OtherIncreasesDetail>
+      <OtherIncreasesDetail>
+        <Desc>PER SHARE;</Desc>
+        <Amt>0</Amt>
+      </OtherIncreasesDetail>
+      <OtherIncreasesDetail>
+        <Desc>.</Desc>
+        <Amt>0</Amt>
+      </OtherIncreasesDetail>
+      <OtherIncreasesDetail>
+        <Desc>FAIR MARKET VALUE PER SHARE OF $211.545</Desc>
+        <Amt>0</Amt>
+      </OtherIncreasesDetail>
+      <OtherIncreasesDetail>
+        <Desc>IS THE AVERAGE OF THE HIGH &amp; LOW PRICES</Desc>
+        <Amt>0</Amt>
+      </OtherIncreasesDetail>
+      <OtherIncreasesDetail>
+        <Desc>FOR SHARES ON THE 6/20/2024 DISTRIBUTION</Desc>
+        <Amt>0</Amt>
+      </OtherIncreasesDetail>
+      <OtherIncreasesDetail>
+        <Desc>DATE;</Desc>
+        <Amt>0</Amt>
+      </OtherIncreasesDetail>
+      <OtherIncreasesDetail>
+        <Desc>.</Desc>
+        <Amt>0</Amt>
+      </OtherIncreasesDetail>
+      <OtherIncreasesDetail>
+        <Desc>FAIR MARKET VALUE $211.545 LESS COST</Desc>
+        <Amt>0</Amt>
+      </OtherIncreasesDetail>
+      <OtherIncreasesDetail>
+        <Desc>$18.5234 = $193.02160 PER SHARE X 500</Desc>
+        <Amt>0</Amt>
+      </OtherIncreasesDetail>
+      <OtherIncreasesDetail>
+        <Desc>SHARES</Desc>
+        <Amt>96511</Amt>
+      </OtherIncreasesDetail>
+      <OtherIncreasesDetail>
+        <Desc>.</Desc>
+        <Amt>0</Amt>
+      </OtherIncreasesDetail>
+      <OtherIncreasesDetail>
+        <Desc>ON 7/23/2024, 330 SHARES OF CHEVRON CORP</Desc>
+        <Amt>0</Amt>
+      </OtherIncreasesDetail>
+      <OtherIncreasesDetail>
+        <Desc>COMMON STOCK WERE GIVEN TO UNIVERSITY OF</Desc>
+        <Amt>0</Amt>
+      </OtherIncreasesDetail>
+      <OtherIncreasesDetail>
+        <Desc>NEBRASKA-LINCOLN AS 2024 GRANTS;</Desc>
+        <Amt>0</Amt>
+      </OtherIncreasesDetail>
+      <OtherIncreasesDetail>
+        <Desc>.</Desc>
+        <Amt>0</Amt>
+      </OtherIncreasesDetail>
+      <OtherIncreasesDetail>
+        <Desc>COST BASIS FOR THESE SHARES DONATED BY</Desc>
+        <Amt>0</Amt>
+      </OtherIncreasesDetail>
+      <OtherIncreasesDetail>
+        <Desc>EARL AND PATRICIA SCUDDER WAS $141.37</Desc>
+        <Amt>0</Amt>
+      </OtherIncreasesDetail>
+      <OtherIncreasesDetail>
+        <Desc>PER SHARE;</Desc>
+        <Amt>0</Amt>
+      </OtherIncreasesDetail>
+      <OtherIncreasesDetail>
+        <Desc>.</Desc>
+        <Amt>0</Amt>
+      </OtherIncreasesDetail>
+      <OtherIncreasesDetail>
+        <Desc>FAIR MARKET VALUE PER SHARE OF $155.220</Desc>
+        <Amt>0</Amt>
+      </OtherIncreasesDetail>
+      <OtherIncreasesDetail>
+        <Desc>IS THE AVERAGE OF THE HIGH &amp; LOW PRICES</Desc>
+        <Amt>0</Amt>
+      </OtherIncreasesDetail>
+      <OtherIncreasesDetail>
+        <Desc>FOR SHARES ON THE 7/23/2024 DISTRIBUTION</Desc>
+        <Amt>0</Amt>
+      </OtherIncreasesDetail>
+      <OtherIncreasesDetail>
+        <Desc>DATE;</Desc>
+        <Amt>0</Amt>
+      </OtherIncreasesDetail>
+      <OtherIncreasesDetail>
+        <Desc>.</Desc>
+        <Amt>0</Amt>
+      </OtherIncreasesDetail>
+      <OtherIncreasesDetail>
+        <Desc>FAIR MARKET VALUE $155.220 LESS COST</Desc>
+        <Amt>0</Amt>
+      </OtherIncreasesDetail>
+      <OtherIncreasesDetail>
+        <Desc>$141.37 = $13.85 PER SHARE X 330 SHARES</Desc>
+        <Amt>4571</Amt>
+      </OtherIncreasesDetail>
+    </OtherIncreasesSchedule>
+    <TaxesSchedule documentId="TaxesSchedule">
+      <TaxesDetail>
+        <CategoryTxt>FEDERAL TAX PAYMENT</CategoryTxt>
+        <Amt>56</Amt>
+      </TaxesDetail>
+    </TaxesSchedule>
+  </ReturnData>
+</Return>

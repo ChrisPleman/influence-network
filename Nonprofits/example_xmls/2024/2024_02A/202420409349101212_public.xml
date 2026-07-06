@@ -1,0 +1,2201 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Return xmlns="http://www.irs.gov/efile" xsi:schemaLocation="http://www.irs.gov/efile" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" returnVersion="2022v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2024-02-09T16:00:18-06:00</ReturnTs>
+    <TaxPeriodEndDt>2023-09-30</TaxPeriodEndDt>
+    <PreparerFirmGrp>
+      <PreparerFirmEIN>920460586</PreparerFirmEIN>
+      <PreparerFirmName>
+        <BusinessNameLine1Txt>PWC US TAX LLP</BusinessNameLine1Txt>
+      </PreparerFirmName>
+      <PreparerUSAddress>
+        <AddressLine1Txt>301 GRANT STREET 45TH FLOOR</AddressLine1Txt>
+        <CityNm>PITTSBURGH</CityNm>
+        <StateAbbreviationCd>PA</StateAbbreviationCd>
+        <ZIPCd>15219</ZIPCd>
+      </PreparerUSAddress>
+    </PreparerFirmGrp>
+    <ReturnTypeCd>990PF</ReturnTypeCd>
+    <TaxPeriodBeginDt>2022-10-01</TaxPeriodBeginDt>
+    <Filer>
+      <EIN>236215693</EIN>
+      <BusinessName>
+        <BusinessNameLine1Txt>THOMAS EST HARVEY STUDENT AID TW</BusinessNameLine1Txt>
+      </BusinessName>
+      <BusinessNameControlTxt>THOM</BusinessNameControlTxt>
+      <PhoneNum>8552416645</PhoneNum>
+      <USAddress>
+        <AddressLine1Txt>6325 S RAINBOW BLVD STE 300</AddressLine1Txt>
+        <CityNm>LAS VEGAS</CityNm>
+        <StateAbbreviationCd>NV</StateAbbreviationCd>
+        <ZIPCd>89118</ZIPCd>
+      </USAddress>
+    </Filer>
+    <BusinessOfficerGrp>
+      <PersonNm>-</PersonNm>
+      <PersonTitleTxt>TRUSTEE</PersonTitleTxt>
+      <PhoneNum>8552416645</PhoneNum>
+      <SignatureDt>2024-02-01</SignatureDt>
+      <DiscussWithPaidPreparerInd>true</DiscussWithPaidPreparerInd>
+    </BusinessOfficerGrp>
+    <IRSResponsiblePrtyInfoCurrInd>true</IRSResponsiblePrtyInfoCurrInd>
+    <PreparerPersonGrp>
+      <PreparerPersonNm>LAURA B STROBEL</PreparerPersonNm>
+      <PTIN>P01271955</PTIN>
+      <PhoneNum>4123556000</PhoneNum>
+      <PreparationDt>2024-02-01</PreparationDt>
+      <SelfEmployedInd>X</SelfEmployedInd>
+    </PreparerPersonGrp>
+    <AdditionalFilerInformation>
+      <TrustedCustomerGrp />
+    </AdditionalFilerInformation>
+    <TaxYr>2022</TaxYr>
+    <BuildTS>2023-04-26 12:10:37Z</BuildTS>
+  </ReturnHeader>
+  <ReturnData documentCnt="9">
+    <IRS990PF documentId="IRS990PF">
+      <Organization501c3ExemptPFInd>X</Organization501c3ExemptPFInd>
+      <FMVAssetsEOYAmt>847435</FMVAssetsEOYAmt>
+      <AnalysisOfRevenueAndExpenses>
+        <ScheduleBNotRequiredInd>X</ScheduleBNotRequiredInd>
+        <DividendsRevAndExpnssAmt>29087</DividendsRevAndExpnssAmt>
+        <DividendsNetInvstIncmAmt>29087</DividendsNetInvstIncmAmt>
+        <NetGainSaleAstRevAndExpnssAmt>-5890</NetGainSaleAstRevAndExpnssAmt>
+        <GrossSalesPriceAmt>300493</GrossSalesPriceAmt>
+        <CapGainNetIncmNetInvstIncmAmt>0</CapGainNetIncmNetInvstIncmAmt>
+        <NetSTCapitalGainAdjNetIncmAmt>0</NetSTCapitalGainAdjNetIncmAmt>
+        <OtherIncomeRevAndExpnssAmt referenceDocumentId="OtherIncomeSchedule2">76</OtherIncomeRevAndExpnssAmt>
+        <TotalRevAndExpnssAmt>23273</TotalRevAndExpnssAmt>
+        <TotalNetInvstIncmAmt>29087</TotalNetInvstIncmAmt>
+        <CompOfcrDirTrstRevAndExpnssAmt>15940</CompOfcrDirTrstRevAndExpnssAmt>
+        <CompOfcrDirTrstNetInvstIncmAmt>11955</CompOfcrDirTrstNetInvstIncmAmt>
+        <CompOfcrDirTrstDsbrsChrtblAmt>3985</CompOfcrDirTrstDsbrsChrtblAmt>
+        <OthEmplSlrsWgsNetInvstIncmAmt>0</OthEmplSlrsWgsNetInvstIncmAmt>
+        <OthEmplSlrsWgsAdjNetIncmAmt>0</OthEmplSlrsWgsAdjNetIncmAmt>
+        <OthEmplSlrsWgsDsbrsChrtblAmt>0</OthEmplSlrsWgsDsbrsChrtblAmt>
+        <PensionEmplBnftNetInvstIncmAmt>0</PensionEmplBnftNetInvstIncmAmt>
+        <PensionEmplBnftAdjNetIncmAmt>0</PensionEmplBnftAdjNetIncmAmt>
+        <LegalFeesDsbrsChrtblAmt>0</LegalFeesDsbrsChrtblAmt>
+        <AccountingFeesRevAndExpnssAmt referenceDocumentId="AccountingFeesSchedule">1092</AccountingFeesRevAndExpnssAmt>
+        <AccountingFeesNetInvstIncmAmt>0</AccountingFeesNetInvstIncmAmt>
+        <AccountingFeesAdjNetIncmAmt>0</AccountingFeesAdjNetIncmAmt>
+        <AccountingFeesChrtblPrpsAmt>1092</AccountingFeesChrtblPrpsAmt>
+        <OtherProfFeesRevAndExpnssAmt referenceDocumentId="OtherProfessionalFeesSchedule">18720</OtherProfFeesRevAndExpnssAmt>
+        <OtherProfFeesDsbrsChrtblAmt>18720</OtherProfFeesDsbrsChrtblAmt>
+        <InterestDsbrsChrtblAmt>0</InterestDsbrsChrtblAmt>
+        <TaxesRevAndExpnssAmt referenceDocumentId="TaxesSchedule">386</TaxesRevAndExpnssAmt>
+        <TaxesNetInvstIncmAmt>86</TaxesNetInvstIncmAmt>
+        <TaxesDsbrsChrtblAmt>0</TaxesDsbrsChrtblAmt>
+        <DeprecAndDpltnRevAndExpnssAmt>0</DeprecAndDpltnRevAndExpnssAmt>
+        <DeprecAndDpltnNetInvstIncmAmt>0</DeprecAndDpltnNetInvstIncmAmt>
+        <TravConfMeetingNetInvstIncmAmt>0</TravConfMeetingNetInvstIncmAmt>
+        <TravConfMeetingAdjNetIncmAmt>0</TravConfMeetingAdjNetIncmAmt>
+        <PrintingAndPubNetInvstIncmAmt>0</PrintingAndPubNetInvstIncmAmt>
+        <PrintingAndPubAdjNetIncmAmt>0</PrintingAndPubAdjNetIncmAmt>
+        <TotOprExpensesRevAndExpnssAmt>36138</TotOprExpensesRevAndExpnssAmt>
+        <TotOprExpensesNetInvstIncmAmt>12041</TotOprExpensesNetInvstIncmAmt>
+        <TotOprExpensesAdjNetIncmAmt>0</TotOprExpensesAdjNetIncmAmt>
+        <TotOprExpensesDsbrsChrtblAmt>23797</TotOprExpensesDsbrsChrtblAmt>
+        <ContriPaidRevAndExpnssAmt>208000</ContriPaidRevAndExpnssAmt>
+        <ContriPaidDsbrsChrtblAmt>208000</ContriPaidDsbrsChrtblAmt>
+        <TotalExpensesRevAndExpnssAmt>244138</TotalExpensesRevAndExpnssAmt>
+        <TotalExpensesNetInvstIncmAmt>12041</TotalExpensesNetInvstIncmAmt>
+        <TotalExpensesAdjNetIncmAmt>0</TotalExpensesAdjNetIncmAmt>
+        <TotalExpensesDsbrsChrtblAmt>231797</TotalExpensesDsbrsChrtblAmt>
+        <ExcessRevenueOverExpensesAmt>-220865</ExcessRevenueOverExpensesAmt>
+        <NetInvestmentIncomeAmt>17046</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+      </AnalysisOfRevenueAndExpenses>
+      <Form990PFBalanceSheetsGrp>
+        <SavAndTempCashInvstBOYAmt>51815</SavAndTempCashInvstBOYAmt>
+        <SavAndTempCashInvstEOYAmt>65065</SavAndTempCashInvstEOYAmt>
+        <SavAndTempCashInvstEOYFMVAmt>65065</SavAndTempCashInvstEOYFMVAmt>
+        <AcctRcvblEOYAmt>0</AcctRcvblEOYAmt>
+        <AcctRcvblEOYFMVAmt>0</AcctRcvblEOYFMVAmt>
+        <OtherNtsAndLoansRcvblAmt>67929</OtherNtsAndLoansRcvblAmt>
+        <OtherRcvblAllwncDbtflAcctAmt>0</OtherRcvblAllwncDbtflAcctAmt>
+        <OtherNtsAndLoansRcvblBOYAmt>126877</OtherNtsAndLoansRcvblBOYAmt>
+        <OtherNtsAndLoansRcvblEOYAmt referenceDocumentId="OtherNotesLoansRecLongSch">67929</OtherNtsAndLoansRcvblEOYAmt>
+        <OtherNtsAndLoansRcvblEOYFMVAmt>67929</OtherNtsAndLoansRcvblEOYFMVAmt>
+        <OtherInvestmentsEOYFMVAmt>0</OtherInvestmentsEOYFMVAmt>
+        <OtherAssetsBOYAmt referenceDocumentId="OtherAssetsSchedule">859486</OtherAssetsBOYAmt>
+        <OtherAssetsEOYAmt referenceDocumentId="OtherAssetsSchedule">678285</OtherAssetsEOYAmt>
+        <OtherAssetsEOYFMVAmt referenceDocumentId="OtherAssetsSchedule">714441</OtherAssetsEOYFMVAmt>
+        <TotalAssetsBOYAmt>1038178</TotalAssetsBOYAmt>
+        <TotalAssetsEOYAmt>811279</TotalAssetsEOYAmt>
+        <TotalAssetsEOYFMVAmt>847435</TotalAssetsEOYFMVAmt>
+        <TotalLiabilitiesEOYAmt>0</TotalLiabilitiesEOYAmt>
+        <OrgDoesNotFollowFASB117Ind>X</OrgDoesNotFollowFASB117Ind>
+        <CapitalStockBOYAmt>1038178</CapitalStockBOYAmt>
+        <CapitalStockEOYAmt>811279</CapitalStockEOYAmt>
+        <TotNetAstOrFundBalancesBOYAmt>1038178</TotNetAstOrFundBalancesBOYAmt>
+        <TotNetAstOrFundBalancesEOYAmt>811279</TotNetAstOrFundBalancesEOYAmt>
+        <TotalLiabilitiesNetAstBOYAmt>1038178</TotalLiabilitiesNetAstBOYAmt>
+        <TotalLiabilitiesNetAstEOYAmt>811279</TotalLiabilitiesNetAstEOYAmt>
+      </Form990PFBalanceSheetsGrp>
+      <ChgInNetAssetsFundBalancesGrp>
+        <TotNetAstOrFundBalancesBOYAmt>1038178</TotNetAstOrFundBalancesBOYAmt>
+        <ExcessRevenueOverExpensesAmt>-220865</ExcessRevenueOverExpensesAmt>
+        <OtherIncreasesAmt referenceDocumentId="OtherIncreasesSchedule">1500</OtherIncreasesAmt>
+        <SubtotalAmt>818813</SubtotalAmt>
+        <OtherDecreasesAmt referenceDocumentId="OtherDecreasesSchedule">7534</OtherDecreasesAmt>
+        <TotNetAstOrFundBalancesEOYAmt>811279</TotNetAstOrFundBalancesEOYAmt>
+      </ChgInNetAssetsFundBalancesGrp>
+      <CapGainsLossTxInvstIncmDetail>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>140. BAIRD AGGREGATE BOND FUND-INST 72</PropertyDesc>
+          <AcquiredDt>2021-10-20</AcquiredDt>
+          <SoldDt>2022-10-20</SoldDt>
+          <GrossSalesPriceAmt>1294</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>1593</CostOrOtherBasisAmt>
+          <GainOrLossAmt>-299</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>-299</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>53. FIDELITY NEW MRKTS INC-Z #3323</PropertyDesc>
+          <AcquiredDt>2022-01-24</AcquiredDt>
+          <SoldDt>2023-01-24</SoldDt>
+          <GrossSalesPriceAmt>633</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>732</CostOrOtherBasisAmt>
+          <GainOrLossAmt>-99</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>-99</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>34. ISHARES CORE MSCI EMERGING ETF</PropertyDesc>
+          <AcquiredDt>2021-02-25</AcquiredDt>
+          <SoldDt>2023-01-24</SoldDt>
+          <GrossSalesPriceAmt>1748</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>2252</CostOrOtherBasisAmt>
+          <GainOrLossAmt>-504</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>-504</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>40.029 T ROWE PR OVERSEAS STOCK-I #521</PropertyDesc>
+          <AcquiredDt>2022-01-24</AcquiredDt>
+          <SoldDt>2023-01-24</SoldDt>
+          <GrossSalesPriceAmt>474</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>516</CostOrOtherBasisAmt>
+          <GainOrLossAmt>-42</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>-42</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>110.971 T ROWE PR OVERSEAS STOCK-I #521</PropertyDesc>
+          <AcquiredDt>2021-07-28</AcquiredDt>
+          <SoldDt>2023-01-24</SoldDt>
+          <GrossSalesPriceAmt>1313</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>1463</CostOrOtherBasisAmt>
+          <GainOrLossAmt>-150</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>-150</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>210. TCW EMRG MRKTS INC-PLAN #5721</PropertyDesc>
+          <AcquiredDt>2022-01-24</AcquiredDt>
+          <SoldDt>2023-01-24</SoldDt>
+          <GrossSalesPriceAmt>1329</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>1571</CostOrOtherBasisAmt>
+          <GainOrLossAmt>-242</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>-242</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>6. VANGUARD MIDCAP VIPER</PropertyDesc>
+          <AcquiredDt>2021-10-20</AcquiredDt>
+          <SoldDt>2023-01-24</SoldDt>
+          <GrossSalesPriceAmt>1292</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>1506</CostOrOtherBasisAmt>
+          <GainOrLossAmt>-214</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>-214</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>30.55 DELAWARE SMALL CAP CORE-R6</PropertyDesc>
+          <AcquiredDt>2023-01-25</AcquiredDt>
+          <SoldDt>2023-05-11</SoldDt>
+          <GrossSalesPriceAmt>765</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>822</CostOrOtherBasisAmt>
+          <GainOrLossAmt>-57</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>-57</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>683.984 DELAWARE SMALL CAP CORE-R6</PropertyDesc>
+          <AcquiredDt>2022-04-26</AcquiredDt>
+          <SoldDt>2023-05-11</SoldDt>
+          <GrossSalesPriceAmt>17134</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>18810</CostOrOtherBasisAmt>
+          <GainOrLossAmt>-1676</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>-1676</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>20. GOLDMAN ACTIVEBETA US LC ETF</PropertyDesc>
+          <AcquiredDt>2021-10-20</AcquiredDt>
+          <SoldDt>2023-05-11</SoldDt>
+          <GrossSalesPriceAmt>1627</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>1785</CostOrOtherBasisAmt>
+          <GainOrLossAmt>-158</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>-158</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>32. ISHARES CORE S&amp;P TOTAL U.S. ETF</PropertyDesc>
+          <AcquiredDt>2021-10-20</AcquiredDt>
+          <SoldDt>2023-05-11</SoldDt>
+          <GrossSalesPriceAmt>2896</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>3317</CostOrOtherBasisAmt>
+          <GainOrLossAmt>-421</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>-421</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>23. JENSEN QUALITY GROWTH-Y #6299</PropertyDesc>
+          <AcquiredDt>2022-01-24</AcquiredDt>
+          <SoldDt>2023-05-11</SoldDt>
+          <GrossSalesPriceAmt>1331</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>1390</CostOrOtherBasisAmt>
+          <GainOrLossAmt>-59</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>-59</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>14.805 TOUCHSTONE MID CAP-R6 #355</PropertyDesc>
+          <AcquiredDt>2023-01-25</AcquiredDt>
+          <SoldDt>2023-05-11</SoldDt>
+          <GrossSalesPriceAmt>666</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>661</CostOrOtherBasisAmt>
+          <GainOrLossAmt>5</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>5</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>198.195 TOUCHSTONE MID CAP-R6 #355</PropertyDesc>
+          <AcquiredDt>2020-02-13</AcquiredDt>
+          <SoldDt>2023-05-11</SoldDt>
+          <GrossSalesPriceAmt>8921</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>8414</CostOrOtherBasisAmt>
+          <GainOrLossAmt>507</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>507</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>13. VANGUARD MIDCAP VIPER</PropertyDesc>
+          <AcquiredDt>2022-10-20</AcquiredDt>
+          <SoldDt>2023-05-11</SoldDt>
+          <GrossSalesPriceAmt>2667</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>2497</CostOrOtherBasisAmt>
+          <GainOrLossAmt>170</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>170</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>289. VANGUARD MIDCAP VIPER</PropertyDesc>
+          <AcquiredDt>2020-06-12</AcquiredDt>
+          <SoldDt>2023-05-11</SoldDt>
+          <GrossSalesPriceAmt>59294</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>69345</CostOrOtherBasisAmt>
+          <GainOrLossAmt>-10051</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>-10051</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>113. BAIRD AGGREGATE BOND FUND-INST 72</PropertyDesc>
+          <AcquiredDt>2021-10-20</AcquiredDt>
+          <SoldDt>2023-07-19</SoldDt>
+          <GrossSalesPriceAmt>1102</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>1286</CostOrOtherBasisAmt>
+          <GainOrLossAmt>-184</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>-184</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>14. DODGE &amp; COX STOCK FUND #145</PropertyDesc>
+          <AcquiredDt>2021-07-28</AcquiredDt>
+          <SoldDt>2023-07-19</SoldDt>
+          <GrossSalesPriceAmt>3314</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>3321</CostOrOtherBasisAmt>
+          <GainOrLossAmt>-7</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>-7</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>86. FIDELITY NEW MRKTS INC-Z #3323</PropertyDesc>
+          <AcquiredDt>2015-10-21</AcquiredDt>
+          <SoldDt>2023-07-19</SoldDt>
+          <GrossSalesPriceAmt>1017</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>1299</CostOrOtherBasisAmt>
+          <GainOrLossAmt>-282</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>-282</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>8. GOLDMAN ACTIVEBETA US LC ETF</PropertyDesc>
+          <AcquiredDt>2022-08-09</AcquiredDt>
+          <SoldDt>2023-07-19</SoldDt>
+          <GrossSalesPriceAmt>715</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>653</CostOrOtherBasisAmt>
+          <GainOrLossAmt>62</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>62</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>14. GOLDMAN ACTIVEBETA US LC ETF</PropertyDesc>
+          <AcquiredDt>2023-01-24</AcquiredDt>
+          <SoldDt>2023-07-19</SoldDt>
+          <GrossSalesPriceAmt>1252</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>1110</CostOrOtherBasisAmt>
+          <GainOrLossAmt>142</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>142</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>61. GOLDMAN ACTIVEBETA US LC ETF</PropertyDesc>
+          <AcquiredDt>2019-08-07</AcquiredDt>
+          <SoldDt>2023-07-19</SoldDt>
+          <GrossSalesPriceAmt>5455</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>3711</CostOrOtherBasisAmt>
+          <GainOrLossAmt>1744</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>1744</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>96. GLDMN SCHS GQP PRT INTL-R6 #4946</PropertyDesc>
+          <AcquiredDt>2023-05-12</AcquiredDt>
+          <SoldDt>2023-07-19</SoldDt>
+          <GrossSalesPriceAmt>1787</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>1712</CostOrOtherBasisAmt>
+          <GainOrLossAmt>75</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>75</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>230. ISHARES CORE S&amp;P TOTAL U.S. ETF</PropertyDesc>
+          <AcquiredDt>2021-02-25</AcquiredDt>
+          <SoldDt>2023-07-19</SoldDt>
+          <GrossSalesPriceAmt>23171</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>21542</CostOrOtherBasisAmt>
+          <GainOrLossAmt>1629</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>1629</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>22. ISHARES CORE MSCI EMERGING ETF</PropertyDesc>
+          <AcquiredDt>2021-03-26</AcquiredDt>
+          <SoldDt>2023-07-19</SoldDt>
+          <GrossSalesPriceAmt>1114</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>1399</CostOrOtherBasisAmt>
+          <GainOrLossAmt>-285</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>-285</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>71. JENSEN QUALITY GROWTH-Y #6299</PropertyDesc>
+          <AcquiredDt>2022-04-26</AcquiredDt>
+          <SoldDt>2023-07-19</SoldDt>
+          <GrossSalesPriceAmt>4337</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>4163</CostOrOtherBasisAmt>
+          <GainOrLossAmt>174</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>174</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>76. PIMCO COMMODITY REAL RET STRAT-I45</PropertyDesc>
+          <AcquiredDt>2022-08-10</AcquiredDt>
+          <SoldDt>2023-07-19</SoldDt>
+          <GrossSalesPriceAmt>1018</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>1489</CostOrOtherBasisAmt>
+          <GainOrLossAmt>-471</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>-471</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>219. PGIM HIGH YIELD-Q 1067</PropertyDesc>
+          <AcquiredDt>2020-05-07</AcquiredDt>
+          <SoldDt>2023-07-19</SoldDt>
+          <GrossSalesPriceAmt>1018</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>1077</CostOrOtherBasisAmt>
+          <GainOrLossAmt>-59</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>-59</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>249. T ROWE PR OVERSEAS STOCK-I #521</PropertyDesc>
+          <AcquiredDt>2021-07-28</AcquiredDt>
+          <SoldDt>2023-07-19</SoldDt>
+          <GrossSalesPriceAmt>3110</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>3282</CostOrOtherBasisAmt>
+          <GainOrLossAmt>-172</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>-172</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>215. TCW EMRG MRKTS INC-PLAN #5721</PropertyDesc>
+          <AcquiredDt>2019-07-08</AcquiredDt>
+          <SoldDt>2023-07-19</SoldDt>
+          <GrossSalesPriceAmt>1337</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>1826</CostOrOtherBasisAmt>
+          <GainOrLossAmt>-489</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>-489</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>100. TOUCHSTONE MID CAP-R6 #355</PropertyDesc>
+          <AcquiredDt>2020-02-13</AcquiredDt>
+          <SoldDt>2023-07-19</SoldDt>
+          <GrossSalesPriceAmt>4968</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>3968</CostOrOtherBasisAmt>
+          <GainOrLossAmt>1000</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>1000</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>24. VANGUARD MIDCAP VIPER</PropertyDesc>
+          <AcquiredDt>2020-06-12</AcquiredDt>
+          <SoldDt>2023-07-19</SoldDt>
+          <GrossSalesPriceAmt>5467</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>3852</CostOrOtherBasisAmt>
+          <GainOrLossAmt>1615</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>1615</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>2193.795 BAIRD AGGREGATE BOND FUND-INST 72</PropertyDesc>
+          <AcquiredDt>2021-10-20</AcquiredDt>
+          <SoldDt>2023-09-21</SoldDt>
+          <GrossSalesPriceAmt>20578</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>24965</CostOrOtherBasisAmt>
+          <GainOrLossAmt>-4387</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>-4387</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>1108.205 BAIRD AGGREGATE BOND FUND-INST 72</PropertyDesc>
+          <AcquiredDt>2021-10-20</AcquiredDt>
+          <SoldDt>2023-09-21</SoldDt>
+          <GrossSalesPriceAmt>10395</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>12611</CostOrOtherBasisAmt>
+          <GainOrLossAmt>-2216</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>-2216</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>16.92763 DODGE &amp; COX STOCK FUND #145</PropertyDesc>
+          <AcquiredDt>2021-07-28</AcquiredDt>
+          <SoldDt>2023-09-21</SoldDt>
+          <GrossSalesPriceAmt>3876</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>4016</CostOrOtherBasisAmt>
+          <GainOrLossAmt>-140</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>-140</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>7.07237 DODGE &amp; COX STOCK FUND #145</PropertyDesc>
+          <AcquiredDt>2021-07-28</AcquiredDt>
+          <SoldDt>2023-09-21</SoldDt>
+          <GrossSalesPriceAmt>1620</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>1678</CostOrOtherBasisAmt>
+          <GainOrLossAmt>-58</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>-58</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>173.30842 FIDELITY NEW MRKTS INC-Z #3323</PropertyDesc>
+          <AcquiredDt>2015-12-04</AcquiredDt>
+          <SoldDt>2023-09-21</SoldDt>
+          <GrossSalesPriceAmt>1986</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>2561</CostOrOtherBasisAmt>
+          <GainOrLossAmt>-575</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>-575</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>127.69158 FIDELITY NEW MRKTS INC-Z #3323</PropertyDesc>
+          <AcquiredDt>2015-10-21</AcquiredDt>
+          <SoldDt>2023-09-21</SoldDt>
+          <GrossSalesPriceAmt>1463</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>1900</CostOrOtherBasisAmt>
+          <GainOrLossAmt>-437</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>-437</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>15. GOLDMAN ACTIVEBETA US LC ETF</PropertyDesc>
+          <AcquiredDt>2022-10-20</AcquiredDt>
+          <SoldDt>2023-09-21</SoldDt>
+          <GrossSalesPriceAmt>1283</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>1098</CostOrOtherBasisAmt>
+          <GainOrLossAmt>185</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>185</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>123. GOLDMAN ACTIVEBETA US LC ETF</PropertyDesc>
+          <AcquiredDt>2019-08-07</AcquiredDt>
+          <SoldDt>2023-09-21</SoldDt>
+          <GrossSalesPriceAmt>10523</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>7095</CostOrOtherBasisAmt>
+          <GainOrLossAmt>3428</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>3428</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>296. GLDMN SCHS GQP PRT INTL-R6 #4946</PropertyDesc>
+          <AcquiredDt>2023-05-12</AcquiredDt>
+          <SoldDt>2023-09-21</SoldDt>
+          <GrossSalesPriceAmt>5331</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>5278</CostOrOtherBasisAmt>
+          <GainOrLossAmt>53</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>53</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>76. ISHARES CORE S&amp;P TOTAL U.S. ETF</PropertyDesc>
+          <AcquiredDt>2022-10-20</AcquiredDt>
+          <SoldDt>2023-09-21</SoldDt>
+          <GrossSalesPriceAmt>7282</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>6432</CostOrOtherBasisAmt>
+          <GainOrLossAmt>850</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>850</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>245. ISHARES CORE S&amp;P TOTAL U.S. ETF</PropertyDesc>
+          <AcquiredDt>2019-08-07</AcquiredDt>
+          <SoldDt>2023-09-21</SoldDt>
+          <GrossSalesPriceAmt>23473</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>18403</CostOrOtherBasisAmt>
+          <GainOrLossAmt>5070</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>5070</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>45.00024 ISHARES CORE MSCI EMERGING ETF</PropertyDesc>
+          <AcquiredDt>2021-03-26</AcquiredDt>
+          <SoldDt>2023-09-21</SoldDt>
+          <GrossSalesPriceAmt>2152</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>2861</CostOrOtherBasisAmt>
+          <GainOrLossAmt>-709</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>-709</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>19.99976 ISHARES CORE MSCI EMERGING ETF</PropertyDesc>
+          <AcquiredDt>2021-03-26</AcquiredDt>
+          <SoldDt>2023-09-21</SoldDt>
+          <GrossSalesPriceAmt>956</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>1271</CostOrOtherBasisAmt>
+          <GainOrLossAmt>-315</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>-315</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>128.56498 JENSEN QUALITY GROWTH-Y #6299</PropertyDesc>
+          <AcquiredDt>2022-04-26</AcquiredDt>
+          <SoldDt>2023-09-21</SoldDt>
+          <GrossSalesPriceAmt>7515</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>7539</CostOrOtherBasisAmt>
+          <GainOrLossAmt>-24</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>-24</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>46.43502 JENSEN QUALITY GROWTH-Y #6299</PropertyDesc>
+          <AcquiredDt>2022-04-26</AcquiredDt>
+          <SoldDt>2023-09-21</SoldDt>
+          <GrossSalesPriceAmt>2714</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>2723</CostOrOtherBasisAmt>
+          <GainOrLossAmt>-9</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>-9</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>988.6458 PIMCO TOTAL RET FD-INST #35</PropertyDesc>
+          <AcquiredDt>2019-12-06</AcquiredDt>
+          <SoldDt>2023-09-21</SoldDt>
+          <GrossSalesPriceAmt>8146</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>10286</CostOrOtherBasisAmt>
+          <GainOrLossAmt>-2140</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>-2140</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>513.3542 PIMCO TOTAL RET FD-INST #35</PropertyDesc>
+          <AcquiredDt>2019-12-06</AcquiredDt>
+          <SoldDt>2023-09-21</SoldDt>
+          <GrossSalesPriceAmt>4230</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>5349</CostOrOtherBasisAmt>
+          <GainOrLossAmt>-1119</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>-1119</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>491.26754 PIMCO COMMODITY REAL RET STRAT-I45</PropertyDesc>
+          <AcquiredDt>2022-08-10</AcquiredDt>
+          <SoldDt>2023-09-21</SoldDt>
+          <GrossSalesPriceAmt>6681</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>9624</CostOrOtherBasisAmt>
+          <GainOrLossAmt>-2943</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>-2943</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>169.73246 PIMCO COMMODITY REAL RET STRAT-I45</PropertyDesc>
+          <AcquiredDt>2022-08-10</AcquiredDt>
+          <SoldDt>2023-09-21</SoldDt>
+          <GrossSalesPriceAmt>2308</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>3325</CostOrOtherBasisAmt>
+          <GainOrLossAmt>-1017</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>-1017</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>66. PIMCO ENHANCED SHORT MATURITY ETF</PropertyDesc>
+          <AcquiredDt>2023-05-11</AcquiredDt>
+          <SoldDt>2023-09-21</SoldDt>
+          <GrossSalesPriceAmt>6599</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>6555</CostOrOtherBasisAmt>
+          <GainOrLossAmt>44</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>44</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>775.5 PGIM HIGH YIELD-Q 1067</PropertyDesc>
+          <AcquiredDt>2020-05-07</AcquiredDt>
+          <SoldDt>2023-09-21</SoldDt>
+          <GrossSalesPriceAmt>3536</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>3815</CostOrOtherBasisAmt>
+          <GainOrLossAmt>-279</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>-279</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>371.5 PGIM HIGH YIELD-Q 1067</PropertyDesc>
+          <AcquiredDt>2020-05-07</AcquiredDt>
+          <SoldDt>2023-09-21</SoldDt>
+          <GrossSalesPriceAmt>1694</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>1828</CostOrOtherBasisAmt>
+          <GainOrLossAmt>-134</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>-134</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>479.02158 T ROWE PR OVERSEAS STOCK-I #521</PropertyDesc>
+          <AcquiredDt>2021-07-28</AcquiredDt>
+          <SoldDt>2023-09-21</SoldDt>
+          <GrossSalesPriceAmt>5648</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>6314</CostOrOtherBasisAmt>
+          <GainOrLossAmt>-666</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>-666</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>320.97842 T ROWE PR OVERSEAS STOCK-I #521</PropertyDesc>
+          <AcquiredDt>2021-07-28</AcquiredDt>
+          <SoldDt>2023-09-21</SoldDt>
+          <GrossSalesPriceAmt>3784</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>4230</CostOrOtherBasisAmt>
+          <GainOrLossAmt>-446</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>-446</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>682.99132 TCW EMRG MRKTS INC-PLAN #5721</PropertyDesc>
+          <AcquiredDt>2018-07-12</AcquiredDt>
+          <SoldDt>2023-09-21</SoldDt>
+          <GrossSalesPriceAmt>4091</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>5600</CostOrOtherBasisAmt>
+          <GainOrLossAmt>-1509</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>-1509</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>466.00868 TCW EMRG MRKTS INC-PLAN #5721</PropertyDesc>
+          <AcquiredDt>2018-07-12</AcquiredDt>
+          <SoldDt>2023-09-21</SoldDt>
+          <GrossSalesPriceAmt>2791</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>3728</CostOrOtherBasisAmt>
+          <GainOrLossAmt>-937</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>-937</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>139. TOUCHSTONE MID CAP-R6 #355</PropertyDesc>
+          <AcquiredDt>2020-05-07</AcquiredDt>
+          <SoldDt>2023-09-21</SoldDt>
+          <GrossSalesPriceAmt>6558</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>4734</CostOrOtherBasisAmt>
+          <GainOrLossAmt>1824</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>1824</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>18.00051 VANGUARD LONG-TERM BOND ETF</PropertyDesc>
+          <AcquiredDt>2023-01-24</AcquiredDt>
+          <SoldDt>2023-09-21</SoldDt>
+          <GrossSalesPriceAmt>1233</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>1386</CostOrOtherBasisAmt>
+          <GainOrLossAmt>-153</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>-153</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>23.99949 VANGUARD LONG-TERM BOND ETF</PropertyDesc>
+          <AcquiredDt>2023-01-24</AcquiredDt>
+          <SoldDt>2023-09-21</SoldDt>
+          <GrossSalesPriceAmt>1644</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>1847</CostOrOtherBasisAmt>
+          <GainOrLossAmt>-203</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>-203</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>34. VANGUARD MIDCAP VIPER</PropertyDesc>
+          <AcquiredDt>2020-06-12</AcquiredDt>
+          <SoldDt>2023-09-21</SoldDt>
+          <GrossSalesPriceAmt>7158</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>5457</CostOrOtherBasisAmt>
+          <GainOrLossAmt>1701</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>1701</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>CAPITAL GAIN DIVIDENDS</PropertyDesc>
+          <HowAcquiredCd>P</HowAcquiredCd>
+          <GainOrLossAmt>3278</GainOrLossAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>CAPITAL GAIN DIVIDENDS</PropertyDesc>
+          <HowAcquiredCd>P</HowAcquiredCd>
+          <GainOrLossAmt>3278</GainOrLossAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>CAPITAL GAIN DIVIDENDS</PropertyDesc>
+          <HowAcquiredCd>P</HowAcquiredCd>
+          <GainOrLossAmt>3278</GainOrLossAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>CAPITAL GAIN DIVIDENDS</PropertyDesc>
+          <HowAcquiredCd>P</HowAcquiredCd>
+          <GainOrLossAmt>3278</GainOrLossAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>CAPITAL GAIN DIVIDENDS</PropertyDesc>
+          <HowAcquiredCd>P</HowAcquiredCd>
+          <GainOrLossAmt>3278</GainOrLossAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>CAPITAL GAIN DIVIDENDS</PropertyDesc>
+          <HowAcquiredCd>P</HowAcquiredCd>
+          <GainOrLossAmt>3278</GainOrLossAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>CAPITAL GAIN DIVIDENDS</PropertyDesc>
+          <HowAcquiredCd>P</HowAcquiredCd>
+          <GainOrLossAmt>3278</GainOrLossAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>CAPITAL GAIN DIVIDENDS</PropertyDesc>
+          <HowAcquiredCd>P</HowAcquiredCd>
+          <GainOrLossAmt>3278</GainOrLossAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>CAPITAL GAIN DIVIDENDS</PropertyDesc>
+          <HowAcquiredCd>P</HowAcquiredCd>
+          <GainOrLossAmt>3278</GainOrLossAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>CAPITAL GAIN DIVIDENDS</PropertyDesc>
+          <HowAcquiredCd>P</HowAcquiredCd>
+          <GainOrLossAmt>3278</GainOrLossAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>CAPITAL GAIN DIVIDENDS</PropertyDesc>
+          <HowAcquiredCd>P</HowAcquiredCd>
+          <GainOrLossAmt>3278</GainOrLossAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>CAPITAL GAIN DIVIDENDS</PropertyDesc>
+          <HowAcquiredCd>P</HowAcquiredCd>
+          <GainOrLossAmt>3278</GainOrLossAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>CAPITAL GAIN DIVIDENDS</PropertyDesc>
+          <HowAcquiredCd>P</HowAcquiredCd>
+          <GainOrLossAmt>3278</GainOrLossAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>CAPITAL GAIN DIVIDENDS</PropertyDesc>
+          <HowAcquiredCd>P</HowAcquiredCd>
+          <GainOrLossAmt>3278</GainOrLossAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>CAPITAL GAIN DIVIDENDS</PropertyDesc>
+          <HowAcquiredCd>P</HowAcquiredCd>
+          <GainOrLossAmt>3278</GainOrLossAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>CAPITAL GAIN DIVIDENDS</PropertyDesc>
+          <HowAcquiredCd>P</HowAcquiredCd>
+          <GainOrLossAmt>3278</GainOrLossAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>CAPITAL GAIN DIVIDENDS</PropertyDesc>
+          <HowAcquiredCd>P</HowAcquiredCd>
+          <GainOrLossAmt>3278</GainOrLossAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>CAPITAL GAIN DIVIDENDS</PropertyDesc>
+          <HowAcquiredCd>P</HowAcquiredCd>
+          <GainOrLossAmt>3278</GainOrLossAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>CAPITAL GAIN DIVIDENDS</PropertyDesc>
+          <HowAcquiredCd>P</HowAcquiredCd>
+          <GainOrLossAmt>3278</GainOrLossAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>CAPITAL GAIN DIVIDENDS</PropertyDesc>
+          <HowAcquiredCd>P</HowAcquiredCd>
+          <GainOrLossAmt>3278</GainOrLossAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>CAPITAL GAIN DIVIDENDS</PropertyDesc>
+          <HowAcquiredCd>P</HowAcquiredCd>
+          <GainOrLossAmt>3278</GainOrLossAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>CAPITAL GAIN DIVIDENDS</PropertyDesc>
+          <HowAcquiredCd>P</HowAcquiredCd>
+          <GainOrLossAmt>3278</GainOrLossAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>CAPITAL GAIN DIVIDENDS</PropertyDesc>
+          <HowAcquiredCd>P</HowAcquiredCd>
+          <GainOrLossAmt>3278</GainOrLossAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>CAPITAL GAIN DIVIDENDS</PropertyDesc>
+          <HowAcquiredCd>P</HowAcquiredCd>
+          <GainOrLossAmt>3278</GainOrLossAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>CAPITAL GAIN DIVIDENDS</PropertyDesc>
+          <HowAcquiredCd>P</HowAcquiredCd>
+          <GainOrLossAmt>3278</GainOrLossAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>CAPITAL GAIN DIVIDENDS</PropertyDesc>
+          <HowAcquiredCd>P</HowAcquiredCd>
+          <GainOrLossAmt>3278</GainOrLossAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>CAPITAL GAIN DIVIDENDS</PropertyDesc>
+          <HowAcquiredCd>P</HowAcquiredCd>
+          <GainOrLossAmt>3278</GainOrLossAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>CAPITAL GAIN DIVIDENDS</PropertyDesc>
+          <HowAcquiredCd>P</HowAcquiredCd>
+          <GainOrLossAmt>3278</GainOrLossAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>CAPITAL GAIN DIVIDENDS</PropertyDesc>
+          <HowAcquiredCd>P</HowAcquiredCd>
+          <GainOrLossAmt>3278</GainOrLossAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>CAPITAL GAIN DIVIDENDS</PropertyDesc>
+          <HowAcquiredCd>P</HowAcquiredCd>
+          <GainOrLossAmt>3278</GainOrLossAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>CAPITAL GAIN DIVIDENDS</PropertyDesc>
+          <HowAcquiredCd>P</HowAcquiredCd>
+          <GainOrLossAmt>3278</GainOrLossAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>CAPITAL GAIN DIVIDENDS</PropertyDesc>
+          <HowAcquiredCd>P</HowAcquiredCd>
+          <GainOrLossAmt>3278</GainOrLossAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>CAPITAL GAIN DIVIDENDS</PropertyDesc>
+          <HowAcquiredCd>P</HowAcquiredCd>
+          <GainOrLossAmt>3278</GainOrLossAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>CAPITAL GAIN DIVIDENDS</PropertyDesc>
+          <HowAcquiredCd>P</HowAcquiredCd>
+          <GainOrLossAmt>3278</GainOrLossAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>CAPITAL GAIN DIVIDENDS</PropertyDesc>
+          <HowAcquiredCd>P</HowAcquiredCd>
+          <GainOrLossAmt>3278</GainOrLossAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>CAPITAL GAIN DIVIDENDS</PropertyDesc>
+          <HowAcquiredCd>P</HowAcquiredCd>
+          <GainOrLossAmt>3278</GainOrLossAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>CAPITAL GAIN DIVIDENDS</PropertyDesc>
+          <HowAcquiredCd>P</HowAcquiredCd>
+          <GainOrLossAmt>3278</GainOrLossAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>CAPITAL GAIN DIVIDENDS</PropertyDesc>
+          <HowAcquiredCd>P</HowAcquiredCd>
+          <GainOrLossAmt>3278</GainOrLossAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>CAPITAL GAIN DIVIDENDS</PropertyDesc>
+          <HowAcquiredCd>P</HowAcquiredCd>
+          <GainOrLossAmt>3278</GainOrLossAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>CAPITAL GAIN DIVIDENDS</PropertyDesc>
+          <HowAcquiredCd>P</HowAcquiredCd>
+          <GainOrLossAmt>3278</GainOrLossAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>CAPITAL GAIN DIVIDENDS</PropertyDesc>
+          <HowAcquiredCd>P</HowAcquiredCd>
+          <GainOrLossAmt>3278</GainOrLossAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>CAPITAL GAIN DIVIDENDS</PropertyDesc>
+          <HowAcquiredCd>P</HowAcquiredCd>
+          <GainOrLossAmt>3278</GainOrLossAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>CAPITAL GAIN DIVIDENDS</PropertyDesc>
+          <HowAcquiredCd>P</HowAcquiredCd>
+          <GainOrLossAmt>3278</GainOrLossAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>CAPITAL GAIN DIVIDENDS</PropertyDesc>
+          <HowAcquiredCd>P</HowAcquiredCd>
+          <GainOrLossAmt>3278</GainOrLossAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>CAPITAL GAIN DIVIDENDS</PropertyDesc>
+          <HowAcquiredCd>P</HowAcquiredCd>
+          <GainOrLossAmt>3278</GainOrLossAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>CAPITAL GAIN DIVIDENDS</PropertyDesc>
+          <HowAcquiredCd>P</HowAcquiredCd>
+          <GainOrLossAmt>3278</GainOrLossAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>CAPITAL GAIN DIVIDENDS</PropertyDesc>
+          <HowAcquiredCd>P</HowAcquiredCd>
+          <GainOrLossAmt>3278</GainOrLossAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>CAPITAL GAIN DIVIDENDS</PropertyDesc>
+          <HowAcquiredCd>P</HowAcquiredCd>
+          <GainOrLossAmt>3278</GainOrLossAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>CAPITAL GAIN DIVIDENDS</PropertyDesc>
+          <HowAcquiredCd>P</HowAcquiredCd>
+          <GainOrLossAmt>3278</GainOrLossAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>CAPITAL GAIN DIVIDENDS</PropertyDesc>
+          <HowAcquiredCd>P</HowAcquiredCd>
+          <GainOrLossAmt>3278</GainOrLossAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>CAPITAL GAIN DIVIDENDS</PropertyDesc>
+          <HowAcquiredCd>P</HowAcquiredCd>
+          <GainOrLossAmt>3278</GainOrLossAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>CAPITAL GAIN DIVIDENDS</PropertyDesc>
+          <HowAcquiredCd>P</HowAcquiredCd>
+          <GainOrLossAmt>3278</GainOrLossAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>CAPITAL GAIN DIVIDENDS</PropertyDesc>
+          <HowAcquiredCd>P</HowAcquiredCd>
+          <GainOrLossAmt>3278</GainOrLossAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>CAPITAL GAIN DIVIDENDS</PropertyDesc>
+          <HowAcquiredCd>P</HowAcquiredCd>
+          <GainOrLossAmt>3278</GainOrLossAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>CAPITAL GAIN DIVIDENDS</PropertyDesc>
+          <HowAcquiredCd>P</HowAcquiredCd>
+          <GainOrLossAmt>3278</GainOrLossAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>CAPITAL GAIN DIVIDENDS</PropertyDesc>
+          <HowAcquiredCd>P</HowAcquiredCd>
+          <GainOrLossAmt>3278</GainOrLossAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>CAPITAL GAIN DIVIDENDS</PropertyDesc>
+          <HowAcquiredCd>P</HowAcquiredCd>
+          <GainOrLossAmt>3278</GainOrLossAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>CAPITAL GAIN DIVIDENDS</PropertyDesc>
+          <HowAcquiredCd>P</HowAcquiredCd>
+          <GainOrLossAmt>3278</GainOrLossAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>CAPITAL GAIN DIVIDENDS</PropertyDesc>
+          <HowAcquiredCd>P</HowAcquiredCd>
+          <GainOrLossAmt>3278</GainOrLossAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>CAPITAL GAIN DIVIDENDS</PropertyDesc>
+          <HowAcquiredCd>P</HowAcquiredCd>
+          <GainOrLossAmt>3278</GainOrLossAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>CAPITAL GAIN DIVIDENDS</PropertyDesc>
+          <HowAcquiredCd>P</HowAcquiredCd>
+          <GainOrLossAmt>3278</GainOrLossAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>CAPITAL GAIN DIVIDENDS</PropertyDesc>
+          <HowAcquiredCd>P</HowAcquiredCd>
+          <GainOrLossAmt>3278</GainOrLossAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapitalGainNetIncomeAmt>-5890</CapitalGainNetIncomeAmt>
+      </CapGainsLossTxInvstIncmDetail>
+      <ExciseTaxBasedOnInvstIncmGrp>
+        <InvestmentIncomeExciseTaxAmt>237</InvestmentIncomeExciseTaxAmt>
+        <TaxUnderSection511Amt>0</TaxUnderSection511Amt>
+        <SubtotalAmt>237</SubtotalAmt>
+        <SubtitleATaxAmt>0</SubtitleATaxAmt>
+        <TaxBasedOnInvestmentIncomeAmt>237</TaxBasedOnInvestmentIncomeAmt>
+        <EstimatedPlusOvpmtIncmTxAmt>908</EstimatedPlusOvpmtIncmTxAmt>
+        <ExemptFrgnOrgTaxWthldAtSrceAmt>0</ExemptFrgnOrgTaxWthldAtSrceAmt>
+        <ExtsnRequestIncomeTaxPaidAmt>0</ExtsnRequestIncomeTaxPaidAmt>
+        <TotalPaymentsAndCreditsAmt>908</TotalPaymentsAndCreditsAmt>
+        <EsPenaltyAmt>0</EsPenaltyAmt>
+        <OverpaymentAmt>671</OverpaymentAmt>
+        <AppliedToESTaxAmt>240</AppliedToESTaxAmt>
+        <RefundAmt>431</RefundAmt>
+      </ExciseTaxBasedOnInvstIncmGrp>
+      <StatementsRegardingActyGrp>
+        <LegislativePoliticalActyInd>false</LegislativePoliticalActyInd>
+        <MoreThan100SpentInd>false</MoreThan100SpentInd>
+        <Form1120POLFiledInd>false</Form1120POLFiledInd>
+        <ActivitiesNotPreviouslyRptInd>false</ActivitiesNotPreviouslyRptInd>
+        <ChangesToArticlesOrBylawsInd>false</ChangesToArticlesOrBylawsInd>
+        <UnrelatedBusIncmOverLimitInd>false</UnrelatedBusIncmOverLimitInd>
+        <OrganizationDissolvedEtcInd>false</OrganizationDissolvedEtcInd>
+        <Section508eRqrSatisfiedInd>true</Section508eRqrSatisfiedInd>
+        <AtLeast5000InAssetsInd>true</AtLeast5000InAssetsInd>
+        <OrgReportOrRegisterStateCd>PA</OrgReportOrRegisterStateCd>
+        <Form990PFFiledWithAttyGenInd>true</Form990PFFiledWithAttyGenInd>
+        <PrivateOperatingFoundationInd>false</PrivateOperatingFoundationInd>
+        <NewSubstantialContributorsInd>false</NewSubstantialContributorsInd>
+        <OwnControlledEntityInd>false</OwnControlledEntityInd>
+        <DonorAdvisedFundInd>false</DonorAdvisedFundInd>
+        <ComplyWithPublicInspRqrInd>true</ComplyWithPublicInspRqrInd>
+        <PersonsWithBooksName>
+          <BusinessNameLine1Txt>WELLS FARGO BANK NA</BusinessNameLine1Txt>
+        </PersonsWithBooksName>
+        <PhoneNum>8003523705</PhoneNum>
+        <LocationOfBooksUSAddress>
+          <AddressLine1Txt>100 N MAIN ST FL 5D4001-052</AddressLine1Txt>
+          <CityNm>WINSTONSALEM</CityNm>
+          <StateAbbreviationCd>NC</StateAbbreviationCd>
+          <ZIPCd>27101</ZIPCd>
+        </LocationOfBooksUSAddress>
+        <ForeignAccountsQuestionInd>false</ForeignAccountsQuestionInd>
+      </StatementsRegardingActyGrp>
+      <StatementsRegardingActy4720Grp>
+        <SaleOrExchDisqualifiedPrsnInd>false</SaleOrExchDisqualifiedPrsnInd>
+        <BrrwOrLendDisqualifiedPrsnInd>false</BrrwOrLendDisqualifiedPrsnInd>
+        <FurnGoodsDisqualifiedPrsnInd>false</FurnGoodsDisqualifiedPrsnInd>
+        <PayCompDisqualifiedPrsnInd>true</PayCompDisqualifiedPrsnInd>
+        <TransferAstDisqualifiedPrsnInd>false</TransferAstDisqualifiedPrsnInd>
+        <PaymentToGovernmentOfficialInd>false</PaymentToGovernmentOfficialInd>
+        <ActsFailToQlfyAsExceptionsInd>false</ActsFailToQlfyAsExceptionsInd>
+        <UncorrectedPriorActsInd>false</UncorrectedPriorActsInd>
+        <UndistributedIncomePYInd>false</UndistributedIncomePYInd>
+        <BusinessHoldingsInd>false</BusinessHoldingsInd>
+        <JeopardyInvestmentsInd>false</JeopardyInvestmentsInd>
+        <UncorrectedPYJeopardyInvstInd>false</UncorrectedPYJeopardyInvstInd>
+        <InfluenceLegislationInd>false</InfluenceLegislationInd>
+        <InfluenceElectionInd>false</InfluenceElectionInd>
+        <GrantsToIndividualsInd>true</GrantsToIndividualsInd>
+        <GrantsToOrganizationsInd>false</GrantsToOrganizationsInd>
+        <NoncharitablePurposeInd>false</NoncharitablePurposeInd>
+        <TransactionsFailToQlfyAsExcInd>false</TransactionsFailToQlfyAsExcInd>
+        <RcvFndsToPayPrsnlBnftCntrctInd>false</RcvFndsToPayPrsnlBnftCntrctInd>
+        <PayPremiumsPrsnlBnftCntrctInd>false</PayPremiumsPrsnlBnftCntrctInd>
+        <ProhibitedTaxShelterTransInd>false</ProhibitedTaxShelterTransInd>
+        <SubjToTaxRmnrtnExPrchtPymtInd>false</SubjToTaxRmnrtnExPrchtPymtInd>
+      </StatementsRegardingActy4720Grp>
+      <OfficerDirTrstKeyEmplInfoGrp>
+        <OfficerDirTrstKeyEmplGrp>
+          <PersonNm>WELLS FARGO BANK N A</PersonNm>
+          <USAddress>
+            <AddressLine1Txt>100 N Main St FL 5D4001-052</AddressLine1Txt>
+            <CityNm>WINSTON SALEM</CityNm>
+            <StateAbbreviationCd>NC</StateAbbreviationCd>
+            <ZIPCd>27101</ZIPCd>
+          </USAddress>
+          <TitleTxt>TRUSTEE</TitleTxt>
+          <AverageHrsPerWkDevotedToPosRt>1</AverageHrsPerWkDevotedToPosRt>
+          <CompensationAmt>15940</CompensationAmt>
+        </OfficerDirTrstKeyEmplGrp>
+        <CompOfHghstPdEmplOrNONETxt>NONE</CompOfHghstPdEmplOrNONETxt>
+        <OtherEmployeePaidOver50kCnt>0</OtherEmployeePaidOver50kCnt>
+        <CompOfHghstPdCntrctOrNONETxt>NONE</CompOfHghstPdCntrctOrNONETxt>
+        <ContractorPaidOver50kCnt>0</ContractorPaidOver50kCnt>
+      </OfficerDirTrstKeyEmplInfoGrp>
+      <SummaryOfDirectChrtblActyGrp />
+      <SumOfProgramRelatedInvstGrp />
+      <MinimumInvestmentReturnGrp>
+        <AverageMonthlyFMVOfSecAmt>904973</AverageMonthlyFMVOfSecAmt>
+        <AverageMonthlyCashBalancesAmt>50982</AverageMonthlyCashBalancesAmt>
+        <FMVAllOtherNoncharitableAstAmt>0</FMVAllOtherNoncharitableAstAmt>
+        <TotalFMVOfUnusedAssetsAmt>955955</TotalFMVOfUnusedAssetsAmt>
+        <ReductionClaimedAmt>0</ReductionClaimedAmt>
+        <AcquisitionIndebtednessAmt>0</AcquisitionIndebtednessAmt>
+        <AdjustedTotalFMVOfUnusedAstAmt>955955</AdjustedTotalFMVOfUnusedAstAmt>
+        <CashDeemedCharitableAmt>14339</CashDeemedCharitableAmt>
+        <NetVlNoncharitableAssetsAmt>941616</NetVlNoncharitableAssetsAmt>
+        <MinimumInvestmentReturnAmt>47081</MinimumInvestmentReturnAmt>
+      </MinimumInvestmentReturnGrp>
+      <DistributableAmountGrp>
+        <MinimumInvestmentReturnAmt>47081</MinimumInvestmentReturnAmt>
+        <TaxBasedOnInvestmentIncomeAmt>237</TaxBasedOnInvestmentIncomeAmt>
+        <TotalTaxAmt>237</TotalTaxAmt>
+        <DistributableBeforeAdjAmt>46844</DistributableBeforeAdjAmt>
+        <RecoveriesQualfiedDistriAmt>60448</RecoveriesQualfiedDistriAmt>
+        <DistributableBeforeDedAmt>107292</DistributableBeforeDedAmt>
+        <DeductionFromDistributableAmt>0</DeductionFromDistributableAmt>
+        <DistributableAsAdjustedAmt>107292</DistributableAsAdjustedAmt>
+      </DistributableAmountGrp>
+      <PFQualifyingDistributionsGrp>
+        <ExpensesAndContributionsAmt>231797</ExpensesAndContributionsAmt>
+        <ProgramRelatedInvstTotalAmt>0</ProgramRelatedInvstTotalAmt>
+        <CharitableAssetsAcquisPaidAmt>0</CharitableAssetsAcquisPaidAmt>
+        <SetAsideSuitabilityTestAmt>0</SetAsideSuitabilityTestAmt>
+        <SetAsideCashDistriTestAmt>0</SetAsideCashDistriTestAmt>
+        <QualifyingDistributionsAmt>231797</QualifyingDistributionsAmt>
+      </PFQualifyingDistributionsGrp>
+      <UndistributedIncomeGrp>
+        <DistributableAsAdjustedAmt>107292</DistributableAsAdjustedAmt>
+        <UndistributedIncomePYAmt>137238</UndistributedIncomePYAmt>
+        <PriorYear1Yr>2020</PriorYear1Yr>
+        <TotalForPriorYearsAmt>73208</TotalForPriorYearsAmt>
+        <ExcessDistributionCyovYr5Amt>0</ExcessDistributionCyovYr5Amt>
+        <ExcessDistributionCyovYr4Amt>0</ExcessDistributionCyovYr4Amt>
+        <ExcessDistributionCyovYr3Amt>0</ExcessDistributionCyovYr3Amt>
+        <ExcessDistributionCyovYr2Amt>0</ExcessDistributionCyovYr2Amt>
+        <ExcessDistributionCyovYr1Amt>0</ExcessDistributionCyovYr1Amt>
+        <TotalExcessDistributionCyovAmt>0</TotalExcessDistributionCyovAmt>
+        <QualifyingDistributionsAmt>231797</QualifyingDistributionsAmt>
+        <AppliedToYear1Amt>137238</AppliedToYear1Amt>
+        <AppliedToPriorYearsAmt>73208</AppliedToPriorYearsAmt>
+        <TreatedAsDistriFromCorpusAmt>0</TreatedAsDistriFromCorpusAmt>
+        <AppliedToCurrentYearAmt>21351</AppliedToCurrentYearAmt>
+        <RemainingDistriFromCorpusAmt>0</RemainingDistriFromCorpusAmt>
+        <ExcessDistriCyovAppCYCorpusAmt>0</ExcessDistriCyovAppCYCorpusAmt>
+        <ExcessDistributionCyovAppCYAmt>0</ExcessDistributionCyovAppCYAmt>
+        <TotalCorpusAmt>0</TotalCorpusAmt>
+        <PriorYearUndistributedIncmAmt>0</PriorYearUndistributedIncmAmt>
+        <PriorYearDeficiencyOrTaxAmt>0</PriorYearDeficiencyOrTaxAmt>
+        <Taxable1Amt>0</Taxable1Amt>
+        <Taxable2Amt>0</Taxable2Amt>
+        <UndistributedIncomeCYAmt>85941</UndistributedIncomeCYAmt>
+        <CorpusDistri170b1EOr4942g3Amt>0</CorpusDistri170b1EOr4942g3Amt>
+        <ExcessDistriCyovFromYr5Amt>0</ExcessDistriCyovFromYr5Amt>
+        <ExcessDistriCyovToNextYrAmt>0</ExcessDistriCyovToNextYrAmt>
+        <ExcessFromYear4Amt>0</ExcessFromYear4Amt>
+        <ExcessFromYear3Amt>0</ExcessFromYear3Amt>
+        <ExcessFromYear2Amt>0</ExcessFromYear2Amt>
+        <ExcessFromYear1Amt>0</ExcessFromYear1Amt>
+        <ExcessFromCurrentYearAmt>0</ExcessFromCurrentYearAmt>
+      </UndistributedIncomeGrp>
+      <SupplementaryInformationGrp>
+        <ApplicationSubmissionInfoGrp>
+          <RecipientPersonNm>WELLS FARGO BANK NA</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>100 N Main St FL 5D4001-052</AddressLine1Txt>
+            <CityNm>WINSTONSALEM</CityNm>
+            <StateAbbreviationCd>NC</StateAbbreviationCd>
+            <ZIPCd>27101</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientPhoneNum>8003523705</RecipientPhoneNum>
+          <FormAndInfoAndMaterialsTxt>LETTER FORM</FormAndInfoAndMaterialsTxt>
+          <SubmissionDeadlinesTxt>NONE</SubmissionDeadlinesTxt>
+          <RestrictionsOnAwardsTxt>LIMITED TO RESIDENTS OF CHESTER COUNTY, ATTENDING POST-SECONDARY INSTITUTIONS. SCHOLARSHIPS ARE NOT AVAILABLE FOR GRADUATE STUDIES.</RestrictionsOnAwardsTxt>
+        </ApplicationSubmissionInfoGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>SCHEDULE ATTACHED</BusinessNameLine1Txt>
+            <BusinessNameLine2Txt>CENTER FOR SCHOLARSHIP ADMIN</BusinessNameLine2Txt>
+          </RecipientBusinessName>
+          <RecipientUSAddress>
+            <AddressLine1Txt>4320G WADE HAMPTON BLVD</AddressLine1Txt>
+            <CityNm>TAYLORS</CityNm>
+            <StateAbbreviationCd>SC</StateAbbreviationCd>
+            <ZIPCd>29687</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>NONE</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>I</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>SCHOLARSHIPS</GrantOrContributionPurposeTxt>
+          <Amt>208000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <TotalGrantOrContriPdDurYrAmt>208000</TotalGrantOrContriPdDurYrAmt>
+      </SupplementaryInformationGrp>
+      <AnalysisIncomeProducingActyGrp>
+        <FeesContractsFromGovtAgGrp />
+        <MembershipDuesAndAssmntGrp />
+        <IntOnSavAndTempCashInvstGrp />
+        <DividendsAndInterestFromSecDtl>
+          <ExclusionCd>14</ExclusionCd>
+          <ExclusionAmt>29087</ExclusionAmt>
+        </DividendsAndInterestFromSecDtl>
+        <NetRntlIncmReDebtFincdPropGrp />
+        <NetRntlIncmReNotDebtFincdProp />
+        <NetRentalIncomePersonalPropGrp />
+        <OtherInvestmentIncomeGrp />
+        <GainSalesAstOthThanInvntryGrp>
+          <ExclusionCd>18</ExclusionCd>
+          <ExclusionAmt>-5890</ExclusionAmt>
+        </GainSalesAstOthThanInvntryGrp>
+        <NetIncomeLossFromSpecialEvtGrp />
+        <GrossProfitLossSlsOfInvntryGrp />
+        <OtherRevenueDescribedGrp>
+          <Desc>FEDERAL TAX REFUND</Desc>
+          <ExclusionCd>1</ExclusionCd>
+          <ExclusionAmt>76</ExclusionAmt>
+        </OtherRevenueDescribedGrp>
+        <SubtotalsIncmProducingActyGrp>
+          <ExclusionAmt>23273</ExclusionAmt>
+        </SubtotalsIncmProducingActyGrp>
+        <TotalIncomeProducingActyAmt>23273</TotalIncomeProducingActyAmt>
+      </AnalysisIncomeProducingActyGrp>
+      <RlnOfActyToAccomOfExmptPrpsGrp />
+      <TrnsfrTransRlnNonchrtblEOGrp>
+        <TrnsfrOfCashToNonchrtblEOInd>false</TrnsfrOfCashToNonchrtblEOInd>
+        <TrnsfrOtherAssetNonchrtblEOInd>false</TrnsfrOtherAssetNonchrtblEOInd>
+        <SalesOrExchangesOfAssetsInd>false</SalesOrExchangesOfAssetsInd>
+        <PurchaseOfAssetsNonchrtblEOInd>false</PurchaseOfAssetsNonchrtblEOInd>
+        <RentalOfFacilitiesOthAssetsInd>false</RentalOfFacilitiesOthAssetsInd>
+        <ReimbursementArrangementsInd>false</ReimbursementArrangementsInd>
+        <LoansOrLoanGuaranteesInd>false</LoansOrLoanGuaranteesInd>
+        <PerformanceOfServicesEtcInd>false</PerformanceOfServicesEtcInd>
+        <SharingOfFacilitiesEtcInd>false</SharingOfFacilitiesEtcInd>
+        <RelationshipsNonchrtblEOInd>false</RelationshipsNonchrtblEOInd>
+      </TrnsfrTransRlnNonchrtblEOGrp>
+    </IRS990PF>
+    <AccountingFeesSchedule documentId="AccountingFeesSchedule">
+      <AccountingFeesDetail>
+        <CategoryTxt>TAX PREPARATION FEE (NON-ALLOC</CategoryTxt>
+        <Amt>1092</Amt>
+        <DisbursementsCharitablePrpsAmt>1092</DisbursementsCharitablePrpsAmt>
+      </AccountingFeesDetail>
+    </AccountingFeesSchedule>
+    <OtherAssetsSchedule documentId="OtherAssetsSchedule">
+      <OtherAssetsScheduleGrp>
+        <Desc>SEE ATTACHED</Desc>
+        <BOYBookValueAmt>859486</BOYBookValueAmt>
+        <EOYBookValueAmt>678285</EOYBookValueAmt>
+        <EOYFMVAmt>714441</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+    </OtherAssetsSchedule>
+    <OtherDecreasesSchedule documentId="OtherDecreasesSchedule">
+      <OtherDecreasesDetail>
+        <Desc>MUTUAL FUND TIMING ADJ</Desc>
+        <Amt>642</Amt>
+      </OtherDecreasesDetail>
+      <OtherDecreasesDetail>
+        <Desc>WASH SALES ADJ.</Desc>
+        <Amt>6891</Amt>
+      </OtherDecreasesDetail>
+      <OtherDecreasesDetail>
+        <Desc>ROUNDING</Desc>
+        <Amt>1</Amt>
+      </OtherDecreasesDetail>
+    </OtherDecreasesSchedule>
+    <OtherIncomeSchedule2 documentId="OtherIncomeSchedule2">
+      <OtherIncomeDetail>
+        <Desc>FEDERAL TAX REFUND</Desc>
+        <RevenueAndExpensesPerBooksAmt>76</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+      </OtherIncomeDetail>
+    </OtherIncomeSchedule2>
+    <OtherIncreasesSchedule documentId="OtherIncreasesSchedule">
+      <OtherIncreasesDetail>
+        <Desc>RECOVERY OF GRANTS PAID</Desc>
+        <Amt>1500</Amt>
+      </OtherIncreasesDetail>
+    </OtherIncreasesSchedule>
+    <OtherNotesLoansRcvblLongSch documentId="OtherNotesLoansRecLongSch">
+      <OtherNotesLoansRcvblLongGrp>
+        <BorrowerNameGrp>
+          <PersonNm>Daisy Ayllon</PersonNm>
+        </BorrowerNameGrp>
+        <LoanOriginalAmt>16000</LoanOriginalAmt>
+        <NoteDt>2008-08</NoteDt>
+        <RepaymentTermsTxt>266.67/MO ON 1ST DAY, 6TH MO AFTR GRAD/TERM FOR 60</RepaymentTermsTxt>
+        <InterestRt>0</InterestRt>
+        <LoanPurposeTxt>EDUCATION</LoanPurposeTxt>
+      </OtherNotesLoansRcvblLongGrp>
+      <OtherNotesLoansRcvblLongGrp>
+        <BorrowerNameGrp>
+          <PersonNm>Nereida Ayllon</PersonNm>
+        </BorrowerNameGrp>
+        <LoanOriginalAmt>2000</LoanOriginalAmt>
+        <NoteDt>2010-07</NoteDt>
+        <RepaymentTermsTxt>33.34/MO ON 1ST DAY, 6TH MO AFT GRAD/TERM</RepaymentTermsTxt>
+        <InterestRt>0</InterestRt>
+        <LoanPurposeTxt>EDUCATION</LoanPurposeTxt>
+      </OtherNotesLoansRcvblLongGrp>
+      <OtherNotesLoansRcvblLongGrp>
+        <BorrowerNameGrp>
+          <PersonNm>Lindsay Bailey</PersonNm>
+        </BorrowerNameGrp>
+        <LoanOriginalAmt>7000</LoanOriginalAmt>
+        <NoteDt>2008-08</NoteDt>
+        <RepaymentTermsTxt>116.67/MO ON 1ST DAY, 6TH MO AFTR GRAD/TERM FOR 60</RepaymentTermsTxt>
+        <InterestRt>0</InterestRt>
+        <LoanPurposeTxt>EDUCATION</LoanPurposeTxt>
+      </OtherNotesLoansRcvblLongGrp>
+      <OtherNotesLoansRcvblLongGrp>
+        <BorrowerNameGrp>
+          <PersonNm>Edward Barron</PersonNm>
+        </BorrowerNameGrp>
+        <LoanOriginalAmt>4000</LoanOriginalAmt>
+        <NoteDt>2012-07</NoteDt>
+        <RepaymentTermsTxt>66.67/MO ON 1ST DAY , 6TH MO AFTER GRAD/TERM</RepaymentTermsTxt>
+        <InterestRt>0</InterestRt>
+        <LoanPurposeTxt>EDUCATION</LoanPurposeTxt>
+      </OtherNotesLoansRcvblLongGrp>
+      <OtherNotesLoansRcvblLongGrp>
+        <BorrowerNameGrp>
+          <PersonNm>Bowman Lauren</PersonNm>
+        </BorrowerNameGrp>
+        <LoanOriginalAmt>5000</LoanOriginalAmt>
+        <NoteDt>2007-07</NoteDt>
+        <RepaymentTermsTxt>83.34/MOON 1ST DAY 6TH MO AFTER GRAD/TERM 60 MOS.</RepaymentTermsTxt>
+        <InterestRt>0</InterestRt>
+        <LoanPurposeTxt>EDUCATION</LoanPurposeTxt>
+      </OtherNotesLoansRcvblLongGrp>
+      <OtherNotesLoansRcvblLongGrp>
+        <BorrowerNameGrp>
+          <PersonNm>Buckley Jacqueline</PersonNm>
+        </BorrowerNameGrp>
+        <LoanOriginalAmt>12000</LoanOriginalAmt>
+        <NoteDt>2011-07</NoteDt>
+        <RepaymentTermsTxt>200/MO 1 DAY, 6TH MOS A/F GRAD/END OF SCH 60 INSTA</RepaymentTermsTxt>
+        <InterestRt>0</InterestRt>
+        <LoanPurposeTxt>EDUCATION</LoanPurposeTxt>
+      </OtherNotesLoansRcvblLongGrp>
+      <OtherNotesLoansRcvblLongGrp>
+        <BorrowerNameGrp>
+          <PersonNm>Carr Melissa</PersonNm>
+        </BorrowerNameGrp>
+        <LoanOriginalAmt>17500</LoanOriginalAmt>
+        <NoteDt>2006-07</NoteDt>
+        <RepaymentTermsTxt>291.66/MO 15 DAY, 6TH MO A/F GRAD/TERM FOR 60 INST</RepaymentTermsTxt>
+        <InterestRt>0</InterestRt>
+        <LoanPurposeTxt>EDUCATION</LoanPurposeTxt>
+      </OtherNotesLoansRcvblLongGrp>
+      <OtherNotesLoansRcvblLongGrp>
+        <BorrowerNameGrp>
+          <PersonNm>Carr Michael</PersonNm>
+        </BorrowerNameGrp>
+        <LoanOriginalAmt>6000</LoanOriginalAmt>
+        <NoteDt>2010-07</NoteDt>
+        <RepaymentTermsTxt>100/MO ON 1 DAY 6TH MO AFTER GRAD/TERM</RepaymentTermsTxt>
+        <InterestRt>0</InterestRt>
+        <LoanPurposeTxt>EDUCATION</LoanPurposeTxt>
+      </OtherNotesLoansRcvblLongGrp>
+      <OtherNotesLoansRcvblLongGrp>
+        <BorrowerNameGrp>
+          <PersonNm>CHIO YU-WEN</PersonNm>
+        </BorrowerNameGrp>
+        <LoanOriginalAmt>4000</LoanOriginalAmt>
+        <NoteDt>2012-07</NoteDt>
+        <RepaymentTermsTxt>66.67/MO 1ST DAY, 6TH MO</RepaymentTermsTxt>
+        <InterestRt>0</InterestRt>
+        <LoanPurposeTxt>EDUCATION</LoanPurposeTxt>
+      </OtherNotesLoansRcvblLongGrp>
+      <OtherNotesLoansRcvblLongGrp>
+        <BorrowerNameGrp>
+          <PersonNm>COLLINS LAUREN</PersonNm>
+        </BorrowerNameGrp>
+        <LoanOriginalAmt>2000</LoanOriginalAmt>
+        <NoteDt>2005-08</NoteDt>
+        <RepaymentTermsTxt>60 MO INSTALL, 1 PAY 6 MOS A/F GRAD.TERM TIL PAID</RepaymentTermsTxt>
+        <InterestRt>0</InterestRt>
+        <LoanPurposeTxt>EDUCATION</LoanPurposeTxt>
+      </OtherNotesLoansRcvblLongGrp>
+      <OtherNotesLoansRcvblLongGrp>
+        <BorrowerNameGrp>
+          <PersonNm>DEA BRIAN</PersonNm>
+        </BorrowerNameGrp>
+        <LoanOriginalAmt>1500</LoanOriginalAmt>
+        <NoteDt>2010-07</NoteDt>
+        <RepaymentTermsTxt>25/ MO 1ST DAY 6TH MOS A/F GRAD/TERM</RepaymentTermsTxt>
+        <InterestRt>0</InterestRt>
+        <LoanPurposeTxt>EDUCATION</LoanPurposeTxt>
+      </OtherNotesLoansRcvblLongGrp>
+      <OtherNotesLoansRcvblLongGrp>
+        <BorrowerNameGrp>
+          <PersonNm>DEA KEVIN</PersonNm>
+        </BorrowerNameGrp>
+        <LoanOriginalAmt>1500</LoanOriginalAmt>
+        <NoteDt>2010-07</NoteDt>
+        <RepaymentTermsTxt>25/ MO 1ST DAY 6TH MOS A/F GRAD/TERM</RepaymentTermsTxt>
+        <InterestRt>0</InterestRt>
+        <LoanPurposeTxt>EDUCATION</LoanPurposeTxt>
+      </OtherNotesLoansRcvblLongGrp>
+      <OtherNotesLoansRcvblLongGrp>
+        <BorrowerNameGrp>
+          <PersonNm>DECOLLI ALICIA</PersonNm>
+        </BorrowerNameGrp>
+        <LoanOriginalAmt>12000</LoanOriginalAmt>
+        <NoteDt>2009-07</NoteDt>
+        <RepaymentTermsTxt>200/MO 1ST DAY 6TH MOS A/F GRAD/TERM FOR 60 INSTAL</RepaymentTermsTxt>
+        <InterestRt>0</InterestRt>
+        <LoanPurposeTxt>EDUCATION</LoanPurposeTxt>
+      </OtherNotesLoansRcvblLongGrp>
+      <OtherNotesLoansRcvblLongGrp>
+        <BorrowerNameGrp>
+          <PersonNm>DECOLLI DANIEL</PersonNm>
+        </BorrowerNameGrp>
+        <LoanOriginalAmt>5500</LoanOriginalAmt>
+        <NoteDt>2008-08</NoteDt>
+        <RepaymentTermsTxt>91.67/MO 1ST DAY 6TH MO A/F GRAD/TERM FOR 60 INSTA</RepaymentTermsTxt>
+        <InterestRt>0</InterestRt>
+        <LoanPurposeTxt>EDUCATION</LoanPurposeTxt>
+      </OtherNotesLoansRcvblLongGrp>
+      <OtherNotesLoansRcvblLongGrp>
+        <BorrowerNameGrp>
+          <PersonNm>DECOLLI RACHEL</PersonNm>
+        </BorrowerNameGrp>
+        <LoanOriginalAmt>5500</LoanOriginalAmt>
+        <NoteDt>2008-08</NoteDt>
+        <RepaymentTermsTxt>91.67/MO 1ST DAY 6TH MO A/F GRAD/TERM FOR 60 INSTA</RepaymentTermsTxt>
+        <InterestRt>0</InterestRt>
+        <LoanPurposeTxt>EDUCATION</LoanPurposeTxt>
+      </OtherNotesLoansRcvblLongGrp>
+      <OtherNotesLoansRcvblLongGrp>
+        <BorrowerNameGrp>
+          <PersonNm>DECOLLI RYAN</PersonNm>
+        </BorrowerNameGrp>
+        <LoanOriginalAmt>4000</LoanOriginalAmt>
+        <NoteDt>2012-07</NoteDt>
+        <RepaymentTermsTxt>66.67/MO 1ST DAY 6TH MO A/F GRAD/TERM</RepaymentTermsTxt>
+        <InterestRt>0</InterestRt>
+        <LoanPurposeTxt>EDUCATION</LoanPurposeTxt>
+      </OtherNotesLoansRcvblLongGrp>
+      <OtherNotesLoansRcvblLongGrp>
+        <BorrowerNameGrp>
+          <PersonNm>DETTINGER ANTHONY</PersonNm>
+        </BorrowerNameGrp>
+        <LoanOriginalAmt>2000</LoanOriginalAmt>
+        <NoteDt>2007-06</NoteDt>
+        <RepaymentTermsTxt>33.34/MO 1ST DAY 6TH MO A/F GRAD/TERM FOR 60 INSTA</RepaymentTermsTxt>
+        <InterestRt>0</InterestRt>
+        <LoanPurposeTxt>EDUCATION</LoanPurposeTxt>
+      </OtherNotesLoansRcvblLongGrp>
+      <OtherNotesLoansRcvblLongGrp>
+        <BorrowerNameGrp>
+          <PersonNm>DETTINGER MICHAELA</PersonNm>
+        </BorrowerNameGrp>
+        <LoanOriginalAmt>3000</LoanOriginalAmt>
+        <NoteDt>2012-07</NoteDt>
+        <RepaymentTermsTxt>50/MO 1ST DAY 6TH MO A/F GRAD/TERM</RepaymentTermsTxt>
+        <InterestRt>0</InterestRt>
+        <LoanPurposeTxt>EDUCATION</LoanPurposeTxt>
+      </OtherNotesLoansRcvblLongGrp>
+      <OtherNotesLoansRcvblLongGrp>
+        <BorrowerNameGrp>
+          <PersonNm>DICK JACLYN</PersonNm>
+        </BorrowerNameGrp>
+        <LoanOriginalAmt>2000</LoanOriginalAmt>
+        <NoteDt>2004-07</NoteDt>
+        <RepaymentTermsTxt>33.33/MO 1ST DAY 6TH MO A/F GRAD/TERM FOR 60 INST</RepaymentTermsTxt>
+        <InterestRt>0</InterestRt>
+        <LoanPurposeTxt>EDUCATION</LoanPurposeTxt>
+      </OtherNotesLoansRcvblLongGrp>
+      <OtherNotesLoansRcvblLongGrp>
+        <BorrowerNameGrp>
+          <PersonNm>FARWELL SARA</PersonNm>
+        </BorrowerNameGrp>
+        <LoanOriginalAmt>4000</LoanOriginalAmt>
+        <NoteDt>2012-07</NoteDt>
+        <RepaymentTermsTxt>66.67/MO 1ST DAY 6TH MO A/F GRAD/TERM</RepaymentTermsTxt>
+        <InterestRt>0</InterestRt>
+        <LoanPurposeTxt>EDUCATION</LoanPurposeTxt>
+      </OtherNotesLoansRcvblLongGrp>
+      <OtherNotesLoansRcvblLongGrp>
+        <BorrowerNameGrp>
+          <PersonNm>FITZGERALD SHARON</PersonNm>
+        </BorrowerNameGrp>
+        <LoanOriginalAmt>4000</LoanOriginalAmt>
+        <NoteDt>2012-07</NoteDt>
+        <RepaymentTermsTxt>66.67/MO 1ST DAY 6TH MO A/F GRAD/TERM</RepaymentTermsTxt>
+        <InterestRt>0</InterestRt>
+        <LoanPurposeTxt>EDUCATION</LoanPurposeTxt>
+      </OtherNotesLoansRcvblLongGrp>
+      <OtherNotesLoansRcvblLongGrp>
+        <BorrowerNameGrp>
+          <PersonNm>FLINN ALEXA</PersonNm>
+        </BorrowerNameGrp>
+        <LoanOriginalAmt>4000</LoanOriginalAmt>
+        <NoteDt>2010-07</NoteDt>
+        <RepaymentTermsTxt>66.67/MO 1ST DAY 6TH MO A/F GRAD/TERM</RepaymentTermsTxt>
+        <InterestRt>0</InterestRt>
+        <LoanPurposeTxt>EDUCATION</LoanPurposeTxt>
+      </OtherNotesLoansRcvblLongGrp>
+      <OtherNotesLoansRcvblLongGrp>
+        <BorrowerNameGrp>
+          <PersonNm>GAYDOS GREGORY</PersonNm>
+        </BorrowerNameGrp>
+        <LoanOriginalAmt>4000</LoanOriginalAmt>
+        <NoteDt>2012-07</NoteDt>
+        <RepaymentTermsTxt>66.67/MO 1ST DAY 6TH MO A/F GRAD/TERM</RepaymentTermsTxt>
+        <InterestRt>0</InterestRt>
+        <LoanPurposeTxt>EDUCATION</LoanPurposeTxt>
+      </OtherNotesLoansRcvblLongGrp>
+      <OtherNotesLoansRcvblLongGrp>
+        <BorrowerNameGrp>
+          <PersonNm>HALL LAURIE</PersonNm>
+        </BorrowerNameGrp>
+        <LoanOriginalAmt>6000</LoanOriginalAmt>
+        <NoteDt>1996-08</NoteDt>
+        <RepaymentTermsTxt>DUE UPON DEMAND</RepaymentTermsTxt>
+        <InterestRt>0</InterestRt>
+        <LoanPurposeTxt>EDUCATION</LoanPurposeTxt>
+      </OtherNotesLoansRcvblLongGrp>
+      <OtherNotesLoansRcvblLongGrp>
+        <BorrowerNameGrp>
+          <PersonNm>HARRIS TAMARA</PersonNm>
+        </BorrowerNameGrp>
+        <LoanOriginalAmt>2000</LoanOriginalAmt>
+        <NoteDt>2003-08</NoteDt>
+        <RepaymentTermsTxt>/MO 1ST DAY 6TH MO A/F GRAD/TERM FOR 60TH INSTALL</RepaymentTermsTxt>
+        <InterestRt>0</InterestRt>
+        <LoanPurposeTxt>EDUCATION</LoanPurposeTxt>
+      </OtherNotesLoansRcvblLongGrp>
+      <OtherNotesLoansRcvblLongGrp>
+        <BorrowerNameGrp>
+          <PersonNm>HEEMER LAURA</PersonNm>
+        </BorrowerNameGrp>
+        <LoanOriginalAmt>4000</LoanOriginalAmt>
+        <NoteDt>2006-07</NoteDt>
+        <RepaymentTermsTxt>5 YR TERM W/ MO INSTALL 1ST DUE 6 MOS A/F GRAD/TER</RepaymentTermsTxt>
+        <InterestRt>0</InterestRt>
+        <LoanPurposeTxt>EDUCATION</LoanPurposeTxt>
+      </OtherNotesLoansRcvblLongGrp>
+      <OtherNotesLoansRcvblLongGrp>
+        <BorrowerNameGrp>
+          <PersonNm>HEEMER THOMAS</PersonNm>
+        </BorrowerNameGrp>
+        <LoanOriginalAmt>1000</LoanOriginalAmt>
+        <NoteDt>2007-07</NoteDt>
+        <RepaymentTermsTxt>16.67/MO 1ST DAY 6TH MO A/F GRAD/TERM FOR 60 INSTA</RepaymentTermsTxt>
+        <InterestRt>0</InterestRt>
+        <LoanPurposeTxt>EDUCATION</LoanPurposeTxt>
+      </OtherNotesLoansRcvblLongGrp>
+      <OtherNotesLoansRcvblLongGrp>
+        <BorrowerNameGrp>
+          <PersonNm>HERMAN MP</PersonNm>
+        </BorrowerNameGrp>
+        <LoanOriginalAmt>2500</LoanOriginalAmt>
+        <NoteDt>2007-07</NoteDt>
+        <RepaymentTermsTxt>41.67/MO 1ST DAY 6TH MO A/F GRAD/TERM FOR 60 INSTA</RepaymentTermsTxt>
+        <InterestRt>0</InterestRt>
+        <LoanPurposeTxt>EDUCATION</LoanPurposeTxt>
+      </OtherNotesLoansRcvblLongGrp>
+      <OtherNotesLoansRcvblLongGrp>
+        <BorrowerNameGrp>
+          <PersonNm>HERMAN SONIA</PersonNm>
+        </BorrowerNameGrp>
+        <LoanOriginalAmt>2500</LoanOriginalAmt>
+        <NoteDt>2007-07</NoteDt>
+        <RepaymentTermsTxt>41.67/MO /MO 1ST DAY 6TH MO A/F GRAD/TERM 60 INSTA</RepaymentTermsTxt>
+        <InterestRt>0</InterestRt>
+        <LoanPurposeTxt>EDUCATION</LoanPurposeTxt>
+      </OtherNotesLoansRcvblLongGrp>
+      <OtherNotesLoansRcvblLongGrp>
+        <BorrowerNameGrp>
+          <PersonNm>HERNANDEZ LJ</PersonNm>
+        </BorrowerNameGrp>
+        <LoanOriginalAmt>5000</LoanOriginalAmt>
+        <NoteDt>2009-07</NoteDt>
+        <RepaymentTermsTxt>83.34/MO 1ST DAY 6TH MO A/F GRAD/TERM 60 INSTALL</RepaymentTermsTxt>
+        <InterestRt>0</InterestRt>
+        <LoanPurposeTxt>EDUCATION</LoanPurposeTxt>
+      </OtherNotesLoansRcvblLongGrp>
+      <OtherNotesLoansRcvblLongGrp>
+        <BorrowerNameGrp>
+          <PersonNm>HURLEY MARK</PersonNm>
+        </BorrowerNameGrp>
+        <LoanOriginalAmt>11353</LoanOriginalAmt>
+        <NoteDt>2010-08</NoteDt>
+        <RepaymentTermsTxt>1 DAY OF 5TH MO A/F GRAD/TERM W/MO PMTS COMM 1ST</RepaymentTermsTxt>
+        <InterestRt>0</InterestRt>
+        <LoanPurposeTxt>EDUCATION</LoanPurposeTxt>
+      </OtherNotesLoansRcvblLongGrp>
+      <OtherNotesLoansRcvblLongGrp>
+        <BorrowerNameGrp>
+          <PersonNm>HURLEY STEPHEN</PersonNm>
+        </BorrowerNameGrp>
+        <LoanOriginalAmt>13500</LoanOriginalAmt>
+        <NoteDt>2005-09</NoteDt>
+        <RepaymentTermsTxt>225/MO ON 1ST DAY, 6TH MO A/F GRAD/TERM FOR 60 INS</RepaymentTermsTxt>
+        <InterestRt>0</InterestRt>
+        <LoanPurposeTxt>EDUCATION</LoanPurposeTxt>
+      </OtherNotesLoansRcvblLongGrp>
+      <OtherNotesLoansRcvblLongGrp>
+        <BorrowerNameGrp>
+          <PersonNm>HURLEY SUSAN</PersonNm>
+        </BorrowerNameGrp>
+        <LoanOriginalAmt>5500</LoanOriginalAmt>
+        <NoteDt>2010-07</NoteDt>
+        <RepaymentTermsTxt>91.67/MO ON 1ST DAY, 6TH MO A/F GRAD/TERM FOR 60 I</RepaymentTermsTxt>
+        <InterestRt>0</InterestRt>
+        <LoanPurposeTxt>EDUCATION</LoanPurposeTxt>
+      </OtherNotesLoansRcvblLongGrp>
+      <OtherNotesLoansRcvblLongGrp>
+        <BorrowerNameGrp>
+          <PersonNm>JACKSON ANDREW</PersonNm>
+        </BorrowerNameGrp>
+        <LoanOriginalAmt>4000</LoanOriginalAmt>
+        <NoteDt>2006-07</NoteDt>
+        <RepaymentTermsTxt>66.67/MO ON 1ST DAY, 6TH MO A/F GRAD/TERM FOR 60 I</RepaymentTermsTxt>
+        <InterestRt>0</InterestRt>
+        <LoanPurposeTxt>EDUCATION</LoanPurposeTxt>
+      </OtherNotesLoansRcvblLongGrp>
+      <OtherNotesLoansRcvblLongGrp>
+        <BorrowerNameGrp>
+          <PersonNm>JACKSON ANGELA</PersonNm>
+        </BorrowerNameGrp>
+        <LoanOriginalAmt>8000</LoanOriginalAmt>
+        <NoteDt>2004-08</NoteDt>
+        <RepaymentTermsTxt>133.34/MO ON 1ST DAY, 6TH MO A/F GRAD/TERM FOR 60</RepaymentTermsTxt>
+        <InterestRt>0</InterestRt>
+        <LoanPurposeTxt>EDUCATION</LoanPurposeTxt>
+      </OtherNotesLoansRcvblLongGrp>
+      <OtherNotesLoansRcvblLongGrp>
+        <BorrowerNameGrp>
+          <PersonNm>JACKSON GREGORY</PersonNm>
+        </BorrowerNameGrp>
+        <LoanOriginalAmt>10000</LoanOriginalAmt>
+        <NoteDt>2009-07</NoteDt>
+        <RepaymentTermsTxt>166.67/MO ON 1ST DAY, 6TH MO A/F GRAD/TERM TIL PD</RepaymentTermsTxt>
+        <InterestRt>0</InterestRt>
+        <LoanPurposeTxt>EDUCATION</LoanPurposeTxt>
+      </OtherNotesLoansRcvblLongGrp>
+      <OtherNotesLoansRcvblLongGrp>
+        <BorrowerNameGrp>
+          <PersonNm>KENNEDY BRIAN</PersonNm>
+        </BorrowerNameGrp>
+        <LoanOriginalAmt>8000</LoanOriginalAmt>
+        <NoteDt>2006-07</NoteDt>
+        <RepaymentTermsTxt>133.33/MO ON 1ST DAY, 6TH MO A/F GRAD/TERM TIL PD</RepaymentTermsTxt>
+        <InterestRt>0</InterestRt>
+        <LoanPurposeTxt>EDUCATION</LoanPurposeTxt>
+      </OtherNotesLoansRcvblLongGrp>
+      <OtherNotesLoansRcvblLongGrp>
+        <BorrowerNameGrp>
+          <PersonNm>KENNEDY CHRISTOPHER</PersonNm>
+        </BorrowerNameGrp>
+        <LoanOriginalAmt>6000</LoanOriginalAmt>
+        <NoteDt>2009-07</NoteDt>
+        <RepaymentTermsTxt>100/MO ON 1ST DAY, 6TH MO A/F GRAD/TERM FOR 60 INS</RepaymentTermsTxt>
+        <InterestRt>0</InterestRt>
+        <LoanPurposeTxt>EDUCATION</LoanPurposeTxt>
+      </OtherNotesLoansRcvblLongGrp>
+      <OtherNotesLoansRcvblLongGrp>
+        <BorrowerNameGrp>
+          <PersonNm>KENNEDY DANIEL</PersonNm>
+        </BorrowerNameGrp>
+        <LoanOriginalAmt>8000</LoanOriginalAmt>
+        <NoteDt>2005-08</NoteDt>
+        <RepaymentTermsTxt>133.34/MO ON 1ST DAY, 6TH MO A/F GRAD/TERM FOR 60</RepaymentTermsTxt>
+        <InterestRt>0</InterestRt>
+        <LoanPurposeTxt>EDUCATION</LoanPurposeTxt>
+      </OtherNotesLoansRcvblLongGrp>
+      <OtherNotesLoansRcvblLongGrp>
+        <BorrowerNameGrp>
+          <PersonNm>KERWKKD CHRISTOPHER</PersonNm>
+        </BorrowerNameGrp>
+        <LoanOriginalAmt>1000</LoanOriginalAmt>
+        <NoteDt>2001-07</NoteDt>
+        <RepaymentTermsTxt>16.67/MO ON 1ST DAY, 6TH MO A/F GRAD/TERM FOR 60 I</RepaymentTermsTxt>
+        <InterestRt>0</InterestRt>
+        <LoanPurposeTxt>EDUCATION</LoanPurposeTxt>
+      </OtherNotesLoansRcvblLongGrp>
+      <OtherNotesLoansRcvblLongGrp>
+        <BorrowerNameGrp>
+          <PersonNm>KERWOOD CHRIS</PersonNm>
+        </BorrowerNameGrp>
+        <LoanOriginalAmt>1000</LoanOriginalAmt>
+        <NoteDt>1999-07</NoteDt>
+        <RepaymentTermsTxt>16.66/MO ON 1ST DAY, 6TH MO A/F GRAD/TERM FOR 60 I</RepaymentTermsTxt>
+        <InterestRt>0</InterestRt>
+        <LoanPurposeTxt>EDUCATION</LoanPurposeTxt>
+      </OtherNotesLoansRcvblLongGrp>
+      <OtherNotesLoansRcvblLongGrp>
+        <BorrowerNameGrp>
+          <PersonNm>KERWOOD CHRIS</PersonNm>
+        </BorrowerNameGrp>
+        <LoanOriginalAmt>1000</LoanOriginalAmt>
+        <NoteDt>1998-08</NoteDt>
+        <RepaymentTermsTxt>16.67/MO ON 1ST DAY, 6TH MO A/F GRAD/TERM FOR 60 I</RepaymentTermsTxt>
+        <InterestRt>0</InterestRt>
+        <LoanPurposeTxt>EDUCATION</LoanPurposeTxt>
+      </OtherNotesLoansRcvblLongGrp>
+      <OtherNotesLoansRcvblLongGrp>
+        <BorrowerNameGrp>
+          <PersonNm>KERWOOD CHRISTOPHER</PersonNm>
+        </BorrowerNameGrp>
+        <LoanOriginalAmt>1000</LoanOriginalAmt>
+        <NoteDt>2000-10</NoteDt>
+        <RepaymentTermsTxt>16.66//MO ON 1ST DAY, 6TH MO A/F GRAD/TERM FOR 60</RepaymentTermsTxt>
+        <InterestRt>0</InterestRt>
+        <LoanPurposeTxt>EDUCATION</LoanPurposeTxt>
+      </OtherNotesLoansRcvblLongGrp>
+      <OtherNotesLoansRcvblLongGrp>
+        <BorrowerNameGrp>
+          <PersonNm>KERWOOD CHTISTOPHER</PersonNm>
+        </BorrowerNameGrp>
+        <LoanOriginalAmt>1000</LoanOriginalAmt>
+        <NoteDt>2002-08</NoteDt>
+        <RepaymentTermsTxt>33.34/MO ON 1ST DAY, 6TH MO A/F GRAD/TERM FOR 60 I</RepaymentTermsTxt>
+        <InterestRt>0</InterestRt>
+        <LoanPurposeTxt>EDUCATION</LoanPurposeTxt>
+      </OtherNotesLoansRcvblLongGrp>
+      <OtherNotesLoansRcvblLongGrp>
+        <BorrowerNameGrp>
+          <PersonNm>KUHN JACQUELINE</PersonNm>
+        </BorrowerNameGrp>
+        <LoanOriginalAmt>5500</LoanOriginalAmt>
+        <NoteDt>2003-08</NoteDt>
+        <RepaymentTermsTxt>58.34/MO ON 1ST DAY, 6TH MO A/F GRAD/TERM FOR 60 I</RepaymentTermsTxt>
+        <InterestRt>0</InterestRt>
+        <LoanPurposeTxt>EDUCATION</LoanPurposeTxt>
+      </OtherNotesLoansRcvblLongGrp>
+      <OtherNotesLoansRcvblLongGrp>
+        <BorrowerNameGrp>
+          <PersonNm>LABERT ALISA</PersonNm>
+        </BorrowerNameGrp>
+        <LoanOriginalAmt>14500</LoanOriginalAmt>
+        <NoteDt>2008-08</NoteDt>
+        <RepaymentTermsTxt>241.66/MO ON 1ST DAY, 6TH MO A/F GRAD/TERM FOR 60</RepaymentTermsTxt>
+        <InterestRt>0</InterestRt>
+        <LoanPurposeTxt>EDUCATION</LoanPurposeTxt>
+      </OtherNotesLoansRcvblLongGrp>
+      <OtherNotesLoansRcvblLongGrp>
+        <BorrowerNameGrp>
+          <PersonNm>LOPEZ JANET</PersonNm>
+        </BorrowerNameGrp>
+        <LoanOriginalAmt>4646</LoanOriginalAmt>
+        <NoteDt>2010-07</NoteDt>
+        <RepaymentTermsTxt>77.44/MO ON 1ST DAY, 6TH MO A/F GRAD/TERM</RepaymentTermsTxt>
+        <InterestRt>0</InterestRt>
+        <LoanPurposeTxt>EDUCATION</LoanPurposeTxt>
+      </OtherNotesLoansRcvblLongGrp>
+      <OtherNotesLoansRcvblLongGrp>
+        <BorrowerNameGrp>
+          <PersonNm>MABON AUSTIN</PersonNm>
+        </BorrowerNameGrp>
+        <LoanOriginalAmt>4000</LoanOriginalAmt>
+        <NoteDt>2012-07</NoteDt>
+        <RepaymentTermsTxt>66.67/MO ON 1ST DAY, 6TH MO A/F GRAD/TERM FOR 60</RepaymentTermsTxt>
+        <InterestRt>0</InterestRt>
+        <LoanPurposeTxt>EDUCATION</LoanPurposeTxt>
+      </OtherNotesLoansRcvblLongGrp>
+      <OtherNotesLoansRcvblLongGrp>
+        <BorrowerNameGrp>
+          <PersonNm>MABON CHARLOTTE</PersonNm>
+        </BorrowerNameGrp>
+        <LoanOriginalAmt>4000</LoanOriginalAmt>
+        <NoteDt>2012-07</NoteDt>
+        <RepaymentTermsTxt>66.67/MO ON 1ST DAY, 6TH MO A/F GRAD/TERM</RepaymentTermsTxt>
+        <InterestRt>0</InterestRt>
+        <LoanPurposeTxt>EDUCATION</LoanPurposeTxt>
+      </OtherNotesLoansRcvblLongGrp>
+      <OtherNotesLoansRcvblLongGrp>
+        <BorrowerNameGrp>
+          <PersonNm>MAGUIRE JAMES</PersonNm>
+        </BorrowerNameGrp>
+        <LoanOriginalAmt>9500</LoanOriginalAmt>
+        <NoteDt>2004-09</NoteDt>
+        <RepaymentTermsTxt>MO ON 1ST DAY, 6TH MO A/F GRAD/TERM FOR 60 INS</RepaymentTermsTxt>
+        <InterestRt>0</InterestRt>
+        <LoanPurposeTxt>EDUCATION</LoanPurposeTxt>
+      </OtherNotesLoansRcvblLongGrp>
+      <OtherNotesLoansRcvblLongGrp>
+        <BorrowerNameGrp>
+          <PersonNm>MARSH DAVID</PersonNm>
+        </BorrowerNameGrp>
+        <LoanOriginalAmt>4000</LoanOriginalAmt>
+        <NoteDt>2012-07</NoteDt>
+        <RepaymentTermsTxt>66.67/MO ON 1ST DAY, 6TH MO A/F GRAD/TERM</RepaymentTermsTxt>
+        <InterestRt>0</InterestRt>
+        <LoanPurposeTxt>EDUCATION</LoanPurposeTxt>
+      </OtherNotesLoansRcvblLongGrp>
+      <OtherNotesLoansRcvblLongGrp>
+        <BorrowerNameGrp>
+          <PersonNm>MCINERNEY BRIANNE</PersonNm>
+        </BorrowerNameGrp>
+        <LoanOriginalAmt>4000</LoanOriginalAmt>
+        <NoteDt>2012-07</NoteDt>
+        <RepaymentTermsTxt>66.67/MO ON 1ST DAY, 6TH MO A/F GRAD/TERM</RepaymentTermsTxt>
+        <InterestRt>0</InterestRt>
+        <LoanPurposeTxt>EDUCATION</LoanPurposeTxt>
+      </OtherNotesLoansRcvblLongGrp>
+      <OtherNotesLoansRcvblLongGrp>
+        <BorrowerNameGrp>
+          <PersonNm>MCMILLAN IMANI</PersonNm>
+        </BorrowerNameGrp>
+        <LoanOriginalAmt>4000</LoanOriginalAmt>
+        <NoteDt>2012-07</NoteDt>
+        <RepaymentTermsTxt>66.67/MO ON 1ST DAY, 6TH MO A/F GRAD/TERM</RepaymentTermsTxt>
+        <InterestRt>0</InterestRt>
+        <LoanPurposeTxt>EDUCATION</LoanPurposeTxt>
+      </OtherNotesLoansRcvblLongGrp>
+      <OtherNotesLoansRcvblLongGrp>
+        <BorrowerNameGrp>
+          <PersonNm>MILLER-DADAMIO LISA</PersonNm>
+        </BorrowerNameGrp>
+        <NoteDt>1987-08</NoteDt>
+        <RepaymentTermsTxt>50/MO ON 1ST DAY, 6TH MO A/F GRAD/TERM FOR 60 INS</RepaymentTermsTxt>
+        <InterestRt>0</InterestRt>
+        <LoanPurposeTxt>EDUCATION</LoanPurposeTxt>
+      </OtherNotesLoansRcvblLongGrp>
+      <OtherNotesLoansRcvblLongGrp>
+        <BorrowerNameGrp>
+          <PersonNm>MONTANI MATTHEW</PersonNm>
+        </BorrowerNameGrp>
+        <LoanOriginalAmt>2000</LoanOriginalAmt>
+        <NoteDt>2004-08</NoteDt>
+        <RepaymentTermsTxt>33.34/MO ON 1ST DAY, 6TH MO A/F GRAD/TERM FOR 60 I</RepaymentTermsTxt>
+        <InterestRt>0</InterestRt>
+        <LoanPurposeTxt>EDUCATION</LoanPurposeTxt>
+      </OtherNotesLoansRcvblLongGrp>
+      <OtherNotesLoansRcvblLongGrp>
+        <BorrowerNameGrp>
+          <PersonNm>MORBY LAUREN</PersonNm>
+        </BorrowerNameGrp>
+        <LoanOriginalAmt>7000</LoanOriginalAmt>
+        <NoteDt>2008-08</NoteDt>
+        <RepaymentTermsTxt>116.67/MO ON 1ST DAY, 6TH MO A/F GRAD/TERM FOR 60</RepaymentTermsTxt>
+        <InterestRt>0</InterestRt>
+        <LoanPurposeTxt>EDUCATION</LoanPurposeTxt>
+      </OtherNotesLoansRcvblLongGrp>
+      <OtherNotesLoansRcvblLongGrp>
+        <BorrowerNameGrp>
+          <PersonNm>MORENO SANDRA</PersonNm>
+        </BorrowerNameGrp>
+        <LoanOriginalAmt>1000</LoanOriginalAmt>
+        <NoteDt>2010-07</NoteDt>
+        <RepaymentTermsTxt>16.67/MO ON 1ST DAY, 6TH MO A/F GRAD/TERM</RepaymentTermsTxt>
+        <InterestRt>0</InterestRt>
+        <LoanPurposeTxt>EDUCATION</LoanPurposeTxt>
+      </OtherNotesLoansRcvblLongGrp>
+      <OtherNotesLoansRcvblLongGrp>
+        <BorrowerNameGrp>
+          <PersonNm>MULLINEAUX ZACHARY</PersonNm>
+        </BorrowerNameGrp>
+        <LoanOriginalAmt>2000</LoanOriginalAmt>
+        <NoteDt>2012-07</NoteDt>
+        <RepaymentTermsTxt>33.34/MO ON 1ST DAY, 6TH MO A/F GRAD/TERM</RepaymentTermsTxt>
+        <InterestRt>0</InterestRt>
+        <LoanPurposeTxt>EDUCATION</LoanPurposeTxt>
+      </OtherNotesLoansRcvblLongGrp>
+      <OtherNotesLoansRcvblLongGrp>
+        <BorrowerNameGrp>
+          <PersonNm>PAYNE CHRISTINE</PersonNm>
+        </BorrowerNameGrp>
+        <LoanOriginalAmt>9500</LoanOriginalAmt>
+        <NoteDt>2007-07</NoteDt>
+        <RepaymentTermsTxt>158.34/MO ON 1ST DAY, 6TH MO A/F GRAD/TERM FOR 60</RepaymentTermsTxt>
+        <InterestRt>0</InterestRt>
+        <LoanPurposeTxt>EDUCATION</LoanPurposeTxt>
+      </OtherNotesLoansRcvblLongGrp>
+      <OtherNotesLoansRcvblLongGrp>
+        <BorrowerNameGrp>
+          <PersonNm>PAYNE NATALIE</PersonNm>
+        </BorrowerNameGrp>
+        <LoanOriginalAmt>11500</LoanOriginalAmt>
+        <NoteDt>2006-07</NoteDt>
+        <RepaymentTermsTxt>/MO ON 1ST DAY, 6TH MO A/F GRAD/TERM FOR 60 INS</RepaymentTermsTxt>
+        <InterestRt>0</InterestRt>
+        <LoanPurposeTxt>EDUCATION</LoanPurposeTxt>
+      </OtherNotesLoansRcvblLongGrp>
+      <OtherNotesLoansRcvblLongGrp>
+        <BorrowerNameGrp>
+          <PersonNm>PEDRICK IV JOHN</PersonNm>
+        </BorrowerNameGrp>
+        <LoanOriginalAmt>1000</LoanOriginalAmt>
+        <NoteDt>2007-07</NoteDt>
+        <RepaymentTermsTxt>16.67/MO ON 1ST DAY, 6TH MO A/F GRAD/TERM FOR 60 I</RepaymentTermsTxt>
+        <InterestRt>0</InterestRt>
+        <LoanPurposeTxt>EDUCATION</LoanPurposeTxt>
+      </OtherNotesLoansRcvblLongGrp>
+      <OtherNotesLoansRcvblLongGrp>
+        <BorrowerNameGrp>
+          <PersonNm>PERRY TERRANCE</PersonNm>
+        </BorrowerNameGrp>
+        <LoanOriginalAmt>9500</LoanOriginalAmt>
+        <NoteDt>2006-08</NoteDt>
+        <RepaymentTermsTxt>158.34/MO ON 1ST DAY, 6TH MO A/F GRAD/TERM FOR 60</RepaymentTermsTxt>
+        <InterestRt>0</InterestRt>
+        <LoanPurposeTxt>EDUCATION</LoanPurposeTxt>
+      </OtherNotesLoansRcvblLongGrp>
+      <OtherNotesLoansRcvblLongGrp>
+        <BorrowerNameGrp>
+          <PersonNm>PHILLIPS EDWARD</PersonNm>
+        </BorrowerNameGrp>
+        <LoanOriginalAmt>6000</LoanOriginalAmt>
+        <NoteDt>2011-07</NoteDt>
+        <RepaymentTermsTxt>100/MO ON 1ST DAY, 6TH MO A/F GRAD/END SCH 60 INS</RepaymentTermsTxt>
+        <InterestRt>0</InterestRt>
+        <LoanPurposeTxt>EDUCATION</LoanPurposeTxt>
+      </OtherNotesLoansRcvblLongGrp>
+      <OtherNotesLoansRcvblLongGrp>
+        <BorrowerNameGrp>
+          <PersonNm>PHILLIPS MEGHAN C</PersonNm>
+        </BorrowerNameGrp>
+        <LoanOriginalAmt>8000</LoanOriginalAmt>
+        <NoteDt>2009-07</NoteDt>
+        <RepaymentTermsTxt>133.34/MO ON 1ST DAY, 6TH MO A/F GRAD/TERM FOR 60</RepaymentTermsTxt>
+        <InterestRt>0</InterestRt>
+        <LoanPurposeTxt>EDUCATION</LoanPurposeTxt>
+      </OtherNotesLoansRcvblLongGrp>
+      <OtherNotesLoansRcvblLongGrp>
+        <BorrowerNameGrp>
+          <PersonNm>ROBERTSON JULIA M</PersonNm>
+        </BorrowerNameGrp>
+        <LoanOriginalAmt>4000</LoanOriginalAmt>
+        <NoteDt>2006-08</NoteDt>
+        <RepaymentTermsTxt>66.67/MO ON 1ST DAY, 6TH MO A/F GRAD/TERM FOR 60 I</RepaymentTermsTxt>
+        <InterestRt>0</InterestRt>
+        <LoanPurposeTxt>EDUCATION</LoanPurposeTxt>
+      </OtherNotesLoansRcvblLongGrp>
+      <OtherNotesLoansRcvblLongGrp>
+        <BorrowerNameGrp>
+          <PersonNm>SALACH JAZMINE</PersonNm>
+        </BorrowerNameGrp>
+        <LoanOriginalAmt>2000</LoanOriginalAmt>
+        <NoteDt>2012-07</NoteDt>
+        <RepaymentTermsTxt>33.34/MO ON 1ST DAY, 6TH MO A/F GRAD/TERM</RepaymentTermsTxt>
+        <InterestRt>0</InterestRt>
+        <LoanPurposeTxt>EDUCATION</LoanPurposeTxt>
+      </OtherNotesLoansRcvblLongGrp>
+      <OtherNotesLoansRcvblLongGrp>
+        <BorrowerNameGrp>
+          <PersonNm>SALACH MICHAEL</PersonNm>
+        </BorrowerNameGrp>
+        <LoanOriginalAmt>2000</LoanOriginalAmt>
+        <NoteDt>2012-07</NoteDt>
+        <RepaymentTermsTxt>33.34/MO ON 1ST DAY, 6TH MO A/F GRAD/TERM FOR 60 I</RepaymentTermsTxt>
+        <InterestRt>0</InterestRt>
+        <LoanPurposeTxt>EDUCATION</LoanPurposeTxt>
+      </OtherNotesLoansRcvblLongGrp>
+      <OtherNotesLoansRcvblLongGrp>
+        <BorrowerNameGrp>
+          <PersonNm>SAMMARTINO CHRISTIAN</PersonNm>
+        </BorrowerNameGrp>
+        <LoanOriginalAmt>5000</LoanOriginalAmt>
+        <NoteDt>2011-07</NoteDt>
+        <RepaymentTermsTxt>83.34/MO ON 1ST DAY, 6TH MO A/F GRAD/TERM FOR 60 I</RepaymentTermsTxt>
+        <InterestRt>0</InterestRt>
+        <LoanPurposeTxt>EDUCATION</LoanPurposeTxt>
+      </OtherNotesLoansRcvblLongGrp>
+      <OtherNotesLoansRcvblLongGrp>
+        <BorrowerNameGrp>
+          <PersonNm>SARIAN MEGAN</PersonNm>
+        </BorrowerNameGrp>
+        <LoanOriginalAmt>5500</LoanOriginalAmt>
+        <NoteDt>2009-07</NoteDt>
+        <RepaymentTermsTxt>91.67/MO ON 1ST DAY, 6TH MO A/F GRAD/TERM FOR 60 I</RepaymentTermsTxt>
+        <InterestRt>0</InterestRt>
+        <LoanPurposeTxt>EDUCATION</LoanPurposeTxt>
+      </OtherNotesLoansRcvblLongGrp>
+      <OtherNotesLoansRcvblLongGrp>
+        <BorrowerNameGrp>
+          <PersonNm>SAYLOR AMANDA</PersonNm>
+        </BorrowerNameGrp>
+        <LoanOriginalAmt>5000</LoanOriginalAmt>
+        <NoteDt>2005-08</NoteDt>
+        <RepaymentTermsTxt>83.34/MO ON 1ST DAY, 6TH MO A/F GRAD/TERM FOR 60 I</RepaymentTermsTxt>
+        <InterestRt>0</InterestRt>
+        <LoanPurposeTxt>EDUCATION</LoanPurposeTxt>
+      </OtherNotesLoansRcvblLongGrp>
+      <OtherNotesLoansRcvblLongGrp>
+        <BorrowerNameGrp>
+          <PersonNm>SCHNEIDER AMANDA</PersonNm>
+        </BorrowerNameGrp>
+        <LoanOriginalAmt>8000</LoanOriginalAmt>
+        <NoteDt>2004-08</NoteDt>
+        <RepaymentTermsTxt>133.34/MO ON 1ST DAY, 6TH MO A/F GRAD/TERM FOR 60</RepaymentTermsTxt>
+        <InterestRt>0</InterestRt>
+        <LoanPurposeTxt>EDUCATION</LoanPurposeTxt>
+      </OtherNotesLoansRcvblLongGrp>
+      <OtherNotesLoansRcvblLongGrp>
+        <BorrowerNameGrp>
+          <PersonNm>SCHWEMLER TIMOTHY</PersonNm>
+        </BorrowerNameGrp>
+        <LoanOriginalAmt>4000</LoanOriginalAmt>
+        <NoteDt>2012-07</NoteDt>
+        <RepaymentTermsTxt>66.67/MO ON 1ST DAY, 6TH MO A/F GRAD/TERM FOR 60 I</RepaymentTermsTxt>
+        <InterestRt>0</InterestRt>
+        <LoanPurposeTxt>EDUCATION</LoanPurposeTxt>
+      </OtherNotesLoansRcvblLongGrp>
+      <OtherNotesLoansRcvblLongGrp>
+        <BorrowerNameGrp>
+          <PersonNm>SHARPE JACLYN</PersonNm>
+        </BorrowerNameGrp>
+        <LoanOriginalAmt>14500</LoanOriginalAmt>
+        <NoteDt>2006-07</NoteDt>
+        <RepaymentTermsTxt>241.67/MO ON 1ST DAY, 6TH MO A/F GRAD/TERM FOR 60</RepaymentTermsTxt>
+        <InterestRt>0</InterestRt>
+        <LoanPurposeTxt>EDUCATION</LoanPurposeTxt>
+      </OtherNotesLoansRcvblLongGrp>
+      <OtherNotesLoansRcvblLongGrp>
+        <BorrowerNameGrp>
+          <PersonNm>SHARPE KELLY</PersonNm>
+        </BorrowerNameGrp>
+        <LoanOriginalAmt>8500</LoanOriginalAmt>
+        <NoteDt>2006-07</NoteDt>
+        <RepaymentTermsTxt>141.67/MO ON 1ST DAY, 6TH MO A/F GRAD/TERM FOR 60</RepaymentTermsTxt>
+        <InterestRt>0</InterestRt>
+        <LoanPurposeTxt>EDUCATION</LoanPurposeTxt>
+      </OtherNotesLoansRcvblLongGrp>
+      <OtherNotesLoansRcvblLongGrp>
+        <BorrowerNameGrp>
+          <PersonNm>SHAVER LISA</PersonNm>
+        </BorrowerNameGrp>
+        <LoanOriginalAmt>2000</LoanOriginalAmt>
+        <NoteDt>2005-08</NoteDt>
+        <RepaymentTermsTxt>33.33/MO ON 1ST DAY, 6TH MO A/F GRAD/TERM FOR 60 I</RepaymentTermsTxt>
+        <InterestRt>0</InterestRt>
+        <LoanPurposeTxt>EDUCATION</LoanPurposeTxt>
+      </OtherNotesLoansRcvblLongGrp>
+      <OtherNotesLoansRcvblLongGrp>
+        <BorrowerNameGrp>
+          <PersonNm>SHAVER LISA</PersonNm>
+        </BorrowerNameGrp>
+        <LoanOriginalAmt>2000</LoanOriginalAmt>
+        <NoteDt>2004-07</NoteDt>
+        <RepaymentTermsTxt>33.33/MO ON 1ST DAY, 6TH MO A/F GRAD/TERM FOR 60 I</RepaymentTermsTxt>
+        <InterestRt>0</InterestRt>
+        <LoanPurposeTxt>EDUCATION</LoanPurposeTxt>
+      </OtherNotesLoansRcvblLongGrp>
+      <OtherNotesLoansRcvblLongGrp>
+        <BorrowerNameGrp>
+          <PersonNm>SHAVER RYAN</PersonNm>
+        </BorrowerNameGrp>
+        <LoanOriginalAmt>2000</LoanOriginalAmt>
+        <NoteDt>2004-07</NoteDt>
+        <RepaymentTermsTxt>33.34/MO ON 1ST DAY, 6TH MO A/F GRAD/TERM FOR 60 I</RepaymentTermsTxt>
+        <InterestRt>0</InterestRt>
+        <LoanPurposeTxt>EDUCATION</LoanPurposeTxt>
+      </OtherNotesLoansRcvblLongGrp>
+      <OtherNotesLoansRcvblLongGrp>
+        <BorrowerNameGrp>
+          <PersonNm>SHAVER RYAN</PersonNm>
+        </BorrowerNameGrp>
+        <LoanOriginalAmt>2000</LoanOriginalAmt>
+        <NoteDt>2003-08</NoteDt>
+        <RepaymentTermsTxt>33.33/MO ON 1ST DAY, 6TH MO A/F GRAD/TERM FOR 60 I</RepaymentTermsTxt>
+        <InterestRt>0</InterestRt>
+        <LoanPurposeTxt>EDUCATION</LoanPurposeTxt>
+      </OtherNotesLoansRcvblLongGrp>
+      <OtherNotesLoansRcvblLongGrp>
+        <BorrowerNameGrp>
+          <PersonNm>SHAVERM RYAN</PersonNm>
+        </BorrowerNameGrp>
+        <LoanOriginalAmt>2000</LoanOriginalAmt>
+        <NoteDt>2005-08</NoteDt>
+        <RepaymentTermsTxt>33.33/MO ON 1ST DAY, 6TH MO A/F GRAD/TERM FOR 60 I</RepaymentTermsTxt>
+        <InterestRt>0</InterestRt>
+        <LoanPurposeTxt>EDUCATION</LoanPurposeTxt>
+      </OtherNotesLoansRcvblLongGrp>
+      <OtherNotesLoansRcvblLongGrp>
+        <BorrowerNameGrp>
+          <PersonNm>SOLOMON RACHEL O</PersonNm>
+        </BorrowerNameGrp>
+        <LoanOriginalAmt>10000</LoanOriginalAmt>
+        <NoteDt>2010-07</NoteDt>
+        <RepaymentTermsTxt>166.67/MO ON 1ST DAY, 6TH MO A/F GRAD/TERM</RepaymentTermsTxt>
+        <InterestRt>0</InterestRt>
+        <LoanPurposeTxt>EDUCATION</LoanPurposeTxt>
+      </OtherNotesLoansRcvblLongGrp>
+      <OtherNotesLoansRcvblLongGrp>
+        <BorrowerNameGrp>
+          <PersonNm>SOLOMAN STEPHANIE</PersonNm>
+        </BorrowerNameGrp>
+        <LoanOriginalAmt>11687</LoanOriginalAmt>
+        <NoteDt>2006-07</NoteDt>
+        <RepaymentTermsTxt>194.78/MO ON 15T DAY, 6TH MO A/F GRAD/TERM FOR 60</RepaymentTermsTxt>
+        <InterestRt>0</InterestRt>
+        <LoanPurposeTxt>EDUCATION</LoanPurposeTxt>
+      </OtherNotesLoansRcvblLongGrp>
+      <OtherNotesLoansRcvblLongGrp>
+        <BorrowerNameGrp>
+          <PersonNm>STECKEL KIERSTEN</PersonNm>
+        </BorrowerNameGrp>
+        <LoanOriginalAmt>4000</LoanOriginalAmt>
+        <NoteDt>2009-07</NoteDt>
+        <RepaymentTermsTxt>66.67/MO ON 1ST DAY, 6TH MO A/F GRAD/TERM FOR 60 I</RepaymentTermsTxt>
+        <InterestRt>0</InterestRt>
+        <LoanPurposeTxt>EDUCATION</LoanPurposeTxt>
+      </OtherNotesLoansRcvblLongGrp>
+      <OtherNotesLoansRcvblLongGrp>
+        <BorrowerNameGrp>
+          <PersonNm>STECKEL TIERA</PersonNm>
+        </BorrowerNameGrp>
+        <LoanOriginalAmt>2000</LoanOriginalAmt>
+        <RepaymentTermsTxt>33.34/MO ON 1ST DAY, 6TH MO A/F GRAD/TERM FOR 60 I</RepaymentTermsTxt>
+        <InterestRt>0</InterestRt>
+        <LoanPurposeTxt>EDUCATION</LoanPurposeTxt>
+      </OtherNotesLoansRcvblLongGrp>
+      <OtherNotesLoansRcvblLongGrp>
+        <BorrowerNameGrp>
+          <PersonNm>STURM ANNE</PersonNm>
+        </BorrowerNameGrp>
+        <LoanOriginalAmt>10000</LoanOriginalAmt>
+        <NoteDt>2009-07</NoteDt>
+        <RepaymentTermsTxt>166.67/MO ON 1ST DAY, 6TH MO A/F GRAD/TERM TIL PD</RepaymentTermsTxt>
+        <InterestRt>0</InterestRt>
+        <LoanPurposeTxt>EDUCATION</LoanPurposeTxt>
+      </OtherNotesLoansRcvblLongGrp>
+      <OtherNotesLoansRcvblLongGrp>
+        <BorrowerNameGrp>
+          <PersonNm>STURM BENJAMIN</PersonNm>
+        </BorrowerNameGrp>
+        <LoanOriginalAmt>3500</LoanOriginalAmt>
+        <NoteDt>2007-06</NoteDt>
+        <RepaymentTermsTxt>58.34/MO ON 1ST MATURES 04/01/2014</RepaymentTermsTxt>
+        <InterestRt>0</InterestRt>
+        <LoanPurposeTxt>EDUCATION</LoanPurposeTxt>
+      </OtherNotesLoansRcvblLongGrp>
+      <OtherNotesLoansRcvblLongGrp>
+        <BorrowerNameGrp>
+          <PersonNm>STRUM PETER</PersonNm>
+        </BorrowerNameGrp>
+        <LoanOriginalAmt>7000</LoanOriginalAmt>
+        <NoteDt>2007-07</NoteDt>
+        <RepaymentTermsTxt>116.67/MO ON 1ST DAY, 6TH MO A/F GRAD/TERM FOR 60</RepaymentTermsTxt>
+        <InterestRt>0</InterestRt>
+        <LoanPurposeTxt>EDUCATION</LoanPurposeTxt>
+      </OtherNotesLoansRcvblLongGrp>
+      <OtherNotesLoansRcvblLongGrp>
+        <BorrowerNameGrp>
+          <PersonNm>TWYMAN JHONDA</PersonNm>
+        </BorrowerNameGrp>
+        <LoanOriginalAmt>3000</LoanOriginalAmt>
+        <NoteDt>2001-07</NoteDt>
+        <RepaymentTermsTxt>REPMT BEG 6 MO A/F GRAD/TERM FR SCH PAY 60 INS TIL</RepaymentTermsTxt>
+        <InterestRt>0</InterestRt>
+        <LoanPurposeTxt>EDUCATION</LoanPurposeTxt>
+      </OtherNotesLoansRcvblLongGrp>
+      <OtherNotesLoansRcvblLongGrp>
+        <BorrowerNameGrp>
+          <PersonNm>WALSH DANIEL</PersonNm>
+        </BorrowerNameGrp>
+        <LoanOriginalAmt>3000</LoanOriginalAmt>
+        <NoteDt>2012-07</NoteDt>
+        <RepaymentTermsTxt>50/MO ON 1ST DAY, 6TH MO A/F GRAD/TERM</RepaymentTermsTxt>
+        <InterestRt>0</InterestRt>
+        <LoanPurposeTxt>EDUCATION</LoanPurposeTxt>
+      </OtherNotesLoansRcvblLongGrp>
+      <OtherNotesLoansRcvblLongGrp>
+        <BorrowerNameGrp>
+          <PersonNm>WOMER RYAN</PersonNm>
+        </BorrowerNameGrp>
+        <LoanOriginalAmt>13500</LoanOriginalAmt>
+        <NoteDt>2010-07</NoteDt>
+        <RepaymentTermsTxt>225/MO ON 1ST DAY, 6TH MO A/F GRAD/TERM</RepaymentTermsTxt>
+        <InterestRt>0</InterestRt>
+        <LoanPurposeTxt>EDUCATION</LoanPurposeTxt>
+      </OtherNotesLoansRcvblLongGrp>
+    </OtherNotesLoansRcvblLongSch>
+    <OtherProfessionalFeesSchedule documentId="OtherProfessionalFeesSchedule">
+      <OtherProfessionalFeesDetail>
+        <CategoryTxt>SCHOLARSHIP ADMIN FEES</CategoryTxt>
+        <Amt>18720</Amt>
+        <DisbursementsCharitablePrpsAmt>18720</DisbursementsCharitablePrpsAmt>
+      </OtherProfessionalFeesDetail>
+    </OtherProfessionalFeesSchedule>
+    <TaxesSchedule documentId="TaxesSchedule">
+      <TaxesDetail>
+        <CategoryTxt>FOREIGN TAXES</CategoryTxt>
+        <Amt>63</Amt>
+        <NetInvestmentIncomeAmt>63</NetInvestmentIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>0</DisbursementsCharitablePrpsAmt>
+      </TaxesDetail>
+      <TaxesDetail>
+        <CategoryTxt>FEDERAL ESTIMATES - PRINCIPAL</CategoryTxt>
+        <Amt>300</Amt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>0</DisbursementsCharitablePrpsAmt>
+      </TaxesDetail>
+      <TaxesDetail>
+        <CategoryTxt>FOREIGN TAXES ON NONQUALIFIED</CategoryTxt>
+        <Amt>23</Amt>
+        <NetInvestmentIncomeAmt>23</NetInvestmentIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>0</DisbursementsCharitablePrpsAmt>
+      </TaxesDetail>
+    </TaxesSchedule>
+  </ReturnData>
+</Return>

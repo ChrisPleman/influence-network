@@ -1,0 +1,567 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Return xmlns="http://www.irs.gov/efile" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.irs.gov/efile" returnVersion="2018v3.1">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2019-11-12T03:58:01-00:00</ReturnTs>
+    <TaxPeriodEndDt>2018-12-31</TaxPeriodEndDt>
+    <PreparerFirmGrp>
+      <PreparerFirmName>
+        <BusinessNameLine1Txt>Kenneth A Najarian PC CPA</BusinessNameLine1Txt>
+      </PreparerFirmName>
+      <PreparerUSAddress>
+        <AddressLine1Txt>420 Washington Street</AddressLine1Txt>
+        <CityNm>Braintree</CityNm>
+        <StateAbbreviationCd>MA</StateAbbreviationCd>
+        <ZIPCd>02184</ZIPCd>
+      </PreparerUSAddress>
+    </PreparerFirmGrp>
+    <ReturnTypeCd>990PF</ReturnTypeCd>
+    <TaxPeriodBeginDt>2018-01-01</TaxPeriodBeginDt>
+    <Filer>
+      <EIN>311745139</EIN>
+      <BusinessName>
+        <BusinessNameLine1Txt>JMS Family Foundation Inc</BusinessNameLine1Txt>
+      </BusinessName>
+      <BusinessNameControlTxt>JMSF</BusinessNameControlTxt>
+      <PhoneNum>7818491090</PhoneNum>
+      <USAddress>
+        <AddressLine1Txt>78 Hancock Street</AddressLine1Txt>
+        <CityNm>Braintree</CityNm>
+        <StateAbbreviationCd>MA</StateAbbreviationCd>
+        <ZIPCd>02184</ZIPCd>
+      </USAddress>
+    </Filer>
+    <BusinessOfficerGrp>
+      <PersonNm>James Sullivan</PersonNm>
+      <PersonTitleTxt>President</PersonTitleTxt>
+      <SignatureDt>2019-11-12</SignatureDt>
+      <DiscussWithPaidPreparerInd>true</DiscussWithPaidPreparerInd>
+    </BusinessOfficerGrp>
+    <PreparerPersonGrp>
+      <PreparerPersonNm>Kenneth Najarian</PreparerPersonNm>
+      <PhoneNum>7813803500</PhoneNum>
+      <PreparationDt>2019-11-12</PreparationDt>
+    </PreparerPersonGrp>
+    <FilingSecurityInformation>
+      <IPAddress>
+        <IPv4AddressTxt>173.48.59.91</IPv4AddressTxt>
+      </IPAddress>
+      <IPDt>2019-11-12</IPDt>
+      <IPTm>20:37:35</IPTm>
+      <IPTimezoneCd>ES</IPTimezoneCd>
+      <FederalOriginalSubmissionId>0444402019091sw8hdte</FederalOriginalSubmissionId>
+      <FederalOriginalSubmissionIdDt>2019-11-08</FederalOriginalSubmissionIdDt>
+      <FilingLicenseTypeCd>P</FilingLicenseTypeCd>
+      <AtSubmissionCreationDeviceId>63300401655FDD504F3B02C715ED14E0A24D9E9A</AtSubmissionCreationDeviceId>
+      <AtSubmissionFilingDeviceId>09A605C79F62C8CEAE08D9BC338E1F89F104849F</AtSubmissionFilingDeviceId>
+    </FilingSecurityInformation>
+    <TaxYr>2018</TaxYr>
+    <BuildTS>2020-01-14 16:20:31Z</BuildTS>
+  </ReturnHeader>
+  <ReturnData documentCnt="7">
+    <IRS990PF documentId="990PF" softwareId="18007340" softwareVersionNum="19.1.1.0">
+      <Organization501c3ExemptPFInd>X</Organization501c3ExemptPFInd>
+      <FMVAssetsEOYAmt>2496746</FMVAssetsEOYAmt>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <AnalysisOfRevenueAndExpenses>
+        <ContriRcvdRevAndExpnssAmt>100000</ContriRcvdRevAndExpnssAmt>
+        <InterestOnSavRevAndExpnssAmt>6337</InterestOnSavRevAndExpnssAmt>
+        <InterestOnSavNetInvstIncmAmt>6337</InterestOnSavNetInvstIncmAmt>
+        <DividendsRevAndExpnssAmt>49470</DividendsRevAndExpnssAmt>
+        <DividendsNetInvstIncmAmt>49470</DividendsNetInvstIncmAmt>
+        <NetGainSaleAstRevAndExpnssAmt referenceDocumentId="990PF:108">291336</NetGainSaleAstRevAndExpnssAmt>
+        <GrossSalesPriceAmt>291336</GrossSalesPriceAmt>
+        <CapGainNetIncmNetInvstIncmAmt>291336</CapGainNetIncmNetInvstIncmAmt>
+        <TotalRevAndExpnssAmt>447143</TotalRevAndExpnssAmt>
+        <TotalNetInvstIncmAmt>347143</TotalNetInvstIncmAmt>
+        <TaxesRevAndExpnssAmt referenceDocumentId="990PF:114">1846</TaxesRevAndExpnssAmt>
+        <TaxesNetInvstIncmAmt>1846</TaxesNetInvstIncmAmt>
+        <OccupancyRevAndExpnssAmt>2000</OccupancyRevAndExpnssAmt>
+        <OtherExpensesRevAndExpnssAmt referenceDocumentId="990PF:115">140</OtherExpensesRevAndExpnssAmt>
+        <OtherExpensesNetInvstIncmAmt>140</OtherExpensesNetInvstIncmAmt>
+        <TotOprExpensesRevAndExpnssAmt>3986</TotOprExpensesRevAndExpnssAmt>
+        <TotOprExpensesNetInvstIncmAmt>1986</TotOprExpensesNetInvstIncmAmt>
+        <TotOprExpensesDsbrsChrtblAmt>0</TotOprExpensesDsbrsChrtblAmt>
+        <ContriPaidRevAndExpnssAmt>122500</ContriPaidRevAndExpnssAmt>
+        <ContriPaidDsbrsChrtblAmt>122500</ContriPaidDsbrsChrtblAmt>
+        <TotalExpensesRevAndExpnssAmt>126486</TotalExpensesRevAndExpnssAmt>
+        <TotalExpensesNetInvstIncmAmt>1986</TotalExpensesNetInvstIncmAmt>
+        <TotalExpensesDsbrsChrtblAmt>122500</TotalExpensesDsbrsChrtblAmt>
+        <ExcessRevenueOverExpensesAmt>320657</ExcessRevenueOverExpensesAmt>
+        <NetInvestmentIncomeAmt>345157</NetInvestmentIncomeAmt>
+      </AnalysisOfRevenueAndExpenses>
+      <Form990PFBalanceSheetsGrp>
+        <CashBOYAmt>276426</CashBOYAmt>
+        <CashEOYAmt>49485</CashEOYAmt>
+        <CashEOYFMVAmt>49485</CashEOYFMVAmt>
+        <RcvblFromOfficersBOYAmt>146495</RcvblFromOfficersBOYAmt>
+        <RcvblFromOfficersEOYAmt referenceDocumentId="990PF:116">152832</RcvblFromOfficersEOYAmt>
+        <RcvblFromOfficersEOYFMVAmt>152832</RcvblFromOfficersEOYFMVAmt>
+        <CorporateStockBOYAmt>2056181</CorporateStockBOYAmt>
+        <CorporateStockEOYAmt referenceDocumentId="990PF:122">2597442</CorporateStockEOYAmt>
+        <CorporateStockEOYFMVAmt>2294429</CorporateStockEOYFMVAmt>
+        <TotalAssetsBOYAmt>2479102</TotalAssetsBOYAmt>
+        <TotalAssetsEOYAmt>2799759</TotalAssetsEOYAmt>
+        <TotalAssetsEOYFMVAmt>2496746</TotalAssetsEOYFMVAmt>
+        <TotalLiabilitiesEOYAmt>0</TotalLiabilitiesEOYAmt>
+        <OrganizationFollowsSFAS117Ind>X</OrganizationFollowsSFAS117Ind>
+        <UnrestrictedBOYAmt>2479102</UnrestrictedBOYAmt>
+        <UnrestrictedEOYAmt>2799759</UnrestrictedEOYAmt>
+        <TotNetAstOrFundBalancesBOYAmt>2479102</TotNetAstOrFundBalancesBOYAmt>
+        <TotNetAstOrFundBalancesEOYAmt>2799759</TotNetAstOrFundBalancesEOYAmt>
+        <TotalLiabilitiesNetAstBOYAmt>2479102</TotalLiabilitiesNetAstBOYAmt>
+        <TotalLiabilitiesNetAstEOYAmt>2799759</TotalLiabilitiesNetAstEOYAmt>
+      </Form990PFBalanceSheetsGrp>
+      <ChgInNetAssetsFundBalancesGrp>
+        <TotNetAstOrFundBalancesBOYAmt>2479102</TotNetAstOrFundBalancesBOYAmt>
+        <ExcessRevenueOverExpensesAmt>320657</ExcessRevenueOverExpensesAmt>
+        <SubtotalAmt>2799759</SubtotalAmt>
+        <TotNetAstOrFundBalancesEOYAmt>2799759</TotNetAstOrFundBalancesEOYAmt>
+      </ChgInNetAssetsFundBalancesGrp>
+      <CapGainsLossTxInvstIncmDetail>
+        <CapitalGainNetIncomeAmt>291336</CapitalGainNetIncomeAmt>
+      </CapGainsLossTxInvstIncmDetail>
+      <QlfyUndSect4940eReducedTaxGrp>
+        <LiableSection4942TaxInd>false</LiableSection4942TaxInd>
+        <AdjustedQlfyDistriYr1Amt>107154</AdjustedQlfyDistriYr1Amt>
+        <NetVlNoncharitableAssetsYr1Amt>2419511</NetVlNoncharitableAssetsYr1Amt>
+        <DistributionYr1Rt>000.044287</DistributionYr1Rt>
+        <AdjustedQlfyDistriYr2Amt>84344</AdjustedQlfyDistriYr2Amt>
+        <NetVlNoncharitableAssetsYr2Amt>1787889</NetVlNoncharitableAssetsYr2Amt>
+        <DistributionYr2Rt>000.047175</DistributionYr2Rt>
+        <AdjustedQlfyDistriYr3Amt>83650</AdjustedQlfyDistriYr3Amt>
+        <NetVlNoncharitableAssetsYr3Amt>1531308</NetVlNoncharitableAssetsYr3Amt>
+        <DistributionYr3Rt>000.054627</DistributionYr3Rt>
+        <AdjustedQlfyDistriYr4Amt>77917</AdjustedQlfyDistriYr4Amt>
+        <NetVlNoncharitableAssetsYr4Amt>1304840</NetVlNoncharitableAssetsYr4Amt>
+        <DistributionYr4Rt>000.059714</DistributionYr4Rt>
+        <AdjustedQlfyDistriYr5Amt>32320</AdjustedQlfyDistriYr5Amt>
+        <NetVlNoncharitableAssetsYr5Amt>730108</NetVlNoncharitableAssetsYr5Amt>
+        <DistributionYr5Rt>000.044267</DistributionYr5Rt>
+        <TotalDistributionRt>000.250070</TotalDistributionRt>
+        <AverageDistributionRt>000.050014</AverageDistributionRt>
+        <NetVlNoncharitableAssetsAmt>2565538</NetVlNoncharitableAssetsAmt>
+        <AdjNetVlNoncharitableAssetsAmt>128313</AdjNetVlNoncharitableAssetsAmt>
+        <NetInvestmentIncomePctAmt>3452</NetInvestmentIncomePctAmt>
+        <AdjNonchrtblNetInvstIncmPctAmt>131765</AdjNonchrtblNetInvstIncmPctAmt>
+        <QualifyingDistributionsAmt>122500</QualifyingDistributionsAmt>
+      </QlfyUndSect4940eReducedTaxGrp>
+      <ExciseTaxBasedOnInvstIncmGrp>
+        <InvestmentIncomeExciseTaxAmt>6903</InvestmentIncomeExciseTaxAmt>
+        <SubtotalAmt>6903</SubtotalAmt>
+        <TaxBasedOnInvestmentIncomeAmt>6903</TaxBasedOnInvestmentIncomeAmt>
+        <EsPenaltyAmt>64</EsPenaltyAmt>
+        <TaxDueAmt>6967</TaxDueAmt>
+      </ExciseTaxBasedOnInvstIncmGrp>
+      <StatementsRegardingActyGrp>
+        <LegislativePoliticalActyInd>false</LegislativePoliticalActyInd>
+        <MoreThan100SpentInd>false</MoreThan100SpentInd>
+        <Form1120POLFiledInd>false</Form1120POLFiledInd>
+        <ActivitiesNotPreviouslyRptInd>false</ActivitiesNotPreviouslyRptInd>
+        <ChangesToArticlesOrBylawsInd>false</ChangesToArticlesOrBylawsInd>
+        <UnrelatedBusIncmOverLimitInd>false</UnrelatedBusIncmOverLimitInd>
+        <Section508eRqrSatisfiedInd>false</Section508eRqrSatisfiedInd>
+        <AtLeast5000InAssetsInd>true</AtLeast5000InAssetsInd>
+        <OrgReportOrRegisterStateCd>MA</OrgReportOrRegisterStateCd>
+        <PrivateOperatingFoundationInd>false</PrivateOperatingFoundationInd>
+        <NewSubstantialContributorsInd referenceDocumentId="990PF:124">true</NewSubstantialContributorsInd>
+        <OwnControlledEntityInd>false</OwnControlledEntityInd>
+        <DonorAdvisedFundInd>false</DonorAdvisedFundInd>
+        <ComplyWithPublicInspRqrInd>true</ComplyWithPublicInspRqrInd>
+        <WebsiteAddressTxt>N/A</WebsiteAddressTxt>
+        <IndividualWithBooksNm>James Sullivan</IndividualWithBooksNm>
+        <PhoneNum>7818491090</PhoneNum>
+        <LocationOfBooksUSAddress>
+          <AddressLine1Txt>78 Hancock St</AddressLine1Txt>
+          <CityNm>Braintree</CityNm>
+          <StateAbbreviationCd>MA</StateAbbreviationCd>
+          <ZIPCd>02184</ZIPCd>
+        </LocationOfBooksUSAddress>
+        <ForeignAccountsQuestionInd>false</ForeignAccountsQuestionInd>
+      </StatementsRegardingActyGrp>
+      <StatementsRegardingActy4720Grp>
+        <SaleOrExchDisqualifiedPrsnInd>false</SaleOrExchDisqualifiedPrsnInd>
+        <BrrwOrLendDisqualifiedPrsnInd>true</BrrwOrLendDisqualifiedPrsnInd>
+        <FurnGoodsDisqualifiedPrsnInd>false</FurnGoodsDisqualifiedPrsnInd>
+        <PayCompDisqualifiedPrsnInd>false</PayCompDisqualifiedPrsnInd>
+        <TransferAstDisqualifiedPrsnInd>false</TransferAstDisqualifiedPrsnInd>
+        <PaymentToGovernmentOfficialInd>false</PaymentToGovernmentOfficialInd>
+        <ActsFailToQlfyAsExceptionsInd>false</ActsFailToQlfyAsExceptionsInd>
+        <UncorrectedPriorActsInd>false</UncorrectedPriorActsInd>
+        <UndistributedIncomePYInd>false</UndistributedIncomePYInd>
+        <BusinessHoldingsInd>false</BusinessHoldingsInd>
+        <JeopardyInvestmentsInd>false</JeopardyInvestmentsInd>
+        <UncorrectedPYJeopardyInvstInd>false</UncorrectedPYJeopardyInvstInd>
+        <InfluenceLegislationInd>false</InfluenceLegislationInd>
+        <InfluenceElectionInd>false</InfluenceElectionInd>
+        <GrantsToIndividualsInd>false</GrantsToIndividualsInd>
+        <GrantsToOrganizationsInd>false</GrantsToOrganizationsInd>
+        <NoncharitablePurposeInd>false</NoncharitablePurposeInd>
+        <RcvFndsToPayPrsnlBnftCntrctInd>false</RcvFndsToPayPrsnlBnftCntrctInd>
+        <PayPremiumsPrsnlBnftCntrctInd>false</PayPremiumsPrsnlBnftCntrctInd>
+        <ProhibitedTaxShelterTransInd>false</ProhibitedTaxShelterTransInd>
+        <ProceedsOrNetIncomeInd>false</ProceedsOrNetIncomeInd>
+        <SubjToTaxRmnrtnExPrchtPymtInd>false</SubjToTaxRmnrtnExPrchtPymtInd>
+      </StatementsRegardingActy4720Grp>
+      <OfficerDirTrstKeyEmplInfoGrp>
+        <OfficerDirTrstKeyEmplGrp>
+          <PersonNm>James Sullivan</PersonNm>
+          <USAddress>
+            <AddressLine1Txt>Bayview Dr</AddressLine1Txt>
+            <CityNm>Osterville</CityNm>
+            <StateAbbreviationCd>MA</StateAbbreviationCd>
+            <ZIPCd>02601</ZIPCd>
+          </USAddress>
+          <TitleTxt>President</TitleTxt>
+          <AverageHrsPerWkDevotedToPosRt>001.00</AverageHrsPerWkDevotedToPosRt>
+          <CompensationAmt>0</CompensationAmt>
+        </OfficerDirTrstKeyEmplGrp>
+      </OfficerDirTrstKeyEmplInfoGrp>
+      <SummaryOfDirectChrtblActyGrp>
+        <Description1Txt>The Foundation contributes to several selected charities for educational and research purposes</Description1Txt>
+        <Expenses1Amt>126486</Expenses1Amt>
+      </SummaryOfDirectChrtblActyGrp>
+      <SumOfProgramRelatedInvstGrp>
+        <Description1Txt>NONE</Description1Txt>
+      </SumOfProgramRelatedInvstGrp>
+      <MinimumInvestmentReturnGrp>
+        <AverageMonthlyFMVOfSecAmt>2317709</AverageMonthlyFMVOfSecAmt>
+        <AverageMonthlyCashBalancesAmt>137234</AverageMonthlyCashBalancesAmt>
+        <FMVAllOtherNoncharitableAstAmt>149664</FMVAllOtherNoncharitableAstAmt>
+        <TotalFMVOfUnusedAssetsAmt>2604607</TotalFMVOfUnusedAssetsAmt>
+        <AdjustedTotalFMVOfUnusedAstAmt>2604607</AdjustedTotalFMVOfUnusedAstAmt>
+        <CashDeemedCharitableAmt referenceDocumentId="990PF:150">39069</CashDeemedCharitableAmt>
+        <NetVlNoncharitableAssetsAmt>2565538</NetVlNoncharitableAssetsAmt>
+        <MinimumInvestmentReturnAmt>128277</MinimumInvestmentReturnAmt>
+      </MinimumInvestmentReturnGrp>
+      <DistributableAmountGrp>
+        <MinimumInvestmentReturnAmt>128277</MinimumInvestmentReturnAmt>
+        <TaxBasedOnInvestmentIncomeAmt>6903</TaxBasedOnInvestmentIncomeAmt>
+        <TotalTaxAmt>6903</TotalTaxAmt>
+        <DistributableBeforeAdjAmt>121374</DistributableBeforeAdjAmt>
+        <DistributableBeforeDedAmt>121374</DistributableBeforeDedAmt>
+        <DistributableAsAdjustedAmt>121374</DistributableAsAdjustedAmt>
+      </DistributableAmountGrp>
+      <QualifyingDistriPartXIIGrp>
+        <ExpensesAndContributionsAmt referenceDocumentId="990PF:151">122500</ExpensesAndContributionsAmt>
+        <QualifyingDistributionsAmt>122500</QualifyingDistributionsAmt>
+        <AdjustedQualifyingDistriAmt>122500</AdjustedQualifyingDistriAmt>
+      </QualifyingDistriPartXIIGrp>
+      <UndistributedIncomeGrp>
+        <DistributableAsAdjustedAmt>121374</DistributableAsAdjustedAmt>
+        <ExcessDistributionCyovYr4Amt>5160</ExcessDistributionCyovYr4Amt>
+        <ExcessDistributionCyovYr3Amt>84525</ExcessDistributionCyovYr3Amt>
+        <ExcessDistributionCyovYr2Amt>84500</ExcessDistributionCyovYr2Amt>
+        <TotalExcessDistributionCyovAmt>174185</TotalExcessDistributionCyovAmt>
+        <QualifyingDistributionsAmt>122500</QualifyingDistributionsAmt>
+        <AppliedToCurrentYearAmt>121374</AppliedToCurrentYearAmt>
+        <RemainingDistriFromCorpusAmt>1126</RemainingDistriFromCorpusAmt>
+        <TotalCorpusAmt>175311</TotalCorpusAmt>
+        <UndistributedIncomeCYAmt>0</UndistributedIncomeCYAmt>
+        <ExcessDistriCyovToNextYrAmt>175311</ExcessDistriCyovToNextYrAmt>
+        <ExcessFromYear4Amt>5160</ExcessFromYear4Amt>
+        <ExcessFromYear3Amt>84525</ExcessFromYear3Amt>
+        <ExcessFromYear2Amt>84500</ExcessFromYear2Amt>
+        <ExcessFromCurrentYearAmt>1126</ExcessFromCurrentYearAmt>
+      </UndistributedIncomeGrp>
+      <SupplementaryInformationGrp>
+        <ContributingManagerNm>NONE</ContributingManagerNm>
+        <ShareholderManagerNm>NONE</ShareholderManagerNm>
+        <OnlyContriToPreselectedInd>X</OnlyContriToPreselectedInd>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>Accion International</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientUSAddress>
+            <AddressLine1Txt>10 Fawcett St</AddressLine1Txt>
+            <CityNm>Cambridge</CityNm>
+            <StateAbbreviationCd>MA</StateAbbreviationCd>
+            <ZIPCd>02138</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>None</RecipientRelationshipTxt>
+          <GrantOrContributionPurposeTxt>Financial access for all</GrantOrContributionPurposeTxt>
+          <Amt>3000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>Center for the Arts</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientUSAddress>
+            <AddressLine1Txt>222 Yamato Rd</AddressLine1Txt>
+            <CityNm>Boca Raton</CityNm>
+            <StateAbbreviationCd>FL</StateAbbreviationCd>
+            <ZIPCd>33431</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>None</RecipientRelationshipTxt>
+          <GrantOrContributionPurposeTxt>Arts Education</GrantOrContributionPurposeTxt>
+          <Amt>1000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>Boston Globe - Santa</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientUSAddress>
+            <AddressLine1Txt>PO Box 491</AddressLine1Txt>
+            <CityNm>Medford</CityNm>
+            <StateAbbreviationCd>MA</StateAbbreviationCd>
+            <ZIPCd>02155</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>None</RecipientRelationshipTxt>
+          <GrantOrContributionPurposeTxt>Charitable</GrantOrContributionPurposeTxt>
+          <Amt>7000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>Greater Boston Food Bank</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientUSAddress>
+            <AddressLine1Txt>70 South Bay Ave</AddressLine1Txt>
+            <CityNm>Boston</CityNm>
+            <StateAbbreviationCd>MA</StateAbbreviationCd>
+            <ZIPCd>02118</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>None</RecipientRelationshipTxt>
+          <GrantOrContributionPurposeTxt>Charitable</GrantOrContributionPurposeTxt>
+          <Amt>7000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>Milton Foundation for Education</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientUSAddress>
+            <AddressLine1Txt>PO Box 223</AddressLine1Txt>
+            <CityNm>Milton</CityNm>
+            <StateAbbreviationCd>MA</StateAbbreviationCd>
+            <ZIPCd>02186</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>None</RecipientRelationshipTxt>
+          <GrantOrContributionPurposeTxt>Education</GrantOrContributionPurposeTxt>
+          <Amt>7500</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>Milton Hospital</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientUSAddress>
+            <AddressLine1Txt>199 Reedsdale Rd</AddressLine1Txt>
+            <CityNm>Milton</CityNm>
+            <StateAbbreviationCd>MA</StateAbbreviationCd>
+            <ZIPCd>02186</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>None</RecipientRelationshipTxt>
+          <GrantOrContributionPurposeTxt>Research</GrantOrContributionPurposeTxt>
+          <Amt>35000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>Salvation Army</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientUSAddress>
+            <AddressLine1Txt>25 Shawmut Rd</AddressLine1Txt>
+            <CityNm>Canton</CityNm>
+            <StateAbbreviationCd>MA</StateAbbreviationCd>
+            <ZIPCd>02021</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>None</RecipientRelationshipTxt>
+          <GrantOrContributionPurposeTxt>Charitable</GrantOrContributionPurposeTxt>
+          <Amt>17000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>Dana Farber Cancer Institue</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientUSAddress>
+            <AddressLine1Txt>10 Brookline Place West</AddressLine1Txt>
+            <CityNm>Brookline</CityNm>
+            <StateAbbreviationCd>MA</StateAbbreviationCd>
+            <ZIPCd>02445</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>None</RecipientRelationshipTxt>
+          <GrantOrContributionPurposeTxt>Research</GrantOrContributionPurposeTxt>
+          <Amt>20000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>St Jude Children's Hospital</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientUSAddress>
+            <AddressLine1Txt>510 St Jude Place</AddressLine1Txt>
+            <CityNm>Memphis</CityNm>
+            <StateAbbreviationCd>TN</StateAbbreviationCd>
+            <ZIPCd>38105</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>None</RecipientRelationshipTxt>
+          <GrantOrContributionPurposeTxt>Research</GrantOrContributionPurposeTxt>
+          <Amt>17000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>Home for Little Wanderers</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientUSAddress>
+            <AddressLine1Txt>10 Guest St</AddressLine1Txt>
+            <CityNm>Boston</CityNm>
+            <StateAbbreviationCd>MA</StateAbbreviationCd>
+            <ZIPCd>02135</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>None</RecipientRelationshipTxt>
+          <GrantOrContributionPurposeTxt>Charitable</GrantOrContributionPurposeTxt>
+          <Amt>5000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>Young People's Chorus of NY</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientUSAddress>
+            <AddressLine1Txt>37 West 65th St</AddressLine1Txt>
+            <CityNm>New York</CityNm>
+            <StateAbbreviationCd>NY</StateAbbreviationCd>
+            <ZIPCd>10023</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>None</RecipientRelationshipTxt>
+          <GrantOrContributionPurposeTxt>Arts Education</GrantOrContributionPurposeTxt>
+          <Amt>1000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>Martin Richard Foundation</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientUSAddress>
+            <AddressLine1Txt>1452 Dorchester Ave</AddressLine1Txt>
+            <CityNm>Dorchester</CityNm>
+            <StateAbbreviationCd>MA</StateAbbreviationCd>
+            <ZIPCd>02122</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>None</RecipientRelationshipTxt>
+          <GrantOrContributionPurposeTxt>Charitable</GrantOrContributionPurposeTxt>
+          <Amt>2000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <TotalGrantOrContriPdDurYrAmt>122500</TotalGrantOrContriPdDurYrAmt>
+      </SupplementaryInformationGrp>
+      <AnalysisIncomeProducingActyGrp>
+        <IntOnSavAndTempCashInvstGrp>
+          <RelatedOrExemptFunctionIncmAmt>6337</RelatedOrExemptFunctionIncmAmt>
+        </IntOnSavAndTempCashInvstGrp>
+        <DivAndIntFromSecPartVIIGrp>
+          <RelatedOrExemptFunctionIncmAmt>49470</RelatedOrExemptFunctionIncmAmt>
+        </DivAndIntFromSecPartVIIGrp>
+        <SubtotalsIncmProducingActyGrp>
+          <RelatedOrExemptFunctionIncmAmt>55807</RelatedOrExemptFunctionIncmAmt>
+        </SubtotalsIncmProducingActyGrp>
+        <TotalIncomeProducingActyAmt>55807</TotalIncomeProducingActyAmt>
+      </AnalysisIncomeProducingActyGrp>
+      <RlnOfActyToAccomOfExmptPrpsGrp>
+        <RlnOfActyToAccomOfExmptPrpsGrp>
+          <LineNumberTxt>3, 4 8</LineNumberTxt>
+          <RelationshipStatementTxt>Investment income earned to further educational purpose of foundation</RelationshipStatementTxt>
+        </RlnOfActyToAccomOfExmptPrpsGrp>
+      </RlnOfActyToAccomOfExmptPrpsGrp>
+      <TrnsfrTransRlnNonchrtblEOGrp>
+        <TrnsfrOfCashToNonchrtblEOInd>false</TrnsfrOfCashToNonchrtblEOInd>
+        <TrnsfrOtherAssetNonchrtblEOInd>false</TrnsfrOtherAssetNonchrtblEOInd>
+        <SalesOrExchangesOfAssetsInd>false</SalesOrExchangesOfAssetsInd>
+        <PurchaseOfAssetsNonchrtblEOInd>false</PurchaseOfAssetsNonchrtblEOInd>
+        <RentalOfFacilitiesOthAssetsInd>false</RentalOfFacilitiesOthAssetsInd>
+        <ReimbursementArrangementsInd>false</ReimbursementArrangementsInd>
+        <LoansOrLoanGuaranteesInd>false</LoansOrLoanGuaranteesInd>
+        <PerformanceOfServicesEtcInd>false</PerformanceOfServicesEtcInd>
+        <SharingOfFacilitiesEtcInd>false</SharingOfFacilitiesEtcInd>
+        <RelationshipsNonchrtblEOInd>false</RelationshipsNonchrtblEOInd>
+      </TrnsfrTransRlnNonchrtblEOGrp>
+    </IRS990PF>
+    <IRS990ScheduleB documentId="990B" softwareId="18007340" softwareVersionNum="19.1.1.0">
+      <Organization501c3ExemptPFInd>X</Organization501c3ExemptPFInd>
+      <ContributorInformationGrp>
+        <ContributorNum>1</ContributorNum>
+        <ContributorPersonNm>Sullivan Co</ContributorPersonNm>
+        <ContributorUSAddress>
+          <AddressLine1Txt>78 Hancock St</AddressLine1Txt>
+          <CityNm>Braintree</CityNm>
+          <StateAbbreviationCd>MA</StateAbbreviationCd>
+          <ZIPCd>02184</ZIPCd>
+        </ContributorUSAddress>
+        <TotalContributionsAmt>100000</TotalContributionsAmt>
+        <PersonContributionInd>X</PersonContributionInd>
+      </ContributorInformationGrp>
+    </IRS990ScheduleB>
+    <InvestmentsCorpStockSchedule documentId="990PF:122" softwareId="18007340" softwareVersionNum="19.1.1.0">
+      <InvestmentsCorporateStockGrp>
+        <StockNm>Fidelity Mutual Funds</StockNm>
+        <EOYBookValueAmt>2413110</EOYBookValueAmt>
+        <EOYFMVAmt>2113395</EOYFMVAmt>
+      </InvestmentsCorporateStockGrp>
+      <InvestmentsCorporateStockGrp>
+        <StockNm>Fidelity Bond Funds</StockNm>
+        <EOYBookValueAmt>184332</EOYBookValueAmt>
+        <EOYFMVAmt>181034</EOYFMVAmt>
+      </InvestmentsCorporateStockGrp>
+    </InvestmentsCorpStockSchedule>
+    <OtherExpensesSchedule documentId="990PF:115" softwareId="18007340" softwareVersionNum="19.1.1.0">
+      <OtherExpensesScheduleGrp>
+        <Desc>Filing fees</Desc>
+        <RevenueAndExpensesPerBooksAmt>140</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>140</NetInvestmentIncomeAmt>
+      </OtherExpensesScheduleGrp>
+    </OtherExpensesSchedule>
+    <OtherReceivablesOfficersSch documentId="990PF:116" softwareId="18007340" softwareVersionNum="19.1.1.0">
+      <OfficerTravelAdvanceAmt>126767</OfficerTravelAdvanceAmt>
+      <OfficerOtherRcvblGrp>
+        <BorrowerPersonNm>James Sullivan</BorrowerPersonNm>
+        <BorrowerTitleTxt>President</BorrowerTitleTxt>
+        <LoanOriginalAmt>39650</LoanOriginalAmt>
+        <BalanceDueAmt>47124</BalanceDueAmt>
+        <NoteDt>2014-05</NoteDt>
+        <RepaymentTermsTxt>On demand</RepaymentTermsTxt>
+        <InterestRt>0000000000.050000000000</InterestRt>
+        <LoanPurposeTxt>Education</LoanPurposeTxt>
+      </OfficerOtherRcvblGrp>
+      <OfficerOtherRcvblGrp>
+        <BorrowerPersonNm>James Sullivan</BorrowerPersonNm>
+        <BorrowerTitleTxt>President</BorrowerTitleTxt>
+        <LoanOriginalAmt>19608</LoanOriginalAmt>
+        <BalanceDueAmt>24866</BalanceDueAmt>
+        <NoteDt>2014-01</NoteDt>
+        <RepaymentTermsTxt>On demand</RepaymentTermsTxt>
+        <InterestRt>0000000000.050000000000</InterestRt>
+        <LoanPurposeTxt>Education</LoanPurposeTxt>
+      </OfficerOtherRcvblGrp>
+      <OfficerOtherRcvblGrp>
+        <BorrowerPersonNm>James Sullivan</BorrowerPersonNm>
+        <BorrowerTitleTxt>President</BorrowerTitleTxt>
+        <LoanOriginalAmt>31902</LoanOriginalAmt>
+        <BalanceDueAmt>37840</BalanceDueAmt>
+        <NoteDt>2015-05</NoteDt>
+        <RepaymentTermsTxt>On demand</RepaymentTermsTxt>
+        <InterestRt>0000000000.050000000000</InterestRt>
+        <LoanPurposeTxt>Education</LoanPurposeTxt>
+      </OfficerOtherRcvblGrp>
+      <OfficerOtherRcvblGrp>
+        <BorrowerPersonNm>James Sullivan</BorrowerPersonNm>
+        <BorrowerTitleTxt>President</BorrowerTitleTxt>
+        <LoanOriginalAmt>35607</LoanOriginalAmt>
+        <BalanceDueAmt>43002</BalanceDueAmt>
+        <NoteDt>2015-01</NoteDt>
+        <RepaymentTermsTxt>On demand</RepaymentTermsTxt>
+        <InterestRt>0000000000.050000000000</InterestRt>
+        <LoanPurposeTxt>Education</LoanPurposeTxt>
+      </OfficerOtherRcvblGrp>
+    </OtherReceivablesOfficersSch>
+    <SubstantialContributorsSch documentId="990PF:124" softwareId="18007340" softwareVersionNum="19.1.1.0">
+      <SubstantialContributorDetail>
+        <PersonNm>James Diane Sullivan</PersonNm>
+        <USAddress>
+          <AddressLine1Txt>Bayview Dr</AddressLine1Txt>
+          <CityNm>Osterville</CityNm>
+          <StateAbbreviationCd>MA</StateAbbreviationCd>
+          <ZIPCd>02655</ZIPCd>
+        </USAddress>
+      </SubstantialContributorDetail>
+    </SubstantialContributorsSch>
+    <TaxesSchedule documentId="990PF:114" softwareId="18007340" softwareVersionNum="19.1.1.0">
+      <TaxesDetail>
+        <CategoryTxt>Tax on investment income</CategoryTxt>
+        <Amt>1846</Amt>
+        <NetInvestmentIncomeAmt>1846</NetInvestmentIncomeAmt>
+      </TaxesDetail>
+    </TaxesSchedule>
+  </ReturnData>
+</Return>

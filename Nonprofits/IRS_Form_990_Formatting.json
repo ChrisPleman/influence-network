@@ -1,0 +1,624 @@
+{
+  "Header": {
+    "Filer": {
+      "EIN": "EIN",
+      "BusinessNameLine1Txt": "BusinessName",
+      "BusinessNameLine2Txt": "BusinessNameLine2",
+      "BusinessNameControlTxt": "BusinessNameControlTxt",
+      "PhoneNum": "Phone",
+      "AddressLine1Txt": "BusinessName",
+      "AddressLine2Txt": "BusinessNameLine2",
+      "CityNm": "City",
+      "StateAbbreviationCd": "StateCode",
+      "ZIPCd": "ZipCode"
+    },
+    "PreparerFirmGrp": {
+      "PreparerFirmEIN": "PreparerEIN",
+      "BusinessNameLine1Txt": "PreparerName",
+      "BusinessNameLine2Txt": "PreparerNameLine2",
+      "AddressLine1Txt": "PreparerAddress",
+      "AddressLine2Txt": "PreparerAddressLine2",
+      "CityNm": "PreparerCity",
+      "StateAbbreviationCd": "PreparerStateCode",
+      "ZIPCd": "PreparerZipCode"
+    },
+    "BusinessOfficerGrp": {
+      "PersonNm": "BusinessOfficer",
+      "PersonTitleTxt": "BusinessOfficerTitle",
+      "SignatureDt": "BusinessOfficerSignatureDate",
+      "DiscussWithPaidPreparerInd": "DiscussWithPaidPreparerInd"
+    },
+    "SigningOfficerGrp": {
+      "PersonFirstNm": "SigningOfficerFirstName",
+      "PersonLastNm": "SigningOfficerLastName",
+      "SSN": "SigningOfficerSSN",
+      "SignatureDt": "BusinessOfficerSignatureDate",
+      "DiscussWithPaidPreparerInd": "DiscussWithPaidPreparerInd"
+    },
+    "IRSResponsiblePrtyInfoCurrInd": "IRSResponsiblePrtyInfoCurrInd",
+    "PreparerPersonGrp": {
+      "PreparerPersonNm": "PreparerPersonName",
+      "PTIN": "PreparerPersonPTIN",
+      "PhoneNum": "PreparerPersonPhone"
+    },
+    "TaxYr": "TaxYear"
+  },
+  "Return": {
+    "'990'": {
+      "Part 0": {
+        "PrincipalOfficerNm": "PrincipalOfficer",
+        "GrossReceiptsAmt": "GrossReceipts",
+        "GroupReturnForAffiliatesInd": "GroupReturnForAffiliates",
+        "AllAffiliatesIncludedInd": "AllAffiliatesIncluded",
+        "WebsiteAddressTxt": "Website",
+        "FormationYr": "FormationYear",
+        "LegalDomicileStateCd": "LegalDomicileStateCode"
+      },
+      "Part I": {
+        "Title": "Summary",
+        "Part I-A": {
+          "Title": "Activities & Govemance",
+          "Flat Content": {
+            "ActivityOrMissionDesc": "ActivityOrMission",
+            "VotingMembersGoverningBodyCnt": "GoverningBodyVotingMembers",
+            "VotingMembersIndependentCnt": "IndependentVotingMembers",
+            "TotalEmployeeCnt": "TotalEmployees",
+            "TotalGrossUBIAmt": "TotalGrossUBI"
+          }
+        },
+        "Part I-B": {
+          "Title": "Revenue",
+          "Flat Content": {
+            "CYContributionsGrantsAmt": "ContributionsGrants",
+            "CYTotalRevenueAmt": "TotalRevenueAmt"
+          }
+        },
+        "Part I-C": {
+          "Title": "Expenses",
+          "Flat Content": {
+            "CYGrantsAndSimilarPaidAmt": "GrantsAndSimilarPaid",
+            "CYBenefitsPaidToMembersAmt": "BenefitsPaidToMembers",
+            "CYSalariesCompEmpBnftPaidAmt": "SalariesCompEmpBnftPaid",
+            "CYTotalProfFndrsngExpnsAmt": "TotalProfFndrsngExpns",
+            "CYTotalFundraisingExpenseAmt": "TotalFundraisingExpense",
+            "CYOtherExpensesAmt": "OtherExpenses",
+            "CYTotalExpensesAmt": "TotalExpenses",
+            "CYRevenuesLessExpensesAmt": "RevenuesLessExpensesAmt"
+          }
+        },
+        "Part I-D": {
+          "Title": "Net Assets or Fund Balances",
+          "Flat Content": {
+            "TotalAssetsBOYAmt": "TotalAssetsBeginningOfYear",
+            "TotalAssetsEOYAmt": "TotalAssetsEndOfYear",
+            "TotalLiabilitiesBOYAmt": "TotalLiabilitiesBeginningOfYear",
+            "TotalLiabilitiesEOYAmt": "TotalLiabilitiesEndOfYear",
+            "NetAssetsOrFundBalancesBOYAmt": "NetAssetsOrFundBalancesBeginningOfYear",
+            "NetAssetsOrFundBalancesEOYAmt": "NetAssetsOrFundBalancesEndOfYear"
+          }
+        }
+      },
+      "Part II": {
+        "Title": "Signature Block"
+      },
+      "Part III": {
+        "Title": "Statement of Program Service Accomplishments"
+      },
+      "Part IV": {
+        "Title": "Checklist of Required Schedules",
+        "Flat Content": {
+          "DescribedInSection501c3Ind": {
+            "Mapping": "DescribedInSection501c3",
+            "SectionParts": ["ScheduleA"]
+          },
+          "ScheduleBRequiredInd": {
+            "Mapping": "ScheduleBRequired",
+            "SectionParts": ["ScheduleB"]
+          },
+          "PoliticalCampaignActyInd": {
+            "Mapping": "PoliticalCampaignActy",
+            "SectionParts": ["IRS990ScheduleC_Part I"]
+          },
+          "LobbyingActivitiesInd": {
+            "Mapping": "LobbyingActivities",
+            "SectionParts": ["IRS990ScheduleC_Part II"]
+          },
+          "SubjectToProxyTaxInd": {
+            "Mapping": "SubjectToProxyTax",
+            "SectionParts": ["IRS990ScheduleC_Part III"]
+          },
+          "DonorAdvisedFundInd": {
+            "Mapping": "DonorAdvisedFund",
+            "SectionParts": ["IRS990ScheduleD_Part I"]
+          },
+          "MoreThan5000KToOrgInd": {
+            "Mapping": "MoreThan5KToOrg",
+            "SectionParts": [
+              "IRS990ScheduleF_Part II",
+              "IRS990ScheduleF_Part IV"
+            ]
+          },
+          "MoreThan5000KToIndividualsInd": {
+            "Mapping": "MoreThan5KToIndividuals",
+            "SectionParts": [
+              "IRS990ScheduleF_Part III",
+              "IRS990ScheduleF_Part IV"
+            ]
+          },
+          "ProfessionalFundraisingInd": {
+            "Mapping": "ProfessionalFundraising",
+            "SectionParts": ["IRS990ScheduleG_Part I"]
+          },
+          "FundraisingActivitiesInd": {
+            "Mapping": "FundraisingActivities",
+            "SectionParts": ["IRS990ScheduleG_Part II"]
+          },
+          "GrantsToOrganizationsInd": {
+            "Mapping": "GrantsToOrganizations",
+            "SectionParts": [
+              "IRS990ScheduleI_Part I",
+              "IRS990ScheduleI_Part II"
+            ]
+          },
+          "GrantsToIndividualsInd": {
+            "Mapping": "GrantsToIndividuals",
+            "SectionParts": [
+              "IRS990ScheduleI_Part I",
+              "IRS990ScheduleI_Part III"
+            ]
+          },
+          "ScheduleJRequiredInd": {
+            "Mapping": "ScheduleJRequired",
+            "SectionParts": ["ScheduleJ"]
+          },
+          "GrantToRelatedPersonInd": {
+            "Mapping": "GrantToRelatedPersonInd",
+            "ScheduleParts": ["IRS990ScheduleL_Part III"]
+          },
+          "BusinessRlnWithOrgMemInd": {
+            "Mapping": "BusinessRlnWithOrgMemInd",
+            "ScheduleParts": ["IRS990ScheduleL_Part IV"]
+          },
+          "BusinessRlnWithFamMemInd": {
+            "Mapping": "BusinessRlnWithFamMemInd",
+            "ScheduleParts": ["IRS990ScheduleL_Part IV"]
+          },
+          "BusinessRlnWithOfficerEntInd": {
+            "Mapping": "BusinessRlnWithOfficerEntInd",
+            "ScheduleParts": []
+          },
+          "TerminateOperationsInd": {
+            "Mapping": "TerminateOperationsInd",
+            "ScheduleParts": ["IRS990ScheduleN_Part I"]
+          },
+          "PartialLiquidationInd": {
+            "Mapping": "PartialLiquidationInd",
+            "ScheduleParts": ["IRS990ScheduleN_Part II"]
+          },
+          "DisregardedEntityInd": {
+            "Mapping": "DisregardedEntityInd",
+            "ScheduleParts": ["IRS990ScheduleR_Part I"]
+          },
+          "RelatedEntityInd": {
+            "Mapping": "RelatedEntityInd",
+            "ScheduleParts": [
+              "IRS990ScheduleR_Part II",
+              "IRS990ScheduleR_Part III",
+              "IRS990ScheduleR_Part IV",
+              "IRS990ScheduleR_Part V"
+            ]
+          },
+          "RelatedOrganizationCtrlEntInd": {
+            "Mapping": "RelatedOrganizationCtrlEntInd",
+            "ScheduleParts": []
+          },
+          "TransactionWithControlEntInd": {
+            "Mapping": "TransactionWithControlEntInd",
+            "ScheduleParts": ["IRS990ScheduleR_Part V"]
+          },
+          "TrnsfrExmptNonChrtblRltdOrgInd": {
+            "Mapping": "TrnsfrExmptNonChrtblRltdOrgInd",
+            "ScheduleParts": ["IRS990ScheduleR_Part V"]
+          },
+          "ActivitiesConductedPrtshpInd": {
+            "Mapping": "ActivitiesConductedPrtshpInd",
+            "ScheduleParts": ["IRS990ScheduleR_Part VI"]
+          },
+          "ScheduleORequiredInd": {
+            "Mapping": "ScheduleORequiredInd",
+            "ScheduleParts": ["ScheduleO"]
+          }
+        }
+      },
+      "Part V": {
+        "Title": "Statements Regarding Other IRS Filings and Tax Compliance"
+      },
+      "Part VI": {
+        "Title": "Governance, Management, and Disclosure",
+        "Flat Content": {
+          "Part VI-A": {
+            "Title": " Governing Body and Management",
+            "Flat Content": {
+              "DelegationOfMgmtDutiesInd": "DelegationOfManagementDuties",
+              "ChangeToOrgDocumentsInd": "ChangeToOrgDocuments",
+              "MaterialDiversionOrMisuseInd": "MaterialDiversionOrMisuse",
+              "MembersOrStockholdersInd": "MembersOrStockholders",
+              "ElectionOfBoardMembersInd": "ElectionOfBoardMembers",
+              "DecisionsSubjectToApprovaInd": "DecisionsSubjectToApproval",
+              "MinutesOfGoverningBodyInd": "GoverningBodyMeetingMinutes",
+              "MinutesOfCommitteesInd": "CommitteesMeetingMinutes",
+              "OfficerMailingAddressInd": "OfficerNotFoundAtMailingAddress"
+            }
+          },
+          "Part VI-B": {
+            "Title": "Policies"
+          },
+          "Part VI-C": {
+            "Title": "Disclosure",
+            "Flat Content": {
+              "UponRequestInd": "990AvailableAt"
+            }
+          }
+        }
+      },
+      "Part VII": {
+        "Part VII-A": {
+          "Title": "Officers, Directors, Trustees, Key Employees, and Highest Compensated Employees",
+          "Nested Content": [
+            {
+              "Group": "Form990PartVIISectionAGrp",
+              "Column Name Mapper": {
+                "PersonNm": "Name",
+                "TitleTxt": "Title",
+                "AverageHoursPerWeekRt": "AverageHoursPerWeekRt",
+                "IndividualTrusteeOrDirectorInd": "IndividualTrusteeOrDirector",
+                "InstitutionalTrusteeInd": "InstitutionalTrustee",
+                "OfficerInd": "Officer",
+                "KeyEmployeeInd": "KeyEmployee",
+                "HighestCompensatedEmployeeInd": "HighestCompensatedEmployee",
+                "FormerInd": "FormerEmployee",
+                "ReportableCompFromOrgAmt": "ReportableCompFromOrg",
+                "ReportableCompFromRltdOrgAmt": "ReportableCompFromRltdOrg",
+                "OtherCompensationAmt": "OtherCompensation"
+              }
+            }
+          ]
+        },
+        "Part VII-B": {
+          "Title": "Independent Contractors",
+          "Flat Content": {
+            "CntrctRcvdGreaterThan100KCnt": "CntrctRcvdGreaterThan100KCnt"
+          },
+          "Nested Content": [
+            {
+              "Group": "ContractorCompensationGrp",
+              "Column Name Mapper": {}
+            }
+          ]
+        }
+      },
+      "Part VIII": {
+        "Title": "Statement of Revenue"
+      },
+      "Part IX": {
+        "Title": "Statement of Functional Expenses",
+        "OrgTypes": ["501c3", "501c4"]
+      },
+      "Part X": {
+        "Title": "Balance Sheet"
+      },
+      "Part XI": {
+        "Title": "Reconciliation of Net Assets"
+      },
+      "Part XII": {
+        "Title": "Financial Statements and Reporting"
+      }
+    }
+  },
+  "IRS990ScheduleC": {
+    "Title": "Political Campaign and Lobbying Activities",
+    "Stipulation": "If the organization answered \"Yes\" on Form 990, Part IV, Line 3, or Form 990-EZ, Part V, line 46 (Political Campaign Activities), then\n\t\u2022 Section 501(c)(3) organizations: Complete Parts I-A and B. Do not complete Part I-C.\n\t\u2022 Section 501(c) (other than section 501(c)(3)) organizations: Complete Parts I-A and C below. Do not complete Part I-\u0412.\n\t\u2022 Section 527 organizations: Complete Part I-A only.\nIf the organization answered \"Yes\" on Form 990, Part IV, Line 4, or Form 990-EZ, Part VI, line 47 (Lobbying Activities), then\n\t\u2022 Section 501(c)(3) organizations that have filed Form 5768 (election under section 501(h)): Complete Part II-A. Do not complete Part II-B.\n\t\u2022 Section 501(c)(3) organizations that have NOT filed Form 5768 (election under section 501(h)): Complete Part II-B. Do not complete Part II-A.\nIf the organization answered \"Yes\" on Form 990, Part IV, Line 5 (Proxy Tax) (see separate instructions) or Form 990-EZ, Part V, line 35c\n(Proxy Tax) (see separate instructions), then\n\t\u2022 Section 501(c)(4), (5), or (6) organizations: Complete Part III.\n",
+    "OrgTypes": ["501c3", "501c4", "527"],
+    "Content": {
+      "Part I": {
+        "Title": "",
+        "Stipulation": "Complete if the organization is exempt under section 501(c) or is a section 527 organization.",
+        "OrgTypes": [],
+        "Flat Content": {
+          "Part I-A": {
+            "Title": "",
+            "Stipulation": "",
+            "OrgTypes": ["501c\\d{1}", "527"],
+            "Flat Content": {
+              "(0, 'PoliticalExpendituresAmt')": "PoliticalExpenditures",
+              "(1, 'VolunteerHoursCnt')": "VolunteerHoursCnt"
+            }
+          },
+          "Part I-B": {
+            "Title": "",
+            "Stipulation": "Complete if the organization is exempt under section 501(c)(3).",
+            "OrgTypes": ["501c3"],
+            "Flat Content": {
+              "(0, 'Section4955OrganizationTaxAmt')": "Section4955OrganizationTax",
+              "(1, 'Section4955ManagersTaxAmt')": "Section4955ManagersTax",
+              "(2, 'Form4720FiledSection4955TaxInd')": "CorrectionMadeInd",
+              "(3, 'CorrectionMadeInd')": "CorrectionMadeInd"
+            }
+          },
+          "Part I-C": {
+            "Title": "",
+            "Stipulation": "Complete if the organization is exempt under section 501(c), except section 501(c)(3).",
+            "OrgTypes": ["501c4"],
+            "Flat Content": {
+              "(0, 'Expended527ActivitiesAmt')": "Expended527Activities",
+              "(1, 'InternalFundsContributedAmt')": "InternalFundsContributed",
+              "(2, 'TotalExemptFunctionExpendAmt')": "TotalExemptFunctionExpend",
+              "(3, 'Form1120POLFiledInd')": "Form1120POLFiledInd"
+            },
+            "Nested Content": [
+              {
+                "Group": "Section527PoliticalOrgGrp",
+                "Column Name Mapper": {
+                  "EIN": "GroupEIN",
+                  "BusinessNameLine1Txt": "BusinessName",
+                  "AddressLine1Txt": "Address",
+                  "CityNm": "City",
+                  "StateAbbreviationCd": "StateCode",
+                  "ZIPCd": "ZipCode",
+                  "PaidInternalFundsAmt": "PaidInternalFunds",
+                  "ContributionsRcvdDlvrAmt": "ContributionsReceivedAndDelivered"
+                }
+              }
+            ]
+          }
+        }
+      },
+      "Part II": {
+        "Title": "",
+        "Stipulation": "",
+        "OrgTypes": [],
+        "Flat Content": {
+          "Part II-A": {
+            "Title": "",
+            "Stipulation": "Complete if the organization is exempt under section 501(c)(3) and filed Form 5768 (election under section 501(h)).",
+            "OrgTypes": ["501c\\d{1}", "527"],
+            "Flat Content": {
+              "(0, 'OrganizationBelongsAffltGrpInd')": "OrganizationBelongsAffltGrpInd",
+              "(2, 'TotalGrassrootsLobbyingGrp')": {
+                "(0, 'FilingOrganizationsTotalAmt')": "FilingOrganizationsTotalGrassrootsLobbying",
+                "(1, 'AffiliatedGroupTotalAmt')": "AffiliatedGroupTotalGrassrootsLobbyingAmt"
+              },
+              "(3, 'TotalDirectLobbyingGrp')": {
+                "(0, 'FilingOrganizationsTotalAmt')": "FilingOrganizationsTotalDirectLobbying",
+                "(1, 'AffiliatedGroupTotalAmt')": "AffiliatedGroupTotalDirectLobbyingAmt"
+              },
+              "(4, 'TotalLobbyingExpendGrp')": {
+                "(0, 'FilingOrganizationsTotalAmt')": "FilingOrganizationsTotalLobbyingExpend",
+                "(1, 'AffiliatedGroupTotalAmt')": "AffiliatedGroupTotalLobbyingExpendAmt"
+              },
+              "(5, 'OtherExemptPurposeExpendGrp')": {
+                "(0, 'FilingOrganizationsTotalAmt')": "FilingOrganizationsTotalOtherExemptPurposeExpend",
+                "(1, 'AffiliatedGroupTotalAmt')": "AffiliatedGroupTotalOtherExemptPurposeExpendAmt"
+              },
+              "(6, 'TotalExemptPurposeExpendGrp')": {
+                "(0, 'FilingOrganizationsTotalAmt')": "FilingOrganizationsTotalExemptPurposeExpend",
+                "(1, 'AffiliatedGroupTotalAmt')": "AffiliatedGroupTotalExemptPurposeExpendAmt"
+              },
+              "(7, 'LobbyingNontaxableAmountGrp')": {
+                "(0, 'FilingOrganizationsTotalAmt')": "FilingOrganizationsTotalLobbyingNontaxable",
+                "(1, 'AffiliatedGroupTotalAmt')": "AffiliatedGroupTotalLobbyingNontaxableAmt"
+              },
+              "(8, 'GrassrootsNontaxableGrp')": {
+                "(0, 'FilingOrganizationsTotalAmt')": "FilingOrganizationsTotalGrassrootsNontaxable",
+                "(1, 'AffiliatedGroupTotalAmt')": "AffiliatedGroupTotalGrassrootsNontaxableAmt"
+              },
+              "(9, 'TotLbbyngGrassrootMnsNonTxGrp')": {
+                "(0, 'FilingOrganizationsTotalAmt')": "FilingOrganizationsTotalTotLbbyngGrassrootMnsNonTx",
+                "(1, 'AffiliatedGroupTotalAmt')": "AffiliatedGroupTotalTotLbbyngGrassrootMnsNonTxAmt"
+              },
+              "(10, 'TotLbbyExpendMnsLbbyngNonTxGrp')": {
+                "(0, 'FilingOrganizationsTotalAmt')": "FilingOrganizationsTotalTotLbbyExpendMnsLbbyngNonTx",
+                "(1, 'AffiliatedGroupTotalAmt')": "AffiliatedGroupTotalTotLbbyExpendMnsLbbyngNonTxAmt"
+              },
+              "(11, 'Form4720FiledInd')": "Form4720FiledInd",
+              "(12, 'LobbyingCeilingAmt')": "LobbyingCeiling",
+              "(13, 'GrassrootsCeilingAmt')": "GrassrootsCeilingAmt"
+            },
+            "Nested Content": [
+              {
+                "Group": "AvgLobbyingNontaxableAmountGrp",
+                "Column Name Mapper": {
+                  "Minus3Amt": "Minus3",
+                  "Minus2Amt": "Minus2",
+                  "Minus1Amt": "Minus1",
+                  "Amt": "",
+                  "TotalAmt": "TotalAmt"
+                }
+              },
+              {
+                "Group": "AvgTotalLobbyingExpendGrp",
+                "Column Name Mapper": {
+                  "Minus3Amt": "Minus3",
+                  "Minus2Amt": "Minus2",
+                  "Minus1Amt": "Minus1",
+                  "Amt": "",
+                  "TotalAmt": "TotalAmt"
+                }
+              },
+              {
+                "Group": "AvgGrassrootsNontaxableGrp",
+                "Column Name Mapper": {
+                  "Minus3Amt": "Minus3",
+                  "Minus2Amt": "Minus2",
+                  "Minus1Amt": "Minus1",
+                  "Amt": "",
+                  "TotalAmt": "TotalAmt"
+                }
+              },
+              {
+                "Group": "AvgGrassrootsLobbyingExpendGrp",
+                "Column Name Mapper": {
+                  "Minus3Amt": "Minus3",
+                  "Minus2Amt": "Minus2",
+                  "Minus1Amt": "Minus1",
+                  "Amt": "",
+                  "TotalAmt": "TotalAmt"
+                }
+              }
+            ]
+          },
+          "Part II-B": {
+            "Title": "",
+            "Stipulation": "Complete if the organization is exempt under section 501(c)(3) and has NOT filed Form 5768 (election under section 501(h)).",
+            "OrgTypes": ["501c3"],
+            "Flat Content": {
+              "(0, 'VolunteersInd')": "VolunteersInd",
+              "(1, 'PaidStaffOrManagementInd')": "PaidStaffOrManagementInd",
+              "(3, 'MediaAdvertisementsInd')": "MediaAdvertisementsInd",
+              "(4, 'MediaAdvertisementsAmt')": "MediaAdvertisements",
+              "(5, 'MailingsMembersInd')": "MailingsMembersInd",
+              "(6, 'MailingsMembersAmt')": "MailingsMembers",
+              "(7, 'PublicationsOrBroadcastInd')": "PublicationsOrBroadcastInd",
+              "(8, 'PublicationsOrBroadcastAmt')": "PublicationsOrBroadcast",
+              "(9, 'GrantsOtherOrganizationsInd')": "GrantsOtherOrganizationsInd",
+              "(10, 'GrantsOtherOrganizationsAmt')": "GrantsOtherOrganizations",
+              "(11, 'DirectContactLegislatorsInd')": "DirectContactLegislatorsInd",
+              "(12, 'DirectContactLegislatorsAmt')": "DirectContactLegislators",
+              "(13, 'RalliesDemonstrationsInd')": "RalliesDemonstrationsInd",
+              "(14, 'RalliesDemonstrationsAmt')": "RalliesDemonstrations",
+              "(15, 'OtherActivitiesInd')": "OtherActivitiesInd",
+              "(16, 'OtherActivitiesAmt')": "OtherActivities",
+              "(17, 'Tax4912Amt')": "Tax4912",
+              "(18, 'Managers4912TaxAmt')": "Managers4912Tax",
+              "(19, 'Form4720Filed4912TaxInd')": "Form4720Filed4912TaxInd",
+              "(20, 'TotalLobbyingExpendituresAmt')": "TotalLobbyingExpenditures",
+              "(21, 'NotDescribedSection501c3Ind')": "NotDescribedSection501c3Ind"
+            }
+          }
+        }
+      },
+      "Part III": {
+        "Title": "",
+        "Stipulation": "",
+        "OrgTypes": [],
+        "Flat Content": {
+          "Part III-A": {
+            "Title": "",
+            "Stipulation": "Complete if the organization is exempt under section 501(c)(4), section 501(c)(5), or section 501(c)(6).",
+            "OrgTypes": ["501c4"],
+            "Flat Content": {
+              "(0, 'SubstantiallyAllDuesNondedInd')": "SubstantiallyAllDuesNondedInd",
+              "(1, 'OnlyInHouseLobbyingInd')": "OnlyInHouseLobbyingInd",
+              "(2, 'AgreeCarryoverPriorYearInd')": "AgreeCarryoverPriorYearInd"
+            }
+          },
+          "Part III-B": {
+            "Title": "",
+            "Stipulation": "Complete if the organization is exempt under section 501(c)(4), section 501(c)(5), or section 501(c)(6) and if either (a) BOTH Part III-A, lines 1 and 2, are answered \"No\" OR (b) Part III-A, line 3, is answered \"Yes.\"",
+            "OrgTypes": ["501c4"],
+            "Flat Content": {
+              "(0, 'DuesAssessmentsAmt')": "DuesAssessments",
+              "(1, 'NonDeductibleLbbyngPltclCYAmt')": "NonDeductibleLbbyngPltclCY",
+              "(3, 'NonDeductibleLbbyngPltclTotAmt')": "NonDeductibleLbbyngPltclTot",
+              "(4, 'AggregateReportedDuesNtcAmt')": "AggregateReportedDuesNtc",
+              "(6, 'TaxableAmt')": "TaxableAmt"
+            }
+          }
+        }
+      },
+      "Part IV": {
+        "Title": "",
+        "Stipulation": "",
+        "Description": "Provide the descriptions required for Part l-A, line 1; Part I-B, line 4; Part I-C, line 5; Part II-A (affiliated group list); Part II-A, lines 1 and 2 (see instructions), and Part II-B, line 1. Also, complete this part for any additional information.",
+        "OrgTypes": ["501c4"],
+        "Nested Content": [
+          {
+            "Group": "SupplementalInformationDetail",
+            "Column Name Mapper": {
+              "FormAndLineReferenceDesc": "FormAndLineReferenceDesc",
+              "ExplanationTxt": "ExplanationTxt"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "IRS990ScheduleI": {
+    "Title": "Grants and Other Assistance to Organizations, Governments and Individuals in the United States",
+    "Stipulation": "Complete if the organization answered 'Yes,' on Form 990, Part IV, line 21 or 22.",
+    "OrgTypes": ["501c3", "501c4", "527"],
+    "Content": {
+      "Part I": {
+        "Title": "General Information on Grants and Assistance",
+        "Stipulation": "",
+        "OrgTypes": [],
+        "Flat Content": {
+          "(0, 'GrantRecordsMaintainedInd')": "GrantRecordsMaintainedInd"
+        }
+      },
+      "Part II": {
+        "Title": "Grants and Other Assistance to Domestic Organizations and Domestic Governments.",
+        "Stipulation": "Complete if the organization answered 'Yes' on Form 990, Part IV, line 21, for any recipient that received more than $5,000.",
+        "OrgTypes": [],
+        "Flat Content": {
+          "(0, 'Total501c3OrgCnt')": "Total501c3OrgCnt",
+          "(0, 'TotalOtherOrgCnt')": "TotalOtherOrgCnt"
+        },
+        "Nested Content": [
+          {
+            "Group": "RecipientTable",
+            "Column Name Mapper": {
+              "BusinessNameLine1Txt": "BusinessName",
+              "BusinessNameLine2Txt": "BusinessNameLine2",
+              "AddressLine1Txt": "Address",
+              "AddressLine2Txt": "AddressLine2",
+              "CityNm": "City",
+              "StateAbbreviationCd": "StateCode",
+              "ZIPCd": "ZipCode",
+              "RecipientEIN": "RecipientEIN",
+              "IRCSectionDesc": "IRCSectionDesc",
+              "CashGrantAmt": "CashGrant",
+              "NonCashAssistanceAmt": "NonCashAssistance",
+              "NonCashAssistanceDesc": "NonCashAssistanceDesc",
+              "PurposeOfGrantTxt": "PurposeOfGrant"
+            }
+          }
+        ]
+      },
+      "Part III": {
+        "Title": "Grants and Other Assistance to Domestic Individuals.",
+        "Stipulation": "Complete if the organization answered 'Yes' on Form 990, Part IV, line 22.",
+        "OrgTypes": [],
+        "Flat Content": {},
+        "Nested Content": [
+          {
+            "Group": "GrantsOtherAsstToIndivInUSGrp",
+            "Column Name Mapper": {
+              "GrantTypeTxt": "GrantType",
+              "RecipientCnt": "Recipients",
+              "CashGrantAmt": "CashGrant",
+              "ValuationMethodUsedDesc": "ValuationMethodUsedDesc",
+              "NonCashAssistanceAmt": "NonCashAssistance",
+              "NonCashAssistanceDesc": "NonCashAssistanceDesc"
+            }
+          }
+        ]
+      },
+      "Part IV": {
+        "Title": "Supplemental Information.",
+        "Stipulation": "Complete if the organization is exempt under section 501(c)(4), section 501(c)(5), or section 501(c)(6).",
+        "Description": "Provide the information required in Part I, line 2; Part III, column (b); and any other additional information.",
+        "OrgTypes": ["501c4"],
+        "Nested Content": [
+          {
+            "Group": "SupplementalInformationDetail",
+            "Column Name Mapper": {
+              "FormAndLineReferenceDesc": "FormAndLineReferenceDesc",
+              "ExplanationTxt": "ExplanationTxt"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

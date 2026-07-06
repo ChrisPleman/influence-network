@@ -1,0 +1,782 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Return xmlns="http://www.irs.gov/efile" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.irs.gov/efile" returnVersion="2020v4.1">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2021-10-13T14:01:17-05:00</ReturnTs>
+    <TaxPeriodEndDt>2020-12-31</TaxPeriodEndDt>
+    <PreparerFirmGrp>
+      <PreparerFirmEIN>133597814</PreparerFirmEIN>
+      <PreparerFirmName>
+        <BusinessNameLine1Txt>SKODY SCOT &amp; CO CPAS PC</BusinessNameLine1Txt>
+      </PreparerFirmName>
+      <PreparerUSAddress>
+        <AddressLine1Txt>520 EIGHTH AVE SUITE 2200</AddressLine1Txt>
+        <CityNm>NEW YORK</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>10018</ZIPCd>
+      </PreparerUSAddress>
+    </PreparerFirmGrp>
+    <ReturnTypeCd>990PF</ReturnTypeCd>
+    <TaxPeriodBeginDt>2020-01-01</TaxPeriodBeginDt>
+    <Filer>
+      <EIN>364848898</EIN>
+      <BusinessName>
+        <BusinessNameLine1Txt>THE UPLANDS CENTER FOUNDATION</BusinessNameLine1Txt>
+      </BusinessName>
+      <BusinessNameControlTxt>UPLA</BusinessNameControlTxt>
+      <PhoneNum>2019042500</PhoneNum>
+      <USAddress>
+        <AddressLine1Txt>BRAND K 5 SICOMAC ROAD PMB 333</AddressLine1Txt>
+        <CityNm>NORTH HALEDON</CityNm>
+        <StateAbbreviationCd>NJ</StateAbbreviationCd>
+        <ZIPCd>07508</ZIPCd>
+      </USAddress>
+    </Filer>
+    <BusinessOfficerGrp>
+      <PersonNm>ANN MORRELL RASMUSSEN</PersonNm>
+      <PersonTitleTxt>TRUSTEE</PersonTitleTxt>
+      <PhoneNum>2019042500</PhoneNum>
+      <SignatureDt>2021-10-13</SignatureDt>
+      <DiscussWithPaidPreparerInd>1</DiscussWithPaidPreparerInd>
+    </BusinessOfficerGrp>
+    <SigningOfficerGrp>
+      <PersonFullName>
+        <PersonFirstNm>ANN</PersonFirstNm>
+        <PersonLastNm>MORRELL RASMUSSEN</PersonLastNm>
+      </PersonFullName>
+      <SSN>999009999</SSN>
+    </SigningOfficerGrp>
+    <PreparerPersonGrp>
+      <PreparerPersonNm>WILLIAM SKODY</PreparerPersonNm>
+      <PTIN>P00631754</PTIN>
+      <PhoneNum>2129671100</PhoneNum>
+      <PreparationDt>2021-10-13</PreparationDt>
+    </PreparerPersonGrp>
+    <AdditionalFilerInformation>
+      <TrustedCustomerGrp>
+        <TrustedCustomerCd>2</TrustedCustomerCd>
+        <AuthenticationAssuranceLevelCd>AAL1</AuthenticationAssuranceLevelCd>
+        <IdentityAssuranceLevelCd>IAL1</IdentityAssuranceLevelCd>
+      </TrustedCustomerGrp>
+    </AdditionalFilerInformation>
+    <TaxYr>2020</TaxYr>
+    <BuildTS>2022-09-23 18:48:47Z</BuildTS>
+  </ReturnHeader>
+  <ReturnData documentCnt="13">
+    <IRS990PF documentId="RetDoc1235000001" referenceDocumentId="RetDoc2258700001">
+      <AddressChangeInd>X</AddressChangeInd>
+      <Organization501c3ExemptPFInd>X</Organization501c3ExemptPFInd>
+      <FMVAssetsEOYAmt>18039834</FMVAssetsEOYAmt>
+      <MethodOfAccountingAccrualInd>X</MethodOfAccountingAccrualInd>
+      <AnalysisOfRevenueAndExpenses>
+        <ContriRcvdRevAndExpnssAmt>3897</ContriRcvdRevAndExpnssAmt>
+        <ScheduleBNotRequiredInd>X</ScheduleBNotRequiredInd>
+        <DividendsRevAndExpnssAmt>779483</DividendsRevAndExpnssAmt>
+        <DividendsNetInvstIncmAmt>779483</DividendsNetInvstIncmAmt>
+        <DividendsAdjNetIncmAmt>779483</DividendsAdjNetIncmAmt>
+        <NetGainSaleAstRevAndExpnssAmt>-98353</NetGainSaleAstRevAndExpnssAmt>
+        <GrossSalesPriceAmt>13187726</GrossSalesPriceAmt>
+        <CapGainNetIncmNetInvstIncmAmt>0</CapGainNetIncmNetInvstIncmAmt>
+        <NetSTCapitalGainAdjNetIncmAmt>0</NetSTCapitalGainAdjNetIncmAmt>
+        <TotalRevAndExpnssAmt>685027</TotalRevAndExpnssAmt>
+        <TotalNetInvstIncmAmt>779483</TotalNetInvstIncmAmt>
+        <TotalAdjNetIncmAmt>779483</TotalAdjNetIncmAmt>
+        <CompOfcrDirTrstRevAndExpnssAmt>254650</CompOfcrDirTrstRevAndExpnssAmt>
+        <CompOfcrDirTrstNetInvstIncmAmt>0</CompOfcrDirTrstNetInvstIncmAmt>
+        <CompOfcrDirTrstAdjNetIncmAmt>0</CompOfcrDirTrstAdjNetIncmAmt>
+        <CompOfcrDirTrstDsbrsChrtblAmt>254650</CompOfcrDirTrstDsbrsChrtblAmt>
+        <OthEmplSlrsWgsRevAndExpnssAmt>63050</OthEmplSlrsWgsRevAndExpnssAmt>
+        <OthEmplSlrsWgsNetInvstIncmAmt>0</OthEmplSlrsWgsNetInvstIncmAmt>
+        <OthEmplSlrsWgsAdjNetIncmAmt>0</OthEmplSlrsWgsAdjNetIncmAmt>
+        <OthEmplSlrsWgsDsbrsChrtblAmt>63050</OthEmplSlrsWgsDsbrsChrtblAmt>
+        <PensionEmplBnftRevAndExpnssAmt>30543</PensionEmplBnftRevAndExpnssAmt>
+        <PensionEmplBnftNetInvstIncmAmt>0</PensionEmplBnftNetInvstIncmAmt>
+        <PensionEmplBnftAdjNetIncmAmt>0</PensionEmplBnftAdjNetIncmAmt>
+        <PensionEmplBnftDsbrsChrtblAmt>30543</PensionEmplBnftDsbrsChrtblAmt>
+        <LegalFeesRevAndExpnssAmt referenceDocumentId="RetDoc2002100001">5322</LegalFeesRevAndExpnssAmt>
+        <LegalFeesNetInvstIncmAmt>0</LegalFeesNetInvstIncmAmt>
+        <LegalFeesAdjNetIncmAmt>5322</LegalFeesAdjNetIncmAmt>
+        <LegalFeesDsbrsChrtblAmt>0</LegalFeesDsbrsChrtblAmt>
+        <AccountingFeesRevAndExpnssAmt referenceDocumentId="RetDoc2002200001">31386</AccountingFeesRevAndExpnssAmt>
+        <AccountingFeesNetInvstIncmAmt>15693</AccountingFeesNetInvstIncmAmt>
+        <AccountingFeesAdjNetIncmAmt>15693</AccountingFeesAdjNetIncmAmt>
+        <AccountingFeesChrtblPrpsAmt>0</AccountingFeesChrtblPrpsAmt>
+        <OtherProfFeesRevAndExpnssAmt referenceDocumentId="RetDoc2002300001">77317</OtherProfFeesRevAndExpnssAmt>
+        <OtherProfFeesNetInvstIncmAmt>77317</OtherProfFeesNetInvstIncmAmt>
+        <OtherProfFeesAdjNetIncmAmt>0</OtherProfFeesAdjNetIncmAmt>
+        <OtherProfFeesDsbrsChrtblAmt>0</OtherProfFeesDsbrsChrtblAmt>
+        <TaxesRevAndExpnssAmt referenceDocumentId="RetDoc2002500001">15423</TaxesRevAndExpnssAmt>
+        <TaxesNetInvstIncmAmt>15423</TaxesNetInvstIncmAmt>
+        <TaxesAdjNetIncmAmt>0</TaxesAdjNetIncmAmt>
+        <TaxesDsbrsChrtblAmt>0</TaxesDsbrsChrtblAmt>
+        <DeprecAndDpltnRevAndExpnssAmt referenceDocumentId="RetDoc2203000001">34894</DeprecAndDpltnRevAndExpnssAmt>
+        <DeprecAndDpltnNetInvstIncmAmt>0</DeprecAndDpltnNetInvstIncmAmt>
+        <DeprecAndDpltnAdjNetIncmAmt>34894</DeprecAndDpltnAdjNetIncmAmt>
+        <OccupancyRevAndExpnssAmt>22765</OccupancyRevAndExpnssAmt>
+        <OccupancyNetInvstIncmAmt>0</OccupancyNetInvstIncmAmt>
+        <OccupancyAdjNetIncmAmt>0</OccupancyAdjNetIncmAmt>
+        <OccupancyDsbrsChrtblAmt>22765</OccupancyDsbrsChrtblAmt>
+        <TravConfMeetingRevAndExpnssAmt>11002</TravConfMeetingRevAndExpnssAmt>
+        <TravConfMeetingNetInvstIncmAmt>0</TravConfMeetingNetInvstIncmAmt>
+        <TravConfMeetingAdjNetIncmAmt>0</TravConfMeetingAdjNetIncmAmt>
+        <TravConfMeetingDsbrsChrtblAmt>11002</TravConfMeetingDsbrsChrtblAmt>
+        <OtherExpensesRevAndExpnssAmt referenceDocumentId="RetDoc2003200001">2065590</OtherExpensesRevAndExpnssAmt>
+        <OtherExpensesNetInvstIncmAmt>0</OtherExpensesNetInvstIncmAmt>
+        <OtherExpensesAdjNetIncmAmt>21508</OtherExpensesAdjNetIncmAmt>
+        <OtherExpensesDsbrsChrtblAmt>2044082</OtherExpensesDsbrsChrtblAmt>
+        <TotOprExpensesRevAndExpnssAmt>2611942</TotOprExpensesRevAndExpnssAmt>
+        <TotOprExpensesNetInvstIncmAmt>108433</TotOprExpensesNetInvstIncmAmt>
+        <TotOprExpensesAdjNetIncmAmt>77417</TotOprExpensesAdjNetIncmAmt>
+        <TotOprExpensesDsbrsChrtblAmt>2426092</TotOprExpensesDsbrsChrtblAmt>
+        <ContriPaidRevAndExpnssAmt>0</ContriPaidRevAndExpnssAmt>
+        <ContriPaidDsbrsChrtblAmt>0</ContriPaidDsbrsChrtblAmt>
+        <TotalExpensesRevAndExpnssAmt>2611942</TotalExpensesRevAndExpnssAmt>
+        <TotalExpensesNetInvstIncmAmt>108433</TotalExpensesNetInvstIncmAmt>
+        <TotalExpensesAdjNetIncmAmt>77417</TotalExpensesAdjNetIncmAmt>
+        <TotalExpensesDsbrsChrtblAmt>2426092</TotalExpensesDsbrsChrtblAmt>
+        <ExcessRevenueOverExpensesAmt>-1926915</ExcessRevenueOverExpensesAmt>
+        <NetInvestmentIncomeAmt>671050</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>702066</AdjustedNetIncomeAmt>
+      </AnalysisOfRevenueAndExpenses>
+      <Form990PFBalanceSheetsGrp>
+        <CashBOYAmt>1479612</CashBOYAmt>
+        <CashEOYAmt>1641531</CashEOYAmt>
+        <CashEOYFMVAmt>1641531</CashEOYFMVAmt>
+        <SavAndTempCashInvstBOYAmt>6773003</SavAndTempCashInvstBOYAmt>
+        <PrepaidExpensesBOYAmt>4150</PrepaidExpensesBOYAmt>
+        <PrepaidExpensesEOYAmt>885</PrepaidExpensesEOYAmt>
+        <PrepaidExpensesEOYFMVAmt>885</PrepaidExpensesEOYFMVAmt>
+        <CorporateStockBOYAmt>6147101</CorporateStockBOYAmt>
+        <CorporateStockEOYAmt referenceDocumentId="RetDoc2018900001">4845339</CorporateStockEOYAmt>
+        <CorporateStockEOYFMVAmt>4845339</CorporateStockEOYFMVAmt>
+        <CorporateBondsBOYAmt>1681006</CorporateBondsBOYAmt>
+        <CorporateBondsEOYAmt referenceDocumentId="RetDoc2044400001">1840061</CorporateBondsEOYAmt>
+        <CorporateBondsEOYFMVAmt>1840061</CorporateBondsEOYFMVAmt>
+        <OtherInvestmentsBOYAmt>2324840</OtherInvestmentsBOYAmt>
+        <OtherInvestmentsEOYAmt referenceDocumentId="RetDoc2018100001">8324826</OtherInvestmentsEOYAmt>
+        <OtherInvestmentsEOYFMVAmt>8324826</OtherInvestmentsEOYFMVAmt>
+        <LandBldgEquipCostOrOtherBssAmt>1491874</LandBldgEquipCostOrOtherBssAmt>
+        <LandBldgEquipAccumDeprecAmt>104682</LandBldgEquipAccumDeprecAmt>
+        <LandBOYAmt>1422086</LandBOYAmt>
+        <LandEOYAmt referenceDocumentId="RetDoc2059000001">1387192</LandEOYAmt>
+        <LandEOYFMVAmt>1387192</LandEOYFMVAmt>
+        <OtherAssetsBOYAmt>0</OtherAssetsBOYAmt>
+        <OtherAssetsEOYAmt>0</OtherAssetsEOYAmt>
+        <OtherAssetsEOYFMVAmt>0</OtherAssetsEOYFMVAmt>
+        <TotalAssetsBOYAmt>19831798</TotalAssetsBOYAmt>
+        <TotalAssetsEOYAmt>18039834</TotalAssetsEOYAmt>
+        <TotalAssetsEOYFMVAmt>18039834</TotalAssetsEOYFMVAmt>
+        <AccountsPayableBOYAmt>272484</AccountsPayableBOYAmt>
+        <AccountsPayableEOYAmt>116501</AccountsPayableEOYAmt>
+        <TotalLiabilitiesBOYAmt>272484</TotalLiabilitiesBOYAmt>
+        <TotalLiabilitiesEOYAmt>116501</TotalLiabilitiesEOYAmt>
+        <OrganizationFollowsFASB117Ind>X</OrganizationFollowsFASB117Ind>
+        <NoDonorRstrNetAssestsBOYAmt>19559314</NoDonorRstrNetAssestsBOYAmt>
+        <NoDonorRstrNetAssestsEOYAmt>17923333</NoDonorRstrNetAssestsEOYAmt>
+        <TotNetAstOrFundBalancesBOYAmt>19559314</TotNetAstOrFundBalancesBOYAmt>
+        <TotNetAstOrFundBalancesEOYAmt>17923333</TotNetAstOrFundBalancesEOYAmt>
+        <TotalLiabilitiesNetAstBOYAmt>19831798</TotalLiabilitiesNetAstBOYAmt>
+        <TotalLiabilitiesNetAstEOYAmt>18039834</TotalLiabilitiesNetAstEOYAmt>
+      </Form990PFBalanceSheetsGrp>
+      <ChgInNetAssetsFundBalancesGrp>
+        <TotNetAstOrFundBalancesBOYAmt>19559314</TotNetAstOrFundBalancesBOYAmt>
+        <ExcessRevenueOverExpensesAmt>-1926915</ExcessRevenueOverExpensesAmt>
+        <OtherIncreasesAmt referenceDocumentId="RetDoc2049700001">290934</OtherIncreasesAmt>
+        <SubtotalAmt>17923333</SubtotalAmt>
+        <OtherDecreasesAmt>0</OtherDecreasesAmt>
+        <TotNetAstOrFundBalancesEOYAmt>17923333</TotNetAstOrFundBalancesEOYAmt>
+      </ChgInNetAssetsFundBalancesGrp>
+      <CapGainsLossTxInvstIncmDetail>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>SHORT-TERM INVESTMENTS</PropertyDesc>
+          <HowAcquiredCd>P</HowAcquiredCd>
+          <AcquiredDt>2019-03-22</AcquiredDt>
+          <SoldDt>2020-12-31</SoldDt>
+          <GrossSalesPriceAmt>5934893</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>6061166</CostOrOtherBasisAmt>
+          <GainOrLossAmt>-126273</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>-126273</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>LONG-TERM INVESTMENTS</PropertyDesc>
+          <HowAcquiredCd>P</HowAcquiredCd>
+          <AcquiredDt>2016-05-31</AcquiredDt>
+          <SoldDt>2020-12-31</SoldDt>
+          <GrossSalesPriceAmt>7252833</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>7224913</CostOrOtherBasisAmt>
+          <GainOrLossAmt>27920</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>27920</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapitalGainNetIncomeAmt>-98353</CapitalGainNetIncomeAmt>
+        <NetShortTermCapitalGainLossAmt>-126273</NetShortTermCapitalGainLossAmt>
+      </CapGainsLossTxInvstIncmDetail>
+      <ExciseTaxBasedOnInvstIncmGrp>
+        <InvestmentIncomeExciseTaxAmt>9328</InvestmentIncomeExciseTaxAmt>
+        <TaxUnderSection511Amt>0</TaxUnderSection511Amt>
+        <SubtotalAmt>9328</SubtotalAmt>
+        <SubtitleATaxAmt>0</SubtitleATaxAmt>
+        <TaxBasedOnInvestmentIncomeAmt>9328</TaxBasedOnInvestmentIncomeAmt>
+        <EstimatedPlusOvpmtIncmTxAmt>8000</EstimatedPlusOvpmtIncmTxAmt>
+        <ExemptFrgnOrgTaxWthldAtSrceAmt>0</ExemptFrgnOrgTaxWthldAtSrceAmt>
+        <ExtsnRequestIncomeTaxPaidAmt>0</ExtsnRequestIncomeTaxPaidAmt>
+        <BackupWithholdingWithheldAmt>0</BackupWithholdingWithheldAmt>
+        <TotalPaymentsAndCreditsAmt>8000</TotalPaymentsAndCreditsAmt>
+        <EsPenaltyAmt>74</EsPenaltyAmt>
+        <TaxDueAmt>1402</TaxDueAmt>
+      </ExciseTaxBasedOnInvstIncmGrp>
+      <StatementsRegardingActyGrp>
+        <LegislativePoliticalActyInd>0</LegislativePoliticalActyInd>
+        <MoreThan100SpentInd>0</MoreThan100SpentInd>
+        <Form1120POLFiledInd>0</Form1120POLFiledInd>
+        <Section4955OrganizationTaxAmt>0</Section4955OrganizationTaxAmt>
+        <Section4955ManagersTaxAmt>0</Section4955ManagersTaxAmt>
+        <TaxReimbursedAmt>0</TaxReimbursedAmt>
+        <ActivitiesNotPreviouslyRptInd>0</ActivitiesNotPreviouslyRptInd>
+        <ChangesToArticlesOrBylawsInd>0</ChangesToArticlesOrBylawsInd>
+        <UnrelatedBusIncmOverLimitInd>0</UnrelatedBusIncmOverLimitInd>
+        <OrganizationDissolvedEtcInd>0</OrganizationDissolvedEtcInd>
+        <Section508eRqrSatisfiedInd>1</Section508eRqrSatisfiedInd>
+        <AtLeast5000InAssetsInd>1</AtLeast5000InAssetsInd>
+        <OrgReportOrRegisterStateCd>DE</OrgReportOrRegisterStateCd>
+        <OrgReportOrRegisterStateCd>NJ</OrgReportOrRegisterStateCd>
+        <Form990PFFiledWithAttyGenInd>1</Form990PFFiledWithAttyGenInd>
+        <PrivateOperatingFoundationInd>1</PrivateOperatingFoundationInd>
+        <NewSubstantialContributorsInd>0</NewSubstantialContributorsInd>
+        <OwnControlledEntityInd>0</OwnControlledEntityInd>
+        <DonorAdvisedFundInd>0</DonorAdvisedFundInd>
+        <ComplyWithPublicInspRqrInd>1</ComplyWithPublicInspRqrInd>
+        <WebsiteAddressTxt>N/A</WebsiteAddressTxt>
+        <PersonsWithBooksName>
+          <BusinessNameLine1Txt>BRAND K PARTNERS</BusinessNameLine1Txt>
+        </PersonsWithBooksName>
+        <PhoneNum>2019042500</PhoneNum>
+        <LocationOfBooksUSAddress>
+          <AddressLine1Txt>BRAND K 5 SICOMAC ROAD PMB 333</AddressLine1Txt>
+          <CityNm>NORTH HALEDON</CityNm>
+          <StateAbbreviationCd>NJ</StateAbbreviationCd>
+          <ZIPCd>07508</ZIPCd>
+        </LocationOfBooksUSAddress>
+        <ForeignAccountsQuestionInd>0</ForeignAccountsQuestionInd>
+      </StatementsRegardingActyGrp>
+      <StatementsRegardingActy4720Grp>
+        <SaleOrExchDisqualifiedPrsnInd>0</SaleOrExchDisqualifiedPrsnInd>
+        <BrrwOrLendDisqualifiedPrsnInd>0</BrrwOrLendDisqualifiedPrsnInd>
+        <FurnGoodsDisqualifiedPrsnInd>0</FurnGoodsDisqualifiedPrsnInd>
+        <PayCompDisqualifiedPrsnInd>1</PayCompDisqualifiedPrsnInd>
+        <TransferAstDisqualifiedPrsnInd>0</TransferAstDisqualifiedPrsnInd>
+        <PaymentToGovernmentOfficialInd>0</PaymentToGovernmentOfficialInd>
+        <ActsFailToQlfyAsExceptionsInd>0</ActsFailToQlfyAsExceptionsInd>
+        <UncorrectedPriorActsInd>0</UncorrectedPriorActsInd>
+        <UndistributedIncomePYInd>0</UndistributedIncomePYInd>
+        <BusinessHoldingsInd>0</BusinessHoldingsInd>
+        <JeopardyInvestmentsInd>0</JeopardyInvestmentsInd>
+        <UncorrectedPYJeopardyInvstInd>0</UncorrectedPYJeopardyInvstInd>
+        <InfluenceLegislationInd>0</InfluenceLegislationInd>
+        <InfluenceElectionInd>0</InfluenceElectionInd>
+        <GrantsToIndividualsInd>0</GrantsToIndividualsInd>
+        <GrantsToOrganizationsInd>0</GrantsToOrganizationsInd>
+        <NoncharitablePurposeInd>0</NoncharitablePurposeInd>
+        <RcvFndsToPayPrsnlBnftCntrctInd>0</RcvFndsToPayPrsnlBnftCntrctInd>
+        <PayPremiumsPrsnlBnftCntrctInd>0</PayPremiumsPrsnlBnftCntrctInd>
+        <ProhibitedTaxShelterTransInd>0</ProhibitedTaxShelterTransInd>
+        <SubjToTaxRmnrtnExPrchtPymtInd>0</SubjToTaxRmnrtnExPrchtPymtInd>
+      </StatementsRegardingActy4720Grp>
+      <OfficerDirTrstKeyEmplInfoGrp>
+        <OfficerDirTrstKeyEmplGrp>
+          <PersonNm>WILL RASMUSSEN CERF</PersonNm>
+          <USAddress>
+            <AddressLine1Txt>5 SICOMAC ROAD</AddressLine1Txt>
+            <CityNm>NORTH HALEDON</CityNm>
+            <StateAbbreviationCd>NJ</StateAbbreviationCd>
+            <ZIPCd>07508</ZIPCd>
+          </USAddress>
+          <TitleTxt>TRUSTEE</TitleTxt>
+          <AverageHrsPerWkDevotedToPosRt>1.00</AverageHrsPerWkDevotedToPosRt>
+          <CompensationAmt>0</CompensationAmt>
+          <EmployeeBenefitProgramAmt>0</EmployeeBenefitProgramAmt>
+          <ExpenseAccountOtherAllwncAmt>0</ExpenseAccountOtherAllwncAmt>
+        </OfficerDirTrstKeyEmplGrp>
+        <OfficerDirTrstKeyEmplGrp>
+          <PersonNm>CHRISTOPHER DAVID CERF</PersonNm>
+          <USAddress>
+            <AddressLine1Txt>5 SICOMAC ROAD</AddressLine1Txt>
+            <CityNm>NORTH HALEDON</CityNm>
+            <StateAbbreviationCd>NJ</StateAbbreviationCd>
+            <ZIPCd>07508</ZIPCd>
+          </USAddress>
+          <TitleTxt>TRUSTEE</TitleTxt>
+          <AverageHrsPerWkDevotedToPosRt>25.00</AverageHrsPerWkDevotedToPosRt>
+          <CompensationAmt>107625</CompensationAmt>
+          <EmployeeBenefitProgramAmt>1767</EmployeeBenefitProgramAmt>
+          <ExpenseAccountOtherAllwncAmt>0</ExpenseAccountOtherAllwncAmt>
+        </OfficerDirTrstKeyEmplGrp>
+        <OfficerDirTrstKeyEmplGrp>
+          <PersonNm>NATHAN RASMUSSEN CERF</PersonNm>
+          <USAddress>
+            <AddressLine1Txt>5 SICOMAC ROAD</AddressLine1Txt>
+            <CityNm>NORTH HALEDON</CityNm>
+            <StateAbbreviationCd>NJ</StateAbbreviationCd>
+            <ZIPCd>07508</ZIPCd>
+          </USAddress>
+          <TitleTxt>TRUSTEE</TitleTxt>
+          <AverageHrsPerWkDevotedToPosRt>1.00</AverageHrsPerWkDevotedToPosRt>
+          <CompensationAmt>0</CompensationAmt>
+          <EmployeeBenefitProgramAmt>0</EmployeeBenefitProgramAmt>
+          <ExpenseAccountOtherAllwncAmt>0</ExpenseAccountOtherAllwncAmt>
+        </OfficerDirTrstKeyEmplGrp>
+        <OfficerDirTrstKeyEmplGrp>
+          <PersonNm>LEAH RASMUSSEN CERF</PersonNm>
+          <USAddress>
+            <AddressLine1Txt>5 SICOMAC ROAD</AddressLine1Txt>
+            <CityNm>NORTH HALEDON</CityNm>
+            <StateAbbreviationCd>NJ</StateAbbreviationCd>
+            <ZIPCd>07508</ZIPCd>
+          </USAddress>
+          <TitleTxt>TRUSTEE</TitleTxt>
+          <AverageHrsPerWkDevotedToPosRt>4.00</AverageHrsPerWkDevotedToPosRt>
+          <CompensationAmt>15900</CompensationAmt>
+          <EmployeeBenefitProgramAmt>8393</EmployeeBenefitProgramAmt>
+          <ExpenseAccountOtherAllwncAmt>0</ExpenseAccountOtherAllwncAmt>
+        </OfficerDirTrstKeyEmplGrp>
+        <OfficerDirTrstKeyEmplGrp>
+          <PersonNm>ANN MORRELL RASMUSSEN</PersonNm>
+          <USAddress>
+            <AddressLine1Txt>5 SICOMAC ROAD</AddressLine1Txt>
+            <CityNm>NORTH HALEDON</CityNm>
+            <StateAbbreviationCd>NJ</StateAbbreviationCd>
+            <ZIPCd>07508</ZIPCd>
+          </USAddress>
+          <TitleTxt>TRUSTEE</TitleTxt>
+          <AverageHrsPerWkDevotedToPosRt>22.00</AverageHrsPerWkDevotedToPosRt>
+          <CompensationAmt>107625</CompensationAmt>
+          <EmployeeBenefitProgramAmt>13340</EmployeeBenefitProgramAmt>
+          <ExpenseAccountOtherAllwncAmt>0</ExpenseAccountOtherAllwncAmt>
+        </OfficerDirTrstKeyEmplGrp>
+        <CompOfHghstPdEmplOrNONETxt>NONE</CompOfHghstPdEmplOrNONETxt>
+        <OtherEmployeePaidOver50kCnt>0</OtherEmployeePaidOver50kCnt>
+        <CompensationOfHghstPdCntrctGrp>
+          <BusinessName>
+            <BusinessNameLine1Txt>MODULAR CONCEPTS EAST</BusinessNameLine1Txt>
+          </BusinessName>
+          <USAddress>
+            <AddressLine1Txt>1258 CRYSTAL LAKE RD</AddressLine1Txt>
+            <CityNm>HANCOCK</CityNm>
+            <StateAbbreviationCd>NY</StateAbbreviationCd>
+            <ZIPCd>13783</ZIPCd>
+          </USAddress>
+          <ServiceTypeTxt>CONSTRUCTION</ServiceTypeTxt>
+          <CompensationAmt>1433961</CompensationAmt>
+        </CompensationOfHghstPdCntrctGrp>
+        <CompensationOfHghstPdCntrctGrp>
+          <BusinessName>
+            <BusinessNameLine1Txt>MT VISION GARDEN CENTER INC</BusinessNameLine1Txt>
+          </BusinessName>
+          <USAddress>
+            <AddressLine1Txt>125 COUNTY HIGHWAY 46</AddressLine1Txt>
+            <CityNm>MOUNT VISION</CityNm>
+            <StateAbbreviationCd>NY</StateAbbreviationCd>
+            <ZIPCd>13810</ZIPCd>
+          </USAddress>
+          <ServiceTypeTxt>LANDSCAPING</ServiceTypeTxt>
+          <CompensationAmt>134750</CompensationAmt>
+        </CompensationOfHghstPdCntrctGrp>
+        <CompensationOfHghstPdCntrctGrp>
+          <BusinessName>
+            <BusinessNameLine1Txt>LIZ MURPHY</BusinessNameLine1Txt>
+          </BusinessName>
+          <USAddress>
+            <AddressLine1Txt>53 GREENWOOD AVE UNIT 2A</AddressLine1Txt>
+            <CityNm>MONTCLAIR</CityNm>
+            <StateAbbreviationCd>NJ</StateAbbreviationCd>
+            <ZIPCd>07042</ZIPCd>
+          </USAddress>
+          <ServiceTypeTxt>INTERIOR DESIGNS</ServiceTypeTxt>
+          <CompensationAmt>103577</CompensationAmt>
+        </CompensationOfHghstPdCntrctGrp>
+        <CompensationOfHghstPdCntrctGrp>
+          <BusinessName>
+            <BusinessNameLine1Txt>WHEELER EXCAVATING LLC</BusinessNameLine1Txt>
+          </BusinessName>
+          <USAddress>
+            <AddressLine1Txt>333 STATE HIGHWAY 10</AddressLine1Txt>
+            <CityNm>DEPOSIT</CityNm>
+            <StateAbbreviationCd>NY</StateAbbreviationCd>
+            <ZIPCd>13754</ZIPCd>
+          </USAddress>
+          <ServiceTypeTxt>333 STATE HIGHWAY 10</ServiceTypeTxt>
+          <CompensationAmt>68875</CompensationAmt>
+        </CompensationOfHghstPdCntrctGrp>
+        <ContractorPaidOver50kCnt>0</ContractorPaidOver50kCnt>
+      </OfficerDirTrstKeyEmplInfoGrp>
+      <SummaryOfDirectChrtblActyGrp>
+        <Description1Txt>SEE STATEMENT 19:</Description1Txt>
+        <Expenses1Amt>2290621</Expenses1Amt>
+      </SummaryOfDirectChrtblActyGrp>
+      <SumOfProgramRelatedInvstGrp>
+        <TotalAmt>0</TotalAmt>
+      </SumOfProgramRelatedInvstGrp>
+      <MinimumInvestmentReturnGrp>
+        <AverageMonthlyFMVOfSecAmt>8796826</AverageMonthlyFMVOfSecAmt>
+        <AverageMonthlyCashBalancesAmt>7315854</AverageMonthlyCashBalancesAmt>
+        <FMVAllOtherNoncharitableAstAmt>0</FMVAllOtherNoncharitableAstAmt>
+        <TotalFMVOfUnusedAssetsAmt>16112680</TotalFMVOfUnusedAssetsAmt>
+        <ReductionClaimedAmt>0</ReductionClaimedAmt>
+        <AcquisitionIndebtednessAmt>0</AcquisitionIndebtednessAmt>
+        <AdjustedTotalFMVOfUnusedAstAmt>16112680</AdjustedTotalFMVOfUnusedAstAmt>
+        <CashDeemedCharitableAmt>241690</CashDeemedCharitableAmt>
+        <NetVlNoncharitableAssetsAmt>15870990</NetVlNoncharitableAssetsAmt>
+        <MinimumInvestmentReturnAmt>793550</MinimumInvestmentReturnAmt>
+      </MinimumInvestmentReturnGrp>
+      <DistributableAmountGrp>
+        <Sect4942j3j5FndtnAndFrgnOrgInd>X</Sect4942j3j5FndtnAndFrgnOrgInd>
+      </DistributableAmountGrp>
+      <QualifyingDistriPartXIIGrp>
+        <ExpensesAndContributionsAmt>2426092</ExpensesAndContributionsAmt>
+        <ProgramRelatedInvstTotalAmt>0</ProgramRelatedInvstTotalAmt>
+        <QualifyingDistributionsAmt>2426092</QualifyingDistributionsAmt>
+        <PctSect4940eOrgNetInvstIncmAmt>0</PctSect4940eOrgNetInvstIncmAmt>
+        <AdjustedQualifyingDistriAmt>2426092</AdjustedQualifyingDistriAmt>
+      </QualifyingDistriPartXIIGrp>
+      <PrivateOperatingFoundationsGrp>
+        <PrivateOperatingFndtnRulingDt>2016-09-13</PrivateOperatingFndtnRulingDt>
+        <Section4942j3Ind>X</Section4942j3Ind>
+        <LessorAdjNetIncmMinInvstRetGrp>
+          <CurrentYearAmt>702066</CurrentYearAmt>
+          <Year1Amt>705359</Year1Amt>
+          <Year2Amt>238194</Year2Amt>
+          <Year3Amt>530311</Year3Amt>
+          <TotalAmt>2175930</TotalAmt>
+        </LessorAdjNetIncmMinInvstRetGrp>
+        <Pct85LessorAdjIncmOrMinRetGrp>
+          <CurrentYearAmt>596756</CurrentYearAmt>
+          <Year1Amt>599555</Year1Amt>
+          <Year2Amt>202465</Year2Amt>
+          <Year3Amt>450764</Year3Amt>
+          <TotalAmt>1849541</TotalAmt>
+        </Pct85LessorAdjIncmOrMinRetGrp>
+        <QualifyingDistributionsGrp>
+          <CurrentYearAmt>2426092</CurrentYearAmt>
+          <Year1Amt>1810160</Year1Amt>
+          <Year2Amt>969957</Year2Amt>
+          <Year3Amt>814814</Year3Amt>
+          <TotalAmt>6021023</TotalAmt>
+        </QualifyingDistributionsGrp>
+        <QualifyingDistriNotUsedDrtGrp>
+          <CurrentYearAmt>0</CurrentYearAmt>
+          <Year1Amt>0</Year1Amt>
+          <Year2Amt>0</Year2Amt>
+          <Year3Amt>1500</Year3Amt>
+          <TotalAmt>1500</TotalAmt>
+        </QualifyingDistriNotUsedDrtGrp>
+        <QualifyingDistriMadeDrtGrp>
+          <CurrentYearAmt>2426092</CurrentYearAmt>
+          <Year1Amt>1810160</Year1Amt>
+          <Year2Amt>969957</Year2Amt>
+          <Year3Amt>813314</Year3Amt>
+          <TotalAmt>6019523</TotalAmt>
+        </QualifyingDistriMadeDrtGrp>
+        <TotalAssetsGrp>
+          <TotalAmt>0</TotalAmt>
+        </TotalAssetsGrp>
+        <TotalAssetsSect4942j3BiGrp>
+          <TotalAmt>0</TotalAmt>
+        </TotalAssetsSect4942j3BiGrp>
+        <TwoThirdsMinimumInvstRetGrp>
+          <CurrentYearAmt>529033</CurrentYearAmt>
+          <Year1Amt>576727</Year1Amt>
+          <Year2Amt>601291</Year2Amt>
+          <Year3Amt>635259</Year3Amt>
+          <TotalAmt>2342310</TotalAmt>
+        </TwoThirdsMinimumInvstRetGrp>
+        <TotalSupportGrp>
+          <TotalAmt>0</TotalAmt>
+        </TotalSupportGrp>
+        <PublicSupportType>
+          <TotalAmt>0</TotalAmt>
+        </PublicSupportType>
+        <LargestSupportFromEOGrp>
+          <TotalAmt>0</TotalAmt>
+        </LargestSupportFromEOGrp>
+        <GrossInvestmentIncomeGrp>
+          <TotalAmt>0</TotalAmt>
+        </GrossInvestmentIncomeGrp>
+      </PrivateOperatingFoundationsGrp>
+      <SupplementaryInformationGrp>
+        <OnlyContriToPreselectedInd>X</OnlyContriToPreselectedInd>
+        <TotalGrantOrContriPdDurYrAmt>0</TotalGrantOrContriPdDurYrAmt>
+        <TotalGrantOrContriApprvFutAmt>0</TotalGrantOrContriApprvFutAmt>
+      </SupplementaryInformationGrp>
+      <AnalysisIncomeProducingActyGrp>
+        <DivAndIntFromSecPartVIIGrp>
+          <ExclusionCd>14</ExclusionCd>
+          <ExclusionAmt>779483</ExclusionAmt>
+        </DivAndIntFromSecPartVIIGrp>
+        <GainSalesAstOthThanInvntryGrp>
+          <ExclusionCd>18</ExclusionCd>
+          <ExclusionAmt>-98353</ExclusionAmt>
+        </GainSalesAstOthThanInvntryGrp>
+        <SubtotalsIncmProducingActyGrp>
+          <UnrelatedBusinessTaxblIncmAmt>0</UnrelatedBusinessTaxblIncmAmt>
+          <ExclusionAmt>681130</ExclusionAmt>
+          <RelatedOrExemptFunctionIncmAmt>0</RelatedOrExemptFunctionIncmAmt>
+        </SubtotalsIncmProducingActyGrp>
+        <TotalIncomeProducingActyAmt>681130</TotalIncomeProducingActyAmt>
+      </AnalysisIncomeProducingActyGrp>
+      <TrnsfrTransRlnNonchrtblEOGrp>
+        <TrnsfrOfCashToNonchrtblEOInd>0</TrnsfrOfCashToNonchrtblEOInd>
+        <TrnsfrOtherAssetNonchrtblEOInd>0</TrnsfrOtherAssetNonchrtblEOInd>
+        <SalesOrExchangesOfAssetsInd>0</SalesOrExchangesOfAssetsInd>
+        <PurchaseOfAssetsNonchrtblEOInd>0</PurchaseOfAssetsNonchrtblEOInd>
+        <RentalOfFacilitiesOthAssetsInd>0</RentalOfFacilitiesOthAssetsInd>
+        <ReimbursementArrangementsInd>0</ReimbursementArrangementsInd>
+        <LoansOrLoanGuaranteesInd>0</LoansOrLoanGuaranteesInd>
+        <PerformanceOfServicesEtcInd>0</PerformanceOfServicesEtcInd>
+        <SharingOfFacilitiesEtcInd>0</SharingOfFacilitiesEtcInd>
+        <RelationshipsNonchrtblEOInd>0</RelationshipsNonchrtblEOInd>
+      </TrnsfrTransRlnNonchrtblEOGrp>
+    </IRS990PF>
+    <AccountingFeesSchedule documentId="RetDoc2002200001">
+      <AccountingFeesDetail>
+        <CategoryTxt>ACCOUNTING</CategoryTxt>
+        <Amt>31386</Amt>
+        <NetInvestmentIncomeAmt>15693</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>15693</AdjustedNetIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>0</DisbursementsCharitablePrpsAmt>
+      </AccountingFeesDetail>
+    </AccountingFeesSchedule>
+    <DepreciationSchedule documentId="RetDoc2203000001">
+      <DepreciationPropertyGrp>
+        <PropertyDesc>LAND</PropertyDesc>
+        <AcquiredDt>2017-01-01</AcquiredDt>
+        <CostOrOtherBasisAmt>131000</CostOrOtherBasisAmt>
+        <ComputationMethodTxt>L</ComputationMethodTxt>
+        <CurrentYearExpenseAmt>0</CurrentYearExpenseAmt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+      </DepreciationPropertyGrp>
+      <DepreciationPropertyGrp>
+        <PropertyDesc>BUILDING</PropertyDesc>
+        <AcquiredDt>2017-01-01</AcquiredDt>
+        <CostOrOtherBasisAmt>1179000</CostOrOtherBasisAmt>
+        <PriorYearDepreciationAmt>60462</PriorYearDepreciationAmt>
+        <ComputationMethodTxt>SL</ComputationMethodTxt>
+        <LifeRt>39.000000000000</LifeRt>
+        <CurrentYearExpenseAmt>30231</CurrentYearExpenseAmt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>30231</AdjustedNetIncomeAmt>
+      </DepreciationPropertyGrp>
+      <DepreciationPropertyGrp>
+        <PropertyDesc>2017 BUILDING ADDITIONS</PropertyDesc>
+        <AcquiredDt>2017-01-01</AcquiredDt>
+        <CostOrOtherBasisAmt>181874</CostOrOtherBasisAmt>
+        <PriorYearDepreciationAmt>9326</PriorYearDepreciationAmt>
+        <ComputationMethodTxt>SL</ComputationMethodTxt>
+        <LifeRt>39.000000000000</LifeRt>
+        <CurrentYearExpenseAmt>4663</CurrentYearExpenseAmt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>4663</AdjustedNetIncomeAmt>
+      </DepreciationPropertyGrp>
+    </DepreciationSchedule>
+    <GeneralExplanationAttachment documentId="RetDoc2258700001">
+      <GeneralExplanationGrp>
+        <FormAndLineReferenceDesc>FORM 990PF. PART VIII, LINE 1 AND CONTINUATION OF STATEMENT 10:</FormAndLineReferenceDesc>
+        <MediumExplanationTxt>THERE IS SOME AMBIGUITY IN THE INSTRUCTIONS REGARDING THE INTENT OF THE REQUEST FOR INFORMATION PERTAINING TO "HOURS/WEEK." IN PAST 990PF RETURNS, WE HAVE INTERPRETED IT TO REFER ONLY TO THE HOURS PER WEEK RELATED TO WORK BY "TRUSTEES" IN THAT CAPACITY -- IN OTHER WORDS, NOT INCLUSIVE OF HOURS SERVED IN OTHER CAPACITIES, E.G. AS EMPLOYEE/ADMINISTRATORS. ON RECONSIDERATION, WE BELIEVE THE BETTER READING IS TO INCLUDE THE TOTAL NUMBER OF HOURS PER WEEK SERVED IN ALL CAPACITIES AND THAT FIGURE IS NOW REFLECTED IN THIS RETURN. IN FACT, THE TOTAL NUMBER OF HOURS PER WEEK SERVED BY THE TRUSTEES WHO ALSO SERVE AS EXECUTIVE DIRECTORS HAS NOT CHANGED BETWEEN TAX YEAR 2019, TAX YEAR 2020 AND THE PRESENT. WHILE NOT AN EXHAUSTIVE LIST, EXAMPLES OF THE JOB DUTIES OF THE CO-EXECUTIVE DIRECTORS IN BOTH YEARS INCLUDE: 1) DESIGNING AND MANAGING THE CONSTRUCTION OF A RESIDENCE FOR ON SITE STAFF; 2) DESIGNING AND OVERSEEING A SIGNIFICANT RENOVATION AND EXPANSION OF THE MAIN FACILITY, A CONSTRUCTION PROJECT THAT ENABLES THE FOUNDATION TO SERVE SUBSTANTIALLY LARGER NON PROFIT ORGANIZATIONS AND COMPLY WITH APPLICABLE HEALTH AND SAFETY CODES; 3) MANAGING THE FOUNDATION'S SUBSTANTIAL ($20MILLION) ENDOWMENT; 5) RECRUITING AND MANAGING EMPLOYEES, INCLUDING THE DIRECTOR OF NATURALIST EDUCATION, 6) EXTENSIVE OUTREACH TO NON-PROFIT GROUPS TO QUALIFY AND SERVE BENEFICIARIES OF THE FOUNDATION'S OFFERINGS; 7) DESIGNING, STAFFING AND IMPLEMENTING AN ARRAY OF PROGRAMS, TO INCLUDE AN ILLUSTRATED NATURE TRAIL, ART THERAPY, YOGA, MEDITATION AND OTHER WELLNESS ACTIVITIES, 8) DEVELOPING AND MAINTAINING AN EXTENSIVE ORGANIC VEGETABLE (WHICH SERVES BOTH A PROGRAMMATIC FUNCTION AND SUPPLIES THE KITCHEN WITH FRESH PRODUCE (ALL EXCESS IS DONATED FREE OF CHARGE TO LOCAL FOOD BANKS); 9) MANAGING COMPLEX LEGAL AND TAX ISSUES, INCLUDING COVID PROTOCOLS; 9) DESIGNING AND IMPLEMENTING AN ARRAY OF TEAM BUILDING EXERCISES FOR "CHANGEMAKER ORGANIZATIONS; 10) RETAINING FACILITATORS TO SUPPORT PARTICIPANTS' STRATEGIC PLANNING SESSIONS, 11) EXTENSIVE OUTREACH TO THE COMMUNITY, RESULTING IN DOZENS OF COST FREE EVENTS FOR LOCAL SOCIAL SERVICE ORGANIZATIONS, AND MORE.PLEASE ALSO SEE STATEMENT 19.</MediumExplanationTxt>
+      </GeneralExplanationGrp>
+      <GeneralExplanationGrp>
+        <FormAndLineReferenceDesc>FORM 990PF. PART I, LINE 23:</FormAndLineReferenceDesc>
+        <MediumExplanationTxt>CULINARY, HOUSEKEEPING AND SELECTED DIRECT RETREAT COSTS:100% OF OPERATING AND CAPITAL EXPENSES SUPPORT THE FOUNDATION'S MISSION. FOR EXAMPLE 1) THE SUBSTANTIAL CAPITAL INVESTMENT IN EXPANDING AND RENOVATING THE FACILITY ENABLES US TO BETTER SERVE SUBSTANTIALLY MORE NON-PROFIT ORGANIZATIONS AND ASSURE COMPLIANCE WITH STATE HEALTH AND SAFETY CODES; 2) THE SALARY OF OUR HEAD OF AGRICULTURAL AND NATURALIST OPERATIONS AND ASSOCIATED EXPENSES SUPPORT OUR ORGANIC VEGETABLE GARDEN AND NATURE WALKS WHICH ARE CRITICAL PARTS OF OUR GUEST EXPERIENCE.</MediumExplanationTxt>
+      </GeneralExplanationGrp>
+      <GeneralExplanationGrp>
+        <FormAndLineReferenceDesc>FORM 990PF. PART XV:</FormAndLineReferenceDesc>
+        <MediumExplanationTxt>GIFTS AND GRANTS TO DELAWARE COUNTY ORGANIZATIONS ARE MADE BY A SEPARATE DONOR ASSISTED FUND (DAF) MANAGED BY ANN RASMUSSEN. IN ADDITION, ALL LOCAL EVENTS ARE PROVIDED FREE OF CHARGE. ALL OTHER EVENTS/RETREATS IN VIRTUALLY ALL CASES (AND IN ALL CASES IN 2020) ARE ENTIRELY SUBSIDIZED BY THE FOUNDATION. IN THAT SENSE, THEY MAY BE CONSIDERED "CONTRIBUTIONS."</MediumExplanationTxt>
+      </GeneralExplanationGrp>
+      <GeneralExplanationGrp>
+        <FormAndLineReferenceDesc>FORM 990PF. PART II, LINE 24:</FormAndLineReferenceDesc>
+        <MediumExplanationTxt>ALL ASSETS AND ANY INCOME BELONG EXCLUSIVELY TO THE FOUNDATION AND ARE USED, AND MAY BE USED, SOLELY TO SUPPORT ITS CHARITABLE MISSION.</MediumExplanationTxt>
+      </GeneralExplanationGrp>
+      <GeneralExplanationGrp>
+        <FormAndLineReferenceDesc>FORM 990PF. PART VII-A, LINE 8A:</FormAndLineReferenceDesc>
+        <MediumExplanationTxt>THE FOUNDATION IS THE SOLE MEMBER OF SEVERAL DISREGARDED LLCS THAT ARE REGISTERED IN THE STATE OF NEW YORK.</MediumExplanationTxt>
+      </GeneralExplanationGrp>
+      <GeneralExplanationGrp>
+        <FormAndLineReferenceDesc>PART VII-A, QUESTION 8B:</FormAndLineReferenceDesc>
+        <MediumExplanationTxt>THE ORGANIZATION FILES CORPORATE ANNUAL REPORTS IN DE AND NJ. IT IS THE SOLE MEMBER OF SEVERAL LLCS WHICH ARE REGISTERED IN NY. THE LLCS, BY THEIR TERMS, EXIST FOR THE EXCLUSIVE PURPOSE OF ENABLING THE FOUNDATION TO EXECUTE ITS MISSION. STATE SUBMISSIONS ARE PROVIDED AS REQUIRED.</MediumExplanationTxt>
+      </GeneralExplanationGrp>
+      <GeneralExplanationGrp>
+        <FormAndLineReferenceDesc>FORM 990PF. PART VII-B, LINE 3A:</FormAndLineReferenceDesc>
+        <MediumExplanationTxt>THE FOUNDATION IS THE SOLE "MEMBER" OF SEVERAL ENTITIES THAT ARE "DISREGARDED" FOR PURPOSES OF FEDERAL, STATE AND LOCAL TAX LAW. SUCH ENTITIES EXIST FOR THE SOLE PURPOSE OF IMPLEMENTING THE FOUNDATION'S MISSION AND ANY ASSETS OR INCOME ASSOCIATED WITH THEM MAY ONLY BE USED BY THE FOUNDATION IN SUPPORT OF THAT MISSION."</MediumExplanationTxt>
+      </GeneralExplanationGrp>
+      <GeneralExplanationGrp>
+        <FormAndLineReferenceDesc>FORM 990PF. PART VIII, LINE 1:</FormAndLineReferenceDesc>
+        <MediumExplanationTxt>IN EARLY 2021, ANN REIMBURSED THE FOUNDATION THE AMOUNT OF $7200 TO COVER A PORTION OF HER HEALTH INSURANCE PREMIUM.</MediumExplanationTxt>
+      </GeneralExplanationGrp>
+      <GeneralExplanationGrp>
+        <FormAndLineReferenceDesc>FORM 990PF. PART IX-A LINE 1:</FormAndLineReferenceDesc>
+        <MediumExplanationTxt>THE NON-PROFIT UPLANDS CENTER SUPPORTS GROUPS WHOSE MISSION IS TO CARE FOR OTHERS OR TO EFFECT POSITIVE CHANGE IN THE WORLD THROUGH COLLECTIVE WORK. LOCATED ON 290 ACRES OF SWEEPING FARM AND WOODLANDS IN THE WESTERN CATSKILLS, THE UPLANDS PROVIDES A FLEXIBLE SETTING FOR A HOST OF ACTIVITIES, DEPENDING ON THE GROUP'S PARTICULAR GOAL. FOR THOSE GROUPS WORKING TO MAKE POSITIVE CHANGE IN THE WORLD, THE SETTING SUPPORTS STRATEGIC PROGRAM DESIGN, TEAM BUILDING, AND ORGANIZATIONAL DEVELOPMENT. FOR ORGANIZATIONS DEDICATED TO CARING FOR OTHERS, AN ARRAY OF RESTORATIVE PROGRAMS AND OFFERINGS ARE AVAILABLE TO SUPPORT GROUPS WHOSE WORK IN SERVICE OF OTHERS IS ESPECIALLY DEPLETING, INCLUDING HEALTH CARE AND SOCIAL SERVICE PROVIDERS, EDUCATORS AND FIRST RESPONDERS.GROUPS ENJOY THE BEAUTY OF THE GROUNDS, CONFERENCE FACILITIES AND MEALS THAT DRAW FROM THE ORGANIC GARDEN. THEY FIND INSPIRATION AND SUSTENANCE FROM NATURE TRAILS, MEDITATION SITES, FARM, AND INDOOR SPACES DEDICATED TO ART AND WELLNESS ACTIVITIES.THE UPLANDS SUBSIDIZES ALL ACTIVITIES TO ENSURE THAT AFFORDABILITY IS NOT A BARRIER TO PARTICIPATION. DEEPLY COMMITTED TO THE SURROUNDING COMMUNITY, THE UPLANDS OFFERS ALL LOCALLY-CENTERED EVENTS ENTIRELY FREE OF CHARGE, AS WAS ALSO THE CASE FOR ALL NATIONAL GROUPS WE SERVED IN 2020. 2020 WAS A TRANSITION YEAR FOR THE UPLANDS. DURING 2019, AS WE CONTINUED TO STAFF AND BUILD OUT THE ORGANIZATION, WE HOSTED APPROXIMATELY 18 EVENTS, FROM MULTI-DAY GATHERINGS TO DAY RETREATS FOR LOCAL GROUPS AS VARIED AS SCHOOLS AND COMMUNITY SOCIAL SERVICE ORGANIZATIONS. NATIONAL GROUPS ENJOYING MULTI DAY EXPERIENCES INCLUDE A GROUP THAT WORKS WITH YOUNG WOMEN FROM A LARGE URBAN CENTER WHOSE LIVES HAVE BEEN TOUCHED BY GUN VIOLENCE, A NATIONALLY RECOGNIZED GROUP THAT WORKS TO MEDIATE GANG VIOLENCE, AN ORGANIZATION THAT PROVIDES GRIEF COUNSELLING TO FAMILIES, A GROUP OF HOSPICE WORKERS AND CAREGIVERS, AND AN ORGANIZATION THAT SUPPORTS QUALITY EDUCATION FOR CHILDREN WITH AUTISM. IN EARLY SEPTEMBER 2019, WE SUSPENDED MOST OPERATIONS IN ORDER TO BEGIN A LARGE RENOVATION AND EXPANSION PROJECT. IN EARLY 2020, THE NATION WAS STRUCK BY THE COVID PANDEMIC AND OUR ABILITY TO CONDUCT RETREATS WAS LEGALLY SUSPENDED UNTIL LATE SPRING 2021. WHILE WE HOSTED MULTIPLE EVENTS IN OUTDOOR SPACES AND A FEW REMOTELY OR OFF-SITE, FOR THE MOST PART 2020 WAS DEDICATED TO OTHER ORGANIZATION-BUILDING ACTIVITIES, INCLUDING CONSTRUCTING NATURE WALKS, RECRUITING AND SIGNIFICANTLY EXPANDING STAFF, EXPANDING THE VEGETABLE GARDEN, MANAGING THE CONSTRUCTION PROJECT, FURNISHING THE NEW FACILITY, PROGRAM DESIGN, OUTREACH TO NON-PROFIT ORGANIZATIONS, ETC. WE REOPENED IN LATE MAY 2021 AND HAVE HOSTED MULTIPLE EVENTS OVER THE SUMMER, INCLUDING SEVERAL FOR HEALTH CARE PROVIDERS WHO HAD SERVED VALIANTLY DURING THE PANDEMIC, OFTEN IN AN ENVIRONMENT OF ALMOST UNIMAGINABLE STRESS AND PRESSURE. (OUR FIRST RETREAT WAS FOR YOUR PHYSICIANS WHO HAD JUST COMPLETED THEIR FIRST YEAR RESIDENCY IN EMERGENCY MEDICINE.)</MediumExplanationTxt>
+      </GeneralExplanationGrp>
+      <GeneralExplanationGrp>
+        <FormAndLineReferenceDesc>FORM 990PF. PART X, LINE 5:</FormAndLineReferenceDesc>
+        <MediumExplanationTxt>100% OF ALL ASSETS ARE USED FOR CHARITABLE PURPOSES. ANY INCOME FROM THE ENDOWMENT (OR ANY OTHER SOURCE) SUPPORTS OPERATING COSTS. TO BETTER FULFILL THE FOUNDATION'S CHARITABLE MISSION, IT NEEDED TO EXPAND AND RENOVATE THE RETREAT CENTER AND BRING IT INTO COMPLIANCE WITH HEALTH AND SAFETY CODES. A PORTION OF THE ENDOWMENT WAS USED FOR THAT PURPOSE.</MediumExplanationTxt>
+      </GeneralExplanationGrp>
+    </GeneralExplanationAttachment>
+    <InvestmentsCorpBondsSchedule documentId="RetDoc2044400001">
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>CORPORATE BONDS</BondNm>
+        <EOYBookValueAmt>1840061</EOYBookValueAmt>
+        <EOYFMVAmt>1840061</EOYFMVAmt>
+      </InvestmentsCorporateBondsGrp>
+    </InvestmentsCorpBondsSchedule>
+    <InvestmentsCorpStockSchedule documentId="RetDoc2018900001">
+      <InvestmentsCorporateStockGrp>
+        <StockNm>CORPORATE STOCK</StockNm>
+        <EOYBookValueAmt>4845339</EOYBookValueAmt>
+        <EOYFMVAmt>4845339</EOYFMVAmt>
+      </InvestmentsCorporateStockGrp>
+    </InvestmentsCorpStockSchedule>
+    <InvestmentsOtherSchedule2 documentId="RetDoc2018100001">
+      <InvestmentsOtherGrp>
+        <CategoryOrItemTxt>OTHER INVESTMENTS</CategoryOrItemTxt>
+        <ListedAtCostOrFMVCd>FMV</ListedAtCostOrFMVCd>
+        <BookValueAmt>8052603</BookValueAmt>
+        <EOYFMVAmt>8052603</EOYFMVAmt>
+      </InvestmentsOtherGrp>
+      <InvestmentsOtherGrp>
+        <CategoryOrItemTxt>OTHER SECURITIES</CategoryOrItemTxt>
+        <ListedAtCostOrFMVCd>FMV</ListedAtCostOrFMVCd>
+        <BookValueAmt>272223</BookValueAmt>
+        <EOYFMVAmt>272223</EOYFMVAmt>
+      </InvestmentsOtherGrp>
+    </InvestmentsOtherSchedule2>
+    <LandEtcSchedule2 documentId="RetDoc2059000001">
+      <LandEtcGrp>
+        <CategoryOrItemTxt>LAND</CategoryOrItemTxt>
+        <CostOrOtherBasisAmt>131000</CostOrOtherBasisAmt>
+        <AccumulatedDepreciationAmt>0</AccumulatedDepreciationAmt>
+        <BookValueAmt>131000</BookValueAmt>
+      </LandEtcGrp>
+      <LandEtcGrp>
+        <CategoryOrItemTxt>BUILDING</CategoryOrItemTxt>
+        <CostOrOtherBasisAmt>1179000</CostOrOtherBasisAmt>
+        <AccumulatedDepreciationAmt>90693</AccumulatedDepreciationAmt>
+        <BookValueAmt>1088307</BookValueAmt>
+      </LandEtcGrp>
+      <LandEtcGrp>
+        <CategoryOrItemTxt>2017 BUILDING ADDITIONS</CategoryOrItemTxt>
+        <CostOrOtherBasisAmt>181874</CostOrOtherBasisAmt>
+        <AccumulatedDepreciationAmt>13989</AccumulatedDepreciationAmt>
+        <BookValueAmt>167885</BookValueAmt>
+      </LandEtcGrp>
+    </LandEtcSchedule2>
+    <LegalFeesSchedule documentId="RetDoc2002100001">
+      <LegalFeesGrp>
+        <CategoryTxt>LEGAL</CategoryTxt>
+        <LegalFeesAmt>5322</LegalFeesAmt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>5322</AdjustedNetIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>0</DisbursementsCharitablePrpsAmt>
+      </LegalFeesGrp>
+    </LegalFeesSchedule>
+    <OtherExpensesSchedule documentId="RetDoc2003200001">
+      <OtherExpensesScheduleGrp>
+        <Desc>WORKERS COMPENSATION INSURANCE</Desc>
+        <RevenueAndExpensesPerBooksAmt>25346</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>25346</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>CULINARY, HOUSEKEEPING AND _SELECTED DIRECT RETREAT _COSTS *SEE STAT. 12.</Desc>
+        <RevenueAndExpensesPerBooksAmt>1958</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>1958</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>CONSULTANTS &amp; CONTRACTORS</Desc>
+        <RevenueAndExpensesPerBooksAmt>68468</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>68468</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>OFFICE EXPENSES</Desc>
+        <RevenueAndExpensesPerBooksAmt>8415</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>8415</AdjustedNetIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>0</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>INSURANCE</Desc>
+        <RevenueAndExpensesPerBooksAmt>24857</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>24857</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>OTHER EXPENSES</Desc>
+        <RevenueAndExpensesPerBooksAmt>13093</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>13093</AdjustedNetIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>0</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>FACILITY AND EQUIPMENT EXPENSES</Desc>
+        <RevenueAndExpensesPerBooksAmt>50300</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>50300</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>BUILDING AND CONSTRUCTION EXPENSES</Desc>
+        <RevenueAndExpensesPerBooksAmt>1867420</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>1867420</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>ENVIRONMENTAL/COMMUNITY PROGRAMMING</Desc>
+        <RevenueAndExpensesPerBooksAmt>1391</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>1391</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>PROFESSIONAL DEVELOPMENT</Desc>
+        <RevenueAndExpensesPerBooksAmt>4342</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>4342</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+    </OtherExpensesSchedule>
+    <OtherIncreasesSchedule documentId="RetDoc2049700001">
+      <OtherIncreasesDetail>
+        <Desc>UNREALIZED GAINS/LOSSES</Desc>
+        <Amt>290934</Amt>
+      </OtherIncreasesDetail>
+    </OtherIncreasesSchedule>
+    <OtherProfessionalFeesSchedule documentId="RetDoc2002300001">
+      <OtherProfessionalFeesDetail>
+        <CategoryTxt>INVESTMENT ADVISOR FEES</CategoryTxt>
+        <Amt>77317</Amt>
+        <NetInvestmentIncomeAmt>77317</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>0</DisbursementsCharitablePrpsAmt>
+      </OtherProfessionalFeesDetail>
+    </OtherProfessionalFeesSchedule>
+    <TaxesSchedule documentId="RetDoc2002500001">
+      <TaxesDetail>
+        <CategoryTxt>EXCISE TAX</CategoryTxt>
+        <Amt>11815</Amt>
+        <NetInvestmentIncomeAmt>11815</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>0</DisbursementsCharitablePrpsAmt>
+      </TaxesDetail>
+      <TaxesDetail>
+        <CategoryTxt>FOREIGN TAX</CategoryTxt>
+        <Amt>3608</Amt>
+        <NetInvestmentIncomeAmt>3608</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>0</DisbursementsCharitablePrpsAmt>
+      </TaxesDetail>
+    </TaxesSchedule>
+  </ReturnData>
+</Return>

@@ -1,0 +1,534 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Return xmlns="http://www.irs.gov/efile" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.irs.gov/efile" returnVersion="2023v4.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2024-02-22T06:48:59-00:00</ReturnTs>
+    <TaxPeriodEndDt>2023-12-31</TaxPeriodEndDt>
+    <PreparerFirmGrp>
+      <PreparerFirmEIN>203009261</PreparerFirmEIN>
+      <PreparerFirmName>
+        <BusinessNameLine1Txt>Kevin E Anders CPA</BusinessNameLine1Txt>
+      </PreparerFirmName>
+      <PreparerUSAddress>
+        <AddressLine1Txt>9735 Lock Tender Lane</AddressLine1Txt>
+        <CityNm>Williamsport</CityNm>
+        <StateAbbreviationCd>MD</StateAbbreviationCd>
+        <ZIPCd>21795</ZIPCd>
+      </PreparerUSAddress>
+    </PreparerFirmGrp>
+    <ReturnTypeCd>990PF</ReturnTypeCd>
+    <TaxPeriodBeginDt>2023-01-01</TaxPeriodBeginDt>
+    <Filer>
+      <EIN>526321486</EIN>
+      <BusinessName>
+        <BusinessNameLine1Txt>Albert E &amp; Naomi B Sinnisen Foundation</BusinessNameLine1Txt>
+      </BusinessName>
+      <BusinessNameControlTxt>ALBE</BusinessNameControlTxt>
+      <PhoneNum>3015822920</PhoneNum>
+      <USAddress>
+        <AddressLine1Txt>9735 Lock Tender Lane</AddressLine1Txt>
+        <CityNm>Williamsport</CityNm>
+        <StateAbbreviationCd>MD</StateAbbreviationCd>
+        <ZIPCd>217954066</ZIPCd>
+      </USAddress>
+    </Filer>
+    <BusinessOfficerGrp>
+      <PersonNm>Stu Mullendore</PersonNm>
+      <PersonTitleTxt>Trustee</PersonTitleTxt>
+      <PhoneNum>3015822920</PhoneNum>
+      <SignatureDt>2024-02-22</SignatureDt>
+      <DiscussWithPaidPreparerInd>true</DiscussWithPaidPreparerInd>
+    </BusinessOfficerGrp>
+    <SigningOfficerGrp>
+      <PersonFullName>
+        <PersonFirstNm>Stu</PersonFirstNm>
+        <PersonLastNm>Mullendore</PersonLastNm>
+      </PersonFullName>
+      <SSN>999009999</SSN>
+    </SigningOfficerGrp>
+    <PreparerPersonGrp>
+      <PreparerPersonNm>Kevin E Anders</PreparerPersonNm>
+      <PTIN>P01598203</PTIN>
+      <PhoneNum>3015822920</PhoneNum>
+      <PreparationDt>2024-02-22</PreparationDt>
+      <SelfEmployedInd>X</SelfEmployedInd>
+    </PreparerPersonGrp>
+    <AdditionalFilerInformation>
+      <TrustedCustomerGrp>
+        <TrustedCustomerCd>2</TrustedCustomerCd>
+        <AuthenticationAssuranceLevelCd>AAL1</AuthenticationAssuranceLevelCd>
+        <IdentityAssuranceLevelCd>IAL1</IdentityAssuranceLevelCd>
+      </TrustedCustomerGrp>
+    </AdditionalFilerInformation>
+    <TaxYr>2023</TaxYr>
+    <BuildTS>2023-04-26 12:10:37Z</BuildTS>
+  </ReturnHeader>
+  <ReturnData documentCnt="8">
+    <IRS990PF documentId="990PF" softwareId="23017659" softwareVersionNum="23.1.0.0">
+      <Organization501c3ExemptPFInd>X</Organization501c3ExemptPFInd>
+      <FMVAssetsEOYAmt>1188319</FMVAssetsEOYAmt>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <AnalysisOfRevenueAndExpenses>
+        <DividendsRevAndExpnssAmt>26618</DividendsRevAndExpnssAmt>
+        <DividendsNetInvstIncmAmt>26618</DividendsNetInvstIncmAmt>
+        <NetGainSaleAstRevAndExpnssAmt>73494</NetGainSaleAstRevAndExpnssAmt>
+        <GrossSalesPriceAmt>206234</GrossSalesPriceAmt>
+        <CapGainNetIncmNetInvstIncmAmt>73494</CapGainNetIncmNetInvstIncmAmt>
+        <TotalRevAndExpnssAmt>100112</TotalRevAndExpnssAmt>
+        <TotalNetInvstIncmAmt>100112</TotalNetInvstIncmAmt>
+        <CompOfcrDirTrstRevAndExpnssAmt>4965</CompOfcrDirTrstRevAndExpnssAmt>
+        <CompOfcrDirTrstNetInvstIncmAmt>3724</CompOfcrDirTrstNetInvstIncmAmt>
+        <CompOfcrDirTrstDsbrsChrtblAmt>1241</CompOfcrDirTrstDsbrsChrtblAmt>
+        <AccountingFeesRevAndExpnssAmt referenceDocumentId="990PF:112">5005</AccountingFeesRevAndExpnssAmt>
+        <AccountingFeesNetInvstIncmAmt>5005</AccountingFeesNetInvstIncmAmt>
+        <OtherProfFeesRevAndExpnssAmt referenceDocumentId="990PF:113">11008</OtherProfFeesRevAndExpnssAmt>
+        <OtherProfFeesNetInvstIncmAmt>11008</OtherProfFeesNetInvstIncmAmt>
+        <OtherExpensesRevAndExpnssAmt referenceDocumentId="990PF:115">796</OtherExpensesRevAndExpnssAmt>
+        <OtherExpensesNetInvstIncmAmt>796</OtherExpensesNetInvstIncmAmt>
+        <TotOprExpensesRevAndExpnssAmt>21774</TotOprExpensesRevAndExpnssAmt>
+        <TotOprExpensesNetInvstIncmAmt>20533</TotOprExpensesNetInvstIncmAmt>
+        <TotOprExpensesDsbrsChrtblAmt>1241</TotOprExpensesDsbrsChrtblAmt>
+        <ContriPaidRevAndExpnssAmt>54826</ContriPaidRevAndExpnssAmt>
+        <ContriPaidDsbrsChrtblAmt>54826</ContriPaidDsbrsChrtblAmt>
+        <TotalExpensesRevAndExpnssAmt>76600</TotalExpensesRevAndExpnssAmt>
+        <TotalExpensesNetInvstIncmAmt>20533</TotalExpensesNetInvstIncmAmt>
+        <TotalExpensesDsbrsChrtblAmt>56067</TotalExpensesDsbrsChrtblAmt>
+        <ExcessRevenueOverExpensesAmt>23512</ExcessRevenueOverExpensesAmt>
+        <NetInvestmentIncomeAmt>79579</NetInvestmentIncomeAmt>
+      </AnalysisOfRevenueAndExpenses>
+      <Form990PFBalanceSheetsGrp>
+        <CashBOYAmt>1175</CashBOYAmt>
+        <CashEOYAmt>1214</CashEOYAmt>
+        <CashEOYFMVAmt>1214</CashEOYFMVAmt>
+        <SavAndTempCashInvstBOYAmt>33992</SavAndTempCashInvstBOYAmt>
+        <SavAndTempCashInvstEOYAmt>69589</SavAndTempCashInvstEOYAmt>
+        <SavAndTempCashInvstEOYFMVAmt>69589</SavAndTempCashInvstEOYFMVAmt>
+        <CorporateStockBOYAmt>654719</CorporateStockBOYAmt>
+        <CorporateStockEOYAmt referenceDocumentId="990PF:122">642594</CorporateStockEOYAmt>
+        <CorporateStockEOYFMVAmt>1117516</CorporateStockEOYFMVAmt>
+        <TotalAssetsBOYAmt>689886</TotalAssetsBOYAmt>
+        <TotalAssetsEOYAmt>713397</TotalAssetsEOYAmt>
+        <TotalAssetsEOYFMVAmt>1188319</TotalAssetsEOYFMVAmt>
+        <TotalLiabilitiesEOYAmt>0</TotalLiabilitiesEOYAmt>
+        <OrgDoesNotFollowFASB117Ind>X</OrgDoesNotFollowFASB117Ind>
+        <CapitalStockBOYAmt>881002</CapitalStockBOYAmt>
+        <CapitalStockEOYAmt>949885</CapitalStockEOYAmt>
+        <RetainedEarningBOYAmt>-191116</RetainedEarningBOYAmt>
+        <RetainedEarningEOYAmt>-236488</RetainedEarningEOYAmt>
+        <TotNetAstOrFundBalancesBOYAmt>689886</TotNetAstOrFundBalancesBOYAmt>
+        <TotNetAstOrFundBalancesEOYAmt>713397</TotNetAstOrFundBalancesEOYAmt>
+        <TotalLiabilitiesNetAstBOYAmt>689886</TotalLiabilitiesNetAstBOYAmt>
+        <TotalLiabilitiesNetAstEOYAmt>713397</TotalLiabilitiesNetAstEOYAmt>
+      </Form990PFBalanceSheetsGrp>
+      <ChgInNetAssetsFundBalancesGrp>
+        <TotNetAstOrFundBalancesBOYAmt>689886</TotNetAstOrFundBalancesBOYAmt>
+        <ExcessRevenueOverExpensesAmt>23512</ExcessRevenueOverExpensesAmt>
+        <SubtotalAmt>713398</SubtotalAmt>
+        <OtherDecreasesAmt referenceDocumentId="990PF:134">1</OtherDecreasesAmt>
+        <TotNetAstOrFundBalancesEOYAmt>713397</TotNetAstOrFundBalancesEOYAmt>
+      </ChgInNetAssetsFundBalancesGrp>
+      <CapGainsLossTxInvstIncmDetail>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>Publicly Traded Securities</PropertyDesc>
+          <HowAcquiredCd>P</HowAcquiredCd>
+          <SoldDt>2023-12-31</SoldDt>
+          <GrossSalesPriceAmt>206234</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>132740</CostOrOtherBasisAmt>
+          <GainOrLossAmt>73494</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>73494</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapitalGainNetIncomeAmt>73494</CapitalGainNetIncomeAmt>
+      </CapGainsLossTxInvstIncmDetail>
+      <ExciseTaxBasedOnInvstIncmGrp>
+        <InvestmentIncomeExciseTaxAmt>1106</InvestmentIncomeExciseTaxAmt>
+        <SubtotalAmt>1106</SubtotalAmt>
+        <TaxBasedOnInvestmentIncomeAmt>1106</TaxBasedOnInvestmentIncomeAmt>
+        <EsPenaltyAmt>24</EsPenaltyAmt>
+        <TaxDueAmt>1130</TaxDueAmt>
+      </ExciseTaxBasedOnInvstIncmGrp>
+      <StatementsRegardingActyGrp>
+        <LegislativePoliticalActyInd>false</LegislativePoliticalActyInd>
+        <MoreThan100SpentInd>false</MoreThan100SpentInd>
+        <Form1120POLFiledInd>false</Form1120POLFiledInd>
+        <ActivitiesNotPreviouslyRptInd>false</ActivitiesNotPreviouslyRptInd>
+        <ChangesToArticlesOrBylawsInd>false</ChangesToArticlesOrBylawsInd>
+        <UnrelatedBusIncmOverLimitInd>false</UnrelatedBusIncmOverLimitInd>
+        <OrganizationDissolvedEtcInd>false</OrganizationDissolvedEtcInd>
+        <Section508eRqrSatisfiedInd>true</Section508eRqrSatisfiedInd>
+        <AtLeast5000InAssetsInd>true</AtLeast5000InAssetsInd>
+        <OrgReportOrRegisterStateCd>MD</OrgReportOrRegisterStateCd>
+        <Form990PFFiledWithAttyGenInd>true</Form990PFFiledWithAttyGenInd>
+        <PrivateOperatingFoundationInd>false</PrivateOperatingFoundationInd>
+        <NewSubstantialContributorsInd>false</NewSubstantialContributorsInd>
+        <OwnControlledEntityInd>false</OwnControlledEntityInd>
+        <DonorAdvisedFundInd>false</DonorAdvisedFundInd>
+        <ComplyWithPublicInspRqrInd>true</ComplyWithPublicInspRqrInd>
+        <WebsiteAddressTxt>None</WebsiteAddressTxt>
+        <PersonsWithBooksName>
+          <BusinessNameLine1Txt>Kevin E Anders</BusinessNameLine1Txt>
+        </PersonsWithBooksName>
+        <PhoneNum>3015822920</PhoneNum>
+        <LocationOfBooksUSAddress>
+          <AddressLine1Txt>9735 Lock Tender Lane</AddressLine1Txt>
+          <CityNm>Williamsport</CityNm>
+          <StateAbbreviationCd>MD</StateAbbreviationCd>
+          <ZIPCd>217954066</ZIPCd>
+        </LocationOfBooksUSAddress>
+        <ForeignAccountsQuestionInd>false</ForeignAccountsQuestionInd>
+      </StatementsRegardingActyGrp>
+      <StatementsRegardingActy4720Grp>
+        <SaleOrExchDisqualifiedPrsnInd>false</SaleOrExchDisqualifiedPrsnInd>
+        <BrrwOrLendDisqualifiedPrsnInd>false</BrrwOrLendDisqualifiedPrsnInd>
+        <FurnGoodsDisqualifiedPrsnInd>false</FurnGoodsDisqualifiedPrsnInd>
+        <PayCompDisqualifiedPrsnInd>false</PayCompDisqualifiedPrsnInd>
+        <TransferAstDisqualifiedPrsnInd>false</TransferAstDisqualifiedPrsnInd>
+        <PaymentToGovernmentOfficialInd>false</PaymentToGovernmentOfficialInd>
+        <UncorrectedPriorActsInd>false</UncorrectedPriorActsInd>
+        <UndistributedIncomePYInd>false</UndistributedIncomePYInd>
+        <BusinessHoldingsInd>false</BusinessHoldingsInd>
+        <JeopardyInvestmentsInd>false</JeopardyInvestmentsInd>
+        <UncorrectedPYJeopardyInvstInd>false</UncorrectedPYJeopardyInvstInd>
+        <InfluenceLegislationInd>false</InfluenceLegislationInd>
+        <InfluenceElectionInd>false</InfluenceElectionInd>
+        <GrantsToIndividualsInd>false</GrantsToIndividualsInd>
+        <GrantsToOrganizationsInd>false</GrantsToOrganizationsInd>
+        <NoncharitablePurposeInd>false</NoncharitablePurposeInd>
+        <MaintainedExpenditureRspnsInd>false</MaintainedExpenditureRspnsInd>
+        <RcvFndsToPayPrsnlBnftCntrctInd>false</RcvFndsToPayPrsnlBnftCntrctInd>
+        <PayPremiumsPrsnlBnftCntrctInd>false</PayPremiumsPrsnlBnftCntrctInd>
+        <ProhibitedTaxShelterTransInd>false</ProhibitedTaxShelterTransInd>
+        <SubjToTaxRmnrtnExPrchtPymtInd>false</SubjToTaxRmnrtnExPrchtPymtInd>
+      </StatementsRegardingActy4720Grp>
+      <OfficerDirTrstKeyEmplInfoGrp>
+        <OfficerDirTrstKeyEmplGrp>
+          <PersonNm>Howard S Kaylor</PersonNm>
+          <USAddress>
+            <AddressLine1Txt>209 W Irvin Avenue</AddressLine1Txt>
+            <CityNm>Hagerstown</CityNm>
+            <StateAbbreviationCd>MD</StateAbbreviationCd>
+            <ZIPCd>21742</ZIPCd>
+          </USAddress>
+          <TitleTxt>Trustee</TitleTxt>
+          <AverageHrsPerWkDevotedToPosRt>000.50</AverageHrsPerWkDevotedToPosRt>
+          <CompensationAmt>1655</CompensationAmt>
+        </OfficerDirTrstKeyEmplGrp>
+        <OfficerDirTrstKeyEmplGrp>
+          <PersonNm>Eleanor V Lakin</PersonNm>
+          <USAddress>
+            <AddressLine1Txt>121 Lakin Avenue</AddressLine1Txt>
+            <CityNm>Boonsboro</CityNm>
+            <StateAbbreviationCd>MD</StateAbbreviationCd>
+            <ZIPCd>21713</ZIPCd>
+          </USAddress>
+          <TitleTxt>Trustee</TitleTxt>
+          <AverageHrsPerWkDevotedToPosRt>000.50</AverageHrsPerWkDevotedToPosRt>
+          <CompensationAmt>1655</CompensationAmt>
+        </OfficerDirTrstKeyEmplGrp>
+        <OfficerDirTrstKeyEmplGrp>
+          <PersonNm>Stuart L Mullendore</PersonNm>
+          <USAddress>
+            <AddressLine1Txt>3 Maple Avenue</AddressLine1Txt>
+            <CityNm>Boonsboro</CityNm>
+            <StateAbbreviationCd>MD</StateAbbreviationCd>
+            <ZIPCd>21713</ZIPCd>
+          </USAddress>
+          <TitleTxt>Trustee</TitleTxt>
+          <AverageHrsPerWkDevotedToPosRt>000.50</AverageHrsPerWkDevotedToPosRt>
+          <CompensationAmt>1655</CompensationAmt>
+        </OfficerDirTrstKeyEmplGrp>
+        <CompOfHghstPdEmplOrNONETxt>NONE</CompOfHghstPdEmplOrNONETxt>
+        <CompOfHghstPdCntrctOrNONETxt>NONE</CompOfHghstPdCntrctOrNONETxt>
+      </OfficerDirTrstKeyEmplInfoGrp>
+      <SummaryOfDirectChrtblActyGrp>
+        <Description1Txt>N/A</Description1Txt>
+        <Expenses1Amt>0</Expenses1Amt>
+      </SummaryOfDirectChrtblActyGrp>
+      <SumOfProgramRelatedInvstGrp>
+        <Description1Txt>N/A</Description1Txt>
+      </SumOfProgramRelatedInvstGrp>
+      <MinimumInvestmentReturnGrp>
+        <AverageMonthlyFMVOfSecAmt>1110012</AverageMonthlyFMVOfSecAmt>
+        <AverageMonthlyCashBalancesAmt>52985</AverageMonthlyCashBalancesAmt>
+        <FMVAllOtherNoncharitableAstAmt>0</FMVAllOtherNoncharitableAstAmt>
+        <TotalFMVOfUnusedAssetsAmt>1162997</TotalFMVOfUnusedAssetsAmt>
+        <AdjustedTotalFMVOfUnusedAstAmt>1162997</AdjustedTotalFMVOfUnusedAstAmt>
+        <CashDeemedCharitableAmt>17445</CashDeemedCharitableAmt>
+        <NetVlNoncharitableAssetsAmt>1145552</NetVlNoncharitableAssetsAmt>
+        <MinimumInvestmentReturnAmt>57278</MinimumInvestmentReturnAmt>
+      </MinimumInvestmentReturnGrp>
+      <DistributableAmountGrp>
+        <MinimumInvestmentReturnAmt>57278</MinimumInvestmentReturnAmt>
+        <TaxBasedOnInvestmentIncomeAmt>1106</TaxBasedOnInvestmentIncomeAmt>
+        <TotalTaxAmt>1106</TotalTaxAmt>
+        <DistributableBeforeAdjAmt>56172</DistributableBeforeAdjAmt>
+        <DistributableBeforeDedAmt>56172</DistributableBeforeDedAmt>
+        <DistributableAsAdjustedAmt>56172</DistributableAsAdjustedAmt>
+      </DistributableAmountGrp>
+      <PFQualifyingDistributionsGrp>
+        <ExpensesAndContributionsAmt referenceDocumentId="990PF:151">56067</ExpensesAndContributionsAmt>
+        <QualifyingDistributionsAmt>56067</QualifyingDistributionsAmt>
+      </PFQualifyingDistributionsGrp>
+      <UndistributedIncomeGrp>
+        <DistributableAsAdjustedAmt>56172</DistributableAsAdjustedAmt>
+        <UndistributedIncomePYAmt>52697</UndistributedIncomePYAmt>
+        <ExcessDistributionCyovYr1Amt>9604</ExcessDistributionCyovYr1Amt>
+        <TotalExcessDistributionCyovAmt>9604</TotalExcessDistributionCyovAmt>
+        <QualifyingDistributionsAmt>56067</QualifyingDistributionsAmt>
+        <AppliedToYear1Amt>52697</AppliedToYear1Amt>
+        <TreatedAsDistriFromCorpusAmt referenceDocumentId="990PF:141">3370</TreatedAsDistriFromCorpusAmt>
+        <ExcessDistriCyovAppCYCorpusAmt>9604</ExcessDistriCyovAppCYCorpusAmt>
+        <ExcessDistributionCyovAppCYAmt>9604</ExcessDistributionCyovAppCYAmt>
+        <TotalCorpusAmt>3370</TotalCorpusAmt>
+        <UndistributedIncomeCYAmt>46568</UndistributedIncomeCYAmt>
+        <ExcessDistriCyovToNextYrAmt>3370</ExcessDistriCyovToNextYrAmt>
+        <ExcessFromCurrentYearAmt>3370</ExcessFromCurrentYearAmt>
+      </UndistributedIncomeGrp>
+      <SupplementaryInformationGrp>
+        <ContributingManagerNm>None</ContributingManagerNm>
+        <ShareholderManagerNm>None</ShareholderManagerNm>
+        <ApplicationSubmissionInfoGrp>
+          <RecipientPersonNm>RBC Wealth Management</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>40 South Potomac Street Suite 300</AddressLine1Txt>
+            <CityNm>Hagerstown</CityNm>
+            <StateAbbreviationCd>MD</StateAbbreviationCd>
+            <ZIPCd>21740</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientPhoneNum>3017337111</RecipientPhoneNum>
+          <FormAndInfoAndMaterialsTxt>Guidelines and requirements availabe online or by mail.</FormAndInfoAndMaterialsTxt>
+          <SubmissionDeadlinesTxt>Fourth Friday of February annually</SubmissionDeadlinesTxt>
+          <RestrictionsOnAwardsTxt>Charitable and/or religious nonprofit organizations exempt under IRC Section 501c3</RestrictionsOnAwardsTxt>
+        </ApplicationSubmissionInfoGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>The Interfaith Service Coalition</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientUSAddress>
+            <AddressLine1Txt>116 West High Street</AddressLine1Txt>
+            <CityNm>Hancock</CityNm>
+            <StateAbbreviationCd>MD</StateAbbreviationCd>
+            <ZIPCd>21750</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>N/A</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>NC</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>Dishwashers Marthas House</GrantOrContributionPurposeTxt>
+          <Amt>1100</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>Star Community Inc</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientUSAddress>
+            <AddressLine1Txt>13757 Broadfording Church Road</AddressLine1Txt>
+            <CityNm>Hagerstown</CityNm>
+            <StateAbbreviationCd>MD</StateAbbreviationCd>
+            <ZIPCd>21740</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>N/A</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>NC</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>Health nutrician program</GrantOrContributionPurposeTxt>
+          <Amt>7000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>Hancock Fire Company Inc</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientUSAddress>
+            <AddressLine1Txt>3 Fulton Street</AddressLine1Txt>
+            <CityNm>Hancock</CityNm>
+            <StateAbbreviationCd>MD</StateAbbreviationCd>
+            <ZIPCd>21750</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>N/A</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>NC</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>Water softner</GrantOrContributionPurposeTxt>
+          <Amt>7500</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>Children in Need Inc</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientUSAddress>
+            <AddressLine1Txt>131 West North Avenue</AddressLine1Txt>
+            <CityNm>Hagerstown</CityNm>
+            <StateAbbreviationCd>MD</StateAbbreviationCd>
+            <ZIPCd>21740</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>N/A</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>NC</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>Client monthly visits</GrantOrContributionPurposeTxt>
+          <Amt>4000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>Hancock Rescue Squad</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientUSAddress>
+            <AddressLine1Txt>6 East Main Street</AddressLine1Txt>
+            <CityNm>Hancock</CityNm>
+            <StateAbbreviationCd>MD</StateAbbreviationCd>
+            <ZIPCd>21750</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>N/A</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>NC</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>Equipment enhancements</GrantOrContributionPurposeTxt>
+          <Amt>7500</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>Girls Inc of Washington County</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientUSAddress>
+            <AddressLine1Txt>626 Washington Avenue</AddressLine1Txt>
+            <CityNm>Hagerstown</CityNm>
+            <StateAbbreviationCd>MD</StateAbbreviationCd>
+            <ZIPCd>21740</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>N/A</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>NC</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>Telephone system upgrade</GrantOrContributionPurposeTxt>
+          <Amt>4000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>Washington County Museum of Fine Arts</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientUSAddress>
+            <AddressLine1Txt>PO Box 423</AddressLine1Txt>
+            <CityNm>Hagerstown</CityNm>
+            <StateAbbreviationCd>MD</StateAbbreviationCd>
+            <ZIPCd>21741</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>N/A</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>NC</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>Server replacement</GrantOrContributionPurposeTxt>
+          <Amt>4000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>Boonsboro Vol Ambulance &amp; Rescue Inc</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientUSAddress>
+            <AddressLine1Txt>7619 Old National Pike</AddressLine1Txt>
+            <CityNm>Boonsboro</CityNm>
+            <StateAbbreviationCd>MD</StateAbbreviationCd>
+            <ZIPCd>21713</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>N/A</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>NC</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>Ipad purchases</GrantOrContributionPurposeTxt>
+          <Amt>826</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>Humane Society of Washington County</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientUSAddress>
+            <AddressLine1Txt>13011 Maugansville Road</AddressLine1Txt>
+            <CityNm>Hagerstown</CityNm>
+            <StateAbbreviationCd>MD</StateAbbreviationCd>
+            <ZIPCd>21740</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>N/A</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>NC</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>Radios field services</GrantOrContributionPurposeTxt>
+          <Amt>4500</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>Mason Dixon Council BSA</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientUSAddress>
+            <AddressLine1Txt>18600 Crestwood Drive</AddressLine1Txt>
+            <CityNm>Hagerstown</CityNm>
+            <StateAbbreviationCd>MD</StateAbbreviationCd>
+            <ZIPCd>21742</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>N/A</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>NC</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>Camp woodshop equipment</GrantOrContributionPurposeTxt>
+          <Amt>4400</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>Mt Aetna Volunteer Fire Department Inc</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientUSAddress>
+            <AddressLine1Txt>10305 Crystal Falls Drive</AddressLine1Txt>
+            <CityNm>Hagerstown</CityNm>
+            <StateAbbreviationCd>MD</StateAbbreviationCd>
+            <ZIPCd>21742</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>N/A</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>NC</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>PPE</GrantOrContributionPurposeTxt>
+          <Amt>10000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <TotalGrantOrContriPdDurYrAmt>54826</TotalGrantOrContriPdDurYrAmt>
+      </SupplementaryInformationGrp>
+      <AnalysisIncomeProducingActyGrp>
+        <DividendsAndInterestFromSecDtl>
+          <ExclusionCd>14</ExclusionCd>
+          <ExclusionAmt>26618</ExclusionAmt>
+        </DividendsAndInterestFromSecDtl>
+        <GainSalesAstOthThanInvntryGrp>
+          <ExclusionCd>14</ExclusionCd>
+          <ExclusionAmt>73494</ExclusionAmt>
+        </GainSalesAstOthThanInvntryGrp>
+        <SubtotalsIncmProducingActyGrp>
+          <ExclusionAmt>100112</ExclusionAmt>
+        </SubtotalsIncmProducingActyGrp>
+        <TotalIncomeProducingActyAmt>100112</TotalIncomeProducingActyAmt>
+      </AnalysisIncomeProducingActyGrp>
+      <TrnsfrTransRlnNonchrtblEOGrp>
+        <TrnsfrOfCashToNonchrtblEOInd>false</TrnsfrOfCashToNonchrtblEOInd>
+        <TrnsfrOtherAssetNonchrtblEOInd>false</TrnsfrOtherAssetNonchrtblEOInd>
+        <SalesOrExchangesOfAssetsInd>false</SalesOrExchangesOfAssetsInd>
+        <PurchaseOfAssetsNonchrtblEOInd>false</PurchaseOfAssetsNonchrtblEOInd>
+        <RentalOfFacilitiesOthAssetsInd>false</RentalOfFacilitiesOthAssetsInd>
+        <ReimbursementArrangementsInd>false</ReimbursementArrangementsInd>
+        <LoansOrLoanGuaranteesInd>false</LoansOrLoanGuaranteesInd>
+        <PerformanceOfServicesEtcInd>false</PerformanceOfServicesEtcInd>
+        <SharingOfFacilitiesEtcInd>false</SharingOfFacilitiesEtcInd>
+        <RelationshipsNonchrtblEOInd>false</RelationshipsNonchrtblEOInd>
+      </TrnsfrTransRlnNonchrtblEOGrp>
+    </IRS990PF>
+    <AccountingFeesSchedule documentId="990PF:112" softwareId="23017659" softwareVersionNum="23.1.0.0">
+      <AccountingFeesDetail>
+        <CategoryTxt>Kevin E Anders</CategoryTxt>
+        <Amt>5005</Amt>
+        <NetInvestmentIncomeAmt>5005</NetInvestmentIncomeAmt>
+      </AccountingFeesDetail>
+    </AccountingFeesSchedule>
+    <DistributionFromCorpusElection documentId="990PF:141" softwareId="23017659" softwareVersionNum="23.1.0.0">
+      <ElectionDesc>Election made to treat qualifying distributions for 2023 as made from corpus reg sect 53 4942a-3d2 3370</ElectionDesc>
+    </DistributionFromCorpusElection>
+    <InvestmentsCorpBondsSchedule documentId="990PF:123" softwareId="23017659" softwareVersionNum="23.1.0.0"></InvestmentsCorpBondsSchedule>
+    <InvestmentsCorpStockSchedule documentId="990PF:122" softwareId="23017659" softwareVersionNum="23.1.0.0">
+      <InvestmentsCorporateStockGrp>
+        <StockNm>RBC Wealth Management</StockNm>
+        <EOYBookValueAmt>642594</EOYBookValueAmt>
+        <EOYFMVAmt>1117516</EOYFMVAmt>
+      </InvestmentsCorporateStockGrp>
+    </InvestmentsCorpStockSchedule>
+    <OtherDecreasesSchedule documentId="990PF:134" softwareId="23017659" softwareVersionNum="23.1.0.0">
+      <OtherDecreasesDetail>
+        <Desc>rounding</Desc>
+        <Amt>1</Amt>
+      </OtherDecreasesDetail>
+    </OtherDecreasesSchedule>
+    <OtherExpensesSchedule documentId="990PF:115" softwareId="23017659" softwareVersionNum="23.1.0.0">
+      <OtherExpensesScheduleGrp>
+        <Desc>Insurance</Desc>
+        <RevenueAndExpensesPerBooksAmt>796</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>796</NetInvestmentIncomeAmt>
+      </OtherExpensesScheduleGrp>
+    </OtherExpensesSchedule>
+    <OtherProfessionalFeesSchedule documentId="990PF:113" softwareId="23017659" softwareVersionNum="23.1.0.0">
+      <OtherProfessionalFeesDetail>
+        <CategoryTxt>RBC Wealth Management</CategoryTxt>
+        <Amt>11008</Amt>
+        <NetInvestmentIncomeAmt>11008</NetInvestmentIncomeAmt>
+      </OtherProfessionalFeesDetail>
+    </OtherProfessionalFeesSchedule>
+  </ReturnData>
+</Return>

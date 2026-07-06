@@ -1,0 +1,1185 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Return xmlns="http://www.irs.gov/efile" xsi:schemaLocation="http://www.irs.gov/efile" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" returnVersion="2023v6.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2025-08-11T17:59:31-05:00</ReturnTs>
+    <TaxPeriodEndDt>2024-09-30</TaxPeriodEndDt>
+    <PreparerFirmGrp>
+      <PreparerFirmName>
+        <BusinessNameLine1Txt>WITHUM SMITH BROWN PC</BusinessNameLine1Txt>
+      </PreparerFirmName>
+      <PreparerUSAddress>
+        <AddressLine1Txt>5847 SAN FELIPE ST SUITE 2600</AddressLine1Txt>
+        <CityNm>HOUSTON</CityNm>
+        <StateAbbreviationCd>TX</StateAbbreviationCd>
+        <ZIPCd>77057</ZIPCd>
+      </PreparerUSAddress>
+    </PreparerFirmGrp>
+    <ReturnTypeCd>990PF</ReturnTypeCd>
+    <TaxPeriodBeginDt>2023-10-01</TaxPeriodBeginDt>
+    <Filer>
+      <EIN>760288131</EIN>
+      <BusinessName>
+        <BusinessNameLine1Txt>MOODY GARDENS INC</BusinessNameLine1Txt>
+      </BusinessName>
+      <InCareOfNm>% KATHY LEBRUN</InCareOfNm>
+      <BusinessNameControlTxt>MOOD</BusinessNameControlTxt>
+      <PhoneNum>4097444673</PhoneNum>
+      <USAddress>
+        <AddressLine1Txt>ONE HOPE BOULEVARD</AddressLine1Txt>
+        <CityNm>GALVESTON</CityNm>
+        <StateAbbreviationCd>TX</StateAbbreviationCd>
+        <ZIPCd>77554</ZIPCd>
+      </USAddress>
+    </Filer>
+    <BusinessOfficerGrp>
+      <PersonNm>KATHY LEBRUN</PersonNm>
+      <PersonTitleTxt>TREASURER</PersonTitleTxt>
+      <PhoneNum>4096834219</PhoneNum>
+      <SignatureDt>2025-01-25</SignatureDt>
+      <DiscussWithPaidPreparerInd>true</DiscussWithPaidPreparerInd>
+    </BusinessOfficerGrp>
+    <IRSResponsiblePrtyInfoCurrInd>true</IRSResponsiblePrtyInfoCurrInd>
+    <PreparerPersonGrp>
+      <PreparerPersonNm>EMILY SMIKAL</PreparerPersonNm>
+      <PTIN>P01312781</PTIN>
+      <PhoneNum>7138601400</PhoneNum>
+      <PreparationDt>2025-08-08</PreparationDt>
+    </PreparerPersonGrp>
+    <TaxYr>2023</TaxYr>
+    <BuildTS>2025-03-06 01:10:19Z</BuildTS>
+  </ReturnHeader>
+  <ReturnData documentCnt="16">
+    <IRS990PF documentId="IRS990PF">
+      <Organization501c3ExemptPFInd>X</Organization501c3ExemptPFInd>
+      <FMVAssetsEOYAmt>74320892</FMVAssetsEOYAmt>
+      <MethodOfAccountingAccrualInd>X</MethodOfAccountingAccrualInd>
+      <AnalysisOfRevenueAndExpenses>
+        <ContriRcvdRevAndExpnssAmt>254133</ContriRcvdRevAndExpnssAmt>
+        <InterestOnSavRevAndExpnssAmt>77314</InterestOnSavRevAndExpnssAmt>
+        <InterestOnSavNetInvstIncmAmt>77314</InterestOnSavNetInvstIncmAmt>
+        <InterestOnSavingsAdjNetIncmAmt>77314</InterestOnSavingsAdjNetIncmAmt>
+        <DividendsRevAndExpnssAmt>951975</DividendsRevAndExpnssAmt>
+        <DividendsNetInvstIncmAmt>951975</DividendsNetInvstIncmAmt>
+        <DividendsAdjNetIncmAmt>951975</DividendsAdjNetIncmAmt>
+        <NetGainSaleAstRevAndExpnssAmt>481560</NetGainSaleAstRevAndExpnssAmt>
+        <GrossSalesPriceAmt>6931201</GrossSalesPriceAmt>
+        <CapGainNetIncmNetInvstIncmAmt>481560</CapGainNetIncmNetInvstIncmAmt>
+        <NetSTCapitalGainAdjNetIncmAmt>128374</NetSTCapitalGainAdjNetIncmAmt>
+        <GrossSalesLessRetAndAllwncAmt>65945976</GrossSalesLessRetAndAllwncAmt>
+        <CostOfGoodsSoldAmt>6068019</CostOfGoodsSoldAmt>
+        <GrossProfitRevAndExpnssAmt referenceDocumentId="SalesOfInventoryList">59877957</GrossProfitRevAndExpnssAmt>
+        <OtherIncomeRevAndExpnssAmt referenceDocumentId="OtherIncomeSch2">557565</OtherIncomeRevAndExpnssAmt>
+        <OtherIncomeAdjNetIncmAmt>557565</OtherIncomeAdjNetIncmAmt>
+        <TotalRevAndExpnssAmt>62200504</TotalRevAndExpnssAmt>
+        <TotalNetInvstIncmAmt>1510849</TotalNetInvstIncmAmt>
+        <TotalAdjNetIncmAmt>1715228</TotalAdjNetIncmAmt>
+        <CompOfcrDirTrstRevAndExpnssAmt>613867</CompOfcrDirTrstRevAndExpnssAmt>
+        <CompOfcrDirTrstAdjNetIncmAmt>613867</CompOfcrDirTrstAdjNetIncmAmt>
+        <OthEmplSlrsWgsRevAndExpnssAmt>8201853</OthEmplSlrsWgsRevAndExpnssAmt>
+        <OthEmplSlrsWgsAdjNetIncmAmt>8201853</OthEmplSlrsWgsAdjNetIncmAmt>
+        <PensionEmplBnftRevAndExpnssAmt>358592</PensionEmplBnftRevAndExpnssAmt>
+        <PensionEmplBnftAdjNetIncmAmt>358592</PensionEmplBnftAdjNetIncmAmt>
+        <LegalFeesRevAndExpnssAmt referenceDocumentId="LegalFeesSch">152591</LegalFeesRevAndExpnssAmt>
+        <LegalFeesNetInvstIncmAmt>0</LegalFeesNetInvstIncmAmt>
+        <LegalFeesAdjNetIncmAmt>152591</LegalFeesAdjNetIncmAmt>
+        <LegalFeesDsbrsChrtblAmt>0</LegalFeesDsbrsChrtblAmt>
+        <AccountingFeesRevAndExpnssAmt referenceDocumentId="AccountingFeesSch">119153</AccountingFeesRevAndExpnssAmt>
+        <AccountingFeesNetInvstIncmAmt>0</AccountingFeesNetInvstIncmAmt>
+        <AccountingFeesAdjNetIncmAmt>119153</AccountingFeesAdjNetIncmAmt>
+        <AccountingFeesChrtblPrpsAmt>0</AccountingFeesChrtblPrpsAmt>
+        <OtherProfFeesRevAndExpnssAmt referenceDocumentId="OthProfFeesSch">130786</OtherProfFeesRevAndExpnssAmt>
+        <OtherProfFeesNetInvstIncmAmt>130432</OtherProfFeesNetInvstIncmAmt>
+        <OtherProfFeesAdjNetIncmAmt>354</OtherProfFeesAdjNetIncmAmt>
+        <TaxesRevAndExpnssAmt referenceDocumentId="TaxesSchedule">1774353</TaxesRevAndExpnssAmt>
+        <TaxesAdjNetIncmAmt>1774353</TaxesAdjNetIncmAmt>
+        <OtherExpensesRevAndExpnssAmt referenceDocumentId="OtherExpensesSch">50842290</OtherExpensesRevAndExpnssAmt>
+        <OtherExpensesAdjNetIncmAmt>50842290</OtherExpensesAdjNetIncmAmt>
+        <TotOprExpensesRevAndExpnssAmt>62193485</TotOprExpensesRevAndExpnssAmt>
+        <TotOprExpensesNetInvstIncmAmt>130432</TotOprExpensesNetInvstIncmAmt>
+        <TotOprExpensesAdjNetIncmAmt>62063053</TotOprExpensesAdjNetIncmAmt>
+        <TotOprExpensesDsbrsChrtblAmt>0</TotOprExpensesDsbrsChrtblAmt>
+        <ContriPaidRevAndExpnssAmt>4775828</ContriPaidRevAndExpnssAmt>
+        <ContriPaidDsbrsChrtblAmt>4775828</ContriPaidDsbrsChrtblAmt>
+        <TotalExpensesRevAndExpnssAmt>66969313</TotalExpensesRevAndExpnssAmt>
+        <TotalExpensesNetInvstIncmAmt>130432</TotalExpensesNetInvstIncmAmt>
+        <TotalExpensesAdjNetIncmAmt>62063053</TotalExpensesAdjNetIncmAmt>
+        <TotalExpensesDsbrsChrtblAmt>4775828</TotalExpensesDsbrsChrtblAmt>
+        <ExcessRevenueOverExpensesAmt>-4768809</ExcessRevenueOverExpensesAmt>
+        <NetInvestmentIncomeAmt>1380417</NetInvestmentIncomeAmt>
+      </AnalysisOfRevenueAndExpenses>
+      <Form990PFBalanceSheetsGrp>
+        <CashBOYAmt>81500</CashBOYAmt>
+        <CashEOYAmt>81500</CashEOYAmt>
+        <CashEOYFMVAmt>81500</CashEOYFMVAmt>
+        <SavAndTempCashInvstBOYAmt>11470154</SavAndTempCashInvstBOYAmt>
+        <SavAndTempCashInvstEOYAmt>5623719</SavAndTempCashInvstEOYAmt>
+        <SavAndTempCashInvstEOYFMVAmt>5623719</SavAndTempCashInvstEOYFMVAmt>
+        <AcctRcvblAmt>660313</AcctRcvblAmt>
+        <AcctRcvblBOYAmt>470149</AcctRcvblBOYAmt>
+        <AcctRcvblEOYAmt>660313</AcctRcvblEOYAmt>
+        <AcctRcvblEOYFMVAmt>660313</AcctRcvblEOYFMVAmt>
+        <GrantsReceivableBOYAmt>0</GrantsReceivableBOYAmt>
+        <GrantsReceivableEOYAmt>0</GrantsReceivableEOYAmt>
+        <GrantsReceivableEOYFMVAmt>0</GrantsReceivableEOYFMVAmt>
+        <InventoriesBOYAmt>878560</InventoriesBOYAmt>
+        <InventoriesEOYAmt>805255</InventoriesEOYAmt>
+        <InventoriesEOYFMVAmt>805255</InventoriesEOYFMVAmt>
+        <PrepaidExpensesBOYAmt>4419846</PrepaidExpensesBOYAmt>
+        <PrepaidExpensesEOYAmt>5448932</PrepaidExpensesEOYAmt>
+        <PrepaidExpensesEOYFMVAmt>5448932</PrepaidExpensesEOYFMVAmt>
+        <OtherInvestmentsBOYAmt>29279102</OtherInvestmentsBOYAmt>
+        <OtherInvestmentsEOYAmt referenceDocumentId="InvOtherSch2">39377894</OtherInvestmentsEOYAmt>
+        <OtherInvestmentsEOYFMVAmt>39377894</OtherInvestmentsEOYFMVAmt>
+        <OtherAssetsBOYAmt referenceDocumentId="OtherAssetsSch">27636540</OtherAssetsBOYAmt>
+        <OtherAssetsEOYAmt referenceDocumentId="OtherAssetsSch">22323279</OtherAssetsEOYAmt>
+        <OtherAssetsEOYFMVAmt referenceDocumentId="OtherAssetsSch">22323279</OtherAssetsEOYFMVAmt>
+        <TotalAssetsBOYAmt>74235851</TotalAssetsBOYAmt>
+        <TotalAssetsEOYAmt>74320892</TotalAssetsEOYAmt>
+        <TotalAssetsEOYFMVAmt>74320892</TotalAssetsEOYFMVAmt>
+        <AccountsPayableBOYAmt>2758223</AccountsPayableBOYAmt>
+        <AccountsPayableEOYAmt>3485858</AccountsPayableEOYAmt>
+        <GrantsPayableBOYAmt>75436</GrantsPayableBOYAmt>
+        <GrantsPayableEOYAmt>21303</GrantsPayableEOYAmt>
+        <DeferredRevenueBOYAmt>2499138</DeferredRevenueBOYAmt>
+        <DeferredRevenueEOYAmt>1882781</DeferredRevenueEOYAmt>
+        <OtherLiabilitiesBOYAmt referenceDocumentId="OtherLiabSch">11299997</OtherLiabilitiesBOYAmt>
+        <OtherLiabilitiesEOYAmt referenceDocumentId="OtherLiabSch">10490848</OtherLiabilitiesEOYAmt>
+        <TotalLiabilitiesBOYAmt>16632794</TotalLiabilitiesBOYAmt>
+        <TotalLiabilitiesEOYAmt>15880790</TotalLiabilitiesEOYAmt>
+        <OrganizationFollowsFASB117Ind>X</OrganizationFollowsFASB117Ind>
+        <NoDonorRstrNetAssestsBOYAmt>54945837</NoDonorRstrNetAssestsBOYAmt>
+        <NoDonorRstrNetAssestsEOYAmt>55225757</NoDonorRstrNetAssestsEOYAmt>
+        <DonorRstrNetAssetsBOYAmt>2657220</DonorRstrNetAssetsBOYAmt>
+        <DonorRstrNetAssetsEOYAmt>3214345</DonorRstrNetAssetsEOYAmt>
+        <TotNetAstOrFundBalancesBOYAmt>57603057</TotNetAstOrFundBalancesBOYAmt>
+        <TotNetAstOrFundBalancesEOYAmt>58440102</TotNetAstOrFundBalancesEOYAmt>
+        <TotalLiabilitiesNetAstBOYAmt>74235851</TotalLiabilitiesNetAstBOYAmt>
+        <TotalLiabilitiesNetAstEOYAmt>74320892</TotalLiabilitiesNetAstEOYAmt>
+      </Form990PFBalanceSheetsGrp>
+      <ChgInNetAssetsFundBalancesGrp>
+        <TotNetAstOrFundBalancesBOYAmt>57603057</TotNetAstOrFundBalancesBOYAmt>
+        <ExcessRevenueOverExpensesAmt>-4768809</ExcessRevenueOverExpensesAmt>
+        <OtherIncreasesAmt referenceDocumentId="OtherIncreasesSch">5605854</OtherIncreasesAmt>
+        <SubtotalAmt>58440102</SubtotalAmt>
+        <TotNetAstOrFundBalancesEOYAmt>58440102</TotNetAstOrFundBalancesEOYAmt>
+      </ChgInNetAssetsFundBalancesGrp>
+      <CapGainsLossTxInvstIncmDetail>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>PUBLICLY TRADED SEC - HOPE THERAPY RESERVE FUND</PropertyDesc>
+          <GrossSalesPriceAmt>146488</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>122764</CostOrOtherBasisAmt>
+          <GainOrLossAmt>23724</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>23724</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>PUBLICLY TRADED SEC - JANET JORDAN FUND</PropertyDesc>
+          <GrossSalesPriceAmt>160887</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>62642</CostOrOtherBasisAmt>
+          <GainOrLossAmt>98245</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>98245</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>PUBLICLY TRADED SEC - SPECIAL RESERVE FUND</PropertyDesc>
+          <GrossSalesPriceAmt>6378680</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>6197473</CostOrOtherBasisAmt>
+          <GainOrLossAmt>181207</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>181207</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>PUBLICLY TRADED SEC - MG CONSERVATION FUND</PropertyDesc>
+          <GrossSalesPriceAmt>72558</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>66762</CostOrOtherBasisAmt>
+          <GainOrLossAmt>5796</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>5796</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>CAPITAL GAIN DIVIDENDS</PropertyDesc>
+          <HowAcquiredCd>P</HowAcquiredCd>
+          <GainOrLossAmt>172588</GainOrLossAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>CAPITAL GAIN DIVIDENDS</PropertyDesc>
+          <HowAcquiredCd>P</HowAcquiredCd>
+          <GainOrLossAmt>172588</GainOrLossAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>CAPITAL GAIN DIVIDENDS</PropertyDesc>
+          <HowAcquiredCd>P</HowAcquiredCd>
+          <GainOrLossAmt>172588</GainOrLossAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>CAPITAL GAIN DIVIDENDS</PropertyDesc>
+          <HowAcquiredCd>P</HowAcquiredCd>
+          <GainOrLossAmt>172588</GainOrLossAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapitalGainNetIncomeAmt>481560</CapitalGainNetIncomeAmt>
+        <NetShortTermCapitalGainLossAmt>128374</NetShortTermCapitalGainLossAmt>
+      </CapGainsLossTxInvstIncmDetail>
+      <ExciseTaxBasedOnInvstIncmGrp>
+        <InvestmentIncomeExciseTaxAmt>19188</InvestmentIncomeExciseTaxAmt>
+        <SubtotalAmt>19188</SubtotalAmt>
+        <TaxBasedOnInvestmentIncomeAmt>19188</TaxBasedOnInvestmentIncomeAmt>
+        <EstimatedPlusOvpmtIncmTxAmt>24697</EstimatedPlusOvpmtIncmTxAmt>
+        <ExemptFrgnOrgTaxWthldAtSrceAmt>0</ExemptFrgnOrgTaxWthldAtSrceAmt>
+        <TotalPaymentsAndCreditsAmt>24697</TotalPaymentsAndCreditsAmt>
+        <Form2220AttachedInd referenceDocumentId="IRS2220">X</Form2220AttachedInd>
+        <EsPenaltyAmt>128</EsPenaltyAmt>
+        <OverpaymentAmt>5381</OverpaymentAmt>
+        <AppliedToESTaxAmt>5381</AppliedToESTaxAmt>
+      </ExciseTaxBasedOnInvstIncmGrp>
+      <StatementsRegardingActyGrp>
+        <LegislativePoliticalActyInd referenceDocumentId="BinaryAttach">false</LegislativePoliticalActyInd>
+        <MoreThan100SpentInd>false</MoreThan100SpentInd>
+        <Form1120POLFiledInd>false</Form1120POLFiledInd>
+        <ActivitiesNotPreviouslyRptInd>false</ActivitiesNotPreviouslyRptInd>
+        <ChangesToArticlesOrBylawsInd referenceDocumentId="BinaryAttach">false</ChangesToArticlesOrBylawsInd>
+        <UnrelatedBusIncmOverLimitInd>false</UnrelatedBusIncmOverLimitInd>
+        <OrganizationDissolvedEtcInd referenceDocumentId="BinaryAttach">false</OrganizationDissolvedEtcInd>
+        <Section508eRqrSatisfiedInd>true</Section508eRqrSatisfiedInd>
+        <AtLeast5000InAssetsInd>true</AtLeast5000InAssetsInd>
+        <OrgReportOrRegisterStateCd>TX</OrgReportOrRegisterStateCd>
+        <Form990PFFiledWithAttyGenInd>true</Form990PFFiledWithAttyGenInd>
+        <PrivateOperatingFoundationInd>true</PrivateOperatingFoundationInd>
+        <NewSubstantialContributorsInd>false</NewSubstantialContributorsInd>
+        <OwnControlledEntityInd>false</OwnControlledEntityInd>
+        <DonorAdvisedFundInd>false</DonorAdvisedFundInd>
+        <ComplyWithPublicInspRqrInd>true</ComplyWithPublicInspRqrInd>
+        <WebsiteAddressTxt>WWW.MOODYGARDENS.COM</WebsiteAddressTxt>
+        <PersonsWithBooksName>
+          <BusinessNameLine1Txt>KATHY LEBRUN</BusinessNameLine1Txt>
+        </PersonsWithBooksName>
+        <PhoneNum>4096834219</PhoneNum>
+        <LocationOfBooksUSAddress>
+          <AddressLine1Txt>ONE HOPE BLVD</AddressLine1Txt>
+          <CityNm>galveston</CityNm>
+          <StateAbbreviationCd>TX</StateAbbreviationCd>
+          <ZIPCd>77554</ZIPCd>
+        </LocationOfBooksUSAddress>
+        <ForeignAccountsQuestionInd>false</ForeignAccountsQuestionInd>
+      </StatementsRegardingActyGrp>
+      <StatementsRegardingActy4720Grp>
+        <SaleOrExchDisqualifiedPrsnInd>false</SaleOrExchDisqualifiedPrsnInd>
+        <BrrwOrLendDisqualifiedPrsnInd>false</BrrwOrLendDisqualifiedPrsnInd>
+        <FurnGoodsDisqualifiedPrsnInd>false</FurnGoodsDisqualifiedPrsnInd>
+        <PayCompDisqualifiedPrsnInd>true</PayCompDisqualifiedPrsnInd>
+        <TransferAstDisqualifiedPrsnInd>false</TransferAstDisqualifiedPrsnInd>
+        <PaymentToGovernmentOfficialInd>false</PaymentToGovernmentOfficialInd>
+        <ActsFailToQlfyAsExceptionsInd>false</ActsFailToQlfyAsExceptionsInd>
+        <UncorrectedPriorActsInd>false</UncorrectedPriorActsInd>
+        <UndistributedIncomePYInd>false</UndistributedIncomePYInd>
+        <BusinessHoldingsInd>false</BusinessHoldingsInd>
+        <JeopardyInvestmentsInd>false</JeopardyInvestmentsInd>
+        <UncorrectedPYJeopardyInvstInd>false</UncorrectedPYJeopardyInvstInd>
+        <InfluenceLegislationInd>false</InfluenceLegislationInd>
+        <InfluenceElectionInd>false</InfluenceElectionInd>
+        <GrantsToIndividualsInd>false</GrantsToIndividualsInd>
+        <GrantsToOrganizationsInd>false</GrantsToOrganizationsInd>
+        <NoncharitablePurposeInd>false</NoncharitablePurposeInd>
+        <RcvFndsToPayPrsnlBnftCntrctInd>false</RcvFndsToPayPrsnlBnftCntrctInd>
+        <PayPremiumsPrsnlBnftCntrctInd>false</PayPremiumsPrsnlBnftCntrctInd>
+        <ProhibitedTaxShelterTransInd>false</ProhibitedTaxShelterTransInd>
+        <SubjToTaxRmnrtnExPrchtPymtInd>false</SubjToTaxRmnrtnExPrchtPymtInd>
+      </StatementsRegardingActy4720Grp>
+      <OfficerDirTrstKeyEmplInfoGrp>
+        <OfficerDirTrstKeyEmplGrp>
+          <PersonNm referenceDocumentId="CompensationExpl">E DOUGLAS MCLEOD</PersonNm>
+          <USAddress>
+            <AddressLine1Txt>53 CEDAR LAWN CIRCLE</AddressLine1Txt>
+            <CityNm>GALVESTON</CityNm>
+            <StateAbbreviationCd>TX</StateAbbreviationCd>
+            <ZIPCd>77551</ZIPCd>
+          </USAddress>
+          <TitleTxt>CHAIRMAN/DIRECTOR</TitleTxt>
+          <AverageHrsPerWkDevotedToPosRt>1.0</AverageHrsPerWkDevotedToPosRt>
+          <CompensationAmt>21000</CompensationAmt>
+          <EmployeeBenefitProgramAmt>0</EmployeeBenefitProgramAmt>
+          <ExpenseAccountOtherAllwncAmt>0</ExpenseAccountOtherAllwncAmt>
+        </OfficerDirTrstKeyEmplGrp>
+        <OfficerDirTrstKeyEmplGrp>
+          <PersonNm referenceDocumentId="CompensationExpl">LUIS R HERNANDEZ</PersonNm>
+          <USAddress>
+            <AddressLine1Txt>950 E VAN BUREN</AddressLine1Txt>
+            <CityNm>BROWNSVILLE</CityNm>
+            <StateAbbreviationCd>TX</StateAbbreviationCd>
+            <ZIPCd>78520</ZIPCd>
+          </USAddress>
+          <TitleTxt>VP/DIRECTOR/AUDIT COMM CHAIR</TitleTxt>
+          <AverageHrsPerWkDevotedToPosRt>1.0</AverageHrsPerWkDevotedToPosRt>
+          <CompensationAmt>19600</CompensationAmt>
+          <EmployeeBenefitProgramAmt>0</EmployeeBenefitProgramAmt>
+          <ExpenseAccountOtherAllwncAmt>6252</ExpenseAccountOtherAllwncAmt>
+        </OfficerDirTrstKeyEmplGrp>
+        <OfficerDirTrstKeyEmplGrp>
+          <PersonNm referenceDocumentId="CompensationExpl">JOHN IPPOLITO</PersonNm>
+          <USAddress>
+            <AddressLine1Txt>6222 Ledge Mountain Dr</AddressLine1Txt>
+            <CityNm>AUSTIN</CityNm>
+            <StateAbbreviationCd>TX</StateAbbreviationCd>
+            <ZIPCd>78731</ZIPCd>
+          </USAddress>
+          <TitleTxt>DIRECTOR/SECRETARY</TitleTxt>
+          <AverageHrsPerWkDevotedToPosRt>1.0</AverageHrsPerWkDevotedToPosRt>
+          <CompensationAmt>20650</CompensationAmt>
+          <EmployeeBenefitProgramAmt>0</EmployeeBenefitProgramAmt>
+          <ExpenseAccountOtherAllwncAmt>525</ExpenseAccountOtherAllwncAmt>
+        </OfficerDirTrstKeyEmplGrp>
+        <OfficerDirTrstKeyEmplGrp>
+          <PersonNm referenceDocumentId="CompensationExpl">JOHN ZENDT</PersonNm>
+          <USAddress>
+            <AddressLine1Txt>ONE HOPE BOULEVARD</AddressLine1Txt>
+            <CityNm>GALVESTON</CityNm>
+            <StateAbbreviationCd>TX</StateAbbreviationCd>
+            <ZIPCd>77554</ZIPCd>
+          </USAddress>
+          <TitleTxt>PRESIDENT/DIRECTOR</TitleTxt>
+          <AverageHrsPerWkDevotedToPosRt>40.0</AverageHrsPerWkDevotedToPosRt>
+          <CompensationAmt>405717</CompensationAmt>
+          <EmployeeBenefitProgramAmt>50441</EmployeeBenefitProgramAmt>
+          <ExpenseAccountOtherAllwncAmt>0</ExpenseAccountOtherAllwncAmt>
+        </OfficerDirTrstKeyEmplGrp>
+        <OfficerDirTrstKeyEmplGrp>
+          <PersonNm referenceDocumentId="CompensationExpl">CHRISTOPHER LAMM</PersonNm>
+          <USAddress>
+            <AddressLine1Txt>MOODY FOUNDATION</AddressLine1Txt>
+            <AddressLine2Txt>2302 POSTOFFICE ST 704</AddressLine2Txt>
+            <CityNm>GALVESTON</CityNm>
+            <StateAbbreviationCd>TX</StateAbbreviationCd>
+            <ZIPCd>77550</ZIPCd>
+          </USAddress>
+          <TitleTxt>DIRECTOR</TitleTxt>
+          <AverageHrsPerWkDevotedToPosRt>1.0</AverageHrsPerWkDevotedToPosRt>
+          <CompensationAmt>3000</CompensationAmt>
+          <EmployeeBenefitProgramAmt>0</EmployeeBenefitProgramAmt>
+          <ExpenseAccountOtherAllwncAmt>0</ExpenseAccountOtherAllwncAmt>
+        </OfficerDirTrstKeyEmplGrp>
+        <OfficerDirTrstKeyEmplGrp>
+          <PersonNm referenceDocumentId="CompensationExpl">KATHY LEBRUN</PersonNm>
+          <USAddress>
+            <AddressLine1Txt>ONE HOPE BOULEVARD</AddressLine1Txt>
+            <CityNm>GALVESTON</CityNm>
+            <StateAbbreviationCd>TX</StateAbbreviationCd>
+            <ZIPCd>77554</ZIPCd>
+          </USAddress>
+          <TitleTxt>CFO/TREASURER</TitleTxt>
+          <AverageHrsPerWkDevotedToPosRt>40.0</AverageHrsPerWkDevotedToPosRt>
+          <CompensationAmt>124400</CompensationAmt>
+          <EmployeeBenefitProgramAmt>42217</EmployeeBenefitProgramAmt>
+          <ExpenseAccountOtherAllwncAmt>0</ExpenseAccountOtherAllwncAmt>
+        </OfficerDirTrstKeyEmplGrp>
+        <OfficerDirTrstKeyEmplGrp>
+          <PersonNm referenceDocumentId="CompensationExpl">BOB BULLWINKEL</PersonNm>
+          <USAddress>
+            <AddressLine1Txt>PARK BOARD OF TRUSTEES</AddressLine1Txt>
+            <AddressLine2Txt>601 23RD ST</AddressLine2Txt>
+            <CityNm>GALVESTON</CityNm>
+            <StateAbbreviationCd>TX</StateAbbreviationCd>
+            <ZIPCd>77550</ZIPCd>
+          </USAddress>
+          <TitleTxt>EX OFICIO BOARD MEMBER</TitleTxt>
+          <AverageHrsPerWkDevotedToPosRt>1.0</AverageHrsPerWkDevotedToPosRt>
+          <CompensationAmt>0</CompensationAmt>
+          <EmployeeBenefitProgramAmt>0</EmployeeBenefitProgramAmt>
+          <ExpenseAccountOtherAllwncAmt>0</ExpenseAccountOtherAllwncAmt>
+        </OfficerDirTrstKeyEmplGrp>
+        <OfficerDirTrstKeyEmplGrp>
+          <PersonNm referenceDocumentId="CompensationExpl">ALLAN MATTHEWS</PersonNm>
+          <USAddress>
+            <AddressLine1Txt>7114 YOUPON DRIVE</AddressLine1Txt>
+            <CityNm>GALVESTON</CityNm>
+            <StateAbbreviationCd>TX</StateAbbreviationCd>
+            <ZIPCd>77551</ZIPCd>
+          </USAddress>
+          <TitleTxt>DIRECTOR</TitleTxt>
+          <AverageHrsPerWkDevotedToPosRt>1.0</AverageHrsPerWkDevotedToPosRt>
+          <CompensationAmt>19500</CompensationAmt>
+          <EmployeeBenefitProgramAmt>0</EmployeeBenefitProgramAmt>
+          <ExpenseAccountOtherAllwncAmt>0</ExpenseAccountOtherAllwncAmt>
+        </OfficerDirTrstKeyEmplGrp>
+        <CompensationHighestPaidEmplGrp>
+          <PersonNm>ROBERT CALLIES</PersonNm>
+          <USAddress>
+            <AddressLine1Txt>ONE HOPE BLVD</AddressLine1Txt>
+            <CityNm>GALVESTON</CityNm>
+            <StateAbbreviationCd>TX</StateAbbreviationCd>
+            <ZIPCd>77554</ZIPCd>
+          </USAddress>
+          <TitleTxt>GENERAL MANAGER</TitleTxt>
+          <AverageHrsPerWkDevotedToPosRt>40.0</AverageHrsPerWkDevotedToPosRt>
+          <CompensationAmt>135167</CompensationAmt>
+          <EmployeeBenefitsAmt>20758</EmployeeBenefitsAmt>
+          <ExpenseAccountAmt>0</ExpenseAccountAmt>
+        </CompensationHighestPaidEmplGrp>
+        <CompensationHighestPaidEmplGrp>
+          <PersonNm>STEVEN J YAROTSKY</PersonNm>
+          <USAddress>
+            <AddressLine1Txt>ONE HOPE BLVD</AddressLine1Txt>
+            <CityNm>GALVESTON</CityNm>
+            <StateAbbreviationCd>TX</StateAbbreviationCd>
+            <ZIPCd>77554</ZIPCd>
+          </USAddress>
+          <TitleTxt>GENERAL MANAGER</TitleTxt>
+          <AverageHrsPerWkDevotedToPosRt>40.0</AverageHrsPerWkDevotedToPosRt>
+          <CompensationAmt>105740</CompensationAmt>
+          <EmployeeBenefitsAmt>24159</EmployeeBenefitsAmt>
+          <ExpenseAccountAmt>0</ExpenseAccountAmt>
+        </CompensationHighestPaidEmplGrp>
+        <CompensationHighestPaidEmplGrp>
+          <PersonNm>LEON GARRISON</PersonNm>
+          <USAddress>
+            <AddressLine1Txt>ONE HOPE BLVD</AddressLine1Txt>
+            <CityNm>GALVESTON</CityNm>
+            <StateAbbreviationCd>TX</StateAbbreviationCd>
+            <ZIPCd>77554</ZIPCd>
+          </USAddress>
+          <TitleTxt>HOTEL MANAGER</TitleTxt>
+          <AverageHrsPerWkDevotedToPosRt>40.0</AverageHrsPerWkDevotedToPosRt>
+          <CompensationAmt>155500</CompensationAmt>
+          <EmployeeBenefitsAmt>25136</EmployeeBenefitsAmt>
+          <ExpenseAccountAmt>0</ExpenseAccountAmt>
+        </CompensationHighestPaidEmplGrp>
+        <CompensationHighestPaidEmplGrp>
+          <PersonNm>KIM CONNER</PersonNm>
+          <USAddress>
+            <AddressLine1Txt>ONE HOPE BLVD</AddressLine1Txt>
+            <CityNm>GALVESTON</CityNm>
+            <StateAbbreviationCd>TX</StateAbbreviationCd>
+            <ZIPCd>77554</ZIPCd>
+          </USAddress>
+          <TitleTxt>DIRECTOR,HOTEL SALES</TitleTxt>
+          <AverageHrsPerWkDevotedToPosRt>40.0</AverageHrsPerWkDevotedToPosRt>
+          <CompensationAmt>103178</CompensationAmt>
+          <EmployeeBenefitsAmt>16527</EmployeeBenefitsAmt>
+          <ExpenseAccountAmt>0</ExpenseAccountAmt>
+        </CompensationHighestPaidEmplGrp>
+        <CompensationHighestPaidEmplGrp>
+          <PersonNm>RICHARD TERNSTROM</PersonNm>
+          <USAddress>
+            <AddressLine1Txt>ONE HOPE BLVD</AddressLine1Txt>
+            <CityNm>GALVESTON</CityNm>
+            <StateAbbreviationCd>TX</StateAbbreviationCd>
+            <ZIPCd>77554</ZIPCd>
+          </USAddress>
+          <TitleTxt>DIRECTOR, HOTEL FOOD</TitleTxt>
+          <AverageHrsPerWkDevotedToPosRt>40.0</AverageHrsPerWkDevotedToPosRt>
+          <CompensationAmt>121860</CompensationAmt>
+          <EmployeeBenefitsAmt>7241</EmployeeBenefitsAmt>
+          <ExpenseAccountAmt>0</ExpenseAccountAmt>
+        </CompensationHighestPaidEmplGrp>
+        <OtherEmployeePaidOver50kCnt>105</OtherEmployeePaidOver50kCnt>
+        <CompensationOfHghstPdCntrctGrp>
+          <BusinessName referenceDocumentId="ContractCompenExpln">
+            <BusinessNameLine1Txt>PANNELL KERR FORSTER OF TEXAS PC</BusinessNameLine1Txt>
+          </BusinessName>
+          <USAddress>
+            <AddressLine1Txt>5847 SAN FELIPE SUITE 2600</AddressLine1Txt>
+            <CityNm>HOUSTON</CityNm>
+            <StateAbbreviationCd>TX</StateAbbreviationCd>
+            <ZIPCd>77057</ZIPCd>
+          </USAddress>
+          <ServiceTypeTxt>AUDITING &amp; TAXATION</ServiceTypeTxt>
+          <CompensationAmt>119153</CompensationAmt>
+        </CompensationOfHghstPdCntrctGrp>
+        <CompensationOfHghstPdCntrctGrp>
+          <BusinessName referenceDocumentId="ContractCompenExpln">
+            <BusinessNameLine1Txt>CYNDI RUSNAK PLLC</BusinessNameLine1Txt>
+          </BusinessName>
+          <USAddress>
+            <AddressLine1Txt>13231 CHAMPION FOREST DR STE 309</AddressLine1Txt>
+            <CityNm>HOUSTON</CityNm>
+            <StateAbbreviationCd>TX</StateAbbreviationCd>
+            <ZIPCd>77069</ZIPCd>
+          </USAddress>
+          <ServiceTypeTxt>LEGAL SERVICES</ServiceTypeTxt>
+          <CompensationAmt>111513</CompensationAmt>
+        </CompensationOfHghstPdCntrctGrp>
+        <CompensationOfHghstPdCntrctGrp>
+          <BusinessName referenceDocumentId="ContractCompenExpln">
+            <BusinessNameLine1Txt>GALVESTON VETERINARY CLINIC</BusinessNameLine1Txt>
+          </BusinessName>
+          <USAddress>
+            <AddressLine1Txt>2108 61ST ST</AddressLine1Txt>
+            <CityNm>GALVESTON</CityNm>
+            <StateAbbreviationCd>TX</StateAbbreviationCd>
+            <ZIPCd>77551</ZIPCd>
+          </USAddress>
+          <ServiceTypeTxt>VET SERVICES</ServiceTypeTxt>
+          <CompensationAmt>67566</CompensationAmt>
+        </CompensationOfHghstPdCntrctGrp>
+        <ContractorPaidOver50kCnt>0</ContractorPaidOver50kCnt>
+      </OfficerDirTrstKeyEmplInfoGrp>
+      <SummaryOfDirectChrtblActyGrp>
+        <Description1Txt>CONSTRUCTION/MAINTENANCE/RENOVATION OF FACILITIES AT MOODY GARDENS FOR THE PARK BOARD OF TRUSTEES.</Description1Txt>
+        <Expenses1Amt>4671303</Expenses1Amt>
+        <Description2Txt>OPERATION OF PUBLIC FACILITIES AT MOODY GARDENS FOR THE PARK BOARD OF TRUSTEES.</Description2Txt>
+        <Expenses2Amt>58976019</Expenses2Amt>
+        <Description3Txt>OPERATION OF THE GOLF COURSE FOR THE CITY OF GALVESTON</Description3Txt>
+        <Expenses3Amt>3087035</Expenses3Amt>
+        <Description4Txt>CONSTRUCTION/MAINTENANCE/RENOVATION FOR THE GOLF COURSE FOR THE CITY OF GALVESTON.</Description4Txt>
+        <Expenses4Amt>104525</Expenses4Amt>
+      </SummaryOfDirectChrtblActyGrp>
+      <SumOfProgramRelatedInvstGrp />
+      <MinimumInvestmentReturnGrp>
+        <AverageMonthlyFMVOfSecAmt>34328498</AverageMonthlyFMVOfSecAmt>
+        <AverageMonthlyCashBalancesAmt>8628437</AverageMonthlyCashBalancesAmt>
+        <FMVAllOtherNoncharitableAstAmt>7568903</FMVAllOtherNoncharitableAstAmt>
+        <TotalFMVOfUnusedAssetsAmt>50525838</TotalFMVOfUnusedAssetsAmt>
+        <AcquisitionIndebtednessAmt>0</AcquisitionIndebtednessAmt>
+        <AdjustedTotalFMVOfUnusedAstAmt>50525838</AdjustedTotalFMVOfUnusedAstAmt>
+        <CashDeemedCharitableAmt>757888</CashDeemedCharitableAmt>
+        <NetVlNoncharitableAssetsAmt>49767950</NetVlNoncharitableAssetsAmt>
+        <MinimumInvestmentReturnAmt>2488398</MinimumInvestmentReturnAmt>
+      </MinimumInvestmentReturnGrp>
+      <DistributableAmountGrp>
+        <Sect4942j3j5FndtnAndFrgnOrgInd>X</Sect4942j3j5FndtnAndFrgnOrgInd>
+        <IncomeTaxAmt>0</IncomeTaxAmt>
+        <TotalTaxAmt>0</TotalTaxAmt>
+        <DistributableBeforeAdjAmt>0</DistributableBeforeAdjAmt>
+        <DistributableBeforeDedAmt>0</DistributableBeforeDedAmt>
+        <DistributableAsAdjustedAmt>0</DistributableAsAdjustedAmt>
+      </DistributableAmountGrp>
+      <PFQualifyingDistributionsGrp>
+        <ExpensesAndContributionsAmt>4775828</ExpensesAndContributionsAmt>
+        <ProgramRelatedInvstTotalAmt>0</ProgramRelatedInvstTotalAmt>
+        <CharitableAssetsAcquisPaidAmt>0</CharitableAssetsAcquisPaidAmt>
+        <SetAsideSuitabilityTestAmt>0</SetAsideSuitabilityTestAmt>
+        <SetAsideCashDistriTestAmt>0</SetAsideCashDistriTestAmt>
+        <QualifyingDistributionsAmt>4775828</QualifyingDistributionsAmt>
+      </PFQualifyingDistributionsGrp>
+      <UndistributedIncomeGrp>
+        <DistributableAsAdjustedAmt>0</DistributableAsAdjustedAmt>
+        <UndistributedIncomePYAmt>0</UndistributedIncomePYAmt>
+        <PriorYear1Yr>2021</PriorYear1Yr>
+        <PriorYear2Yr>2020</PriorYear2Yr>
+        <PriorYear3Yr>2019</PriorYear3Yr>
+        <TotalForPriorYearsAmt>0</TotalForPriorYearsAmt>
+        <ExcessDistributionCyovYr1Amt>0</ExcessDistributionCyovYr1Amt>
+        <TotalExcessDistributionCyovAmt>0</TotalExcessDistributionCyovAmt>
+        <QualifyingDistributionsAmt>0</QualifyingDistributionsAmt>
+        <AppliedToYear1Amt>0</AppliedToYear1Amt>
+        <RemainingDistriFromCorpusAmt>0</RemainingDistriFromCorpusAmt>
+        <TotalCorpusAmt>0</TotalCorpusAmt>
+        <PriorYearUndistributedIncmAmt>0</PriorYearUndistributedIncmAmt>
+        <Taxable1Amt>0</Taxable1Amt>
+        <Taxable2Amt>0</Taxable2Amt>
+        <UndistributedIncomeCYAmt>0</UndistributedIncomeCYAmt>
+        <ExcessDistriCyovToNextYrAmt>0</ExcessDistriCyovToNextYrAmt>
+        <ExcessFromCurrentYearAmt>0</ExcessFromCurrentYearAmt>
+      </UndistributedIncomeGrp>
+      <PrivateOperatingFoundationsGrp>
+        <PrivateOperatingFndtnRulingDt>1989-12-11</PrivateOperatingFndtnRulingDt>
+        <Section4942j3Ind>X</Section4942j3Ind>
+        <LessorAdjNetIncmMinInvstRetGrp>
+          <CurrentYearAmt>0</CurrentYearAmt>
+          <Year1Amt>0</Year1Amt>
+          <Year2Amt>0</Year2Amt>
+          <Year3Amt>0</Year3Amt>
+          <TotalAmt>0</TotalAmt>
+        </LessorAdjNetIncmMinInvstRetGrp>
+        <Pct85LessorAdjIncmOrMinRetGrp>
+          <CurrentYearAmt>0</CurrentYearAmt>
+          <Year1Amt>0</Year1Amt>
+          <Year2Amt>0</Year2Amt>
+          <Year3Amt>0</Year3Amt>
+          <TotalAmt>0</TotalAmt>
+        </Pct85LessorAdjIncmOrMinRetGrp>
+        <QualifyingDistributionsGrp>
+          <CurrentYearAmt>4775828</CurrentYearAmt>
+          <Year1Amt>3635093</Year1Amt>
+          <Year2Amt>5909892</Year2Amt>
+          <Year3Amt>2224943</Year3Amt>
+          <TotalAmt>16545756</TotalAmt>
+        </QualifyingDistributionsGrp>
+        <QualifyingDistriNotUsedDrtGrp>
+          <CurrentYearAmt>0</CurrentYearAmt>
+          <Year1Amt>0</Year1Amt>
+          <Year2Amt>0</Year2Amt>
+          <Year3Amt>0</Year3Amt>
+          <TotalAmt>0</TotalAmt>
+        </QualifyingDistriNotUsedDrtGrp>
+        <QualifyingDistriMadeDrtGrp>
+          <CurrentYearAmt>4775828</CurrentYearAmt>
+          <Year1Amt>3635093</Year1Amt>
+          <Year2Amt>5909892</Year2Amt>
+          <Year3Amt>2224943</Year3Amt>
+          <TotalAmt>16545756</TotalAmt>
+        </QualifyingDistriMadeDrtGrp>
+        <TotalAssetsGrp>
+          <CurrentYearAmt>0</CurrentYearAmt>
+          <Year1Amt>0</Year1Amt>
+          <Year2Amt>0</Year2Amt>
+          <Year3Amt>0</Year3Amt>
+          <TotalAmt>0</TotalAmt>
+        </TotalAssetsGrp>
+        <TotalAssetsSect4942j3BiGrp>
+          <TotalAmt>0</TotalAmt>
+        </TotalAssetsSect4942j3BiGrp>
+        <TwoThirdsMinimumInvstRetGrp>
+          <CurrentYearAmt>1658932</CurrentYearAmt>
+          <Year1Amt>1429173</Year1Amt>
+          <Year2Amt>1227737</Year2Amt>
+          <Year3Amt>1006679</Year3Amt>
+          <TotalAmt>5322521</TotalAmt>
+        </TwoThirdsMinimumInvstRetGrp>
+        <TotalSupportGrp>
+          <TotalAmt>0</TotalAmt>
+        </TotalSupportGrp>
+        <PublicSupportType>
+          <TotalAmt>0</TotalAmt>
+        </PublicSupportType>
+        <LargestSupportFromEOGrp>
+          <TotalAmt>0</TotalAmt>
+        </LargestSupportFromEOGrp>
+        <GrossInvestmentIncomeGrp>
+          <TotalAmt>0</TotalAmt>
+        </GrossInvestmentIncomeGrp>
+      </PrivateOperatingFoundationsGrp>
+      <SupplementaryInformationGrp>
+        <ContributingManagerNm>NONE</ContributingManagerNm>
+        <ShareholderManagerNm>NONE</ShareholderManagerNm>
+        <OnlyContriToPreselectedInd>X</OnlyContriToPreselectedInd>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>CITY OF GALVESTON</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientUSAddress>
+            <AddressLine1Txt>823 ROSENBURG</AddressLine1Txt>
+            <CityNm>GALVESTON</CityNm>
+            <StateAbbreviationCd>TX</StateAbbreviationCd>
+            <ZIPCd>77553</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>N/A</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>N/A</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>RENOVATION OF THE GOLF COURSE AT MOODY GARDENS</GrantOrContributionPurposeTxt>
+          <Amt>104525</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>PARK BOARD OF TRUSTEES OF THE CITY OF GALVESTON</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientUSAddress>
+            <AddressLine1Txt>601 TREMONT STREET</AddressLine1Txt>
+            <CityNm>GALVESTON</CityNm>
+            <StateAbbreviationCd>TX</StateAbbreviationCd>
+            <ZIPCd>77550</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>N/A</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>N/A</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>Construction/maintenance/RENOVATION OF FACILITIES AT MOODY GARDENS</GrantOrContributionPurposeTxt>
+          <Amt>4671303</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <TotalGrantOrContriPdDurYrAmt>4775828</TotalGrantOrContriPdDurYrAmt>
+        <GrantOrContriApprvForFutGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>CITY OF GALVESTON</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientUSAddress>
+            <AddressLine1Txt>823 ROSENBERG</AddressLine1Txt>
+            <CityNm>GALVESTON</CityNm>
+            <StateAbbreviationCd>TX</StateAbbreviationCd>
+            <ZIPCd>77553</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>N/A</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>N/A</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>RENOVATION/MANAGEMENT/OPERATION/MAINTENANCE OF THE GOLF COURSE AT MOODY GARDENS</GrantOrContributionPurposeTxt>
+          <Amt>0</Amt>
+        </GrantOrContriApprvForFutGrp>
+        <TotalGrantOrContriApprvFutAmt>100000</TotalGrantOrContriApprvFutAmt>
+      </SupplementaryInformationGrp>
+      <AnalysisIncomeProducingActyGrp>
+        <ProgramServiceRevenueDtl>
+          <Desc>HOTEL REVENUES</Desc>
+          <RelatedOrExemptFunctionIncmAmt>28563496</RelatedOrExemptFunctionIncmAmt>
+        </ProgramServiceRevenueDtl>
+        <ProgramServiceRevenueDtl>
+          <Desc>AQUARIUM</Desc>
+          <RelatedOrExemptFunctionIncmAmt>9077591</RelatedOrExemptFunctionIncmAmt>
+        </ProgramServiceRevenueDtl>
+        <ProgramServiceRevenueDtl>
+          <Desc>GIFT SHOPS</Desc>
+          <RelatedOrExemptFunctionIncmAmt>1280489</RelatedOrExemptFunctionIncmAmt>
+        </ProgramServiceRevenueDtl>
+        <ProgramServiceRevenueDtl>
+          <Desc>RAINFOREST</Desc>
+          <RelatedOrExemptFunctionIncmAmt>5720058</RelatedOrExemptFunctionIncmAmt>
+        </ProgramServiceRevenueDtl>
+        <ProgramServiceRevenueDtl>
+          <Desc>EDUCATION DEPT.</Desc>
+          <RelatedOrExemptFunctionIncmAmt>359005</RelatedOrExemptFunctionIncmAmt>
+        </ProgramServiceRevenueDtl>
+        <ProgramServiceRevenueDtl>
+          <Desc>PALM BEACH</Desc>
+          <RelatedOrExemptFunctionIncmAmt>1615708</RelatedOrExemptFunctionIncmAmt>
+        </ProgramServiceRevenueDtl>
+        <ProgramServiceRevenueDtl>
+          <Desc>THEATER PRODUCTIONS</Desc>
+          <RelatedOrExemptFunctionIncmAmt>3415092</RelatedOrExemptFunctionIncmAmt>
+        </ProgramServiceRevenueDtl>
+        <ProgramServiceRevenueDtl>
+          <Desc>DISCOVERY MUSEUM</Desc>
+          <RelatedOrExemptFunctionIncmAmt>1071003</RelatedOrExemptFunctionIncmAmt>
+        </ProgramServiceRevenueDtl>
+        <ProgramServiceRevenueDtl>
+          <Desc>CONVENTION CENTER</Desc>
+          <RelatedOrExemptFunctionIncmAmt>543015</RelatedOrExemptFunctionIncmAmt>
+        </ProgramServiceRevenueDtl>
+        <ProgramServiceRevenueDtl>
+          <Desc>GOLF COURSE</Desc>
+          <RelatedOrExemptFunctionIncmAmt>2195339</RelatedOrExemptFunctionIncmAmt>
+        </ProgramServiceRevenueDtl>
+        <ProgramServiceRevenueDtl>
+          <Desc>ROPES COURSE</Desc>
+          <RelatedOrExemptFunctionIncmAmt>529417</RelatedOrExemptFunctionIncmAmt>
+        </ProgramServiceRevenueDtl>
+        <ProgramServiceRevenueDtl>
+          <Desc>MISCELLANEOUS</Desc>
+          <RelatedOrExemptFunctionIncmAmt>834040</RelatedOrExemptFunctionIncmAmt>
+        </ProgramServiceRevenueDtl>
+        <ProgramServiceRevenueDtl>
+          <Desc>SETTLEMENT REVENUE</Desc>
+          <RelatedOrExemptFunctionIncmAmt>557565</RelatedOrExemptFunctionIncmAmt>
+        </ProgramServiceRevenueDtl>
+        <ProgramServiceRevenueDtl>
+          <Desc>FESTIVAL OF LIGHTS/ICE LAND</Desc>
+          <RelatedOrExemptFunctionIncmAmt>4673704</RelatedOrExemptFunctionIncmAmt>
+        </ProgramServiceRevenueDtl>
+        <FeesContractsFromGovtAgGrp />
+        <MembershipDuesAndAssmntGrp />
+        <IntOnSavAndTempCashInvstGrp>
+          <ExclusionCd>14</ExclusionCd>
+          <ExclusionAmt>77314</ExclusionAmt>
+        </IntOnSavAndTempCashInvstGrp>
+        <DividendsAndInterestFromSecDtl>
+          <ExclusionCd>14</ExclusionCd>
+          <ExclusionAmt>951975</ExclusionAmt>
+        </DividendsAndInterestFromSecDtl>
+        <NetRntlIncmReDebtFincdPropGrp />
+        <NetRntlIncmReNotDebtFincdProp />
+        <NetRentalIncomePersonalPropGrp />
+        <OtherInvestmentIncomeGrp />
+        <GainSalesAstOthThanInvntryGrp>
+          <ExclusionCd>18</ExclusionCd>
+          <ExclusionAmt>481560</ExclusionAmt>
+        </GainSalesAstOthThanInvntryGrp>
+        <NetIncomeLossFromSpecialEvtGrp />
+        <GrossProfitLossSlsOfInvntryGrp />
+        <SubtotalsIncmProducingActyGrp>
+          <ExclusionAmt>1510849</ExclusionAmt>
+          <RelatedOrExemptFunctionIncmAmt>60435522</RelatedOrExemptFunctionIncmAmt>
+        </SubtotalsIncmProducingActyGrp>
+        <TotalIncomeProducingActyAmt>61946371</TotalIncomeProducingActyAmt>
+      </AnalysisIncomeProducingActyGrp>
+      <RlnOfActyToAccomOfExmptPrpsGrp>
+        <RlnOfActyToAccomOfExmptPrpsGrp>
+          <LineNumberTxt>1</LineNumberTxt>
+          <RelationshipStatementTxt>REVENUES RECEIVED FROM THE OPERATION OF A HOTEL, PUBLIC BEACH, CONVENTION CENTER, ANIMAL HABITAT, BOTANICAL GARDENS, THERAPEUTIC PROGRAMS FOR THE HANDICAPPED, THEATER PRODUCTIONS, MUSEUM, EDUCATIONAL PROGRAMS, AND OTHER PERMANENT OR SEASONAL EXHIBITS AND/OR ATTRACTIONS FOR THE PARK BOARD OF THE CITY OF GALVESTON. REVENUES ARE DERIVED FROM ADMISSIONS, RENTALS, CONCESSIONS, AND FOOD AND BEVERAGE SALES RELATED TO OPERATIONS CONSISTENT WITH ITS CHARITABLE STATUS AS AN ORGANIZATION THAT LESSENS BURDENS OF GOVERNMENT. REVENUES RECEIVED FROM THE OPERATION OF THE MUNICIPAL GOLF COURSE FOR THE CITY OF GALVESTON. REVENUES ARE DERIVED FROM GREENS FEES, RENTALS, CONCESSIONS, MERCHANDISE AND FOOD AND BEVERAGE SALES RELATED TO OPERATIONS CONSISTENT WITH ITS CHARITABLE STATUS AS AN ORGANIZATION THAT LESSENS BURDENS OF GOVERNMENT. SETTLEMENT REVENUE WAS RECEIVED DURING FYE 9/30/2024 FOR LOST PROGRAM-RELATED REVENUE IN SEVERAL PRIOR YEARS.</RelationshipStatementTxt>
+        </RlnOfActyToAccomOfExmptPrpsGrp>
+      </RlnOfActyToAccomOfExmptPrpsGrp>
+      <TrnsfrTransRlnNonchrtblEOGrp>
+        <TrnsfrOfCashToNonchrtblEOInd>false</TrnsfrOfCashToNonchrtblEOInd>
+        <TrnsfrOtherAssetNonchrtblEOInd>false</TrnsfrOtherAssetNonchrtblEOInd>
+        <SalesOrExchangesOfAssetsInd>false</SalesOrExchangesOfAssetsInd>
+        <PurchaseOfAssetsNonchrtblEOInd>false</PurchaseOfAssetsNonchrtblEOInd>
+        <RentalOfFacilitiesOthAssetsInd>false</RentalOfFacilitiesOthAssetsInd>
+        <ReimbursementArrangementsInd>false</ReimbursementArrangementsInd>
+        <LoansOrLoanGuaranteesInd>false</LoansOrLoanGuaranteesInd>
+        <PerformanceOfServicesEtcInd>false</PerformanceOfServicesEtcInd>
+        <SharingOfFacilitiesEtcInd>false</SharingOfFacilitiesEtcInd>
+        <RelationshipsNonchrtblEOInd>false</RelationshipsNonchrtblEOInd>
+      </TrnsfrTransRlnNonchrtblEOGrp>
+    </IRS990PF>
+    <IRS990ScheduleB documentId="IRS990ScheduleB">
+      <Organization501c3ExemptPFInd>X</Organization501c3ExemptPFInd>
+      <GeneralRuleInd>X</GeneralRuleInd>
+      <ContributorInformationGrp>
+        <ContributorNum>1</ContributorNum>
+        <ContributorPersonNm>NATIONAL MARINE SANCTUARY FOUNDATIO</ContributorPersonNm>
+        <ContributorUSAddress>
+          <AddressLine1Txt>8455 Colesville Rd Suite 1275</AddressLine1Txt>
+          <CityNm>Silver Spring</CityNm>
+          <StateAbbreviationCd>MD</StateAbbreviationCd>
+          <ZIPCd>20910</ZIPCd>
+        </ContributorUSAddress>
+        <TotalContributionsAmt>254133</TotalContributionsAmt>
+        <PersonContributionInd>X</PersonContributionInd>
+      </ContributorInformationGrp>
+    </IRS990ScheduleB>
+    <AccountingFeesSchedule documentId="AccountingFeesSch">
+      <AccountingFeesDetail>
+        <CategoryTxt>ACCOUNTING FEES</CategoryTxt>
+        <Amt>119153</Amt>
+        <AdjustedNetIncomeAmt>119153</AdjustedNetIncomeAmt>
+      </AccountingFeesDetail>
+    </AccountingFeesSchedule>
+    <CompensationExplanation documentId="CompensationExpl">
+      <CompensationExplanationGrp>
+        <PersonNm>E DOUGLAS MCLEOD</PersonNm>
+        <ShortExplanationTxt>THIS INDIVIDUAL RECEIVED DIRECTOR FEES OF $600 PER REGULAR MEETING ATTENDED, PLUS $450 FOR EACH ADDITIONAL AUDIT COMMITTEE MEETING AND $350 FOR EACH ADDITIONAL OTHER COMMITTEE MEETING ATTENDED. DIRECTORS ALSO RECEIVE AN ANNUAL RETAINER OF $12,000. A THIRD PARTY COMPENSATION CONSULTANT HAS CONFIRMED THE REASONABLENESS OF THE COMPENSATION PAID TO DIRECTORS.</ShortExplanationTxt>
+      </CompensationExplanationGrp>
+      <CompensationExplanationGrp>
+        <PersonNm>LUIS R HERNANDEZ</PersonNm>
+        <ShortExplanationTxt>THIS INDIVIDUAL RECEIVED DIRECTOR FEES OF $600 PER REGULAR MEETING ATTENDED, PLUS $450 FOR EACH ADDITIONAL AUDIT COMMITTEE MEETING AND $350 FOR EACH ADDITIONAL OTHER COMMITTEE MEETING ATTENDED. DIRECTORS ALSO RECEIVE AN ANNUAL RETAINER OF $12,000. A THIRD PARTY COMPENSATION CONSULTANT HAS CONFIRMED THE REASONABLENESS OF THE COMPENSATION PAID TO DIRECTORS.</ShortExplanationTxt>
+      </CompensationExplanationGrp>
+      <CompensationExplanationGrp>
+        <PersonNm>JOHN IPPOLITO</PersonNm>
+        <ShortExplanationTxt>THIS INDIVIDUAL RECEIVED DIRECTOR FEES OF $600 PER REGULAR MEETING ATTENDED, PLUS $450 FOR EACH ADDITIONAL AUDIT COMMITTEE MEETING AND $350 FOR EACH ADDITIONAL OTHER COMMITTEE MEETING ATTENDED. DIRECTORS ALSO RECEIVE AN ANNUAL RETAINER OF $12,000. A THIRD PARTY COMPENSATION CONSULTANT HAS CONFIRMED THE REASONABLENESS OF THE COMPENSATION PAID TO DIRECTORS.</ShortExplanationTxt>
+      </CompensationExplanationGrp>
+      <CompensationExplanationGrp>
+        <PersonNm>JOHN ZENDT</PersonNm>
+        <ShortExplanationTxt>TOTAL COMPENSATION PAYMENT TO JOHN ZENDT OF $405,717 CONSISTS OF $20,300 DIRECTOR FEES AND $385,417 SALARIES. THIS INDIVIDUAL RECEIVED DIRECTOR FEES OF $600 PER REGULAR MEETING ATTENDED, PLUS $450 FOR EACH ADDITIONAL AUDIT COMMITTEE MEETING AND $350 FOR EACH ADDITIONAL OTHER COMMITTEE MEETING ATTENDED. DIRECTORS ALSO RECEIVE AN ANNUAL RETAINER OF $12,000. A THIRD PARTY COMPENSATION CONSULTANT HAS CONFIRMED THE REASONABLENESS OF THE COMPENSATION PAID TO DIRECTORS.</ShortExplanationTxt>
+      </CompensationExplanationGrp>
+      <CompensationExplanationGrp>
+        <PersonNm>CHRISTOPHER LAMM</PersonNm>
+        <ShortExplanationTxt>THIS INDIVIDUAL RECEIVED DIRECTOR FEES OF $600 PER REGULAR MEETING ATTENDED, PLUS $450 FOR EACH ADDITIONAL AUDIT COMMITTEE MEETING AND $350 FOR EACH ADDITIONAL OTHER COMMITTEE MEETING ATTENDED. DIRECTORS ALSO RECEIVE AN ANNUAL RETAINER OF $12,000. A THIRD PARTY COMPENSATION CONSULTANT HAS CONFIRMED THE REASONABLENESS OF THE COMPENSATION PAID TO DIRECTORS.</ShortExplanationTxt>
+      </CompensationExplanationGrp>
+      <CompensationExplanationGrp>
+        <PersonNm>ALLAN MATTHEWS</PersonNm>
+        <ShortExplanationTxt>THIS INDIVIDUAL RECEIVED DIRECTOR FEES OF $600 PER REGULAR MEETING ATTENDED, PLUS $450 FOR EACH ADDITIONAL AUDIT COMMITTEE MEETING AND $350 FOR EACH ADDITIONAL OTHER COMMITTEE MEETING ATTENDED. DIRECTORS ALSO RECEIVE AN ANNUAL RETAINER OF $12,000. A THIRD PARTY COMPENSATION CONSULTANT HAS CONFIRMED THE REASONABLENESS OF THE COMPENSATION PAID TO DIRECTORS.</ShortExplanationTxt>
+      </CompensationExplanationGrp>
+    </CompensationExplanation>
+    <ContractorCompensationExpln documentId="ContractCompenExpln">
+      <ContractorCompExplnGrp>
+        <ContractorPersonNm>PANNELL KERR FORSTER OF TEXAS P C</ContractorPersonNm>
+        <ExplanationTxt>AUDITING &amp; TAXATION</ExplanationTxt>
+      </ContractorCompExplnGrp>
+      <ContractorCompExplnGrp>
+        <ContractorPersonNm>CYNDI RUSNAK PLLC</ContractorPersonNm>
+        <ExplanationTxt>LEGAL SERVICES</ExplanationTxt>
+      </ContractorCompExplnGrp>
+      <ContractorCompExplnGrp>
+        <ContractorPersonNm>GALVESTON VETERINARY CLINIC</ContractorPersonNm>
+        <ExplanationTxt>VET SERVICES</ExplanationTxt>
+      </ContractorCompExplnGrp>
+    </ContractorCompensationExpln>
+    <DepreciationSchedule documentId="DepreciationSch" />
+    <InvestmentsOtherSchedule2 documentId="InvOtherSch2">
+      <InvestmentsOtherGrp>
+        <CategoryOrItemTxt>JANET JORDAN ENDOWMENT FUND</CategoryOrItemTxt>
+        <BookValueAmt>2328846</BookValueAmt>
+        <EOYFMVAmt>2328846</EOYFMVAmt>
+      </InvestmentsOtherGrp>
+      <InvestmentsOtherGrp>
+        <CategoryOrItemTxt>HOPE THERAPY RESERVE FUND</CategoryOrItemTxt>
+        <BookValueAmt>554419</BookValueAmt>
+        <EOYFMVAmt>554419</EOYFMVAmt>
+      </InvestmentsOtherGrp>
+      <InvestmentsOtherGrp>
+        <CategoryOrItemTxt>SPECIAL RESERVE FUND</CategoryOrItemTxt>
+        <BookValueAmt>36494629</BookValueAmt>
+        <EOYFMVAmt>36494629</EOYFMVAmt>
+      </InvestmentsOtherGrp>
+    </InvestmentsOtherSchedule2>
+    <LegalFeesSchedule documentId="LegalFeesSch">
+      <LegalFeesGrp>
+        <CategoryTxt>LEGAL FEES</CategoryTxt>
+        <LegalFeesAmt>152591</LegalFeesAmt>
+        <AdjustedNetIncomeAmt>152591</AdjustedNetIncomeAmt>
+      </LegalFeesGrp>
+    </LegalFeesSchedule>
+    <OtherAssetsSchedule documentId="OtherAssetsSch">
+      <OtherAssetsScheduleGrp>
+        <Desc>DEPOSITS</Desc>
+        <BOYBookValueAmt>85505</BOYBookValueAmt>
+        <EOYBookValueAmt>13615</EOYBookValueAmt>
+        <EOYFMVAmt>13615</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>FILM PRODUCTION COSTS</Desc>
+        <BOYBookValueAmt>906643</BOYBookValueAmt>
+        <EOYBookValueAmt>583907</EOYBookValueAmt>
+        <EOYFMVAmt>583907</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>SETTLEMENT RECEIVABLE</Desc>
+        <BOYBookValueAmt>18585492</BOYBookValueAmt>
+        <EOYBookValueAmt>14143057</EOYBookValueAmt>
+        <EOYFMVAmt>14143057</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>ICE EXHIBIT COSTS</Desc>
+        <BOYBookValueAmt>1246068</BOYBookValueAmt>
+        <EOYBookValueAmt>749475</EOYBookValueAmt>
+        <EOYFMVAmt>749475</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>NOTE RECEIVABLE- RELATED PARTY</Desc>
+        <BOYBookValueAmt>475000</BOYBookValueAmt>
+        <EOYBookValueAmt>475000</EOYBookValueAmt>
+        <EOYFMVAmt>475000</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>RIGHT-OF-USE ASSETS, OPERATING</Desc>
+        <BOYBookValueAmt>6337832</BOYBookValueAmt>
+        <EOYBookValueAmt>6358225</EOYBookValueAmt>
+        <EOYFMVAmt>6358225</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+    </OtherAssetsSchedule>
+    <OtherExpensesSchedule documentId="OtherExpensesSch">
+      <OtherExpensesScheduleGrp>
+        <Desc>SALES &amp; MARKETING</Desc>
+        <RevenueAndExpensesPerBooksAmt>3452388</RevenueAndExpensesPerBooksAmt>
+        <AdjustedNetIncomeAmt>3452388</AdjustedNetIncomeAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>OTHER EXHIBITS</Desc>
+        <RevenueAndExpensesPerBooksAmt>4953389</RevenueAndExpensesPerBooksAmt>
+        <AdjustedNetIncomeAmt>4953389</AdjustedNetIncomeAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>FILM LICENSE</Desc>
+        <RevenueAndExpensesPerBooksAmt>642226</RevenueAndExpensesPerBooksAmt>
+        <AdjustedNetIncomeAmt>642226</AdjustedNetIncomeAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>REPAIRS &amp; MAINTENANCE</Desc>
+        <RevenueAndExpensesPerBooksAmt>5510079</RevenueAndExpensesPerBooksAmt>
+        <AdjustedNetIncomeAmt>5510079</AdjustedNetIncomeAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>SPECIAL PROGRAMMING</Desc>
+        <RevenueAndExpensesPerBooksAmt>3930469</RevenueAndExpensesPerBooksAmt>
+        <AdjustedNetIncomeAmt>3930469</AdjustedNetIncomeAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>GOLF COURSE</Desc>
+        <RevenueAndExpensesPerBooksAmt>649650</RevenueAndExpensesPerBooksAmt>
+        <AdjustedNetIncomeAmt>649650</AdjustedNetIncomeAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>CLUBHOUSE</Desc>
+        <RevenueAndExpensesPerBooksAmt>51462</RevenueAndExpensesPerBooksAmt>
+        <AdjustedNetIncomeAmt>51462</AdjustedNetIncomeAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>OTHER</Desc>
+        <RevenueAndExpensesPerBooksAmt>211862</RevenueAndExpensesPerBooksAmt>
+        <AdjustedNetIncomeAmt>211862</AdjustedNetIncomeAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>ADMINISTRATION</Desc>
+        <RevenueAndExpensesPerBooksAmt>16204653</RevenueAndExpensesPerBooksAmt>
+        <AdjustedNetIncomeAmt>16204653</AdjustedNetIncomeAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>GARDENS</Desc>
+        <RevenueAndExpensesPerBooksAmt>1023457</RevenueAndExpensesPerBooksAmt>
+        <AdjustedNetIncomeAmt>1023457</AdjustedNetIncomeAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>CENTRAL PLANT</Desc>
+        <RevenueAndExpensesPerBooksAmt>3970246</RevenueAndExpensesPerBooksAmt>
+        <AdjustedNetIncomeAmt>3970246</AdjustedNetIncomeAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>HUMAN RESOURCES</Desc>
+        <RevenueAndExpensesPerBooksAmt>2148639</RevenueAndExpensesPerBooksAmt>
+        <AdjustedNetIncomeAmt>2148639</AdjustedNetIncomeAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>OPERATIONS</Desc>
+        <RevenueAndExpensesPerBooksAmt>516027</RevenueAndExpensesPerBooksAmt>
+        <AdjustedNetIncomeAmt>516027</AdjustedNetIncomeAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>CENTRAL PURCHASING</Desc>
+        <RevenueAndExpensesPerBooksAmt>316269</RevenueAndExpensesPerBooksAmt>
+        <AdjustedNetIncomeAmt>316269</AdjustedNetIncomeAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>SECURITY</Desc>
+        <RevenueAndExpensesPerBooksAmt>419617</RevenueAndExpensesPerBooksAmt>
+        <AdjustedNetIncomeAmt>419617</AdjustedNetIncomeAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>TICKETING</Desc>
+        <RevenueAndExpensesPerBooksAmt>839152</RevenueAndExpensesPerBooksAmt>
+        <AdjustedNetIncomeAmt>839152</AdjustedNetIncomeAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>VISITOR AND VOLUNTEER SERVICES</Desc>
+        <RevenueAndExpensesPerBooksAmt>185419</RevenueAndExpensesPerBooksAmt>
+        <AdjustedNetIncomeAmt>185419</AdjustedNetIncomeAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>BEVERAGE</Desc>
+        <RevenueAndExpensesPerBooksAmt>12869</RevenueAndExpensesPerBooksAmt>
+        <AdjustedNetIncomeAmt>12869</AdjustedNetIncomeAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>ROOMS</Desc>
+        <RevenueAndExpensesPerBooksAmt>3192947</RevenueAndExpensesPerBooksAmt>
+        <AdjustedNetIncomeAmt>3192947</AdjustedNetIncomeAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>FOOD</Desc>
+        <RevenueAndExpensesPerBooksAmt>1695104</RevenueAndExpensesPerBooksAmt>
+        <AdjustedNetIncomeAmt>1695104</AdjustedNetIncomeAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>TELEPHONE</Desc>
+        <RevenueAndExpensesPerBooksAmt>43569</RevenueAndExpensesPerBooksAmt>
+        <AdjustedNetIncomeAmt>43569</AdjustedNetIncomeAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>GIFT SHOP</Desc>
+        <RevenueAndExpensesPerBooksAmt>114587</RevenueAndExpensesPerBooksAmt>
+        <AdjustedNetIncomeAmt>114587</AdjustedNetIncomeAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>EDUCATION DEPT.</Desc>
+        <RevenueAndExpensesPerBooksAmt>28717</RevenueAndExpensesPerBooksAmt>
+        <AdjustedNetIncomeAmt>28717</AdjustedNetIncomeAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>EVENT</Desc>
+        <RevenueAndExpensesPerBooksAmt>194386</RevenueAndExpensesPerBooksAmt>
+        <AdjustedNetIncomeAmt>194386</AdjustedNetIncomeAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>LAUNDRY</Desc>
+        <RevenueAndExpensesPerBooksAmt>178310</RevenueAndExpensesPerBooksAmt>
+        <AdjustedNetIncomeAmt>178310</AdjustedNetIncomeAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>GARAGE/VALET</Desc>
+        <RevenueAndExpensesPerBooksAmt>1495</RevenueAndExpensesPerBooksAmt>
+        <AdjustedNetIncomeAmt>1495</AdjustedNetIncomeAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>SPA/FITNESS</Desc>
+        <RevenueAndExpensesPerBooksAmt>33151</RevenueAndExpensesPerBooksAmt>
+        <AdjustedNetIncomeAmt>33151</AdjustedNetIncomeAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>ADMISSIONS</Desc>
+        <RevenueAndExpensesPerBooksAmt>141540</RevenueAndExpensesPerBooksAmt>
+        <AdjustedNetIncomeAmt>141540</AdjustedNetIncomeAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>CONCESSIONS</Desc>
+        <RevenueAndExpensesPerBooksAmt>85390</RevenueAndExpensesPerBooksAmt>
+        <AdjustedNetIncomeAmt>85390</AdjustedNetIncomeAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>LANDSCAPING</Desc>
+        <RevenueAndExpensesPerBooksAmt>95221</RevenueAndExpensesPerBooksAmt>
+        <AdjustedNetIncomeAmt>95221</AdjustedNetIncomeAmt>
+      </OtherExpensesScheduleGrp>
+    </OtherExpensesSchedule>
+    <OtherIncomeSchedule2 documentId="OtherIncomeSch2">
+      <OtherIncomeDetail>
+        <Desc>Settlement Amortization Income</Desc>
+        <RevenueAndExpensesPerBooksAmt>557565</RevenueAndExpensesPerBooksAmt>
+        <AdjustedNetIncomeAmt>557565</AdjustedNetIncomeAmt>
+      </OtherIncomeDetail>
+    </OtherIncomeSchedule2>
+    <OtherIncreasesSchedule documentId="OtherIncreasesSch">
+      <OtherIncreasesDetail>
+        <Desc>UNREALIZED GAIN MKT SECURITY</Desc>
+        <Amt>5605854</Amt>
+      </OtherIncreasesDetail>
+    </OtherIncreasesSchedule>
+    <OtherLiabilitiesSchedule documentId="OtherLiabSch">
+      <OtherLiabilitiesDetail>
+        <Desc>SETTLEMENT FEES PAYABLE</Desc>
+        <BOYBookValueAmt>3717098</BOYBookValueAmt>
+        <EOYBookValueAmt>2828611</EOYBookValueAmt>
+      </OtherLiabilitiesDetail>
+      <OtherLiabilitiesDetail>
+        <Desc>FINANCED INSURANCE NOTE</Desc>
+        <BOYBookValueAmt>1166074</BOYBookValueAmt>
+        <EOYBookValueAmt>1149008</EOYBookValueAmt>
+      </OtherLiabilitiesDetail>
+      <OtherLiabilitiesDetail>
+        <Desc>OPERATING LEASE OBLIGATION</Desc>
+        <BOYBookValueAmt>6416825</BOYBookValueAmt>
+        <EOYBookValueAmt>6513229</EOYBookValueAmt>
+      </OtherLiabilitiesDetail>
+    </OtherLiabilitiesSchedule>
+    <OtherProfessionalFeesSchedule documentId="OthProfFeesSch">
+      <OtherProfessionalFeesDetail>
+        <CategoryTxt>INVESTMENT FEES</CategoryTxt>
+        <Amt>130432</Amt>
+        <NetInvestmentIncomeAmt>130432</NetInvestmentIncomeAmt>
+      </OtherProfessionalFeesDetail>
+      <OtherProfessionalFeesDetail>
+        <CategoryTxt>CONSULTANT FEES</CategoryTxt>
+        <Amt>354</Amt>
+        <AdjustedNetIncomeAmt>354</AdjustedNetIncomeAmt>
+      </OtherProfessionalFeesDetail>
+    </OtherProfessionalFeesSchedule>
+    <SalesOfInventoryList documentId="SalesOfInventoryList">
+      <InventorySaleGrp>
+        <CategoryTxt>HOTEL</CategoryTxt>
+        <GrossSalesAmt>32137441</GrossSalesAmt>
+        <NetAmt>32137441</NetAmt>
+      </InventorySaleGrp>
+      <InventorySaleGrp>
+        <CategoryTxt>AQUARIUM</CategoryTxt>
+        <GrossSalesAmt>9258703</GrossSalesAmt>
+        <NetAmt>9258703</NetAmt>
+      </InventorySaleGrp>
+      <InventorySaleGrp>
+        <CategoryTxt>GIFT SHOPS</CategoryTxt>
+        <GrossSalesAmt>1900496</GrossSalesAmt>
+        <NetAmt>1900496</NetAmt>
+      </InventorySaleGrp>
+      <InventorySaleGrp>
+        <CategoryTxt>RAINFOREST</CategoryTxt>
+        <GrossSalesAmt>11144650</GrossSalesAmt>
+        <NetAmt>11144650</NetAmt>
+      </InventorySaleGrp>
+      <InventorySaleGrp>
+        <CategoryTxt>EDUCATION DEPT.</CategoryTxt>
+        <GrossSalesAmt>359005</GrossSalesAmt>
+        <NetAmt>359005</NetAmt>
+      </InventorySaleGrp>
+      <InventorySaleGrp>
+        <CategoryTxt>PALM BEACH</CategoryTxt>
+        <GrossSalesAmt>1740496</GrossSalesAmt>
+        <NetAmt>1740496</NetAmt>
+      </InventorySaleGrp>
+      <InventorySaleGrp>
+        <CategoryTxt>THEATER PRODUCTIONS</CategoryTxt>
+        <GrossSalesAmt>3415092</GrossSalesAmt>
+        <NetAmt>3415092</NetAmt>
+      </InventorySaleGrp>
+      <InventorySaleGrp>
+        <CategoryTxt>DISCOVERY MUSEUM</CategoryTxt>
+        <GrossSalesAmt>1071003</GrossSalesAmt>
+        <NetAmt>1071003</NetAmt>
+      </InventorySaleGrp>
+      <InventorySaleGrp>
+        <CategoryTxt>CONVENTION CENTER</CategoryTxt>
+        <GrossSalesAmt>1117758</GrossSalesAmt>
+        <NetAmt>1117758</NetAmt>
+      </InventorySaleGrp>
+      <InventorySaleGrp>
+        <CategoryTxt>GOLF COURSE</CategoryTxt>
+        <GrossSalesAmt>2437875</GrossSalesAmt>
+        <NetAmt>2437875</NetAmt>
+      </InventorySaleGrp>
+      <InventorySaleGrp>
+        <CategoryTxt>ROPES COURSE</CategoryTxt>
+        <GrossSalesAmt>529417</GrossSalesAmt>
+        <NetAmt>529417</NetAmt>
+      </InventorySaleGrp>
+      <InventorySaleGrp>
+        <CategoryTxt>MISCELLANEOUS</CategoryTxt>
+        <GrossSalesAmt>834040</GrossSalesAmt>
+        <NetAmt>834040</NetAmt>
+      </InventorySaleGrp>
+    </SalesOfInventoryList>
+    <TaxesSchedule documentId="TaxesSchedule">
+      <TaxesDetail>
+        <CategoryTxt>PAYROLL TAXES-FEDERAL</CategoryTxt>
+        <Amt>1737088</Amt>
+        <AdjustedNetIncomeAmt>1737088</AdjustedNetIncomeAmt>
+      </TaxesDetail>
+      <TaxesDetail>
+        <CategoryTxt>PAYROLL TAXES-STATE</CategoryTxt>
+        <Amt>37265</Amt>
+        <AdjustedNetIncomeAmt>37265</AdjustedNetIncomeAmt>
+      </TaxesDetail>
+    </TaxesSchedule>
+  </ReturnData>
+</Return>

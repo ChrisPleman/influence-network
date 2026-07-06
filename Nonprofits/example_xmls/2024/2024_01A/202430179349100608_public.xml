@@ -1,0 +1,932 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Return xmlns="http://www.irs.gov/efile" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.irs.gov/efile" returnVersion="2022v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2024-01-17T14:15:55-06:00</ReturnTs>
+    <TaxPeriodEndDt>2023-03-31</TaxPeriodEndDt>
+    <PreparerFirmGrp>
+      <PreparerFirmName>
+        <BusinessNameLine1Txt>ISAAC GOLDSTEIN</BusinessNameLine1Txt>
+      </PreparerFirmName>
+      <PreparerUSAddress>
+        <AddressLine1Txt>2918 AVE L</AddressLine1Txt>
+        <CityNm>BROOKLYN</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>11210</ZIPCd>
+      </PreparerUSAddress>
+    </PreparerFirmGrp>
+    <ReturnTypeCd>990PF</ReturnTypeCd>
+    <TaxPeriodBeginDt>2022-04-01</TaxPeriodBeginDt>
+    <Filer>
+      <EIN>030463941</EIN>
+      <BusinessName>
+        <BusinessNameLine1Txt>THE A M FOUNDATION FKA USHER</BusinessNameLine1Txt>
+        <BusinessNameLine2Txt>AND MIRIAM MEISELS FAMILY FOUNDATION</BusinessNameLine2Txt>
+      </BusinessName>
+      <BusinessNameControlTxt>AMFO</BusinessNameControlTxt>
+      <PhoneNum>7186246008</PhoneNum>
+      <USAddress>
+        <AddressLine1Txt>290 HEWES STREET</AddressLine1Txt>
+        <CityNm>BROOKLYN</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>11211</ZIPCd>
+      </USAddress>
+    </Filer>
+    <BusinessOfficerGrp>
+      <PersonNm>ARTHUR MEISELS</PersonNm>
+      <PersonTitleTxt>TRUSTEE</PersonTitleTxt>
+      <PhoneNum>7186246008</PhoneNum>
+      <SignatureDt>2024-01-17</SignatureDt>
+      <DiscussWithPaidPreparerInd>1</DiscussWithPaidPreparerInd>
+    </BusinessOfficerGrp>
+    <SigningOfficerGrp>
+      <PersonFullName>
+        <PersonFirstNm>ARTHUR</PersonFirstNm>
+        <PersonLastNm>MEISELS</PersonLastNm>
+      </PersonFullName>
+      <SSN>XXX-XX-XXXX</SSN>
+    </SigningOfficerGrp>
+    <IRSResponsiblePrtyInfoCurrInd>0</IRSResponsiblePrtyInfoCurrInd>
+    <PreparerPersonGrp>
+      <PreparerPersonNm>ISAAC GOLDSTEIN</PreparerPersonNm>
+      <PTIN>P00142502</PTIN>
+      <PhoneNum>7183383882</PhoneNum>
+      <PreparationDt>2023-12-28</PreparationDt>
+      <SelfEmployedInd>X</SelfEmployedInd>
+    </PreparerPersonGrp>
+    <AdditionalFilerInformation>
+      <TrustedCustomerGrp>
+        <TrustedCustomerCd>2</TrustedCustomerCd>
+        <AuthenticationAssuranceLevelCd>AAL1</AuthenticationAssuranceLevelCd>
+        <IdentityAssuranceLevelCd>IAL1</IdentityAssuranceLevelCd>
+      </TrustedCustomerGrp>
+    </AdditionalFilerInformation>
+    <TaxYr>2022</TaxYr>
+    <BuildTS>2023-04-26 12:10:37Z</BuildTS>
+  </ReturnHeader>
+  <ReturnData documentCnt="11">
+    <IRS990PF documentId="RetDoc1235000001">
+      <Organization501c3ExemptPFInd>X</Organization501c3ExemptPFInd>
+      <FMVAssetsEOYAmt>5514485</FMVAssetsEOYAmt>
+      <MethodOfAccountingAccrualInd>X</MethodOfAccountingAccrualInd>
+      <AnalysisOfRevenueAndExpenses>
+        <ContriRcvdRevAndExpnssAmt>375000</ContriRcvdRevAndExpnssAmt>
+        <InterestOnSavRevAndExpnssAmt>120010</InterestOnSavRevAndExpnssAmt>
+        <InterestOnSavNetInvstIncmAmt>120010</InterestOnSavNetInvstIncmAmt>
+        <DividendsRevAndExpnssAmt>46010</DividendsRevAndExpnssAmt>
+        <DividendsNetInvstIncmAmt>46010</DividendsNetInvstIncmAmt>
+        <GrossRentsRevAndExpnssAmt>20000</GrossRentsRevAndExpnssAmt>
+        <GrossRentsNetInvstIncmAmt>20000</GrossRentsNetInvstIncmAmt>
+        <NetRentalIncomeOrLossAmt>20000</NetRentalIncomeOrLossAmt>
+        <NetGainSaleAstRevAndExpnssAmt>1665</NetGainSaleAstRevAndExpnssAmt>
+        <GrossSalesPriceAmt>4384777</GrossSalesPriceAmt>
+        <CapGainNetIncmNetInvstIncmAmt>1665</CapGainNetIncmNetInvstIncmAmt>
+        <OtherIncomeRevAndExpnssAmt referenceDocumentId="RetDoc2001500001">73081</OtherIncomeRevAndExpnssAmt>
+        <OtherIncomeNetInvstIncmAmt>73081</OtherIncomeNetInvstIncmAmt>
+        <TotalRevAndExpnssAmt>635766</TotalRevAndExpnssAmt>
+        <TotalNetInvstIncmAmt>260766</TotalNetInvstIncmAmt>
+        <CompOfcrDirTrstRevAndExpnssAmt>0</CompOfcrDirTrstRevAndExpnssAmt>
+        <CompOfcrDirTrstNetInvstIncmAmt>0</CompOfcrDirTrstNetInvstIncmAmt>
+        <CompOfcrDirTrstDsbrsChrtblAmt>0</CompOfcrDirTrstDsbrsChrtblAmt>
+        <OthEmplSlrsWgsRevAndExpnssAmt>15600</OthEmplSlrsWgsRevAndExpnssAmt>
+        <OthEmplSlrsWgsNetInvstIncmAmt>0</OthEmplSlrsWgsNetInvstIncmAmt>
+        <OthEmplSlrsWgsDsbrsChrtblAmt>0</OthEmplSlrsWgsDsbrsChrtblAmt>
+        <AccountingFeesRevAndExpnssAmt referenceDocumentId="RetDoc2002200001">8400</AccountingFeesRevAndExpnssAmt>
+        <AccountingFeesNetInvstIncmAmt>0</AccountingFeesNetInvstIncmAmt>
+        <AccountingFeesChrtblPrpsAmt>0</AccountingFeesChrtblPrpsAmt>
+        <TaxesRevAndExpnssAmt referenceDocumentId="RetDoc2002500001">9499</TaxesRevAndExpnssAmt>
+        <TaxesNetInvstIncmAmt>0</TaxesNetInvstIncmAmt>
+        <TaxesDsbrsChrtblAmt>0</TaxesDsbrsChrtblAmt>
+        <OtherExpensesRevAndExpnssAmt referenceDocumentId="RetDoc2003200001">1140</OtherExpensesRevAndExpnssAmt>
+        <OtherExpensesNetInvstIncmAmt>0</OtherExpensesNetInvstIncmAmt>
+        <OtherExpensesDsbrsChrtblAmt>0</OtherExpensesDsbrsChrtblAmt>
+        <TotOprExpensesRevAndExpnssAmt>34639</TotOprExpensesRevAndExpnssAmt>
+        <TotOprExpensesNetInvstIncmAmt>0</TotOprExpensesNetInvstIncmAmt>
+        <TotOprExpensesDsbrsChrtblAmt>0</TotOprExpensesDsbrsChrtblAmt>
+        <ContriPaidRevAndExpnssAmt>645171</ContriPaidRevAndExpnssAmt>
+        <ContriPaidDsbrsChrtblAmt>645171</ContriPaidDsbrsChrtblAmt>
+        <TotalExpensesRevAndExpnssAmt>679810</TotalExpensesRevAndExpnssAmt>
+        <TotalExpensesNetInvstIncmAmt>0</TotalExpensesNetInvstIncmAmt>
+        <TotalExpensesDsbrsChrtblAmt>645171</TotalExpensesDsbrsChrtblAmt>
+        <ExcessRevenueOverExpensesAmt>-44044</ExcessRevenueOverExpensesAmt>
+        <NetInvestmentIncomeAmt>260766</NetInvestmentIncomeAmt>
+      </AnalysisOfRevenueAndExpenses>
+      <Form990PFBalanceSheetsGrp>
+        <SavAndTempCashInvstBOYAmt>1104573</SavAndTempCashInvstBOYAmt>
+        <SavAndTempCashInvstEOYAmt>348080</SavAndTempCashInvstEOYAmt>
+        <SavAndTempCashInvstEOYFMVAmt>348080</SavAndTempCashInvstEOYFMVAmt>
+        <OtherNtsAndLoansRcvblAmt>365845</OtherNtsAndLoansRcvblAmt>
+        <OtherRcvblAllwncDbtflAcctAmt>0</OtherRcvblAllwncDbtflAcctAmt>
+        <OtherNtsAndLoansRcvblBOYAmt>100000</OtherNtsAndLoansRcvblBOYAmt>
+        <OtherNtsAndLoansRcvblEOYAmt>365845</OtherNtsAndLoansRcvblEOYAmt>
+        <OtherNtsAndLoansRcvblEOYFMVAmt>365845</OtherNtsAndLoansRcvblEOYFMVAmt>
+        <CorporateBondsBOYAmt>0</CorporateBondsBOYAmt>
+        <CorporateBondsEOYAmt referenceDocumentId="RetDoc2044400001">850310</CorporateBondsEOYAmt>
+        <CorporateBondsEOYFMVAmt>850310</CorporateBondsEOYFMVAmt>
+        <OtherInvestmentsBOYAmt>3014314</OtherInvestmentsBOYAmt>
+        <OtherInvestmentsEOYAmt referenceDocumentId="RetDoc2018100001">3527319</OtherInvestmentsEOYAmt>
+        <OtherInvestmentsEOYFMVAmt>3950250</OtherInvestmentsEOYFMVAmt>
+        <LandBOYAmt>4330421</LandBOYAmt>
+        <LandEOYAmt>0</LandEOYAmt>
+        <LandEOYFMVAmt>0</LandEOYFMVAmt>
+        <OtherAssetsBOYAmt referenceDocumentId="RetDoc2046600001">579</OtherAssetsBOYAmt>
+        <OtherAssetsEOYAmt referenceDocumentId="RetDoc2046600001">0</OtherAssetsEOYAmt>
+        <OtherAssetsEOYFMVAmt referenceDocumentId="RetDoc2046600001">0</OtherAssetsEOYFMVAmt>
+        <TotalAssetsBOYAmt>8549887</TotalAssetsBOYAmt>
+        <TotalAssetsEOYAmt>5091554</TotalAssetsEOYAmt>
+        <TotalAssetsEOYFMVAmt>5514485</TotalAssetsEOYFMVAmt>
+        <AccountsPayableBOYAmt>22882</AccountsPayableBOYAmt>
+        <AccountsPayableEOYAmt>104182</AccountsPayableEOYAmt>
+        <LoansFromOfficersBOYAmt>3754629</LoansFromOfficersBOYAmt>
+        <MortgagesAndNotesPayableBOYAmt>330057</MortgagesAndNotesPayableBOYAmt>
+        <MortgagesAndNotesPayableEOYAmt>588311</MortgagesAndNotesPayableEOYAmt>
+        <OtherLiabilitiesBOYAmt referenceDocumentId="RetDoc2065700001">922</OtherLiabilitiesBOYAmt>
+        <OtherLiabilitiesEOYAmt referenceDocumentId="RetDoc2065700001">1708</OtherLiabilitiesEOYAmt>
+        <TotalLiabilitiesBOYAmt>4108490</TotalLiabilitiesBOYAmt>
+        <TotalLiabilitiesEOYAmt>694201</TotalLiabilitiesEOYAmt>
+        <OrgDoesNotFollowFASB117Ind>X</OrgDoesNotFollowFASB117Ind>
+        <CapitalStockBOYAmt>0</CapitalStockBOYAmt>
+        <CapitalStockEOYAmt>0</CapitalStockEOYAmt>
+        <AdditionalPaidInCapitalBOYAmt>0</AdditionalPaidInCapitalBOYAmt>
+        <AdditionalPaidInCapitalEOYAmt>0</AdditionalPaidInCapitalEOYAmt>
+        <RetainedEarningBOYAmt>4441397</RetainedEarningBOYAmt>
+        <RetainedEarningEOYAmt>4397353</RetainedEarningEOYAmt>
+        <TotNetAstOrFundBalancesBOYAmt>4441397</TotNetAstOrFundBalancesBOYAmt>
+        <TotNetAstOrFundBalancesEOYAmt>4397353</TotNetAstOrFundBalancesEOYAmt>
+        <TotalLiabilitiesNetAstBOYAmt>8549887</TotalLiabilitiesNetAstBOYAmt>
+        <TotalLiabilitiesNetAstEOYAmt>5091554</TotalLiabilitiesNetAstEOYAmt>
+      </Form990PFBalanceSheetsGrp>
+      <ChgInNetAssetsFundBalancesGrp>
+        <TotNetAstOrFundBalancesBOYAmt>4441397</TotNetAstOrFundBalancesBOYAmt>
+        <ExcessRevenueOverExpensesAmt>-44044</ExcessRevenueOverExpensesAmt>
+        <OtherIncreasesAmt>0</OtherIncreasesAmt>
+        <SubtotalAmt>4397353</SubtotalAmt>
+        <OtherDecreasesAmt>0</OtherDecreasesAmt>
+        <TotNetAstOrFundBalancesEOYAmt>4397353</TotNetAstOrFundBalancesEOYAmt>
+      </ChgInNetAssetsFundBalancesGrp>
+      <CapGainsLossTxInvstIncmDetail>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>HGI MULTIFAMILY CREDIT SELECT</PropertyDesc>
+          <HowAcquiredCd>P</HowAcquiredCd>
+          <SoldDt>2022-12-31</SoldDt>
+          <GrossSalesPriceAmt>4777</GrossSalesPriceAmt>
+          <GainOrLossAmt>4777</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>4777</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>6202 14TH AVENUE</PropertyDesc>
+          <HowAcquiredCd>P</HowAcquiredCd>
+          <AcquiredDt>2014-05-08</AcquiredDt>
+          <SoldDt>2022-08-31</SoldDt>
+          <GrossSalesPriceAmt>4330000</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>4333422</CostOrOtherBasisAmt>
+          <GainOrLossAmt>-3422</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>-3422</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>US TREASURY BILL</PropertyDesc>
+          <HowAcquiredCd>P</HowAcquiredCd>
+          <AcquiredDt>2022-11-28</AcquiredDt>
+          <SoldDt>2023-01-24</SoldDt>
+          <GrossSalesPriceAmt>50000</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>49690</CostOrOtherBasisAmt>
+          <GainOrLossAmt>310</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>310</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapitalGainNetIncomeAmt>1665</CapitalGainNetIncomeAmt>
+      </CapGainsLossTxInvstIncmDetail>
+      <ExciseTaxBasedOnInvstIncmGrp>
+        <InvestmentIncomeExciseTaxAmt>3625</InvestmentIncomeExciseTaxAmt>
+        <TaxUnderSection511Amt>0</TaxUnderSection511Amt>
+        <SubtotalAmt>3625</SubtotalAmt>
+        <SubtitleATaxAmt>0</SubtitleATaxAmt>
+        <TaxBasedOnInvestmentIncomeAmt>3625</TaxBasedOnInvestmentIncomeAmt>
+        <EstimatedPlusOvpmtIncmTxAmt>0</EstimatedPlusOvpmtIncmTxAmt>
+        <ExemptFrgnOrgTaxWthldAtSrceAmt>0</ExemptFrgnOrgTaxWthldAtSrceAmt>
+        <ExtsnRequestIncomeTaxPaidAmt>5500</ExtsnRequestIncomeTaxPaidAmt>
+        <BackupWithholdingWithheldAmt>0</BackupWithholdingWithheldAmt>
+        <TotalPaymentsAndCreditsAmt>5500</TotalPaymentsAndCreditsAmt>
+        <Form2220AttachedInd referenceDocumentId="RetDoc1192000001">X</Form2220AttachedInd>
+        <EsPenaltyAmt>183</EsPenaltyAmt>
+        <OverpaymentAmt>1692</OverpaymentAmt>
+        <AppliedToESTaxAmt>1692</AppliedToESTaxAmt>
+        <RefundAmt>0</RefundAmt>
+      </ExciseTaxBasedOnInvstIncmGrp>
+      <StatementsRegardingActyGrp>
+        <LegislativePoliticalActyInd>0</LegislativePoliticalActyInd>
+        <MoreThan100SpentInd>0</MoreThan100SpentInd>
+        <Form1120POLFiledInd>0</Form1120POLFiledInd>
+        <Section4955OrganizationTaxAmt>0</Section4955OrganizationTaxAmt>
+        <Section4955ManagersTaxAmt>0</Section4955ManagersTaxAmt>
+        <TaxReimbursedAmt>0</TaxReimbursedAmt>
+        <ActivitiesNotPreviouslyRptInd>0</ActivitiesNotPreviouslyRptInd>
+        <ChangesToArticlesOrBylawsInd>0</ChangesToArticlesOrBylawsInd>
+        <UnrelatedBusIncmOverLimitInd>0</UnrelatedBusIncmOverLimitInd>
+        <OrganizationDissolvedEtcInd>0</OrganizationDissolvedEtcInd>
+        <Section508eRqrSatisfiedInd>1</Section508eRqrSatisfiedInd>
+        <AtLeast5000InAssetsInd>1</AtLeast5000InAssetsInd>
+        <OrgReportOrRegisterStateCd>NY</OrgReportOrRegisterStateCd>
+        <Form990PFFiledWithAttyGenInd>1</Form990PFFiledWithAttyGenInd>
+        <PrivateOperatingFoundationInd>0</PrivateOperatingFoundationInd>
+        <NewSubstantialContributorsInd referenceDocumentId="RetDoc2089200001">1</NewSubstantialContributorsInd>
+        <OwnControlledEntityInd>0</OwnControlledEntityInd>
+        <DonorAdvisedFundInd>0</DonorAdvisedFundInd>
+        <ComplyWithPublicInspRqrInd>1</ComplyWithPublicInspRqrInd>
+        <WebsiteAddressTxt>N/A</WebsiteAddressTxt>
+        <IndividualWithBooksNm>ARTHUR MEISELS</IndividualWithBooksNm>
+        <PhoneNum>7186246008</PhoneNum>
+        <LocationOfBooksUSAddress>
+          <AddressLine1Txt>290 HEWES ST</AddressLine1Txt>
+          <CityNm>BROOKLYN</CityNm>
+          <StateAbbreviationCd>NY</StateAbbreviationCd>
+          <ZIPCd>11211</ZIPCd>
+        </LocationOfBooksUSAddress>
+        <ForeignAccountsQuestionInd>0</ForeignAccountsQuestionInd>
+      </StatementsRegardingActyGrp>
+      <StatementsRegardingActy4720Grp>
+        <SaleOrExchDisqualifiedPrsnInd>0</SaleOrExchDisqualifiedPrsnInd>
+        <BrrwOrLendDisqualifiedPrsnInd>0</BrrwOrLendDisqualifiedPrsnInd>
+        <FurnGoodsDisqualifiedPrsnInd>0</FurnGoodsDisqualifiedPrsnInd>
+        <PayCompDisqualifiedPrsnInd>0</PayCompDisqualifiedPrsnInd>
+        <TransferAstDisqualifiedPrsnInd>0</TransferAstDisqualifiedPrsnInd>
+        <PaymentToGovernmentOfficialInd>0</PaymentToGovernmentOfficialInd>
+        <UncorrectedPriorActsInd>0</UncorrectedPriorActsInd>
+        <UndistributedIncomePYInd>0</UndistributedIncomePYInd>
+        <BusinessHoldingsInd>0</BusinessHoldingsInd>
+        <JeopardyInvestmentsInd>0</JeopardyInvestmentsInd>
+        <UncorrectedPYJeopardyInvstInd>0</UncorrectedPYJeopardyInvstInd>
+        <InfluenceLegislationInd>0</InfluenceLegislationInd>
+        <InfluenceElectionInd>0</InfluenceElectionInd>
+        <GrantsToIndividualsInd>0</GrantsToIndividualsInd>
+        <GrantsToOrganizationsInd>0</GrantsToOrganizationsInd>
+        <NoncharitablePurposeInd>0</NoncharitablePurposeInd>
+        <RcvFndsToPayPrsnlBnftCntrctInd>0</RcvFndsToPayPrsnlBnftCntrctInd>
+        <PayPremiumsPrsnlBnftCntrctInd>0</PayPremiumsPrsnlBnftCntrctInd>
+        <ProhibitedTaxShelterTransInd>0</ProhibitedTaxShelterTransInd>
+        <SubjToTaxRmnrtnExPrchtPymtInd>0</SubjToTaxRmnrtnExPrchtPymtInd>
+      </StatementsRegardingActy4720Grp>
+      <OfficerDirTrstKeyEmplInfoGrp>
+        <OfficerDirTrstKeyEmplGrp>
+          <PersonNm>ARTHUR MEISELS</PersonNm>
+          <USAddress>
+            <AddressLine1Txt>290 HEWES ST</AddressLine1Txt>
+            <CityNm>BROOKLYN</CityNm>
+            <StateAbbreviationCd>NY</StateAbbreviationCd>
+            <ZIPCd>11211</ZIPCd>
+          </USAddress>
+          <TitleTxt>TRUSTEE</TitleTxt>
+          <AverageHrsPerWkDevotedToPosRt>0.00</AverageHrsPerWkDevotedToPosRt>
+          <CompensationAmt>0</CompensationAmt>
+          <EmployeeBenefitProgramAmt>0</EmployeeBenefitProgramAmt>
+          <ExpenseAccountOtherAllwncAmt>0</ExpenseAccountOtherAllwncAmt>
+        </OfficerDirTrstKeyEmplGrp>
+        <OfficerDirTrstKeyEmplGrp>
+          <PersonNm>MIRIAM MEISELS</PersonNm>
+          <USAddress>
+            <AddressLine1Txt>290 HEWES ST</AddressLine1Txt>
+            <CityNm>BROOKLYN</CityNm>
+            <StateAbbreviationCd>NY</StateAbbreviationCd>
+            <ZIPCd>11211</ZIPCd>
+          </USAddress>
+          <TitleTxt>TRUSTEE</TitleTxt>
+          <AverageHrsPerWkDevotedToPosRt>0.00</AverageHrsPerWkDevotedToPosRt>
+          <CompensationAmt>0</CompensationAmt>
+          <EmployeeBenefitProgramAmt>0</EmployeeBenefitProgramAmt>
+          <ExpenseAccountOtherAllwncAmt>0</ExpenseAccountOtherAllwncAmt>
+        </OfficerDirTrstKeyEmplGrp>
+        <OfficerDirTrstKeyEmplGrp>
+          <PersonNm>MARTIN MEISELS</PersonNm>
+          <USAddress>
+            <AddressLine1Txt>1517 58TH ST</AddressLine1Txt>
+            <CityNm>BROOKLYN</CityNm>
+            <StateAbbreviationCd>NY</StateAbbreviationCd>
+            <ZIPCd>11219</ZIPCd>
+          </USAddress>
+          <TitleTxt>TRUSTEE</TitleTxt>
+          <AverageHrsPerWkDevotedToPosRt>0.00</AverageHrsPerWkDevotedToPosRt>
+          <CompensationAmt>0</CompensationAmt>
+          <EmployeeBenefitProgramAmt>0</EmployeeBenefitProgramAmt>
+          <ExpenseAccountOtherAllwncAmt>0</ExpenseAccountOtherAllwncAmt>
+        </OfficerDirTrstKeyEmplGrp>
+        <CompOfHghstPdEmplOrNONETxt>NONE</CompOfHghstPdEmplOrNONETxt>
+        <OtherEmployeePaidOver50kCnt>0</OtherEmployeePaidOver50kCnt>
+        <CompOfHghstPdCntrctOrNONETxt>NONE</CompOfHghstPdCntrctOrNONETxt>
+        <ContractorPaidOver50kCnt>0</ContractorPaidOver50kCnt>
+      </OfficerDirTrstKeyEmplInfoGrp>
+      <SumOfProgramRelatedInvstGrp>
+        <TotalAmt>0</TotalAmt>
+      </SumOfProgramRelatedInvstGrp>
+      <MinimumInvestmentReturnGrp>
+        <AverageMonthlyFMVOfSecAmt>0</AverageMonthlyFMVOfSecAmt>
+        <AverageMonthlyCashBalancesAmt>450000</AverageMonthlyCashBalancesAmt>
+        <FMVAllOtherNoncharitableAstAmt>3000000</FMVAllOtherNoncharitableAstAmt>
+        <TotalFMVOfUnusedAssetsAmt>3450000</TotalFMVOfUnusedAssetsAmt>
+        <ReductionClaimedAmt>0</ReductionClaimedAmt>
+        <AcquisitionIndebtednessAmt>0</AcquisitionIndebtednessAmt>
+        <AdjustedTotalFMVOfUnusedAstAmt>3450000</AdjustedTotalFMVOfUnusedAstAmt>
+        <CashDeemedCharitableAmt>51750</CashDeemedCharitableAmt>
+        <NetVlNoncharitableAssetsAmt>3398250</NetVlNoncharitableAssetsAmt>
+        <MinimumInvestmentReturnAmt>169913</MinimumInvestmentReturnAmt>
+      </MinimumInvestmentReturnGrp>
+      <DistributableAmountGrp>
+        <MinimumInvestmentReturnAmt>169913</MinimumInvestmentReturnAmt>
+        <TaxBasedOnInvestmentIncomeAmt>3625</TaxBasedOnInvestmentIncomeAmt>
+        <TotalTaxAmt>3625</TotalTaxAmt>
+        <DistributableBeforeAdjAmt>166288</DistributableBeforeAdjAmt>
+        <RecoveriesQualfiedDistriAmt>0</RecoveriesQualfiedDistriAmt>
+        <DistributableBeforeDedAmt>166288</DistributableBeforeDedAmt>
+        <DeductionFromDistributableAmt>0</DeductionFromDistributableAmt>
+        <DistributableAsAdjustedAmt>166288</DistributableAsAdjustedAmt>
+      </DistributableAmountGrp>
+      <PFQualifyingDistributionsGrp>
+        <ExpensesAndContributionsAmt>645171</ExpensesAndContributionsAmt>
+        <ProgramRelatedInvstTotalAmt>0</ProgramRelatedInvstTotalAmt>
+        <QualifyingDistributionsAmt>645171</QualifyingDistributionsAmt>
+      </PFQualifyingDistributionsGrp>
+      <UndistributedIncomeGrp>
+        <DistributableAsAdjustedAmt>166288</DistributableAsAdjustedAmt>
+        <UndistributedIncomePYAmt>0</UndistributedIncomePYAmt>
+        <TotalForPriorYearsAmt>0</TotalForPriorYearsAmt>
+        <ExcessDistributionCyovYr5Amt>242804</ExcessDistributionCyovYr5Amt>
+        <ExcessDistributionCyovYr4Amt>277120</ExcessDistributionCyovYr4Amt>
+        <ExcessDistributionCyovYr3Amt>337673</ExcessDistributionCyovYr3Amt>
+        <ExcessDistributionCyovYr2Amt>390507</ExcessDistributionCyovYr2Amt>
+        <ExcessDistributionCyovYr1Amt>221122</ExcessDistributionCyovYr1Amt>
+        <TotalExcessDistributionCyovAmt>1469226</TotalExcessDistributionCyovAmt>
+        <QualifyingDistributionsAmt>645171</QualifyingDistributionsAmt>
+        <AppliedToYear1Amt>0</AppliedToYear1Amt>
+        <AppliedToPriorYearsAmt>0</AppliedToPriorYearsAmt>
+        <TreatedAsDistriFromCorpusAmt>0</TreatedAsDistriFromCorpusAmt>
+        <AppliedToCurrentYearAmt>166288</AppliedToCurrentYearAmt>
+        <RemainingDistriFromCorpusAmt>478883</RemainingDistriFromCorpusAmt>
+        <ExcessDistriCyovAppCYCorpusAmt>0</ExcessDistriCyovAppCYCorpusAmt>
+        <ExcessDistributionCyovAppCYAmt>0</ExcessDistributionCyovAppCYAmt>
+        <TotalCorpusAmt>1948109</TotalCorpusAmt>
+        <PriorYearUndistributedIncmAmt>0</PriorYearUndistributedIncmAmt>
+        <PriorYearDeficiencyOrTaxAmt>0</PriorYearDeficiencyOrTaxAmt>
+        <Taxable1Amt>0</Taxable1Amt>
+        <Taxable2Amt>0</Taxable2Amt>
+        <UndistributedIncomeCYAmt>0</UndistributedIncomeCYAmt>
+        <CorpusDistri170b1EOr4942g3Amt>0</CorpusDistri170b1EOr4942g3Amt>
+        <ExcessDistriCyovFromYr5Amt>242804</ExcessDistriCyovFromYr5Amt>
+        <ExcessDistriCyovToNextYrAmt>1705305</ExcessDistriCyovToNextYrAmt>
+        <ExcessFromYear4Amt>277120</ExcessFromYear4Amt>
+        <ExcessFromYear3Amt>337673</ExcessFromYear3Amt>
+        <ExcessFromYear2Amt>390507</ExcessFromYear2Amt>
+        <ExcessFromYear1Amt>221122</ExcessFromYear1Amt>
+        <ExcessFromCurrentYearAmt>478883</ExcessFromCurrentYearAmt>
+      </UndistributedIncomeGrp>
+      <PrivateOperatingFoundationsGrp>
+        <PrivateOperatingFndtnRulingDt>2003-02-19</PrivateOperatingFndtnRulingDt>
+      </PrivateOperatingFoundationsGrp>
+      <SupplementaryInformationGrp>
+        <ApplicationSubmissionInfoGrp>
+          <RecipientPersonNm>ARTHUR MEISELS</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>290 HEWES ST</AddressLine1Txt>
+            <CityNm>BROOKLYN</CityNm>
+            <StateAbbreviationCd>NY</StateAbbreviationCd>
+            <ZIPCd>11211</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientPhoneNum>7186246008</RecipientPhoneNum>
+          <FormAndInfoAndMaterialsTxt>LETTER STATING PURPOSE OF SOLICITATION &amp; ANY APPLICABLE BROCHURES</FormAndInfoAndMaterialsTxt>
+          <SubmissionDeadlinesTxt>NONE</SubmissionDeadlinesTxt>
+          <RestrictionsOnAwardsTxt>NONE</RestrictionsOnAwardsTxt>
+        </ApplicationSubmissionInfoGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>DETAILED LIST OF CHARITABLE CONTRIBUTIONS AVAILABLE UPON REQUEST FROM</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientUSAddress>
+            <AddressLine1Txt>2918 AVE L</AddressLine1Txt>
+            <CityNm>BROOKLYN</CityNm>
+            <StateAbbreviationCd>NY</StateAbbreviationCd>
+            <ZIPCd>11210</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientFoundationStatusTxt>PUBLIC CHARITY</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>SOCIAL SERVICES, RELIGIOUS &amp; EDUCATIONALSOCIAL SERVICES, RELIGIOUS &amp; EDUCATIONAL</GrantOrContributionPurposeTxt>
+          <Amt>645171</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <TotalGrantOrContriPdDurYrAmt>645171</TotalGrantOrContriPdDurYrAmt>
+        <TotalGrantOrContriApprvFutAmt>0</TotalGrantOrContriApprvFutAmt>
+      </SupplementaryInformationGrp>
+      <AnalysisIncomeProducingActyGrp>
+        <IntOnSavAndTempCashInvstGrp>
+          <BusinessCd>531390</BusinessCd>
+          <UnrelatedBusinessTaxblIncmAmt>106506</UnrelatedBusinessTaxblIncmAmt>
+          <RelatedOrExemptFunctionIncmAmt>13504</RelatedOrExemptFunctionIncmAmt>
+        </IntOnSavAndTempCashInvstGrp>
+        <DividendsAndInterestFromSecDtl>
+          <RelatedOrExemptFunctionIncmAmt>46010</RelatedOrExemptFunctionIncmAmt>
+        </DividendsAndInterestFromSecDtl>
+        <NetRntlIncmReDebtFincdPropGrp>
+          <BusinessCd>531120</BusinessCd>
+          <UnrelatedBusinessTaxblIncmAmt>20000</UnrelatedBusinessTaxblIncmAmt>
+        </NetRntlIncmReDebtFincdPropGrp>
+        <OtherInvestmentIncomeGrp>
+          <BusinessCd>531120</BusinessCd>
+          <UnrelatedBusinessTaxblIncmAmt>73081</UnrelatedBusinessTaxblIncmAmt>
+        </OtherInvestmentIncomeGrp>
+        <GainSalesAstOthThanInvntryGrp>
+          <RelatedOrExemptFunctionIncmAmt>1665</RelatedOrExemptFunctionIncmAmt>
+        </GainSalesAstOthThanInvntryGrp>
+        <SubtotalsIncmProducingActyGrp>
+          <UnrelatedBusinessTaxblIncmAmt>199587</UnrelatedBusinessTaxblIncmAmt>
+          <ExclusionAmt>0</ExclusionAmt>
+          <RelatedOrExemptFunctionIncmAmt>61179</RelatedOrExemptFunctionIncmAmt>
+        </SubtotalsIncmProducingActyGrp>
+        <TotalIncomeProducingActyAmt>260766</TotalIncomeProducingActyAmt>
+      </AnalysisIncomeProducingActyGrp>
+      <RlnOfActyToAccomOfExmptPrpsGrp>
+        <RlnOfActyToAccomOfExmptPrpsGrp>
+          <LineNumberTxt>3</LineNumberTxt>
+          <RelationshipStatementTxt>INVESTMENT INTEREST EARNED ON FUNDS DEPOSITED &amp; LOANS</RelationshipStatementTxt>
+        </RlnOfActyToAccomOfExmptPrpsGrp>
+        <RlnOfActyToAccomOfExmptPrpsGrp>
+          <LineNumberTxt>4</LineNumberTxt>
+          <RelationshipStatementTxt>DIVEIDENDS EARNED ON CORPORATE BONDS</RelationshipStatementTxt>
+        </RlnOfActyToAccomOfExmptPrpsGrp>
+      </RlnOfActyToAccomOfExmptPrpsGrp>
+      <TrnsfrTransRlnNonchrtblEOGrp>
+        <TrnsfrOfCashToNonchrtblEOInd>0</TrnsfrOfCashToNonchrtblEOInd>
+        <TrnsfrOtherAssetNonchrtblEOInd>0</TrnsfrOtherAssetNonchrtblEOInd>
+        <SalesOrExchangesOfAssetsInd>0</SalesOrExchangesOfAssetsInd>
+        <PurchaseOfAssetsNonchrtblEOInd>0</PurchaseOfAssetsNonchrtblEOInd>
+        <RentalOfFacilitiesOthAssetsInd>0</RentalOfFacilitiesOthAssetsInd>
+        <ReimbursementArrangementsInd>0</ReimbursementArrangementsInd>
+        <LoansOrLoanGuaranteesInd>0</LoansOrLoanGuaranteesInd>
+        <PerformanceOfServicesEtcInd>0</PerformanceOfServicesEtcInd>
+        <SharingOfFacilitiesEtcInd>0</SharingOfFacilitiesEtcInd>
+        <RelationshipsNonchrtblEOInd>0</RelationshipsNonchrtblEOInd>
+      </TrnsfrTransRlnNonchrtblEOGrp>
+    </IRS990PF>
+    <IRS990ScheduleB documentId="RetDoc1234500001">
+      <Organization501c3ExemptPFInd>X</Organization501c3ExemptPFInd>
+      <GeneralRuleInd>X</GeneralRuleInd>
+      <ContributorInformationGrp>
+        <ContributorNum>1</ContributorNum>
+        <ContributorBusinessName>
+          <BusinessNameLine1Txt>ARTHUR MEISELS</BusinessNameLine1Txt>
+        </ContributorBusinessName>
+        <ContributorUSAddress>
+          <AddressLine1Txt>290 HEWES ST</AddressLine1Txt>
+          <CityNm>BROOKLYN</CityNm>
+          <StateAbbreviationCd>NY</StateAbbreviationCd>
+          <ZIPCd>11211</ZIPCd>
+        </ContributorUSAddress>
+        <TotalContributionsAmt>150000</TotalContributionsAmt>
+        <PersonContributionInd>X</PersonContributionInd>
+      </ContributorInformationGrp>
+      <ContributorInformationGrp>
+        <ContributorNum>2</ContributorNum>
+        <ContributorBusinessName>
+          <BusinessNameLine1Txt>JACK &amp; MIRIAM BASCH FOUNDATION</BusinessNameLine1Txt>
+        </ContributorBusinessName>
+        <ContributorUSAddress>
+          <AddressLine1Txt>1755 58TH ST</AddressLine1Txt>
+          <CityNm>BROOKLYN</CityNm>
+          <StateAbbreviationCd>NY</StateAbbreviationCd>
+          <ZIPCd>11204</ZIPCd>
+        </ContributorUSAddress>
+        <TotalContributionsAmt>225000</TotalContributionsAmt>
+        <PersonContributionInd>X</PersonContributionInd>
+      </ContributorInformationGrp>
+    </IRS990ScheduleB>
+    <AccountingFeesSchedule documentId="RetDoc2002200001">
+      <AccountingFeesDetail>
+        <CategoryTxt>ACCOUNTING FEES</CategoryTxt>
+        <Amt>8400</Amt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>0</DisbursementsCharitablePrpsAmt>
+      </AccountingFeesDetail>
+    </AccountingFeesSchedule>
+    <InvestmentsCorpBondsSchedule documentId="RetDoc2044400001">
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>UBS FINANCIAL</BondNm>
+        <EOYBookValueAmt>850310</EOYBookValueAmt>
+        <EOYFMVAmt>850310</EOYFMVAmt>
+      </InvestmentsCorporateBondsGrp>
+    </InvestmentsCorpBondsSchedule>
+    <InvestmentsOtherSchedule2 documentId="RetDoc2018100001">
+      <InvestmentsOtherGrp>
+        <CategoryOrItemTxt>PARTNERSHIP INVEST - KEEN EQUITIES</CategoryOrItemTxt>
+        <ListedAtCostOrFMVCd>FMV</ListedAtCostOrFMVCd>
+        <BookValueAmt>1247749</BookValueAmt>
+        <EOYFMVAmt>1500000</EOYFMVAmt>
+      </InvestmentsOtherGrp>
+      <InvestmentsOtherGrp>
+        <CategoryOrItemTxt>PARTNERSHIP INVEST- 524 RT.46 LLC</CategoryOrItemTxt>
+        <ListedAtCostOrFMVCd>FMV</ListedAtCostOrFMVCd>
+        <BookValueAmt>16999</BookValueAmt>
+        <EOYFMVAmt>20000</EOYFMVAmt>
+      </InvestmentsOtherGrp>
+      <InvestmentsOtherGrp>
+        <CategoryOrItemTxt>PARTNERSHIP INVEST - NG VIRGINIA ST LLC</CategoryOrItemTxt>
+        <ListedAtCostOrFMVCd>FMV</ListedAtCostOrFMVCd>
+        <BookValueAmt>297658</BookValueAmt>
+        <EOYFMVAmt>300000</EOYFMVAmt>
+      </InvestmentsOtherGrp>
+      <InvestmentsOtherGrp>
+        <CategoryOrItemTxt>PARTNERSHIP INVEST - BEVERLY RETAIL HOLDINGS</CategoryOrItemTxt>
+        <ListedAtCostOrFMVCd>FMV</ListedAtCostOrFMVCd>
+        <BookValueAmt>37562</BookValueAmt>
+        <EOYFMVAmt>40000</EOYFMVAmt>
+      </InvestmentsOtherGrp>
+      <InvestmentsOtherGrp>
+        <CategoryOrItemTxt>PARTNERSHIP INVEST - RAPPAHANNOCK DEVE</CategoryOrItemTxt>
+        <ListedAtCostOrFMVCd>FMV</ListedAtCostOrFMVCd>
+        <BookValueAmt>1429</BookValueAmt>
+        <EOYFMVAmt>5000</EOYFMVAmt>
+      </InvestmentsOtherGrp>
+      <InvestmentsOtherGrp>
+        <CategoryOrItemTxt>PARTNERSHIP INVEST - HGI OPPORTUNITY FUND IX</CategoryOrItemTxt>
+        <ListedAtCostOrFMVCd>FMV</ListedAtCostOrFMVCd>
+        <BookValueAmt>24387</BookValueAmt>
+        <EOYFMVAmt>30000</EOYFMVAmt>
+      </InvestmentsOtherGrp>
+      <InvestmentsOtherGrp>
+        <CategoryOrItemTxt>PARTNERSHIP INVEST - ALLIANCEBERNSTEIN US REAL ESTATE PARTNERS II LP</CategoryOrItemTxt>
+        <ListedAtCostOrFMVCd>FMV</ListedAtCostOrFMVCd>
+        <BookValueAmt>70756</BookValueAmt>
+        <EOYFMVAmt>75000</EOYFMVAmt>
+      </InvestmentsOtherGrp>
+      <InvestmentsOtherGrp>
+        <CategoryOrItemTxt>PARTNERSHIP INVEST - SUBURBAN PORTFOLIO HOLDINGS</CategoryOrItemTxt>
+        <ListedAtCostOrFMVCd>FMV</ListedAtCostOrFMVCd>
+        <BookValueAmt>250</BookValueAmt>
+        <EOYFMVAmt>250</EOYFMVAmt>
+      </InvestmentsOtherGrp>
+      <InvestmentsOtherGrp>
+        <CategoryOrItemTxt>PARTNERSHIP INVEST - BROOKLYN HARLEM HOLDINGS</CategoryOrItemTxt>
+        <ListedAtCostOrFMVCd>FMV</ListedAtCostOrFMVCd>
+        <BookValueAmt>31583</BookValueAmt>
+        <EOYFMVAmt>35000</EOYFMVAmt>
+      </InvestmentsOtherGrp>
+      <InvestmentsOtherGrp>
+        <CategoryOrItemTxt>PARTNERSHIP INVEST - HGI DEBT POFRTFOLIO 9-17</CategoryOrItemTxt>
+        <ListedAtCostOrFMVCd>FMV</ListedAtCostOrFMVCd>
+        <BookValueAmt>181882</BookValueAmt>
+        <EOYFMVAmt>200000</EOYFMVAmt>
+      </InvestmentsOtherGrp>
+      <InvestmentsOtherGrp>
+        <CategoryOrItemTxt>PARTNERSHIP INVEST - 8 BOUVERIE HOLDINGS</CategoryOrItemTxt>
+        <ListedAtCostOrFMVCd>FMV</ListedAtCostOrFMVCd>
+        <BookValueAmt>68904</BookValueAmt>
+        <EOYFMVAmt>75000</EOYFMVAmt>
+      </InvestmentsOtherGrp>
+      <InvestmentsOtherGrp>
+        <CategoryOrItemTxt>PARTNERSHIP INVEST - HGI KFB K41</CategoryOrItemTxt>
+        <ListedAtCostOrFMVCd>FMV</ListedAtCostOrFMVCd>
+        <BookValueAmt>46726</BookValueAmt>
+        <EOYFMVAmt>50000</EOYFMVAmt>
+      </InvestmentsOtherGrp>
+      <InvestmentsOtherGrp>
+        <CategoryOrItemTxt>PARTNERSHIP INVEST - NOTEWORTHY ASSET MANAGEMENT</CategoryOrItemTxt>
+        <ListedAtCostOrFMVCd>FMV</ListedAtCostOrFMVCd>
+        <BookValueAmt>26235</BookValueAmt>
+        <EOYFMVAmt>25000</EOYFMVAmt>
+      </InvestmentsOtherGrp>
+      <InvestmentsOtherGrp>
+        <CategoryOrItemTxt>PARTNERSHIP INVEST - HGI OPPORTUNITY SELECT FUND VII LLC</CategoryOrItemTxt>
+        <ListedAtCostOrFMVCd>FMV</ListedAtCostOrFMVCd>
+        <BookValueAmt>27401</BookValueAmt>
+        <EOYFMVAmt>30000</EOYFMVAmt>
+      </InvestmentsOtherGrp>
+      <InvestmentsOtherGrp>
+        <CategoryOrItemTxt>PARTNERSHIP INVEST - SUSSEX SELECT LLC</CategoryOrItemTxt>
+        <ListedAtCostOrFMVCd>FMV</ListedAtCostOrFMVCd>
+        <BookValueAmt>69214</BookValueAmt>
+        <EOYFMVAmt>70000</EOYFMVAmt>
+      </InvestmentsOtherGrp>
+      <InvestmentsOtherGrp>
+        <CategoryOrItemTxt>PARTNERSHIP INVEST - HGI KF50-KJ21 LLC</CategoryOrItemTxt>
+        <ListedAtCostOrFMVCd>FMV</ListedAtCostOrFMVCd>
+        <BookValueAmt>156644</BookValueAmt>
+        <EOYFMVAmt>180000</EOYFMVAmt>
+      </InvestmentsOtherGrp>
+      <InvestmentsOtherGrp>
+        <CategoryOrItemTxt>PARTNERSHIP INVEST - ALLIANCE BERNSTEIN US RE PARTNERS II (REIT AIV) LP</CategoryOrItemTxt>
+        <ListedAtCostOrFMVCd>FMV</ListedAtCostOrFMVCd>
+        <BookValueAmt>16843</BookValueAmt>
+        <EOYFMVAmt>20000</EOYFMVAmt>
+      </InvestmentsOtherGrp>
+      <InvestmentsOtherGrp>
+        <CategoryOrItemTxt>PARTNERSHIP INVEST - HGI KFB BX03 LLC</CategoryOrItemTxt>
+        <ListedAtCostOrFMVCd>FMV</ListedAtCostOrFMVCd>
+        <BookValueAmt>13200</BookValueAmt>
+        <EOYFMVAmt>15000</EOYFMVAmt>
+      </InvestmentsOtherGrp>
+      <InvestmentsOtherGrp>
+        <CategoryOrItemTxt>PARTNERSHIP INVEST - WLIF HOLDINGS LLC</CategoryOrItemTxt>
+        <ListedAtCostOrFMVCd>FMV</ListedAtCostOrFMVCd>
+        <BookValueAmt>11013</BookValueAmt>
+        <EOYFMVAmt>15000</EOYFMVAmt>
+      </InvestmentsOtherGrp>
+      <InvestmentsOtherGrp>
+        <CategoryOrItemTxt>PARTNERSHIP INVEST - NOTE HOLDINGS TE LLC</CategoryOrItemTxt>
+        <ListedAtCostOrFMVCd>FMV</ListedAtCostOrFMVCd>
+        <BookValueAmt>158021</BookValueAmt>
+        <EOYFMVAmt>165000</EOYFMVAmt>
+      </InvestmentsOtherGrp>
+      <InvestmentsOtherGrp>
+        <CategoryOrItemTxt>PARTNERSHIP INVEST - JUPITER INDUSTRIAL HOLDINGS LLC</CategoryOrItemTxt>
+        <ListedAtCostOrFMVCd>FMV</ListedAtCostOrFMVCd>
+        <BookValueAmt>103632</BookValueAmt>
+        <EOYFMVAmt>100000</EOYFMVAmt>
+      </InvestmentsOtherGrp>
+      <InvestmentsOtherGrp>
+        <CategoryOrItemTxt>PARTNERSHIP INVEST - 111 SUTTER HOLDINGS LLC</CategoryOrItemTxt>
+        <ListedAtCostOrFMVCd>FMV</ListedAtCostOrFMVCd>
+        <BookValueAmt>168872</BookValueAmt>
+        <EOYFMVAmt>175000</EOYFMVAmt>
+      </InvestmentsOtherGrp>
+      <InvestmentsOtherGrp>
+        <CategoryOrItemTxt>PARTNERSHIP INVEST - VIRGINIA MEZZANINE AND PREFERRED HOLDING</CategoryOrItemTxt>
+        <ListedAtCostOrFMVCd>FMV</ListedAtCostOrFMVCd>
+        <BookValueAmt>67874</BookValueAmt>
+        <EOYFMVAmt>75000</EOYFMVAmt>
+      </InvestmentsOtherGrp>
+      <InvestmentsOtherGrp>
+        <CategoryOrItemTxt>PARTNERSHIP INVEST - 3001 DEMING HOLDINGS</CategoryOrItemTxt>
+        <ListedAtCostOrFMVCd>FMV</ListedAtCostOrFMVCd>
+        <BookValueAmt>25470</BookValueAmt>
+        <EOYFMVAmt>30000</EOYFMVAmt>
+      </InvestmentsOtherGrp>
+      <InvestmentsOtherGrp>
+        <CategoryOrItemTxt>PARTNERSHIP INVEST - HGI KF62 LLC</CategoryOrItemTxt>
+        <ListedAtCostOrFMVCd>FMV</ListedAtCostOrFMVCd>
+        <BookValueAmt>20339</BookValueAmt>
+        <EOYFMVAmt>30000</EOYFMVAmt>
+      </InvestmentsOtherGrp>
+      <InvestmentsOtherGrp>
+        <CategoryOrItemTxt>PARTNERSHIP INVEST - 545 WASHINGTON HOLDINGS LLC</CategoryOrItemTxt>
+        <ListedAtCostOrFMVCd>FMV</ListedAtCostOrFMVCd>
+        <BookValueAmt>85906</BookValueAmt>
+        <EOYFMVAmt>90000</EOYFMVAmt>
+      </InvestmentsOtherGrp>
+      <InvestmentsOtherGrp>
+        <CategoryOrItemTxt>PARTNERSHIP INVEST - HGI CREDIT FUND I LP</CategoryOrItemTxt>
+        <ListedAtCostOrFMVCd>FMV</ListedAtCostOrFMVCd>
+        <BookValueAmt>240047</BookValueAmt>
+        <EOYFMVAmt>250000</EOYFMVAmt>
+      </InvestmentsOtherGrp>
+      <InvestmentsOtherGrp>
+        <CategoryOrItemTxt>PARTNERSHIP INVEST - HGI MULTIFAMILY CREDIT SELECT</CategoryOrItemTxt>
+        <ListedAtCostOrFMVCd>FMV</ListedAtCostOrFMVCd>
+        <BookValueAmt>310723</BookValueAmt>
+        <EOYFMVAmt>350000</EOYFMVAmt>
+      </InvestmentsOtherGrp>
+    </InvestmentsOtherSchedule2>
+    <OtherAssetsSchedule documentId="RetDoc2046600001">
+      <OtherAssetsScheduleGrp>
+        <Desc>PREPAID TAXES</Desc>
+        <BOYBookValueAmt>579</BOYBookValueAmt>
+      </OtherAssetsScheduleGrp>
+    </OtherAssetsSchedule>
+    <OtherExpensesSchedule documentId="RetDoc2003200001">
+      <OtherExpensesScheduleGrp>
+        <Desc>BANK CHARGES</Desc>
+        <RevenueAndExpensesPerBooksAmt>24</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>0</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>INSURANCE</Desc>
+        <RevenueAndExpensesPerBooksAmt>366</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>0</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>LICENSES &amp; FEES</Desc>
+        <RevenueAndExpensesPerBooksAmt>750</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>0</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+    </OtherExpensesSchedule>
+    <OtherIncomeSchedule2 documentId="RetDoc2001500001">
+      <OtherIncomeDetail>
+        <Desc>545 WASHINGTON HOLDINGS LP</Desc>
+        <RevenueAndExpensesPerBooksAmt>-9506</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>-9506</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>-9506</AdjustedNetIncomeAmt>
+      </OtherIncomeDetail>
+      <OtherIncomeDetail>
+        <Desc>111 SUTTER HOLDINGS LLC</Desc>
+        <RevenueAndExpensesPerBooksAmt>-9654</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>-9654</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>-9654</AdjustedNetIncomeAmt>
+      </OtherIncomeDetail>
+      <OtherIncomeDetail>
+        <Desc>FOREST RIDGE LAKESIDE HOLDINGS</Desc>
+        <RevenueAndExpensesPerBooksAmt>-181</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>-181</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>-181</AdjustedNetIncomeAmt>
+      </OtherIncomeDetail>
+      <OtherIncomeDetail>
+        <Desc>NG 707 VIRGINIA STREET</Desc>
+        <RevenueAndExpensesPerBooksAmt>371</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>371</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>371</AdjustedNetIncomeAmt>
+      </OtherIncomeDetail>
+      <OtherIncomeDetail>
+        <Desc>BC MS INVESTOR</Desc>
+        <RevenueAndExpensesPerBooksAmt>57789</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>57789</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>57789</AdjustedNetIncomeAmt>
+      </OtherIncomeDetail>
+      <OtherIncomeDetail>
+        <Desc>KEEN EQUITIES</Desc>
+        <RevenueAndExpensesPerBooksAmt>-15136</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>-15136</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>-15136</AdjustedNetIncomeAmt>
+      </OtherIncomeDetail>
+      <OtherIncomeDetail>
+        <Desc>BEVERLY RETAIL HOLDINGS</Desc>
+        <RevenueAndExpensesPerBooksAmt>89</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>89</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>89</AdjustedNetIncomeAmt>
+      </OtherIncomeDetail>
+      <OtherIncomeDetail>
+        <Desc>RAPPAHANNOCK DEVELOPMENT</Desc>
+        <RevenueAndExpensesPerBooksAmt>-4928</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>-4928</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>-4928</AdjustedNetIncomeAmt>
+      </OtherIncomeDetail>
+      <OtherIncomeDetail>
+        <Desc>HGI OPPORTUNITY FUND IX</Desc>
+        <RevenueAndExpensesPerBooksAmt>127</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>127</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>127</AdjustedNetIncomeAmt>
+      </OtherIncomeDetail>
+      <OtherIncomeDetail>
+        <Desc>HG KF10 HOLDINGS</Desc>
+        <RevenueAndExpensesPerBooksAmt>-207</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>-207</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>-207</AdjustedNetIncomeAmt>
+      </OtherIncomeDetail>
+      <OtherIncomeDetail>
+        <Desc>ALLIANCEBERNSTEIN US REAL ESTATE PARTNERS II LP</Desc>
+        <RevenueAndExpensesPerBooksAmt>1151</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>1151</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>1151</AdjustedNetIncomeAmt>
+      </OtherIncomeDetail>
+      <OtherIncomeDetail>
+        <Desc>SUBURBAN PORTFOLIO HOLDINGS LLC</Desc>
+        <RevenueAndExpensesPerBooksAmt>199</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>199</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>199</AdjustedNetIncomeAmt>
+      </OtherIncomeDetail>
+      <OtherIncomeDetail>
+        <Desc>BROOKLYN HARLEM HOLDINGS LLC</Desc>
+        <RevenueAndExpensesPerBooksAmt>-525</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>-525</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>-525</AdjustedNetIncomeAmt>
+      </OtherIncomeDetail>
+      <OtherIncomeDetail>
+        <Desc>HGI DEBT PORTFOLIO 9-17 LLC</Desc>
+        <RevenueAndExpensesPerBooksAmt>-2736</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>-2736</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>-2736</AdjustedNetIncomeAmt>
+      </OtherIncomeDetail>
+      <OtherIncomeDetail>
+        <Desc>8 BOUVERIE HOLDINGS LLC</Desc>
+        <RevenueAndExpensesPerBooksAmt>-6990</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>-6990</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>-6990</AdjustedNetIncomeAmt>
+      </OtherIncomeDetail>
+      <OtherIncomeDetail>
+        <Desc>HGI KFB K41 LLC</Desc>
+        <RevenueAndExpensesPerBooksAmt>-571</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>-571</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>-571</AdjustedNetIncomeAmt>
+      </OtherIncomeDetail>
+      <OtherIncomeDetail>
+        <Desc>HGI OPPORTUNITY SELECT FUND VII LLC</Desc>
+        <RevenueAndExpensesPerBooksAmt>48977</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>48977</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>48977</AdjustedNetIncomeAmt>
+      </OtherIncomeDetail>
+      <OtherIncomeDetail>
+        <Desc>SUSSEX SELECT LLC</Desc>
+        <RevenueAndExpensesPerBooksAmt>2323</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>2323</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>2323</AdjustedNetIncomeAmt>
+      </OtherIncomeDetail>
+      <OtherIncomeDetail>
+        <Desc>HGI KF50-KJ21 LLC</Desc>
+        <RevenueAndExpensesPerBooksAmt>-2549</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>-2549</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>-2549</AdjustedNetIncomeAmt>
+      </OtherIncomeDetail>
+      <OtherIncomeDetail>
+        <Desc>HGI KFB KX03 LLC</Desc>
+        <RevenueAndExpensesPerBooksAmt>-612</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>-612</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>-612</AdjustedNetIncomeAmt>
+      </OtherIncomeDetail>
+      <OtherIncomeDetail>
+        <Desc>ALLIANCE BERNSTEIN US REAL ESTATE PARTNERS II (REIT AIV) LP</Desc>
+        <RevenueAndExpensesPerBooksAmt>-487</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>-487</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>-487</AdjustedNetIncomeAmt>
+      </OtherIncomeDetail>
+      <OtherIncomeDetail>
+        <Desc>NOTEWORTHY PARTNERS LLC</Desc>
+        <RevenueAndExpensesPerBooksAmt>-15</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>-15</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>-15</AdjustedNetIncomeAmt>
+      </OtherIncomeDetail>
+      <OtherIncomeDetail>
+        <Desc>524 RT 46 LLC</Desc>
+        <RevenueAndExpensesPerBooksAmt>4083</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>4083</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>4083</AdjustedNetIncomeAmt>
+      </OtherIncomeDetail>
+      <OtherIncomeDetail>
+        <Desc>VIRGINIA MEZZANINE AND PEFERRED HOLDINGS</Desc>
+        <RevenueAndExpensesPerBooksAmt>1502</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>1502</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>1502</AdjustedNetIncomeAmt>
+      </OtherIncomeDetail>
+      <OtherIncomeDetail>
+        <Desc>3001 DEMING HOLDINGS LLC</Desc>
+        <RevenueAndExpensesPerBooksAmt>3982</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>3982</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>3982</AdjustedNetIncomeAmt>
+      </OtherIncomeDetail>
+      <OtherIncomeDetail>
+        <Desc>HGI KF62 LLC</Desc>
+        <RevenueAndExpensesPerBooksAmt>-1234</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>-1234</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>-1234</AdjustedNetIncomeAmt>
+      </OtherIncomeDetail>
+      <OtherIncomeDetail>
+        <Desc>WLIF HOLDINGS LLC</Desc>
+        <RevenueAndExpensesPerBooksAmt>-846</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>-846</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>-846</AdjustedNetIncomeAmt>
+      </OtherIncomeDetail>
+      <OtherIncomeDetail>
+        <Desc>NOTE HOLDINGS TE, LLC</Desc>
+        <RevenueAndExpensesPerBooksAmt>3603</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>3603</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>3603</AdjustedNetIncomeAmt>
+      </OtherIncomeDetail>
+      <OtherIncomeDetail>
+        <Desc>JUPITER INDUSTRIAL HOLDINGS LLC</Desc>
+        <RevenueAndExpensesPerBooksAmt>13685</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>13685</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>13685</AdjustedNetIncomeAmt>
+      </OtherIncomeDetail>
+      <OtherIncomeDetail>
+        <Desc>HGI CREDIT FUND I, LP</Desc>
+        <RevenueAndExpensesPerBooksAmt>-1293</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>-1293</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>-1293</AdjustedNetIncomeAmt>
+      </OtherIncomeDetail>
+      <OtherIncomeDetail>
+        <Desc>HGI MULTIFAMILY CREDIT SELECT</Desc>
+        <RevenueAndExpensesPerBooksAmt>-7330</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>-7330</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>-7330</AdjustedNetIncomeAmt>
+      </OtherIncomeDetail>
+    </OtherIncomeSchedule2>
+    <OtherLiabilitiesSchedule documentId="RetDoc2065700001">
+      <OtherLiabilitiesDetail>
+        <Desc>PAYROLL TAXES WITHHELD PAYABLE</Desc>
+        <BOYBookValueAmt>922</BOYBookValueAmt>
+        <EOYBookValueAmt>1708</EOYBookValueAmt>
+      </OtherLiabilitiesDetail>
+    </OtherLiabilitiesSchedule>
+    <SubstantialContributorsSch documentId="RetDoc2089200001">
+      <SubstantialContributorDetail>
+        <PersonNm>ARTHUR MIRIAM MEISELS</PersonNm>
+        <USAddress>
+          <AddressLine1Txt>290 HEWES ST</AddressLine1Txt>
+          <CityNm>BROOKLYN</CityNm>
+          <StateAbbreviationCd>NY</StateAbbreviationCd>
+          <ZIPCd>11206</ZIPCd>
+        </USAddress>
+      </SubstantialContributorDetail>
+    </SubstantialContributorsSch>
+    <TaxesSchedule documentId="RetDoc2002500001">
+      <TaxesDetail>
+        <CategoryTxt>PAYROLL TAXES</CategoryTxt>
+        <Amt>1504</Amt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>0</DisbursementsCharitablePrpsAmt>
+      </TaxesDetail>
+      <TaxesDetail>
+        <CategoryTxt>FEDERAL TAXES</CategoryTxt>
+        <Amt>5203</Amt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>0</DisbursementsCharitablePrpsAmt>
+      </TaxesDetail>
+      <TaxesDetail>
+        <CategoryTxt>STATE TAXES</CategoryTxt>
+        <Amt>2792</Amt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>0</DisbursementsCharitablePrpsAmt>
+      </TaxesDetail>
+    </TaxesSchedule>
+  </ReturnData>
+</Return>

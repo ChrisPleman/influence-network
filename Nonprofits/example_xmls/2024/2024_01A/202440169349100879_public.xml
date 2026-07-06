@@ -1,0 +1,1383 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Return xmlns="http://www.irs.gov/efile" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.irs.gov/efile" returnVersion="2022v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2024-01-16T08:39:11-06:00</ReturnTs>
+    <TaxPeriodEndDt>2023-10-31</TaxPeriodEndDt>
+    <PreparerFirmGrp>
+      <PreparerFirmEIN>540504608</PreparerFirmEIN>
+      <PreparerFirmName>
+        <BusinessNameLine1Txt>BROWN EDWARDS &amp; COMPANY LLP</BusinessNameLine1Txt>
+      </PreparerFirmName>
+      <PreparerUSAddress>
+        <AddressLine1Txt>707 VIRGINIA STREET EAST SUITE 300</AddressLine1Txt>
+        <CityNm>CHARLESTON</CityNm>
+        <StateAbbreviationCd>WV</StateAbbreviationCd>
+        <ZIPCd>25301</ZIPCd>
+      </PreparerUSAddress>
+    </PreparerFirmGrp>
+    <ReturnTypeCd>990PF</ReturnTypeCd>
+    <TaxPeriodBeginDt>2022-11-01</TaxPeriodBeginDt>
+    <Filer>
+      <EIN>556023833</EIN>
+      <BusinessName>
+        <BusinessNameLine1Txt>MAIER FOUNDATION INC</BusinessNameLine1Txt>
+      </BusinessName>
+      <BusinessNameControlTxt>MAIE</BusinessNameControlTxt>
+      <PhoneNum>3043432201</PhoneNum>
+      <USAddress>
+        <AddressLine1Txt>PO BOX 6190</AddressLine1Txt>
+        <CityNm>CHARLESTON</CityNm>
+        <StateAbbreviationCd>WV</StateAbbreviationCd>
+        <ZIPCd>253620190</ZIPCd>
+      </USAddress>
+    </Filer>
+    <BusinessOfficerGrp>
+      <PersonNm>BRADLEY ROWE</PersonNm>
+      <PersonTitleTxt>PRESIDENT</PersonTitleTxt>
+      <PhoneNum>3043432201</PhoneNum>
+      <SignatureDt>2023-12-14</SignatureDt>
+      <DiscussWithPaidPreparerInd>1</DiscussWithPaidPreparerInd>
+    </BusinessOfficerGrp>
+    <SigningOfficerGrp>
+      <PersonFullName>
+        <PersonFirstNm>BRADLEY</PersonFirstNm>
+        <PersonLastNm>ROWE</PersonLastNm>
+      </PersonFullName>
+      <SSN>999009999</SSN>
+    </SigningOfficerGrp>
+    <IRSResponsiblePrtyInfoCurrInd>1</IRSResponsiblePrtyInfoCurrInd>
+    <PreparerPersonGrp>
+      <PreparerPersonNm>KELLI VANCE</PreparerPersonNm>
+      <PTIN>P00366597</PTIN>
+      <PhoneNum>3043434188</PhoneNum>
+      <PreparationDt>2023-12-14</PreparationDt>
+    </PreparerPersonGrp>
+    <AdditionalFilerInformation>
+      <TrustedCustomerGrp>
+        <TrustedCustomerCd>2</TrustedCustomerCd>
+        <AuthenticationAssuranceLevelCd>AAL1</AuthenticationAssuranceLevelCd>
+        <IdentityAssuranceLevelCd>IAL1</IdentityAssuranceLevelCd>
+      </TrustedCustomerGrp>
+    </AdditionalFilerInformation>
+    <TaxYr>2022</TaxYr>
+    <BuildTS>2023-04-26 12:10:37Z</BuildTS>
+  </ReturnHeader>
+  <ReturnData documentCnt="15">
+    <IRS990PF documentId="RetDoc1235000001">
+      <Organization501c3ExemptPFInd>X</Organization501c3ExemptPFInd>
+      <FMVAssetsEOYAmt>46104934</FMVAssetsEOYAmt>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <AnalysisOfRevenueAndExpenses>
+        <ScheduleBNotRequiredInd>X</ScheduleBNotRequiredInd>
+        <InterestOnSavRevAndExpnssAmt>94953</InterestOnSavRevAndExpnssAmt>
+        <InterestOnSavNetInvstIncmAmt>94953</InterestOnSavNetInvstIncmAmt>
+        <DividendsRevAndExpnssAmt>573385</DividendsRevAndExpnssAmt>
+        <DividendsNetInvstIncmAmt>573385</DividendsNetInvstIncmAmt>
+        <GrossRentsRevAndExpnssAmt>1526707</GrossRentsRevAndExpnssAmt>
+        <GrossRentsNetInvstIncmAmt>1526707</GrossRentsNetInvstIncmAmt>
+        <NetRentalIncomeOrLossAmt>1264855</NetRentalIncomeOrLossAmt>
+        <NetGainSaleAstRevAndExpnssAmt>426082</NetGainSaleAstRevAndExpnssAmt>
+        <GrossSalesPriceAmt>4445893</GrossSalesPriceAmt>
+        <CapGainNetIncmNetInvstIncmAmt>426082</CapGainNetIncmNetInvstIncmAmt>
+        <OtherIncomeRevAndExpnssAmt referenceDocumentId="RetDoc2001500001">343628</OtherIncomeRevAndExpnssAmt>
+        <OtherIncomeNetInvstIncmAmt>201403</OtherIncomeNetInvstIncmAmt>
+        <TotalRevAndExpnssAmt>2964755</TotalRevAndExpnssAmt>
+        <TotalNetInvstIncmAmt>2822530</TotalNetInvstIncmAmt>
+        <CompOfcrDirTrstRevAndExpnssAmt>0</CompOfcrDirTrstRevAndExpnssAmt>
+        <CompOfcrDirTrstNetInvstIncmAmt>0</CompOfcrDirTrstNetInvstIncmAmt>
+        <CompOfcrDirTrstDsbrsChrtblAmt>0</CompOfcrDirTrstDsbrsChrtblAmt>
+        <LegalFeesRevAndExpnssAmt referenceDocumentId="RetDoc2002100001">66161</LegalFeesRevAndExpnssAmt>
+        <LegalFeesNetInvstIncmAmt>66161</LegalFeesNetInvstIncmAmt>
+        <LegalFeesDsbrsChrtblAmt>0</LegalFeesDsbrsChrtblAmt>
+        <AccountingFeesRevAndExpnssAmt referenceDocumentId="RetDoc2002200001">8400</AccountingFeesRevAndExpnssAmt>
+        <AccountingFeesNetInvstIncmAmt>7560</AccountingFeesNetInvstIncmAmt>
+        <AccountingFeesChrtblPrpsAmt>840</AccountingFeesChrtblPrpsAmt>
+        <OtherProfFeesRevAndExpnssAmt referenceDocumentId="RetDoc2002300001">146305</OtherProfFeesRevAndExpnssAmt>
+        <OtherProfFeesNetInvstIncmAmt>146305</OtherProfFeesNetInvstIncmAmt>
+        <OtherProfFeesDsbrsChrtblAmt>0</OtherProfFeesDsbrsChrtblAmt>
+        <TaxesRevAndExpnssAmt referenceDocumentId="RetDoc2002500001">149550</TaxesRevAndExpnssAmt>
+        <TaxesNetInvstIncmAmt>119550</TaxesNetInvstIncmAmt>
+        <TaxesDsbrsChrtblAmt>0</TaxesDsbrsChrtblAmt>
+        <DeprecAndDpltnRevAndExpnssAmt referenceDocumentId="RetDoc2203000001">83463</DeprecAndDpltnRevAndExpnssAmt>
+        <DeprecAndDpltnNetInvstIncmAmt>83463</DeprecAndDpltnNetInvstIncmAmt>
+        <OtherExpensesRevAndExpnssAmt referenceDocumentId="RetDoc2203100001 RetDoc2003200001">187481</OtherExpensesRevAndExpnssAmt>
+        <OtherExpensesNetInvstIncmAmt>186572</OtherExpensesNetInvstIncmAmt>
+        <OtherExpensesDsbrsChrtblAmt>909</OtherExpensesDsbrsChrtblAmt>
+        <TotOprExpensesRevAndExpnssAmt>641360</TotOprExpensesRevAndExpnssAmt>
+        <TotOprExpensesNetInvstIncmAmt>609611</TotOprExpensesNetInvstIncmAmt>
+        <TotOprExpensesDsbrsChrtblAmt>1749</TotOprExpensesDsbrsChrtblAmt>
+        <ContriPaidRevAndExpnssAmt>2427000</ContriPaidRevAndExpnssAmt>
+        <ContriPaidDsbrsChrtblAmt>2427000</ContriPaidDsbrsChrtblAmt>
+        <TotalExpensesRevAndExpnssAmt>3068360</TotalExpensesRevAndExpnssAmt>
+        <TotalExpensesNetInvstIncmAmt>609611</TotalExpensesNetInvstIncmAmt>
+        <TotalExpensesDsbrsChrtblAmt>2428749</TotalExpensesDsbrsChrtblAmt>
+        <ExcessRevenueOverExpensesAmt>-103605</ExcessRevenueOverExpensesAmt>
+        <NetInvestmentIncomeAmt>2212919</NetInvestmentIncomeAmt>
+      </AnalysisOfRevenueAndExpenses>
+      <Form990PFBalanceSheetsGrp>
+        <SavAndTempCashInvstBOYAmt>136556</SavAndTempCashInvstBOYAmt>
+        <SavAndTempCashInvstEOYAmt>102910</SavAndTempCashInvstEOYAmt>
+        <SavAndTempCashInvstEOYFMVAmt>102910</SavAndTempCashInvstEOYFMVAmt>
+        <USGovernmentObligationsBOYAmt>56851</USGovernmentObligationsBOYAmt>
+        <USGovernmentObligationsEOYAmt referenceDocumentId="RetDoc2210400001">42699</USGovernmentObligationsEOYAmt>
+        <USGovtObligationsEOYFMVAmt>42757</USGovtObligationsEOYFMVAmt>
+        <CorporateStockBOYAmt>18900060</CorporateStockBOYAmt>
+        <CorporateStockEOYAmt referenceDocumentId="RetDoc2018900001">19108875</CorporateStockEOYAmt>
+        <CorporateStockEOYFMVAmt>22646403</CorporateStockEOYFMVAmt>
+        <CorporateBondsBOYAmt>82611</CorporateBondsBOYAmt>
+        <CorporateBondsEOYAmt referenceDocumentId="RetDoc2044400001">186858</CorporateBondsEOYAmt>
+        <CorporateBondsEOYFMVAmt>184734</CorporateBondsEOYFMVAmt>
+        <InvstLandCostOrOtherBasisAmt>9636897</InvstLandCostOrOtherBasisAmt>
+        <InvstLandAccumDepreciationAmt>6693161</InvstLandAccumDepreciationAmt>
+        <LandBldgInvestmentsBOYAmt>3057138</LandBldgInvestmentsBOYAmt>
+        <LandBldgInvestmentsEOYAmt referenceDocumentId="RetDoc2059100001">2943736</LandBldgInvestmentsEOYAmt>
+        <LandBldgInvestmentsEOYFMVAmt>18300000</LandBldgInvestmentsEOYFMVAmt>
+        <OtherInvestmentsBOYAmt>5675057</OtherInvestmentsBOYAmt>
+        <OtherInvestmentsEOYAmt referenceDocumentId="RetDoc2018100001">5419590</OtherInvestmentsEOYAmt>
+        <OtherInvestmentsEOYFMVAmt>4828130</OtherInvestmentsEOYFMVAmt>
+        <TotalAssetsBOYAmt>27908273</TotalAssetsBOYAmt>
+        <TotalAssetsEOYAmt>27804668</TotalAssetsEOYAmt>
+        <TotalAssetsEOYFMVAmt>46104934</TotalAssetsEOYFMVAmt>
+        <TotalLiabilitiesBOYAmt>0</TotalLiabilitiesBOYAmt>
+        <TotalLiabilitiesEOYAmt>0</TotalLiabilitiesEOYAmt>
+        <OrgDoesNotFollowFASB117Ind>X</OrgDoesNotFollowFASB117Ind>
+        <CapitalStockBOYAmt>7887700</CapitalStockBOYAmt>
+        <CapitalStockEOYAmt>7887700</CapitalStockEOYAmt>
+        <AdditionalPaidInCapitalBOYAmt>0</AdditionalPaidInCapitalBOYAmt>
+        <AdditionalPaidInCapitalEOYAmt>0</AdditionalPaidInCapitalEOYAmt>
+        <RetainedEarningBOYAmt>20020573</RetainedEarningBOYAmt>
+        <RetainedEarningEOYAmt>19916968</RetainedEarningEOYAmt>
+        <TotNetAstOrFundBalancesBOYAmt>27908273</TotNetAstOrFundBalancesBOYAmt>
+        <TotNetAstOrFundBalancesEOYAmt>27804668</TotNetAstOrFundBalancesEOYAmt>
+        <TotalLiabilitiesNetAstBOYAmt>27908273</TotalLiabilitiesNetAstBOYAmt>
+        <TotalLiabilitiesNetAstEOYAmt>27804668</TotalLiabilitiesNetAstEOYAmt>
+      </Form990PFBalanceSheetsGrp>
+      <ChgInNetAssetsFundBalancesGrp>
+        <TotNetAstOrFundBalancesBOYAmt>27908273</TotNetAstOrFundBalancesBOYAmt>
+        <ExcessRevenueOverExpensesAmt>-103605</ExcessRevenueOverExpensesAmt>
+        <OtherIncreasesAmt>0</OtherIncreasesAmt>
+        <SubtotalAmt>27804668</SubtotalAmt>
+        <OtherDecreasesAmt>0</OtherDecreasesAmt>
+        <TotNetAstOrFundBalancesEOYAmt>27804668</TotNetAstOrFundBalancesEOYAmt>
+      </ChgInNetAssetsFundBalancesGrp>
+      <CapGainsLossTxInvstIncmDetail>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>MSSB PUBLICLY TRADED STOCK</PropertyDesc>
+          <AcquiredDt>1999-01-01</AcquiredDt>
+          <SoldDt>2023-10-31</SoldDt>
+          <GrossSalesPriceAmt>1627470</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>1248481</CostOrOtherBasisAmt>
+          <GainOrLossAmt>378989</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>378989</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>NTV PUBLICLY TRADED STOCK</PropertyDesc>
+          <AcquiredDt>1999-01-01</AcquiredDt>
+          <SoldDt>2023-10-31</SoldDt>
+          <GrossSalesPriceAmt>1714770</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>1686653</CostOrOtherBasisAmt>
+          <GainOrLossAmt>28117</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>28117</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>TRUIST PUBLICLY TRADED STOCK</PropertyDesc>
+          <AcquiredDt>1999-01-01</AcquiredDt>
+          <SoldDt>2023-10-31</SoldDt>
+          <GrossSalesPriceAmt>962089</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>1084677</CostOrOtherBasisAmt>
+          <GainOrLossAmt>-122588</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>-122588</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>CAPITAL GAINS DIVIDENDS</PropertyDesc>
+          <HowAcquiredCd>P</HowAcquiredCd>
+          <GrossSalesPriceAmt>141564</GrossSalesPriceAmt>
+          <GainOrLossAmt>141564</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>141564</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapitalGainNetIncomeAmt>426082</CapitalGainNetIncomeAmt>
+      </CapGainsLossTxInvstIncmDetail>
+      <ExciseTaxBasedOnInvstIncmGrp>
+        <InvestmentIncomeExciseTaxAmt>30760</InvestmentIncomeExciseTaxAmt>
+        <TaxUnderSection511Amt>0</TaxUnderSection511Amt>
+        <SubtotalAmt>30760</SubtotalAmt>
+        <SubtitleATaxAmt>0</SubtitleATaxAmt>
+        <TaxBasedOnInvestmentIncomeAmt>30760</TaxBasedOnInvestmentIncomeAmt>
+        <EstimatedPlusOvpmtIncmTxAmt>30000</EstimatedPlusOvpmtIncmTxAmt>
+        <ExemptFrgnOrgTaxWthldAtSrceAmt>0</ExemptFrgnOrgTaxWthldAtSrceAmt>
+        <ExtsnRequestIncomeTaxPaidAmt>0</ExtsnRequestIncomeTaxPaidAmt>
+        <BackupWithholdingWithheldAmt>0</BackupWithholdingWithheldAmt>
+        <TotalPaymentsAndCreditsAmt>30000</TotalPaymentsAndCreditsAmt>
+        <Form2220AttachedInd referenceDocumentId="RetDoc1192000001">X</Form2220AttachedInd>
+        <EsPenaltyAmt>41</EsPenaltyAmt>
+        <TaxDueAmt>801</TaxDueAmt>
+      </ExciseTaxBasedOnInvstIncmGrp>
+      <StatementsRegardingActyGrp>
+        <LegislativePoliticalActyInd>0</LegislativePoliticalActyInd>
+        <MoreThan100SpentInd>0</MoreThan100SpentInd>
+        <Form1120POLFiledInd>0</Form1120POLFiledInd>
+        <Section4955OrganizationTaxAmt>0</Section4955OrganizationTaxAmt>
+        <Section4955ManagersTaxAmt>0</Section4955ManagersTaxAmt>
+        <TaxReimbursedAmt>0</TaxReimbursedAmt>
+        <ActivitiesNotPreviouslyRptInd>0</ActivitiesNotPreviouslyRptInd>
+        <ChangesToArticlesOrBylawsInd>0</ChangesToArticlesOrBylawsInd>
+        <UnrelatedBusIncmOverLimitInd>0</UnrelatedBusIncmOverLimitInd>
+        <OrganizationDissolvedEtcInd>0</OrganizationDissolvedEtcInd>
+        <Section508eRqrSatisfiedInd>1</Section508eRqrSatisfiedInd>
+        <AtLeast5000InAssetsInd>1</AtLeast5000InAssetsInd>
+        <OrgReportOrRegisterStateCd>WV</OrgReportOrRegisterStateCd>
+        <Form990PFFiledWithAttyGenInd>1</Form990PFFiledWithAttyGenInd>
+        <PrivateOperatingFoundationInd>0</PrivateOperatingFoundationInd>
+        <NewSubstantialContributorsInd>0</NewSubstantialContributorsInd>
+        <OwnControlledEntityInd>0</OwnControlledEntityInd>
+        <DonorAdvisedFundInd>0</DonorAdvisedFundInd>
+        <ComplyWithPublicInspRqrInd>1</ComplyWithPublicInspRqrInd>
+        <WebsiteAddressTxt>WWW.MAIERFOUNDATION.ORG</WebsiteAddressTxt>
+        <IndividualWithBooksNm>BRADLEY M ROWE PRESIDENT</IndividualWithBooksNm>
+        <PhoneNum>3043432201</PhoneNum>
+        <LocationOfBooksUSAddress>
+          <AddressLine1Txt>350 MACCORKLE AVENUESE</AddressLine1Txt>
+          <CityNm>CHARLESTON</CityNm>
+          <StateAbbreviationCd>WV</StateAbbreviationCd>
+          <ZIPCd>25314</ZIPCd>
+        </LocationOfBooksUSAddress>
+        <ForeignAccountsQuestionInd>0</ForeignAccountsQuestionInd>
+      </StatementsRegardingActyGrp>
+      <StatementsRegardingActy4720Grp>
+        <SaleOrExchDisqualifiedPrsnInd>0</SaleOrExchDisqualifiedPrsnInd>
+        <BrrwOrLendDisqualifiedPrsnInd>0</BrrwOrLendDisqualifiedPrsnInd>
+        <FurnGoodsDisqualifiedPrsnInd>1</FurnGoodsDisqualifiedPrsnInd>
+        <PayCompDisqualifiedPrsnInd>1</PayCompDisqualifiedPrsnInd>
+        <TransferAstDisqualifiedPrsnInd>0</TransferAstDisqualifiedPrsnInd>
+        <PaymentToGovernmentOfficialInd>0</PaymentToGovernmentOfficialInd>
+        <ActsFailToQlfyAsExceptionsInd>0</ActsFailToQlfyAsExceptionsInd>
+        <UncorrectedPriorActsInd>0</UncorrectedPriorActsInd>
+        <UndistributedIncomePYInd>0</UndistributedIncomePYInd>
+        <BusinessHoldingsInd>0</BusinessHoldingsInd>
+        <JeopardyInvestmentsInd>0</JeopardyInvestmentsInd>
+        <UncorrectedPYJeopardyInvstInd>0</UncorrectedPYJeopardyInvstInd>
+        <InfluenceLegislationInd>0</InfluenceLegislationInd>
+        <InfluenceElectionInd>0</InfluenceElectionInd>
+        <GrantsToIndividualsInd>0</GrantsToIndividualsInd>
+        <GrantsToOrganizationsInd>1</GrantsToOrganizationsInd>
+        <NoncharitablePurposeInd>0</NoncharitablePurposeInd>
+        <TransactionsFailToQlfyAsExcInd>1</TransactionsFailToQlfyAsExcInd>
+        <MaintainedExpenditureRspnsInd referenceDocumentId="RetDoc2118100001">1</MaintainedExpenditureRspnsInd>
+        <RcvFndsToPayPrsnlBnftCntrctInd>0</RcvFndsToPayPrsnlBnftCntrctInd>
+        <PayPremiumsPrsnlBnftCntrctInd>0</PayPremiumsPrsnlBnftCntrctInd>
+        <ProhibitedTaxShelterTransInd>0</ProhibitedTaxShelterTransInd>
+        <SubjToTaxRmnrtnExPrchtPymtInd>0</SubjToTaxRmnrtnExPrchtPymtInd>
+      </StatementsRegardingActy4720Grp>
+      <OfficerDirTrstKeyEmplInfoGrp>
+        <OfficerDirTrstKeyEmplGrp>
+          <PersonNm>MR EDWARD H MAIER</PersonNm>
+          <USAddress>
+            <AddressLine1Txt>2878 ALEX MCKAY PLACE</AddressLine1Txt>
+            <CityNm>SARASOTA</CityNm>
+            <StateAbbreviationCd>FL</StateAbbreviationCd>
+            <ZIPCd>34240</ZIPCd>
+          </USAddress>
+          <TitleTxt>SECRETARY &amp; DIRECTOR</TitleTxt>
+          <AverageHrsPerWkDevotedToPosRt>1.00</AverageHrsPerWkDevotedToPosRt>
+          <CompensationAmt>0</CompensationAmt>
+          <EmployeeBenefitProgramAmt>0</EmployeeBenefitProgramAmt>
+          <ExpenseAccountOtherAllwncAmt>0</ExpenseAccountOtherAllwncAmt>
+        </OfficerDirTrstKeyEmplGrp>
+        <OfficerDirTrstKeyEmplGrp>
+          <PersonNm>MR BRADLEY M ROWE</PersonNm>
+          <USAddress>
+            <AddressLine1Txt>PO BOX 6190</AddressLine1Txt>
+            <CityNm>CHARLESTON</CityNm>
+            <StateAbbreviationCd>WV</StateAbbreviationCd>
+            <ZIPCd>25362</ZIPCd>
+          </USAddress>
+          <TitleTxt>PRESIDENT &amp; DIRECTOR</TitleTxt>
+          <AverageHrsPerWkDevotedToPosRt>12.00</AverageHrsPerWkDevotedToPosRt>
+          <CompensationAmt>0</CompensationAmt>
+          <EmployeeBenefitProgramAmt>0</EmployeeBenefitProgramAmt>
+          <ExpenseAccountOtherAllwncAmt>0</ExpenseAccountOtherAllwncAmt>
+        </OfficerDirTrstKeyEmplGrp>
+        <OfficerDirTrstKeyEmplGrp>
+          <PersonNm>MS SARA M ROWE</PersonNm>
+          <USAddress>
+            <AddressLine1Txt>10 SWEETWATER COURT</AddressLine1Txt>
+            <CityNm>SUGAR LAND</CityNm>
+            <StateAbbreviationCd>TX</StateAbbreviationCd>
+            <ZIPCd>77479</ZIPCd>
+          </USAddress>
+          <TitleTxt>VICE PRESIDENT &amp; DIRECTOR</TitleTxt>
+          <AverageHrsPerWkDevotedToPosRt>0.00</AverageHrsPerWkDevotedToPosRt>
+          <CompensationAmt>0</CompensationAmt>
+          <EmployeeBenefitProgramAmt>0</EmployeeBenefitProgramAmt>
+          <ExpenseAccountOtherAllwncAmt>649</ExpenseAccountOtherAllwncAmt>
+        </OfficerDirTrstKeyEmplGrp>
+        <OfficerDirTrstKeyEmplGrp>
+          <PersonNm>MR J RANDY VALENTINE</PersonNm>
+          <USAddress>
+            <AddressLine1Txt>170 SUMMERS ST SUITE 200</AddressLine1Txt>
+            <CityNm>CHARLESTON</CityNm>
+            <StateAbbreviationCd>WV</StateAbbreviationCd>
+            <ZIPCd>25301</ZIPCd>
+          </USAddress>
+          <TitleTxt>TREASURER &amp; DIRECTOR</TitleTxt>
+          <AverageHrsPerWkDevotedToPosRt>2.00</AverageHrsPerWkDevotedToPosRt>
+          <CompensationAmt>0</CompensationAmt>
+          <EmployeeBenefitProgramAmt>0</EmployeeBenefitProgramAmt>
+          <ExpenseAccountOtherAllwncAmt>0</ExpenseAccountOtherAllwncAmt>
+        </OfficerDirTrstKeyEmplGrp>
+        <OfficerDirTrstKeyEmplGrp>
+          <PersonNm>HONORABLE JOHN T COPENHAVER JR</PersonNm>
+          <USAddress>
+            <AddressLine1Txt>300 VIRGINIA STREET EAST SUITE 6009</AddressLine1Txt>
+            <CityNm>CHARLESTON</CityNm>
+            <StateAbbreviationCd>WV</StateAbbreviationCd>
+            <ZIPCd>25301</ZIPCd>
+          </USAddress>
+          <TitleTxt>DIRECTOR</TitleTxt>
+          <AverageHrsPerWkDevotedToPosRt>0.00</AverageHrsPerWkDevotedToPosRt>
+          <CompensationAmt>0</CompensationAmt>
+          <EmployeeBenefitProgramAmt>0</EmployeeBenefitProgramAmt>
+          <ExpenseAccountOtherAllwncAmt>0</ExpenseAccountOtherAllwncAmt>
+        </OfficerDirTrstKeyEmplGrp>
+        <OfficerDirTrstKeyEmplGrp>
+          <PersonNm>MR EDWARD H MAIER JR</PersonNm>
+          <USAddress>
+            <AddressLine1Txt>1916 COUNTRY MANOR LANE</AddressLine1Txt>
+            <CityNm>VIRGINIA BEACH</CityNm>
+            <StateAbbreviationCd>VA</StateAbbreviationCd>
+            <ZIPCd>23456</ZIPCd>
+          </USAddress>
+          <TitleTxt>DIRECTOR</TitleTxt>
+          <AverageHrsPerWkDevotedToPosRt>0.00</AverageHrsPerWkDevotedToPosRt>
+          <CompensationAmt>0</CompensationAmt>
+          <EmployeeBenefitProgramAmt>0</EmployeeBenefitProgramAmt>
+          <ExpenseAccountOtherAllwncAmt>655</ExpenseAccountOtherAllwncAmt>
+        </OfficerDirTrstKeyEmplGrp>
+        <OfficerDirTrstKeyEmplGrp>
+          <PersonNm>MR THOMAS W ROWE</PersonNm>
+          <USAddress>
+            <AddressLine1Txt>6 COHASSET PLACE</AddressLine1Txt>
+            <CityNm>THE WOODLANDS</CityNm>
+            <StateAbbreviationCd>TX</StateAbbreviationCd>
+            <ZIPCd>77375</ZIPCd>
+          </USAddress>
+          <TitleTxt>DIRECTOR</TitleTxt>
+          <AverageHrsPerWkDevotedToPosRt>0.00</AverageHrsPerWkDevotedToPosRt>
+          <CompensationAmt>0</CompensationAmt>
+          <EmployeeBenefitProgramAmt>0</EmployeeBenefitProgramAmt>
+          <ExpenseAccountOtherAllwncAmt>1043</ExpenseAccountOtherAllwncAmt>
+        </OfficerDirTrstKeyEmplGrp>
+        <OfficerDirTrstKeyEmplGrp>
+          <PersonNm>DR ELIZABETH MAIER CHERNOW</PersonNm>
+          <USAddress>
+            <AddressLine1Txt>PO BOX 3921</AddressLine1Txt>
+            <CityNm>PASO ROBLES</CityNm>
+            <StateAbbreviationCd>CA</StateAbbreviationCd>
+            <ZIPCd>93447</ZIPCd>
+          </USAddress>
+          <TitleTxt>DIRECTOR</TitleTxt>
+          <AverageHrsPerWkDevotedToPosRt>0.00</AverageHrsPerWkDevotedToPosRt>
+          <CompensationAmt>0</CompensationAmt>
+          <EmployeeBenefitProgramAmt>0</EmployeeBenefitProgramAmt>
+          <ExpenseAccountOtherAllwncAmt>1483</ExpenseAccountOtherAllwncAmt>
+        </OfficerDirTrstKeyEmplGrp>
+        <OfficerDirTrstKeyEmplGrp>
+          <PersonNm>MS ELIZABETH A CULWELL</PersonNm>
+          <USAddress>
+            <AddressLine1Txt>2850 CLASSIC DRIVE 1508</AddressLine1Txt>
+            <CityNm>HIGHLANDS RANCH</CityNm>
+            <StateAbbreviationCd>CO</StateAbbreviationCd>
+            <ZIPCd>80126</ZIPCd>
+          </USAddress>
+          <TitleTxt>DIRECTOR</TitleTxt>
+          <AverageHrsPerWkDevotedToPosRt>0.00</AverageHrsPerWkDevotedToPosRt>
+          <CompensationAmt>0</CompensationAmt>
+          <EmployeeBenefitProgramAmt>0</EmployeeBenefitProgramAmt>
+          <ExpenseAccountOtherAllwncAmt>1779</ExpenseAccountOtherAllwncAmt>
+        </OfficerDirTrstKeyEmplGrp>
+        <OfficerDirTrstKeyEmplGrp>
+          <PersonNm>MS CHELSEA R KINZINGER</PersonNm>
+          <USAddress>
+            <AddressLine1Txt>PO BOX 6190</AddressLine1Txt>
+            <CityNm>CHARLESTON</CityNm>
+            <StateAbbreviationCd>WV</StateAbbreviationCd>
+            <ZIPCd>25362</ZIPCd>
+          </USAddress>
+          <TitleTxt>ASST. SECRETARY</TitleTxt>
+          <AverageHrsPerWkDevotedToPosRt>8.00</AverageHrsPerWkDevotedToPosRt>
+          <CompensationAmt>0</CompensationAmt>
+          <EmployeeBenefitProgramAmt>0</EmployeeBenefitProgramAmt>
+          <ExpenseAccountOtherAllwncAmt>0</ExpenseAccountOtherAllwncAmt>
+        </OfficerDirTrstKeyEmplGrp>
+        <CompOfHghstPdEmplOrNONETxt>NONE</CompOfHghstPdEmplOrNONETxt>
+        <OtherEmployeePaidOver50kCnt>0</OtherEmployeePaidOver50kCnt>
+        <CompOfHghstPdCntrctOrNONETxt>NONE</CompOfHghstPdCntrctOrNONETxt>
+        <ContractorPaidOver50kCnt>0</ContractorPaidOver50kCnt>
+      </OfficerDirTrstKeyEmplInfoGrp>
+      <SumOfProgramRelatedInvstGrp>
+        <TotalAmt>0</TotalAmt>
+      </SumOfProgramRelatedInvstGrp>
+      <MinimumInvestmentReturnGrp>
+        <AverageMonthlyFMVOfSecAmt>28527847</AverageMonthlyFMVOfSecAmt>
+        <AverageMonthlyCashBalancesAmt>320676</AverageMonthlyCashBalancesAmt>
+        <FMVAllOtherNoncharitableAstAmt>18300000</FMVAllOtherNoncharitableAstAmt>
+        <TotalFMVOfUnusedAssetsAmt>47148523</TotalFMVOfUnusedAssetsAmt>
+        <ReductionClaimedAmt>0</ReductionClaimedAmt>
+        <AcquisitionIndebtednessAmt>0</AcquisitionIndebtednessAmt>
+        <AdjustedTotalFMVOfUnusedAstAmt>47148523</AdjustedTotalFMVOfUnusedAstAmt>
+        <CashDeemedCharitableAmt>707228</CashDeemedCharitableAmt>
+        <NetVlNoncharitableAssetsAmt>46441295</NetVlNoncharitableAssetsAmt>
+        <MinimumInvestmentReturnAmt>2322065</MinimumInvestmentReturnAmt>
+      </MinimumInvestmentReturnGrp>
+      <DistributableAmountGrp>
+        <MinimumInvestmentReturnAmt>2322065</MinimumInvestmentReturnAmt>
+        <TaxBasedOnInvestmentIncomeAmt>30760</TaxBasedOnInvestmentIncomeAmt>
+        <TotalTaxAmt>30760</TotalTaxAmt>
+        <DistributableBeforeAdjAmt>2291305</DistributableBeforeAdjAmt>
+        <RecoveriesQualfiedDistriAmt>0</RecoveriesQualfiedDistriAmt>
+        <DistributableBeforeDedAmt>2291305</DistributableBeforeDedAmt>
+        <DeductionFromDistributableAmt>0</DeductionFromDistributableAmt>
+        <DistributableAsAdjustedAmt>2291305</DistributableAsAdjustedAmt>
+      </DistributableAmountGrp>
+      <PFQualifyingDistributionsGrp>
+        <ExpensesAndContributionsAmt>2428749</ExpensesAndContributionsAmt>
+        <ProgramRelatedInvstTotalAmt>0</ProgramRelatedInvstTotalAmt>
+        <QualifyingDistributionsAmt>2428749</QualifyingDistributionsAmt>
+      </PFQualifyingDistributionsGrp>
+      <UndistributedIncomeGrp>
+        <DistributableAsAdjustedAmt>2291305</DistributableAsAdjustedAmt>
+        <UndistributedIncomePYAmt>2398779</UndistributedIncomePYAmt>
+        <TotalForPriorYearsAmt>0</TotalForPriorYearsAmt>
+        <TotalExcessDistributionCyovAmt>0</TotalExcessDistributionCyovAmt>
+        <QualifyingDistributionsAmt>2428749</QualifyingDistributionsAmt>
+        <AppliedToYear1Amt>2398779</AppliedToYear1Amt>
+        <AppliedToPriorYearsAmt>0</AppliedToPriorYearsAmt>
+        <TreatedAsDistriFromCorpusAmt>0</TreatedAsDistriFromCorpusAmt>
+        <AppliedToCurrentYearAmt>29970</AppliedToCurrentYearAmt>
+        <RemainingDistriFromCorpusAmt>0</RemainingDistriFromCorpusAmt>
+        <ExcessDistriCyovAppCYCorpusAmt>0</ExcessDistriCyovAppCYCorpusAmt>
+        <ExcessDistributionCyovAppCYAmt>0</ExcessDistributionCyovAppCYAmt>
+        <TotalCorpusAmt>0</TotalCorpusAmt>
+        <PriorYearUndistributedIncmAmt>0</PriorYearUndistributedIncmAmt>
+        <PriorYearDeficiencyOrTaxAmt>0</PriorYearDeficiencyOrTaxAmt>
+        <Taxable1Amt>0</Taxable1Amt>
+        <Taxable2Amt>0</Taxable2Amt>
+        <UndistributedIncomeCYAmt>2261335</UndistributedIncomeCYAmt>
+        <CorpusDistri170b1EOr4942g3Amt>0</CorpusDistri170b1EOr4942g3Amt>
+        <ExcessDistriCyovFromYr5Amt>0</ExcessDistriCyovFromYr5Amt>
+        <ExcessDistriCyovToNextYrAmt>0</ExcessDistriCyovToNextYrAmt>
+      </UndistributedIncomeGrp>
+      <SupplementaryInformationGrp>
+        <ApplicationSubmissionInfoGrp>
+          <RecipientPersonNm>BRADLEY M ROWE PRESIDENT</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>PO BOX 6190</AddressLine1Txt>
+            <CityNm>CHARLESTON</CityNm>
+            <StateAbbreviationCd>WV</StateAbbreviationCd>
+            <ZIPCd>25362</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientPhoneNum>3043432201</RecipientPhoneNum>
+          <FormAndInfoAndMaterialsTxt>PRESCRIBED FORM USED - CONTACT ABOVE FOR GUIDELINES AND FORM.</FormAndInfoAndMaterialsTxt>
+          <SubmissionDeadlinesTxt>OCTOBER 1 OF EACH YEAR.</SubmissionDeadlinesTxt>
+          <RestrictionsOnAwardsTxt>GRANTS MADE PRIMARILY FOR HIGHER EDUCATION IN WV AND OTHER EDUCATION RELATED PURSUITS IN KANAWHA COUNTY, WV.</RestrictionsOnAwardsTxt>
+        </ApplicationSubmissionInfoGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>APPALACHIAN CHILDREN'S CHORUS INC</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientUSAddress>
+            <AddressLine1Txt>PO BOX 11342</AddressLine1Txt>
+            <CityNm>CHARLESTON</CityNm>
+            <StateAbbreviationCd>WV</StateAbbreviationCd>
+            <ZIPCd>25339</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientFoundationStatusTxt>PUBLIC CHARITY</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>OPERATING FUNDS</GrantOrContributionPurposeTxt>
+          <Amt>11000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>CAMC FOUNDATION INC</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientUSAddress>
+            <AddressLine1Txt>3414 STAUNTON AVENUE SE</AddressLine1Txt>
+            <CityNm>CHARLESTON</CityNm>
+            <StateAbbreviationCd>WV</StateAbbreviationCd>
+            <ZIPCd>25304</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientFoundationStatusTxt>PUBLIC CHARITY</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>DEAN'S PRIZES</GrantOrContributionPurposeTxt>
+          <Amt>10000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>CHARLESTON BALLET INC</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientUSAddress>
+            <AddressLine1Txt>100 CAPITOL STREET SUITE 302</AddressLine1Txt>
+            <CityNm>CHARLESTON</CityNm>
+            <StateAbbreviationCd>WV</StateAbbreviationCd>
+            <ZIPCd>25301</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientFoundationStatusTxt>PUBLIC CHARITY</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>OPERATING FUNDS</GrantOrContributionPurposeTxt>
+          <Amt>10000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>CHARLESTON CHAMBER MUSIC SOCIETY INC</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientUSAddress>
+            <AddressLine1Txt>PO BOX 641</AddressLine1Txt>
+            <CityNm>CHARLESTON</CityNm>
+            <StateAbbreviationCd>WV</StateAbbreviationCd>
+            <ZIPCd>25323</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientFoundationStatusTxt>PUBLIC CHARITY</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>OPERATING FUNDS</GrantOrContributionPurposeTxt>
+          <Amt>5000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>CHARLESTON LIGHT OPERA GUILD INC</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientUSAddress>
+            <AddressLine1Txt>P O BOX 1762</AddressLine1Txt>
+            <CityNm>CHARLESTON</CityNm>
+            <StateAbbreviationCd>WV</StateAbbreviationCd>
+            <ZIPCd>25326</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientFoundationStatusTxt>PUBLIC CHARITY</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>OPERATING FUNDS</GrantOrContributionPurposeTxt>
+          <Amt>10000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>CHILDREN'S THEATRE OF CHARLESTON INC</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientUSAddress>
+            <AddressLine1Txt>PO BOX 11060</AddressLine1Txt>
+            <CityNm>CHARLESTON</CityNm>
+            <StateAbbreviationCd>WV</StateAbbreviationCd>
+            <ZIPCd>25339</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientFoundationStatusTxt>PUBLIC CHARITY</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>OPERATING FUNDS</GrantOrContributionPurposeTxt>
+          <Amt>10000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>CLAY CENTER FOR THE ARTS &amp; SCIENCES OF WV</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientUSAddress>
+            <AddressLine1Txt>1 CLAY SQUARE</AddressLine1Txt>
+            <CityNm>CHARLESTON</CityNm>
+            <StateAbbreviationCd>WV</StateAbbreviationCd>
+            <ZIPCd>25301</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientFoundationStatusTxt>PUBLIC CHARITY</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>OPERATING FUNDS</GrantOrContributionPurposeTxt>
+          <Amt>53000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>CONCORD UNIVERSITY FOUNDATION INC</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientUSAddress>
+            <AddressLine1Txt>PO BOX 1405</AddressLine1Txt>
+            <CityNm>ATHENS</CityNm>
+            <StateAbbreviationCd>WV</StateAbbreviationCd>
+            <ZIPCd>24712</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientFoundationStatusTxt>PUBLIC CHARITY</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>SCHOLARSHIPS</GrantOrContributionPurposeTxt>
+          <Amt>60000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>FACULTY MERIT FOUNDATION OF WV INC</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientUSAddress>
+            <AddressLine1Txt>PO BOX 393</AddressLine1Txt>
+            <CityNm>CHARLESTON</CityNm>
+            <StateAbbreviationCd>WV</StateAbbreviationCd>
+            <ZIPCd>25322</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientFoundationStatusTxt>PUBLIC CHARITY</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>TEACHING AWARD</GrantOrContributionPurposeTxt>
+          <Amt>10000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>FESTIVALL CHARLESTON WV INC</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientUSAddress>
+            <AddressLine1Txt>PO BOX 11287</AddressLine1Txt>
+            <CityNm>CHARLESTON</CityNm>
+            <StateAbbreviationCd>WV</StateAbbreviationCd>
+            <ZIPCd>25339</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientFoundationStatusTxt>PUBLIC CHARITY</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>OPERATING FUNDS</GrantOrContributionPurposeTxt>
+          <Amt>10000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>GLENVILLE STATE UNIVERSITY FOUNDATION</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientUSAddress>
+            <AddressLine1Txt>200 HIGH STREET</AddressLine1Txt>
+            <CityNm>GLENVILLE</CityNm>
+            <StateAbbreviationCd>WV</StateAbbreviationCd>
+            <ZIPCd>26351</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientFoundationStatusTxt>PUBLIC CHARITY</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>SCHOLARSHIPS</GrantOrContributionPurposeTxt>
+          <Amt>20000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>GREATER KANAWHA VALLEY FOUNDATION</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientUSAddress>
+            <AddressLine1Txt>PO BOX 3041</AddressLine1Txt>
+            <CityNm>CHARLESTON</CityNm>
+            <StateAbbreviationCd>WV</StateAbbreviationCd>
+            <ZIPCd>25331</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientFoundationStatusTxt>PUBLIC CHARITY</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>ARTS AMPLIFIED</GrantOrContributionPurposeTxt>
+          <Amt>20000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>HOSPICE COUNCIL OF WEST VIRGINIA INC</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientUSAddress>
+            <AddressLine1Txt>1606 KANAWHA BLVD WEST</AddressLine1Txt>
+            <CityNm>CHARLESTON</CityNm>
+            <StateAbbreviationCd>WV</StateAbbreviationCd>
+            <ZIPCd>25387</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientFoundationStatusTxt>PUBLIC CHARITY</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>ETHICS PROGRAM</GrantOrContributionPurposeTxt>
+          <Amt>10000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>MARSHALL UNIVERSITY FOUNDATION INC</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientUSAddress>
+            <AddressLine1Txt>519 JOHN MARSHALL DRIVE</AddressLine1Txt>
+            <CityNm>HUNTINGTON</CityNm>
+            <StateAbbreviationCd>WV</StateAbbreviationCd>
+            <ZIPCd>25703</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientFoundationStatusTxt>PUBLIC CHARITY</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>STUDY ABROAD SCHOLARSHIPS</GrantOrContributionPurposeTxt>
+          <Amt>80000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>MARSHALL UNIVERSITY FOUNDATION INC</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientUSAddress>
+            <AddressLine1Txt>519 JOHN MARSHALL DRIVE</AddressLine1Txt>
+            <CityNm>HUNTINGTON</CityNm>
+            <StateAbbreviationCd>WV</StateAbbreviationCd>
+            <ZIPCd>25703</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientFoundationStatusTxt>PUBLIC CHARITY</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>WRITING AWARDS - SPEND &amp; ENDOWMENT</GrantOrContributionPurposeTxt>
+          <Amt>100000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>MARSHALL UNIVERSITY FOUNDATION INC</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientUSAddress>
+            <AddressLine1Txt>519 JOHN MARSHALL DRIVE</AddressLine1Txt>
+            <CityNm>HUNTINGTON</CityNm>
+            <StateAbbreviationCd>WV</StateAbbreviationCd>
+            <ZIPCd>25703</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientFoundationStatusTxt>PUBLIC CHARITY</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>SCHOLARSHIP ENDOWMENT</GrantOrContributionPurposeTxt>
+          <Amt>600000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>RECONNECTING MCDOWELL INC</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientUSAddress>
+            <AddressLine1Txt>1320 KANAWHA BLVD EAST</AddressLine1Txt>
+            <CityNm>CHARLESTON</CityNm>
+            <StateAbbreviationCd>WV</StateAbbreviationCd>
+            <ZIPCd>25301</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientFoundationStatusTxt>PUBLIC CHARITY</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>SCHOLARSHIPS</GrantOrContributionPurposeTxt>
+          <Amt>20000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>THE FOUNDATION FOR THOMAS HEALTH SYSTEM</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientUSAddress>
+            <AddressLine1Txt>4605 MACCORKLE AVE SW</AddressLine1Txt>
+            <CityNm>SOUTH CHARLESTON</CityNm>
+            <StateAbbreviationCd>WV</StateAbbreviationCd>
+            <ZIPCd>25309</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientFoundationStatusTxt>PUBLIC CHARITY</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>SCHOLARSHIPS</GrantOrContributionPurposeTxt>
+          <Amt>50000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>WEST VIRGINIA SYMPHONY ORCHESTRA INC</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientUSAddress>
+            <AddressLine1Txt>PO BOX 2292</AddressLine1Txt>
+            <CityNm>CHARLESTON</CityNm>
+            <StateAbbreviationCd>WV</StateAbbreviationCd>
+            <ZIPCd>25328</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientFoundationStatusTxt>PUBLIC CHARITY</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>OPERATING FUNDS</GrantOrContributionPurposeTxt>
+          <Amt>35000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>WEST VIRGINIA SYMPHONY ORCHESTRA INC</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientUSAddress>
+            <AddressLine1Txt>PO BOX 2292</AddressLine1Txt>
+            <CityNm>CHARLESTON</CityNm>
+            <StateAbbreviationCd>WV</StateAbbreviationCd>
+            <ZIPCd>25328</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientFoundationStatusTxt>PUBLIC CHARITY</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>COLLABORATIVE PROGRAMS WITH WV HIGHER EDUCATION INSTITUTIONS</GrantOrContributionPurposeTxt>
+          <Amt>45000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>WEST VIRGINIA WESLEYAN COLLEGE</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientUSAddress>
+            <AddressLine1Txt>59 COLLEGE AVENUE</AddressLine1Txt>
+            <CityNm>BUCKHANNON</CityNm>
+            <StateAbbreviationCd>WV</StateAbbreviationCd>
+            <ZIPCd>26201</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientFoundationStatusTxt>PUBLIC CHARITY</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>STUDY ABROAD SCHOLARSHIPS</GrantOrContributionPurposeTxt>
+          <Amt>20000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>WEST VIRGINIA WESLEYAN COLLEGE</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientUSAddress>
+            <AddressLine1Txt>59 COLLEGE AVENUE</AddressLine1Txt>
+            <CityNm>BUCKHANNON</CityNm>
+            <StateAbbreviationCd>WV</StateAbbreviationCd>
+            <ZIPCd>26201</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientFoundationStatusTxt>PUBLIC CHARITY</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>UNDERGRADUATE RESEARCH EXPERIENCE</GrantOrContributionPurposeTxt>
+          <Amt>60000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>WV EMULATION ENDOWMENT TRUST</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientUSAddress>
+            <AddressLine1Txt>PO BOX 896743</AddressLine1Txt>
+            <CityNm>CHARLOTTE</CityNm>
+            <StateAbbreviationCd>NC</StateAbbreviationCd>
+            <ZIPCd>28289</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientFoundationStatusTxt>SO III NFI</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>SCHOLARSHIP ENDOWMENT</GrantOrContributionPurposeTxt>
+          <Amt>312000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>WV INDEPENDENT COLLEGES &amp; UNIVERSITIES</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientUSAddress>
+            <AddressLine1Txt>PO BOX 7058</AddressLine1Txt>
+            <CityNm>CHARLESTON</CityNm>
+            <StateAbbreviationCd>WV</StateAbbreviationCd>
+            <ZIPCd>25356</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientFoundationStatusTxt>PUBLIC CHARITY</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>SCHOLARSHIPS</GrantOrContributionPurposeTxt>
+          <Amt>120000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>WV STATE UNIVERSITY FOUNDATION INC</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientUSAddress>
+            <AddressLine1Txt>PO BOX 1000</AddressLine1Txt>
+            <CityNm>INSTITUTE</CityNm>
+            <StateAbbreviationCd>WV</StateAbbreviationCd>
+            <ZIPCd>25112</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientFoundationStatusTxt>PUBLIC CHARITY</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>SCHOLARSHIPS</GrantOrContributionPurposeTxt>
+          <Amt>50000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>WV YOUTH SYMPHONY INC</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientUSAddress>
+            <AddressLine1Txt>PO BOX 2292</AddressLine1Txt>
+            <CityNm>CHARLESTON</CityNm>
+            <StateAbbreviationCd>WV</StateAbbreviationCd>
+            <ZIPCd>25328</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientFoundationStatusTxt>PUBLIC CHARITY</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>OPERATING FUNDS</GrantOrContributionPurposeTxt>
+          <Amt>6000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>WVSOM FOUNDATION INC</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientUSAddress>
+            <AddressLine1Txt>400 LEE STREET NORTH</AddressLine1Txt>
+            <CityNm>LEWISBURG</CityNm>
+            <StateAbbreviationCd>WV</StateAbbreviationCd>
+            <ZIPCd>24901</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientFoundationStatusTxt>PUBLIC CHARITY</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>SCHOLARSHIPS</GrantOrContributionPurposeTxt>
+          <Amt>50000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>WVU FOUNDATION INC</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientUSAddress>
+            <AddressLine1Txt>PO BOX 1650</AddressLine1Txt>
+            <CityNm>MORGANTOWN</CityNm>
+            <StateAbbreviationCd>WV</StateAbbreviationCd>
+            <ZIPCd>26507</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientFoundationStatusTxt>PUBLIC CHARITY</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>SPEAKER SERIES</GrantOrContributionPurposeTxt>
+          <Amt>40000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>WVU FOUNDATION INC</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientUSAddress>
+            <AddressLine1Txt>PO BOX 1650</AddressLine1Txt>
+            <CityNm>MORGANTOWN</CityNm>
+            <StateAbbreviationCd>WV</StateAbbreviationCd>
+            <ZIPCd>26507</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientFoundationStatusTxt>PUBLIC CHARITY</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>COMPLETION GRANT PROGRAM</GrantOrContributionPurposeTxt>
+          <Amt>500000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>CLAY CENTER FOR THE ARTS &amp; SCIENCES OF WV</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientUSAddress>
+            <AddressLine1Txt>1 CLAY SQUARE</AddressLine1Txt>
+            <CityNm>CHARLESTON</CityNm>
+            <StateAbbreviationCd>WV</StateAbbreviationCd>
+            <ZIPCd>25301</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientFoundationStatusTxt>PUBLIC CHARITY</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>MAKERSPACE</GrantOrContributionPurposeTxt>
+          <Amt>100000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <TotalGrantOrContriPdDurYrAmt>2427000</TotalGrantOrContriPdDurYrAmt>
+        <TotalGrantOrContriApprvFutAmt>0</TotalGrantOrContriApprvFutAmt>
+      </SupplementaryInformationGrp>
+      <AnalysisIncomeProducingActyGrp>
+        <IntOnSavAndTempCashInvstGrp>
+          <ExclusionCd>14</ExclusionCd>
+          <ExclusionAmt>94953</ExclusionAmt>
+        </IntOnSavAndTempCashInvstGrp>
+        <DividendsAndInterestFromSecDtl>
+          <ExclusionCd>14</ExclusionCd>
+          <ExclusionAmt>573385</ExclusionAmt>
+        </DividendsAndInterestFromSecDtl>
+        <NetRntlIncmReNotDebtFincdProp>
+          <ExclusionCd>16</ExclusionCd>
+          <ExclusionAmt>1264855</ExclusionAmt>
+        </NetRntlIncmReNotDebtFincdProp>
+        <OtherInvestmentIncomeGrp>
+          <ExclusionCd>01</ExclusionCd>
+          <ExclusionAmt>343628</ExclusionAmt>
+        </OtherInvestmentIncomeGrp>
+        <GainSalesAstOthThanInvntryGrp>
+          <ExclusionCd>18</ExclusionCd>
+          <ExclusionAmt>426082</ExclusionAmt>
+        </GainSalesAstOthThanInvntryGrp>
+        <SubtotalsIncmProducingActyGrp>
+          <UnrelatedBusinessTaxblIncmAmt>0</UnrelatedBusinessTaxblIncmAmt>
+          <ExclusionAmt>2702903</ExclusionAmt>
+          <RelatedOrExemptFunctionIncmAmt>0</RelatedOrExemptFunctionIncmAmt>
+        </SubtotalsIncmProducingActyGrp>
+        <TotalIncomeProducingActyAmt>2702903</TotalIncomeProducingActyAmt>
+      </AnalysisIncomeProducingActyGrp>
+      <TrnsfrTransRlnNonchrtblEOGrp>
+        <TrnsfrOfCashToNonchrtblEOInd>0</TrnsfrOfCashToNonchrtblEOInd>
+        <TrnsfrOtherAssetNonchrtblEOInd>0</TrnsfrOtherAssetNonchrtblEOInd>
+        <SalesOrExchangesOfAssetsInd>0</SalesOrExchangesOfAssetsInd>
+        <PurchaseOfAssetsNonchrtblEOInd>0</PurchaseOfAssetsNonchrtblEOInd>
+        <RentalOfFacilitiesOthAssetsInd>0</RentalOfFacilitiesOthAssetsInd>
+        <ReimbursementArrangementsInd>0</ReimbursementArrangementsInd>
+        <LoansOrLoanGuaranteesInd>0</LoansOrLoanGuaranteesInd>
+        <PerformanceOfServicesEtcInd>0</PerformanceOfServicesEtcInd>
+        <SharingOfFacilitiesEtcInd>0</SharingOfFacilitiesEtcInd>
+        <RelationshipsNonchrtblEOInd>0</RelationshipsNonchrtblEOInd>
+      </TrnsfrTransRlnNonchrtblEOGrp>
+    </IRS990PF>
+    <AccountingFeesSchedule documentId="RetDoc2002200001">
+      <AccountingFeesDetail>
+        <CategoryTxt>ACCOUNTING FEES</CategoryTxt>
+        <Amt>8400</Amt>
+        <NetInvestmentIncomeAmt>7560</NetInvestmentIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>840</DisbursementsCharitablePrpsAmt>
+      </AccountingFeesDetail>
+    </AccountingFeesSchedule>
+    <AmortizationSchedule documentId="RetDoc2203100001">
+      <AmortizationScheduleDetail>
+        <AmortizedExpensesDesc>LEASE ACQUISITION COSTS - IRON MOUNTAIN</AmortizedExpensesDesc>
+        <AcquiredCompletedOrExpendedDt>2015-08-01</AcquiredCompletedOrExpendedDt>
+        <AmortizedAmt>160384</AmortizedAmt>
+        <DeductionForPriorYearsAmt>109011</DeductionForPriorYearsAmt>
+        <AmortizationPeriodRt>128.000000000000</AmortizationPeriodRt>
+        <CurrentYearAmortizationAmt>15036</CurrentYearAmortizationAmt>
+        <NetInvestmentIncomeAmt>15036</NetInvestmentIncomeAmt>
+        <TotalAmortizationAmt>124047</TotalAmortizationAmt>
+      </AmortizationScheduleDetail>
+      <AmortizationScheduleDetail>
+        <AmortizedExpensesDesc>LEASE ACQUISITION COSTS - CRACKER BARREL</AmortizedExpensesDesc>
+        <AcquiredCompletedOrExpendedDt>2002-12-31</AcquiredCompletedOrExpendedDt>
+        <AmortizedAmt>155000</AmortizedAmt>
+        <DeductionForPriorYearsAmt>155000</DeductionForPriorYearsAmt>
+        <AmortizationPeriodRt>180.000000000000</AmortizationPeriodRt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <TotalAmortizationAmt>155000</TotalAmortizationAmt>
+      </AmortizationScheduleDetail>
+      <AmortizationScheduleDetail>
+        <AmortizedExpensesDesc>LEASE ACQUISITION COSTS - CAMC</AmortizedExpensesDesc>
+        <AcquiredCompletedOrExpendedDt>2011-01-31</AcquiredCompletedOrExpendedDt>
+        <AmortizedAmt>45000</AmortizedAmt>
+        <DeductionForPriorYearsAmt>45000</DeductionForPriorYearsAmt>
+        <AmortizationPeriodRt>108.000000000000</AmortizationPeriodRt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <TotalAmortizationAmt>45000</TotalAmortizationAmt>
+      </AmortizationScheduleDetail>
+      <AmortizationScheduleDetail>
+        <AmortizedExpensesDesc>LEASE ACQUISITION COSTS - CAMC</AmortizedExpensesDesc>
+        <AcquiredCompletedOrExpendedDt>2010-10-01</AcquiredCompletedOrExpendedDt>
+        <AmortizedAmt>425000</AmortizedAmt>
+        <DeductionForPriorYearsAmt>425000</DeductionForPriorYearsAmt>
+        <AmortizationPeriodRt>120.000000000000</AmortizationPeriodRt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <TotalAmortizationAmt>425000</TotalAmortizationAmt>
+      </AmortizationScheduleDetail>
+      <AmortizationScheduleDetail>
+        <AmortizedExpensesDesc>LEASE ACQUISITION COSTS - CAMC</AmortizedExpensesDesc>
+        <AcquiredCompletedOrExpendedDt>2010-10-01</AcquiredCompletedOrExpendedDt>
+        <AmortizedAmt>100000</AmortizedAmt>
+        <DeductionForPriorYearsAmt>100000</DeductionForPriorYearsAmt>
+        <AmortizationPeriodRt>120.000000000000</AmortizationPeriodRt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <TotalAmortizationAmt>100000</TotalAmortizationAmt>
+      </AmortizationScheduleDetail>
+      <AmortizationScheduleDetail>
+        <AmortizedExpensesDesc>LEASE ACQUISITION COSTS - IRON MOUNTAIN LEASE AMENDMENT 1</AmortizedExpensesDesc>
+        <AcquiredCompletedOrExpendedDt>2018-02-22</AcquiredCompletedOrExpendedDt>
+        <AmortizedAmt>154000</AmortizedAmt>
+        <DeductionForPriorYearsAmt>69548</DeductionForPriorYearsAmt>
+        <AmortizationPeriodRt>124.000000000000</AmortizationPeriodRt>
+        <CurrentYearAmortizationAmt>14903</CurrentYearAmortizationAmt>
+        <NetInvestmentIncomeAmt>14903</NetInvestmentIncomeAmt>
+        <TotalAmortizationAmt>84451</TotalAmortizationAmt>
+      </AmortizationScheduleDetail>
+    </AmortizationSchedule>
+    <DepreciationSchedule documentId="RetDoc2203000001">
+      <DepreciationPropertyGrp>
+        <PropertyDesc>LAND</PropertyDesc>
+        <AcquiredDt>1982-07-31</AcquiredDt>
+        <CostOrOtherBasisAmt>1016431</CostOrOtherBasisAmt>
+        <ComputationMethodTxt>L</ComputationMethodTxt>
+        <CurrentYearExpenseAmt>0</CurrentYearExpenseAmt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+      </DepreciationPropertyGrp>
+      <DepreciationPropertyGrp>
+        <PropertyDesc>WAREHOUSE</PropertyDesc>
+        <AcquiredDt>1982-07-31</AcquiredDt>
+        <CostOrOtherBasisAmt>4600667</CostOrOtherBasisAmt>
+        <PriorYearDepreciationAmt>4600667</PriorYearDepreciationAmt>
+        <ComputationMethodTxt>SL</ComputationMethodTxt>
+        <LifeRt>35.000000000000</LifeRt>
+        <CurrentYearExpenseAmt>0</CurrentYearExpenseAmt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+      </DepreciationPropertyGrp>
+      <DepreciationPropertyGrp>
+        <PropertyDesc>WAREHOUSE - PAVING</PropertyDesc>
+        <AcquiredDt>1986-07-31</AcquiredDt>
+        <CostOrOtherBasisAmt>19750</CostOrOtherBasisAmt>
+        <PriorYearDepreciationAmt>19750</PriorYearDepreciationAmt>
+        <ComputationMethodTxt>SL</ComputationMethodTxt>
+        <LifeRt>19.000000000000</LifeRt>
+        <CurrentYearExpenseAmt>0</CurrentYearExpenseAmt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+      </DepreciationPropertyGrp>
+      <DepreciationPropertyGrp>
+        <PropertyDesc>WAREHOUSE - ADDITIONAL FLOOR SPACE (UNIT 3)</PropertyDesc>
+        <AcquiredDt>2009-06-30</AcquiredDt>
+        <CostOrOtherBasisAmt>20453</CostOrOtherBasisAmt>
+        <PriorYearDepreciationAmt>7014</PriorYearDepreciationAmt>
+        <ComputationMethodTxt>SL</ComputationMethodTxt>
+        <LifeRt>39.000000000000</LifeRt>
+        <CurrentYearExpenseAmt>524</CurrentYearExpenseAmt>
+        <NetInvestmentIncomeAmt>524</NetInvestmentIncomeAmt>
+      </DepreciationPropertyGrp>
+      <DepreciationPropertyGrp>
+        <PropertyDesc>WAREHOUSE - ADDITIONAL FLOOR SPACE (UNIT 3)</PropertyDesc>
+        <AcquiredDt>2009-07-31</AcquiredDt>
+        <CostOrOtherBasisAmt>19395</CostOrOtherBasisAmt>
+        <PriorYearDepreciationAmt>6609</PriorYearDepreciationAmt>
+        <ComputationMethodTxt>SL</ComputationMethodTxt>
+        <LifeRt>39.000000000000</LifeRt>
+        <CurrentYearExpenseAmt>498</CurrentYearExpenseAmt>
+        <NetInvestmentIncomeAmt>498</NetInvestmentIncomeAmt>
+      </DepreciationPropertyGrp>
+      <DepreciationPropertyGrp>
+        <PropertyDesc>WAREHOUSE - PARKING LOT &amp; SIDEWALKS ON SOUTH SIDE</PropertyDesc>
+        <AcquiredDt>2010-12-31</AcquiredDt>
+        <CostOrOtherBasisAmt>207000</CostOrOtherBasisAmt>
+        <PriorYearDepreciationAmt>164221</PriorYearDepreciationAmt>
+        <ComputationMethodTxt>150DB</ComputationMethodTxt>
+        <LifeRt>15.000000000000</LifeRt>
+        <CurrentYearExpenseAmt>12223</CurrentYearExpenseAmt>
+        <NetInvestmentIncomeAmt>12223</NetInvestmentIncomeAmt>
+      </DepreciationPropertyGrp>
+      <DepreciationPropertyGrp>
+        <PropertyDesc>WAREHOUSE - PARKING LOT &amp; SIDEWALKS ON SOUTH SIDE</PropertyDesc>
+        <AcquiredDt>2010-11-30</AcquiredDt>
+        <CostOrOtherBasisAmt>18954</CostOrOtherBasisAmt>
+        <PriorYearDepreciationAmt>15037</PriorYearDepreciationAmt>
+        <ComputationMethodTxt>150DB</ComputationMethodTxt>
+        <LifeRt>15.000000000000</LifeRt>
+        <CurrentYearExpenseAmt>1119</CurrentYearExpenseAmt>
+        <NetInvestmentIncomeAmt>1119</NetInvestmentIncomeAmt>
+      </DepreciationPropertyGrp>
+      <DepreciationPropertyGrp>
+        <PropertyDesc>WAREHOUSE - GAS SERVICE (UNIT 1)</PropertyDesc>
+        <AcquiredDt>2015-02-18</AcquiredDt>
+        <CostOrOtherBasisAmt>24250</CostOrOtherBasisAmt>
+        <PriorYearDepreciationAmt>4794</PriorYearDepreciationAmt>
+        <ComputationMethodTxt>SL</ComputationMethodTxt>
+        <LifeRt>39.000000000000</LifeRt>
+        <CurrentYearExpenseAmt>622</CurrentYearExpenseAmt>
+        <NetInvestmentIncomeAmt>622</NetInvestmentIncomeAmt>
+      </DepreciationPropertyGrp>
+      <DepreciationPropertyGrp>
+        <PropertyDesc>WAREHOUSE - LEASEHOLD IMPROVEMENTS FOR CAMC (UNIT 2)</PropertyDesc>
+        <AcquiredDt>2010-04-30</AcquiredDt>
+        <CostOrOtherBasisAmt>2631723</CostOrOtherBasisAmt>
+        <PriorYearDepreciationAmt>846349</PriorYearDepreciationAmt>
+        <ComputationMethodTxt>SL</ComputationMethodTxt>
+        <LifeRt>39.000000000000</LifeRt>
+        <CurrentYearExpenseAmt>67480</CurrentYearExpenseAmt>
+        <NetInvestmentIncomeAmt>67480</NetInvestmentIncomeAmt>
+      </DepreciationPropertyGrp>
+      <DepreciationPropertyGrp>
+        <PropertyDesc>WAREHOUSE - LEASEHOLD IMPROVEMENTS FOR CAMC (UNIT 2)</PropertyDesc>
+        <AcquiredDt>2011-01-31</AcquiredDt>
+        <CostOrOtherBasisAmt>38890</CostOrOtherBasisAmt>
+        <PriorYearDepreciationAmt>11759</PriorYearDepreciationAmt>
+        <ComputationMethodTxt>SL</ComputationMethodTxt>
+        <LifeRt>39.000000000000</LifeRt>
+        <CurrentYearExpenseAmt>997</CurrentYearExpenseAmt>
+        <NetInvestmentIncomeAmt>997</NetInvestmentIncomeAmt>
+      </DepreciationPropertyGrp>
+    </DepreciationSchedule>
+    <ExpenditureResponsibilityStmt documentId="RetDoc2118100001">
+      <ExpenditureResponsibilityGrp>
+        <BusinessName>
+          <BusinessNameLine1Txt>WEST VIRGINIA EMULATION ENDOWMENT TRUST</BusinessNameLine1Txt>
+        </BusinessName>
+        <USAddress>
+          <AddressLine1Txt>434 FAYETTEVILLE ST 14 FL</AddressLine1Txt>
+          <CityNm>WILSON</CityNm>
+          <StateAbbreviationCd>NC</StateAbbreviationCd>
+          <ZIPCd>27894</ZIPCd>
+        </USAddress>
+        <GrantDt>1969-01-20</GrantDt>
+        <GrantAmt>3234500</GrantAmt>
+        <PurposeOfGrantTxt>SCHOLARSHIP ENDOWMENT</PurposeOfGrantTxt>
+        <ExpendedByGranteeAmt>3546500</ExpendedByGranteeAmt>
+        <AnyDiversionByGranteeTxt>TO THE GRANTOR'S KNOWLEDGE, NO DIVERSION NOTED OTHER THAN FOR GRANT PURPOSE.</AnyDiversionByGranteeTxt>
+        <DatesOfReportsByGranteeTxt>VARIOUS</DatesOfReportsByGranteeTxt>
+        <ResultsOfVerificationTxt>THE GRANTOR HAS NO REASON TO DOUBT THE ACCURACY OR RELIABILITY OF THE REPORT FROM THE GRANTEE; THEREFORE, NO INDEPENDENT VERIFICATION OF THE REPORT WAS MADE.</ResultsOfVerificationTxt>
+      </ExpenditureResponsibilityGrp>
+    </ExpenditureResponsibilityStmt>
+    <InvestmentsCorpBondsSchedule documentId="RetDoc2044400001">
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>MSSB - CORPORATE BONDS</BondNm>
+        <EOYBookValueAmt>186858</EOYBookValueAmt>
+        <EOYFMVAmt>184734</EOYFMVAmt>
+      </InvestmentsCorporateBondsGrp>
+    </InvestmentsCorpBondsSchedule>
+    <InvestmentsCorpStockSchedule documentId="RetDoc2018900001">
+      <InvestmentsCorporateStockGrp>
+        <StockNm>MSSB - EQUITIES/CORPORATE STOCK</StockNm>
+        <EOYBookValueAmt>6653186</EOYBookValueAmt>
+        <EOYFMVAmt>6969368</EOYFMVAmt>
+      </InvestmentsCorporateStockGrp>
+      <InvestmentsCorporateStockGrp>
+        <StockNm>NTV SCHWAB - EQUITIES/CORPORATE STOCK</StockNm>
+        <EOYBookValueAmt>6590420</EOYBookValueAmt>
+        <EOYFMVAmt>9172541</EOYFMVAmt>
+      </InvestmentsCorporateStockGrp>
+      <InvestmentsCorporateStockGrp>
+        <StockNm>TRUIST - EQUITIES/CORPORATE STOCK</StockNm>
+        <EOYBookValueAmt>5865269</EOYBookValueAmt>
+        <EOYFMVAmt>6504494</EOYFMVAmt>
+      </InvestmentsCorporateStockGrp>
+    </InvestmentsCorpStockSchedule>
+    <InvestmentsGovtObligationsSch documentId="RetDoc2210400001">
+      <USGovtObligationsBookVlEOYAmt>42699</USGovtObligationsBookVlEOYAmt>
+      <USGovtObligationsEOYFMVAmt>42757</USGovtObligationsEOYFMVAmt>
+      <StateLocalSecBookVlEOYAmt>0</StateLocalSecBookVlEOYAmt>
+      <StateLocalSecEOYFMVAmt>0</StateLocalSecEOYFMVAmt>
+    </InvestmentsGovtObligationsSch>
+    <InvestmentsLandSchedule2 documentId="RetDoc2059100001">
+      <InvestmentLandGrp>
+        <CategoryOrItemTxt>LAND</CategoryOrItemTxt>
+        <CostOrOtherBasisAmt>1016431</CostOrOtherBasisAmt>
+        <AccumulatedDepreciationAmt>0</AccumulatedDepreciationAmt>
+        <BookValueAmt>1016431</BookValueAmt>
+      </InvestmentLandGrp>
+      <InvestmentLandGrp>
+        <CategoryOrItemTxt>WAREHOUSE</CategoryOrItemTxt>
+        <CostOrOtherBasisAmt>4600667</CostOrOtherBasisAmt>
+        <AccumulatedDepreciationAmt>4600667</AccumulatedDepreciationAmt>
+        <BookValueAmt>0</BookValueAmt>
+      </InvestmentLandGrp>
+      <InvestmentLandGrp>
+        <CategoryOrItemTxt>WAREHOUSE - PAVING</CategoryOrItemTxt>
+        <CostOrOtherBasisAmt>19750</CostOrOtherBasisAmt>
+        <AccumulatedDepreciationAmt>19750</AccumulatedDepreciationAmt>
+        <BookValueAmt>0</BookValueAmt>
+      </InvestmentLandGrp>
+      <InvestmentLandGrp>
+        <CategoryOrItemTxt>WAREHOUSE - ADDITIONAL FLOOR SPACE (UNIT 3)</CategoryOrItemTxt>
+        <CostOrOtherBasisAmt>20453</CostOrOtherBasisAmt>
+        <AccumulatedDepreciationAmt>7538</AccumulatedDepreciationAmt>
+        <BookValueAmt>12915</BookValueAmt>
+      </InvestmentLandGrp>
+      <InvestmentLandGrp>
+        <CategoryOrItemTxt>WAREHOUSE - ADDITIONAL FLOOR SPACE (UNIT 3)</CategoryOrItemTxt>
+        <CostOrOtherBasisAmt>19395</CostOrOtherBasisAmt>
+        <AccumulatedDepreciationAmt>7107</AccumulatedDepreciationAmt>
+        <BookValueAmt>12288</BookValueAmt>
+      </InvestmentLandGrp>
+      <InvestmentLandGrp>
+        <CategoryOrItemTxt>WAREHOUSE - PARKING LOT &amp; SIDEWALKS ON SOUTH SIDE</CategoryOrItemTxt>
+        <CostOrOtherBasisAmt>207000</CostOrOtherBasisAmt>
+        <AccumulatedDepreciationAmt>176444</AccumulatedDepreciationAmt>
+        <BookValueAmt>30556</BookValueAmt>
+      </InvestmentLandGrp>
+      <InvestmentLandGrp>
+        <CategoryOrItemTxt>WAREHOUSE - PARKING LOT &amp; SIDEWALKS ON SOUTH SIDE</CategoryOrItemTxt>
+        <CostOrOtherBasisAmt>18954</CostOrOtherBasisAmt>
+        <AccumulatedDepreciationAmt>16156</AccumulatedDepreciationAmt>
+        <BookValueAmt>2798</BookValueAmt>
+      </InvestmentLandGrp>
+      <InvestmentLandGrp>
+        <CategoryOrItemTxt>WAREHOUSE - GAS SERVICE (UNIT 1)</CategoryOrItemTxt>
+        <CostOrOtherBasisAmt>24250</CostOrOtherBasisAmt>
+        <AccumulatedDepreciationAmt>5416</AccumulatedDepreciationAmt>
+        <BookValueAmt>18834</BookValueAmt>
+      </InvestmentLandGrp>
+      <InvestmentLandGrp>
+        <CategoryOrItemTxt>WAREHOUSE - LEASEHOLD IMPROVEMENTS FOR CAMC (UNIT 2)</CategoryOrItemTxt>
+        <CostOrOtherBasisAmt>2631723</CostOrOtherBasisAmt>
+        <AccumulatedDepreciationAmt>913829</AccumulatedDepreciationAmt>
+        <BookValueAmt>1717894</BookValueAmt>
+      </InvestmentLandGrp>
+      <InvestmentLandGrp>
+        <CategoryOrItemTxt>WAREHOUSE - LEASEHOLD IMPROVEMENTS FOR CAMC (UNIT 2)</CategoryOrItemTxt>
+        <CostOrOtherBasisAmt>38890</CostOrOtherBasisAmt>
+        <AccumulatedDepreciationAmt>12756</AccumulatedDepreciationAmt>
+        <BookValueAmt>26134</BookValueAmt>
+      </InvestmentLandGrp>
+      <InvestmentLandGrp>
+        <CategoryOrItemTxt>LEASE ACQUISITION COSTS - IRON MOUNTAIN</CategoryOrItemTxt>
+        <CostOrOtherBasisAmt>160384</CostOrOtherBasisAmt>
+        <AccumulatedDepreciationAmt>124047</AccumulatedDepreciationAmt>
+        <BookValueAmt>36337</BookValueAmt>
+      </InvestmentLandGrp>
+      <InvestmentLandGrp>
+        <CategoryOrItemTxt>LEASE ACQUISITION COSTS - CRACKER BARREL</CategoryOrItemTxt>
+        <CostOrOtherBasisAmt>155000</CostOrOtherBasisAmt>
+        <AccumulatedDepreciationAmt>155000</AccumulatedDepreciationAmt>
+        <BookValueAmt>0</BookValueAmt>
+      </InvestmentLandGrp>
+      <InvestmentLandGrp>
+        <CategoryOrItemTxt>LEASE ACQUISITION COSTS - CAMC</CategoryOrItemTxt>
+        <CostOrOtherBasisAmt>45000</CostOrOtherBasisAmt>
+        <AccumulatedDepreciationAmt>45000</AccumulatedDepreciationAmt>
+        <BookValueAmt>0</BookValueAmt>
+      </InvestmentLandGrp>
+      <InvestmentLandGrp>
+        <CategoryOrItemTxt>LEASE ACQUISITION COSTS - CAMC</CategoryOrItemTxt>
+        <CostOrOtherBasisAmt>425000</CostOrOtherBasisAmt>
+        <AccumulatedDepreciationAmt>425000</AccumulatedDepreciationAmt>
+        <BookValueAmt>0</BookValueAmt>
+      </InvestmentLandGrp>
+      <InvestmentLandGrp>
+        <CategoryOrItemTxt>LEASE ACQUISITION COSTS - CAMC</CategoryOrItemTxt>
+        <CostOrOtherBasisAmt>100000</CostOrOtherBasisAmt>
+        <AccumulatedDepreciationAmt>100000</AccumulatedDepreciationAmt>
+        <BookValueAmt>0</BookValueAmt>
+      </InvestmentLandGrp>
+      <InvestmentLandGrp>
+        <CategoryOrItemTxt>LEASE ACQUISITION COSTS - IRON MOUNTAIN LEASE AMENDMENT 1</CategoryOrItemTxt>
+        <CostOrOtherBasisAmt>154000</CostOrOtherBasisAmt>
+        <AccumulatedDepreciationAmt>84451</AccumulatedDepreciationAmt>
+        <BookValueAmt>69549</BookValueAmt>
+      </InvestmentLandGrp>
+    </InvestmentsLandSchedule2>
+    <InvestmentsOtherSchedule2 documentId="RetDoc2018100001">
+      <InvestmentsOtherGrp>
+        <CategoryOrItemTxt>MSSB - OTHER INVESTMENTS</CategoryOrItemTxt>
+        <ListedAtCostOrFMVCd>AT COST</ListedAtCostOrFMVCd>
+        <BookValueAmt>1958908</BookValueAmt>
+        <EOYFMVAmt>1719773</EOYFMVAmt>
+      </InvestmentsOtherGrp>
+      <InvestmentsOtherGrp>
+        <CategoryOrItemTxt>NTV SCHWAB - OTHER INVESTMENTS</CategoryOrItemTxt>
+        <ListedAtCostOrFMVCd>AT COST</ListedAtCostOrFMVCd>
+        <BookValueAmt>443412</BookValueAmt>
+        <EOYFMVAmt>481746</EOYFMVAmt>
+      </InvestmentsOtherGrp>
+      <InvestmentsOtherGrp>
+        <CategoryOrItemTxt>TRUIST - OTHER INVESTMENTS</CategoryOrItemTxt>
+        <ListedAtCostOrFMVCd>AT COST</ListedAtCostOrFMVCd>
+        <BookValueAmt>3017270</BookValueAmt>
+        <EOYFMVAmt>2626611</EOYFMVAmt>
+      </InvestmentsOtherGrp>
+    </InvestmentsOtherSchedule2>
+    <LegalFeesSchedule documentId="RetDoc2002100001">
+      <LegalFeesGrp>
+        <CategoryTxt>LEGAL FEES</CategoryTxt>
+        <LegalFeesAmt>66161</LegalFeesAmt>
+        <NetInvestmentIncomeAmt>66161</NetInvestmentIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>0</DisbursementsCharitablePrpsAmt>
+      </LegalFeesGrp>
+    </LegalFeesSchedule>
+    <OtherExpensesSchedule documentId="RetDoc2003200001">
+      <OtherExpensesScheduleGrp>
+        <Desc>OFFICE &amp; OTHER EXPENSES</Desc>
+        <RevenueAndExpensesPerBooksAmt>9092</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>8183</NetInvestmentIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>909</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>INSURANCE</Desc>
+        <RevenueAndExpensesPerBooksAmt>25409</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>25409</NetInvestmentIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>0</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>MAINTENANCE</Desc>
+        <RevenueAndExpensesPerBooksAmt>10120</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>10120</NetInvestmentIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>0</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>PROPERTY MANAGEMENT FEE</Desc>
+        <RevenueAndExpensesPerBooksAmt>111240</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>111240</NetInvestmentIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>0</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>UTILITIES</Desc>
+        <RevenueAndExpensesPerBooksAmt>1681</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>1681</NetInvestmentIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>0</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>AMORTIZATION</Desc>
+        <RevenueAndExpensesPerBooksAmt>29939</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>29939</NetInvestmentIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>0</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+    </OtherExpensesSchedule>
+    <OtherIncomeSchedule2 documentId="RetDoc2001500001">
+      <OtherIncomeDetail>
+        <Desc>OTHER INVESTMENT INCOME</Desc>
+        <RevenueAndExpensesPerBooksAmt>3140</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>3140</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>3140</AdjustedNetIncomeAmt>
+      </OtherIncomeDetail>
+      <OtherIncomeDetail>
+        <Desc>NONREFUNDABLE DEPOSIT</Desc>
+        <RevenueAndExpensesPerBooksAmt>6000</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>6000</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>6000</AdjustedNetIncomeAmt>
+      </OtherIncomeDetail>
+      <OtherIncomeDetail>
+        <Desc>EXCISE TAX REFUND</Desc>
+        <RevenueAndExpensesPerBooksAmt>142225</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>142225</AdjustedNetIncomeAmt>
+      </OtherIncomeDetail>
+      <OtherIncomeDetail>
+        <Desc>PROPERTY TAX REFUND</Desc>
+        <RevenueAndExpensesPerBooksAmt>192263</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>192263</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>192263</AdjustedNetIncomeAmt>
+      </OtherIncomeDetail>
+    </OtherIncomeSchedule2>
+    <OtherProfessionalFeesSchedule documentId="RetDoc2002300001">
+      <OtherProfessionalFeesDetail>
+        <CategoryTxt>ADVISORY/MANAGEMENT FEES</CategoryTxt>
+        <Amt>146305</Amt>
+        <NetInvestmentIncomeAmt>146305</NetInvestmentIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>0</DisbursementsCharitablePrpsAmt>
+      </OtherProfessionalFeesDetail>
+    </OtherProfessionalFeesSchedule>
+    <TaxesSchedule documentId="RetDoc2002500001">
+      <TaxesDetail>
+        <CategoryTxt>EXCISE TAXES</CategoryTxt>
+        <Amt>30000</Amt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>0</DisbursementsCharitablePrpsAmt>
+      </TaxesDetail>
+      <TaxesDetail>
+        <CategoryTxt>FOREIGN TAXES</CategoryTxt>
+        <Amt>753</Amt>
+        <NetInvestmentIncomeAmt>753</NetInvestmentIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>0</DisbursementsCharitablePrpsAmt>
+      </TaxesDetail>
+      <TaxesDetail>
+        <CategoryTxt>PROPERTY TAXES</CategoryTxt>
+        <Amt>118797</Amt>
+        <NetInvestmentIncomeAmt>118797</NetInvestmentIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>0</DisbursementsCharitablePrpsAmt>
+      </TaxesDetail>
+    </TaxesSchedule>
+  </ReturnData>
+</Return>

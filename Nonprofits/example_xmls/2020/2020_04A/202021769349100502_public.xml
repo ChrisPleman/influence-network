@@ -1,0 +1,533 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Return xmlns="http://www.irs.gov/efile" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" returnVersion="2019v5.0" xsi:schemaLocation="http://www.irs.gov/efile">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2020-06-24T06:43:46-07:00</ReturnTs>
+    <TaxPeriodEndDt>2019-12-31</TaxPeriodEndDt>
+    <PreparerFirmGrp>
+      <PreparerFirmEIN>760269860</PreparerFirmEIN>
+      <PreparerFirmName>
+        <BusinessNameLine1Txt>Blazek &amp; Vetterling</BusinessNameLine1Txt>
+      </PreparerFirmName>
+      <PreparerUSAddress>
+        <AddressLine1Txt>2900 Weslayan Suite 200</AddressLine1Txt>
+        <CityNm>Houston</CityNm>
+        <StateAbbreviationCd>TX</StateAbbreviationCd>
+        <ZIPCd>770275132</ZIPCd>
+      </PreparerUSAddress>
+    </PreparerFirmGrp>
+    <ReturnTypeCd>990PF</ReturnTypeCd>
+    <TaxPeriodBeginDt>2019-01-01</TaxPeriodBeginDt>
+    <Filer>
+      <EIN>460562235</EIN>
+      <BusinessName>
+        <BusinessNameLine1Txt>Poarch Family Foundation</BusinessNameLine1Txt>
+      </BusinessName>
+      <BusinessNameControlTxt>POAR</BusinessNameControlTxt>
+      <PhoneNum>7139841473</PhoneNum>
+      <USAddress>
+        <AddressLine1Txt>1041 Conrad Sauer</AddressLine1Txt>
+        <CityNm>Houston</CityNm>
+        <StateAbbreviationCd>TX</StateAbbreviationCd>
+        <ZIPCd>77043</ZIPCd>
+      </USAddress>
+    </Filer>
+    <BusinessOfficerGrp>
+      <PersonNm>Donald Poarch</PersonNm>
+      <PersonTitleTxt>Director</PersonTitleTxt>
+      <SignatureDt>2020-06-24</SignatureDt>
+      <DiscussWithPaidPreparerInd>true</DiscussWithPaidPreparerInd>
+    </BusinessOfficerGrp>
+    <PreparerPersonGrp>
+      <PreparerPersonNm>Kurt Coburn</PreparerPersonNm>
+      <PTIN>P01638285</PTIN>
+      <PhoneNum>7134395739</PhoneNum>
+    </PreparerPersonGrp>
+    <TaxYr>2019</TaxYr>
+    <BuildTS>2021-04-22 16:20:28Z</BuildTS>
+  </ReturnHeader>
+  <ReturnData documentCnt="7">
+    <IRS990PF documentId="IRS990PF" referenceDocumentId="GeneralExplanation" softwareId="19009920" softwareVersionNum="2019v5.0">
+      <Organization501c3ExemptPFInd>X</Organization501c3ExemptPFInd>
+      <FMVAssetsEOYAmt>54187</FMVAssetsEOYAmt>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <AnalysisOfRevenueAndExpenses>
+        <ScheduleBNotRequiredInd>X</ScheduleBNotRequiredInd>
+        <InterestOnSavRevAndExpnssAmt>249</InterestOnSavRevAndExpnssAmt>
+        <InterestOnSavNetInvstIncmAmt>249</InterestOnSavNetInvstIncmAmt>
+        <DividendsRevAndExpnssAmt>601</DividendsRevAndExpnssAmt>
+        <DividendsNetInvstIncmAmt>601</DividendsNetInvstIncmAmt>
+        <NetGainSaleAstRevAndExpnssAmt>1500</NetGainSaleAstRevAndExpnssAmt>
+        <GrossSalesPriceAmt>167978</GrossSalesPriceAmt>
+        <CapGainNetIncmNetInvstIncmAmt>1500</CapGainNetIncmNetInvstIncmAmt>
+        <TotalRevAndExpnssAmt>2350</TotalRevAndExpnssAmt>
+        <TotalNetInvstIncmAmt>2350</TotalNetInvstIncmAmt>
+        <AccountingFeesRevAndExpnssAmt referenceDocumentId="AccountingFeesSchedule">2000</AccountingFeesRevAndExpnssAmt>
+        <AccountingFeesNetInvstIncmAmt>1000</AccountingFeesNetInvstIncmAmt>
+        <AccountingFeesChrtblPrpsAmt>1000</AccountingFeesChrtblPrpsAmt>
+        <OtherProfFeesRevAndExpnssAmt referenceDocumentId="OtherProfessionalFeesSchedule">487</OtherProfFeesRevAndExpnssAmt>
+        <OtherProfFeesNetInvstIncmAmt>487</OtherProfFeesNetInvstIncmAmt>
+        <TaxesRevAndExpnssAmt referenceDocumentId="TaxesSchedule">5109</TaxesRevAndExpnssAmt>
+        <OtherExpensesRevAndExpnssAmt referenceDocumentId="OtherExpensesSchedule AmortizationSchedule">25</OtherExpensesRevAndExpnssAmt>
+        <OtherExpensesDsbrsChrtblAmt>25</OtherExpensesDsbrsChrtblAmt>
+        <TotOprExpensesRevAndExpnssAmt>7621</TotOprExpensesRevAndExpnssAmt>
+        <TotOprExpensesNetInvstIncmAmt>1487</TotOprExpensesNetInvstIncmAmt>
+        <TotOprExpensesDsbrsChrtblAmt>1025</TotOprExpensesDsbrsChrtblAmt>
+        <ContriPaidRevAndExpnssAmt>127000</ContriPaidRevAndExpnssAmt>
+        <ContriPaidDsbrsChrtblAmt>127000</ContriPaidDsbrsChrtblAmt>
+        <TotalExpensesRevAndExpnssAmt>134621</TotalExpensesRevAndExpnssAmt>
+        <TotalExpensesNetInvstIncmAmt>1487</TotalExpensesNetInvstIncmAmt>
+        <TotalExpensesDsbrsChrtblAmt>128025</TotalExpensesDsbrsChrtblAmt>
+        <ExcessRevenueOverExpensesAmt>-132271</ExcessRevenueOverExpensesAmt>
+        <NetInvestmentIncomeAmt>863</NetInvestmentIncomeAmt>
+      </AnalysisOfRevenueAndExpenses>
+      <Form990PFBalanceSheetsGrp>
+        <CashBOYAmt>141</CashBOYAmt>
+        <SavAndTempCashInvstBOYAmt>33208</SavAndTempCashInvstBOYAmt>
+        <SavAndTempCashInvstEOYAmt>38191</SavAndTempCashInvstEOYAmt>
+        <SavAndTempCashInvstEOYFMVAmt>38191</SavAndTempCashInvstEOYFMVAmt>
+        <CorporateStockBOYAmt>150075</CorporateStockBOYAmt>
+        <CorporateStockEOYAmt referenceDocumentId="InvestmentsCorpStockSchedule">12962</CorporateStockEOYAmt>
+        <CorporateStockEOYFMVAmt>15996</CorporateStockEOYFMVAmt>
+        <TotalAssetsBOYAmt>183424</TotalAssetsBOYAmt>
+        <TotalAssetsEOYAmt>51153</TotalAssetsEOYAmt>
+        <TotalAssetsEOYFMVAmt>54187</TotalAssetsEOYFMVAmt>
+        <TotalLiabilitiesEOYAmt>0</TotalLiabilitiesEOYAmt>
+        <OrgDoesNotFollowFASB117Ind>X</OrgDoesNotFollowFASB117Ind>
+        <CapitalStockBOYAmt>183424</CapitalStockBOYAmt>
+        <CapitalStockEOYAmt>51153</CapitalStockEOYAmt>
+        <TotNetAstOrFundBalancesBOYAmt>183424</TotNetAstOrFundBalancesBOYAmt>
+        <TotNetAstOrFundBalancesEOYAmt>51153</TotNetAstOrFundBalancesEOYAmt>
+        <TotalLiabilitiesNetAstBOYAmt>183424</TotalLiabilitiesNetAstBOYAmt>
+        <TotalLiabilitiesNetAstEOYAmt>51153</TotalLiabilitiesNetAstEOYAmt>
+      </Form990PFBalanceSheetsGrp>
+      <ChgInNetAssetsFundBalancesGrp>
+        <TotNetAstOrFundBalancesBOYAmt>183424</TotNetAstOrFundBalancesBOYAmt>
+        <ExcessRevenueOverExpensesAmt>-132271</ExcessRevenueOverExpensesAmt>
+        <SubtotalAmt>51153</SubtotalAmt>
+        <TotNetAstOrFundBalancesEOYAmt>51153</TotNetAstOrFundBalancesEOYAmt>
+      </ChgInNetAssetsFundBalancesGrp>
+      <CapGainsLossTxInvstIncmDetail>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>Publicly traded securities</PropertyDesc>
+          <GrossSalesPriceAmt>167959</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>166478</CostOrOtherBasisAmt>
+          <GainOrLossAmt>1481</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>1481</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>Capital gain distributions</PropertyDesc>
+          <GrossSalesPriceAmt>19</GrossSalesPriceAmt>
+          <GainOrLossAmt>19</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>19</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapitalGainNetIncomeAmt>1500</CapitalGainNetIncomeAmt>
+      </CapGainsLossTxInvstIncmDetail>
+      <QlfyUndSect4940eReducedTaxGrp>
+        <LiableSection4942TaxInd>false</LiableSection4942TaxInd>
+        <AdjustedQlfyDistriYr1Amt>156544</AdjustedQlfyDistriYr1Amt>
+        <NetVlNoncharitableAssetsYr1Amt>197065</NetVlNoncharitableAssetsYr1Amt>
+        <DistributionYr1Rt>0.79438</DistributionYr1Rt>
+        <AdjustedQlfyDistriYr2Amt>137803</AdjustedQlfyDistriYr2Amt>
+        <NetVlNoncharitableAssetsYr2Amt>116310</NetVlNoncharitableAssetsYr2Amt>
+        <DistributionYr2Rt>1.18479</DistributionYr2Rt>
+        <AdjustedQlfyDistriYr3Amt>114480</AdjustedQlfyDistriYr3Amt>
+        <NetVlNoncharitableAssetsYr3Amt>156863</NetVlNoncharitableAssetsYr3Amt>
+        <DistributionYr3Rt>0.72981</DistributionYr3Rt>
+        <AdjustedQlfyDistriYr4Amt>86584</AdjustedQlfyDistriYr4Amt>
+        <NetVlNoncharitableAssetsYr4Amt>206960</NetVlNoncharitableAssetsYr4Amt>
+        <DistributionYr4Rt>0.41836</DistributionYr4Rt>
+        <AdjustedQlfyDistriYr5Amt>638</AdjustedQlfyDistriYr5Amt>
+        <NetVlNoncharitableAssetsYr5Amt>188466</NetVlNoncharitableAssetsYr5Amt>
+        <DistributionYr5Rt>0.00339</DistributionYr5Rt>
+        <TotalDistributionRt>3.130723</TotalDistributionRt>
+        <AverageDistributionRt>0.626145</AverageDistributionRt>
+        <NetVlNoncharitableAssetsAmt>103496</NetVlNoncharitableAssetsAmt>
+        <AdjNetVlNoncharitableAssetsAmt>64804</AdjNetVlNoncharitableAssetsAmt>
+        <NetInvestmentIncomePctAmt>9</NetInvestmentIncomePctAmt>
+        <AdjNonchrtblNetInvstIncmPctAmt>64813</AdjNonchrtblNetInvstIncmPctAmt>
+        <QualifyingDistributionsAmt>128025</QualifyingDistributionsAmt>
+      </QlfyUndSect4940eReducedTaxGrp>
+      <ExciseTaxBasedOnInvstIncmGrp>
+        <DomesticOrgMeetingSect4940eInd>X</DomesticOrgMeetingSect4940eInd>
+        <InvestmentIncomeExciseTaxAmt>9</InvestmentIncomeExciseTaxAmt>
+        <SubtotalAmt>9</SubtotalAmt>
+        <TaxBasedOnInvestmentIncomeAmt>9</TaxBasedOnInvestmentIncomeAmt>
+        <EstimatedPlusOvpmtIncmTxAmt>1200</EstimatedPlusOvpmtIncmTxAmt>
+        <TotalPaymentsAndCreditsAmt>1200</TotalPaymentsAndCreditsAmt>
+        <OverpaymentAmt>1191</OverpaymentAmt>
+        <AppliedToESTaxAmt>1191</AppliedToESTaxAmt>
+      </ExciseTaxBasedOnInvstIncmGrp>
+      <StatementsRegardingActyGrp>
+        <LegislativePoliticalActyInd>false</LegislativePoliticalActyInd>
+        <MoreThan100SpentInd>false</MoreThan100SpentInd>
+        <Form1120POLFiledInd>false</Form1120POLFiledInd>
+        <ActivitiesNotPreviouslyRptInd>false</ActivitiesNotPreviouslyRptInd>
+        <ChangesToArticlesOrBylawsInd>false</ChangesToArticlesOrBylawsInd>
+        <UnrelatedBusIncmOverLimitInd>false</UnrelatedBusIncmOverLimitInd>
+        <OrganizationDissolvedEtcInd referenceDocumentId="LiquidationExplanation">true</OrganizationDissolvedEtcInd>
+        <Section508eRqrSatisfiedInd>true</Section508eRqrSatisfiedInd>
+        <AtLeast5000InAssetsInd>true</AtLeast5000InAssetsInd>
+        <OrgReportOrRegisterStateCd>TX</OrgReportOrRegisterStateCd>
+        <Form990PFFiledWithAttyGenInd>true</Form990PFFiledWithAttyGenInd>
+        <PrivateOperatingFoundationInd>false</PrivateOperatingFoundationInd>
+        <NewSubstantialContributorsInd>false</NewSubstantialContributorsInd>
+        <OwnControlledEntityInd>false</OwnControlledEntityInd>
+        <DonorAdvisedFundInd>false</DonorAdvisedFundInd>
+        <ComplyWithPublicInspRqrInd>true</ComplyWithPublicInspRqrInd>
+        <WebsiteAddressTxt>N/A</WebsiteAddressTxt>
+        <PersonsWithBooksName>
+          <BusinessNameLine1Txt>Cynthia Poarch</BusinessNameLine1Txt>
+        </PersonsWithBooksName>
+        <PhoneNum>7139841473</PhoneNum>
+        <LocationOfBooksUSAddress>
+          <AddressLine1Txt>1041 Conrad Sauer</AddressLine1Txt>
+          <CityNm>Houston</CityNm>
+          <StateAbbreviationCd>TX</StateAbbreviationCd>
+          <ZIPCd>77043</ZIPCd>
+        </LocationOfBooksUSAddress>
+        <ForeignAccountsQuestionInd>false</ForeignAccountsQuestionInd>
+      </StatementsRegardingActyGrp>
+      <StatementsRegardingActy4720Grp>
+        <SaleOrExchDisqualifiedPrsnInd>false</SaleOrExchDisqualifiedPrsnInd>
+        <BrrwOrLendDisqualifiedPrsnInd>false</BrrwOrLendDisqualifiedPrsnInd>
+        <FurnGoodsDisqualifiedPrsnInd>false</FurnGoodsDisqualifiedPrsnInd>
+        <PayCompDisqualifiedPrsnInd>false</PayCompDisqualifiedPrsnInd>
+        <TransferAstDisqualifiedPrsnInd>false</TransferAstDisqualifiedPrsnInd>
+        <PaymentToGovernmentOfficialInd>false</PaymentToGovernmentOfficialInd>
+        <ActsFailToQlfyAsExceptionsInd>false</ActsFailToQlfyAsExceptionsInd>
+        <UncorrectedPriorActsInd>false</UncorrectedPriorActsInd>
+        <UndistributedIncomePYInd>false</UndistributedIncomePYInd>
+        <BusinessHoldingsInd>false</BusinessHoldingsInd>
+        <JeopardyInvestmentsInd>false</JeopardyInvestmentsInd>
+        <UncorrectedPYJeopardyInvstInd>false</UncorrectedPYJeopardyInvstInd>
+        <InfluenceLegislationInd>false</InfluenceLegislationInd>
+        <InfluenceElectionInd>false</InfluenceElectionInd>
+        <GrantsToIndividualsInd>false</GrantsToIndividualsInd>
+        <GrantsToOrganizationsInd>false</GrantsToOrganizationsInd>
+        <NoncharitablePurposeInd>false</NoncharitablePurposeInd>
+        <RcvFndsToPayPrsnlBnftCntrctInd>false</RcvFndsToPayPrsnlBnftCntrctInd>
+        <PayPremiumsPrsnlBnftCntrctInd>false</PayPremiumsPrsnlBnftCntrctInd>
+        <ProhibitedTaxShelterTransInd>false</ProhibitedTaxShelterTransInd>
+        <SubjToTaxRmnrtnExPrchtPymtInd>false</SubjToTaxRmnrtnExPrchtPymtInd>
+      </StatementsRegardingActy4720Grp>
+      <OfficerDirTrstKeyEmplInfoGrp>
+        <OfficerDirTrstKeyEmplGrp>
+          <PersonNm>Donald Poarch</PersonNm>
+          <USAddress>
+            <AddressLine1Txt>1041 Conrad Sauer</AddressLine1Txt>
+            <CityNm>Houston</CityNm>
+            <StateAbbreviationCd>TX</StateAbbreviationCd>
+            <ZIPCd>77043</ZIPCd>
+          </USAddress>
+          <TitleTxt>Director</TitleTxt>
+          <AverageHrsPerWkDevotedToPosRt>1.00</AverageHrsPerWkDevotedToPosRt>
+          <CompensationAmt>0</CompensationAmt>
+        </OfficerDirTrstKeyEmplGrp>
+        <OfficerDirTrstKeyEmplGrp>
+          <PersonNm>Cynthia Poarch</PersonNm>
+          <USAddress>
+            <AddressLine1Txt>1041 Conrad Sauer</AddressLine1Txt>
+            <CityNm>Houston</CityNm>
+            <StateAbbreviationCd>TX</StateAbbreviationCd>
+            <ZIPCd>77043</ZIPCd>
+          </USAddress>
+          <TitleTxt>Director</TitleTxt>
+          <AverageHrsPerWkDevotedToPosRt>1.00</AverageHrsPerWkDevotedToPosRt>
+          <CompensationAmt>0</CompensationAmt>
+        </OfficerDirTrstKeyEmplGrp>
+        <OfficerDirTrstKeyEmplGrp>
+          <PersonNm>Caroline Poarch</PersonNm>
+          <USAddress>
+            <AddressLine1Txt>1041 Conrad Sauer</AddressLine1Txt>
+            <CityNm>Houston</CityNm>
+            <StateAbbreviationCd>TX</StateAbbreviationCd>
+            <ZIPCd>77043</ZIPCd>
+          </USAddress>
+          <TitleTxt>Director</TitleTxt>
+          <AverageHrsPerWkDevotedToPosRt>1.00</AverageHrsPerWkDevotedToPosRt>
+          <CompensationAmt>0</CompensationAmt>
+        </OfficerDirTrstKeyEmplGrp>
+        <OfficerDirTrstKeyEmplGrp>
+          <PersonNm>Allison Poarch</PersonNm>
+          <USAddress>
+            <AddressLine1Txt>1041 Conrad Sauer</AddressLine1Txt>
+            <CityNm>Houston</CityNm>
+            <StateAbbreviationCd>TX</StateAbbreviationCd>
+            <ZIPCd>77043</ZIPCd>
+          </USAddress>
+          <TitleTxt>Director</TitleTxt>
+          <AverageHrsPerWkDevotedToPosRt>1.00</AverageHrsPerWkDevotedToPosRt>
+          <CompensationAmt>0</CompensationAmt>
+        </OfficerDirTrstKeyEmplGrp>
+        <CompOfHghstPdEmplOrNONETxt>NONE</CompOfHghstPdEmplOrNONETxt>
+        <CompOfHghstPdCntrctOrNONETxt>NONE</CompOfHghstPdCntrctOrNONETxt>
+      </OfficerDirTrstKeyEmplInfoGrp>
+      <MinimumInvestmentReturnGrp>
+        <AverageMonthlyFMVOfSecAmt>62104</AverageMonthlyFMVOfSecAmt>
+        <AverageMonthlyCashBalancesAmt>42968</AverageMonthlyCashBalancesAmt>
+        <FMVAllOtherNoncharitableAstAmt>0</FMVAllOtherNoncharitableAstAmt>
+        <TotalFMVOfUnusedAssetsAmt>105072</TotalFMVOfUnusedAssetsAmt>
+        <ReductionClaimedAmt>0</ReductionClaimedAmt>
+        <AdjustedTotalFMVOfUnusedAstAmt>105072</AdjustedTotalFMVOfUnusedAstAmt>
+        <CashDeemedCharitableAmt>1576</CashDeemedCharitableAmt>
+        <NetVlNoncharitableAssetsAmt>103496</NetVlNoncharitableAssetsAmt>
+        <MinimumInvestmentReturnAmt>5175</MinimumInvestmentReturnAmt>
+      </MinimumInvestmentReturnGrp>
+      <DistributableAmountGrp>
+        <MinimumInvestmentReturnAmt>5175</MinimumInvestmentReturnAmt>
+        <TaxBasedOnInvestmentIncomeAmt>9</TaxBasedOnInvestmentIncomeAmt>
+        <TotalTaxAmt>9</TotalTaxAmt>
+        <DistributableBeforeAdjAmt>5166</DistributableBeforeAdjAmt>
+        <DistributableBeforeDedAmt>5166</DistributableBeforeDedAmt>
+        <DistributableAsAdjustedAmt>5166</DistributableAsAdjustedAmt>
+      </DistributableAmountGrp>
+      <QualifyingDistriPartXIIGrp>
+        <ExpensesAndContributionsAmt>128025</ExpensesAndContributionsAmt>
+        <QualifyingDistributionsAmt>128025</QualifyingDistributionsAmt>
+        <PctSect4940eOrgNetInvstIncmAmt>9</PctSect4940eOrgNetInvstIncmAmt>
+        <AdjustedQualifyingDistriAmt>128016</AdjustedQualifyingDistriAmt>
+      </QualifyingDistriPartXIIGrp>
+      <UndistributedIncomeGrp>
+        <DistributableAsAdjustedAmt>5166</DistributableAsAdjustedAmt>
+        <ExcessDistributionCyovYr4Amt>72666</ExcessDistributionCyovYr4Amt>
+        <ExcessDistributionCyovYr3Amt>106893</ExcessDistributionCyovYr3Amt>
+        <ExcessDistributionCyovYr2Amt>138226</ExcessDistributionCyovYr2Amt>
+        <ExcessDistributionCyovYr1Amt>137279</ExcessDistributionCyovYr1Amt>
+        <TotalExcessDistributionCyovAmt>455064</TotalExcessDistributionCyovAmt>
+        <QualifyingDistributionsAmt>128025</QualifyingDistributionsAmt>
+        <TreatedAsDistriFromCorpusAmt>0</TreatedAsDistriFromCorpusAmt>
+        <AppliedToCurrentYearAmt>5166</AppliedToCurrentYearAmt>
+        <RemainingDistriFromCorpusAmt>122859</RemainingDistriFromCorpusAmt>
+        <TotalCorpusAmt>577923</TotalCorpusAmt>
+        <UndistributedIncomeCYAmt>0</UndistributedIncomeCYAmt>
+        <ExcessDistriCyovToNextYrAmt>577923</ExcessDistriCyovToNextYrAmt>
+        <ExcessFromYear4Amt>72666</ExcessFromYear4Amt>
+        <ExcessFromYear3Amt>106893</ExcessFromYear3Amt>
+        <ExcessFromYear2Amt>138226</ExcessFromYear2Amt>
+        <ExcessFromYear1Amt>137279</ExcessFromYear1Amt>
+        <ExcessFromCurrentYearAmt>122859</ExcessFromCurrentYearAmt>
+      </UndistributedIncomeGrp>
+      <SupplementaryInformationGrp>
+        <ContributingManagerNm>Donald Poarch</ContributingManagerNm>
+        <ContributingManagerNm>Cynthia Poarch</ContributingManagerNm>
+        <OnlyContriToPreselectedInd>X</OnlyContriToPreselectedInd>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientPersonNm>Admiral Nimitz Foundation</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>328 E Main St</AddressLine1Txt>
+            <CityNm>Fredericksburg</CityNm>
+            <StateAbbreviationCd>TX</StateAbbreviationCd>
+            <ZIPCd>78624</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>N/A</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>PC</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>General support</GrantOrContributionPurposeTxt>
+          <Amt>5000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientPersonNm>Alpha Houston</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>3262 Westheimer Rd 157</AddressLine1Txt>
+            <CityNm>Houston</CityNm>
+            <StateAbbreviationCd>TX</StateAbbreviationCd>
+            <ZIPCd>77098</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>N/A</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>PC</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>General support</GrantOrContributionPurposeTxt>
+          <Amt>35000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientPersonNm>Boot Ranch Hall Foundation</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>104 S Elk St 2</AddressLine1Txt>
+            <CityNm>Fredericksburg</CityNm>
+            <StateAbbreviationCd>TX</StateAbbreviationCd>
+            <ZIPCd>78624</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>N/A</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>PC</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>General support</GrantOrContributionPurposeTxt>
+          <Amt>1000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientPersonNm>Cystic Fibrosis Foundation</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>57 Executive Park S 380</AddressLine1Txt>
+            <CityNm>Atlanta</CityNm>
+            <StateAbbreviationCd>GA</StateAbbreviationCd>
+            <ZIPCd>30329</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>N/A</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>PC</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>General support</GrantOrContributionPurposeTxt>
+          <Amt>22500</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientPersonNm>Methodist Hospital Foundation</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>PO Box 4384</AddressLine1Txt>
+            <CityNm>Houston</CityNm>
+            <StateAbbreviationCd>TX</StateAbbreviationCd>
+            <ZIPCd>77210</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>N/A</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>PC</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>General support</GrantOrContributionPurposeTxt>
+          <Amt>25000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientPersonNm>Texas Children's Hospital</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>1919 S Braeswood Blvd 5214</AddressLine1Txt>
+            <CityNm>Houston</CityNm>
+            <StateAbbreviationCd>TX</StateAbbreviationCd>
+            <ZIPCd>77030</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>N/A</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>PC</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>General support</GrantOrContributionPurposeTxt>
+          <Amt>20000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientPersonNm>Fellowship of Christian Athletes</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>PO Box 132589</AddressLine1Txt>
+            <CityNm>Spring</CityNm>
+            <StateAbbreviationCd>TX</StateAbbreviationCd>
+            <ZIPCd>77393</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>N/A</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>PC</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>General support</GrantOrContributionPurposeTxt>
+          <Amt>5000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientPersonNm>Keep Houston Beautiful</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>104 N Greenwood St</AddressLine1Txt>
+            <CityNm>Houston</CityNm>
+            <StateAbbreviationCd>TX</StateAbbreviationCd>
+            <ZIPCd>77011</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>N/A</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>PC</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>General support</GrantOrContributionPurposeTxt>
+          <Amt>10000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientPersonNm>Houston Zoo</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>6200 Hermann Park Dr</AddressLine1Txt>
+            <CityNm>Houston</CityNm>
+            <StateAbbreviationCd>TX</StateAbbreviationCd>
+            <ZIPCd>77030</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>N/A</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>PC</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>General support</GrantOrContributionPurposeTxt>
+          <Amt>2500</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientPersonNm>Turning Point USA</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>4940 East Beverly Rd</AddressLine1Txt>
+            <CityNm>Phoneix</CityNm>
+            <StateAbbreviationCd>AZ</StateAbbreviationCd>
+            <ZIPCd>85044</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>N/A</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>PC</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>General support</GrantOrContributionPurposeTxt>
+          <Amt>1000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <TotalGrantOrContriPdDurYrAmt>127000</TotalGrantOrContriPdDurYrAmt>
+      </SupplementaryInformationGrp>
+      <AnalysisIncomeProducingActyGrp>
+        <IntOnSavAndTempCashInvstGrp>
+          <ExclusionCd>14</ExclusionCd>
+          <ExclusionAmt>249</ExclusionAmt>
+        </IntOnSavAndTempCashInvstGrp>
+        <DivAndIntFromSecPartVIIGrp>
+          <ExclusionCd>14</ExclusionCd>
+          <ExclusionAmt>601</ExclusionAmt>
+        </DivAndIntFromSecPartVIIGrp>
+        <GainSalesAstOthThanInvntryGrp>
+          <ExclusionCd>18</ExclusionCd>
+          <ExclusionAmt>1500</ExclusionAmt>
+        </GainSalesAstOthThanInvntryGrp>
+        <SubtotalsIncmProducingActyGrp>
+          <ExclusionAmt>2350</ExclusionAmt>
+        </SubtotalsIncmProducingActyGrp>
+        <TotalIncomeProducingActyAmt>2350</TotalIncomeProducingActyAmt>
+      </AnalysisIncomeProducingActyGrp>
+      <TrnsfrTransRlnNonchrtblEOGrp>
+        <TrnsfrOfCashToNonchrtblEOInd>false</TrnsfrOfCashToNonchrtblEOInd>
+        <TrnsfrOtherAssetNonchrtblEOInd>false</TrnsfrOtherAssetNonchrtblEOInd>
+        <SalesOrExchangesOfAssetsInd>false</SalesOrExchangesOfAssetsInd>
+        <PurchaseOfAssetsNonchrtblEOInd>false</PurchaseOfAssetsNonchrtblEOInd>
+        <RentalOfFacilitiesOthAssetsInd>false</RentalOfFacilitiesOthAssetsInd>
+        <ReimbursementArrangementsInd>false</ReimbursementArrangementsInd>
+        <LoansOrLoanGuaranteesInd>false</LoansOrLoanGuaranteesInd>
+        <PerformanceOfServicesEtcInd>false</PerformanceOfServicesEtcInd>
+        <SharingOfFacilitiesEtcInd>false</SharingOfFacilitiesEtcInd>
+        <RelationshipsNonchrtblEOInd>false</RelationshipsNonchrtblEOInd>
+      </TrnsfrTransRlnNonchrtblEOGrp>
+    </IRS990PF>
+    <AccountingFeesSchedule documentId="AccountingFeesSchedule" softwareId="19009920" softwareVersionNum="2019v5.0">
+      <AccountingFeesDetail>
+        <CategoryTxt>Tax compliance</CategoryTxt>
+        <Amt>2000</Amt>
+        <NetInvestmentIncomeAmt>1000</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>1000</DisbursementsCharitablePrpsAmt>
+      </AccountingFeesDetail>
+    </AccountingFeesSchedule>
+    <InvestmentsCorpStockSchedule documentId="InvestmentsCorpStockSchedule" softwareId="19009920" softwareVersionNum="2019v5.0">
+      <InvestmentsCorporateStockGrp>
+        <StockNm>171.152 shs EGFIX</StockNm>
+        <EOYBookValueAmt>5192</EOYBookValueAmt>
+        <EOYFMVAmt>6593</EOYFMVAmt>
+      </InvestmentsCorporateStockGrp>
+      <InvestmentsCorporateStockGrp>
+        <StockNm>107.570 shs SDY</StockNm>
+        <EOYBookValueAmt>4761</EOYBookValueAmt>
+        <EOYFMVAmt>6347</EOYFMVAmt>
+      </InvestmentsCorporateStockGrp>
+      <InvestmentsCorporateStockGrp>
+        <StockNm>276.575 shs VBTLX</StockNm>
+        <EOYBookValueAmt>3009</EOYBookValueAmt>
+        <EOYFMVAmt>3056</EOYFMVAmt>
+      </InvestmentsCorporateStockGrp>
+    </InvestmentsCorpStockSchedule>
+    <LiquidationExplanationStmt documentId="LiquidationExplanation" softwareId="19009920" softwareVersionNum="2019v5.0">
+      <ExplanationTxt>The following information is submitted in accordance with Treasury RegulationSection 1.6043-3(a)(1) and the Form 990-PF instructions:The Foundation made distributions of cash to the grantees listed in the attachmentto Part XV, Line 3a; each such grant was made solely for the charitable purposelisted on the schedule. During this tax year, the Foundation paid grants in anamount representing more than 25% of the Foundation's net assets of $171,436(asmeasured by fair market value) at the beginning of the Foundation's taxable yearending December 31, 2019. Although the Foundation technically experienced a"substantial contraction," it will continue in existence and has no plans fordissolution.</ExplanationTxt>
+    </LiquidationExplanationStmt>
+    <OtherExpensesSchedule documentId="OtherExpensesSchedule" softwareId="19009920" softwareVersionNum="2019v5.0">
+      <OtherExpensesScheduleGrp>
+        <Desc>Bank charges</Desc>
+        <RevenueAndExpensesPerBooksAmt>25</RevenueAndExpensesPerBooksAmt>
+        <DisbursementsCharitablePrpsAmt>25</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+    </OtherExpensesSchedule>
+    <OtherProfessionalFeesSchedule documentId="OtherProfessionalFeesSchedule" softwareId="19009920" softwareVersionNum="2019v5.0">
+      <OtherProfessionalFeesDetail>
+        <CategoryTxt>Investment fees</CategoryTxt>
+        <Amt>487</Amt>
+        <NetInvestmentIncomeAmt>487</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>0</DisbursementsCharitablePrpsAmt>
+      </OtherProfessionalFeesDetail>
+    </OtherProfessionalFeesSchedule>
+    <TaxesSchedule documentId="TaxesSchedule" softwareId="19009920" softwareVersionNum="2019v5.0">
+      <TaxesDetail>
+        <CategoryTxt>2018 990-T tax</CategoryTxt>
+        <Amt>1837</Amt>
+      </TaxesDetail>
+      <TaxesDetail>
+        <CategoryTxt>Excise tax</CategoryTxt>
+        <Amt>3272</Amt>
+      </TaxesDetail>
+    </TaxesSchedule>
+  </ReturnData>
+</Return>

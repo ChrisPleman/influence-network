@@ -1,0 +1,2310 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Return xmlns="http://www.irs.gov/efile" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.irs.gov/efile" returnVersion="2022v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2025-09-25T12:20:02-05:00</ReturnTs>
+    <TaxPeriodEndDt>2022-12-31</TaxPeriodEndDt>
+    <PreparerFirmGrp>
+      <PreparerFirmEIN>331197384</PreparerFirmEIN>
+      <PreparerFirmName>
+        <BusinessNameLine1Txt>ANDERSEN TAX LLC</BusinessNameLine1Txt>
+      </PreparerFirmName>
+      <PreparerUSAddress>
+        <AddressLine1Txt>125 HIGH STREET</AddressLine1Txt>
+        <CityNm>BOSTON</CityNm>
+        <StateAbbreviationCd>MA</StateAbbreviationCd>
+        <ZIPCd>02110</ZIPCd>
+      </PreparerUSAddress>
+    </PreparerFirmGrp>
+    <ReturnTypeCd>990PF</ReturnTypeCd>
+    <TaxPeriodBeginDt>2022-01-01</TaxPeriodBeginDt>
+    <Filer>
+      <EIN>043175434</EIN>
+      <BusinessName>
+        <BusinessNameLine1Txt>GRAND CIRCLE FOUNDATION INC</BusinessNameLine1Txt>
+      </BusinessName>
+      <BusinessNameControlTxt>GRAN</BusinessNameControlTxt>
+      <PhoneNum>6177903974</PhoneNum>
+      <USAddress>
+        <AddressLine1Txt>347 CONGRESS STREET</AddressLine1Txt>
+        <CityNm>BOSTON</CityNm>
+        <StateAbbreviationCd>MA</StateAbbreviationCd>
+        <ZIPCd>02210</ZIPCd>
+      </USAddress>
+    </Filer>
+    <BusinessOfficerGrp>
+      <PersonNm>HARRIET LEWIS</PersonNm>
+      <PersonTitleTxt>DIRECTOR</PersonTitleTxt>
+      <PhoneNum>6177903974</PhoneNum>
+      <SignatureDt>2025-09-02</SignatureDt>
+      <DiscussWithPaidPreparerInd>1</DiscussWithPaidPreparerInd>
+    </BusinessOfficerGrp>
+    <IRSResponsiblePrtyInfoCurrInd>1</IRSResponsiblePrtyInfoCurrInd>
+    <PreparerPersonGrp>
+      <PreparerPersonNm>KELLIE NEUHAUS</PreparerPersonNm>
+      <PTIN>P00838213</PTIN>
+      <PhoneNum>6172928400</PhoneNum>
+      <PreparationDt>2025-09-02</PreparationDt>
+    </PreparerPersonGrp>
+    <TaxYr>2022</TaxYr>
+    <BuildTS>2025-03-06 01:10:19Z</BuildTS>
+  </ReturnHeader>
+  <ReturnData documentCnt="7">
+    <IRS990PF documentId="RetDoc1235000001">
+      <AmendedReturnInd>X</AmendedReturnInd>
+      <Organization501c3ExemptPFInd>X</Organization501c3ExemptPFInd>
+      <FMVAssetsEOYAmt>4090992</FMVAssetsEOYAmt>
+      <MethodOfAccountingAccrualInd>X</MethodOfAccountingAccrualInd>
+      <AnalysisOfRevenueAndExpenses>
+        <ContriRcvdRevAndExpnssAmt>3754194</ContriRcvdRevAndExpnssAmt>
+        <ScheduleBNotRequiredInd>X</ScheduleBNotRequiredInd>
+        <InterestOnSavRevAndExpnssAmt>12865</InterestOnSavRevAndExpnssAmt>
+        <InterestOnSavNetInvstIncmAmt>12865</InterestOnSavNetInvstIncmAmt>
+        <InterestOnSavingsAdjNetIncmAmt>12865</InterestOnSavingsAdjNetIncmAmt>
+        <CapGainNetIncmNetInvstIncmAmt>0</CapGainNetIncmNetInvstIncmAmt>
+        <NetSTCapitalGainAdjNetIncmAmt>0</NetSTCapitalGainAdjNetIncmAmt>
+        <TotalRevAndExpnssAmt>3767059</TotalRevAndExpnssAmt>
+        <TotalNetInvstIncmAmt>12865</TotalNetInvstIncmAmt>
+        <TotalAdjNetIncmAmt>12865</TotalAdjNetIncmAmt>
+        <CompOfcrDirTrstRevAndExpnssAmt>146545</CompOfcrDirTrstRevAndExpnssAmt>
+        <CompOfcrDirTrstNetInvstIncmAmt>0</CompOfcrDirTrstNetInvstIncmAmt>
+        <CompOfcrDirTrstAdjNetIncmAmt>146545</CompOfcrDirTrstAdjNetIncmAmt>
+        <CompOfcrDirTrstDsbrsChrtblAmt>146545</CompOfcrDirTrstDsbrsChrtblAmt>
+        <PensionEmplBnftRevAndExpnssAmt>27626</PensionEmplBnftRevAndExpnssAmt>
+        <PensionEmplBnftNetInvstIncmAmt>0</PensionEmplBnftNetInvstIncmAmt>
+        <PensionEmplBnftAdjNetIncmAmt>27626</PensionEmplBnftAdjNetIncmAmt>
+        <PensionEmplBnftDsbrsChrtblAmt>27626</PensionEmplBnftDsbrsChrtblAmt>
+        <LegalFeesRevAndExpnssAmt referenceDocumentId="RetDoc2002100001">829</LegalFeesRevAndExpnssAmt>
+        <LegalFeesNetInvstIncmAmt>0</LegalFeesNetInvstIncmAmt>
+        <LegalFeesAdjNetIncmAmt>829</LegalFeesAdjNetIncmAmt>
+        <LegalFeesDsbrsChrtblAmt>829</LegalFeesDsbrsChrtblAmt>
+        <OtherExpensesRevAndExpnssAmt referenceDocumentId="RetDoc2003200001">257762</OtherExpensesRevAndExpnssAmt>
+        <OtherExpensesNetInvstIncmAmt>0</OtherExpensesNetInvstIncmAmt>
+        <OtherExpensesAdjNetIncmAmt>257762</OtherExpensesAdjNetIncmAmt>
+        <OtherExpensesDsbrsChrtblAmt>257762</OtherExpensesDsbrsChrtblAmt>
+        <TotOprExpensesRevAndExpnssAmt>432762</TotOprExpensesRevAndExpnssAmt>
+        <TotOprExpensesNetInvstIncmAmt>0</TotOprExpensesNetInvstIncmAmt>
+        <TotOprExpensesAdjNetIncmAmt>432762</TotOprExpensesAdjNetIncmAmt>
+        <TotOprExpensesDsbrsChrtblAmt>432762</TotOprExpensesDsbrsChrtblAmt>
+        <ContriPaidRevAndExpnssAmt>2242303</ContriPaidRevAndExpnssAmt>
+        <ContriPaidDsbrsChrtblAmt>2242303</ContriPaidDsbrsChrtblAmt>
+        <TotalExpensesRevAndExpnssAmt>2675065</TotalExpensesRevAndExpnssAmt>
+        <TotalExpensesNetInvstIncmAmt>0</TotalExpensesNetInvstIncmAmt>
+        <TotalExpensesAdjNetIncmAmt>432762</TotalExpensesAdjNetIncmAmt>
+        <TotalExpensesDsbrsChrtblAmt>2675065</TotalExpensesDsbrsChrtblAmt>
+        <ExcessRevenueOverExpensesAmt>1091994</ExcessRevenueOverExpensesAmt>
+        <NetInvestmentIncomeAmt>12865</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>0</AdjustedNetIncomeAmt>
+      </AnalysisOfRevenueAndExpenses>
+      <Form990PFBalanceSheetsGrp>
+        <SavAndTempCashInvstBOYAmt>1896501</SavAndTempCashInvstBOYAmt>
+        <SavAndTempCashInvstEOYAmt>4071060</SavAndTempCashInvstEOYAmt>
+        <SavAndTempCashInvstEOYFMVAmt>4071060</SavAndTempCashInvstEOYFMVAmt>
+        <AcctRcvblBOYAmt>100000</AcctRcvblBOYAmt>
+        <PrepaidExpensesBOYAmt>19632</PrepaidExpensesBOYAmt>
+        <PrepaidExpensesEOYAmt>19932</PrepaidExpensesEOYAmt>
+        <PrepaidExpensesEOYFMVAmt>19932</PrepaidExpensesEOYFMVAmt>
+        <TotalAssetsBOYAmt>2016133</TotalAssetsBOYAmt>
+        <TotalAssetsEOYAmt>4090992</TotalAssetsEOYAmt>
+        <TotalAssetsEOYFMVAmt>4090992</TotalAssetsEOYFMVAmt>
+        <AccountsPayableBOYAmt>59362</AccountsPayableBOYAmt>
+        <AccountsPayableEOYAmt>531692</AccountsPayableEOYAmt>
+        <LoansFromOfficersBOYAmt>98589</LoansFromOfficersBOYAmt>
+        <LoansFromOfficersEOYAmt>125425</LoansFromOfficersEOYAmt>
+        <OtherLiabilitiesBOYAmt referenceDocumentId="RetDoc2065700001">70000</OtherLiabilitiesBOYAmt>
+        <OtherLiabilitiesEOYAmt referenceDocumentId="RetDoc2065700001">49016</OtherLiabilitiesEOYAmt>
+        <TotalLiabilitiesBOYAmt>227951</TotalLiabilitiesBOYAmt>
+        <TotalLiabilitiesEOYAmt>706133</TotalLiabilitiesEOYAmt>
+        <OrganizationFollowsFASB117Ind>X</OrganizationFollowsFASB117Ind>
+        <NoDonorRstrNetAssestsBOYAmt>1788182</NoDonorRstrNetAssestsBOYAmt>
+        <NoDonorRstrNetAssestsEOYAmt>3384859</NoDonorRstrNetAssestsEOYAmt>
+        <TotNetAstOrFundBalancesBOYAmt>1788182</TotNetAstOrFundBalancesBOYAmt>
+        <TotNetAstOrFundBalancesEOYAmt>3384859</TotNetAstOrFundBalancesEOYAmt>
+        <TotalLiabilitiesNetAstBOYAmt>2016133</TotalLiabilitiesNetAstBOYAmt>
+        <TotalLiabilitiesNetAstEOYAmt>4090992</TotalLiabilitiesNetAstEOYAmt>
+      </Form990PFBalanceSheetsGrp>
+      <ChgInNetAssetsFundBalancesGrp>
+        <TotNetAstOrFundBalancesBOYAmt>1788182</TotNetAstOrFundBalancesBOYAmt>
+        <ExcessRevenueOverExpensesAmt>1091994</ExcessRevenueOverExpensesAmt>
+        <OtherIncreasesAmt referenceDocumentId="RetDoc2049700001">504683</OtherIncreasesAmt>
+        <SubtotalAmt>3384859</SubtotalAmt>
+        <OtherDecreasesAmt>0</OtherDecreasesAmt>
+        <TotNetAstOrFundBalancesEOYAmt>3384859</TotNetAstOrFundBalancesEOYAmt>
+      </ChgInNetAssetsFundBalancesGrp>
+      <ExciseTaxBasedOnInvstIncmGrp>
+        <InvestmentIncomeExciseTaxAmt>179</InvestmentIncomeExciseTaxAmt>
+        <TaxUnderSection511Amt>0</TaxUnderSection511Amt>
+        <SubtotalAmt>179</SubtotalAmt>
+        <SubtitleATaxAmt>0</SubtitleATaxAmt>
+        <TaxBasedOnInvestmentIncomeAmt>179</TaxBasedOnInvestmentIncomeAmt>
+        <EstimatedPlusOvpmtIncmTxAmt>179</EstimatedPlusOvpmtIncmTxAmt>
+        <ExemptFrgnOrgTaxWthldAtSrceAmt>0</ExemptFrgnOrgTaxWthldAtSrceAmt>
+        <ExtsnRequestIncomeTaxPaidAmt>0</ExtsnRequestIncomeTaxPaidAmt>
+        <BackupWithholdingWithheldAmt>0</BackupWithholdingWithheldAmt>
+        <TotalPaymentsAndCreditsAmt>179</TotalPaymentsAndCreditsAmt>
+        <EsPenaltyAmt>0</EsPenaltyAmt>
+        <TaxDueAmt>0</TaxDueAmt>
+      </ExciseTaxBasedOnInvstIncmGrp>
+      <StatementsRegardingActyGrp>
+        <LegislativePoliticalActyInd>0</LegislativePoliticalActyInd>
+        <MoreThan100SpentInd>0</MoreThan100SpentInd>
+        <Form1120POLFiledInd>0</Form1120POLFiledInd>
+        <Section4955OrganizationTaxAmt>0</Section4955OrganizationTaxAmt>
+        <Section4955ManagersTaxAmt>0</Section4955ManagersTaxAmt>
+        <TaxReimbursedAmt>0</TaxReimbursedAmt>
+        <ActivitiesNotPreviouslyRptInd>0</ActivitiesNotPreviouslyRptInd>
+        <ChangesToArticlesOrBylawsInd>0</ChangesToArticlesOrBylawsInd>
+        <UnrelatedBusIncmOverLimitInd>0</UnrelatedBusIncmOverLimitInd>
+        <OrganizationDissolvedEtcInd>0</OrganizationDissolvedEtcInd>
+        <Section508eRqrSatisfiedInd>1</Section508eRqrSatisfiedInd>
+        <AtLeast5000InAssetsInd>1</AtLeast5000InAssetsInd>
+        <OrgReportOrRegisterStateCd>MA</OrgReportOrRegisterStateCd>
+        <Form990PFFiledWithAttyGenInd>1</Form990PFFiledWithAttyGenInd>
+        <PrivateOperatingFoundationInd>1</PrivateOperatingFoundationInd>
+        <NewSubstantialContributorsInd referenceDocumentId="RetDoc2089200001">1</NewSubstantialContributorsInd>
+        <OwnControlledEntityInd>0</OwnControlledEntityInd>
+        <DonorAdvisedFundInd>0</DonorAdvisedFundInd>
+        <ComplyWithPublicInspRqrInd>1</ComplyWithPublicInspRqrInd>
+        <WebsiteAddressTxt>WWW.GRANDCIRCLEFOUNDATION.ORG</WebsiteAddressTxt>
+        <IndividualWithBooksNm>SAMUEL BUTLER</IndividualWithBooksNm>
+        <PhoneNum>6177903934</PhoneNum>
+        <LocationOfBooksUSAddress>
+          <AddressLine1Txt>GRAND CIRCLE 347 CONGRESS STREET</AddressLine1Txt>
+          <CityNm>BOSTON</CityNm>
+          <StateAbbreviationCd>MA</StateAbbreviationCd>
+          <ZIPCd>02210</ZIPCd>
+        </LocationOfBooksUSAddress>
+        <ForeignAccountsQuestionInd>0</ForeignAccountsQuestionInd>
+      </StatementsRegardingActyGrp>
+      <StatementsRegardingActy4720Grp>
+        <SaleOrExchDisqualifiedPrsnInd>0</SaleOrExchDisqualifiedPrsnInd>
+        <BrrwOrLendDisqualifiedPrsnInd>0</BrrwOrLendDisqualifiedPrsnInd>
+        <FurnGoodsDisqualifiedPrsnInd>0</FurnGoodsDisqualifiedPrsnInd>
+        <PayCompDisqualifiedPrsnInd>0</PayCompDisqualifiedPrsnInd>
+        <TransferAstDisqualifiedPrsnInd>0</TransferAstDisqualifiedPrsnInd>
+        <PaymentToGovernmentOfficialInd>0</PaymentToGovernmentOfficialInd>
+        <UncorrectedPriorActsInd>0</UncorrectedPriorActsInd>
+        <UndistributedIncomePYInd>0</UndistributedIncomePYInd>
+        <BusinessHoldingsInd>0</BusinessHoldingsInd>
+        <JeopardyInvestmentsInd>0</JeopardyInvestmentsInd>
+        <UncorrectedPYJeopardyInvstInd>0</UncorrectedPYJeopardyInvstInd>
+        <InfluenceLegislationInd>0</InfluenceLegislationInd>
+        <InfluenceElectionInd>0</InfluenceElectionInd>
+        <GrantsToIndividualsInd>0</GrantsToIndividualsInd>
+        <GrantsToOrganizationsInd>1</GrantsToOrganizationsInd>
+        <NoncharitablePurposeInd>0</NoncharitablePurposeInd>
+        <TransactionsFailToQlfyAsExcInd>0</TransactionsFailToQlfyAsExcInd>
+        <MaintainedExpenditureRspnsInd referenceDocumentId="RetDoc2118100001">1</MaintainedExpenditureRspnsInd>
+        <RcvFndsToPayPrsnlBnftCntrctInd>0</RcvFndsToPayPrsnlBnftCntrctInd>
+        <PayPremiumsPrsnlBnftCntrctInd>0</PayPremiumsPrsnlBnftCntrctInd>
+        <ProhibitedTaxShelterTransInd>0</ProhibitedTaxShelterTransInd>
+        <SubjToTaxRmnrtnExPrchtPymtInd>0</SubjToTaxRmnrtnExPrchtPymtInd>
+      </StatementsRegardingActy4720Grp>
+      <OfficerDirTrstKeyEmplInfoGrp>
+        <OfficerDirTrstKeyEmplGrp>
+          <PersonNm>JANICE BYRNES</PersonNm>
+          <USAddress>
+            <AddressLine1Txt>GRAND CIRCLE CORP 347 CONGRESS ST</AddressLine1Txt>
+            <CityNm>BOSTON</CityNm>
+            <StateAbbreviationCd>MA</StateAbbreviationCd>
+            <ZIPCd>02210</ZIPCd>
+          </USAddress>
+          <TitleTxt>VICE PRESIDENT, TREASURER, CLERK</TitleTxt>
+          <AverageHrsPerWkDevotedToPosRt>22.50</AverageHrsPerWkDevotedToPosRt>
+          <CompensationAmt>0</CompensationAmt>
+          <EmployeeBenefitProgramAmt>0</EmployeeBenefitProgramAmt>
+          <ExpenseAccountOtherAllwncAmt>0</ExpenseAccountOtherAllwncAmt>
+        </OfficerDirTrstKeyEmplGrp>
+        <OfficerDirTrstKeyEmplGrp>
+          <PersonNm>CHARLOTTE R LEWIS</PersonNm>
+          <USAddress>
+            <AddressLine1Txt>GRAND CIRCLE CORP 347 CONGRESS ST</AddressLine1Txt>
+            <CityNm>BOSTON</CityNm>
+            <StateAbbreviationCd>MA</StateAbbreviationCd>
+            <ZIPCd>02210</ZIPCd>
+          </USAddress>
+          <TitleTxt>DIRECTOR</TitleTxt>
+          <AverageHrsPerWkDevotedToPosRt>5.00</AverageHrsPerWkDevotedToPosRt>
+          <CompensationAmt>0</CompensationAmt>
+          <EmployeeBenefitProgramAmt>0</EmployeeBenefitProgramAmt>
+          <ExpenseAccountOtherAllwncAmt>0</ExpenseAccountOtherAllwncAmt>
+        </OfficerDirTrstKeyEmplGrp>
+        <OfficerDirTrstKeyEmplGrp>
+          <PersonNm>EDWARD R LEWIS</PersonNm>
+          <USAddress>
+            <AddressLine1Txt>GRAND CIRCLE CORP 347 CONGRESS ST</AddressLine1Txt>
+            <CityNm>BOSTON</CityNm>
+            <StateAbbreviationCd>MA</StateAbbreviationCd>
+            <ZIPCd>02210</ZIPCd>
+          </USAddress>
+          <TitleTxt>DIRECTOR</TitleTxt>
+          <AverageHrsPerWkDevotedToPosRt>5.00</AverageHrsPerWkDevotedToPosRt>
+          <CompensationAmt>0</CompensationAmt>
+          <EmployeeBenefitProgramAmt>0</EmployeeBenefitProgramAmt>
+          <ExpenseAccountOtherAllwncAmt>0</ExpenseAccountOtherAllwncAmt>
+        </OfficerDirTrstKeyEmplGrp>
+        <OfficerDirTrstKeyEmplGrp>
+          <PersonNm>HARRIET LEWIS</PersonNm>
+          <USAddress>
+            <AddressLine1Txt>GRAND CIRCLE CORP 347 CONGRESS ST</AddressLine1Txt>
+            <CityNm>BOSTON</CityNm>
+            <StateAbbreviationCd>MA</StateAbbreviationCd>
+            <ZIPCd>02210</ZIPCd>
+          </USAddress>
+          <TitleTxt>DIRECTOR</TitleTxt>
+          <AverageHrsPerWkDevotedToPosRt>5.00</AverageHrsPerWkDevotedToPosRt>
+          <CompensationAmt>0</CompensationAmt>
+          <EmployeeBenefitProgramAmt>0</EmployeeBenefitProgramAmt>
+          <ExpenseAccountOtherAllwncAmt>0</ExpenseAccountOtherAllwncAmt>
+        </OfficerDirTrstKeyEmplGrp>
+        <CompensationHighestPaidEmplGrp>
+          <PersonNm>JANICE BYRNES</PersonNm>
+          <USAddress>
+            <AddressLine1Txt>347 CONGRESS STREET</AddressLine1Txt>
+            <CityNm>BOSTON</CityNm>
+            <StateAbbreviationCd>MA</StateAbbreviationCd>
+            <ZIPCd>02210</ZIPCd>
+          </USAddress>
+          <TitleTxt>VP, GRAND CIRCLE FOU</TitleTxt>
+          <AverageHrsPerWkDevotedToPosRt>22.50</AverageHrsPerWkDevotedToPosRt>
+          <CompensationAmt>69230</CompensationAmt>
+          <EmployeeBenefitsAmt>0</EmployeeBenefitsAmt>
+          <ExpenseAccountAmt>0</ExpenseAccountAmt>
+        </CompensationHighestPaidEmplGrp>
+        <CompensationHighestPaidEmplGrp>
+          <PersonNm>BARBARA SIRIGOS</PersonNm>
+          <USAddress>
+            <AddressLine1Txt>347 CONGRESS STREET</AddressLine1Txt>
+            <CityNm>BOSTON</CityNm>
+            <StateAbbreviationCd>MA</StateAbbreviationCd>
+            <ZIPCd>02210</ZIPCd>
+          </USAddress>
+          <TitleTxt>DIRECTOR, GRAND CIRC</TitleTxt>
+          <AverageHrsPerWkDevotedToPosRt>30.00</AverageHrsPerWkDevotedToPosRt>
+          <CompensationAmt>40750</CompensationAmt>
+          <EmployeeBenefitsAmt>0</EmployeeBenefitsAmt>
+          <ExpenseAccountAmt>0</ExpenseAccountAmt>
+        </CompensationHighestPaidEmplGrp>
+        <OtherEmployeePaidOver50kCnt>0</OtherEmployeePaidOver50kCnt>
+        <CompensationOfHghstPdCntrctGrp>
+          <BusinessName>
+            <BusinessNameLine1Txt>POLARIS</BusinessNameLine1Txt>
+          </BusinessName>
+          <USAddress>
+            <AddressLine1Txt>6595 ROSWELL ROAD SUITE G-1607</AddressLine1Txt>
+            <CityNm>ATLANTA</CityNm>
+            <StateAbbreviationCd>GA</StateAbbreviationCd>
+            <ZIPCd>30328</ZIPCd>
+          </USAddress>
+          <ServiceTypeTxt>STAFFING COMPANY</ServiceTypeTxt>
+          <CompensationAmt>0</CompensationAmt>
+        </CompensationOfHghstPdCntrctGrp>
+        <ContractorPaidOver50kCnt>0</ContractorPaidOver50kCnt>
+      </OfficerDirTrstKeyEmplInfoGrp>
+      <SummaryOfDirectChrtblActyGrp>
+        <Description1Txt>GRANTEE NAME: SPORTOWOUKRAINE: HOUSING REFUGEES FOR ONE YEAR WITH FOOD AND GOODS TO SUPPORT THEM</Description1Txt>
+        <Expenses1Amt>197162</Expenses1Amt>
+        <Description2Txt>GRANTEE NAME: URR POLAND - JOANNA KOMARNICKA HOSTELPOLAND: PROVIDED FOOD, SUPPLIES, ELECTRICITY, LANGUAGE LESSONS, ETC FOR UP TO 200 MOTHERS AND CHILDREN</Description2Txt>
+        <Expenses2Amt>151754</Expenses2Amt>
+        <Description3Txt>GRANTEE NAME: URR POLAND - HUMANOSHPOLAND: MEDICAL MISSION OF REFUGEE RELIEF &amp; PURCHASE OF AN AMBULANCE</Description3Txt>
+        <Expenses3Amt>126925</Expenses3Amt>
+        <Description4Txt>GRANTEE NAME: HIMALAYAN TRUSTNEPAL: CONTRUCTION OF 24 BED GIRLS' DORMITORY, BATHROOMS &amp; DINING HALL AT THE SHREE BIRENDA JYOTI SECONDARY SCHOOL</Description4Txt>
+        <Expenses4Amt>58000</Expenses4Amt>
+      </SummaryOfDirectChrtblActyGrp>
+      <SumOfProgramRelatedInvstGrp>
+        <TotalAmt>0</TotalAmt>
+      </SumOfProgramRelatedInvstGrp>
+      <MinimumInvestmentReturnGrp>
+        <AverageMonthlyFMVOfSecAmt>0</AverageMonthlyFMVOfSecAmt>
+        <AverageMonthlyCashBalancesAmt>3270518</AverageMonthlyCashBalancesAmt>
+        <FMVAllOtherNoncharitableAstAmt>0</FMVAllOtherNoncharitableAstAmt>
+        <TotalFMVOfUnusedAssetsAmt>3270518</TotalFMVOfUnusedAssetsAmt>
+        <ReductionClaimedAmt>0</ReductionClaimedAmt>
+        <AcquisitionIndebtednessAmt>0</AcquisitionIndebtednessAmt>
+        <AdjustedTotalFMVOfUnusedAstAmt>3270518</AdjustedTotalFMVOfUnusedAstAmt>
+        <CashDeemedCharitableAmt>49058</CashDeemedCharitableAmt>
+        <NetVlNoncharitableAssetsAmt>3221460</NetVlNoncharitableAssetsAmt>
+        <MinimumInvestmentReturnAmt>161073</MinimumInvestmentReturnAmt>
+      </MinimumInvestmentReturnGrp>
+      <DistributableAmountGrp>
+        <Sect4942j3j5FndtnAndFrgnOrgInd>X</Sect4942j3j5FndtnAndFrgnOrgInd>
+      </DistributableAmountGrp>
+      <PFQualifyingDistributionsGrp>
+        <ExpensesAndContributionsAmt>2675065</ExpensesAndContributionsAmt>
+        <ProgramRelatedInvstTotalAmt>0</ProgramRelatedInvstTotalAmt>
+        <QualifyingDistributionsAmt>2675065</QualifyingDistributionsAmt>
+      </PFQualifyingDistributionsGrp>
+      <PrivateOperatingFoundationsGrp>
+        <Section4942j3Ind>X</Section4942j3Ind>
+        <LessorAdjNetIncmMinInvstRetGrp>
+          <CurrentYearAmt>0</CurrentYearAmt>
+          <Year1Amt>2401</Year1Amt>
+          <Year2Amt>16846</Year2Amt>
+          <Year3Amt>263627</Year3Amt>
+          <TotalAmt>282874</TotalAmt>
+        </LessorAdjNetIncmMinInvstRetGrp>
+        <Pct85LessorAdjIncmOrMinRetGrp>
+          <CurrentYearAmt>0</CurrentYearAmt>
+          <Year1Amt>2041</Year1Amt>
+          <Year2Amt>14319</Year2Amt>
+          <Year3Amt>224083</Year3Amt>
+          <TotalAmt>240443</TotalAmt>
+        </Pct85LessorAdjIncmOrMinRetGrp>
+        <QualifyingDistributionsGrp>
+          <CurrentYearAmt>2675065</CurrentYearAmt>
+          <Year1Amt>821936</Year1Amt>
+          <Year2Amt>1839514</Year2Amt>
+          <Year3Amt>3813046</Year3Amt>
+          <TotalAmt>9149561</TotalAmt>
+        </QualifyingDistributionsGrp>
+        <QualifyingDistriNotUsedDrtGrp>
+          <CurrentYearAmt>0</CurrentYearAmt>
+          <Year1Amt>0</Year1Amt>
+          <Year2Amt>0</Year2Amt>
+          <Year3Amt>0</Year3Amt>
+          <TotalAmt>0</TotalAmt>
+        </QualifyingDistriNotUsedDrtGrp>
+        <QualifyingDistriMadeDrtGrp>
+          <CurrentYearAmt>2675065</CurrentYearAmt>
+          <Year1Amt>821936</Year1Amt>
+          <Year2Amt>1839514</Year2Amt>
+          <Year3Amt>3813046</Year3Amt>
+          <TotalAmt>9149561</TotalAmt>
+        </QualifyingDistriMadeDrtGrp>
+        <TotalAssetsGrp>
+          <CurrentYearAmt>4071060</CurrentYearAmt>
+          <Year1Amt>1896501</Year1Amt>
+          <Year2Amt>3359485</Year2Amt>
+          <Year3Amt>4259183</Year3Amt>
+          <TotalAmt>13586229</TotalAmt>
+        </TotalAssetsGrp>
+        <TotalAssetsSect4942j3BiGrp>
+          <CurrentYearAmt>4071060</CurrentYearAmt>
+          <Year1Amt>1896501</Year1Amt>
+          <Year2Amt>3359485</Year2Amt>
+          <Year3Amt>3865719</Year3Amt>
+          <TotalAmt>13192765</TotalAmt>
+        </TotalAssetsSect4942j3BiGrp>
+        <TwoThirdsMinimumInvstRetGrp>
+          <CurrentYearAmt>107382</CurrentYearAmt>
+          <Year1Amt>70871</Year1Amt>
+          <Year2Amt>121202</Year2Amt>
+          <Year3Amt>175751</Year3Amt>
+          <TotalAmt>475206</TotalAmt>
+        </TwoThirdsMinimumInvstRetGrp>
+        <TotalSupportGrp>
+          <TotalAmt>0</TotalAmt>
+        </TotalSupportGrp>
+        <PublicSupportType>
+          <TotalAmt>0</TotalAmt>
+        </PublicSupportType>
+        <LargestSupportFromEOGrp>
+          <TotalAmt>0</TotalAmt>
+        </LargestSupportFromEOGrp>
+        <GrossInvestmentIncomeGrp>
+          <CurrentYearAmt>12636</CurrentYearAmt>
+          <Year1Amt>2198</Year1Amt>
+          <Year2Amt>16846</Year2Amt>
+          <TotalAmt>31680</TotalAmt>
+        </GrossInvestmentIncomeGrp>
+      </PrivateOperatingFoundationsGrp>
+      <SupplementaryInformationGrp>
+        <OnlyContriToPreselectedInd>X</OnlyContriToPreselectedInd>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>AMAZON WATCH</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientUSAddress>
+            <AddressLine1Txt>520 3RD STREET SUITE 108</AddressLine1Txt>
+            <CityNm>OAKLAND</CityNm>
+            <StateAbbreviationCd>CA</StateAbbreviationCd>
+            <ZIPCd>94607</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientFoundationStatusTxt>PC</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>GENERAL</GrantOrContributionPurposeTxt>
+          <Amt>11483</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>AMBOSELI LEWIS SECONDARY SCHOOL</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientForeignAddress>
+            <AddressLine1Txt>PO BOX 393-00209</AddressLine1Txt>
+            <ProvinceOrStateNm>LOITOKITOK</ProvinceOrStateNm>
+            <CountryCd>KE</CountryCd>
+          </RecipientForeignAddress>
+          <RecipientFoundationStatusTxt>NC</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>GENERAL</GrantOrContributionPurposeTxt>
+          <Amt>1023</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>CHANGARWE PRIMARY SCHOOL</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientForeignAddress>
+            <AddressLine1Txt>PO BOX 228</AddressLine1Txt>
+            <ProvinceOrStateNm>KARATU</ProvinceOrStateNm>
+            <CountryCd>TZ</CountryCd>
+          </RecipientForeignAddress>
+          <RecipientFoundationStatusTxt>NC</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>GENERAL</GrantOrContributionPurposeTxt>
+          <Amt>1250</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>SUR</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientUSAddress>
+            <AddressLine1Txt>PO BOX 4569</AddressLine1Txt>
+            <CityNm>ARCATA</CityNm>
+            <StateAbbreviationCd>CA</StateAbbreviationCd>
+            <ZIPCd>95518</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientFoundationStatusTxt>PC</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>GENERAL</GrantOrContributionPurposeTxt>
+          <Amt>2036</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>CORAL NURTURE PROGRAM</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientForeignAddress>
+            <AddressLine1Txt>287 DRAPER ST</AddressLine1Txt>
+            <ProvinceOrStateNm>CAIRNS</ProvinceOrStateNm>
+            <CountryCd>AS</CountryCd>
+          </RecipientForeignAddress>
+          <RecipientFoundationStatusTxt>NC</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>GENERAL</GrantOrContributionPurposeTxt>
+          <Amt>6275</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>GENERAL AFRICA</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientForeignAddress>
+            <AddressLine1Txt>PO BOX 393-00209</AddressLine1Txt>
+            <ProvinceOrStateNm>LOITOKITOK</ProvinceOrStateNm>
+            <CountryCd>KE</CountryCd>
+          </RecipientForeignAddress>
+          <RecipientFoundationStatusTxt>NC</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>GENERAL</GrantOrContributionPurposeTxt>
+          <Amt>10000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>GENERAL ECUADOR</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientForeignAddress>
+            <AddressLine1Txt>INGLATERRA 1373</AddressLine1Txt>
+            <ProvinceOrStateNm>QUITO</ProvinceOrStateNm>
+            <CountryCd>EC</CountryCd>
+          </RecipientForeignAddress>
+          <RecipientFoundationStatusTxt>NC</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>GENERAL</GrantOrContributionPurposeTxt>
+          <Amt>15000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>GENERAL KENYA</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientForeignAddress>
+            <AddressLine1Txt>PO BOX 393-00209</AddressLine1Txt>
+            <ProvinceOrStateNm>LOITOKITOK</ProvinceOrStateNm>
+            <CountryCd>KE</CountryCd>
+          </RecipientForeignAddress>
+          <RecipientFoundationStatusTxt>NC</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>GENERAL</GrantOrContributionPurposeTxt>
+          <Amt>500</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>GENERAL TANZANIA</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientForeignAddress>
+            <AddressLine1Txt>PO BOX 16952</AddressLine1Txt>
+            <ProvinceOrStateNm>ARUSHA</ProvinceOrStateNm>
+            <CountryCd>TZ</CountryCd>
+          </RecipientForeignAddress>
+          <RecipientFoundationStatusTxt>NC</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>GENERAL</GrantOrContributionPurposeTxt>
+          <Amt>29633</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>GENERAL ZIMBABWE</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientForeignAddress>
+            <AddressLine1Txt>1790 RYDLE RIDGE PARK</AddressLine1Txt>
+            <ProvinceOrStateNm>HARRARE</ProvinceOrStateNm>
+            <CountryCd>ZI</CountryCd>
+          </RecipientForeignAddress>
+          <RecipientFoundationStatusTxt>NC</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>GENERAL</GrantOrContributionPurposeTxt>
+          <Amt>19720</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>INSTITUO TERRA</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientForeignAddress>
+            <AddressLine1Txt>RPPN BULCAO FARM PO BOX 005</AddressLine1Txt>
+            <ProvinceOrStateNm>AIMORES</ProvinceOrStateNm>
+            <CountryCd>BR</CountryCd>
+          </RecipientForeignAddress>
+          <RecipientFoundationStatusTxt>NC</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>GENERAL</GrantOrContributionPurposeTxt>
+          <Amt>10000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>PEOPLES</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientUSAddress>
+            <AddressLine1Txt>347 CONGRESS STREET</AddressLine1Txt>
+            <CityNm>BOSTON</CityNm>
+            <StateAbbreviationCd>MA</StateAbbreviationCd>
+            <ZIPCd>02210</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientFoundationStatusTxt>PC</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>GENERAL</GrantOrContributionPurposeTxt>
+          <Amt>3000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>INVISIBLE CITIES SCOTLAND</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientForeignAddress>
+            <AddressLine1Txt>1 LEITH WALK</AddressLine1Txt>
+            <ProvinceOrStateNm>EDINBURGH</ProvinceOrStateNm>
+            <CountryCd>UK</CountryCd>
+          </RecipientForeignAddress>
+          <RecipientFoundationStatusTxt>NC</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>GENERAL</GrantOrContributionPurposeTxt>
+          <Amt>3000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>KENYA SCHOLARSHIP FUND</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientForeignAddress>
+            <AddressLine1Txt>PO BOX 393-00209</AddressLine1Txt>
+            <ProvinceOrStateNm>LOITOKITOK</ProvinceOrStateNm>
+            <CountryCd>KE</CountryCd>
+          </RecipientForeignAddress>
+          <RecipientFoundationStatusTxt>NC</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>GENERAL</GrantOrContributionPurposeTxt>
+          <Amt>9160</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>KRISTINA TESTER SCHOLARSHIP FUND</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientForeignAddress>
+            <AddressLine1Txt>PO BOX 288</AddressLine1Txt>
+            <ProvinceOrStateNm>VICTORIA FALLS</ProvinceOrStateNm>
+            <CountryCd>ZI</CountryCd>
+          </RecipientForeignAddress>
+          <RecipientFoundationStatusTxt>NC</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>GENERAL</GrantOrContributionPurposeTxt>
+          <Amt>5254</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>LEMONG'O PRIMARY SCHOOL</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientForeignAddress>
+            <AddressLine1Txt>PO BOX 165-00209</AddressLine1Txt>
+            <ProvinceOrStateNm>LOITOKITOK</ProvinceOrStateNm>
+            <CountryCd>KE</CountryCd>
+          </RecipientForeignAddress>
+          <RecipientFoundationStatusTxt>NC</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>GENERAL</GrantOrContributionPurposeTxt>
+          <Amt>21379</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>MINH TU ORPHANAGE</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientForeignAddress>
+            <AddressLine1Txt>CU CHANH HAMLET-THUY BAN-HUON THUY</AddressLine1Txt>
+            <AddressLine2Txt>DISTRICT</AddressLine2Txt>
+            <ProvinceOrStateNm>HUE</ProvinceOrStateNm>
+            <CountryCd>VM</CountryCd>
+          </RecipientForeignAddress>
+          <RecipientFoundationStatusTxt>NC</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>GENERAL</GrantOrContributionPurposeTxt>
+          <Amt>4352</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>NGAMO VILLAGE</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientForeignAddress>
+            <AddressLine1Txt>PO BOX 288</AddressLine1Txt>
+            <ProvinceOrStateNm>VICTORIA FALLS</ProvinceOrStateNm>
+            <CountryCd>ZI</CountryCd>
+          </RecipientForeignAddress>
+          <RecipientFoundationStatusTxt>NC</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>GENERAL</GrantOrContributionPurposeTxt>
+          <Amt>20061</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>NIJA PANDA PRIMARY SCHOOL</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientForeignAddress>
+            <AddressLine1Txt>PO BOX 86</AddressLine1Txt>
+            <ProvinceOrStateNm>KARATU</ProvinceOrStateNm>
+            <CountryCd>TZ</CountryCd>
+          </RecipientForeignAddress>
+          <RecipientFoundationStatusTxt>NC</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>GENERAL</GrantOrContributionPurposeTxt>
+          <Amt>14482</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>OLEKEENE PRIMARY SCHOOL</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientForeignAddress>
+            <AddressLine1Txt>PO BOX 496</AddressLine1Txt>
+            <ProvinceOrStateNm>NAROK</ProvinceOrStateNm>
+            <CountryCd>KE</CountryCd>
+          </RecipientForeignAddress>
+          <RecipientFoundationStatusTxt>NC</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>GENERAL</GrantOrContributionPurposeTxt>
+          <Amt>3140</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>OLMOTI PRIMARY SCHOOL</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientForeignAddress>
+            <AddressLine1Txt>PO BOX 47-00209</AddressLine1Txt>
+            <ProvinceOrStateNm>LOITOKITOK</ProvinceOrStateNm>
+            <CountryCd>KE</CountryCd>
+          </RecipientForeignAddress>
+          <RecipientFoundationStatusTxt>NC</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>GENERAL</GrantOrContributionPurposeTxt>
+          <Amt>8909</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>RAMACHEN PRIMARY SCHOOL</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientForeignAddress>
+            <AddressLine1Txt>TAWACHIWOG</AddressLine1Txt>
+            <ProvinceOrStateNm>PHOBJI GEWOG</ProvinceOrStateNm>
+            <CountryCd>BT</CountryCd>
+          </RecipientForeignAddress>
+          <RecipientFoundationStatusTxt>NC</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>GENERAL</GrantOrContributionPurposeTxt>
+          <Amt>26668</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>RECONCILIATION VILLAGE</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientForeignAddress>
+            <AddressLine1Txt>PO BOX 24 MUSANZE/KINIGI</AddressLine1Txt>
+            <ProvinceOrStateNm>MUSANZE DISTRICT</ProvinceOrStateNm>
+            <CountryCd>RW</CountryCd>
+          </RecipientForeignAddress>
+          <RecipientFoundationStatusTxt>NC</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>GENERAL</GrantOrContributionPurposeTxt>
+          <Amt>3200</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>RHOTIA PRIMARY SCHOOL</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientForeignAddress>
+            <AddressLine1Txt>PO BOX 85</AddressLine1Txt>
+            <ProvinceOrStateNm>KARATU</ProvinceOrStateNm>
+            <CountryCd>TZ</CountryCd>
+          </RecipientForeignAddress>
+          <RecipientFoundationStatusTxt>NC</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>GENERAL</GrantOrContributionPurposeTxt>
+          <Amt>4292</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>RUSHUBI PRIMARY SCHOOL</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientForeignAddress>
+            <AddressLine1Txt>PO BOX 24 MUSANZE/KINIGI</AddressLine1Txt>
+            <ProvinceOrStateNm>MUSANZE DISTRICT</ProvinceOrStateNm>
+            <CountryCd>RW</CountryCd>
+          </RecipientForeignAddress>
+          <RecipientFoundationStatusTxt>NC</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>GENERAL</GrantOrContributionPurposeTxt>
+          <Amt>7630</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>RWANDA SCHOLARSHIP FUND</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientForeignAddress>
+            <AddressLine1Txt>PO BOX 24 MUSANZE/KINIGI</AddressLine1Txt>
+            <ProvinceOrStateNm>MUSANZE DISTRICT</ProvinceOrStateNm>
+            <CountryCd>RW</CountryCd>
+          </RecipientForeignAddress>
+          <RecipientFoundationStatusTxt>NC</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>GENERAL</GrantOrContributionPurposeTxt>
+          <Amt>170</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>SAFEWATER CERAMIC FILTERS</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientForeignAddress>
+            <AddressLine1Txt>PO BOX 15270</AddressLine1Txt>
+            <ProvinceOrStateNm>ARUSHA</ProvinceOrStateNm>
+            <CountryCd>TZ</CountryCd>
+          </RecipientForeignAddress>
+          <RecipientFoundationStatusTxt>NC</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>GENERAL</GrantOrContributionPurposeTxt>
+          <Amt>500</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>SHREE TANCHOK BASIC SCHOOL</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientForeignAddress>
+            <AddressLine1Txt>ANNAPURAN 7</AddressLine1Txt>
+            <ProvinceOrStateNm>MAJH GUAN KASKI</ProvinceOrStateNm>
+            <CountryCd>NP</CountryCd>
+          </RecipientForeignAddress>
+          <RecipientFoundationStatusTxt>NC</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>GENERAL</GrantOrContributionPurposeTxt>
+          <Amt>6428</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>SINFONIETTA VIDIN</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientForeignAddress>
+            <AddressLine1Txt>STR TSAR ALEXANDER II BL6/7</AddressLine1Txt>
+            <ProvinceOrStateNm>VDIN</ProvinceOrStateNm>
+            <CountryCd>BU</CountryCd>
+          </RecipientForeignAddress>
+          <RecipientFoundationStatusTxt>NC</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>GENERAL</GrantOrContributionPurposeTxt>
+          <Amt>1845</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>SOLAR VILLAGE PROJECT</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientUSAddress>
+            <AddressLine1Txt>UNIT 3029 1296 CRONSON BLVD</AddressLine1Txt>
+            <CityNm>CROFTON</CityNm>
+            <StateAbbreviationCd>MD</StateAbbreviationCd>
+            <ZIPCd>21114</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientFoundationStatusTxt>PC</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>GENERAL</GrantOrContributionPurposeTxt>
+          <Amt>25000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>ST MARY'S PRIMARY SCHOOL</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientForeignAddress>
+            <AddressLine1Txt>PO BOX 89</AddressLine1Txt>
+            <ProvinceOrStateNm>HWANGE</ProvinceOrStateNm>
+            <CountryCd>ZI</CountryCd>
+          </RecipientForeignAddress>
+          <RecipientFoundationStatusTxt>NC</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>GENERAL</GrantOrContributionPurposeTxt>
+          <Amt>32541</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>STREETS INTERNATIONAL</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientForeignAddress>
+            <AddressLine1Txt>17 LE LOI ST</AddressLine1Txt>
+            <ProvinceOrStateNm>HOI AN</ProvinceOrStateNm>
+            <CountryCd>VM</CountryCd>
+          </RecipientForeignAddress>
+          <RecipientFoundationStatusTxt>NC</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>GENERAL</GrantOrContributionPurposeTxt>
+          <Amt>33600</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>TANZANIA SCHOLARSHIP FUND</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientForeignAddress>
+            <AddressLine1Txt>PO BOX 86</AddressLine1Txt>
+            <ProvinceOrStateNm>KARATU</ProvinceOrStateNm>
+            <CountryCd>TZ</CountryCd>
+          </RecipientForeignAddress>
+          <RecipientFoundationStatusTxt>NC</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>GENERAL</GrantOrContributionPurposeTxt>
+          <Amt>7347</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>TARANGIRE MAASAI BOMA VILLAGE</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientForeignAddress>
+            <AddressLine1Txt>PO BOX 3134</AddressLine1Txt>
+            <ProvinceOrStateNm>ARUSHA</ProvinceOrStateNm>
+            <CountryCd>TZ</CountryCd>
+          </RecipientForeignAddress>
+          <RecipientFoundationStatusTxt>NC</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>GENERAL</GrantOrContributionPurposeTxt>
+          <Amt>195</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>TLOMA PRIMARY SCHOOL</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientForeignAddress>
+            <AddressLine1Txt>PO BOX 176</AddressLine1Txt>
+            <ProvinceOrStateNm>KARATU</ProvinceOrStateNm>
+            <CountryCd>TZ</CountryCd>
+          </RecipientForeignAddress>
+          <RecipientFoundationStatusTxt>NC</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>GENERAL</GrantOrContributionPurposeTxt>
+          <Amt>18155</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>URR POLAND - FATHER ARKADIUZ</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientForeignAddress>
+            <AddressLine1Txt>AI GEN HALLERA 88/8</AddressLine1Txt>
+            <ProvinceOrStateNm>WROCLAW</ProvinceOrStateNm>
+            <CountryCd>PL</CountryCd>
+          </RecipientForeignAddress>
+          <RecipientFoundationStatusTxt>NC</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>GENERAL</GrantOrContributionPurposeTxt>
+          <Amt>93753</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>URR POLAND - HAPPY KIDS ORPHANAGE</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientForeignAddress>
+            <AddressLine1Txt>UL ZNIWNA 10/14</AddressLine1Txt>
+            <ProvinceOrStateNm>LODZ</ProvinceOrStateNm>
+            <CountryCd>PL</CountryCd>
+          </RecipientForeignAddress>
+          <RecipientFoundationStatusTxt>NC</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>GENERAL</GrantOrContributionPurposeTxt>
+          <Amt>13869</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>URR POLAND - HUMANOSH</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientForeignAddress>
+            <AddressLine1Txt>UL KURACYJNA 11</AddressLine1Txt>
+            <ProvinceOrStateNm>WARSZAWA</ProvinceOrStateNm>
+            <CountryCd>PL</CountryCd>
+          </RecipientForeignAddress>
+          <RecipientFoundationStatusTxt>NC</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>GENERAL</GrantOrContributionPurposeTxt>
+          <Amt>126925</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>URR POLAND - JOANNA KOMARNICKA HOSTEL</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientForeignAddress>
+            <AddressLine1Txt>WITA STWOSZA 12</AddressLine1Txt>
+            <ProvinceOrStateNm>WROCLAW</ProvinceOrStateNm>
+            <CountryCd>PL</CountryCd>
+          </RecipientForeignAddress>
+          <RecipientFoundationStatusTxt>NC</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>GENERAL</GrantOrContributionPurposeTxt>
+          <Amt>151754</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>FOUNDATION</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientUSAddress>
+            <AddressLine1Txt>347 CONGRESS STREET</AddressLine1Txt>
+            <CityNm>BOSTON</CityNm>
+            <StateAbbreviationCd>MA</StateAbbreviationCd>
+            <ZIPCd>02210</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientFoundationStatusTxt>PC</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>GENERAL</GrantOrContributionPurposeTxt>
+          <Amt>700000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>SPORTOWO</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientUSAddress>
+            <AddressLine1Txt>347 CONGRESS STREET</AddressLine1Txt>
+            <CityNm>BOSTON</CityNm>
+            <StateAbbreviationCd>MA</StateAbbreviationCd>
+            <ZIPCd>02210</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientFoundationStatusTxt>PC</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>GENERAL</GrantOrContributionPurposeTxt>
+          <Amt>197162</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>URR ROMANIA - BORDER CROSSING</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientForeignAddress>
+            <AddressLine1Txt>AI GEN HALLERA 88/8</AddressLine1Txt>
+            <ProvinceOrStateNm>WROCLAW</ProvinceOrStateNm>
+            <CountryCd>PL</CountryCd>
+          </RecipientForeignAddress>
+          <RecipientFoundationStatusTxt>NC</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>GENERAL</GrantOrContributionPurposeTxt>
+          <Amt>50000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>URR ROMANIA - CASA CRENGUTEIR</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientForeignAddress>
+            <AddressLine1Txt>STR PROGRESULUI NR 17B</AddressLine1Txt>
+            <ProvinceOrStateNm>BAIA MARE</ProvinceOrStateNm>
+            <CountryCd>RO</CountryCd>
+          </RecipientForeignAddress>
+          <RecipientFoundationStatusTxt>NC</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>GENERAL</GrantOrContributionPurposeTxt>
+          <Amt>30000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>URR ROMANIA - MEDIAS FALTICENI</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientForeignAddress>
+            <AddressLine1Txt>SAT DOLHESTII MICI</AddressLine1Txt>
+            <ProvinceOrStateNm>SUCEAVA</ProvinceOrStateNm>
+            <CountryCd>RO</CountryCd>
+          </RecipientForeignAddress>
+          <RecipientFoundationStatusTxt>NC</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>GENERAL</GrantOrContributionPurposeTxt>
+          <Amt>38000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>URR ROMANIA - UKRANIAN BORDER CAMP</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientForeignAddress>
+            <AddressLine1Txt>AI GEN HALLERA 88/8</AddressLine1Txt>
+            <ProvinceOrStateNm>WROCLAW</ProvinceOrStateNm>
+            <CountryCd>PL</CountryCd>
+          </RecipientForeignAddress>
+          <RecipientFoundationStatusTxt>NC</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>GENERAL</GrantOrContributionPurposeTxt>
+          <Amt>20000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>PHILANTHROPIES</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientUSAddress>
+            <AddressLine1Txt>347 CONGRESS STREET</AddressLine1Txt>
+            <CityNm>BOSTON</CityNm>
+            <StateAbbreviationCd>MA</StateAbbreviationCd>
+            <ZIPCd>02210</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientFoundationStatusTxt>NC</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>GENERAL</GrantOrContributionPurposeTxt>
+          <Amt>150000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>COMMITTEE</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientUSAddress>
+            <AddressLine1Txt>347 CONGRESS STREET</AddressLine1Txt>
+            <CityNm>BOSTON</CityNm>
+            <StateAbbreviationCd>MA</StateAbbreviationCd>
+            <ZIPCd>02210</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientFoundationStatusTxt>NC</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>GENERAL</GrantOrContributionPurposeTxt>
+          <Amt>200000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>URR UKRAINE - W2W</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientUSAddress>
+            <AddressLine1Txt>347 CONGRESS STREET</AddressLine1Txt>
+            <CityNm>BOSTON</CityNm>
+            <StateAbbreviationCd>MA</StateAbbreviationCd>
+            <ZIPCd>02210</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientFoundationStatusTxt>NC</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>GENERAL</GrantOrContributionPurposeTxt>
+          <Amt>100000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>ZIMBABWE SCHOLARSHIP FUND</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientForeignAddress>
+            <AddressLine1Txt>PO BOX 89</AddressLine1Txt>
+            <CountryCd>ZI</CountryCd>
+          </RecipientForeignAddress>
+          <RecipientFoundationStatusTxt>NC</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>GENERAL</GrantOrContributionPurposeTxt>
+          <Amt>3612</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>AMBOSELI LEWIS SECONDARY SCHOOL</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientForeignAddress>
+            <AddressLine1Txt>PO BOX 393-00209</AddressLine1Txt>
+            <ProvinceOrStateNm>LOITOKITOK</ProvinceOrStateNm>
+            <CountryCd>KE</CountryCd>
+          </RecipientForeignAddress>
+          <RecipientFoundationStatusTxt>NC</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>GENERAL</GrantOrContributionPurposeTxt>
+          <Amt>7621</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>AMBOSELI PRIMARY SCHOOL</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientForeignAddress>
+            <AddressLine1Txt>PO BOX 393-00209</AddressLine1Txt>
+            <ProvinceOrStateNm>LOITOKITOK</ProvinceOrStateNm>
+            <CountryCd>KE</CountryCd>
+          </RecipientForeignAddress>
+          <RecipientFoundationStatusTxt>NC</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>GENERAL</GrantOrContributionPurposeTxt>
+          <Amt>9280</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>AYALABE PRIMARY SCHOOL</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientForeignAddress>
+            <AddressLine1Txt>PO BOX 287</AddressLine1Txt>
+            <ProvinceOrStateNm>KARATU</ProvinceOrStateNm>
+            <CountryCd>TZ</CountryCd>
+          </RecipientForeignAddress>
+          <RecipientFoundationStatusTxt>NC</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>GENERAL</GrantOrContributionPurposeTxt>
+          <Amt>8767</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>CAT WOMEN'S COOPERATIVE</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientForeignAddress>
+            <AddressLine1Txt>GUZELYURT MAHALLESI</AddressLine1Txt>
+            <ProvinceOrStateNm>CAT KASABASI</ProvinceOrStateNm>
+            <CountryCd>TU</CountryCd>
+          </RecipientForeignAddress>
+          <RecipientFoundationStatusTxt>NC</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>GENERAL</GrantOrContributionPurposeTxt>
+          <Amt>2000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>CHANGARWE PRIMARY SCHOOL</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientForeignAddress>
+            <AddressLine1Txt>PO BOX 228</AddressLine1Txt>
+            <ProvinceOrStateNm>KARATU</ProvinceOrStateNm>
+            <CountryCd>TZ</CountryCd>
+          </RecipientForeignAddress>
+          <RecipientFoundationStatusTxt>NC</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>GENERAL</GrantOrContributionPurposeTxt>
+          <Amt>24596</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>CRUZPATA 50599</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientForeignAddress>
+            <AddressLine1Txt>IE NO 50599 CRUZPATA</AddressLine1Txt>
+            <ProvinceOrStateNm>MARAS</ProvinceOrStateNm>
+            <CountryCd>PE</CountryCd>
+          </RecipientForeignAddress>
+          <RecipientFoundationStatusTxt>NC</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>GENERAL</GrantOrContributionPurposeTxt>
+          <Amt>13086</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>ELUWAY PRIMARY SCHOOL</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientForeignAddress>
+            <AddressLine1Txt>PO BOX 246</AddressLine1Txt>
+            <ProvinceOrStateNm>KARATU</ProvinceOrStateNm>
+            <CountryCd>TZ</CountryCd>
+          </RecipientForeignAddress>
+          <RecipientFoundationStatusTxt>NC</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>GENERAL</GrantOrContributionPurposeTxt>
+          <Amt>780</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>ENDORO PRIMARY SCHOOL</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientForeignAddress>
+            <AddressLine1Txt>PO BOX 246</AddressLine1Txt>
+            <ProvinceOrStateNm>KARATU</ProvinceOrStateNm>
+            <CountryCd>TZ</CountryCd>
+          </RecipientForeignAddress>
+          <RecipientFoundationStatusTxt>NC</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>GENERAL</GrantOrContributionPurposeTxt>
+          <Amt>10326</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>HIMALAYAN TRUST</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientForeignAddress>
+            <AddressLine1Txt>PO BOX 224</AddressLine1Txt>
+            <ProvinceOrStateNm>KATHMANDU</ProvinceOrStateNm>
+            <CountryCd>NP</CountryCd>
+          </RecipientForeignAddress>
+          <RecipientFoundationStatusTxt>NC</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>GENERAL</GrantOrContributionPurposeTxt>
+          <Amt>58000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>ISAATEN PRIMARY SCHOOL</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientForeignAddress>
+            <AddressLine1Txt>PO BOX 238</AddressLine1Txt>
+            <ProvinceOrStateNm>NAROK</ProvinceOrStateNm>
+            <CountryCd>KE</CountryCd>
+          </RecipientForeignAddress>
+          <RecipientFoundationStatusTxt>NC</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>GENERAL</GrantOrContributionPurposeTxt>
+          <Amt>3140</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>JABULANI PRIMARY SCHOOL</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientForeignAddress>
+            <AddressLine1Txt>PO BOX 481</AddressLine1Txt>
+            <ProvinceOrStateNm>VICTORIA FALLS</ProvinceOrStateNm>
+            <CountryCd>ZI</CountryCd>
+          </RecipientForeignAddress>
+          <RecipientFoundationStatusTxt>NC</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>GENERAL</GrantOrContributionPurposeTxt>
+          <Amt>1115</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <TotalGrantOrContriPdDurYrAmt>2381014</TotalGrantOrContriPdDurYrAmt>
+        <TotalGrantOrContriApprvFutAmt>0</TotalGrantOrContriApprvFutAmt>
+      </SupplementaryInformationGrp>
+      <AnalysisIncomeProducingActyGrp>
+        <IntOnSavAndTempCashInvstGrp>
+          <ExclusionCd>14</ExclusionCd>
+          <ExclusionAmt>12865</ExclusionAmt>
+        </IntOnSavAndTempCashInvstGrp>
+        <SubtotalsIncmProducingActyGrp>
+          <UnrelatedBusinessTaxblIncmAmt>0</UnrelatedBusinessTaxblIncmAmt>
+          <ExclusionAmt>12865</ExclusionAmt>
+          <RelatedOrExemptFunctionIncmAmt>0</RelatedOrExemptFunctionIncmAmt>
+        </SubtotalsIncmProducingActyGrp>
+        <TotalIncomeProducingActyAmt>12865</TotalIncomeProducingActyAmt>
+      </AnalysisIncomeProducingActyGrp>
+      <TrnsfrTransRlnNonchrtblEOGrp>
+        <TrnsfrOfCashToNonchrtblEOInd>0</TrnsfrOfCashToNonchrtblEOInd>
+        <TrnsfrOtherAssetNonchrtblEOInd>0</TrnsfrOtherAssetNonchrtblEOInd>
+        <SalesOrExchangesOfAssetsInd>0</SalesOrExchangesOfAssetsInd>
+        <PurchaseOfAssetsNonchrtblEOInd>0</PurchaseOfAssetsNonchrtblEOInd>
+        <RentalOfFacilitiesOthAssetsInd>0</RentalOfFacilitiesOthAssetsInd>
+        <ReimbursementArrangementsInd>0</ReimbursementArrangementsInd>
+        <LoansOrLoanGuaranteesInd>0</LoansOrLoanGuaranteesInd>
+        <PerformanceOfServicesEtcInd>0</PerformanceOfServicesEtcInd>
+        <SharingOfFacilitiesEtcInd>0</SharingOfFacilitiesEtcInd>
+        <RelationshipsNonchrtblEOInd>0</RelationshipsNonchrtblEOInd>
+      </TrnsfrTransRlnNonchrtblEOGrp>
+    </IRS990PF>
+    <ExpenditureResponsibilityStmt documentId="RetDoc2118100001">
+      <ExpenditureResponsibilityGrp>
+        <BusinessName>
+          <BusinessNameLine1Txt>AMBOSELI LEWIS SECONDARY SCHOOL</BusinessNameLine1Txt>
+        </BusinessName>
+        <ForeignAddress>
+          <AddressLine1Txt>PO BOX 393-00209</AddressLine1Txt>
+          <CityNm>LOITOKITOK</CityNm>
+          <CountryCd>KE</CountryCd>
+        </ForeignAddress>
+        <GrantDt>2022-07-19</GrantDt>
+        <GrantAmt>8644</GrantAmt>
+        <PurposeOfGrantTxt>CLASSROOM RENOVATION, FURNISHINGS</PurposeOfGrantTxt>
+        <ExpendedByGranteeAmt>8644</ExpendedByGranteeAmt>
+        <DatesOfReportsByGranteeTxt>7/26/2022</DatesOfReportsByGranteeTxt>
+        <ResultsOfVerificationTxt>THE FOUNDATION WAS NOT REQUIRED TO INDEPENDENTLY VERIFY ANY OF THE REPORTS SENT BY THE GRANTEE AS THE FOUNDATION HAD NO REASON TO DOUBT THE ACCURACY OF THE REPORTS PROVIDED BY THE GRANTEE. THEREFORE, INDEPENDENT VERIFICATION WAS NOT UNDERTAKEN.</ResultsOfVerificationTxt>
+      </ExpenditureResponsibilityGrp>
+      <ExpenditureResponsibilityGrp>
+        <BusinessName>
+          <BusinessNameLine1Txt>AMBOSELI PRIMARY SCHOOL</BusinessNameLine1Txt>
+        </BusinessName>
+        <ForeignAddress>
+          <AddressLine1Txt>PO BOX 393-00209</AddressLine1Txt>
+          <CityNm>LOITOKITOK</CityNm>
+          <CountryCd>KE</CountryCd>
+        </ForeignAddress>
+        <GrantDt>2022-12-22</GrantDt>
+        <GrantAmt>9279</GrantAmt>
+        <PurposeOfGrantTxt>SOLAR LAMPS &amp; SCHOOL SUPPLIES</PurposeOfGrantTxt>
+        <ExpendedByGranteeAmt>9279</ExpendedByGranteeAmt>
+        <DatesOfReportsByGranteeTxt>2/14/2023</DatesOfReportsByGranteeTxt>
+        <ResultsOfVerificationTxt>THE FOUNDATION WAS NOT REQUIRED TO INDEPENDENTLY VERIFY ANY OF THE REPORTS SENT BY THE GRANTEE AS THE FOUNDATION HAD NO REASON TO DOUBT THE ACCURACY OF THE REPORTS PROVIDED BY THE GRANTEE. THEREFORE, INDEPENDENT VERIFICATION WAS NOT UNDERTAKEN.</ResultsOfVerificationTxt>
+      </ExpenditureResponsibilityGrp>
+      <ExpenditureResponsibilityGrp>
+        <BusinessName>
+          <BusinessNameLine1Txt>AYALABE PRIMARY SCHOOL</BusinessNameLine1Txt>
+        </BusinessName>
+        <ForeignAddress>
+          <AddressLine1Txt>PO BOX 287</AddressLine1Txt>
+          <CityNm>KARATU</CityNm>
+          <CountryCd>TZ</CountryCd>
+        </ForeignAddress>
+        <GrantDt>2022-12-22</GrantDt>
+        <GrantAmt>8767</GrantAmt>
+        <PurposeOfGrantTxt>BOYS TOILET</PurposeOfGrantTxt>
+        <ExpendedByGranteeAmt>8767</ExpendedByGranteeAmt>
+        <DatesOfReportsByGranteeTxt>2/14/2023</DatesOfReportsByGranteeTxt>
+        <ResultsOfVerificationTxt>THE FOUNDATION WAS NOT REQUIRED TO INDEPENDENTLY VERIFY ANY OF THE REPORTS SENT BY THE GRANTEE AS THE FOUNDATION HAD NO REASON TO DOUBT THE ACCURACY OF THE REPORTS PROVIDED BY THE GRANTEE. THEREFORE, INDEPENDENT VERIFICATION WAS NOT UNDERTAKEN.</ResultsOfVerificationTxt>
+      </ExpenditureResponsibilityGrp>
+      <ExpenditureResponsibilityGrp>
+        <BusinessName>
+          <BusinessNameLine1Txt>CAT WOMEN'S COOPERATIVE</BusinessNameLine1Txt>
+        </BusinessName>
+        <ForeignAddress>
+          <AddressLine1Txt>GZELYURT MAHALLESI EHIT HALIS</AddressLine1Txt>
+          <AddressLine2Txt>ZDEMIR CADDESI NO 34</AddressLine2Txt>
+          <CityNm>AT KASABAS</CityNm>
+          <ProvinceOrStateNm>NEVSEHIR</ProvinceOrStateNm>
+          <CountryCd>TU</CountryCd>
+        </ForeignAddress>
+        <GrantDt>2022-04-01</GrantDt>
+        <GrantAmt>2000</GrantAmt>
+        <PurposeOfGrantTxt>PURCHASE OF SEWING MACHINES</PurposeOfGrantTxt>
+        <ExpendedByGranteeAmt>2000</ExpendedByGranteeAmt>
+        <DatesOfReportsByGranteeTxt>4/14/2022</DatesOfReportsByGranteeTxt>
+        <ResultsOfVerificationTxt>THE FOUNDATION WAS NOT REQUIRED TO INDEPENDENTLY VERIFY ANY OF THE REPORTS SENT BY THE GRANTEE AS THE FOUNDATION HAD NO REASON TO DOUBT THE ACCURACY OF THE REPORTS PROVIDED BY THE GRANTEE. THEREFORE, INDEPENDENT VERIFICATION WAS NOT UNDERTAKEN.</ResultsOfVerificationTxt>
+      </ExpenditureResponsibilityGrp>
+      <ExpenditureResponsibilityGrp>
+        <BusinessName>
+          <BusinessNameLine1Txt>CHANGARWE PRIMARY SCHOOL</BusinessNameLine1Txt>
+        </BusinessName>
+        <ForeignAddress>
+          <AddressLine1Txt>PO BOX 228</AddressLine1Txt>
+          <CityNm>KARATU</CityNm>
+          <CountryCd>TZ</CountryCd>
+        </ForeignAddress>
+        <GrantDt>2022-12-22</GrantDt>
+        <GrantAmt>25846</GrantAmt>
+        <PurposeOfGrantTxt>SOLAR LAMPS &amp; SCHOOL SUPPLIES</PurposeOfGrantTxt>
+        <ExpendedByGranteeAmt>25846</ExpendedByGranteeAmt>
+        <DatesOfReportsByGranteeTxt>2/14/2023</DatesOfReportsByGranteeTxt>
+        <ResultsOfVerificationTxt>THE FOUNDATION WAS NOT REQUIRED TO INDEPENDENTLY VERIFY ANY OF THE REPORTS SENT BY THE GRANTEE AS THE FOUNDATION HAD NO REASON TO DOUBT THE ACCURACY OF THE REPORTS PROVIDED BY THE GRANTEE. THEREFORE, INDEPENDENT VERIFICATION WAS NOT UNDERTAKEN.</ResultsOfVerificationTxt>
+      </ExpenditureResponsibilityGrp>
+      <ExpenditureResponsibilityGrp>
+        <BusinessName>
+          <BusinessNameLine1Txt>CONSERVATORIO DE MUSICA Y BELLAS ARTES DEL SUR</BusinessNameLine1Txt>
+        </BusinessName>
+        <ForeignAddress>
+          <AddressLine1Txt>RUTA 225 NR 01680</AddressLine1Txt>
+          <CityNm>PUERTO VARAS</CityNm>
+          <CountryCd>CI</CountryCd>
+        </ForeignAddress>
+        <GrantDt>2022-09-20</GrantDt>
+        <GrantAmt>2036</GrantAmt>
+        <PurposeOfGrantTxt>HEATING UNIT</PurposeOfGrantTxt>
+        <ExpendedByGranteeAmt>2036</ExpendedByGranteeAmt>
+        <DatesOfReportsByGranteeTxt>3/6/2023</DatesOfReportsByGranteeTxt>
+        <ResultsOfVerificationTxt>THE FOUNDATION WAS NOT REQUIRED TO INDEPENDENTLY VERIFY ANY OF THE REPORTS SENT BY THE GRANTEE AS THE FOUNDATION HAD NO REASON TO DOUBT THE ACCURACY OF THE REPORTS PROVIDED BY THE GRANTEE. THEREFORE, INDEPENDENT VERIFICATION WAS NOT UNDERTAKEN.</ResultsOfVerificationTxt>
+      </ExpenditureResponsibilityGrp>
+      <ExpenditureResponsibilityGrp>
+        <BusinessName>
+          <BusinessNameLine1Txt>CORAL NURTURE PROGRAM</BusinessNameLine1Txt>
+        </BusinessName>
+        <ForeignAddress>
+          <AddressLine1Txt>287 DRAPER ST</AddressLine1Txt>
+          <CityNm>CAIRNS</CityNm>
+          <ProvinceOrStateNm>QUEENSLAND</ProvinceOrStateNm>
+          <CountryCd>AS</CountryCd>
+        </ForeignAddress>
+        <GrantDt>2022-05-31</GrantDt>
+        <GrantAmt>6275</GrantAmt>
+        <PurposeOfGrantTxt>REEF NURSERY PLANTING</PurposeOfGrantTxt>
+        <ExpendedByGranteeAmt>6275</ExpendedByGranteeAmt>
+        <DatesOfReportsByGranteeTxt>9/7/2022</DatesOfReportsByGranteeTxt>
+        <ResultsOfVerificationTxt>THE FOUNDATION WAS NOT REQUIRED TO INDEPENDENTLY VERIFY ANY OF THE REPORTS SENT BY THE GRANTEE AS THE FOUNDATION HAD NO REASON TO DOUBT THE ACCURACY OF THE REPORTS PROVIDED BY THE GRANTEE. THEREFORE, INDEPENDENT VERIFICATION WAS NOT UNDERTAKEN.</ResultsOfVerificationTxt>
+      </ExpenditureResponsibilityGrp>
+      <ExpenditureResponsibilityGrp>
+        <BusinessName>
+          <BusinessNameLine1Txt>CRUZPATA 50599</BusinessNameLine1Txt>
+        </BusinessName>
+        <ForeignAddress>
+          <AddressLine1Txt>IE NO 50599 CRUZPATA</AddressLine1Txt>
+          <CityNm>MARAS</CityNm>
+          <ProvinceOrStateNm>URUBAMBA</ProvinceOrStateNm>
+          <CountryCd>PE</CountryCd>
+        </ForeignAddress>
+        <GrantDt>2022-10-25</GrantDt>
+        <GrantAmt>13086</GrantAmt>
+        <PurposeOfGrantTxt>WATER TANK CONSTRUCTION</PurposeOfGrantTxt>
+        <ExpendedByGranteeAmt>13086</ExpendedByGranteeAmt>
+        <DatesOfReportsByGranteeTxt>10/25/2022</DatesOfReportsByGranteeTxt>
+        <ResultsOfVerificationTxt>THE FOUNDATION WAS NOT REQUIRED TO INDEPENDENTLY VERIFY ANY OF THE REPORTS SENT BY THE GRANTEE AS THE FOUNDATION HAD NO REASON TO DOUBT THE ACCURACY OF THE REPORTS PROVIDED BY THE GRANTEE. THEREFORE, INDEPENDENT VERIFICATION WAS NOT UNDERTAKEN.</ResultsOfVerificationTxt>
+      </ExpenditureResponsibilityGrp>
+      <ExpenditureResponsibilityGrp>
+        <BusinessName>
+          <BusinessNameLine1Txt>ELUWAY PRIMARY SCHOOL</BusinessNameLine1Txt>
+        </BusinessName>
+        <ForeignAddress>
+          <AddressLine1Txt>PO BOX 246</AddressLine1Txt>
+          <CityNm>KARATU</CityNm>
+          <CountryCd>TZ</CountryCd>
+        </ForeignAddress>
+        <GrantDt>2022-08-31</GrantDt>
+        <GrantAmt>786</GrantAmt>
+        <PurposeOfGrantTxt>SCHOOL ADMIN SUPPLIES</PurposeOfGrantTxt>
+        <ExpendedByGranteeAmt>786</ExpendedByGranteeAmt>
+        <DatesOfReportsByGranteeTxt>9/19/2022</DatesOfReportsByGranteeTxt>
+        <ResultsOfVerificationTxt>THE FOUNDATION WAS NOT REQUIRED TO INDEPENDENTLY VERIFY ANY OF THE REPORTS SENT BY THE GRANTEE AS THE FOUNDATION HAD NO REASON TO DOUBT THE ACCURACY OF THE REPORTS PROVIDED BY THE GRANTEE. THEREFORE, INDEPENDENT VERIFICATION WAS NOT UNDERTAKEN.</ResultsOfVerificationTxt>
+      </ExpenditureResponsibilityGrp>
+      <ExpenditureResponsibilityGrp>
+        <BusinessName>
+          <BusinessNameLine1Txt>ENDORO PRIMARY SCHOOL</BusinessNameLine1Txt>
+        </BusinessName>
+        <ForeignAddress>
+          <AddressLine1Txt>PO BOX 246</AddressLine1Txt>
+          <CityNm>KARATU</CityNm>
+          <CountryCd>TZ</CountryCd>
+        </ForeignAddress>
+        <GrantDt>2022-12-22</GrantDt>
+        <GrantAmt>10326</GrantAmt>
+        <PurposeOfGrantTxt>SOLAR LAMPS &amp; SCHOOL SUPPLIES</PurposeOfGrantTxt>
+        <ExpendedByGranteeAmt>10326</ExpendedByGranteeAmt>
+        <DatesOfReportsByGranteeTxt>2/14/2023</DatesOfReportsByGranteeTxt>
+        <ResultsOfVerificationTxt>THE FOUNDATION WAS NOT REQUIRED TO INDEPENDENTLY VERIFY ANY OF THE REPORTS SENT BY THE GRANTEE AS THE FOUNDATION HAD NO REASON TO DOUBT THE ACCURACY OF THE REPORTS PROVIDED BY THE GRANTEE. THEREFORE, INDEPENDENT VERIFICATION WAS NOT UNDERTAKEN.</ResultsOfVerificationTxt>
+      </ExpenditureResponsibilityGrp>
+      <ExpenditureResponsibilityGrp>
+        <BusinessName>
+          <BusinessNameLine1Txt>GENERAL AFRICA</BusinessNameLine1Txt>
+        </BusinessName>
+        <ForeignAddress>
+          <AddressLine1Txt>PO BOX 393-00209</AddressLine1Txt>
+          <CityNm>LOITOKITOK</CityNm>
+          <CountryCd>KE</CountryCd>
+        </ForeignAddress>
+        <GrantDt>2022-02-14</GrantDt>
+        <GrantAmt>10000</GrantAmt>
+        <PurposeOfGrantTxt>SERENGETI DESNARING/ANTIPOACHING SUPPORT</PurposeOfGrantTxt>
+        <ExpendedByGranteeAmt>10000</ExpendedByGranteeAmt>
+        <DatesOfReportsByGranteeTxt>3/14/2022</DatesOfReportsByGranteeTxt>
+        <ResultsOfVerificationTxt>THE FOUNDATION WAS NOT REQUIRED TO INDEPENDENTLY VERIFY ANY OF THE REPORTS SENT BY THE GRANTEE AS THE FOUNDATION HAD NO REASON TO DOUBT THE ACCURACY OF THE REPORTS PROVIDED BY THE GRANTEE. THEREFORE, INDEPENDENT VERIFICATION WAS NOT UNDERTAKEN.</ResultsOfVerificationTxt>
+      </ExpenditureResponsibilityGrp>
+      <ExpenditureResponsibilityGrp>
+        <BusinessName>
+          <BusinessNameLine1Txt>GENERAL ECUADOR</BusinessNameLine1Txt>
+        </BusinessName>
+        <ForeignAddress>
+          <AddressLine1Txt>INGLATERRA 1373 Y AV AMAZONAS</AddressLine1Txt>
+          <CityNm>QUITO</CityNm>
+          <CountryCd>EC</CountryCd>
+        </ForeignAddress>
+        <GrantDt>2022-05-26</GrantDt>
+        <GrantAmt>15000</GrantAmt>
+        <PurposeOfGrantTxt>SUPPORT TO SARAYAKU AIRLINE</PurposeOfGrantTxt>
+        <ExpendedByGranteeAmt>15000</ExpendedByGranteeAmt>
+        <DatesOfReportsByGranteeTxt>6/26/2022</DatesOfReportsByGranteeTxt>
+        <ResultsOfVerificationTxt>THE FOUNDATION WAS NOT REQUIRED TO INDEPENDENTLY VERIFY ANY OF THE REPORTS SENT BY THE GRANTEE AS THE FOUNDATION HAD NO REASON TO DOUBT THE ACCURACY OF THE REPORTS PROVIDED BY THE GRANTEE. THEREFORE, INDEPENDENT VERIFICATION WAS NOT UNDERTAKEN.</ResultsOfVerificationTxt>
+      </ExpenditureResponsibilityGrp>
+      <ExpenditureResponsibilityGrp>
+        <BusinessName>
+          <BusinessNameLine1Txt>GENERAL KENYA</BusinessNameLine1Txt>
+        </BusinessName>
+        <ForeignAddress>
+          <AddressLine1Txt>PO BOX 393-00209</AddressLine1Txt>
+          <CityNm>LOITOKITOK</CityNm>
+          <CountryCd>KE</CountryCd>
+        </ForeignAddress>
+        <GrantDt>2022-12-22</GrantDt>
+        <GrantAmt>500</GrantAmt>
+        <PurposeOfGrantTxt>PROJECT MANAGEMENT</PurposeOfGrantTxt>
+        <ExpendedByGranteeAmt>500</ExpendedByGranteeAmt>
+        <DatesOfReportsByGranteeTxt>2/14/2023</DatesOfReportsByGranteeTxt>
+        <ResultsOfVerificationTxt>THE FOUNDATION WAS NOT REQUIRED TO INDEPENDENTLY VERIFY ANY OF THE REPORTS SENT BY THE GRANTEE AS THE FOUNDATION HAD NO REASON TO DOUBT THE ACCURACY OF THE REPORTS PROVIDED BY THE GRANTEE. THEREFORE, INDEPENDENT VERIFICATION WAS NOT UNDERTAKEN.</ResultsOfVerificationTxt>
+      </ExpenditureResponsibilityGrp>
+      <ExpenditureResponsibilityGrp>
+        <BusinessName>
+          <BusinessNameLine1Txt>GENERAL TANZANIA</BusinessNameLine1Txt>
+        </BusinessName>
+        <ForeignAddress>
+          <AddressLine1Txt>PO BOX 16952</AddressLine1Txt>
+          <CityNm>ARUSHA</CityNm>
+          <CountryCd>TZ</CountryCd>
+        </ForeignAddress>
+        <GrantDt>2022-12-21</GrantDt>
+        <GrantAmt>29633</GrantAmt>
+        <PurposeOfGrantTxt>SCHOOL SUPPLIES</PurposeOfGrantTxt>
+        <ExpendedByGranteeAmt>29633</ExpendedByGranteeAmt>
+        <DatesOfReportsByGranteeTxt>2/14/2023</DatesOfReportsByGranteeTxt>
+        <ResultsOfVerificationTxt>THE FOUNDATION WAS NOT REQUIRED TO INDEPENDENTLY VERIFY ANY OF THE REPORTS SENT BY THE GRANTEE AS THE FOUNDATION HAD NO REASON TO DOUBT THE ACCURACY OF THE REPORTS PROVIDED BY THE GRANTEE. THEREFORE, INDEPENDENT VERIFICATION WAS NOT UNDERTAKEN.</ResultsOfVerificationTxt>
+      </ExpenditureResponsibilityGrp>
+      <ExpenditureResponsibilityGrp>
+        <BusinessName>
+          <BusinessNameLine1Txt>GENERAL ZIMBABWE</BusinessNameLine1Txt>
+        </BusinessName>
+        <ForeignAddress>
+          <AddressLine1Txt>1790 RYDLE RIDGE PARK</AddressLine1Txt>
+          <CityNm>HARARE</CityNm>
+          <CountryCd>ZI</CountryCd>
+        </ForeignAddress>
+        <GrantDt>2022-05-25</GrantDt>
+        <GrantAmt>19720</GrantAmt>
+        <PurposeOfGrantTxt>PROJECT MANAGEMENT</PurposeOfGrantTxt>
+        <ExpendedByGranteeAmt>19720</ExpendedByGranteeAmt>
+        <DatesOfReportsByGranteeTxt>6/1/2022</DatesOfReportsByGranteeTxt>
+        <ResultsOfVerificationTxt>THE FOUNDATION WAS NOT REQUIRED TO INDEPENDENTLY VERIFY ANY OF THE REPORTS SENT BY THE GRANTEE AS THE FOUNDATION HAD NO REASON TO DOUBT THE ACCURACY OF THE REPORTS PROVIDED BY THE GRANTEE. THEREFORE, INDEPENDENT VERIFICATION WAS NOT UNDERTAKEN.</ResultsOfVerificationTxt>
+      </ExpenditureResponsibilityGrp>
+      <ExpenditureResponsibilityGrp>
+        <BusinessName>
+          <BusinessNameLine1Txt>HIMALAYAN TRUST</BusinessNameLine1Txt>
+        </BusinessName>
+        <ForeignAddress>
+          <AddressLine1Txt>PO BOX 224</AddressLine1Txt>
+          <CityNm>KATHMANDU</CityNm>
+          <ProvinceOrStateNm>DILLIBAZAR</ProvinceOrStateNm>
+          <CountryCd>NP</CountryCd>
+        </ForeignAddress>
+        <GrantDt>2022-08-17</GrantDt>
+        <GrantAmt>58000</GrantAmt>
+        <PurposeOfGrantTxt>CONSTRUCTION OF GIRLS DORMITORY</PurposeOfGrantTxt>
+        <ExpendedByGranteeAmt>58000</ExpendedByGranteeAmt>
+        <DatesOfReportsByGranteeTxt>7/7/2023</DatesOfReportsByGranteeTxt>
+        <ResultsOfVerificationTxt>THE FOUNDATION WAS NOT REQUIRED TO INDEPENDENTLY VERIFY ANY OF THE REPORTS SENT BY THE GRANTEE AS THE FOUNDATION HAD NO REASON TO DOUBT THE ACCURACY OF THE REPORTS PROVIDED BY THE GRANTEE. THEREFORE, INDEPENDENT VERIFICATION WAS NOT UNDERTAKEN.</ResultsOfVerificationTxt>
+      </ExpenditureResponsibilityGrp>
+      <ExpenditureResponsibilityGrp>
+        <BusinessName>
+          <BusinessNameLine1Txt>INSTITUO TERRA</BusinessNameLine1Txt>
+        </BusinessName>
+        <ForeignAddress>
+          <AddressLine1Txt>RPPN BULCAO FARM PO BOX 005</AddressLine1Txt>
+          <CityNm>AIMORES</CityNm>
+          <CountryCd>BR</CountryCd>
+          <ForeignPostalCd>35200</ForeignPostalCd>
+        </ForeignAddress>
+        <GrantDt>2022-05-05</GrantDt>
+        <GrantAmt>10000</GrantAmt>
+        <PurposeOfGrantTxt>REFORESTATION SUPPORT</PurposeOfGrantTxt>
+        <ExpendedByGranteeAmt>10000</ExpendedByGranteeAmt>
+        <DatesOfReportsByGranteeTxt>6/5/2022</DatesOfReportsByGranteeTxt>
+        <ResultsOfVerificationTxt>THE FOUNDATION WAS NOT REQUIRED TO INDEPENDENTLY VERIFY ANY OF THE REPORTS SENT BY THE GRANTEE AS THE FOUNDATION HAD NO REASON TO DOUBT THE ACCURACY OF THE REPORTS PROVIDED BY THE GRANTEE. THEREFORE, INDEPENDENT VERIFICATION WAS NOT UNDERTAKEN.</ResultsOfVerificationTxt>
+      </ExpenditureResponsibilityGrp>
+      <ExpenditureResponsibilityGrp>
+        <BusinessName>
+          <BusinessNameLine1Txt>INVISIBLE CITIES SCOTLAND</BusinessNameLine1Txt>
+        </BusinessName>
+        <ForeignAddress>
+          <AddressLine1Txt>1 LEITH WALK</AddressLine1Txt>
+          <CityNm>EDINBURGH</CityNm>
+          <CountryCd>UK</CountryCd>
+          <ForeignPostalCd>EH68LN</ForeignPostalCd>
+        </ForeignAddress>
+        <GrantDt>2022-11-17</GrantDt>
+        <GrantAmt>3000</GrantAmt>
+        <PurposeOfGrantTxt>TRAINING TO BECOME LOCAL GUIDES</PurposeOfGrantTxt>
+        <ExpendedByGranteeAmt>3000</ExpendedByGranteeAmt>
+        <DatesOfReportsByGranteeTxt>12/6/2022</DatesOfReportsByGranteeTxt>
+        <ResultsOfVerificationTxt>THE FOUNDATION WAS NOT REQUIRED TO INDEPENDENTLY VERIFY ANY OF THE REPORTS SENT BY THE GRANTEE AS THE FOUNDATION HAD NO REASON TO DOUBT THE ACCURACY OF THE REPORTS PROVIDED BY THE GRANTEE. THEREFORE, INDEPENDENT VERIFICATION WAS NOT UNDERTAKEN.</ResultsOfVerificationTxt>
+      </ExpenditureResponsibilityGrp>
+      <ExpenditureResponsibilityGrp>
+        <BusinessName>
+          <BusinessNameLine1Txt>ISAATEN PRIMARY SCHOOL</BusinessNameLine1Txt>
+        </BusinessName>
+        <ForeignAddress>
+          <AddressLine1Txt>PO BOX 238</AddressLine1Txt>
+          <CityNm>NAROK</CityNm>
+          <CountryCd>KE</CountryCd>
+        </ForeignAddress>
+        <GrantDt>2022-08-31</GrantDt>
+        <GrantAmt>3140</GrantAmt>
+        <PurposeOfGrantTxt>TEXTBOOKS &amp; ADMIN SUPPLIES</PurposeOfGrantTxt>
+        <ExpendedByGranteeAmt>3140</ExpendedByGranteeAmt>
+        <DatesOfReportsByGranteeTxt>9/26/2022</DatesOfReportsByGranteeTxt>
+        <ResultsOfVerificationTxt>THE FOUNDATION WAS NOT REQUIRED TO INDEPENDENTLY VERIFY ANY OF THE REPORTS SENT BY THE GRANTEE AS THE FOUNDATION HAD NO REASON TO DOUBT THE ACCURACY OF THE REPORTS PROVIDED BY THE GRANTEE. THEREFORE, INDEPENDENT VERIFICATION WAS NOT UNDERTAKEN.</ResultsOfVerificationTxt>
+      </ExpenditureResponsibilityGrp>
+      <ExpenditureResponsibilityGrp>
+        <BusinessName>
+          <BusinessNameLine1Txt>JABULANI PRIMARY SCHOOL</BusinessNameLine1Txt>
+        </BusinessName>
+        <ForeignAddress>
+          <AddressLine1Txt>PO BOX 481</AddressLine1Txt>
+          <CityNm>VICTORIA FALLS</CityNm>
+          <CountryCd>ZI</CountryCd>
+        </ForeignAddress>
+        <GrantDt>2022-08-25</GrantDt>
+        <GrantAmt>1115</GrantAmt>
+        <PurposeOfGrantTxt>TEACHER STATIONERY SUPPLIES</PurposeOfGrantTxt>
+        <ExpendedByGranteeAmt>1115</ExpendedByGranteeAmt>
+        <DatesOfReportsByGranteeTxt>4/25/2023</DatesOfReportsByGranteeTxt>
+        <ResultsOfVerificationTxt>THE FOUNDATION WAS NOT REQUIRED TO INDEPENDENTLY VERIFY ANY OF THE REPORTS SENT BY THE GRANTEE AS THE FOUNDATION HAD NO REASON TO DOUBT THE ACCURACY OF THE REPORTS PROVIDED BY THE GRANTEE. THEREFORE, INDEPENDENT VERIFICATION WAS NOT UNDERTAKEN.</ResultsOfVerificationTxt>
+      </ExpenditureResponsibilityGrp>
+      <ExpenditureResponsibilityGrp>
+        <BusinessName>
+          <BusinessNameLine1Txt>KENYA SCHOLARSHIP FUND</BusinessNameLine1Txt>
+        </BusinessName>
+        <ForeignAddress>
+          <AddressLine1Txt>PO BOX 393-00209</AddressLine1Txt>
+          <CityNm>LOITOKITOK</CityNm>
+          <CountryCd>KE</CountryCd>
+        </ForeignAddress>
+        <GrantDt>2022-12-22</GrantDt>
+        <GrantAmt>9160</GrantAmt>
+        <PurposeOfGrantTxt>SCHOLARSHIP SUPPORT FOR 7 STUDENTS</PurposeOfGrantTxt>
+        <ExpendedByGranteeAmt>9160</ExpendedByGranteeAmt>
+        <DatesOfReportsByGranteeTxt>1/5/2023</DatesOfReportsByGranteeTxt>
+        <ResultsOfVerificationTxt>THE FOUNDATION WAS NOT REQUIRED TO INDEPENDENTLY VERIFY ANY OF THE REPORTS SENT BY THE GRANTEE AS THE FOUNDATION HAD NO REASON TO DOUBT THE ACCURACY OF THE REPORTS PROVIDED BY THE GRANTEE. THEREFORE, INDEPENDENT VERIFICATION WAS NOT UNDERTAKEN.</ResultsOfVerificationTxt>
+      </ExpenditureResponsibilityGrp>
+      <ExpenditureResponsibilityGrp>
+        <BusinessName>
+          <BusinessNameLine1Txt>KRISTINA TESTER SCHOLARSHIP FUND</BusinessNameLine1Txt>
+        </BusinessName>
+        <ForeignAddress>
+          <AddressLine1Txt>PO BOX 288</AddressLine1Txt>
+          <CityNm>VICTORIA FALLS</CityNm>
+          <CountryCd>ZI</CountryCd>
+        </ForeignAddress>
+        <GrantDt>2022-05-05</GrantDt>
+        <GrantAmt>5254</GrantAmt>
+        <PurposeOfGrantTxt>SCHOLARSHIP SUPPORT FOR 10 STUDENTS</PurposeOfGrantTxt>
+        <ExpendedByGranteeAmt>5254</ExpendedByGranteeAmt>
+        <DatesOfReportsByGranteeTxt>11/4/2022</DatesOfReportsByGranteeTxt>
+        <ResultsOfVerificationTxt>THE FOUNDATION WAS NOT REQUIRED TO INDEPENDENTLY VERIFY ANY OF THE REPORTS SENT BY THE GRANTEE AS THE FOUNDATION HAD NO REASON TO DOUBT THE ACCURACY OF THE REPORTS PROVIDED BY THE GRANTEE. THEREFORE, INDEPENDENT VERIFICATION WAS NOT UNDERTAKEN.</ResultsOfVerificationTxt>
+      </ExpenditureResponsibilityGrp>
+      <ExpenditureResponsibilityGrp>
+        <BusinessName>
+          <BusinessNameLine1Txt>LEMONG'O PRIMARY SCHOOL</BusinessNameLine1Txt>
+        </BusinessName>
+        <ForeignAddress>
+          <AddressLine1Txt>PO BOX 165-00209</AddressLine1Txt>
+          <CityNm>LOITOKITOK</CityNm>
+          <CountryCd>KE</CountryCd>
+        </ForeignAddress>
+        <GrantDt>2022-12-22</GrantDt>
+        <GrantAmt>21379</GrantAmt>
+        <PurposeOfGrantTxt>ADMIN &amp; SCHOOL SUPPLIES</PurposeOfGrantTxt>
+        <ExpendedByGranteeAmt>21379</ExpendedByGranteeAmt>
+        <DatesOfReportsByGranteeTxt>2/14/2023</DatesOfReportsByGranteeTxt>
+        <ResultsOfVerificationTxt>THE FOUNDATION WAS NOT REQUIRED TO INDEPENDENTLY VERIFY ANY OF THE REPORTS SENT BY THE GRANTEE AS THE FOUNDATION HAD NO REASON TO DOUBT THE ACCURACY OF THE REPORTS PROVIDED BY THE GRANTEE. THEREFORE, INDEPENDENT VERIFICATION WAS NOT UNDERTAKEN.</ResultsOfVerificationTxt>
+      </ExpenditureResponsibilityGrp>
+      <ExpenditureResponsibilityGrp>
+        <BusinessName>
+          <BusinessNameLine1Txt>MINH TU ORPHANAGE</BusinessNameLine1Txt>
+        </BusinessName>
+        <ForeignAddress>
+          <AddressLine1Txt>CU CHANH HAMLET-THUY BAN-HUON THUY</AddressLine1Txt>
+          <AddressLine2Txt>DISTRICT</AddressLine2Txt>
+          <CityNm>HUE</CityNm>
+          <CountryCd>VM</CountryCd>
+        </ForeignAddress>
+        <GrantDt>2022-07-11</GrantDt>
+        <GrantAmt>4352</GrantAmt>
+        <PurposeOfGrantTxt>MILK/DIAPERS FOR 14 ORPHANS</PurposeOfGrantTxt>
+        <ExpendedByGranteeAmt>4352</ExpendedByGranteeAmt>
+        <DatesOfReportsByGranteeTxt>3/3/2023</DatesOfReportsByGranteeTxt>
+        <ResultsOfVerificationTxt>THE FOUNDATION WAS NOT REQUIRED TO INDEPENDENTLY VERIFY ANY OF THE REPORTS SENT BY THE GRANTEE AS THE FOUNDATION HAD NO REASON TO DOUBT THE ACCURACY OF THE REPORTS PROVIDED BY THE GRANTEE. THEREFORE, INDEPENDENT VERIFICATION WAS NOT UNDERTAKEN.</ResultsOfVerificationTxt>
+      </ExpenditureResponsibilityGrp>
+      <ExpenditureResponsibilityGrp>
+        <BusinessName>
+          <BusinessNameLine1Txt>NGAMO VILLAGE</BusinessNameLine1Txt>
+        </BusinessName>
+        <ForeignAddress>
+          <AddressLine1Txt>PO BOX 288</AddressLine1Txt>
+          <CityNm>VICTORIA FALLS</CityNm>
+          <CountryCd>ZI</CountryCd>
+        </ForeignAddress>
+        <GrantDt>2022-08-25</GrantDt>
+        <GrantAmt>20061</GrantAmt>
+        <PurposeOfGrantTxt>BOREHOLE CONSTRUCTION</PurposeOfGrantTxt>
+        <ExpendedByGranteeAmt>20061</ExpendedByGranteeAmt>
+        <DatesOfReportsByGranteeTxt>4/5/2023</DatesOfReportsByGranteeTxt>
+        <ResultsOfVerificationTxt>THE FOUNDATION WAS NOT REQUIRED TO INDEPENDENTLY VERIFY ANY OF THE REPORTS SENT BY THE GRANTEE AS THE FOUNDATION HAD NO REASON TO DOUBT THE ACCURACY OF THE REPORTS PROVIDED BY THE GRANTEE. THEREFORE, INDEPENDENT VERIFICATION WAS NOT UNDERTAKEN.</ResultsOfVerificationTxt>
+      </ExpenditureResponsibilityGrp>
+      <ExpenditureResponsibilityGrp>
+        <BusinessName>
+          <BusinessNameLine1Txt>NJIA PANDA PRIMARY SCHOOL</BusinessNameLine1Txt>
+        </BusinessName>
+        <ForeignAddress>
+          <AddressLine1Txt>PO BOX 86</AddressLine1Txt>
+          <CityNm>KARATU</CityNm>
+          <CountryCd>TZ</CountryCd>
+        </ForeignAddress>
+        <GrantDt>2022-12-22</GrantDt>
+        <GrantAmt>14482</GrantAmt>
+        <PurposeOfGrantTxt>ADMIN &amp; SCHOOL SUPPLIES</PurposeOfGrantTxt>
+        <ExpendedByGranteeAmt>14482</ExpendedByGranteeAmt>
+        <DatesOfReportsByGranteeTxt>2/14/2023</DatesOfReportsByGranteeTxt>
+        <ResultsOfVerificationTxt>THE FOUNDATION WAS NOT REQUIRED TO INDEPENDENTLY VERIFY ANY OF THE REPORTS SENT BY THE GRANTEE AS THE FOUNDATION HAD NO REASON TO DOUBT THE ACCURACY OF THE REPORTS PROVIDED BY THE GRANTEE. THEREFORE, INDEPENDENT VERIFICATION WAS NOT UNDERTAKEN.</ResultsOfVerificationTxt>
+      </ExpenditureResponsibilityGrp>
+      <ExpenditureResponsibilityGrp>
+        <BusinessName>
+          <BusinessNameLine1Txt>OLEKEENE PRIMARY SCHOOL</BusinessNameLine1Txt>
+        </BusinessName>
+        <ForeignAddress>
+          <AddressLine1Txt>PO BOX 496</AddressLine1Txt>
+          <CityNm>NAROK</CityNm>
+          <CountryCd>KE</CountryCd>
+        </ForeignAddress>
+        <GrantDt>2022-08-31</GrantDt>
+        <GrantAmt>3140</GrantAmt>
+        <PurposeOfGrantTxt>TEXTBOOKS &amp; ADMIN SUPPLIES</PurposeOfGrantTxt>
+        <ExpendedByGranteeAmt>3140</ExpendedByGranteeAmt>
+        <DatesOfReportsByGranteeTxt>9/26/2022</DatesOfReportsByGranteeTxt>
+        <ResultsOfVerificationTxt>THE FOUNDATION WAS NOT REQUIRED TO INDEPENDENTLY VERIFY ANY OF THE REPORTS SENT BY THE GRANTEE AS THE FOUNDATION HAD NO REASON TO DOUBT THE ACCURACY OF THE REPORTS PROVIDED BY THE GRANTEE. THEREFORE, INDEPENDENT VERIFICATION WAS NOT UNDERTAKEN.</ResultsOfVerificationTxt>
+      </ExpenditureResponsibilityGrp>
+      <ExpenditureResponsibilityGrp>
+        <BusinessName>
+          <BusinessNameLine1Txt>OLMOTI PRIMARY SCHOOL</BusinessNameLine1Txt>
+        </BusinessName>
+        <ForeignAddress>
+          <AddressLine1Txt>PO BOX 47-00209</AddressLine1Txt>
+          <CityNm>LOITOKITOK</CityNm>
+          <CountryCd>KE</CountryCd>
+        </ForeignAddress>
+        <GrantDt>2022-07-19</GrantDt>
+        <GrantAmt>8909</GrantAmt>
+        <PurposeOfGrantTxt>PURCHASE OF METAL DESKS</PurposeOfGrantTxt>
+        <ExpendedByGranteeAmt>8909</ExpendedByGranteeAmt>
+        <DatesOfReportsByGranteeTxt>8/30/2022</DatesOfReportsByGranteeTxt>
+        <ResultsOfVerificationTxt>THE FOUNDATION WAS NOT REQUIRED TO INDEPENDENTLY VERIFY ANY OF THE REPORTS SENT BY THE GRANTEE AS THE FOUNDATION HAD NO REASON TO DOUBT THE ACCURACY OF THE REPORTS PROVIDED BY THE GRANTEE. THEREFORE, INDEPENDENT VERIFICATION WAS NOT UNDERTAKEN.</ResultsOfVerificationTxt>
+      </ExpenditureResponsibilityGrp>
+      <ExpenditureResponsibilityGrp>
+        <BusinessName>
+          <BusinessNameLine1Txt>RAMACHEN PRIMARY SCHOOL</BusinessNameLine1Txt>
+        </BusinessName>
+        <ForeignAddress>
+          <AddressLine1Txt>TAWACHIWOG</AddressLine1Txt>
+          <CityNm>PHOBJI GEWOG</CityNm>
+          <ProvinceOrStateNm>WANGDUE PHODRANG</ProvinceOrStateNm>
+          <CountryCd>BT</CountryCd>
+        </ForeignAddress>
+        <GrantDt>2022-12-08</GrantDt>
+        <GrantAmt>26668</GrantAmt>
+        <PurposeOfGrantTxt>CLASSROOM CONSTRUCTION</PurposeOfGrantTxt>
+        <ExpendedByGranteeAmt>26668</ExpendedByGranteeAmt>
+        <DatesOfReportsByGranteeTxt>4/12/2023</DatesOfReportsByGranteeTxt>
+        <ResultsOfVerificationTxt>THE FOUNDATION WAS NOT REQUIRED TO INDEPENDENTLY VERIFY ANY OF THE REPORTS SENT BY THE GRANTEE AS THE FOUNDATION HAD NO REASON TO DOUBT THE ACCURACY OF THE REPORTS PROVIDED BY THE GRANTEE. THEREFORE, INDEPENDENT VERIFICATION WAS NOT UNDERTAKEN.</ResultsOfVerificationTxt>
+      </ExpenditureResponsibilityGrp>
+      <ExpenditureResponsibilityGrp>
+        <BusinessName>
+          <BusinessNameLine1Txt>RECONCILIATION VILLAGE</BusinessNameLine1Txt>
+        </BusinessName>
+        <ForeignAddress>
+          <AddressLine1Txt>PO BOX 24 MUSANZE/KINIGI</AddressLine1Txt>
+          <CityNm>MUSANZE DISTRICT</CityNm>
+          <CountryCd>RW</CountryCd>
+        </ForeignAddress>
+        <GrantDt>2022-07-27</GrantDt>
+        <GrantAmt>3200</GrantAmt>
+        <PurposeOfGrantTxt>TOILET CONSTRUCTION</PurposeOfGrantTxt>
+        <ExpendedByGranteeAmt>3200</ExpendedByGranteeAmt>
+        <DatesOfReportsByGranteeTxt>11/14/2022</DatesOfReportsByGranteeTxt>
+        <ResultsOfVerificationTxt>THE FOUNDATION WAS NOT REQUIRED TO INDEPENDENTLY VERIFY ANY OF THE REPORTS SENT BY THE GRANTEE AS THE FOUNDATION HAD NO REASON TO DOUBT THE ACCURACY OF THE REPORTS PROVIDED BY THE GRANTEE. THEREFORE, INDEPENDENT VERIFICATION WAS NOT UNDERTAKEN.</ResultsOfVerificationTxt>
+      </ExpenditureResponsibilityGrp>
+      <ExpenditureResponsibilityGrp>
+        <BusinessName>
+          <BusinessNameLine1Txt>RHOTIA PRIMARY SCHOOL</BusinessNameLine1Txt>
+        </BusinessName>
+        <ForeignAddress>
+          <AddressLine1Txt>PO BOX 85</AddressLine1Txt>
+          <CityNm>KARATU</CityNm>
+          <CountryCd>TZ</CountryCd>
+        </ForeignAddress>
+        <GrantDt>2022-12-22</GrantDt>
+        <GrantAmt>4292</GrantAmt>
+        <PurposeOfGrantTxt>SOLAR LAMPS &amp; SCHOOL SUPPLIES</PurposeOfGrantTxt>
+        <ExpendedByGranteeAmt>4292</ExpendedByGranteeAmt>
+        <DatesOfReportsByGranteeTxt>2/14/2023</DatesOfReportsByGranteeTxt>
+        <ResultsOfVerificationTxt>THE FOUNDATION WAS NOT REQUIRED TO INDEPENDENTLY VERIFY ANY OF THE REPORTS SENT BY THE GRANTEE AS THE FOUNDATION HAD NO REASON TO DOUBT THE ACCURACY OF THE REPORTS PROVIDED BY THE GRANTEE. THEREFORE, INDEPENDENT VERIFICATION WAS NOT UNDERTAKEN.</ResultsOfVerificationTxt>
+      </ExpenditureResponsibilityGrp>
+      <ExpenditureResponsibilityGrp>
+        <BusinessName>
+          <BusinessNameLine1Txt>RUSHUBI PRIMARY SCHOOL</BusinessNameLine1Txt>
+        </BusinessName>
+        <ForeignAddress>
+          <AddressLine1Txt>PO BOX 24 MUSANZE/KINIGI</AddressLine1Txt>
+          <CityNm>MUSANZE DISTRICT</CityNm>
+          <CountryCd>RW</CountryCd>
+        </ForeignAddress>
+        <GrantDt>2022-10-05</GrantDt>
+        <GrantAmt>7630</GrantAmt>
+        <PurposeOfGrantTxt>PURCHASE OF BICYCLES</PurposeOfGrantTxt>
+        <ExpendedByGranteeAmt>7630</ExpendedByGranteeAmt>
+        <DatesOfReportsByGranteeTxt>11/14/2022</DatesOfReportsByGranteeTxt>
+        <ResultsOfVerificationTxt>THE FOUNDATION WAS NOT REQUIRED TO INDEPENDENTLY VERIFY ANY OF THE REPORTS SENT BY THE GRANTEE AS THE FOUNDATION HAD NO REASON TO DOUBT THE ACCURACY OF THE REPORTS PROVIDED BY THE GRANTEE. THEREFORE, INDEPENDENT VERIFICATION WAS NOT UNDERTAKEN.</ResultsOfVerificationTxt>
+      </ExpenditureResponsibilityGrp>
+      <ExpenditureResponsibilityGrp>
+        <BusinessName>
+          <BusinessNameLine1Txt>RWANDA SCHOLARSHIP FUND</BusinessNameLine1Txt>
+        </BusinessName>
+        <ForeignAddress>
+          <AddressLine1Txt>PO BOX 24 MUSANZE/KINIGI</AddressLine1Txt>
+          <CityNm>MUSANZE DISTRICT</CityNm>
+          <CountryCd>RW</CountryCd>
+        </ForeignAddress>
+        <GrantDt>2022-07-27</GrantDt>
+        <GrantAmt>170</GrantAmt>
+        <PurposeOfGrantTxt>SCHOLARSHIP</PurposeOfGrantTxt>
+        <ExpendedByGranteeAmt>170</ExpendedByGranteeAmt>
+        <DatesOfReportsByGranteeTxt>8/27/2022</DatesOfReportsByGranteeTxt>
+        <ResultsOfVerificationTxt>THE FOUNDATION WAS NOT REQUIRED TO INDEPENDENTLY VERIFY ANY OF THE REPORTS SENT BY THE GRANTEE AS THE FOUNDATION HAD NO REASON TO DOUBT THE ACCURACY OF THE REPORTS PROVIDED BY THE GRANTEE. THEREFORE, INDEPENDENT VERIFICATION WAS NOT UNDERTAKEN.</ResultsOfVerificationTxt>
+      </ExpenditureResponsibilityGrp>
+      <ExpenditureResponsibilityGrp>
+        <BusinessName>
+          <BusinessNameLine1Txt>SAFEWATER CERAMIC FILTERS</BusinessNameLine1Txt>
+        </BusinessName>
+        <ForeignAddress>
+          <AddressLine1Txt>PO BOX 15270</AddressLine1Txt>
+          <CityNm>ARUSHA</CityNm>
+          <CountryCd>TZ</CountryCd>
+        </ForeignAddress>
+        <GrantDt>2022-12-22</GrantDt>
+        <GrantAmt>500</GrantAmt>
+        <PurposeOfGrantTxt>10 FILTERS</PurposeOfGrantTxt>
+        <ExpendedByGranteeAmt>500</ExpendedByGranteeAmt>
+        <DatesOfReportsByGranteeTxt>2/14/2023</DatesOfReportsByGranteeTxt>
+        <ResultsOfVerificationTxt>THE FOUNDATION WAS NOT REQUIRED TO INDEPENDENTLY VERIFY ANY OF THE REPORTS SENT BY THE GRANTEE AS THE FOUNDATION HAD NO REASON TO DOUBT THE ACCURACY OF THE REPORTS PROVIDED BY THE GRANTEE. THEREFORE, INDEPENDENT VERIFICATION WAS NOT UNDERTAKEN.</ResultsOfVerificationTxt>
+      </ExpenditureResponsibilityGrp>
+      <ExpenditureResponsibilityGrp>
+        <BusinessName>
+          <BusinessNameLine1Txt>SHREE TANCHOK BASIC SCHOOL</BusinessNameLine1Txt>
+        </BusinessName>
+        <ForeignAddress>
+          <AddressLine1Txt>ANNAPURAN 7</AddressLine1Txt>
+          <CityNm>MAJH GAUN KASKI</CityNm>
+          <ProvinceOrStateNm>POKHARA</ProvinceOrStateNm>
+          <CountryCd>NP</CountryCd>
+        </ForeignAddress>
+        <GrantDt>2022-05-09</GrantDt>
+        <GrantAmt>6428</GrantAmt>
+        <PurposeOfGrantTxt>CLASSROOM RENOVATION</PurposeOfGrantTxt>
+        <ExpendedByGranteeAmt>6428</ExpendedByGranteeAmt>
+        <DatesOfReportsByGranteeTxt>12/6/2022</DatesOfReportsByGranteeTxt>
+        <ResultsOfVerificationTxt>THE FOUNDATION WAS NOT REQUIRED TO INDEPENDENTLY VERIFY ANY OF THE REPORTS SENT BY THE GRANTEE AS THE FOUNDATION HAD NO REASON TO DOUBT THE ACCURACY OF THE REPORTS PROVIDED BY THE GRANTEE. THEREFORE, INDEPENDENT VERIFICATION WAS NOT UNDERTAKEN.</ResultsOfVerificationTxt>
+      </ExpenditureResponsibilityGrp>
+      <ExpenditureResponsibilityGrp>
+        <BusinessName>
+          <BusinessNameLine1Txt>SINFONIETTA VIDIN</BusinessNameLine1Txt>
+        </BusinessName>
+        <ForeignAddress>
+          <AddressLine1Txt>STR TSAR ALEXANDER II BL6/7</AddressLine1Txt>
+          <CityNm>VIDIN</CityNm>
+          <CountryCd>BU</CountryCd>
+          <ForeignPostalCd>3700</ForeignPostalCd>
+        </ForeignAddress>
+        <GrantDt>2022-06-07</GrantDt>
+        <GrantAmt>1845</GrantAmt>
+        <PurposeOfGrantTxt>PURCHASE OF PRINTER/MATERIALS</PurposeOfGrantTxt>
+        <ExpendedByGranteeAmt>1845</ExpendedByGranteeAmt>
+        <DatesOfReportsByGranteeTxt>7/11/2022</DatesOfReportsByGranteeTxt>
+        <ResultsOfVerificationTxt>THE FOUNDATION WAS NOT REQUIRED TO INDEPENDENTLY VERIFY ANY OF THE REPORTS SENT BY THE GRANTEE AS THE FOUNDATION HAD NO REASON TO DOUBT THE ACCURACY OF THE REPORTS PROVIDED BY THE GRANTEE. THEREFORE, INDEPENDENT VERIFICATION WAS NOT UNDERTAKEN.</ResultsOfVerificationTxt>
+      </ExpenditureResponsibilityGrp>
+      <ExpenditureResponsibilityGrp>
+        <BusinessName>
+          <BusinessNameLine1Txt>ST MARY'S PRIMARY SCHOOL</BusinessNameLine1Txt>
+        </BusinessName>
+        <ForeignAddress>
+          <AddressLine1Txt>PO BOX 89</AddressLine1Txt>
+          <CityNm>HWANGE</CityNm>
+          <CountryCd>ZI</CountryCd>
+        </ForeignAddress>
+        <GrantDt>2022-08-25</GrantDt>
+        <GrantAmt>32541</GrantAmt>
+        <PurposeOfGrantTxt>BOREHOLE CONSTRUCTION</PurposeOfGrantTxt>
+        <ExpendedByGranteeAmt>32541</ExpendedByGranteeAmt>
+        <DatesOfReportsByGranteeTxt>4/25/2023</DatesOfReportsByGranteeTxt>
+        <ResultsOfVerificationTxt>THE FOUNDATION WAS NOT REQUIRED TO INDEPENDENTLY VERIFY ANY OF THE REPORTS SENT BY THE GRANTEE AS THE FOUNDATION HAD NO REASON TO DOUBT THE ACCURACY OF THE REPORTS PROVIDED BY THE GRANTEE. THEREFORE, INDEPENDENT VERIFICATION WAS NOT UNDERTAKEN.</ResultsOfVerificationTxt>
+      </ExpenditureResponsibilityGrp>
+      <ExpenditureResponsibilityGrp>
+        <BusinessName>
+          <BusinessNameLine1Txt>STREETS INTERNATIONAL</BusinessNameLine1Txt>
+        </BusinessName>
+        <ForeignAddress>
+          <AddressLine1Txt>17 LE LOI ST</AddressLine1Txt>
+          <CityNm>HOI AN</CityNm>
+          <CountryCd>VM</CountryCd>
+        </ForeignAddress>
+        <GrantDt>2022-08-09</GrantDt>
+        <GrantAmt>33600</GrantAmt>
+        <PurposeOfGrantTxt>SCHOLARSHIPS FOR 12 STUDENTS</PurposeOfGrantTxt>
+        <ExpendedByGranteeAmt>33600</ExpendedByGranteeAmt>
+        <DatesOfReportsByGranteeTxt>8/22/2022</DatesOfReportsByGranteeTxt>
+        <ResultsOfVerificationTxt>THE FOUNDATION WAS NOT REQUIRED TO INDEPENDENTLY VERIFY ANY OF THE REPORTS SENT BY THE GRANTEE AS THE FOUNDATION HAD NO REASON TO DOUBT THE ACCURACY OF THE REPORTS PROVIDED BY THE GRANTEE. THEREFORE, INDEPENDENT VERIFICATION WAS NOT UNDERTAKEN.</ResultsOfVerificationTxt>
+      </ExpenditureResponsibilityGrp>
+      <ExpenditureResponsibilityGrp>
+        <BusinessName>
+          <BusinessNameLine1Txt>TANZANIA SCHOLARSHIP FUND</BusinessNameLine1Txt>
+        </BusinessName>
+        <ForeignAddress>
+          <AddressLine1Txt>PO BOX 86</AddressLine1Txt>
+          <CityNm>KARATU</CityNm>
+          <CountryCd>TZ</CountryCd>
+        </ForeignAddress>
+        <GrantDt>2022-05-05</GrantDt>
+        <GrantAmt>7347</GrantAmt>
+        <PurposeOfGrantTxt>SCHOLARSHIPS</PurposeOfGrantTxt>
+        <ExpendedByGranteeAmt>7347</ExpendedByGranteeAmt>
+        <DatesOfReportsByGranteeTxt>1/5/2023</DatesOfReportsByGranteeTxt>
+        <ResultsOfVerificationTxt>THE FOUNDATION WAS NOT REQUIRED TO INDEPENDENTLY VERIFY ANY OF THE REPORTS SENT BY THE GRANTEE AS THE FOUNDATION HAD NO REASON TO DOUBT THE ACCURACY OF THE REPORTS PROVIDED BY THE GRANTEE. THEREFORE, INDEPENDENT VERIFICATION WAS NOT UNDERTAKEN.</ResultsOfVerificationTxt>
+      </ExpenditureResponsibilityGrp>
+      <ExpenditureResponsibilityGrp>
+        <BusinessName>
+          <BusinessNameLine1Txt>TARANGIRE MAASAI BOMA VILLAGE</BusinessNameLine1Txt>
+        </BusinessName>
+        <ForeignAddress>
+          <AddressLine1Txt>PO BOX 3134</AddressLine1Txt>
+          <CityNm>ARUSHA</CityNm>
+          <CountryCd>TZ</CountryCd>
+        </ForeignAddress>
+        <GrantDt>2022-12-22</GrantDt>
+        <GrantAmt>195</GrantAmt>
+        <PurposeOfGrantTxt>HANDWASHING STATIONS</PurposeOfGrantTxt>
+        <ExpendedByGranteeAmt>195</ExpendedByGranteeAmt>
+        <DatesOfReportsByGranteeTxt>2/14/2023</DatesOfReportsByGranteeTxt>
+        <ResultsOfVerificationTxt>THE FOUNDATION WAS NOT REQUIRED TO INDEPENDENTLY VERIFY ANY OF THE REPORTS SENT BY THE GRANTEE AS THE FOUNDATION HAD NO REASON TO DOUBT THE ACCURACY OF THE REPORTS PROVIDED BY THE GRANTEE. THEREFORE, INDEPENDENT VERIFICATION WAS NOT UNDERTAKEN.</ResultsOfVerificationTxt>
+      </ExpenditureResponsibilityGrp>
+      <ExpenditureResponsibilityGrp>
+        <BusinessName>
+          <BusinessNameLine1Txt>TLOMA PRIMARY SCHOOL</BusinessNameLine1Txt>
+        </BusinessName>
+        <ForeignAddress>
+          <AddressLine1Txt>PO BOX 176</AddressLine1Txt>
+          <CityNm>KARATU</CityNm>
+          <CountryCd>TZ</CountryCd>
+        </ForeignAddress>
+        <GrantDt>2022-12-22</GrantDt>
+        <GrantAmt>18155</GrantAmt>
+        <PurposeOfGrantTxt>SOLAR LAMPS &amp; SCHOOL SUPPLIES</PurposeOfGrantTxt>
+        <ExpendedByGranteeAmt>18155</ExpendedByGranteeAmt>
+        <DatesOfReportsByGranteeTxt>2/14/2023</DatesOfReportsByGranteeTxt>
+        <ResultsOfVerificationTxt>THE FOUNDATION WAS NOT REQUIRED TO INDEPENDENTLY VERIFY ANY OF THE REPORTS SENT BY THE GRANTEE AS THE FOUNDATION HAD NO REASON TO DOUBT THE ACCURACY OF THE REPORTS PROVIDED BY THE GRANTEE. THEREFORE, INDEPENDENT VERIFICATION WAS NOT UNDERTAKEN.</ResultsOfVerificationTxt>
+      </ExpenditureResponsibilityGrp>
+      <ExpenditureResponsibilityGrp>
+        <BusinessName>
+          <BusinessNameLine1Txt>URR POLAND - FATHER ARKADIUZ</BusinessNameLine1Txt>
+        </BusinessName>
+        <ForeignAddress>
+          <AddressLine1Txt>AI GEN HALLERA 88/8</AddressLine1Txt>
+          <CityNm>WROCLAW</CityNm>
+          <CountryCd>PL</CountryCd>
+          <ForeignPostalCd>53-203</ForeignPostalCd>
+        </ForeignAddress>
+        <GrantDt>2022-12-08</GrantDt>
+        <GrantAmt>93753</GrantAmt>
+        <PurposeOfGrantTxt>FOOD SUPPORT FOR REFUGEES</PurposeOfGrantTxt>
+        <ExpendedByGranteeAmt>93753</ExpendedByGranteeAmt>
+        <DatesOfReportsByGranteeTxt>12/19/2022</DatesOfReportsByGranteeTxt>
+        <ResultsOfVerificationTxt>THE FOUNDATION WAS NOT REQUIRED TO INDEPENDENTLY VERIFY ANY OF THE REPORTS SENT BY THE GRANTEE AS THE FOUNDATION HAD NO REASON TO DOUBT THE ACCURACY OF THE REPORTS PROVIDED BY THE GRANTEE. THEREFORE, INDEPENDENT VERIFICATION WAS NOT UNDERTAKEN.</ResultsOfVerificationTxt>
+      </ExpenditureResponsibilityGrp>
+      <ExpenditureResponsibilityGrp>
+        <BusinessName>
+          <BusinessNameLine1Txt>URR POLAND - HAPPY KIDS ORPHANAGE</BusinessNameLine1Txt>
+        </BusinessName>
+        <ForeignAddress>
+          <AddressLine1Txt>UL ZNIWNA 10/14</AddressLine1Txt>
+          <CityNm>LODZ</CityNm>
+          <CountryCd>PL</CountryCd>
+          <ForeignPostalCd>94-250</ForeignPostalCd>
+        </ForeignAddress>
+        <GrantDt>2022-03-16</GrantDt>
+        <GrantAmt>13869</GrantAmt>
+        <PurposeOfGrantTxt>BEDDING/SUPPLIES FOR REFUGEE ORPHANS</PurposeOfGrantTxt>
+        <ExpendedByGranteeAmt>13869</ExpendedByGranteeAmt>
+        <DatesOfReportsByGranteeTxt>4/25/2022</DatesOfReportsByGranteeTxt>
+        <ResultsOfVerificationTxt>THE FOUNDATION WAS NOT REQUIRED TO INDEPENDENTLY VERIFY ANY OF THE REPORTS SENT BY THE GRANTEE AS THE FOUNDATION HAD NO REASON TO DOUBT THE ACCURACY OF THE REPORTS PROVIDED BY THE GRANTEE. THEREFORE, INDEPENDENT VERIFICATION WAS NOT UNDERTAKEN.</ResultsOfVerificationTxt>
+      </ExpenditureResponsibilityGrp>
+      <ExpenditureResponsibilityGrp>
+        <BusinessName>
+          <BusinessNameLine1Txt>URR POLAND - HUMANOSH</BusinessNameLine1Txt>
+        </BusinessName>
+        <ForeignAddress>
+          <AddressLine1Txt>UL KURACYJNA 11</AddressLine1Txt>
+          <CityNm>WARSZAWA</CityNm>
+          <CountryCd>PL</CountryCd>
+          <ForeignPostalCd>02-210</ForeignPostalCd>
+        </ForeignAddress>
+        <GrantDt>2022-09-21</GrantDt>
+        <GrantAmt>126925</GrantAmt>
+        <PurposeOfGrantTxt>PURCHASE OF AMBULANCE</PurposeOfGrantTxt>
+        <ExpendedByGranteeAmt>126925</ExpendedByGranteeAmt>
+        <DatesOfReportsByGranteeTxt>9/28/2022</DatesOfReportsByGranteeTxt>
+        <ResultsOfVerificationTxt>THE FOUNDATION WAS NOT REQUIRED TO INDEPENDENTLY VERIFY ANY OF THE REPORTS SENT BY THE GRANTEE AS THE FOUNDATION HAD NO REASON TO DOUBT THE ACCURACY OF THE REPORTS PROVIDED BY THE GRANTEE. THEREFORE, INDEPENDENT VERIFICATION WAS NOT UNDERTAKEN.</ResultsOfVerificationTxt>
+      </ExpenditureResponsibilityGrp>
+      <ExpenditureResponsibilityGrp>
+        <BusinessName>
+          <BusinessNameLine1Txt>URR POLAND - JOANNA KOMARNICKA HOSTEL</BusinessNameLine1Txt>
+        </BusinessName>
+        <ForeignAddress>
+          <AddressLine1Txt>WITA STWOSZA 12</AddressLine1Txt>
+          <CityNm>WROCLAW</CityNm>
+          <CountryCd>PL</CountryCd>
+          <ForeignPostalCd>53-203</ForeignPostalCd>
+        </ForeignAddress>
+        <GrantDt>2022-12-08</GrantDt>
+        <GrantAmt>151754</GrantAmt>
+        <PurposeOfGrantTxt>FOOD/SUPPLIES FOR 200 REFUGEES</PurposeOfGrantTxt>
+        <ExpendedByGranteeAmt>151754</ExpendedByGranteeAmt>
+        <DatesOfReportsByGranteeTxt>12/19/2022</DatesOfReportsByGranteeTxt>
+        <ResultsOfVerificationTxt>THE FOUNDATION WAS NOT REQUIRED TO INDEPENDENTLY VERIFY ANY OF THE REPORTS SENT BY THE GRANTEE AS THE FOUNDATION HAD NO REASON TO DOUBT THE ACCURACY OF THE REPORTS PROVIDED BY THE GRANTEE. THEREFORE, INDEPENDENT VERIFICATION WAS NOT UNDERTAKEN.</ResultsOfVerificationTxt>
+      </ExpenditureResponsibilityGrp>
+      <ExpenditureResponsibilityGrp>
+        <BusinessName>
+          <BusinessNameLine1Txt>URR POLAND - LENA GROCHOWSKA FOUNDATION</BusinessNameLine1Txt>
+        </BusinessName>
+        <ForeignAddress>
+          <AddressLine1Txt>UL BRZESKA 134</AddressLine1Txt>
+          <CityNm>SIEDLCE</CityNm>
+          <CountryCd>PL</CountryCd>
+          <ForeignPostalCd>08-110</ForeignPostalCd>
+        </ForeignAddress>
+        <GrantDt>2022-07-22</GrantDt>
+        <GrantAmt>700000</GrantAmt>
+        <PurposeOfGrantTxt>RENOVATIONS OF BUILDINGS TO HOUSE REFUGEES</PurposeOfGrantTxt>
+        <ExpendedByGranteeAmt>700000</ExpendedByGranteeAmt>
+        <DatesOfReportsByGranteeTxt>8/2/2022</DatesOfReportsByGranteeTxt>
+        <ResultsOfVerificationTxt>THE FOUNDATION WAS NOT REQUIRED TO INDEPENDENTLY VERIFY ANY OF THE REPORTS SENT BY THE GRANTEE AS THE FOUNDATION HAD NO REASON TO DOUBT THE ACCURACY OF THE REPORTS PROVIDED BY THE GRANTEE. THEREFORE, INDEPENDENT VERIFICATION WAS NOT UNDERTAKEN.</ResultsOfVerificationTxt>
+      </ExpenditureResponsibilityGrp>
+      <ExpenditureResponsibilityGrp>
+        <BusinessName>
+          <BusinessNameLine1Txt>URR POLAND - STRZELINSKIE CENTRUM SPORTOWO</BusinessNameLine1Txt>
+        </BusinessName>
+        <ForeignAddress>
+          <AddressLine1Txt>AI GEN HALLERA 88/8</AddressLine1Txt>
+          <CityNm>WROCLAW</CityNm>
+          <CountryCd>PL</CountryCd>
+          <ForeignPostalCd>53-203</ForeignPostalCd>
+        </ForeignAddress>
+        <GrantDt>2022-10-17</GrantDt>
+        <GrantAmt>197162</GrantAmt>
+        <PurposeOfGrantTxt>HOUSING SUPPORT FOR 91 REFUGEES FOR 1 YEAR</PurposeOfGrantTxt>
+        <ExpendedByGranteeAmt>197162</ExpendedByGranteeAmt>
+        <DatesOfReportsByGranteeTxt>10/25/2022</DatesOfReportsByGranteeTxt>
+        <ResultsOfVerificationTxt>THE FOUNDATION WAS NOT REQUIRED TO INDEPENDENTLY VERIFY ANY OF THE REPORTS SENT BY THE GRANTEE AS THE FOUNDATION HAD NO REASON TO DOUBT THE ACCURACY OF THE REPORTS PROVIDED BY THE GRANTEE. THEREFORE, INDEPENDENT VERIFICATION WAS NOT UNDERTAKEN.</ResultsOfVerificationTxt>
+      </ExpenditureResponsibilityGrp>
+      <ExpenditureResponsibilityGrp>
+        <BusinessName>
+          <BusinessNameLine1Txt>URR ROMANIA - BORDER CROSSING</BusinessNameLine1Txt>
+        </BusinessName>
+        <ForeignAddress>
+          <AddressLine1Txt>AI GEN HALLERA 88/8</AddressLine1Txt>
+          <CityNm>WROCLAW</CityNm>
+          <CountryCd>PL</CountryCd>
+          <ForeignPostalCd>53-203</ForeignPostalCd>
+        </ForeignAddress>
+        <GrantDt>2022-03-03</GrantDt>
+        <GrantAmt>50000</GrantAmt>
+        <PurposeOfGrantTxt>SUPPLIES TO 5 COMMUNITIES</PurposeOfGrantTxt>
+        <ExpendedByGranteeAmt>50000</ExpendedByGranteeAmt>
+        <DatesOfReportsByGranteeTxt>4/11/2022</DatesOfReportsByGranteeTxt>
+        <ResultsOfVerificationTxt>THE FOUNDATION WAS NOT REQUIRED TO INDEPENDENTLY VERIFY ANY OF THE REPORTS SENT BY THE GRANTEE AS THE FOUNDATION HAD NO REASON TO DOUBT THE ACCURACY OF THE REPORTS PROVIDED BY THE GRANTEE. THEREFORE, INDEPENDENT VERIFICATION WAS NOT UNDERTAKEN.</ResultsOfVerificationTxt>
+      </ExpenditureResponsibilityGrp>
+      <ExpenditureResponsibilityGrp>
+        <BusinessName>
+          <BusinessNameLine1Txt>URR ROMANIA - CASA CRENGUTEIR</BusinessNameLine1Txt>
+        </BusinessName>
+        <ForeignAddress>
+          <AddressLine1Txt>STR PROGRESULUI NR 17B</AddressLine1Txt>
+          <CityNm>BAIA MARE</CityNm>
+          <CountryCd>RO</CountryCd>
+        </ForeignAddress>
+        <GrantDt>2022-03-11</GrantDt>
+        <GrantAmt>30000</GrantAmt>
+        <PurposeOfGrantTxt>RENOVATION OF HOTEL TO PROVIDE HOUSING FOR REFUGEES</PurposeOfGrantTxt>
+        <ExpendedByGranteeAmt>30000</ExpendedByGranteeAmt>
+        <DatesOfReportsByGranteeTxt>3/28/2022</DatesOfReportsByGranteeTxt>
+        <ResultsOfVerificationTxt>THE FOUNDATION WAS NOT REQUIRED TO INDEPENDENTLY VERIFY ANY OF THE REPORTS SENT BY THE GRANTEE AS THE FOUNDATION HAD NO REASON TO DOUBT THE ACCURACY OF THE REPORTS PROVIDED BY THE GRANTEE. THEREFORE, INDEPENDENT VERIFICATION WAS NOT UNDERTAKEN.</ResultsOfVerificationTxt>
+      </ExpenditureResponsibilityGrp>
+      <ExpenditureResponsibilityGrp>
+        <BusinessName>
+          <BusinessNameLine1Txt>URR ROMANIA - MEDIAS FALTICENI</BusinessNameLine1Txt>
+        </BusinessName>
+        <ForeignAddress>
+          <AddressLine1Txt>SAT DOLHESTII MICI</AddressLine1Txt>
+          <CityNm>SUCEAVA</CityNm>
+          <CountryCd>RO</CountryCd>
+        </ForeignAddress>
+        <GrantDt>2022-11-01</GrantDt>
+        <GrantAmt>38000</GrantAmt>
+        <PurposeOfGrantTxt>SUPPORT FOR 50 REFUGEE FAMILIES</PurposeOfGrantTxt>
+        <ExpendedByGranteeAmt>38000</ExpendedByGranteeAmt>
+        <DatesOfReportsByGranteeTxt>2/7/2023</DatesOfReportsByGranteeTxt>
+        <ResultsOfVerificationTxt>THE FOUNDATION WAS NOT REQUIRED TO INDEPENDENTLY VERIFY ANY OF THE REPORTS SENT BY THE GRANTEE AS THE FOUNDATION HAD NO REASON TO DOUBT THE ACCURACY OF THE REPORTS PROVIDED BY THE GRANTEE. THEREFORE, INDEPENDENT VERIFICATION WAS NOT UNDERTAKEN.</ResultsOfVerificationTxt>
+      </ExpenditureResponsibilityGrp>
+      <ExpenditureResponsibilityGrp>
+        <BusinessName>
+          <BusinessNameLine1Txt>URR ROMANIA - UKRAINIAN BORDER CAMP</BusinessNameLine1Txt>
+        </BusinessName>
+        <ForeignAddress>
+          <AddressLine1Txt>AI GEN HALLERA 88/8</AddressLine1Txt>
+          <CountryCd>PL</CountryCd>
+        </ForeignAddress>
+        <GrantDt>2022-03-11</GrantDt>
+        <GrantAmt>20000</GrantAmt>
+        <PurposeOfGrantTxt>SUPPORT FOR BORDER CAMP</PurposeOfGrantTxt>
+        <ExpendedByGranteeAmt>20000</ExpendedByGranteeAmt>
+        <DatesOfReportsByGranteeTxt>3/28/2022</DatesOfReportsByGranteeTxt>
+        <ResultsOfVerificationTxt>THE FOUNDATION WAS NOT REQUIRED TO INDEPENDENTLY VERIFY ANY OF THE REPORTS SENT BY THE GRANTEE AS THE FOUNDATION HAD NO REASON TO DOUBT THE ACCURACY OF THE REPORTS PROVIDED BY THE GRANTEE. THEREFORE, INDEPENDENT VERIFICATION WAS NOT UNDERTAKEN.</ResultsOfVerificationTxt>
+      </ExpenditureResponsibilityGrp>
+      <ExpenditureResponsibilityGrp>
+        <BusinessName>
+          <BusinessNameLine1Txt>ZIMBABWE SCHOLARSHIP FUND</BusinessNameLine1Txt>
+        </BusinessName>
+        <ForeignAddress>
+          <AddressLine1Txt>PO BOX 89</AddressLine1Txt>
+          <CountryCd>ZI</CountryCd>
+        </ForeignAddress>
+        <GrantDt>2022-05-05</GrantDt>
+        <GrantAmt>3612</GrantAmt>
+        <PurposeOfGrantTxt>SCHOLARSHIPS</PurposeOfGrantTxt>
+        <ExpendedByGranteeAmt>3612</ExpendedByGranteeAmt>
+        <DatesOfReportsByGranteeTxt>5/30/2022</DatesOfReportsByGranteeTxt>
+        <ResultsOfVerificationTxt>THE FOUNDATION WAS NOT REQUIRED TO INDEPENDENTLY VERIFY ANY OF THE REPORTS SENT BY THE GRANTEE AS THE FOUNDATION HAD NO REASON TO DOUBT THE ACCURACY OF THE REPORTS PROVIDED BY THE GRANTEE. THEREFORE, INDEPENDENT VERIFICATION WAS NOT UNDERTAKEN.</ResultsOfVerificationTxt>
+      </ExpenditureResponsibilityGrp>
+    </ExpenditureResponsibilityStmt>
+    <LegalFeesSchedule documentId="RetDoc2002100001">
+      <LegalFeesGrp>
+        <CategoryTxt>LEGAL &amp; OTHER</CategoryTxt>
+        <LegalFeesAmt>829</LegalFeesAmt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>829</AdjustedNetIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>829</DisbursementsCharitablePrpsAmt>
+      </LegalFeesGrp>
+    </LegalFeesSchedule>
+    <OtherExpensesSchedule documentId="RetDoc2003200001">
+      <OtherExpensesScheduleGrp>
+        <Desc>GENERAL &amp; ADMINISTRATIVE</Desc>
+        <RevenueAndExpensesPerBooksAmt>95407</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>95407</AdjustedNetIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>95407</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>OTHER PROGRAM SERVICES</Desc>
+        <RevenueAndExpensesPerBooksAmt>138711</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>138711</AdjustedNetIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>138711</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>FED/STATE TAXES PAID</Desc>
+        <RevenueAndExpensesPerBooksAmt>370</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>370</AdjustedNetIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>370</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>MARKETING EXPENSE</Desc>
+        <RevenueAndExpensesPerBooksAmt>19179</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>19179</AdjustedNetIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>19179</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>MAINTENANCE &amp; REPAIRS</Desc>
+        <RevenueAndExpensesPerBooksAmt>263</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>263</AdjustedNetIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>263</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>GIFT MATCHING EXPENSE</Desc>
+        <RevenueAndExpensesPerBooksAmt>3832</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>0</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>3832</AdjustedNetIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>3832</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+    </OtherExpensesSchedule>
+    <OtherIncreasesSchedule documentId="RetDoc2049700001">
+      <OtherIncreasesDetail>
+        <Desc>OTHER INCREASES - RETAINED EARNINGS</Desc>
+        <Amt>504683</Amt>
+      </OtherIncreasesDetail>
+    </OtherIncreasesSchedule>
+    <OtherLiabilitiesSchedule documentId="RetDoc2065700001">
+      <OtherLiabilitiesDetail>
+        <Desc>ACCRUED EXPENSES</Desc>
+        <BOYBookValueAmt>70000</BOYBookValueAmt>
+        <EOYBookValueAmt>49016</EOYBookValueAmt>
+      </OtherLiabilitiesDetail>
+    </OtherLiabilitiesSchedule>
+    <SubstantialContributorsSch documentId="RetDoc2089200001">
+      <SubstantialContributorDetail>
+        <PersonNm>CHARLES CHRISMER</PersonNm>
+        <USAddress>
+          <AddressLine1Txt>620 SE 168TH AVE APT</AddressLine1Txt>
+          <CityNm>VANCOUVER</CityNm>
+          <StateAbbreviationCd>WA</StateAbbreviationCd>
+          <ZIPCd>98684</ZIPCd>
+        </USAddress>
+      </SubstantialContributorDetail>
+      <SubstantialContributorDetail>
+        <PersonNm>CHRISTOPHER AND SANDRA JOHNSON</PersonNm>
+        <USAddress>
+          <AddressLine1Txt>411 WALNUT ST 3488 GREEN</AddressLine1Txt>
+          <CityNm>COVE SPRINGS</CityNm>
+          <StateAbbreviationCd>FL</StateAbbreviationCd>
+          <ZIPCd>32043</ZIPCd>
+        </USAddress>
+      </SubstantialContributorDetail>
+      <SubstantialContributorDetail>
+        <PersonNm>DENNISE LARSON</PersonNm>
+        <USAddress>
+          <AddressLine1Txt>15917 NE UNION RD UNIT 4</AddressLine1Txt>
+          <CityNm>RIDGEFIELD</CityNm>
+          <StateAbbreviationCd>WA</StateAbbreviationCd>
+          <ZIPCd>98642</ZIPCd>
+        </USAddress>
+      </SubstantialContributorDetail>
+      <SubstantialContributorDetail>
+        <PersonNm>GEORGE HUBBORD</PersonNm>
+        <USAddress>
+          <AddressLine1Txt>SANTALUZ VILLAGE GRN S</AddressLine1Txt>
+          <CityNm>SAN DIEGO</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>92127</ZIPCd>
+        </USAddress>
+      </SubstantialContributorDetail>
+      <SubstantialContributorDetail>
+        <PersonNm>GEORGIA HILL</PersonNm>
+        <USAddress>
+          <AddressLine1Txt>264 CELESTE DR</AddressLine1Txt>
+          <CityNm>RIVERSIDE</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>92507</ZIPCd>
+        </USAddress>
+      </SubstantialContributorDetail>
+      <SubstantialContributorDetail>
+        <PersonNm>GORDON VALENTINE</PersonNm>
+        <USAddress>
+          <AddressLine1Txt>235 ALPINE DR</AddressLine1Txt>
+          <CityNm>LEXINGTON</CityNm>
+          <StateAbbreviationCd>VA</StateAbbreviationCd>
+          <ZIPCd>24450</ZIPCd>
+        </USAddress>
+      </SubstantialContributorDetail>
+      <SubstantialContributorDetail>
+        <PersonNm>HILDA BROWN TRUST</PersonNm>
+        <USAddress>
+          <AddressLine1Txt>7647 E EDGEMONT AVE</AddressLine1Txt>
+          <CityNm>SCOTTSDALE</CityNm>
+          <StateAbbreviationCd>AZ</StateAbbreviationCd>
+          <ZIPCd>85257</ZIPCd>
+        </USAddress>
+      </SubstantialContributorDetail>
+      <SubstantialContributorDetail>
+        <PersonNm>JEANNIE LING</PersonNm>
+        <USAddress>
+          <AddressLine1Txt>6152 AVALON CT</AddressLine1Txt>
+          <CityNm>LONG BEACH</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>90803</ZIPCd>
+        </USAddress>
+      </SubstantialContributorDetail>
+      <SubstantialContributorDetail>
+        <PersonNm>JOHN EVANGELYN BOICE</PersonNm>
+        <USAddress>
+          <AddressLine1Txt>16 TYAN WAY</AddressLine1Txt>
+          <CityNm>PORTOLA VALLEY</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>94028</ZIPCd>
+        </USAddress>
+      </SubstantialContributorDetail>
+      <SubstantialContributorDetail>
+        <PersonNm>KATHARINE ALPHIN</PersonNm>
+        <USAddress>
+          <AddressLine1Txt>1 GHOST CRAB CT</AddressLine1Txt>
+          <CityNm>SAVANNAH</CityNm>
+          <StateAbbreviationCd>GA</StateAbbreviationCd>
+          <ZIPCd>31411</ZIPCd>
+        </USAddress>
+      </SubstantialContributorDetail>
+      <SubstantialContributorDetail>
+        <PersonNm>LARRY LINDSEY BOWMAN</PersonNm>
+        <USAddress>
+          <AddressLine1Txt>1531 PLANK DR</AddressLine1Txt>
+          <CityNm>BLACKSBURG</CityNm>
+          <StateAbbreviationCd>VA</StateAbbreviationCd>
+          <ZIPCd>24060</ZIPCd>
+        </USAddress>
+      </SubstantialContributorDetail>
+      <SubstantialContributorDetail>
+        <PersonNm>LARRY KOCH</PersonNm>
+        <USAddress>
+          <AddressLine1Txt>828 W PLACITA QUIETA</AddressLine1Txt>
+          <CityNm>GREEN VALLEY</CityNm>
+          <StateAbbreviationCd>AZ</StateAbbreviationCd>
+          <ZIPCd>85622</ZIPCd>
+        </USAddress>
+      </SubstantialContributorDetail>
+      <SubstantialContributorDetail>
+        <PersonNm>LINDA CONWAY</PersonNm>
+        <USAddress>
+          <AddressLine1Txt>622 UNIVERSITY PL</AddressLine1Txt>
+          <CityNm>SWARTHMORE</CityNm>
+          <StateAbbreviationCd>PA</StateAbbreviationCd>
+          <ZIPCd>19081</ZIPCd>
+        </USAddress>
+      </SubstantialContributorDetail>
+      <SubstantialContributorDetail>
+        <PersonNm>MITCHELL FAMILY FOUNDATION</PersonNm>
+        <USAddress>
+          <AddressLine1Txt>8416 POINSETTIA DR</AddressLine1Txt>
+          <CityNm>TAMPA</CityNm>
+          <StateAbbreviationCd>FL</StateAbbreviationCd>
+          <ZIPCd>33637</ZIPCd>
+        </USAddress>
+      </SubstantialContributorDetail>
+      <SubstantialContributorDetail>
+        <PersonNm>NANCY ZANG</PersonNm>
+        <USAddress>
+          <AddressLine1Txt>1021 RED CLIFFE DR</AddressLine1Txt>
+          <CityNm>LANSING</CityNm>
+          <StateAbbreviationCd>MI</StateAbbreviationCd>
+          <ZIPCd>48917</ZIPCd>
+        </USAddress>
+      </SubstantialContributorDetail>
+      <SubstantialContributorDetail>
+        <PersonNm>THE TOV FOUNDATION</PersonNm>
+        <USAddress>
+          <AddressLine1Txt>PO BOX 5830</AddressLine1Txt>
+          <CityNm>INCLINE VILLAGE</CityNm>
+          <StateAbbreviationCd>NV</StateAbbreviationCd>
+          <ZIPCd>89450</ZIPCd>
+        </USAddress>
+      </SubstantialContributorDetail>
+      <SubstantialContributorDetail>
+        <PersonNm>WILLIAM ATKINSON</PersonNm>
+        <USAddress>
+          <AddressLine1Txt>1 GHOST CRAB ST</AddressLine1Txt>
+          <CityNm>SAVANNAH</CityNm>
+          <StateAbbreviationCd>GA</StateAbbreviationCd>
+          <ZIPCd>31411</ZIPCd>
+        </USAddress>
+      </SubstantialContributorDetail>
+      <SubstantialContributorDetail>
+        <PersonNm>WILLIAM SCARGLE</PersonNm>
+        <USAddress>
+          <AddressLine1Txt>556 SPOTTED OWL COURT</AddressLine1Txt>
+          <CityNm>WALNUT CREEK</CityNm>
+          <StateAbbreviationCd>GA</StateAbbreviationCd>
+          <ZIPCd>94595</ZIPCd>
+        </USAddress>
+      </SubstantialContributorDetail>
+    </SubstantialContributorsSch>
+  </ReturnData>
+</Return>

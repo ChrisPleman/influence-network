@@ -1,0 +1,799 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Return xmlns="http://www.irs.gov/efile" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" returnVersion="2017v2.3">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2019-10-18T10:05:08-05:00</ReturnTs>
+    <TaxPeriodEndDt>2018-11-30</TaxPeriodEndDt>
+    <PreparerFirmGrp>
+      <PreparerFirmEIN>814615126</PreparerFirmEIN>
+      <PreparerFirmName>
+        <BusinessNameLine1Txt>MCCLARIGAN CPAS &amp; ADVISORS</BusinessNameLine1Txt>
+      </PreparerFirmName>
+      <PreparerUSAddress>
+        <AddressLine1Txt>3314 LINCOLN HWY E</AddressLine1Txt>
+        <CityNm>PARADISE</CityNm>
+        <StateAbbreviationCd>PA</StateAbbreviationCd>
+        <ZIPCd>175629612</ZIPCd>
+      </PreparerUSAddress>
+    </PreparerFirmGrp>
+    <ReturnTypeCd>990PF</ReturnTypeCd>
+    <TaxPeriodBeginDt>2017-12-01</TaxPeriodBeginDt>
+    <Filer>
+      <EIN>522388469</EIN>
+      <BusinessName>
+        <BusinessNameLine1Txt>HELPING HANDS FUND</BusinessNameLine1Txt>
+      </BusinessName>
+      <BusinessNameControlTxt>HELP</BusinessNameControlTxt>
+      <PhoneNum>7173557124</PhoneNum>
+      <USAddress>
+        <AddressLine1Txt>2044 W MAIN ST</AddressLine1Txt>
+        <CityNm>EPHRATA</CityNm>
+        <StateAbbreviationCd>PA</StateAbbreviationCd>
+        <ZIPCd>17522</ZIPCd>
+      </USAddress>
+    </Filer>
+    <BusinessOfficerGrp>
+      <PersonNm>JOHN LAPP JR</PersonNm>
+      <PersonTitleTxt>TRUSTEE</PersonTitleTxt>
+      <PhoneNum>7172832233</PhoneNum>
+      <SignatureDt>2019-10-15</SignatureDt>
+    </BusinessOfficerGrp>
+    <PreparerPersonGrp>
+      <PreparerPersonNm>KEVIN J MCCLARIGAN CPA</PreparerPersonNm>
+      <PTIN>P00534501</PTIN>
+      <PhoneNum>7176874237</PhoneNum>
+      <PreparationDt>2019-10-18</PreparationDt>
+      <SelfEmployedInd>X</SelfEmployedInd>
+    </PreparerPersonGrp>
+    <FilingSecurityInformation>
+      <IPAddress>
+        <IPv4AddressTxt>96.89.172.201</IPv4AddressTxt>
+      </IPAddress>
+      <IPDt>2019-10-18</IPDt>
+      <IPTm>10:05:08</IPTm>
+      <IPTimezoneCd>CD</IPTimezoneCd>
+      <FilingLicenseTypeCd>P</FilingLicenseTypeCd>
+      <AtSubmissionCreationDeviceId>EB140232CA0EE3FE8D0438485D50627219D473AD</AtSubmissionCreationDeviceId>
+      <AtSubmissionFilingDeviceId>EB140232CA0EE3FE8D0438485D50627219D473AD</AtSubmissionFilingDeviceId>
+    </FilingSecurityInformation>
+    <TaxYr>2017</TaxYr>
+    <BuildTS>2019-02-21 02:37:17Z</BuildTS>
+  </ReturnHeader>
+  <ReturnData documentCnt="11">
+    <IRS990PF documentId="RetDoc11">
+      <InitialReturnFormerPubChrtyInd>X</InitialReturnFormerPubChrtyInd>
+      <Organization501c3ExemptPFInd>X</Organization501c3ExemptPFInd>
+      <FMVAssetsEOYAmt>1369286</FMVAssetsEOYAmt>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <AnalysisOfRevenueAndExpenses>
+        <ContriRcvdRevAndExpnssAmt>25524</ContriRcvdRevAndExpnssAmt>
+        <OtherIncomeRevAndExpnssAmt referenceDocumentId="RetDoc7">16875</OtherIncomeRevAndExpnssAmt>
+        <OtherIncomeNetInvstIncmAmt>16875</OtherIncomeNetInvstIncmAmt>
+        <OtherIncomeAdjNetIncmAmt>16875</OtherIncomeAdjNetIncmAmt>
+        <TotalRevAndExpnssAmt>42399</TotalRevAndExpnssAmt>
+        <TotalNetInvstIncmAmt>16875</TotalNetInvstIncmAmt>
+        <TotalAdjNetIncmAmt>16875</TotalAdjNetIncmAmt>
+        <AccountingFeesRevAndExpnssAmt referenceDocumentId="RetDoc2">7174</AccountingFeesRevAndExpnssAmt>
+        <OtherProfFeesRevAndExpnssAmt referenceDocumentId="RetDoc10">31422</OtherProfFeesRevAndExpnssAmt>
+        <OccupancyRevAndExpnssAmt>2911</OccupancyRevAndExpnssAmt>
+        <TravConfMeetingRevAndExpnssAmt>5645</TravConfMeetingRevAndExpnssAmt>
+        <OtherExpensesRevAndExpnssAmt referenceDocumentId="RetDoc6">13557</OtherExpensesRevAndExpnssAmt>
+        <TotOprExpensesRevAndExpnssAmt>60709</TotOprExpensesRevAndExpnssAmt>
+        <TotOprExpensesNetInvstIncmAmt>0</TotOprExpensesNetInvstIncmAmt>
+        <TotOprExpensesDsbrsChrtblAmt>0</TotOprExpensesDsbrsChrtblAmt>
+        <ContriPaidRevAndExpnssAmt>24500</ContriPaidRevAndExpnssAmt>
+        <ContriPaidDsbrsChrtblAmt>24500</ContriPaidDsbrsChrtblAmt>
+        <TotalExpensesRevAndExpnssAmt>85209</TotalExpensesRevAndExpnssAmt>
+        <TotalExpensesNetInvstIncmAmt>0</TotalExpensesNetInvstIncmAmt>
+        <TotalExpensesDsbrsChrtblAmt>24500</TotalExpensesDsbrsChrtblAmt>
+        <ExcessRevenueOverExpensesAmt>-42810</ExcessRevenueOverExpensesAmt>
+        <NetInvestmentIncomeAmt>16875</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>16875</AdjustedNetIncomeAmt>
+      </AnalysisOfRevenueAndExpenses>
+      <Form990PFBalanceSheetsGrp>
+        <CashBOYAmt>66179</CashBOYAmt>
+        <CashEOYAmt>31815</CashEOYAmt>
+        <CashEOYFMVAmt>31815</CashEOYFMVAmt>
+        <OtherNtsAndLoansRcvblAmt>1212441</OtherNtsAndLoansRcvblAmt>
+        <OtherNtsAndLoansRcvblBOYAmt>1254456</OtherNtsAndLoansRcvblBOYAmt>
+        <OtherNtsAndLoansRcvblEOYAmt referenceDocumentId="RetDoc9">1212441</OtherNtsAndLoansRcvblEOYAmt>
+        <OtherNtsAndLoansRcvblEOYFMVAmt>1212441</OtherNtsAndLoansRcvblEOYFMVAmt>
+        <OtherInvestmentsBOYAmt>90030</OtherInvestmentsBOYAmt>
+        <OtherInvestmentsEOYAmt referenceDocumentId="RetDoc4">125030</OtherInvestmentsEOYAmt>
+        <OtherInvestmentsEOYFMVAmt>125030</OtherInvestmentsEOYFMVAmt>
+        <LandBldgEquipCostOrOtherBssAmt>18196</LandBldgEquipCostOrOtherBssAmt>
+        <LandBldgEquipAccumDeprecAmt>18196</LandBldgEquipAccumDeprecAmt>
+        <TotalAssetsBOYAmt>1410665</TotalAssetsBOYAmt>
+        <TotalAssetsEOYAmt>1369286</TotalAssetsEOYAmt>
+        <TotalAssetsEOYFMVAmt>1369286</TotalAssetsEOYFMVAmt>
+        <OtherLiabilitiesEOYAmt referenceDocumentId="RetDoc8">1431</OtherLiabilitiesEOYAmt>
+        <TotalLiabilitiesEOYAmt>1431</TotalLiabilitiesEOYAmt>
+        <OrgDoesNotFollowSFAS117Ind>X</OrgDoesNotFollowSFAS117Ind>
+        <RetainedEarningBOYAmt>1410665</RetainedEarningBOYAmt>
+        <RetainedEarningEOYAmt>1367855</RetainedEarningEOYAmt>
+        <TotNetAstOrFundBalancesBOYAmt>1410665</TotNetAstOrFundBalancesBOYAmt>
+        <TotNetAstOrFundBalancesEOYAmt>1367855</TotNetAstOrFundBalancesEOYAmt>
+        <TotalLiabilitiesNetAstBOYAmt>1410665</TotalLiabilitiesNetAstBOYAmt>
+        <TotalLiabilitiesNetAstEOYAmt>1369286</TotalLiabilitiesNetAstEOYAmt>
+      </Form990PFBalanceSheetsGrp>
+      <ChgInNetAssetsFundBalancesGrp>
+        <TotNetAstOrFundBalancesBOYAmt>1410665</TotNetAstOrFundBalancesBOYAmt>
+        <ExcessRevenueOverExpensesAmt>-42810</ExcessRevenueOverExpensesAmt>
+        <SubtotalAmt>1367855</SubtotalAmt>
+        <TotNetAstOrFundBalancesEOYAmt>1367855</TotNetAstOrFundBalancesEOYAmt>
+      </ChgInNetAssetsFundBalancesGrp>
+      <QlfyUndSect4940eReducedTaxGrp>
+        <LiableSection4942TaxInd>false</LiableSection4942TaxInd>
+        <AdjustedQlfyDistriYr1Amt>227452</AdjustedQlfyDistriYr1Amt>
+        <NetVlNoncharitableAssetsYr1Amt>73723</NetVlNoncharitableAssetsYr1Amt>
+        <DistributionYr1Rt>3.085224</DistributionYr1Rt>
+        <AdjustedQlfyDistriYr2Amt>88247</AdjustedQlfyDistriYr2Amt>
+        <NetVlNoncharitableAssetsYr2Amt>25972</NetVlNoncharitableAssetsYr2Amt>
+        <DistributionYr2Rt>3.397775</DistributionYr2Rt>
+        <AdjustedQlfyDistriYr3Amt>267751</AdjustedQlfyDistriYr3Amt>
+        <NetVlNoncharitableAssetsYr3Amt>95934</NetVlNoncharitableAssetsYr3Amt>
+        <DistributionYr3Rt>2.790992</DistributionYr3Rt>
+        <AdjustedQlfyDistriYr4Amt>166070</AdjustedQlfyDistriYr4Amt>
+        <NetVlNoncharitableAssetsYr4Amt>36458</NetVlNoncharitableAssetsYr4Amt>
+        <DistributionYr4Rt>4.555105</DistributionYr4Rt>
+        <AdjustedQlfyDistriYr5Amt>284678</AdjustedQlfyDistriYr5Amt>
+        <NetVlNoncharitableAssetsYr5Amt>69068</NetVlNoncharitableAssetsYr5Amt>
+        <DistributionYr5Rt>4.121706</DistributionYr5Rt>
+        <TotalDistributionRt>17.950802</TotalDistributionRt>
+        <AverageDistributionRt>3.590160</AverageDistributionRt>
+        <NetVlNoncharitableAssetsAmt>37972</NetVlNoncharitableAssetsAmt>
+        <AdjNetVlNoncharitableAssetsAmt>136326</AdjNetVlNoncharitableAssetsAmt>
+        <NetInvestmentIncomePctAmt>169</NetInvestmentIncomePctAmt>
+        <AdjNonchrtblNetInvstIncmPctAmt>136495</AdjNonchrtblNetInvstIncmPctAmt>
+        <QualifyingDistributionsAmt>54000</QualifyingDistributionsAmt>
+      </QlfyUndSect4940eReducedTaxGrp>
+      <ExciseTaxBasedOnInvstIncmGrp>
+        <InvestmentIncomeExciseTaxAmt>338</InvestmentIncomeExciseTaxAmt>
+        <SubtotalAmt>338</SubtotalAmt>
+        <TaxBasedOnInvestmentIncomeAmt>338</TaxBasedOnInvestmentIncomeAmt>
+        <TaxDueAmt>338</TaxDueAmt>
+      </ExciseTaxBasedOnInvstIncmGrp>
+      <StatementsRegardingActyGrp>
+        <LegislativePoliticalActyInd>false</LegislativePoliticalActyInd>
+        <MoreThan100SpentInd>false</MoreThan100SpentInd>
+        <Form1120POLFiledInd>false</Form1120POLFiledInd>
+        <ActivitiesNotPreviouslyRptInd>false</ActivitiesNotPreviouslyRptInd>
+        <ChangesToArticlesOrBylawsInd>false</ChangesToArticlesOrBylawsInd>
+        <UnrelatedBusIncmOverLimitInd>false</UnrelatedBusIncmOverLimitInd>
+        <OrganizationDissolvedEtcInd>false</OrganizationDissolvedEtcInd>
+        <Section508eRqrSatisfiedInd>true</Section508eRqrSatisfiedInd>
+        <AtLeast5000InAssetsInd>true</AtLeast5000InAssetsInd>
+        <Form990PFFiledWithAttyGenInd>true</Form990PFFiledWithAttyGenInd>
+        <PrivateOperatingFoundationInd>true</PrivateOperatingFoundationInd>
+        <NewSubstantialContributorsInd>false</NewSubstantialContributorsInd>
+        <OwnControlledEntityInd>false</OwnControlledEntityInd>
+        <DonorAdvisedFundInd>false</DonorAdvisedFundInd>
+        <ComplyWithPublicInspRqrInd>true</ComplyWithPublicInspRqrInd>
+        <WebsiteAddressTxt>N/A</WebsiteAddressTxt>
+        <IndividualWithBooksNm>GEHMAN ACCOUNTING INC</IndividualWithBooksNm>
+        <PhoneNum>7173548288</PhoneNum>
+        <LocationOfBooksUSAddress>
+          <AddressLine1Txt>121 EAST MAIN STREET</AddressLine1Txt>
+          <CityNm>NEW HOLLAND</CityNm>
+          <StateAbbreviationCd>PA</StateAbbreviationCd>
+          <ZIPCd>17557</ZIPCd>
+        </LocationOfBooksUSAddress>
+        <ForeignAccountsQuestionInd>false</ForeignAccountsQuestionInd>
+      </StatementsRegardingActyGrp>
+      <StatementsRegardingActy4720Grp>
+        <SaleOrExchDisqualifiedPrsnInd>false</SaleOrExchDisqualifiedPrsnInd>
+        <BrrwOrLendDisqualifiedPrsnInd>false</BrrwOrLendDisqualifiedPrsnInd>
+        <FurnGoodsDisqualifiedPrsnInd>false</FurnGoodsDisqualifiedPrsnInd>
+        <PayCompDisqualifiedPrsnInd>false</PayCompDisqualifiedPrsnInd>
+        <TransferAstDisqualifiedPrsnInd>false</TransferAstDisqualifiedPrsnInd>
+        <PaymentToGovernmentOfficialInd>false</PaymentToGovernmentOfficialInd>
+        <UndistributedIncomePYInd>false</UndistributedIncomePYInd>
+        <BusinessHoldingsInd>false</BusinessHoldingsInd>
+        <JeopardyInvestmentsInd>false</JeopardyInvestmentsInd>
+        <UncorrectedPYJeopardyInvstInd>false</UncorrectedPYJeopardyInvstInd>
+        <InfluenceLegislationInd>false</InfluenceLegislationInd>
+        <InfluenceElectionInd>false</InfluenceElectionInd>
+        <GrantsToIndividualsInd>false</GrantsToIndividualsInd>
+        <GrantsToOrganizationsInd>false</GrantsToOrganizationsInd>
+        <NoncharitablePurposeInd>false</NoncharitablePurposeInd>
+        <RcvFndsToPayPrsnlBnftCntrctInd>false</RcvFndsToPayPrsnlBnftCntrctInd>
+        <PayPremiumsPrsnlBnftCntrctInd>false</PayPremiumsPrsnlBnftCntrctInd>
+        <ProhibitedTaxShelterTransInd>false</ProhibitedTaxShelterTransInd>
+      </StatementsRegardingActy4720Grp>
+      <OfficerDirTrstKeyEmplInfoGrp>
+        <OfficerDirTrstKeyEmplGrp>
+          <PersonNm>JOHN LAPP JR</PersonNm>
+          <USAddress>
+            <AddressLine1Txt>620 NORTH SHIRK ROAD</AddressLine1Txt>
+            <CityNm>NEW HOLLAND</CityNm>
+            <StateAbbreviationCd>PA</StateAbbreviationCd>
+            <ZIPCd>17557</ZIPCd>
+          </USAddress>
+          <TitleTxt>TRUSTEE</TitleTxt>
+          <AverageHrsPerWkDevotedToPosRt>000.00</AverageHrsPerWkDevotedToPosRt>
+          <CompensationAmt>0</CompensationAmt>
+          <EmployeeBenefitProgramAmt>0</EmployeeBenefitProgramAmt>
+          <ExpenseAccountOtherAllwncAmt>0</ExpenseAccountOtherAllwncAmt>
+        </OfficerDirTrstKeyEmplGrp>
+        <CompOfHghstPdEmplOrNONETxt>NONE</CompOfHghstPdEmplOrNONETxt>
+        <CompOfHghstPdCntrctOrNONETxt>NONE</CompOfHghstPdCntrctOrNONETxt>
+      </OfficerDirTrstKeyEmplInfoGrp>
+      <SummaryOfDirectChrtblActyGrp>
+        <Description1Txt>CONTRIBUTION TO A 501(C)(3) PEACEFUL HEALING JOURNEY</Description1Txt>
+        <Expenses1Amt>10000</Expenses1Amt>
+        <Description2Txt>CONTRIBUTION TO 501(C)(3) BLESSINGS OF HOPE</Description2Txt>
+        <Expenses2Amt>5500</Expenses2Amt>
+        <Description3Txt>CONTRIBUTION TO A 501(C)(3) TRANSITION TO COMMUNITY</Description3Txt>
+        <Expenses3Amt>5000</Expenses3Amt>
+        <Description4Txt>CONTRIBUTION TO A 501(C)(3) LORDS HOUSE OF PRAYER</Description4Txt>
+        <Expenses4Amt>4000</Expenses4Amt>
+      </SummaryOfDirectChrtblActyGrp>
+      <SumOfProgramRelatedInvstGrp>
+        <Description1Txt>LOAN TO DAVID LAPP</Description1Txt>
+        <Expenses1Amt>12000</Expenses1Amt>
+        <Description2Txt>LOAN TO ONE KINGDOM COMMUNITY</Description2Txt>
+        <Expenses2Amt>8500</Expenses2Amt>
+        <AllOtherProgramRltdInvstTotAmt>9000</AllOtherProgramRltdInvstTotAmt>
+        <TotalAmt>29500</TotalAmt>
+      </SumOfProgramRelatedInvstGrp>
+      <MinimumInvestmentReturnGrp>
+        <AverageMonthlyFMVOfSecAmt>0</AverageMonthlyFMVOfSecAmt>
+        <AverageMonthlyCashBalancesAmt>38550</AverageMonthlyCashBalancesAmt>
+        <FMVAllOtherNoncharitableAstAmt>0</FMVAllOtherNoncharitableAstAmt>
+        <TotalFMVOfUnusedAssetsAmt>38550</TotalFMVOfUnusedAssetsAmt>
+        <AdjustedTotalFMVOfUnusedAstAmt>38550</AdjustedTotalFMVOfUnusedAstAmt>
+        <CashDeemedCharitableAmt>578</CashDeemedCharitableAmt>
+        <NetVlNoncharitableAssetsAmt>37972</NetVlNoncharitableAssetsAmt>
+        <MinimumInvestmentReturnAmt>1899</MinimumInvestmentReturnAmt>
+      </MinimumInvestmentReturnGrp>
+      <DistributableAmountGrp>
+        <Sect4942j3j5FndtnAndFrgnOrgInd>X</Sect4942j3j5FndtnAndFrgnOrgInd>
+      </DistributableAmountGrp>
+      <QualifyingDistriPartXIIGrp>
+        <ExpensesAndContributionsAmt>24500</ExpensesAndContributionsAmt>
+        <ProgramRelatedInvstTotalAmt>29500</ProgramRelatedInvstTotalAmt>
+        <QualifyingDistributionsAmt>54000</QualifyingDistributionsAmt>
+        <AdjustedQualifyingDistriAmt>54000</AdjustedQualifyingDistriAmt>
+      </QualifyingDistriPartXIIGrp>
+      <UndistributedIncomeGrp>
+        <QualifyingDistributionsAmt>54000</QualifyingDistributionsAmt>
+        <RemainingDistriFromCorpusAmt>54000</RemainingDistriFromCorpusAmt>
+        <TotalCorpusAmt>54000</TotalCorpusAmt>
+      </UndistributedIncomeGrp>
+      <PrivateOperatingFoundationsGrp>
+        <Section4942j3Ind>X</Section4942j3Ind>
+        <LessorAdjNetIncmMinInvstRetGrp>
+          <CurrentYearAmt>1899</CurrentYearAmt>
+          <Year1Amt>3686</Year1Amt>
+          <Year2Amt>1299</Year2Amt>
+          <Year3Amt>4797</Year3Amt>
+          <TotalAmt>11681</TotalAmt>
+        </LessorAdjNetIncmMinInvstRetGrp>
+        <Pct85LessorAdjIncmOrMinRetGrp>
+          <CurrentYearAmt>1614</CurrentYearAmt>
+          <Year1Amt>3133</Year1Amt>
+          <Year2Amt>1104</Year2Amt>
+          <Year3Amt>4077</Year3Amt>
+          <TotalAmt>9928</TotalAmt>
+        </Pct85LessorAdjIncmOrMinRetGrp>
+        <QualifyingDistributionsGrp>
+          <CurrentYearAmt>54000</CurrentYearAmt>
+          <Year1Amt>227452</Year1Amt>
+          <Year2Amt>88500</Year2Amt>
+          <Year3Amt>268000</Year3Amt>
+          <TotalAmt>637952</TotalAmt>
+        </QualifyingDistributionsGrp>
+        <QualifyingDistriMadeDrtGrp>
+          <CurrentYearAmt>54000</CurrentYearAmt>
+          <Year1Amt>227452</Year1Amt>
+          <Year2Amt>88500</Year2Amt>
+          <Year3Amt>268000</Year3Amt>
+          <TotalAmt>637952</TotalAmt>
+        </QualifyingDistriMadeDrtGrp>
+        <TotalAssetsGrp>
+          <CurrentYearAmt>1369286</CurrentYearAmt>
+          <Year1Amt>1410665</Year1Amt>
+          <Year2Amt>1412480</Year2Amt>
+          <Year3Amt>1447579</Year3Amt>
+          <TotalAmt>5640010</TotalAmt>
+        </TotalAssetsGrp>
+        <TotalAssetsSect4942j3BiGrp>
+          <CurrentYearAmt>1369286</CurrentYearAmt>
+          <Year1Amt>1410665</Year1Amt>
+          <Year2Amt>1412480</Year2Amt>
+          <Year3Amt>1447579</Year3Amt>
+          <TotalAmt>5640010</TotalAmt>
+        </TotalAssetsSect4942j3BiGrp>
+      </PrivateOperatingFoundationsGrp>
+      <SupplementaryInformationGrp>
+        <ContributingManagerNm>JOHN K LAPP JR</ContributingManagerNm>
+        <OnlyContriToPreselectedInd>X</OnlyContriToPreselectedInd>
+        <ApplicationSubmissionInfoGrp>
+          <RecipientPersonNm>JOHN K LAPP JR</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>622 NORTH SHIRK ROAD</AddressLine1Txt>
+            <CityNm>NEW HOLLAND</CityNm>
+            <StateAbbreviationCd>PA</StateAbbreviationCd>
+            <ZIPCd>17557</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientPhoneNum>7173557124</RecipientPhoneNum>
+          <FormAndInfoAndMaterialsTxt>SEE ATTACHMENT TITLED "ACTIVITIES AND OPERATIONAL INFORMATION"</FormAndInfoAndMaterialsTxt>
+          <SubmissionDeadlinesTxt>NONE</SubmissionDeadlinesTxt>
+          <RestrictionsOnAwardsTxt>SEE ATTACHMENT TITLED "ACTIVITIES AND OPERATIONAL INFORMATION"</RestrictionsOnAwardsTxt>
+        </ApplicationSubmissionInfoGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>BLESSINGS OF HOPE</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientUSAddress>
+            <AddressLine1Txt>PO BOX 567</AddressLine1Txt>
+            <CityNm>EPHRATA</CityNm>
+            <StateAbbreviationCd>PA</StateAbbreviationCd>
+            <ZIPCd>17522</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>UNRELATED</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>PUBLIC CHARI</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>DONATION</GrantOrContributionPurposeTxt>
+          <Amt>5500</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>LORDS HOUSE OF PRAYER</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientUSAddress>
+            <AddressLine1Txt>133 EAST VINE STREET</AddressLine1Txt>
+            <CityNm>LANCASTER</CityNm>
+            <StateAbbreviationCd>PA</StateAbbreviationCd>
+            <ZIPCd>17602</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>UNRELATED</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>PUBLIC CHARI</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>DONATION</GrantOrContributionPurposeTxt>
+          <Amt>4000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>PEACEFUL HEALING JOURNEY</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientUSAddress>
+            <AddressLine1Txt>620 SHIRK ROAD</AddressLine1Txt>
+            <CityNm>NEW HOLLAND</CityNm>
+            <StateAbbreviationCd>PA</StateAbbreviationCd>
+            <ZIPCd>17557</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>UNRELATED</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>PUBLIC CHARI</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>DONATION</GrantOrContributionPurposeTxt>
+          <Amt>10000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>TRANSITION TO COMMUNITY</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientUSAddress>
+            <AddressLine1Txt>PO BOX 1545</AddressLine1Txt>
+            <CityNm>LANCASTER</CityNm>
+            <StateAbbreviationCd>PA</StateAbbreviationCd>
+            <ZIPCd>17608</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientRelationshipTxt>UNRELATED</RecipientRelationshipTxt>
+          <RecipientFoundationStatusTxt>PUBLIC CHARI</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>DONATION</GrantOrContributionPurposeTxt>
+          <Amt>5000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <TotalGrantOrContriPdDurYrAmt>24500</TotalGrantOrContriPdDurYrAmt>
+      </SupplementaryInformationGrp>
+      <AnalysisIncomeProducingActyGrp>
+        <OtherRevenueDescribedGrp>
+          <Desc>INTEREST INCOME</Desc>
+          <ExclusionCd>14</ExclusionCd>
+          <ExclusionAmt>16875</ExclusionAmt>
+        </OtherRevenueDescribedGrp>
+        <SubtotalsIncmProducingActyGrp>
+          <ExclusionAmt>16875</ExclusionAmt>
+        </SubtotalsIncmProducingActyGrp>
+        <TotalIncomeProducingActyAmt>16875</TotalIncomeProducingActyAmt>
+      </AnalysisIncomeProducingActyGrp>
+      <TrnsfrTransRlnNonchrtblEOGrp>
+        <TrnsfrOfCashToNonchrtblEOInd>false</TrnsfrOfCashToNonchrtblEOInd>
+        <TrnsfrOtherAssetNonchrtblEOInd>false</TrnsfrOtherAssetNonchrtblEOInd>
+        <SalesOrExchangesOfAssetsInd>false</SalesOrExchangesOfAssetsInd>
+        <PurchaseOfAssetsNonchrtblEOInd>false</PurchaseOfAssetsNonchrtblEOInd>
+        <RentalOfFacilitiesOthAssetsInd>false</RentalOfFacilitiesOthAssetsInd>
+        <ReimbursementArrangementsInd>false</ReimbursementArrangementsInd>
+        <LoansOrLoanGuaranteesInd>false</LoansOrLoanGuaranteesInd>
+        <PerformanceOfServicesEtcInd>false</PerformanceOfServicesEtcInd>
+        <SharingOfFacilitiesEtcInd>false</SharingOfFacilitiesEtcInd>
+        <RelationshipsNonchrtblEOInd>false</RelationshipsNonchrtblEOInd>
+      </TrnsfrTransRlnNonchrtblEOGrp>
+    </IRS990PF>
+    <IRS990ScheduleB documentId="RetDoc1">
+      <Organization501c3ExemptPFInd>X</Organization501c3ExemptPFInd>
+      <GeneralRuleInd>X</GeneralRuleInd>
+      <ContributorInformationGrp>
+        <ContributorNum>1</ContributorNum>
+        <ContributorPersonNm>JOHN LAPP JR</ContributorPersonNm>
+        <ContributorUSAddress>
+          <AddressLine1Txt>620 NORTH SHIRK ROAD</AddressLine1Txt>
+          <CityNm>NEW HOLLAND</CityNm>
+          <StateAbbreviationCd>PA</StateAbbreviationCd>
+          <ZIPCd>17557</ZIPCd>
+        </ContributorUSAddress>
+        <TotalContributionsAmt>11000</TotalContributionsAmt>
+        <PersonContributionInd>X</PersonContributionInd>
+      </ContributorInformationGrp>
+      <ContributorInformationGrp>
+        <ContributorNum>2</ContributorNum>
+        <ContributorPersonNm>BENUEL ANNA MARY LAPP</ContributorPersonNm>
+        <ContributorUSAddress>
+          <AddressLine1Txt>62 NORTH SHIRK ROAD</AddressLine1Txt>
+          <CityNm>NEW HOLLAND</CityNm>
+          <StateAbbreviationCd>PA</StateAbbreviationCd>
+          <ZIPCd>17557</ZIPCd>
+        </ContributorUSAddress>
+        <TotalContributionsAmt>9500</TotalContributionsAmt>
+        <PersonContributionInd>X</PersonContributionInd>
+      </ContributorInformationGrp>
+    </IRS990ScheduleB>
+    <AccountingFeesSchedule documentId="RetDoc2">
+      <AccountingFeesDetail>
+        <CategoryTxt>ACCOUNTING FEES</CategoryTxt>
+        <Amt>7174</Amt>
+      </AccountingFeesDetail>
+    </AccountingFeesSchedule>
+    <DepreciationSchedule documentId="RetDoc3">
+      <DepreciationPropertyGrp>
+        <PropertyDesc>ABC SOFTEK SOFTWARE</PropertyDesc>
+        <AcquiredDt>2009-12-01</AcquiredDt>
+        <CostOrOtherBasisAmt>7699</CostOrOtherBasisAmt>
+        <PriorYearDepreciationAmt>7699</PriorYearDepreciationAmt>
+        <ComputationMethodTxt>S/L</ComputationMethodTxt>
+        <LifeRt>3.0000</LifeRt>
+      </DepreciationPropertyGrp>
+      <DepreciationPropertyGrp>
+        <PropertyDesc>BENCHES FOR EDUCATION ROOM</PropertyDesc>
+        <AcquiredDt>2010-04-23</AcquiredDt>
+        <CostOrOtherBasisAmt>6507</CostOrOtherBasisAmt>
+        <PriorYearDepreciationAmt>6507</PriorYearDepreciationAmt>
+        <ComputationMethodTxt>200DB</ComputationMethodTxt>
+        <LifeRt>7.0000</LifeRt>
+      </DepreciationPropertyGrp>
+      <DepreciationPropertyGrp>
+        <PropertyDesc>TABLES FOR EDUCATION ROOM</PropertyDesc>
+        <AcquiredDt>2010-05-25</AcquiredDt>
+        <CostOrOtherBasisAmt>1178</CostOrOtherBasisAmt>
+        <PriorYearDepreciationAmt>1178</PriorYearDepreciationAmt>
+        <ComputationMethodTxt>200DB</ComputationMethodTxt>
+        <LifeRt>7.0000</LifeRt>
+      </DepreciationPropertyGrp>
+      <DepreciationPropertyGrp>
+        <PropertyDesc>STRAPPING MACHINE</PropertyDesc>
+        <AcquiredDt>2010-10-13</AcquiredDt>
+        <CostOrOtherBasisAmt>1391</CostOrOtherBasisAmt>
+        <PriorYearDepreciationAmt>1391</PriorYearDepreciationAmt>
+        <ComputationMethodTxt>200DB</ComputationMethodTxt>
+        <LifeRt>7.0000</LifeRt>
+      </DepreciationPropertyGrp>
+      <DepreciationPropertyGrp>
+        <PropertyDesc>FOOD PARCEL RACKING</PropertyDesc>
+        <AcquiredDt>2010-10-28</AcquiredDt>
+        <CostOrOtherBasisAmt>1421</CostOrOtherBasisAmt>
+        <PriorYearDepreciationAmt>1421</PriorYearDepreciationAmt>
+        <ComputationMethodTxt>200DB</ComputationMethodTxt>
+        <LifeRt>7.0000</LifeRt>
+      </DepreciationPropertyGrp>
+    </DepreciationSchedule>
+    <InvestmentsOtherSchedule2 documentId="RetDoc4">
+      <InvestmentsOtherGrp>
+        <CategoryOrItemTxt>AERO DEVELOPMENT CORP INVESTMENT</CategoryOrItemTxt>
+        <ListedAtCostOrFMVCd>AT COST</ListedAtCostOrFMVCd>
+        <BookValueAmt>125030</BookValueAmt>
+        <EOYFMVAmt>125030</EOYFMVAmt>
+      </InvestmentsOtherGrp>
+    </InvestmentsOtherSchedule2>
+    <LandEtcSchedule2 documentId="RetDoc5">
+      <LandEtcGrp>
+        <CostOrOtherBasisAmt>18196</CostOrOtherBasisAmt>
+        <AccumulatedDepreciationAmt>18196</AccumulatedDepreciationAmt>
+      </LandEtcGrp>
+    </LandEtcSchedule2>
+    <OtherExpensesSchedule documentId="RetDoc6">
+      <OtherExpensesScheduleGrp>
+        <Desc>EXPENSES</Desc>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>OFFICE EXPENSE</Desc>
+        <RevenueAndExpensesPerBooksAmt>83</RevenueAndExpensesPerBooksAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>DUES AND SUBSCRIPTIONS</Desc>
+        <RevenueAndExpensesPerBooksAmt>10263</RevenueAndExpensesPerBooksAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>SUPPLIES</Desc>
+        <RevenueAndExpensesPerBooksAmt>1004</RevenueAndExpensesPerBooksAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>TELEPHONE</Desc>
+        <RevenueAndExpensesPerBooksAmt>718</RevenueAndExpensesPerBooksAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>BANK CHARGES</Desc>
+        <RevenueAndExpensesPerBooksAmt>58</RevenueAndExpensesPerBooksAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>LOSS ON INVESTMENT</Desc>
+        <RevenueAndExpensesPerBooksAmt>1431</RevenueAndExpensesPerBooksAmt>
+      </OtherExpensesScheduleGrp>
+    </OtherExpensesSchedule>
+    <OtherIncomeSchedule2 documentId="RetDoc7">
+      <OtherIncomeDetail>
+        <Desc>INTEREST INCOME</Desc>
+        <RevenueAndExpensesPerBooksAmt>16875</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>16875</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>16875</AdjustedNetIncomeAmt>
+      </OtherIncomeDetail>
+    </OtherIncomeSchedule2>
+    <OtherLiabilitiesSchedule documentId="RetDoc8">
+      <OtherLiabilitiesDetail>
+        <Desc>NEGATIVE EQUITY IN NORTH UMBERLAND S</Desc>
+        <EOYBookValueAmt>1431</EOYBookValueAmt>
+      </OtherLiabilitiesDetail>
+    </OtherLiabilitiesSchedule>
+    <OtherNotesLoansRcvblShortSch2 documentId="RetDoc9">
+      <OtherNotesLoansRcvblShortGrp>
+        <Organization501c3Name>
+          <BusinessNameLine1Txt>RACHEL'S COUNTRY STORE</BusinessNameLine1Txt>
+        </Organization501c3Name>
+        <BalanceDueAmt>190328</BalanceDueAmt>
+      </OtherNotesLoansRcvblShortGrp>
+      <OtherNotesLoansRcvblShortGrp>
+        <Organization501c3Name>
+          <BusinessNameLine1Txt>MOSES HUYARD</BusinessNameLine1Txt>
+        </Organization501c3Name>
+        <BalanceDueAmt>47985</BalanceDueAmt>
+      </OtherNotesLoansRcvblShortGrp>
+      <OtherNotesLoansRcvblShortGrp>
+        <Organization501c3Name>
+          <BusinessNameLine1Txt>EPHRIAM K RIEHL</BusinessNameLine1Txt>
+        </Organization501c3Name>
+        <BalanceDueAmt>99133</BalanceDueAmt>
+      </OtherNotesLoansRcvblShortGrp>
+      <OtherNotesLoansRcvblShortGrp>
+        <Organization501c3Name>
+          <BusinessNameLine1Txt>WILMER &amp; BARBARA KAUFFMAN</BusinessNameLine1Txt>
+        </Organization501c3Name>
+        <BalanceDueAmt>182006</BalanceDueAmt>
+      </OtherNotesLoansRcvblShortGrp>
+      <OtherNotesLoansRcvblShortGrp>
+        <Organization501c3Name>
+          <BusinessNameLine1Txt>MELVIN F STOLTZFUS</BusinessNameLine1Txt>
+        </Organization501c3Name>
+        <BalanceDueAmt>264</BalanceDueAmt>
+      </OtherNotesLoansRcvblShortGrp>
+      <OtherNotesLoansRcvblShortGrp>
+        <Organization501c3Name>
+          <BusinessNameLine1Txt>SAMUEL &amp; ELIZABETH FISHER</BusinessNameLine1Txt>
+        </Organization501c3Name>
+        <BalanceDueAmt>65682</BalanceDueAmt>
+      </OtherNotesLoansRcvblShortGrp>
+      <OtherNotesLoansRcvblShortGrp>
+        <Organization501c3Name>
+          <BusinessNameLine1Txt>DAVID &amp; RUTHIE STOLZFUS</BusinessNameLine1Txt>
+        </Organization501c3Name>
+        <BalanceDueAmt>101884</BalanceDueAmt>
+      </OtherNotesLoansRcvblShortGrp>
+      <OtherNotesLoansRcvblShortGrp>
+        <Organization501c3Name>
+          <BusinessNameLine1Txt>JOHN J &amp; EMMAS RUTH KING</BusinessNameLine1Txt>
+        </Organization501c3Name>
+        <BalanceDueAmt>42800</BalanceDueAmt>
+      </OtherNotesLoansRcvblShortGrp>
+      <OtherNotesLoansRcvblShortGrp>
+        <Organization501c3Name>
+          <BusinessNameLine1Txt>ELI E &amp; FRIEDA FISHER</BusinessNameLine1Txt>
+        </Organization501c3Name>
+        <BalanceDueAmt>26128</BalanceDueAmt>
+      </OtherNotesLoansRcvblShortGrp>
+      <OtherNotesLoansRcvblShortGrp>
+        <Organization501c3Name>
+          <BusinessNameLine1Txt>ELAM STOLTZFUS</BusinessNameLine1Txt>
+        </Organization501c3Name>
+        <BalanceDueAmt>3902</BalanceDueAmt>
+      </OtherNotesLoansRcvblShortGrp>
+      <OtherNotesLoansRcvblShortGrp>
+        <Organization501c3Name>
+          <BusinessNameLine1Txt>AARON FISHER JR</BusinessNameLine1Txt>
+        </Organization501c3Name>
+        <BalanceDueAmt>8755</BalanceDueAmt>
+      </OtherNotesLoansRcvblShortGrp>
+      <OtherNotesLoansRcvblShortGrp>
+        <Organization501c3Name>
+          <BusinessNameLine1Txt>ISAAC ESH</BusinessNameLine1Txt>
+        </Organization501c3Name>
+      </OtherNotesLoansRcvblShortGrp>
+      <OtherNotesLoansRcvblShortGrp>
+        <Organization501c3Name>
+          <BusinessNameLine1Txt>RANDY MARTIN</BusinessNameLine1Txt>
+        </Organization501c3Name>
+        <BalanceDueAmt>39000</BalanceDueAmt>
+      </OtherNotesLoansRcvblShortGrp>
+      <OtherNotesLoansRcvblShortGrp>
+        <Organization501c3Name>
+          <BusinessNameLine1Txt>PHARES JR &amp; REBECCA STOLTZFUS</BusinessNameLine1Txt>
+        </Organization501c3Name>
+        <BalanceDueAmt>19989</BalanceDueAmt>
+      </OtherNotesLoansRcvblShortGrp>
+      <OtherNotesLoansRcvblShortGrp>
+        <Organization501c3Name>
+          <BusinessNameLine1Txt>AMOS STOLTZFUS JR</BusinessNameLine1Txt>
+        </Organization501c3Name>
+      </OtherNotesLoansRcvblShortGrp>
+      <OtherNotesLoansRcvblShortGrp>
+        <Organization501c3Name>
+          <BusinessNameLine1Txt>AARON L LAPP</BusinessNameLine1Txt>
+        </Organization501c3Name>
+        <BalanceDueAmt>25670</BalanceDueAmt>
+      </OtherNotesLoansRcvblShortGrp>
+      <OtherNotesLoansRcvblShortGrp>
+        <Organization501c3Name>
+          <BusinessNameLine1Txt>VERA WEAVER</BusinessNameLine1Txt>
+        </Organization501c3Name>
+        <BalanceDueAmt>10000</BalanceDueAmt>
+      </OtherNotesLoansRcvblShortGrp>
+      <OtherNotesLoansRcvblShortGrp>
+        <Organization501c3Name>
+          <BusinessNameLine1Txt>AMOS FISHER</BusinessNameLine1Txt>
+        </Organization501c3Name>
+        <BalanceDueAmt>25030</BalanceDueAmt>
+      </OtherNotesLoansRcvblShortGrp>
+      <OtherNotesLoansRcvblShortGrp>
+        <Organization501c3Name>
+          <BusinessNameLine1Txt>ISAAC ESH</BusinessNameLine1Txt>
+        </Organization501c3Name>
+        <BalanceDueAmt>11872</BalanceDueAmt>
+      </OtherNotesLoansRcvblShortGrp>
+      <OtherNotesLoansRcvblShortGrp>
+        <Organization501c3Name>
+          <BusinessNameLine1Txt>ALVIN OR SALLY STAUFFER</BusinessNameLine1Txt>
+        </Organization501c3Name>
+        <BalanceDueAmt>4555</BalanceDueAmt>
+      </OtherNotesLoansRcvblShortGrp>
+      <OtherNotesLoansRcvblShortGrp>
+        <Organization501c3Name>
+          <BusinessNameLine1Txt>JAY D MARTIN</BusinessNameLine1Txt>
+        </Organization501c3Name>
+        <BalanceDueAmt>28000</BalanceDueAmt>
+      </OtherNotesLoansRcvblShortGrp>
+      <OtherNotesLoansRcvblShortGrp>
+        <Organization501c3Name>
+          <BusinessNameLine1Txt>OMAR F BLANK</BusinessNameLine1Txt>
+        </Organization501c3Name>
+        <BalanceDueAmt>5017</BalanceDueAmt>
+      </OtherNotesLoansRcvblShortGrp>
+      <OtherNotesLoansRcvblShortGrp>
+        <Organization501c3Name>
+          <BusinessNameLine1Txt>SAMUEL L &amp; MARY A STOLTZFUS</BusinessNameLine1Txt>
+        </Organization501c3Name>
+      </OtherNotesLoansRcvblShortGrp>
+      <OtherNotesLoansRcvblShortGrp>
+        <Organization501c3Name>
+          <BusinessNameLine1Txt>AARON ESH</BusinessNameLine1Txt>
+        </Organization501c3Name>
+        <BalanceDueAmt>7412</BalanceDueAmt>
+      </OtherNotesLoansRcvblShortGrp>
+      <OtherNotesLoansRcvblShortGrp>
+        <Organization501c3Name>
+          <BusinessNameLine1Txt>PAUL M AND KATIE I ESH</BusinessNameLine1Txt>
+        </Organization501c3Name>
+        <BalanceDueAmt>23465</BalanceDueAmt>
+      </OtherNotesLoansRcvblShortGrp>
+      <OtherNotesLoansRcvblShortGrp>
+        <Organization501c3Name>
+          <BusinessNameLine1Txt>AARON AND DEBBIE HUDLER</BusinessNameLine1Txt>
+        </Organization501c3Name>
+        <BalanceDueAmt>19000</BalanceDueAmt>
+      </OtherNotesLoansRcvblShortGrp>
+      <OtherNotesLoansRcvblShortGrp>
+        <Organization501c3Name>
+          <BusinessNameLine1Txt>CROSS KEYS RENTAL</BusinessNameLine1Txt>
+        </Organization501c3Name>
+        <BalanceDueAmt>5947</BalanceDueAmt>
+      </OtherNotesLoansRcvblShortGrp>
+      <OtherNotesLoansRcvblShortGrp>
+        <Organization501c3Name>
+          <BusinessNameLine1Txt>AMOS ZOOK</BusinessNameLine1Txt>
+        </Organization501c3Name>
+        <BalanceDueAmt>5033</BalanceDueAmt>
+      </OtherNotesLoansRcvblShortGrp>
+      <OtherNotesLoansRcvblShortGrp>
+        <Organization501c3Name>
+          <BusinessNameLine1Txt>JOHN BEILER</BusinessNameLine1Txt>
+        </Organization501c3Name>
+        <BalanceDueAmt>45032</BalanceDueAmt>
+      </OtherNotesLoansRcvblShortGrp>
+      <OtherNotesLoansRcvblShortGrp>
+        <Organization501c3Name>
+          <BusinessNameLine1Txt>GIDEON S LAPP</BusinessNameLine1Txt>
+        </Organization501c3Name>
+        <BalanceDueAmt>9000</BalanceDueAmt>
+      </OtherNotesLoansRcvblShortGrp>
+      <OtherNotesLoansRcvblShortGrp>
+        <Organization501c3Name>
+          <BusinessNameLine1Txt>MATTHREW GLICK</BusinessNameLine1Txt>
+        </Organization501c3Name>
+        <BalanceDueAmt>12500</BalanceDueAmt>
+      </OtherNotesLoansRcvblShortGrp>
+      <OtherNotesLoansRcvblShortGrp>
+        <Organization501c3Name>
+          <BusinessNameLine1Txt>SAMUEL L STOLTZFUS</BusinessNameLine1Txt>
+        </Organization501c3Name>
+        <BalanceDueAmt>21909</BalanceDueAmt>
+      </OtherNotesLoansRcvblShortGrp>
+      <OtherNotesLoansRcvblShortGrp>
+        <Organization501c3Name>
+          <BusinessNameLine1Txt>DAVID FISHER</BusinessNameLine1Txt>
+        </Organization501c3Name>
+        <BalanceDueAmt>18000</BalanceDueAmt>
+      </OtherNotesLoansRcvblShortGrp>
+      <OtherNotesLoansRcvblShortGrp>
+        <Organization501c3Name>
+          <BusinessNameLine1Txt>BEN GRABER</BusinessNameLine1Txt>
+        </Organization501c3Name>
+        <BalanceDueAmt>14730</BalanceDueAmt>
+      </OtherNotesLoansRcvblShortGrp>
+      <OtherNotesLoansRcvblShortGrp>
+        <Organization501c3Name>
+          <BusinessNameLine1Txt>J ERVIN STOLTZFUS</BusinessNameLine1Txt>
+        </Organization501c3Name>
+        <BalanceDueAmt>19693</BalanceDueAmt>
+      </OtherNotesLoansRcvblShortGrp>
+      <OtherNotesLoansRcvblShortGrp>
+        <Organization501c3Name>
+          <BusinessNameLine1Txt>JOHN KAUFFMAN</BusinessNameLine1Txt>
+        </Organization501c3Name>
+        <BalanceDueAmt>16386</BalanceDueAmt>
+      </OtherNotesLoansRcvblShortGrp>
+      <OtherNotesLoansRcvblShortGrp>
+        <Organization501c3Name>
+          <BusinessNameLine1Txt>CHRIST KING</BusinessNameLine1Txt>
+        </Organization501c3Name>
+      </OtherNotesLoansRcvblShortGrp>
+      <OtherNotesLoansRcvblShortGrp>
+        <Organization501c3Name>
+          <BusinessNameLine1Txt>SAMUEL M STOLTZFUS</BusinessNameLine1Txt>
+        </Organization501c3Name>
+        <BalanceDueAmt>27791</BalanceDueAmt>
+      </OtherNotesLoansRcvblShortGrp>
+      <OtherNotesLoansRcvblShortGrp>
+        <Organization501c3Name>
+          <BusinessNameLine1Txt>NORMAN NOLT</BusinessNameLine1Txt>
+        </Organization501c3Name>
+        <BalanceDueAmt>6000</BalanceDueAmt>
+      </OtherNotesLoansRcvblShortGrp>
+      <OtherNotesLoansRcvblShortGrp>
+        <Organization501c3Name>
+          <BusinessNameLine1Txt>SADIE MAE STOLTZFUS</BusinessNameLine1Txt>
+        </Organization501c3Name>
+        <BalanceDueAmt>2043</BalanceDueAmt>
+      </OtherNotesLoansRcvblShortGrp>
+      <OtherNotesLoansRcvblShortGrp>
+        <Organization501c3Name>
+          <BusinessNameLine1Txt>ONE KINGDOM COMMUNITY</BusinessNameLine1Txt>
+        </Organization501c3Name>
+        <BalanceDueAmt>8500</BalanceDueAmt>
+      </OtherNotesLoansRcvblShortGrp>
+      <OtherNotesLoansRcvblShortGrp>
+        <Organization501c3Name>
+          <BusinessNameLine1Txt>DAVID LAPP</BusinessNameLine1Txt>
+        </Organization501c3Name>
+        <BalanceDueAmt>12000</BalanceDueAmt>
+      </OtherNotesLoansRcvblShortGrp>
+    </OtherNotesLoansRcvblShortSch2>
+    <OtherProfessionalFeesSchedule documentId="RetDoc10">
+      <OtherProfessionalFeesDetail>
+        <CategoryTxt>CONSULTING FEES</CategoryTxt>
+        <Amt>31422</Amt>
+      </OtherProfessionalFeesDetail>
+    </OtherProfessionalFeesSchedule>
+  </ReturnData>
+</Return>

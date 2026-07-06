@@ -1,0 +1,713 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Return xmlns="http://www.irs.gov/efile" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" returnVersion="2021v4.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2022-06-22T15:37:57-05:00</ReturnTs>
+    <TaxPeriodEndDt>2021-12-31</TaxPeriodEndDt>
+    <PreparerFirmGrp>
+      <PreparerFirmEIN>203746583</PreparerFirmEIN>
+      <PreparerFirmName>
+        <BusinessNameLine1Txt>TAYLOR ROTH AND COMPANY</BusinessNameLine1Txt>
+      </PreparerFirmName>
+      <PreparerUSAddress>
+        <AddressLine1Txt>800 GRANT ST STE 205</AddressLine1Txt>
+        <CityNm>DENVER</CityNm>
+        <StateAbbreviationCd>CO</StateAbbreviationCd>
+        <ZIPCd>802032944</ZIPCd>
+      </PreparerUSAddress>
+    </PreparerFirmGrp>
+    <ReturnTypeCd>990PF</ReturnTypeCd>
+    <TaxPeriodBeginDt>2021-01-01</TaxPeriodBeginDt>
+    <Filer>
+      <EIN>840425368</EIN>
+      <BusinessName>
+        <BusinessNameLine1Txt>DENVER OSTEOPATHIC FOUNDATION</BusinessNameLine1Txt>
+      </BusinessName>
+      <BusinessNameControlTxt>DENV</BusinessNameControlTxt>
+      <PhoneNum>3039961140</PhoneNum>
+      <USAddress>
+        <AddressLine1Txt>3801 E FLORIDA AVE 635</AddressLine1Txt>
+        <CityNm>DENVER</CityNm>
+        <StateAbbreviationCd>CO</StateAbbreviationCd>
+        <ZIPCd>80210</ZIPCd>
+      </USAddress>
+    </Filer>
+    <BusinessOfficerGrp>
+      <PersonNm>JULIE COLLETT</PersonNm>
+      <PersonTitleTxt>EXECUTIVE DIRECTOR</PersonTitleTxt>
+      <PhoneNum>3039961140</PhoneNum>
+      <SignatureDt>2022-06-22</SignatureDt>
+      <DiscussWithPaidPreparerInd>true</DiscussWithPaidPreparerInd>
+    </BusinessOfficerGrp>
+    <SigningOfficerGrp>
+      <PersonFullName>
+        <PersonFirstNm>JULIE</PersonFirstNm>
+        <PersonLastNm>COLLETT</PersonLastNm>
+      </PersonFullName>
+      <SSN>999009999</SSN>
+    </SigningOfficerGrp>
+    <PreparerPersonGrp>
+      <PreparerPersonNm>KEN ROTH</PreparerPersonNm>
+      <PTIN>P01389203</PTIN>
+      <PhoneNum>3038308109</PhoneNum>
+      <PreparationDt>2022-06-22</PreparationDt>
+    </PreparerPersonGrp>
+    <TaxYr>2021</TaxYr>
+    <BuildTS>2022-09-23 18:48:47Z</BuildTS>
+  </ReturnHeader>
+  <ReturnData documentCnt="11">
+    <IRS990PF documentId="RetDoc12" referenceDocumentId="RetDoc11">
+      <Organization501c3ExemptPFInd>X</Organization501c3ExemptPFInd>
+      <FMVAssetsEOYAmt>2685481</FMVAssetsEOYAmt>
+      <MethodOfAccountingAccrualInd>X</MethodOfAccountingAccrualInd>
+      <AnalysisOfRevenueAndExpenses>
+        <ContriRcvdRevAndExpnssAmt>14523</ContriRcvdRevAndExpnssAmt>
+        <ScheduleBNotRequiredInd>X</ScheduleBNotRequiredInd>
+        <InterestOnSavRevAndExpnssAmt>1</InterestOnSavRevAndExpnssAmt>
+        <InterestOnSavNetInvstIncmAmt>1</InterestOnSavNetInvstIncmAmt>
+        <InterestOnSavingsAdjNetIncmAmt>1</InterestOnSavingsAdjNetIncmAmt>
+        <DividendsRevAndExpnssAmt>71177</DividendsRevAndExpnssAmt>
+        <DividendsNetInvstIncmAmt>71177</DividendsNetInvstIncmAmt>
+        <DividendsAdjNetIncmAmt>71177</DividendsAdjNetIncmAmt>
+        <NetGainSaleAstRevAndExpnssAmt>2501</NetGainSaleAstRevAndExpnssAmt>
+        <GrossSalesPriceAmt>1151320</GrossSalesPriceAmt>
+        <CapGainNetIncmNetInvstIncmAmt>2501</CapGainNetIncmNetInvstIncmAmt>
+        <NetSTCapitalGainAdjNetIncmAmt>2509</NetSTCapitalGainAdjNetIncmAmt>
+        <OtherIncomeRevAndExpnssAmt referenceDocumentId="RetDoc9">2737</OtherIncomeRevAndExpnssAmt>
+        <OtherIncomeAdjNetIncmAmt>2737</OtherIncomeAdjNetIncmAmt>
+        <TotalRevAndExpnssAmt>90939</TotalRevAndExpnssAmt>
+        <TotalNetInvstIncmAmt>73679</TotalNetInvstIncmAmt>
+        <TotalAdjNetIncmAmt>76424</TotalAdjNetIncmAmt>
+        <CompOfcrDirTrstRevAndExpnssAmt>95000</CompOfcrDirTrstRevAndExpnssAmt>
+        <CompOfcrDirTrstNetInvstIncmAmt>4750</CompOfcrDirTrstNetInvstIncmAmt>
+        <CompOfcrDirTrstAdjNetIncmAmt>950</CompOfcrDirTrstAdjNetIncmAmt>
+        <CompOfcrDirTrstDsbrsChrtblAmt>89300</CompOfcrDirTrstDsbrsChrtblAmt>
+        <PensionEmplBnftRevAndExpnssAmt>24707</PensionEmplBnftRevAndExpnssAmt>
+        <PensionEmplBnftNetInvstIncmAmt>1236</PensionEmplBnftNetInvstIncmAmt>
+        <PensionEmplBnftDsbrsChrtblAmt>23471</PensionEmplBnftDsbrsChrtblAmt>
+        <AccountingFeesRevAndExpnssAmt referenceDocumentId="RetDoc2">5320</AccountingFeesRevAndExpnssAmt>
+        <AccountingFeesChrtblPrpsAmt>5320</AccountingFeesChrtblPrpsAmt>
+        <OtherProfFeesRevAndExpnssAmt referenceDocumentId="RetDoc10">18373</OtherProfFeesRevAndExpnssAmt>
+        <OtherProfFeesNetInvstIncmAmt>18373</OtherProfFeesNetInvstIncmAmt>
+        <DeprecAndDpltnRevAndExpnssAmt referenceDocumentId="RetDoc3">570</DeprecAndDpltnRevAndExpnssAmt>
+        <OccupancyRevAndExpnssAmt>13881</OccupancyRevAndExpnssAmt>
+        <OccupancyDsbrsChrtblAmt>13881</OccupancyDsbrsChrtblAmt>
+        <TravConfMeetingRevAndExpnssAmt>632</TravConfMeetingRevAndExpnssAmt>
+        <TravConfMeetingDsbrsChrtblAmt>632</TravConfMeetingDsbrsChrtblAmt>
+        <OtherExpensesRevAndExpnssAmt referenceDocumentId="RetDoc7">20301</OtherExpensesRevAndExpnssAmt>
+        <OtherExpensesDsbrsChrtblAmt>19375</OtherExpensesDsbrsChrtblAmt>
+        <TotOprExpensesRevAndExpnssAmt>178784</TotOprExpensesRevAndExpnssAmt>
+        <TotOprExpensesNetInvstIncmAmt>24359</TotOprExpensesNetInvstIncmAmt>
+        <TotOprExpensesAdjNetIncmAmt>950</TotOprExpensesAdjNetIncmAmt>
+        <TotOprExpensesDsbrsChrtblAmt>151979</TotOprExpensesDsbrsChrtblAmt>
+        <ContriPaidRevAndExpnssAmt>26000</ContriPaidRevAndExpnssAmt>
+        <ContriPaidDsbrsChrtblAmt>26000</ContriPaidDsbrsChrtblAmt>
+        <TotalExpensesRevAndExpnssAmt>204784</TotalExpensesRevAndExpnssAmt>
+        <TotalExpensesNetInvstIncmAmt>24359</TotalExpensesNetInvstIncmAmt>
+        <TotalExpensesAdjNetIncmAmt>950</TotalExpensesAdjNetIncmAmt>
+        <TotalExpensesDsbrsChrtblAmt>177979</TotalExpensesDsbrsChrtblAmt>
+        <ExcessRevenueOverExpensesAmt>-113845</ExcessRevenueOverExpensesAmt>
+        <NetInvestmentIncomeAmt>49320</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>75474</AdjustedNetIncomeAmt>
+      </AnalysisOfRevenueAndExpenses>
+      <Form990PFBalanceSheetsGrp>
+        <CashBOYAmt>13775</CashBOYAmt>
+        <CashEOYAmt>9934</CashEOYAmt>
+        <CashEOYFMVAmt>9934</CashEOYFMVAmt>
+        <PledgesRcvblAmt>1237</PledgesRcvblAmt>
+        <PledgesRcvblEOYAmt>1237</PledgesRcvblEOYAmt>
+        <PledgesRcvblEOYFMVAmt>1237</PledgesRcvblEOYFMVAmt>
+        <PrepaidExpensesBOYAmt>5000</PrepaidExpensesBOYAmt>
+        <PrepaidExpensesEOYAmt>5000</PrepaidExpensesEOYAmt>
+        <PrepaidExpensesEOYFMVAmt>5000</PrepaidExpensesEOYFMVAmt>
+        <USGovernmentObligationsBOYAmt>62096</USGovernmentObligationsBOYAmt>
+        <USGovernmentObligationsEOYAmt referenceDocumentId="RetDoc5">53828</USGovernmentObligationsEOYAmt>
+        <USGovtObligationsEOYFMVAmt>53828</USGovtObligationsEOYFMVAmt>
+        <CorporateStockBOYAmt>2550724</CorporateStockBOYAmt>
+        <CorporateStockEOYAmt referenceDocumentId="RetDoc4">2614929</CorporateStockEOYAmt>
+        <CorporateStockEOYFMVAmt>2614929</CorporateStockEOYFMVAmt>
+        <LandBldgEquipCostOrOtherBssAmt>4184</LandBldgEquipCostOrOtherBssAmt>
+        <LandBldgEquipAccumDeprecAmt>3631</LandBldgEquipAccumDeprecAmt>
+        <LandBOYAmt>293</LandBOYAmt>
+        <LandEOYAmt referenceDocumentId="RetDoc6">553</LandEOYAmt>
+        <LandEOYFMVAmt>553</LandEOYFMVAmt>
+        <TotalAssetsBOYAmt>2631888</TotalAssetsBOYAmt>
+        <TotalAssetsEOYAmt>2685481</TotalAssetsEOYAmt>
+        <TotalAssetsEOYFMVAmt>2685481</TotalAssetsEOYFMVAmt>
+        <AccountsPayableBOYAmt>3578</AccountsPayableBOYAmt>
+        <AccountsPayableEOYAmt>3385</AccountsPayableEOYAmt>
+        <TotalLiabilitiesBOYAmt>3578</TotalLiabilitiesBOYAmt>
+        <TotalLiabilitiesEOYAmt>3385</TotalLiabilitiesEOYAmt>
+        <OrganizationFollowsFASB117Ind>X</OrganizationFollowsFASB117Ind>
+        <NoDonorRstrNetAssestsBOYAmt>2628310</NoDonorRstrNetAssestsBOYAmt>
+        <NoDonorRstrNetAssestsEOYAmt>2682096</NoDonorRstrNetAssestsEOYAmt>
+        <TotNetAstOrFundBalancesBOYAmt>2628310</TotNetAstOrFundBalancesBOYAmt>
+        <TotNetAstOrFundBalancesEOYAmt>2682096</TotNetAstOrFundBalancesEOYAmt>
+        <TotalLiabilitiesNetAstBOYAmt>2631888</TotalLiabilitiesNetAstBOYAmt>
+        <TotalLiabilitiesNetAstEOYAmt>2685481</TotalLiabilitiesNetAstEOYAmt>
+      </Form990PFBalanceSheetsGrp>
+      <ChgInNetAssetsFundBalancesGrp>
+        <TotNetAstOrFundBalancesBOYAmt>2628310</TotNetAstOrFundBalancesBOYAmt>
+        <ExcessRevenueOverExpensesAmt>-113845</ExcessRevenueOverExpensesAmt>
+        <OtherIncreasesAmt referenceDocumentId="RetDoc8">167631</OtherIncreasesAmt>
+        <SubtotalAmt>2682096</SubtotalAmt>
+        <TotNetAstOrFundBalancesEOYAmt>2682096</TotNetAstOrFundBalancesEOYAmt>
+      </ChgInNetAssetsFundBalancesGrp>
+      <CapGainsLossTxInvstIncmDetail>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>SHORT TERM GAINS</PropertyDesc>
+          <HowAcquiredCd>P</HowAcquiredCd>
+          <GrossSalesPriceAmt>1141645</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>1139136</CostOrOtherBasisAmt>
+          <GainOrLossAmt>2509</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>2509</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>LONG TERM LOSSES</PropertyDesc>
+          <HowAcquiredCd>P</HowAcquiredCd>
+          <GrossSalesPriceAmt>9675</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>9683</CostOrOtherBasisAmt>
+          <GainOrLossAmt>-8</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>-8</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapitalGainNetIncomeAmt>2501</CapitalGainNetIncomeAmt>
+        <NetShortTermCapitalGainLossAmt>2509</NetShortTermCapitalGainLossAmt>
+      </CapGainsLossTxInvstIncmDetail>
+      <ExciseTaxBasedOnInvstIncmGrp>
+        <InvestmentIncomeExciseTaxAmt>686</InvestmentIncomeExciseTaxAmt>
+        <SubtotalAmt>686</SubtotalAmt>
+        <TaxBasedOnInvestmentIncomeAmt>686</TaxBasedOnInvestmentIncomeAmt>
+        <Form2220AttachedInd referenceDocumentId="RetDoc1">X</Form2220AttachedInd>
+        <EsPenaltyAmt>13</EsPenaltyAmt>
+        <TaxDueAmt>699</TaxDueAmt>
+      </ExciseTaxBasedOnInvstIncmGrp>
+      <StatementsRegardingActyGrp>
+        <LegislativePoliticalActyInd>false</LegislativePoliticalActyInd>
+        <MoreThan100SpentInd>false</MoreThan100SpentInd>
+        <Form1120POLFiledInd>false</Form1120POLFiledInd>
+        <ActivitiesNotPreviouslyRptInd>false</ActivitiesNotPreviouslyRptInd>
+        <ChangesToArticlesOrBylawsInd>false</ChangesToArticlesOrBylawsInd>
+        <UnrelatedBusIncmOverLimitInd>false</UnrelatedBusIncmOverLimitInd>
+        <OrganizationDissolvedEtcInd>false</OrganizationDissolvedEtcInd>
+        <Section508eRqrSatisfiedInd>true</Section508eRqrSatisfiedInd>
+        <AtLeast5000InAssetsInd>true</AtLeast5000InAssetsInd>
+        <OrgReportOrRegisterStateCd>CO</OrgReportOrRegisterStateCd>
+        <Form990PFFiledWithAttyGenInd>true</Form990PFFiledWithAttyGenInd>
+        <PrivateOperatingFoundationInd>true</PrivateOperatingFoundationInd>
+        <NewSubstantialContributorsInd>false</NewSubstantialContributorsInd>
+        <OwnControlledEntityInd>false</OwnControlledEntityInd>
+        <DonorAdvisedFundInd>false</DonorAdvisedFundInd>
+        <ComplyWithPublicInspRqrInd>true</ComplyWithPublicInspRqrInd>
+        <WebsiteAddressTxt>WWW.DOFOUND.ORG</WebsiteAddressTxt>
+        <IndividualWithBooksNm>JULIE COLLETT</IndividualWithBooksNm>
+        <PhoneNum>3039961140</PhoneNum>
+        <LocationOfBooksUSAddress>
+          <AddressLine1Txt>3801 E FLORIDA AVE 635</AddressLine1Txt>
+          <CityNm>DENVER</CityNm>
+          <StateAbbreviationCd>CO</StateAbbreviationCd>
+          <ZIPCd>80210</ZIPCd>
+        </LocationOfBooksUSAddress>
+        <ForeignAccountsQuestionInd>false</ForeignAccountsQuestionInd>
+      </StatementsRegardingActyGrp>
+      <StatementsRegardingActy4720Grp>
+        <SaleOrExchDisqualifiedPrsnInd>false</SaleOrExchDisqualifiedPrsnInd>
+        <BrrwOrLendDisqualifiedPrsnInd>false</BrrwOrLendDisqualifiedPrsnInd>
+        <FurnGoodsDisqualifiedPrsnInd>false</FurnGoodsDisqualifiedPrsnInd>
+        <PayCompDisqualifiedPrsnInd>false</PayCompDisqualifiedPrsnInd>
+        <TransferAstDisqualifiedPrsnInd>false</TransferAstDisqualifiedPrsnInd>
+        <PaymentToGovernmentOfficialInd>false</PaymentToGovernmentOfficialInd>
+        <UndistributedIncomePYInd>false</UndistributedIncomePYInd>
+        <BusinessHoldingsInd>false</BusinessHoldingsInd>
+        <JeopardyInvestmentsInd>false</JeopardyInvestmentsInd>
+        <UncorrectedPYJeopardyInvstInd>false</UncorrectedPYJeopardyInvstInd>
+        <InfluenceLegislationInd>false</InfluenceLegislationInd>
+        <InfluenceElectionInd>false</InfluenceElectionInd>
+        <GrantsToIndividualsInd>false</GrantsToIndividualsInd>
+        <GrantsToOrganizationsInd>true</GrantsToOrganizationsInd>
+        <NoncharitablePurposeInd>false</NoncharitablePurposeInd>
+        <TransactionsFailToQlfyAsExcInd>false</TransactionsFailToQlfyAsExcInd>
+        <MaintainedExpenditureRspnsInd>false</MaintainedExpenditureRspnsInd>
+        <RcvFndsToPayPrsnlBnftCntrctInd>false</RcvFndsToPayPrsnlBnftCntrctInd>
+        <PayPremiumsPrsnlBnftCntrctInd>false</PayPremiumsPrsnlBnftCntrctInd>
+        <ProhibitedTaxShelterTransInd>false</ProhibitedTaxShelterTransInd>
+        <SubjToTaxRmnrtnExPrchtPymtInd>false</SubjToTaxRmnrtnExPrchtPymtInd>
+      </StatementsRegardingActy4720Grp>
+      <OfficerDirTrstKeyEmplInfoGrp>
+        <OfficerDirTrstKeyEmplGrp>
+          <PersonNm>JULIE COLLETT</PersonNm>
+          <USAddress>
+            <AddressLine1Txt>3801 E FLORIDA AVE 635</AddressLine1Txt>
+            <AddressLine2Txt>3801 E FLORIDA AVE 635</AddressLine2Txt>
+            <CityNm>DENVER</CityNm>
+            <StateAbbreviationCd>CO</StateAbbreviationCd>
+            <ZIPCd>80210</ZIPCd>
+          </USAddress>
+          <TitleTxt>EXECUTIVE DI</TitleTxt>
+          <AverageHrsPerWkDevotedToPosRt>40.00</AverageHrsPerWkDevotedToPosRt>
+          <CompensationAmt>95000</CompensationAmt>
+          <EmployeeBenefitProgramAmt>0</EmployeeBenefitProgramAmt>
+          <ExpenseAccountOtherAllwncAmt>0</ExpenseAccountOtherAllwncAmt>
+        </OfficerDirTrstKeyEmplGrp>
+        <OfficerDirTrstKeyEmplGrp>
+          <PersonNm>TIMOTHY JUDD DO</PersonNm>
+          <USAddress>
+            <AddressLine1Txt>3801 E FLORIDA AVE 635</AddressLine1Txt>
+            <AddressLine2Txt>3801 E FLORIDA AVE 635</AddressLine2Txt>
+            <CityNm>DENVER</CityNm>
+            <StateAbbreviationCd>CO</StateAbbreviationCd>
+            <ZIPCd>80210</ZIPCd>
+          </USAddress>
+          <TitleTxt>PRESIDENT</TitleTxt>
+          <AverageHrsPerWkDevotedToPosRt>2.00</AverageHrsPerWkDevotedToPosRt>
+          <CompensationAmt>0</CompensationAmt>
+          <EmployeeBenefitProgramAmt>0</EmployeeBenefitProgramAmt>
+          <ExpenseAccountOtherAllwncAmt>0</ExpenseAccountOtherAllwncAmt>
+        </OfficerDirTrstKeyEmplGrp>
+        <OfficerDirTrstKeyEmplGrp>
+          <PersonNm>GREGORY HOGLE DO</PersonNm>
+          <USAddress>
+            <AddressLine1Txt>3801 E FLORIDA AVE 635</AddressLine1Txt>
+            <AddressLine2Txt>3801 E FLORIDA AVE 635</AddressLine2Txt>
+            <CityNm>DENVER</CityNm>
+            <StateAbbreviationCd>CO</StateAbbreviationCd>
+            <ZIPCd>80210</ZIPCd>
+          </USAddress>
+          <TitleTxt>MEMBER</TitleTxt>
+          <AverageHrsPerWkDevotedToPosRt>2.00</AverageHrsPerWkDevotedToPosRt>
+          <CompensationAmt>0</CompensationAmt>
+          <EmployeeBenefitProgramAmt>0</EmployeeBenefitProgramAmt>
+          <ExpenseAccountOtherAllwncAmt>0</ExpenseAccountOtherAllwncAmt>
+        </OfficerDirTrstKeyEmplGrp>
+        <OfficerDirTrstKeyEmplGrp>
+          <PersonNm>LOUIS KASUNIC DO</PersonNm>
+          <USAddress>
+            <AddressLine1Txt>3801 E FLORIDA AVE 635</AddressLine1Txt>
+            <AddressLine2Txt>3801 E FLORIDA AVE 635</AddressLine2Txt>
+            <CityNm>DENVER</CityNm>
+            <StateAbbreviationCd>CO</StateAbbreviationCd>
+            <ZIPCd>80210</ZIPCd>
+          </USAddress>
+          <TitleTxt>MEMBER</TitleTxt>
+          <AverageHrsPerWkDevotedToPosRt>2.00</AverageHrsPerWkDevotedToPosRt>
+          <CompensationAmt>0</CompensationAmt>
+          <EmployeeBenefitProgramAmt>0</EmployeeBenefitProgramAmt>
+          <ExpenseAccountOtherAllwncAmt>0</ExpenseAccountOtherAllwncAmt>
+        </OfficerDirTrstKeyEmplGrp>
+        <OfficerDirTrstKeyEmplGrp>
+          <PersonNm>MATT LUCAS DO</PersonNm>
+          <USAddress>
+            <AddressLine1Txt>3801 E FLORIDA AVE 635</AddressLine1Txt>
+            <AddressLine2Txt>3801 E FLORIDA AVE 635</AddressLine2Txt>
+            <CityNm>DENVER</CityNm>
+            <StateAbbreviationCd>CO</StateAbbreviationCd>
+            <ZIPCd>80210</ZIPCd>
+          </USAddress>
+          <TitleTxt>MEMBER</TitleTxt>
+          <AverageHrsPerWkDevotedToPosRt>2.00</AverageHrsPerWkDevotedToPosRt>
+          <CompensationAmt>0</CompensationAmt>
+          <EmployeeBenefitProgramAmt>0</EmployeeBenefitProgramAmt>
+          <ExpenseAccountOtherAllwncAmt>0</ExpenseAccountOtherAllwncAmt>
+        </OfficerDirTrstKeyEmplGrp>
+        <OfficerDirTrstKeyEmplGrp>
+          <PersonNm>JILL PITCHER DO</PersonNm>
+          <USAddress>
+            <AddressLine1Txt>3801 E FLORIDA AVE 635</AddressLine1Txt>
+            <AddressLine2Txt>3801 E FLORIDA AVE 635</AddressLine2Txt>
+            <CityNm>DENVER</CityNm>
+            <StateAbbreviationCd>CO</StateAbbreviationCd>
+            <ZIPCd>80210</ZIPCd>
+          </USAddress>
+          <TitleTxt>MEMBER</TitleTxt>
+          <AverageHrsPerWkDevotedToPosRt>2.00</AverageHrsPerWkDevotedToPosRt>
+          <CompensationAmt>0</CompensationAmt>
+          <EmployeeBenefitProgramAmt>0</EmployeeBenefitProgramAmt>
+          <ExpenseAccountOtherAllwncAmt>0</ExpenseAccountOtherAllwncAmt>
+        </OfficerDirTrstKeyEmplGrp>
+        <OfficerDirTrstKeyEmplGrp>
+          <PersonNm>DAVE ROSS DO</PersonNm>
+          <USAddress>
+            <AddressLine1Txt>3801 E FLORIDA AVE 635</AddressLine1Txt>
+            <AddressLine2Txt>3801 E FLORIDA AVE 635</AddressLine2Txt>
+            <CityNm>DENVER</CityNm>
+            <StateAbbreviationCd>CO</StateAbbreviationCd>
+            <ZIPCd>80210</ZIPCd>
+          </USAddress>
+          <TitleTxt>MEMBER</TitleTxt>
+          <AverageHrsPerWkDevotedToPosRt>2.00</AverageHrsPerWkDevotedToPosRt>
+          <CompensationAmt>0</CompensationAmt>
+          <EmployeeBenefitProgramAmt>0</EmployeeBenefitProgramAmt>
+          <ExpenseAccountOtherAllwncAmt>0</ExpenseAccountOtherAllwncAmt>
+        </OfficerDirTrstKeyEmplGrp>
+        <OfficerDirTrstKeyEmplGrp>
+          <PersonNm>LAWRENCE VARNER DO</PersonNm>
+          <USAddress>
+            <AddressLine1Txt>3801 E FLORIDA AVE 635</AddressLine1Txt>
+            <AddressLine2Txt>3801 E FLORIDA AVE 635</AddressLine2Txt>
+            <CityNm>DENVER</CityNm>
+            <StateAbbreviationCd>CO</StateAbbreviationCd>
+            <ZIPCd>80210</ZIPCd>
+          </USAddress>
+          <TitleTxt>MEMBER</TitleTxt>
+          <AverageHrsPerWkDevotedToPosRt>2.00</AverageHrsPerWkDevotedToPosRt>
+          <CompensationAmt>0</CompensationAmt>
+          <EmployeeBenefitProgramAmt>0</EmployeeBenefitProgramAmt>
+          <ExpenseAccountOtherAllwncAmt>0</ExpenseAccountOtherAllwncAmt>
+        </OfficerDirTrstKeyEmplGrp>
+        <CompOfHghstPdEmplOrNONETxt>NONE</CompOfHghstPdEmplOrNONETxt>
+        <CompOfHghstPdCntrctOrNONETxt>NONE</CompOfHghstPdCntrctOrNONETxt>
+      </OfficerDirTrstKeyEmplInfoGrp>
+      <SummaryOfDirectChrtblActyGrp>
+        <Description1Txt>DENVER OSTEOPATHIC FOUNDATION IS A COLORADO NON-PROFIT CORPORATION, WHOSE MISSION IS ELEVATING THE HEALTH AND WELL-BEING OF THE COMMUNITY, ADVANCING OSTEOPATHIC MEDICAL EDUCATION, AND IMPROVING THE PUBLIC'S UNDERSTANDING OF OSTEOPATHIC MEDICINE</Description1Txt>
+        <Expenses1Amt>151979</Expenses1Amt>
+      </SummaryOfDirectChrtblActyGrp>
+      <SumOfProgramRelatedInvstGrp>
+        <Description1Txt>N/A</Description1Txt>
+      </SumOfProgramRelatedInvstGrp>
+      <MinimumInvestmentReturnGrp>
+        <AverageMonthlyFMVOfSecAmt>2636862</AverageMonthlyFMVOfSecAmt>
+        <AverageMonthlyCashBalancesAmt>19151</AverageMonthlyCashBalancesAmt>
+        <FMVAllOtherNoncharitableAstAmt>6790</FMVAllOtherNoncharitableAstAmt>
+        <TotalFMVOfUnusedAssetsAmt>2662803</TotalFMVOfUnusedAssetsAmt>
+        <AdjustedTotalFMVOfUnusedAstAmt>2662803</AdjustedTotalFMVOfUnusedAstAmt>
+        <CashDeemedCharitableAmt>39942</CashDeemedCharitableAmt>
+        <NetVlNoncharitableAssetsAmt>2622861</NetVlNoncharitableAssetsAmt>
+        <MinimumInvestmentReturnAmt>131143</MinimumInvestmentReturnAmt>
+      </MinimumInvestmentReturnGrp>
+      <DistributableAmountGrp>
+        <Sect4942j3j5FndtnAndFrgnOrgInd>X</Sect4942j3j5FndtnAndFrgnOrgInd>
+      </DistributableAmountGrp>
+      <PFQualifyingDistributionsGrp>
+        <ExpensesAndContributionsAmt>177979</ExpensesAndContributionsAmt>
+        <QualifyingDistributionsAmt>177979</QualifyingDistributionsAmt>
+      </PFQualifyingDistributionsGrp>
+      <UndistributedIncomeGrp>
+        <QualifyingDistributionsAmt>177979</QualifyingDistributionsAmt>
+        <RemainingDistriFromCorpusAmt>177979</RemainingDistriFromCorpusAmt>
+        <TotalCorpusAmt>177979</TotalCorpusAmt>
+      </UndistributedIncomeGrp>
+      <PrivateOperatingFoundationsGrp>
+        <Section4942j3Ind>X</Section4942j3Ind>
+        <LessorAdjNetIncmMinInvstRetGrp>
+          <CurrentYearAmt>75474</CurrentYearAmt>
+          <Year1Amt>42604</Year1Amt>
+          <Year2Amt>78736</Year2Amt>
+          <TotalAmt>196814</TotalAmt>
+        </LessorAdjNetIncmMinInvstRetGrp>
+        <Pct85LessorAdjIncmOrMinRetGrp>
+          <CurrentYearAmt>64153</CurrentYearAmt>
+          <Year1Amt>36213</Year1Amt>
+          <Year2Amt>66926</Year2Amt>
+          <TotalAmt>167292</TotalAmt>
+        </Pct85LessorAdjIncmOrMinRetGrp>
+        <QualifyingDistributionsGrp>
+          <CurrentYearAmt>177979</CurrentYearAmt>
+          <Year1Amt>164237</Year1Amt>
+          <Year2Amt>185033</Year2Amt>
+          <TotalAmt>527249</TotalAmt>
+        </QualifyingDistributionsGrp>
+        <QualifyingDistriMadeDrtGrp>
+          <CurrentYearAmt>177979</CurrentYearAmt>
+          <Year1Amt>164237</Year1Amt>
+          <Year2Amt>185033</Year2Amt>
+          <TotalAmt>527249</TotalAmt>
+        </QualifyingDistriMadeDrtGrp>
+        <TwoThirdsMinimumInvstRetGrp>
+          <CurrentYearAmt>87429</CurrentYearAmt>
+          <Year1Amt>79088</Year1Amt>
+          <Year2Amt>81637</Year2Amt>
+          <TotalAmt>248154</TotalAmt>
+        </TwoThirdsMinimumInvstRetGrp>
+      </PrivateOperatingFoundationsGrp>
+      <SupplementaryInformationGrp>
+        <OnlyContriToPreselectedInd>X</OnlyContriToPreselectedInd>
+        <ApplicationSubmissionInfoGrp>
+          <RecipientPersonNm>JULIE COLLETT</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>3801 E FLORIDA AVE 635</AddressLine1Txt>
+            <AddressLine2Txt>3801 E FLORIDA AVE 635</AddressLine2Txt>
+            <CityNm>DENVER</CityNm>
+            <StateAbbreviationCd>CO</StateAbbreviationCd>
+            <ZIPCd>80210</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientPhoneNum>3039961140</RecipientPhoneNum>
+          <RecipientEmailAddressTxt>DIRECTOR@DOFOUND.ORG</RecipientEmailAddressTxt>
+        </ApplicationSubmissionInfoGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>ROCKY VISTA UNIVERSITY</BusinessNameLine1Txt>
+            <BusinessNameLine2Txt>ROCKY MOUNTAIN UNIVERSITY</BusinessNameLine2Txt>
+          </RecipientBusinessName>
+          <RecipientUSAddress>
+            <AddressLine1Txt>8401 S CHAMBERS RD</AddressLine1Txt>
+            <AddressLine2Txt>8401 S CHAMBERS RD</AddressLine2Txt>
+            <CityNm>PARKER</CityNm>
+            <StateAbbreviationCd>CO</StateAbbreviationCd>
+            <ZIPCd>80134</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientFoundationStatusTxt>NC</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>WHITE COAT SCHOLARSHIPS</GrantOrContributionPurposeTxt>
+          <Amt>10000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>ROCKY VISTA UNIVERSITY</BusinessNameLine1Txt>
+            <BusinessNameLine2Txt>ROCKY MOUNTAIN UNIVERSITY</BusinessNameLine2Txt>
+          </RecipientBusinessName>
+          <RecipientUSAddress>
+            <AddressLine1Txt>8401 S CHAMBERS RD</AddressLine1Txt>
+            <AddressLine2Txt>8401 S CHAMBERS RD</AddressLine2Txt>
+            <CityNm>PARKER</CityNm>
+            <StateAbbreviationCd>CO</StateAbbreviationCd>
+            <ZIPCd>80134</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientFoundationStatusTxt>NC</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>RURAL TRACK PROGRAM</GrantOrContributionPurposeTxt>
+          <Amt>5000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientPersonNm>ROSS TANICK</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>8401 S CHAMBERS RD</AddressLine1Txt>
+            <AddressLine2Txt>8401 S CHAMBERS RD</AddressLine2Txt>
+            <CityNm>PARKER</CityNm>
+            <StateAbbreviationCd>CO</StateAbbreviationCd>
+            <ZIPCd>80134</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientFoundationStatusTxt>I</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>SCHOLARSHIP</GrantOrContributionPurposeTxt>
+          <Amt>2000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientPersonNm>NICOLE WONG</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>8401 S CHAMBERS RD</AddressLine1Txt>
+            <AddressLine2Txt>8401 S CHAMBERS RD</AddressLine2Txt>
+            <CityNm>PARKER</CityNm>
+            <StateAbbreviationCd>CO</StateAbbreviationCd>
+            <ZIPCd>80134</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientFoundationStatusTxt>I</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>SCHOLARSHIP</GrantOrContributionPurposeTxt>
+          <Amt>2000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientPersonNm>ANDREW BLACK</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>8401 S CHAMBERS RD</AddressLine1Txt>
+            <AddressLine2Txt>8401 S CHAMBERS RD</AddressLine2Txt>
+            <CityNm>PARKER</CityNm>
+            <StateAbbreviationCd>CO</StateAbbreviationCd>
+            <ZIPCd>80134</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientFoundationStatusTxt>I</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>SCHOLARSHIP</GrantOrContributionPurposeTxt>
+          <Amt>2000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientPersonNm>TESS SCHULTZ</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>8401 S CHAMBERS RD</AddressLine1Txt>
+            <AddressLine2Txt>8401 S CHAMBERS RD</AddressLine2Txt>
+            <CityNm>PARKER</CityNm>
+            <StateAbbreviationCd>CO</StateAbbreviationCd>
+            <ZIPCd>80134</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientFoundationStatusTxt>I</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>SCHOLARSHIP</GrantOrContributionPurposeTxt>
+          <Amt>2000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientPersonNm>ALEX KNIPPENBERG</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>8401 S CHAMBERS RD</AddressLine1Txt>
+            <AddressLine2Txt>8401 S CHAMBERS RD</AddressLine2Txt>
+            <CityNm>PARKER</CityNm>
+            <StateAbbreviationCd>CO</StateAbbreviationCd>
+            <ZIPCd>80134</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientFoundationStatusTxt>I</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>SCHOLARSHIP</GrantOrContributionPurposeTxt>
+          <Amt>2000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientPersonNm>DR LUKE PROCTOR</RecipientPersonNm>
+          <RecipientUSAddress>
+            <AddressLine1Txt>8401 S CHAMBERS RD</AddressLine1Txt>
+            <AddressLine2Txt>8401 S CHAMBERS RD</AddressLine2Txt>
+            <CityNm>PARKER</CityNm>
+            <StateAbbreviationCd>CO</StateAbbreviationCd>
+            <ZIPCd>80134</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientFoundationStatusTxt>I</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>VOLUNTEER AWARD</GrantOrContributionPurposeTxt>
+          <Amt>1000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <TotalGrantOrContriPdDurYrAmt>26000</TotalGrantOrContriPdDurYrAmt>
+      </SupplementaryInformationGrp>
+      <AnalysisIncomeProducingActyGrp>
+        <ProgramServiceRevenueDtl>
+          <Desc>PROGRAM INCOME</Desc>
+          <RelatedOrExemptFunctionIncmAmt>2737</RelatedOrExemptFunctionIncmAmt>
+        </ProgramServiceRevenueDtl>
+        <IntOnSavAndTempCashInvstGrp>
+          <ExclusionCd>14</ExclusionCd>
+          <ExclusionAmt>1</ExclusionAmt>
+        </IntOnSavAndTempCashInvstGrp>
+        <DividendsAndInterestFromSecDtl>
+          <ExclusionCd>14</ExclusionCd>
+          <ExclusionAmt>71177</ExclusionAmt>
+        </DividendsAndInterestFromSecDtl>
+        <GainSalesAstOthThanInvntryGrp>
+          <ExclusionCd>18</ExclusionCd>
+          <ExclusionAmt>2501</ExclusionAmt>
+        </GainSalesAstOthThanInvntryGrp>
+        <SubtotalsIncmProducingActyGrp>
+          <ExclusionAmt>73679</ExclusionAmt>
+          <RelatedOrExemptFunctionIncmAmt>2737</RelatedOrExemptFunctionIncmAmt>
+        </SubtotalsIncmProducingActyGrp>
+        <TotalIncomeProducingActyAmt>76416</TotalIncomeProducingActyAmt>
+      </AnalysisIncomeProducingActyGrp>
+      <TrnsfrTransRlnNonchrtblEOGrp>
+        <TrnsfrOfCashToNonchrtblEOInd>false</TrnsfrOfCashToNonchrtblEOInd>
+        <TrnsfrOtherAssetNonchrtblEOInd>false</TrnsfrOtherAssetNonchrtblEOInd>
+        <SalesOrExchangesOfAssetsInd>false</SalesOrExchangesOfAssetsInd>
+        <PurchaseOfAssetsNonchrtblEOInd>false</PurchaseOfAssetsNonchrtblEOInd>
+        <RentalOfFacilitiesOthAssetsInd>false</RentalOfFacilitiesOthAssetsInd>
+        <ReimbursementArrangementsInd>false</ReimbursementArrangementsInd>
+        <LoansOrLoanGuaranteesInd>false</LoansOrLoanGuaranteesInd>
+        <PerformanceOfServicesEtcInd>false</PerformanceOfServicesEtcInd>
+        <SharingOfFacilitiesEtcInd>false</SharingOfFacilitiesEtcInd>
+        <RelationshipsNonchrtblEOInd>false</RelationshipsNonchrtblEOInd>
+      </TrnsfrTransRlnNonchrtblEOGrp>
+    </IRS990PF>
+    <AccountingFeesSchedule documentId="RetDoc2">
+      <AccountingFeesDetail>
+        <CategoryTxt>ACCOUNTING AND AUDIT</CategoryTxt>
+        <Amt>5320</Amt>
+        <DisbursementsCharitablePrpsAmt>5320</DisbursementsCharitablePrpsAmt>
+      </AccountingFeesDetail>
+    </AccountingFeesSchedule>
+    <DepreciationSchedule documentId="RetDoc3">
+      <DepreciationPropertyGrp>
+        <PriorYearDepreciationAmt>828</PriorYearDepreciationAmt>
+        <CurrentYearExpenseAmt>570</CurrentYearExpenseAmt>
+      </DepreciationPropertyGrp>
+    </DepreciationSchedule>
+    <InvestmentsCorpStockSchedule documentId="RetDoc4">
+      <InvestmentsCorporateStockGrp>
+        <StockNm>EXCHANGE TRADED FUNDS</StockNm>
+        <EOYBookValueAmt>2169474</EOYBookValueAmt>
+        <EOYFMVAmt>2169474</EOYFMVAmt>
+      </InvestmentsCorporateStockGrp>
+      <InvestmentsCorporateStockGrp>
+        <StockNm>MUTUAL FUNDS</StockNm>
+        <EOYBookValueAmt>445455</EOYBookValueAmt>
+        <EOYFMVAmt>445455</EOYFMVAmt>
+      </InvestmentsCorporateStockGrp>
+    </InvestmentsCorpStockSchedule>
+    <InvestmentsGovtObligationsSch documentId="RetDoc5">
+      <USGovtObligationsBookVlEOYAmt>53828</USGovtObligationsBookVlEOYAmt>
+      <USGovtObligationsEOYFMVAmt>53828</USGovtObligationsEOYFMVAmt>
+    </InvestmentsGovtObligationsSch>
+    <LandEtcSchedule2 documentId="RetDoc6">
+      <LandEtcGrp>
+        <CategoryOrItemTxt>EQUIPMENT</CategoryOrItemTxt>
+        <CostOrOtherBasisAmt>4184</CostOrOtherBasisAmt>
+        <AccumulatedDepreciationAmt>3631</AccumulatedDepreciationAmt>
+        <BookValueAmt>553</BookValueAmt>
+        <EOYFMVAmt>553</EOYFMVAmt>
+      </LandEtcGrp>
+    </LandEtcSchedule2>
+    <OtherExpensesSchedule documentId="RetDoc7">
+      <OtherExpensesScheduleGrp>
+        <Desc>EXPENSES</Desc>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>TELEPHONE</Desc>
+        <RevenueAndExpensesPerBooksAmt>3048</RevenueAndExpensesPerBooksAmt>
+        <DisbursementsCharitablePrpsAmt>3048</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>SUPPLIES</Desc>
+        <RevenueAndExpensesPerBooksAmt>2376</RevenueAndExpensesPerBooksAmt>
+        <DisbursementsCharitablePrpsAmt>2376</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>REPAIRS AND MAINTENANCE</Desc>
+        <RevenueAndExpensesPerBooksAmt>900</RevenueAndExpensesPerBooksAmt>
+        <DisbursementsCharitablePrpsAmt>900</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>POSTAGE</Desc>
+        <RevenueAndExpensesPerBooksAmt>1142</RevenueAndExpensesPerBooksAmt>
+        <DisbursementsCharitablePrpsAmt>1142</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>OTHER EXPENSE</Desc>
+        <RevenueAndExpensesPerBooksAmt>2376</RevenueAndExpensesPerBooksAmt>
+        <DisbursementsCharitablePrpsAmt>2376</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>IT AND WEBSITE</Desc>
+        <RevenueAndExpensesPerBooksAmt>1930</RevenueAndExpensesPerBooksAmt>
+        <DisbursementsCharitablePrpsAmt>1930</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>INSURANCE</Desc>
+        <RevenueAndExpensesPerBooksAmt>1939</RevenueAndExpensesPerBooksAmt>
+        <DisbursementsCharitablePrpsAmt>1939</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>EXCISE TAX</Desc>
+        <RevenueAndExpensesPerBooksAmt>926</RevenueAndExpensesPerBooksAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>DUES AND MEMBERSHIPS</Desc>
+        <RevenueAndExpensesPerBooksAmt>675</RevenueAndExpensesPerBooksAmt>
+        <DisbursementsCharitablePrpsAmt>675</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>CONTRACT SERVICES</Desc>
+        <RevenueAndExpensesPerBooksAmt>2680</RevenueAndExpensesPerBooksAmt>
+        <DisbursementsCharitablePrpsAmt>2680</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>BANK CHARGES</Desc>
+        <RevenueAndExpensesPerBooksAmt>527</RevenueAndExpensesPerBooksAmt>
+        <DisbursementsCharitablePrpsAmt>527</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>ADVERTISING AND PROMOTION</Desc>
+        <RevenueAndExpensesPerBooksAmt>801</RevenueAndExpensesPerBooksAmt>
+        <DisbursementsCharitablePrpsAmt>801</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>PROGRAM EXPENSES</Desc>
+        <RevenueAndExpensesPerBooksAmt>981</RevenueAndExpensesPerBooksAmt>
+        <DisbursementsCharitablePrpsAmt>981</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+    </OtherExpensesSchedule>
+    <OtherIncomeSchedule2 documentId="RetDoc9">
+      <OtherIncomeDetail>
+        <Desc>PROGRAM INCOME</Desc>
+        <RevenueAndExpensesPerBooksAmt>2737</RevenueAndExpensesPerBooksAmt>
+        <AdjustedNetIncomeAmt>2737</AdjustedNetIncomeAmt>
+      </OtherIncomeDetail>
+    </OtherIncomeSchedule2>
+    <OtherIncreasesSchedule documentId="RetDoc8">
+      <OtherIncreasesDetail>
+        <Desc>UNREALIZED GAINS</Desc>
+        <Amt>167631</Amt>
+      </OtherIncreasesDetail>
+    </OtherIncreasesSchedule>
+    <OtherProfessionalFeesSchedule documentId="RetDoc10">
+      <OtherProfessionalFeesDetail>
+        <CategoryTxt>MANAGEMENT FEES</CategoryTxt>
+        <Amt>18373</Amt>
+        <NetInvestmentIncomeAmt>18373</NetInvestmentIncomeAmt>
+      </OtherProfessionalFeesDetail>
+    </OtherProfessionalFeesSchedule>
+    <ReasonableCauseExplanation documentId="RetDoc11">
+      <ExplanationTxt>EXTENSION WAS FILED ON MAY 15. FILED ON 6/22/22. NEEDED MORE TIME TO FILE ACCURATE RETURN.</ExplanationTxt>
+    </ReasonableCauseExplanation>
+  </ReturnData>
+</Return>

@@ -1,0 +1,971 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Return xmlns="http://www.irs.gov/efile" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.irs.gov/efile" returnVersion="2020v4.1">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2021-10-20T10:39:00-00:00</ReturnTs>
+    <TaxPeriodEndDt>2020-12-31</TaxPeriodEndDt>
+    <PreparerFirmGrp>
+      <PreparerFirmName>
+        <BusinessNameLine1Txt>3rd Creek Accounting</BusinessNameLine1Txt>
+      </PreparerFirmName>
+      <PreparerUSAddress>
+        <AddressLine1Txt>PO Box 5406</AddressLine1Txt>
+        <CityNm>Incline Village</CityNm>
+        <StateAbbreviationCd>NV</StateAbbreviationCd>
+        <ZIPCd>89450</ZIPCd>
+      </PreparerUSAddress>
+    </PreparerFirmGrp>
+    <ReturnTypeCd>990PF</ReturnTypeCd>
+    <TaxPeriodBeginDt>2020-01-01</TaxPeriodBeginDt>
+    <Filer>
+      <EIN>273247230</EIN>
+      <BusinessName>
+        <BusinessNameLine1Txt>SK2 Fund Inc</BusinessNameLine1Txt>
+      </BusinessName>
+      <BusinessNameControlTxt>THRI</BusinessNameControlTxt>
+      <PhoneNum>2083403397</PhoneNum>
+      <USAddress>
+        <AddressLine1Txt>PO Box 45334</AddressLine1Txt>
+        <CityNm>Boise</CityNm>
+        <StateAbbreviationCd>ID</StateAbbreviationCd>
+        <ZIPCd>83711</ZIPCd>
+      </USAddress>
+    </Filer>
+    <BusinessOfficerGrp>
+      <PersonNm>Laurel Williams</PersonNm>
+      <PersonTitleTxt>Executive Director</PersonTitleTxt>
+      <SignatureDt>2021-10-20</SignatureDt>
+      <DiscussWithPaidPreparerInd>false</DiscussWithPaidPreparerInd>
+    </BusinessOfficerGrp>
+    <SigningOfficerGrp>
+      <PersonFullName>
+        <PersonFirstNm>Laurel</PersonFirstNm>
+        <PersonLastNm>Williams</PersonLastNm>
+      </PersonFullName>
+      <SSN>XXX-XX-XXXX</SSN>
+    </SigningOfficerGrp>
+    <PreparerPersonGrp>
+      <PreparerPersonNm>Dave B Straley CPA</PreparerPersonNm>
+      <PTIN>P00043936</PTIN>
+      <PhoneNum>7758329222</PhoneNum>
+      <PreparationDt>2021-10-20</PreparationDt>
+      <SelfEmployedInd>X</SelfEmployedInd>
+    </PreparerPersonGrp>
+    <AdditionalFilerInformation>
+      <TrustedCustomerGrp>
+        <TrustedCustomerCd>2</TrustedCustomerCd>
+        <AuthenticationAssuranceLevelCd>AAL1</AuthenticationAssuranceLevelCd>
+        <IdentityAssuranceLevelCd>IAL1</IdentityAssuranceLevelCd>
+      </TrustedCustomerGrp>
+    </AdditionalFilerInformation>
+    <TaxYr>2020</TaxYr>
+    <BuildTS>2022-09-23 18:48:47Z</BuildTS>
+  </ReturnHeader>
+  <ReturnData documentCnt="16">
+    <IRS990PF referenceDocumentId="990PF:156" documentId="990PF" softwareId="20011406" softwareVersionNum="20.0.2.0">
+      <Organization501c3ExemptPFInd>X</Organization501c3ExemptPFInd>
+      <FMVAssetsEOYAmt>10070138</FMVAssetsEOYAmt>
+      <MethodOfAccountingAccrualInd>X</MethodOfAccountingAccrualInd>
+      <AnalysisOfRevenueAndExpenses>
+        <ContriRcvdRevAndExpnssAmt>4762078</ContriRcvdRevAndExpnssAmt>
+        <InterestOnSavRevAndExpnssAmt>4793</InterestOnSavRevAndExpnssAmt>
+        <InterestOnSavNetInvstIncmAmt>4793</InterestOnSavNetInvstIncmAmt>
+        <InterestOnSavingsAdjNetIncmAmt>4793</InterestOnSavingsAdjNetIncmAmt>
+        <DividendsRevAndExpnssAmt>42484</DividendsRevAndExpnssAmt>
+        <DividendsNetInvstIncmAmt>42484</DividendsNetInvstIncmAmt>
+        <DividendsAdjNetIncmAmt>42484</DividendsAdjNetIncmAmt>
+        <NetGainSaleAstRevAndExpnssAmt referenceDocumentId="990PF:136">105724</NetGainSaleAstRevAndExpnssAmt>
+        <GrossSalesPriceAmt>4056388</GrossSalesPriceAmt>
+        <CapGainNetIncmNetInvstIncmAmt>105724</CapGainNetIncmNetInvstIncmAmt>
+        <OtherIncomeRevAndExpnssAmt referenceDocumentId="990PF:138">2739</OtherIncomeRevAndExpnssAmt>
+        <OtherIncomeNetInvstIncmAmt>2739</OtherIncomeNetInvstIncmAmt>
+        <OtherIncomeAdjNetIncmAmt>2739</OtherIncomeAdjNetIncmAmt>
+        <TotalRevAndExpnssAmt>4917818</TotalRevAndExpnssAmt>
+        <TotalNetInvstIncmAmt>155740</TotalNetInvstIncmAmt>
+        <TotalAdjNetIncmAmt>50016</TotalAdjNetIncmAmt>
+        <CompOfcrDirTrstRevAndExpnssAmt>145000</CompOfcrDirTrstRevAndExpnssAmt>
+        <CompOfcrDirTrstNetInvstIncmAmt>61250</CompOfcrDirTrstNetInvstIncmAmt>
+        <CompOfcrDirTrstAdjNetIncmAmt>61250</CompOfcrDirTrstAdjNetIncmAmt>
+        <CompOfcrDirTrstDsbrsChrtblAmt>83750</CompOfcrDirTrstDsbrsChrtblAmt>
+        <OthEmplSlrsWgsRevAndExpnssAmt>71000</OthEmplSlrsWgsRevAndExpnssAmt>
+        <OthEmplSlrsWgsNetInvstIncmAmt>6235</OthEmplSlrsWgsNetInvstIncmAmt>
+        <OthEmplSlrsWgsAdjNetIncmAmt>6235</OthEmplSlrsWgsAdjNetIncmAmt>
+        <OthEmplSlrsWgsDsbrsChrtblAmt>64765</OthEmplSlrsWgsDsbrsChrtblAmt>
+        <PensionEmplBnftRevAndExpnssAmt>38626</PensionEmplBnftRevAndExpnssAmt>
+        <PensionEmplBnftDsbrsChrtblAmt>38626</PensionEmplBnftDsbrsChrtblAmt>
+        <AccountingFeesRevAndExpnssAmt referenceDocumentId="990PF:140">4767</AccountingFeesRevAndExpnssAmt>
+        <AccountingFeesChrtblPrpsAmt>4767</AccountingFeesChrtblPrpsAmt>
+        <OtherProfFeesRevAndExpnssAmt referenceDocumentId="990PF:141">7733</OtherProfFeesRevAndExpnssAmt>
+        <OtherProfFeesNetInvstIncmAmt>7733</OtherProfFeesNetInvstIncmAmt>
+        <OtherProfFeesAdjNetIncmAmt>7733</OtherProfFeesAdjNetIncmAmt>
+        <TaxesRevAndExpnssAmt referenceDocumentId="990PF:142">16555</TaxesRevAndExpnssAmt>
+        <TravConfMeetingRevAndExpnssAmt>2067</TravConfMeetingRevAndExpnssAmt>
+        <TravConfMeetingDsbrsChrtblAmt>2067</TravConfMeetingDsbrsChrtblAmt>
+        <PrintingAndPubRevAndExpnssAmt>258</PrintingAndPubRevAndExpnssAmt>
+        <PrintingAndPubDsbrsChrtblAmt>258</PrintingAndPubDsbrsChrtblAmt>
+        <OtherExpensesRevAndExpnssAmt referenceDocumentId="990PF:143">531287</OtherExpensesRevAndExpnssAmt>
+        <OtherExpensesNetInvstIncmAmt>39495</OtherExpensesNetInvstIncmAmt>
+        <OtherExpensesAdjNetIncmAmt>39495</OtherExpensesAdjNetIncmAmt>
+        <OtherExpensesDsbrsChrtblAmt>479399</OtherExpensesDsbrsChrtblAmt>
+        <TotOprExpensesRevAndExpnssAmt>817293</TotOprExpensesRevAndExpnssAmt>
+        <TotOprExpensesNetInvstIncmAmt>114713</TotOprExpensesNetInvstIncmAmt>
+        <TotOprExpensesAdjNetIncmAmt>114713</TotOprExpensesAdjNetIncmAmt>
+        <TotOprExpensesDsbrsChrtblAmt>673632</TotOprExpensesDsbrsChrtblAmt>
+        <ContriPaidRevAndExpnssAmt>35018</ContriPaidRevAndExpnssAmt>
+        <ContriPaidDsbrsChrtblAmt>35018</ContriPaidDsbrsChrtblAmt>
+        <TotalExpensesRevAndExpnssAmt>852311</TotalExpensesRevAndExpnssAmt>
+        <TotalExpensesNetInvstIncmAmt>114713</TotalExpensesNetInvstIncmAmt>
+        <TotalExpensesAdjNetIncmAmt>114713</TotalExpensesAdjNetIncmAmt>
+        <TotalExpensesDsbrsChrtblAmt>708650</TotalExpensesDsbrsChrtblAmt>
+        <ExcessRevenueOverExpensesAmt>4065507</ExcessRevenueOverExpensesAmt>
+        <NetInvestmentIncomeAmt>41027</NetInvestmentIncomeAmt>
+      </AnalysisOfRevenueAndExpenses>
+      <Form990PFBalanceSheetsGrp>
+        <CashBOYAmt>24018</CashBOYAmt>
+        <CashEOYAmt>1996312</CashEOYAmt>
+        <CashEOYFMVAmt>1996312</CashEOYFMVAmt>
+        <SavAndTempCashInvstBOYAmt>769119</SavAndTempCashInvstBOYAmt>
+        <SavAndTempCashInvstEOYAmt>50595</SavAndTempCashInvstEOYAmt>
+        <SavAndTempCashInvstEOYFMVAmt>50595</SavAndTempCashInvstEOYFMVAmt>
+        <PledgesRcvblBOYAmt>4353135</PledgesRcvblBOYAmt>
+        <CorporateStockEOYAmt referenceDocumentId="990PF:150">4684912</CorporateStockEOYAmt>
+        <CorporateStockEOYFMVAmt>5404482</CorporateStockEOYFMVAmt>
+        <CorporateBondsEOYAmt referenceDocumentId="990PF:151">792099</CorporateBondsEOYAmt>
+        <CorporateBondsEOYFMVAmt>790793</CorporateBondsEOYFMVAmt>
+        <OtherInvestmentsEOYAmt referenceDocumentId="990PF:159">1729467</OtherInvestmentsEOYAmt>
+        <OtherInvestmentsEOYFMVAmt>1729467</OtherInvestmentsEOYFMVAmt>
+        <OtherAssetsBOYAmt referenceDocumentId="990PF:145">128689</OtherAssetsBOYAmt>
+        <OtherAssetsEOYAmt referenceDocumentId="990PF:145">98489</OtherAssetsEOYAmt>
+        <OtherAssetsEOYFMVAmt referenceDocumentId="990PF:145">98489</OtherAssetsEOYFMVAmt>
+        <TotalAssetsBOYAmt>5274961</TotalAssetsBOYAmt>
+        <TotalAssetsEOYAmt>9351874</TotalAssetsEOYAmt>
+        <TotalAssetsEOYFMVAmt>10070138</TotalAssetsEOYFMVAmt>
+        <AccountsPayableBOYAmt>21335</AccountsPayableBOYAmt>
+        <AccountsPayableEOYAmt>18128</AccountsPayableEOYAmt>
+        <GrantsPayableEOYAmt>10000</GrantsPayableEOYAmt>
+        <TotalLiabilitiesBOYAmt>21335</TotalLiabilitiesBOYAmt>
+        <TotalLiabilitiesEOYAmt>28128</TotalLiabilitiesEOYAmt>
+        <OrganizationFollowsFASB117Ind>X</OrganizationFollowsFASB117Ind>
+        <NoDonorRstrNetAssestsBOYAmt>-370979</NoDonorRstrNetAssestsBOYAmt>
+        <NoDonorRstrNetAssestsEOYAmt>9323746</NoDonorRstrNetAssestsEOYAmt>
+        <DonorRstrNetAssetsBOYAmt>5624605</DonorRstrNetAssetsBOYAmt>
+        <TotNetAstOrFundBalancesBOYAmt>5253626</TotNetAstOrFundBalancesBOYAmt>
+        <TotNetAstOrFundBalancesEOYAmt>9323746</TotNetAstOrFundBalancesEOYAmt>
+        <TotalLiabilitiesNetAstBOYAmt>5274961</TotalLiabilitiesNetAstBOYAmt>
+        <TotalLiabilitiesNetAstEOYAmt>9351874</TotalLiabilitiesNetAstEOYAmt>
+      </Form990PFBalanceSheetsGrp>
+      <ChgInNetAssetsFundBalancesGrp>
+        <TotNetAstOrFundBalancesBOYAmt>5253626</TotNetAstOrFundBalancesBOYAmt>
+        <ExcessRevenueOverExpensesAmt>4065507</ExcessRevenueOverExpensesAmt>
+        <OtherIncreasesAmt referenceDocumentId="990PF:161">4613</OtherIncreasesAmt>
+        <SubtotalAmt>9323746</SubtotalAmt>
+        <TotNetAstOrFundBalancesEOYAmt>9323746</TotNetAstOrFundBalancesEOYAmt>
+      </ChgInNetAssetsFundBalancesGrp>
+      <CapGainsLossTxInvstIncmDetail>
+        <CapGainsLossTxInvstIncmGrp>
+          <PropertyDesc>Schwab Securities Capital Gains</PropertyDesc>
+          <HowAcquiredCd>D</HowAcquiredCd>
+          <AcquiredDt>2019-01-01</AcquiredDt>
+          <SoldDt>2020-12-31</SoldDt>
+          <GrossSalesPriceAmt>4054403</GrossSalesPriceAmt>
+          <CostOrOtherBasisAmt>3950664</CostOrOtherBasisAmt>
+          <GainOrLossAmt>103739</GainOrLossAmt>
+          <GainsMinusExcessOrLossesAmt>103739</GainsMinusExcessOrLossesAmt>
+        </CapGainsLossTxInvstIncmGrp>
+        <CapitalGainNetIncomeAmt>105724</CapitalGainNetIncomeAmt>
+      </CapGainsLossTxInvstIncmDetail>
+      <ExciseTaxBasedOnInvstIncmGrp>
+        <InvestmentIncomeExciseTaxAmt>570</InvestmentIncomeExciseTaxAmt>
+        <SubtotalAmt>570</SubtotalAmt>
+        <TaxBasedOnInvestmentIncomeAmt>570</TaxBasedOnInvestmentIncomeAmt>
+        <EstimatedPlusOvpmtIncmTxAmt>3500</EstimatedPlusOvpmtIncmTxAmt>
+        <TotalPaymentsAndCreditsAmt>3500</TotalPaymentsAndCreditsAmt>
+        <OriginalReturnTaxPaidAmt>3500</OriginalReturnTaxPaidAmt>
+        <OverpaymentAmt>2930</OverpaymentAmt>
+        <AppliedToESTaxAmt>2930</AppliedToESTaxAmt>
+      </ExciseTaxBasedOnInvstIncmGrp>
+      <StatementsRegardingActyGrp>
+        <LegislativePoliticalActyInd>false</LegislativePoliticalActyInd>
+        <MoreThan100SpentInd>false</MoreThan100SpentInd>
+        <Form1120POLFiledInd>false</Form1120POLFiledInd>
+        <ActivitiesNotPreviouslyRptInd referenceDocumentId="990PF:168">true</ActivitiesNotPreviouslyRptInd>
+        <ChangesToArticlesOrBylawsInd>false</ChangesToArticlesOrBylawsInd>
+        <UnrelatedBusIncmOverLimitInd>false</UnrelatedBusIncmOverLimitInd>
+        <OrganizationDissolvedEtcInd>false</OrganizationDissolvedEtcInd>
+        <Section508eRqrSatisfiedInd>true</Section508eRqrSatisfiedInd>
+        <AtLeast5000InAssetsInd>true</AtLeast5000InAssetsInd>
+        <OrgReportOrRegisterStateCd>ID</OrgReportOrRegisterStateCd>
+        <Form990PFFiledWithAttyGenInd>true</Form990PFFiledWithAttyGenInd>
+        <PrivateOperatingFoundationInd>true</PrivateOperatingFoundationInd>
+        <NewSubstantialContributorsInd referenceDocumentId="990PF:152">true</NewSubstantialContributorsInd>
+        <OwnControlledEntityInd>false</OwnControlledEntityInd>
+        <DonorAdvisedFundInd>false</DonorAdvisedFundInd>
+        <ComplyWithPublicInspRqrInd>true</ComplyWithPublicInspRqrInd>
+        <WebsiteAddressTxt>www.sk2fund.org</WebsiteAddressTxt>
+        <PersonsWithBooksName>
+          <BusinessNameLine1Txt>The Foundation</BusinessNameLine1Txt>
+        </PersonsWithBooksName>
+        <PhoneNum>2083403397</PhoneNum>
+        <LocationOfBooksUSAddress>
+          <AddressLine1Txt>PO Box 45334</AddressLine1Txt>
+          <CityNm>Boise</CityNm>
+          <StateAbbreviationCd>ID</StateAbbreviationCd>
+          <ZIPCd>83711</ZIPCd>
+        </LocationOfBooksUSAddress>
+        <ForeignAccountsQuestionInd>false</ForeignAccountsQuestionInd>
+      </StatementsRegardingActyGrp>
+      <StatementsRegardingActy4720Grp>
+        <SaleOrExchDisqualifiedPrsnInd>false</SaleOrExchDisqualifiedPrsnInd>
+        <BrrwOrLendDisqualifiedPrsnInd>false</BrrwOrLendDisqualifiedPrsnInd>
+        <FurnGoodsDisqualifiedPrsnInd>false</FurnGoodsDisqualifiedPrsnInd>
+        <PayCompDisqualifiedPrsnInd>true</PayCompDisqualifiedPrsnInd>
+        <TransferAstDisqualifiedPrsnInd>false</TransferAstDisqualifiedPrsnInd>
+        <PaymentToGovernmentOfficialInd>false</PaymentToGovernmentOfficialInd>
+        <ActsFailToQlfyAsExceptionsInd>false</ActsFailToQlfyAsExceptionsInd>
+        <UncorrectedPriorActsInd>false</UncorrectedPriorActsInd>
+        <UndistributedIncomePYInd>false</UndistributedIncomePYInd>
+        <BusinessHoldingsInd>false</BusinessHoldingsInd>
+        <JeopardyInvestmentsInd>false</JeopardyInvestmentsInd>
+        <UncorrectedPYJeopardyInvstInd>false</UncorrectedPYJeopardyInvstInd>
+        <InfluenceLegislationInd>false</InfluenceLegislationInd>
+        <InfluenceElectionInd>false</InfluenceElectionInd>
+        <GrantsToIndividualsInd>false</GrantsToIndividualsInd>
+        <GrantsToOrganizationsInd>true</GrantsToOrganizationsInd>
+        <NoncharitablePurposeInd>false</NoncharitablePurposeInd>
+        <TransactionsFailToQlfyAsExcInd>false</TransactionsFailToQlfyAsExcInd>
+        <MaintainedExpenditureRspnsInd referenceDocumentId="990PF:153">true</MaintainedExpenditureRspnsInd>
+        <RcvFndsToPayPrsnlBnftCntrctInd>false</RcvFndsToPayPrsnlBnftCntrctInd>
+        <PayPremiumsPrsnlBnftCntrctInd>false</PayPremiumsPrsnlBnftCntrctInd>
+        <ProhibitedTaxShelterTransInd>false</ProhibitedTaxShelterTransInd>
+        <SubjToTaxRmnrtnExPrchtPymtInd>false</SubjToTaxRmnrtnExPrchtPymtInd>
+      </StatementsRegardingActy4720Grp>
+      <OfficerDirTrstKeyEmplInfoGrp>
+        <OfficerDirTrstKeyEmplGrp>
+          <PersonNm>Erik Schultz</PersonNm>
+          <USAddress>
+            <AddressLine1Txt>PO Box 45334</AddressLine1Txt>
+            <CityNm>Boise</CityNm>
+            <StateAbbreviationCd>ID</StateAbbreviationCd>
+            <ZIPCd>83711</ZIPCd>
+          </USAddress>
+          <TitleTxt>Trustee</TitleTxt>
+          <AverageHrsPerWkDevotedToPosRt>040.00</AverageHrsPerWkDevotedToPosRt>
+          <CompensationAmt>50000</CompensationAmt>
+          <EmployeeBenefitProgramAmt>6759</EmployeeBenefitProgramAmt>
+        </OfficerDirTrstKeyEmplGrp>
+        <OfficerDirTrstKeyEmplGrp>
+          <PersonNm>Laurel Williams</PersonNm>
+          <USAddress>
+            <AddressLine1Txt>PO Box 45334</AddressLine1Txt>
+            <CityNm>Boise</CityNm>
+            <StateAbbreviationCd>ID</StateAbbreviationCd>
+            <ZIPCd>83711</ZIPCd>
+          </USAddress>
+          <TitleTxt>Executive Director</TitleTxt>
+          <AverageHrsPerWkDevotedToPosRt>040.00</AverageHrsPerWkDevotedToPosRt>
+          <CompensationAmt>95000</CompensationAmt>
+          <EmployeeBenefitProgramAmt>4664</EmployeeBenefitProgramAmt>
+        </OfficerDirTrstKeyEmplGrp>
+        <OfficerDirTrstKeyEmplGrp>
+          <PersonNm>Einar Schultz</PersonNm>
+          <USAddress>
+            <AddressLine1Txt>PO Box 45334</AddressLine1Txt>
+            <CityNm>Boise</CityNm>
+            <StateAbbreviationCd>ID</StateAbbreviationCd>
+            <ZIPCd>83711</ZIPCd>
+          </USAddress>
+          <TitleTxt>Treasurer</TitleTxt>
+          <AverageHrsPerWkDevotedToPosRt>001.00</AverageHrsPerWkDevotedToPosRt>
+          <CompensationAmt>0</CompensationAmt>
+        </OfficerDirTrstKeyEmplGrp>
+        <OfficerDirTrstKeyEmplGrp>
+          <PersonNm>Tae Kim</PersonNm>
+          <USAddress>
+            <AddressLine1Txt>PO Box 45334</AddressLine1Txt>
+            <CityNm>Boise</CityNm>
+            <StateAbbreviationCd>ID</StateAbbreviationCd>
+            <ZIPCd>83711</ZIPCd>
+          </USAddress>
+          <TitleTxt>Trustee</TitleTxt>
+          <AverageHrsPerWkDevotedToPosRt>001.00</AverageHrsPerWkDevotedToPosRt>
+          <CompensationAmt>0</CompensationAmt>
+        </OfficerDirTrstKeyEmplGrp>
+        <OfficerDirTrstKeyEmplGrp>
+          <PersonNm>Linda Kincannon</PersonNm>
+          <USAddress>
+            <AddressLine1Txt>PO Box 45334</AddressLine1Txt>
+            <CityNm>Boise</CityNm>
+            <StateAbbreviationCd>ID</StateAbbreviationCd>
+            <ZIPCd>83711</ZIPCd>
+          </USAddress>
+          <TitleTxt>Trustee</TitleTxt>
+          <AverageHrsPerWkDevotedToPosRt>040.00</AverageHrsPerWkDevotedToPosRt>
+          <CompensationAmt>0</CompensationAmt>
+        </OfficerDirTrstKeyEmplGrp>
+        <CompensationHighestPaidEmplGrp>
+          <PersonNm>Kellen Williams</PersonNm>
+          <USAddress>
+            <AddressLine1Txt>PO Box 45334</AddressLine1Txt>
+            <CityNm>Boise</CityNm>
+            <StateAbbreviationCd>ID</StateAbbreviationCd>
+            <ZIPCd>83711</ZIPCd>
+          </USAddress>
+          <TitleTxt>Operations Program O</TitleTxt>
+          <AverageHrsPerWkDevotedToPosRt>040.00</AverageHrsPerWkDevotedToPosRt>
+          <CompensationAmt>71000</CompensationAmt>
+        </CompensationHighestPaidEmplGrp>
+      </OfficerDirTrstKeyEmplInfoGrp>
+      <SummaryOfDirectChrtblActyGrp>
+        <Description1Txt>Thriive Cambodia provides capital for production equipment and technical assistants to small businessess, helping them to expand and create new jobs. Loans are repaid through business donation of an equivalent value of in-kind products, services, or job training to impoverished community members.</Description1Txt>
+        <Expenses1Amt>178400</Expenses1Amt>
+        <Description2Txt>Thriive Nicaragua provides capital for production equipment and technical assistants to small businessess, helping them to expand and create new jobs. Loans are repaid through business donation of an equivalent value of in-kind products, services, or job training to impoverished community members.</Description2Txt>
+        <Expenses2Amt>31450</Expenses2Amt>
+        <Description3Txt>Thriive Guatemala provides capital for production equipment and technical assistants to small businessess, helping them to expand and create new jobs. Loans are repaid through business donation of an equivalent value of in-kind products, services, or job training to impoverished community members.</Description3Txt>
+        <Expenses3Amt>210949</Expenses3Amt>
+        <Description4Txt>Thriive Vietnam-Hanoi provides capital for production equipment and technical assistants to small businessess, helping them to expand and create new jobs. Loans are repaid through business donation of an equivalent value of in-kind products, services, or job training to impoverished community members.</Description4Txt>
+        <Expenses4Amt>44251</Expenses4Amt>
+      </SummaryOfDirectChrtblActyGrp>
+      <SumOfProgramRelatedInvstGrp>
+        <Description1Txt>Whole Forest PRI supports sustainable forestry company with expansion into hardwood business line. The company reduces poverty and incentivizes rainforest conservation through its business model in Ecuador.</Description1Txt>
+        <Expenses1Amt>25000</Expenses1Amt>
+        <Description2Txt>TEMA Nicaragua PRI supports company to produce wheelchairs for those in need in local region.</Description2Txt>
+        <Expenses2Amt>15000</Expenses2Amt>
+        <AllOtherProgramRltdInvstTotAmt referenceDocumentId="990PF:167">10000</AllOtherProgramRltdInvstTotAmt>
+        <TotalAmt>50000</TotalAmt>
+      </SumOfProgramRelatedInvstGrp>
+      <MinimumInvestmentReturnGrp>
+        <AverageMonthlyFMVOfSecAmt>1833557</AverageMonthlyFMVOfSecAmt>
+        <AverageMonthlyCashBalancesAmt>1242991</AverageMonthlyCashBalancesAmt>
+        <FMVAllOtherNoncharitableAstAmt>305061</FMVAllOtherNoncharitableAstAmt>
+        <TotalFMVOfUnusedAssetsAmt>3381609</TotalFMVOfUnusedAssetsAmt>
+        <AdjustedTotalFMVOfUnusedAstAmt>3381609</AdjustedTotalFMVOfUnusedAstAmt>
+        <CashDeemedCharitableAmt referenceDocumentId="990PF:178">50724</CashDeemedCharitableAmt>
+        <NetVlNoncharitableAssetsAmt>3330885</NetVlNoncharitableAssetsAmt>
+        <MinimumInvestmentReturnAmt>166544</MinimumInvestmentReturnAmt>
+      </MinimumInvestmentReturnGrp>
+      <DistributableAmountGrp>
+        <Sect4942j3j5FndtnAndFrgnOrgInd>X</Sect4942j3j5FndtnAndFrgnOrgInd>
+        <DistributableAsAdjustedAmt>0</DistributableAsAdjustedAmt>
+      </DistributableAmountGrp>
+      <QualifyingDistriPartXIIGrp>
+        <ExpensesAndContributionsAmt referenceDocumentId="990PF:179">708650</ExpensesAndContributionsAmt>
+        <ProgramRelatedInvstTotalAmt>50000</ProgramRelatedInvstTotalAmt>
+        <QualifyingDistributionsAmt>758650</QualifyingDistributionsAmt>
+        <AdjustedQualifyingDistriAmt>758650</AdjustedQualifyingDistriAmt>
+      </QualifyingDistriPartXIIGrp>
+      <PrivateOperatingFoundationsGrp>
+        <PrivateOperatingFndtnRulingDt>2010-11-30</PrivateOperatingFndtnRulingDt>
+        <Section4942j3Ind>X</Section4942j3Ind>
+        <LessorAdjNetIncmMinInvstRetGrp>
+          <CurrentYearAmt>0</CurrentYearAmt>
+          <Year1Amt>20507</Year1Amt>
+          <Year2Amt>4675</Year2Amt>
+          <TotalAmt>25182</TotalAmt>
+        </LessorAdjNetIncmMinInvstRetGrp>
+        <Pct85LessorAdjIncmOrMinRetGrp>
+          <Year1Amt>17431</Year1Amt>
+          <Year2Amt>3974</Year2Amt>
+          <TotalAmt>21405</TotalAmt>
+        </Pct85LessorAdjIncmOrMinRetGrp>
+        <QualifyingDistributionsGrp>
+          <CurrentYearAmt>758650</CurrentYearAmt>
+          <Year1Amt>867989</Year1Amt>
+          <Year2Amt>1234849</Year2Amt>
+          <Year3Amt>1519137</Year3Amt>
+          <TotalAmt>4380625</TotalAmt>
+        </QualifyingDistributionsGrp>
+        <QualifyingDistriNotUsedDrtGrp>
+          <CurrentYearAmt>35018</CurrentYearAmt>
+          <TotalAmt>35018</TotalAmt>
+        </QualifyingDistriNotUsedDrtGrp>
+        <QualifyingDistriMadeDrtGrp>
+          <CurrentYearAmt>723632</CurrentYearAmt>
+          <Year1Amt>867989</Year1Amt>
+          <Year2Amt>1234849</Year2Amt>
+          <Year3Amt>1519137</Year3Amt>
+          <TotalAmt>4345607</TotalAmt>
+        </QualifyingDistriMadeDrtGrp>
+        <TwoThirdsMinimumInvstRetGrp>
+          <CurrentYearAmt>111029</CurrentYearAmt>
+          <Year1Amt>111671</Year1Amt>
+          <Year2Amt>16658</Year2Amt>
+          <Year3Amt>13236</Year3Amt>
+          <TotalAmt>252594</TotalAmt>
+        </TwoThirdsMinimumInvstRetGrp>
+      </PrivateOperatingFoundationsGrp>
+      <SupplementaryInformationGrp>
+        <ContributingManagerNm>None</ContributingManagerNm>
+        <ShareholderManagerNm>None</ShareholderManagerNm>
+        <OnlyContriToPreselectedInd>X</OnlyContriToPreselectedInd>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>American Solar Energy Society</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientUSAddress>
+            <AddressLine1Txt>2525 Arapahoe Ave Ste E4-253</AddressLine1Txt>
+            <CityNm>Boulder</CityNm>
+            <StateAbbreviationCd>CO</StateAbbreviationCd>
+            <ZIPCd>80302</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientFoundationStatusTxt>PC</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>Board Discretionary grant</GrantOrContributionPurposeTxt>
+          <Amt>109</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>Thousand Currents</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientUSAddress>
+            <AddressLine1Txt>1330 Broadway 301</AddressLine1Txt>
+            <CityNm>Oakland</CityNm>
+            <StateAbbreviationCd>CA</StateAbbreviationCd>
+            <ZIPCd>94612</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientFoundationStatusTxt>PC</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>Environmental sustainability - unrestricted</GrantOrContributionPurposeTxt>
+          <Amt>2250</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>Beneficial Returns</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientUSAddress>
+            <AddressLine1Txt>6214 S Hood Avenue</AddressLine1Txt>
+            <CityNm>Portland</CityNm>
+            <StateAbbreviationCd>OR</StateAbbreviationCd>
+            <ZIPCd>97239</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientFoundationStatusTxt>NC</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>To support loan guarantee pool for grassroots businesses</GrantOrContributionPurposeTxt>
+          <Amt>17159</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>Climate Justice Alliance via Movement Strategy Center</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientUSAddress>
+            <AddressLine1Txt>436 14th St Suite 425</AddressLine1Txt>
+            <CityNm>Oakland</CityNm>
+            <StateAbbreviationCd>CA</StateAbbreviationCd>
+            <ZIPCd>94612</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientFoundationStatusTxt>PC</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>Environmental Sustainability</GrantOrContributionPurposeTxt>
+          <Amt>500</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>Street Business School</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientUSAddress>
+            <AddressLine1Txt>PO Box 370</AddressLine1Txt>
+            <CityNm>Niwot</CityNm>
+            <StateAbbreviationCd>CO</StateAbbreviationCd>
+            <ZIPCd>80544</ZIPCd>
+          </RecipientUSAddress>
+          <RecipientFoundationStatusTxt>PC</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>To train women to become business trainers for women living in poverty to become entrepreneurs</GrantOrContributionPurposeTxt>
+          <Amt>10000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <GrantOrContributionPdDurYrGrp>
+          <RecipientBusinessName>
+            <BusinessNameLine1Txt>Hopebox</BusinessNameLine1Txt>
+          </RecipientBusinessName>
+          <RecipientForeignAddress>
+            <AddressLine1Txt>House 5c Lane 7 264 Au Co Road</AddressLine1Txt>
+            <CityNm>Ha Noi</CityNm>
+            <CountryCd>VM</CountryCd>
+          </RecipientForeignAddress>
+          <RecipientFoundationStatusTxt>NC</RecipientFoundationStatusTxt>
+          <GrantOrContributionPurposeTxt>Empower victims of domestic violence by giving them training and employment to enable them to financially support themselves and their families</GrantOrContributionPurposeTxt>
+          <Amt>5000</Amt>
+        </GrantOrContributionPdDurYrGrp>
+        <TotalGrantOrContriPdDurYrAmt>35018</TotalGrantOrContriPdDurYrAmt>
+      </SupplementaryInformationGrp>
+      <AnalysisIncomeProducingActyGrp>
+        <IntOnSavAndTempCashInvstGrp>
+          <ExclusionCd>14</ExclusionCd>
+          <ExclusionAmt>4793</ExclusionAmt>
+        </IntOnSavAndTempCashInvstGrp>
+        <DivAndIntFromSecPartVIIGrp>
+          <ExclusionCd>14</ExclusionCd>
+          <ExclusionAmt>42484</ExclusionAmt>
+        </DivAndIntFromSecPartVIIGrp>
+        <OtherInvestmentIncmPartVIIGrp>
+          <ExclusionCd>14</ExclusionCd>
+          <ExclusionAmt>2739</ExclusionAmt>
+        </OtherInvestmentIncmPartVIIGrp>
+        <GainSalesAstOthThanInvntryGrp>
+          <ExclusionCd>18</ExclusionCd>
+          <ExclusionAmt>105724</ExclusionAmt>
+        </GainSalesAstOthThanInvntryGrp>
+        <SubtotalsIncmProducingActyGrp>
+          <ExclusionAmt>155740</ExclusionAmt>
+        </SubtotalsIncmProducingActyGrp>
+        <TotalIncomeProducingActyAmt>155740</TotalIncomeProducingActyAmt>
+      </AnalysisIncomeProducingActyGrp>
+      <TrnsfrTransRlnNonchrtblEOGrp>
+        <TrnsfrOfCashToNonchrtblEOInd>false</TrnsfrOfCashToNonchrtblEOInd>
+        <TrnsfrOtherAssetNonchrtblEOInd>false</TrnsfrOtherAssetNonchrtblEOInd>
+        <SalesOrExchangesOfAssetsInd>false</SalesOrExchangesOfAssetsInd>
+        <PurchaseOfAssetsNonchrtblEOInd>false</PurchaseOfAssetsNonchrtblEOInd>
+        <RentalOfFacilitiesOthAssetsInd>false</RentalOfFacilitiesOthAssetsInd>
+        <ReimbursementArrangementsInd>false</ReimbursementArrangementsInd>
+        <LoansOrLoanGuaranteesInd>false</LoansOrLoanGuaranteesInd>
+        <PerformanceOfServicesEtcInd>false</PerformanceOfServicesEtcInd>
+        <SharingOfFacilitiesEtcInd>false</SharingOfFacilitiesEtcInd>
+        <TransferScheduleDetail>
+          <NoncharitableExemptOrgName>
+            <BusinessNameLine1Txt>NA</BusinessNameLine1Txt>
+          </NoncharitableExemptOrgName>
+        </TransferScheduleDetail>
+        <RelationshipsNonchrtblEOInd>false</RelationshipsNonchrtblEOInd>
+      </TrnsfrTransRlnNonchrtblEOGrp>
+    </IRS990PF>
+    <IRS990ScheduleB documentId="990B" softwareId="20011406" softwareVersionNum="20.0.2.0">
+      <Organization501c3ExemptPFInd>X</Organization501c3ExemptPFInd>
+      <ContributorInformationGrp>
+        <ContributorNum>1</ContributorNum>
+        <ContributorBusinessName>
+          <BusinessNameLine1Txt>Arthur B Schultz</BusinessNameLine1Txt>
+        </ContributorBusinessName>
+        <ContributorUSAddress>
+          <AddressLine1Txt>PO Box 4642</AddressLine1Txt>
+          <CityNm>Incline Village</CityNm>
+          <StateAbbreviationCd>NV</StateAbbreviationCd>
+          <ZIPCd>89452</ZIPCd>
+        </ContributorUSAddress>
+        <TotalContributionsAmt>4410703</TotalContributionsAmt>
+        <NoncashContributionInd>X</NoncashContributionInd>
+      </ContributorInformationGrp>
+      <ContributorInformationGrp>
+        <ContributorNum>2</ContributorNum>
+        <ContributorPersonNm>Chris Bunting</ContributorPersonNm>
+        <ContributorUSAddress>
+          <AddressLine1Txt>3070 Sawmill Rd</AddressLine1Txt>
+          <CityNm>Bozeman</CityNm>
+          <StateAbbreviationCd>MT</StateAbbreviationCd>
+          <ZIPCd>59715</ZIPCd>
+        </ContributorUSAddress>
+        <TotalContributionsAmt>5000</TotalContributionsAmt>
+        <PersonContributionInd>X</PersonContributionInd>
+      </ContributorInformationGrp>
+      <ContributorInformationGrp>
+        <ContributorNum>3</ContributorNum>
+        <ContributorPersonNm>Anne George Bunting</ContributorPersonNm>
+        <ContributorUSAddress>
+          <AddressLine1Txt>217 International Circle</AddressLine1Txt>
+          <CityNm>Hunt Valley</CityNm>
+          <StateAbbreviationCd>MD</StateAbbreviationCd>
+          <ZIPCd>21030</ZIPCd>
+        </ContributorUSAddress>
+        <TotalContributionsAmt>10000</TotalContributionsAmt>
+        <PersonContributionInd>X</PersonContributionInd>
+      </ContributorInformationGrp>
+      <ContributorInformationGrp>
+        <ContributorNum>4</ContributorNum>
+        <ContributorPersonNm>Mary C Bunting</ContributorPersonNm>
+        <ContributorUSAddress>
+          <AddressLine1Txt>217 International Circle</AddressLine1Txt>
+          <CityNm>Hunt Valley</CityNm>
+          <StateAbbreviationCd>MD</StateAbbreviationCd>
+          <ZIPCd>21030</ZIPCd>
+        </ContributorUSAddress>
+        <TotalContributionsAmt>10000</TotalContributionsAmt>
+        <PersonContributionInd>X</PersonContributionInd>
+      </ContributorInformationGrp>
+      <ContributorInformationGrp>
+        <ContributorNum>5</ContributorNum>
+        <ContributorPersonNm>Argidius Foundation</ContributorPersonNm>
+        <ContributorForeignAddress>
+          <AddressLine1Txt>Grafenauweg 10</AddressLine1Txt>
+          <CityNm>Zug</CityNm>
+          <ProvinceOrStateNm>Zoug</ProvinceOrStateNm>
+          <CountryCd>SZ</CountryCd>
+          <ForeignPostalCd>CH6301</ForeignPostalCd>
+        </ContributorForeignAddress>
+        <TotalContributionsAmt>22335</TotalContributionsAmt>
+        <PersonContributionInd>X</PersonContributionInd>
+      </ContributorInformationGrp>
+      <ContributorInformationGrp>
+        <ContributorNum>6</ContributorNum>
+        <ContributorPersonNm>Dominic Orr</ContributorPersonNm>
+        <ContributorUSAddress>
+          <AddressLine1Txt>18933 Star Ridge Court</AddressLine1Txt>
+          <CityNm>Saratoga</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>94065</ZIPCd>
+        </ContributorUSAddress>
+        <TotalContributionsAmt>50000</TotalContributionsAmt>
+        <PersonContributionInd>X</PersonContributionInd>
+      </ContributorInformationGrp>
+      <ContributorInformationGrp>
+        <ContributorNum>7</ContributorNum>
+        <ContributorPersonNm>Bunting Family Foundation</ContributorPersonNm>
+        <ContributorUSAddress>
+          <AddressLine1Txt>217 International Circle</AddressLine1Txt>
+          <CityNm>Hunt Valley</CityNm>
+          <StateAbbreviationCd>MD</StateAbbreviationCd>
+          <ZIPCd>21030</ZIPCd>
+        </ContributorUSAddress>
+        <TotalContributionsAmt>55000</TotalContributionsAmt>
+        <PersonContributionInd>X</PersonContributionInd>
+      </ContributorInformationGrp>
+      <ContributorInformationGrp>
+        <ContributorNum>8</ContributorNum>
+        <ContributorPersonNm>Kwok Foundation</ContributorPersonNm>
+        <ContributorForeignAddress>
+          <AddressLine1Txt>1363 Nanton Ave</AddressLine1Txt>
+          <CityNm>Vancouver</CityNm>
+          <ProvinceOrStateNm>British Columbia</ProvinceOrStateNm>
+          <CountryCd>CA</CountryCd>
+        </ContributorForeignAddress>
+        <TotalContributionsAmt>200000</TotalContributionsAmt>
+        <PersonContributionInd>X</PersonContributionInd>
+      </ContributorInformationGrp>
+      <NonCashPropertyContributionGrp>
+        <ContributorNum>1</ContributorNum>
+        <NoncashPropertyDesc>Securities from Transfer of Charitable Remainder Trust</NoncashPropertyDesc>
+        <FairMarketValueAmt>4410703</FairMarketValueAmt>
+        <ReceivedDt>2020-09-09</ReceivedDt>
+      </NonCashPropertyContributionGrp>
+    </IRS990ScheduleB>
+    <AccountingFeesSchedule documentId="990PF:140" softwareId="20011406" softwareVersionNum="20.0.2.0">
+      <AccountingFeesDetail>
+        <CategoryTxt>Accounting Payroll</CategoryTxt>
+        <Amt>4767</Amt>
+        <DisbursementsCharitablePrpsAmt>4767</DisbursementsCharitablePrpsAmt>
+      </AccountingFeesDetail>
+    </AccountingFeesSchedule>
+    <ActyNotPreviouslyRptExpln documentId="990PF:168" softwareId="20011406" softwareVersionNum="20.0.2.0">
+      <ExplanationTxt>SK2 Fund, Inc. began making small grants to US based organizations in 2020. This is a new activity that SK2 Fund, Inc. will continue to carry out in alignment with its charitable mission. At its inception, SK2 Fund, Inc. had included grant-making to foreign organizations and direct programming as activities on its 1023 application. Total grants to US organizations in 2020 included 30,018. Grant recipients are included on Page 11 Part XV.</ExplanationTxt>
+    </ActyNotPreviouslyRptExpln>
+    <AllOthProgRltdInvestmentsSch documentId="990PF:167" softwareId="20011406" softwareVersionNum="20.0.2.0">
+      <AllOtherProgramRelatedInvstGrp>
+        <Desc>Imara Tech</Desc>
+        <Amt>10000</Amt>
+      </AllOtherProgramRelatedInvstGrp>
+    </AllOthProgRltdInvestmentsSch>
+    <GeneralExplanationAttachment documentId="990PF:156" softwareId="20011406" softwareVersionNum="20.0.2.0">
+      <GeneralExplanationGrp>
+        <FormAndLineReferenceDesc>Expenditure Responsibility Statement Part VII-B Line 5C Beneficial Returns - grant purpose to suppor</FormAndLineReferenceDesc>
+        <MediumExplanationTxt>Expenditure Responsibility Statement Part VIIB Line 5C Beneficial Returns grant purpose to support loan guarantee pool for grassroots business pregrant inquiry 11/2019. Grant Amount 17159 Date of Grant 12/11/20 Amount Expended 17159 Final Report No funds diverted Hopebox grant purposeEmpower victims of domestic violence by giving them training and employment to enable them to financially support themselves and their families pregrant inquiry 11/2020. Grant Amount 5000 Date of Grant 12/17/20 Final report pending. No funds diverted. Expenditure Responsibility Statement Part VIIB Line 5C TEMA Nicaragua Date of PRI 6/4/20 Purpose support the production of wheelchairs for those in need in local region PRI Amount 15000 Pregrant inquiry 2020 no funds diverted Imara Tech Date of PRI 5/15/20 Purpose Support company with RD to manufacture and market efficient agriprocessing machinery in Tanzania saving smallholder farmers time and cost. Pregrant inquiry 2020 annual report 2021 no funds diverted. PRI Amount 10000 Whole Forest Date of PRI 6/5/20 Purpose Support sustainable forestry company with expansion into hardwood business line Reduce poverty conserve rainforest. PRI Amount 25000 Pregrant inquiry 2020 Annual Report 2021 No funds diverted. Part VIIA Line 2 SK2 Fund Inc. began making grants and loans to organizations. SK2s mission is to accelerate transition to a more equitable and sustainable world. By making grants and loans to organizations focused on reducing inequality and/or supporting environmental sustainability the foundation increases its ability to carry out its exempt purpose. The foundation maintains written contracts with grantees and recipients of PRI loans. In cases where grant amounts are very small and domestic the foundation will rely on a donor receipt letter. The foundation completes expenditure responsibility for disbursements to forprofits. Form 1023 from 2010) indicated charitable disbursements to foreign organizations but not domestic.</MediumExplanationTxt>
+      </GeneralExplanationGrp>
+    </GeneralExplanationAttachment>
+    <InvestmentsCorpBondsSchedule documentId="990PF:151" softwareId="20011406" softwareVersionNum="20.0.2.0">
+      <InvestmentsCorporateBondsGrp>
+        <BondNm>Bonds</BondNm>
+        <EOYBookValueAmt>792099</EOYBookValueAmt>
+        <EOYFMVAmt>790793</EOYFMVAmt>
+      </InvestmentsCorporateBondsGrp>
+    </InvestmentsCorpBondsSchedule>
+    <InvestmentsCorpStockSchedule documentId="990PF:150" softwareId="20011406" softwareVersionNum="20.0.2.0">
+      <InvestmentsCorporateStockGrp>
+        <StockNm>Stock</StockNm>
+        <EOYBookValueAmt>4684912</EOYBookValueAmt>
+        <EOYFMVAmt>5404482</EOYFMVAmt>
+      </InvestmentsCorporateStockGrp>
+    </InvestmentsCorpStockSchedule>
+    <InvestmentsOtherSchedule2 documentId="990PF:159" softwareId="20011406" softwareVersionNum="20.0.2.0">
+      <InvestmentsOtherGrp>
+        <CategoryOrItemTxt>Kachuwa Equity Fund</CategoryOrItemTxt>
+        <ListedAtCostOrFMVCd>AT COST</ListedAtCostOrFMVCd>
+        <BookValueAmt>75000</BookValueAmt>
+        <EOYFMVAmt>75000</EOYFMVAmt>
+      </InvestmentsOtherGrp>
+      <InvestmentsOtherGrp>
+        <CategoryOrItemTxt>Sarona Emerging Markets Fund</CategoryOrItemTxt>
+        <ListedAtCostOrFMVCd>AT COST</ListedAtCostOrFMVCd>
+        <BookValueAmt>455977</BookValueAmt>
+        <EOYFMVAmt>455977</EOYFMVAmt>
+      </InvestmentsOtherGrp>
+      <InvestmentsOtherGrp>
+        <CategoryOrItemTxt>NDN Fund Covid Relief</CategoryOrItemTxt>
+        <ListedAtCostOrFMVCd>AT COST</ListedAtCostOrFMVCd>
+        <BookValueAmt>50000</BookValueAmt>
+        <EOYFMVAmt>50000</EOYFMVAmt>
+      </InvestmentsOtherGrp>
+      <InvestmentsOtherGrp>
+        <CategoryOrItemTxt>Loan to Swift River Farm</CategoryOrItemTxt>
+        <ListedAtCostOrFMVCd>AT COST</ListedAtCostOrFMVCd>
+        <BookValueAmt>44593</BookValueAmt>
+        <EOYFMVAmt>44593</EOYFMVAmt>
+      </InvestmentsOtherGrp>
+      <InvestmentsOtherGrp>
+        <CategoryOrItemTxt>Triple Net Investment</CategoryOrItemTxt>
+        <ListedAtCostOrFMVCd>AT COST</ListedAtCostOrFMVCd>
+        <BookValueAmt>1000000</BookValueAmt>
+        <EOYFMVAmt>1000000</EOYFMVAmt>
+      </InvestmentsOtherGrp>
+      <InvestmentsOtherGrp>
+        <CategoryOrItemTxt>CNote Flagship Fund</CategoryOrItemTxt>
+        <ListedAtCostOrFMVCd>AT COST</ListedAtCostOrFMVCd>
+        <BookValueAmt>103897</BookValueAmt>
+        <EOYFMVAmt>103897</EOYFMVAmt>
+      </InvestmentsOtherGrp>
+    </InvestmentsOtherSchedule2>
+    <OtherAssetsSchedule documentId="990PF:145" softwareId="20011406" softwareVersionNum="20.0.2.0">
+      <OtherAssetsScheduleGrp>
+        <Desc>Undeposited Funds</Desc>
+        <BOYBookValueAmt>48500</BOYBookValueAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>Smiling Mushroom</Desc>
+        <BOYBookValueAmt>6605</BOYBookValueAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>Eco Filtro</Desc>
+        <BOYBookValueAmt>43584</BOYBookValueAmt>
+        <EOYBookValueAmt>38622</EOYBookValueAmt>
+        <EOYFMVAmt>38622</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>ATEC</Desc>
+        <BOYBookValueAmt>30000</BOYBookValueAmt>
+        <EOYBookValueAmt>17367</EOYBookValueAmt>
+        <EOYFMVAmt>17367</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>Imara Tech</Desc>
+        <EOYBookValueAmt>5127</EOYBookValueAmt>
+        <EOYFMVAmt>5127</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>TEMA</Desc>
+        <EOYBookValueAmt>15000</EOYBookValueAmt>
+        <EOYFMVAmt>15000</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>Whole Forest</Desc>
+        <EOYBookValueAmt>21996</EOYBookValueAmt>
+        <EOYFMVAmt>21996</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+      <OtherAssetsScheduleGrp>
+        <Desc>Accrued interest</Desc>
+        <EOYBookValueAmt>377</EOYBookValueAmt>
+        <EOYFMVAmt>377</EOYFMVAmt>
+      </OtherAssetsScheduleGrp>
+    </OtherAssetsSchedule>
+    <OtherExpensesSchedule documentId="990PF:143" softwareId="20011406" softwareVersionNum="20.0.2.0">
+      <OtherExpensesScheduleGrp>
+        <Desc>Office / Computer Supplies</Desc>
+        <RevenueAndExpensesPerBooksAmt>4908</RevenueAndExpensesPerBooksAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>Postage</Desc>
+        <RevenueAndExpensesPerBooksAmt>111</RevenueAndExpensesPerBooksAmt>
+        <DisbursementsCharitablePrpsAmt>111</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>Meals and Entertainment</Desc>
+        <RevenueAndExpensesPerBooksAmt>1142</RevenueAndExpensesPerBooksAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>Professional Development</Desc>
+        <RevenueAndExpensesPerBooksAmt>593</RevenueAndExpensesPerBooksAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>Direct Program Operations</Desc>
+        <RevenueAndExpensesPerBooksAmt>467840</RevenueAndExpensesPerBooksAmt>
+        <DisbursementsCharitablePrpsAmt>467840</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>Bank Fees</Desc>
+        <RevenueAndExpensesPerBooksAmt>744</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>193</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>193</AdjustedNetIncomeAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>Insurance - Workers Comp</Desc>
+        <RevenueAndExpensesPerBooksAmt>560</RevenueAndExpensesPerBooksAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>Promotional Materials</Desc>
+        <RevenueAndExpensesPerBooksAmt>1667</RevenueAndExpensesPerBooksAmt>
+        <DisbursementsCharitablePrpsAmt>1667</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>Online Services</Desc>
+        <RevenueAndExpensesPerBooksAmt>1466</RevenueAndExpensesPerBooksAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>Office Expense Internet</Desc>
+        <RevenueAndExpensesPerBooksAmt>3173</RevenueAndExpensesPerBooksAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>Website</Desc>
+        <RevenueAndExpensesPerBooksAmt>6217</RevenueAndExpensesPerBooksAmt>
+        <DisbursementsCharitablePrpsAmt>6217</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>Dues and Subscriptions</Desc>
+        <RevenueAndExpensesPerBooksAmt>3764</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>200</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>200</AdjustedNetIncomeAmt>
+        <DisbursementsCharitablePrpsAmt>3564</DisbursementsCharitablePrpsAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>Grassroots PRI Investments Bank Fees</Desc>
+        <RevenueAndExpensesPerBooksAmt>76</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>76</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>76</AdjustedNetIncomeAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>Grassroots PRI foreign taxes</Desc>
+        <RevenueAndExpensesPerBooksAmt>51</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>51</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>51</AdjustedNetIncomeAmt>
+      </OtherExpensesScheduleGrp>
+      <OtherExpensesScheduleGrp>
+        <Desc>Partnership Fees and Expenses</Desc>
+        <RevenueAndExpensesPerBooksAmt>38975</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>38975</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>38975</AdjustedNetIncomeAmt>
+      </OtherExpensesScheduleGrp>
+    </OtherExpensesSchedule>
+    <OtherIncomeSchedule2 documentId="990PF:138" softwareId="20011406" softwareVersionNum="20.0.2.0">
+      <OtherIncomeDetail>
+        <Desc>Grassroots PRI Interest Income</Desc>
+        <RevenueAndExpensesPerBooksAmt>2739</RevenueAndExpensesPerBooksAmt>
+        <NetInvestmentIncomeAmt>2739</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>2739</AdjustedNetIncomeAmt>
+      </OtherIncomeDetail>
+    </OtherIncomeSchedule2>
+    <OtherIncreasesSchedule documentId="990PF:161" softwareId="20011406" softwareVersionNum="20.0.2.0">
+      <OtherIncreasesDetail>
+        <Desc>Federal Tax Refund</Desc>
+        <Amt>4610</Amt>
+      </OtherIncreasesDetail>
+      <OtherIncreasesDetail>
+        <Desc>Rounding</Desc>
+        <Amt>3</Amt>
+      </OtherIncreasesDetail>
+    </OtherIncreasesSchedule>
+    <OtherProfessionalFeesSchedule documentId="990PF:141" softwareId="20011406" softwareVersionNum="20.0.2.0">
+      <OtherProfessionalFeesDetail>
+        <CategoryTxt>3CI Investment Advisory Fees</CategoryTxt>
+        <Amt>7733</Amt>
+        <NetInvestmentIncomeAmt>7733</NetInvestmentIncomeAmt>
+        <AdjustedNetIncomeAmt>7733</AdjustedNetIncomeAmt>
+      </OtherProfessionalFeesDetail>
+    </OtherProfessionalFeesSchedule>
+    <SubstantialContributorsSch documentId="990PF:152" softwareId="20011406" softwareVersionNum="20.0.2.0">
+      <SubstantialContributorDetail>
+        <PersonNm>Arthur B Schultz</PersonNm>
+        <USAddress>
+          <AddressLine1Txt>PO Box 4642</AddressLine1Txt>
+          <CityNm>Incline Village</CityNm>
+          <StateAbbreviationCd>NV</StateAbbreviationCd>
+          <ZIPCd>89452</ZIPCd>
+        </USAddress>
+      </SubstantialContributorDetail>
+      <SubstantialContributorDetail>
+        <PersonNm>Kavli Trust</PersonNm>
+        <ForeignAddress>
+          <AddressLine1Txt>Postboks 7360</AddressLine1Txt>
+          <CityNm>Bergen</CityNm>
+          <CountryCd>NO</CountryCd>
+        </ForeignAddress>
+      </SubstantialContributorDetail>
+      <SubstantialContributorDetail>
+        <PersonNm>Peter Kwok</PersonNm>
+        <ForeignAddress>
+          <AddressLine1Txt>1363 Nanton Ave</AddressLine1Txt>
+          <CityNm>Vancouver</CityNm>
+          <ProvinceOrStateNm>BC</ProvinceOrStateNm>
+          <CountryCd>CA</CountryCd>
+        </ForeignAddress>
+      </SubstantialContributorDetail>
+      <SubstantialContributorDetail>
+        <PersonNm>Chris Bunting</PersonNm>
+        <USAddress>
+          <AddressLine1Txt>3070 Sawmill Rd</AddressLine1Txt>
+          <CityNm>Bozeman</CityNm>
+          <StateAbbreviationCd>MT</StateAbbreviationCd>
+          <ZIPCd>59715</ZIPCd>
+        </USAddress>
+      </SubstantialContributorDetail>
+      <SubstantialContributorDetail>
+        <PersonNm>Anne George Bunting</PersonNm>
+        <USAddress>
+          <AddressLine1Txt>217 International Circle</AddressLine1Txt>
+          <CityNm>Hunt Valley</CityNm>
+          <StateAbbreviationCd>MD</StateAbbreviationCd>
+          <ZIPCd>21030</ZIPCd>
+        </USAddress>
+      </SubstantialContributorDetail>
+      <SubstantialContributorDetail>
+        <PersonNm>Teresa Orr</PersonNm>
+        <USAddress>
+          <AddressLine1Txt>396 Saint Martin Dr</AddressLine1Txt>
+          <CityNm>Redwood City</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>94065</ZIPCd>
+        </USAddress>
+      </SubstantialContributorDetail>
+      <SubstantialContributorDetail>
+        <PersonNm>Mary C Bunting</PersonNm>
+        <USAddress>
+          <AddressLine1Txt>217 International Circle</AddressLine1Txt>
+          <CityNm>Hunt Valley</CityNm>
+          <StateAbbreviationCd>MD</StateAbbreviationCd>
+          <ZIPCd>21030</ZIPCd>
+        </USAddress>
+      </SubstantialContributorDetail>
+      <SubstantialContributorDetail>
+        <PersonNm>Dominic Orr</PersonNm>
+        <USAddress>
+          <AddressLine1Txt>18933 Star Ridge Court</AddressLine1Txt>
+          <CityNm>Saratoga</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>95070</ZIPCd>
+        </USAddress>
+      </SubstantialContributorDetail>
+      <SubstantialContributorDetail>
+        <PersonNm>3rd Creek Foundation</PersonNm>
+        <USAddress>
+          <AddressLine1Txt>PO Box 5406</AddressLine1Txt>
+          <CityNm>Incline Village</CityNm>
+          <StateAbbreviationCd>NV</StateAbbreviationCd>
+          <ZIPCd>89450</ZIPCd>
+        </USAddress>
+      </SubstantialContributorDetail>
+      <SubstantialContributorDetail>
+        <PersonNm>Bunting Family Foundation</PersonNm>
+        <USAddress>
+          <AddressLine1Txt>217 International Circle</AddressLine1Txt>
+          <CityNm>Hunt Valley</CityNm>
+          <StateAbbreviationCd>MD</StateAbbreviationCd>
+          <ZIPCd>21030</ZIPCd>
+        </USAddress>
+      </SubstantialContributorDetail>
+      <SubstantialContributorDetail>
+        <PersonNm>Peco Foundation</PersonNm>
+        <USAddress>
+          <AddressLine1Txt>PO Box 6438</AddressLine1Txt>
+          <CityNm>Ketchum</CityNm>
+          <StateAbbreviationCd>ID</StateAbbreviationCd>
+          <ZIPCd>83340</ZIPCd>
+        </USAddress>
+      </SubstantialContributorDetail>
+      <SubstantialContributorDetail>
+        <PersonNm>Don and Marcia Liebich</PersonNm>
+        <USAddress>
+          <AddressLine1Txt>196 Nex Perce Circle</AddressLine1Txt>
+          <CityNm>Hailey</CityNm>
+          <StateAbbreviationCd>ID</StateAbbreviationCd>
+          <ZIPCd>83333</ZIPCd>
+        </USAddress>
+      </SubstantialContributorDetail>
+    </SubstantialContributorsSch>
+    <TaxesSchedule documentId="990PF:142" softwareId="20011406" softwareVersionNum="20.0.2.0">
+      <TaxesDetail>
+        <CategoryTxt>Payroll Taxes</CategoryTxt>
+        <Amt>16524</Amt>
+      </TaxesDetail>
+      <TaxesDetail>
+        <CategoryTxt>Name Change</CategoryTxt>
+        <Amt>31</Amt>
+      </TaxesDetail>
+    </TaxesSchedule>
+  </ReturnData>
+</Return>
