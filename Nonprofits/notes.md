@@ -112,6 +112,7 @@
 
 ## Schedule C - Political Campaign and Lobbying Activities
 
+### Part I-A - Complete if the organization is exempt under section 501(c) or is a section 527 organization
 
 ### Part IV - Supplemental Information
 * Could be used to determine which lobbying group(s) and org might be part of (see [2018 National Jewish Health filing](https://apps.irs.gov/pub/epostcard/cor/742044647_201906_990_2021012117618272.pdf)).
