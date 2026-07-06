@@ -9,6 +9,9 @@ Extracted into SQLite: organization header (EIN, name, revenue, expenses,
 mission), grants paid (Schedule I), officers/directors/key employees, and
 lobbying expenditures (Schedule C).
 
+See irs990_schema_notes.md for known schema quirks and open questions
+encountered while mapping fields across tax years.
+
 Usage:
     from extract.irs990 import parse_990_file, ingest_990_directory
     ingest_990_directory("data/irs990_xml/")        # all *.xml in a folder
