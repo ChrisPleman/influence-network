@@ -148,6 +148,20 @@ CREATE TABLE IF NOT EXISTS org_people (
 CREATE INDEX IF NOT EXISTS idx_people_ein ON org_people(ein);
 CREATE INDEX IF NOT EXISTS idx_people_name ON org_people(person_name);
 
+CREATE TABLE IF NOT EXISTS org_contractors (
+    ein        TEXT,
+    contractor_name TEXT,
+    address      TEXT,
+    state      TEXT,
+    city      TEXT,
+    zip_code      TEXT,
+    compensation REAL,
+    tax_year   INTEGER
+    services_description      TEXT,
+);
+CREATE INDEX IF NOT EXISTS idx_contractor_ein ON org_contractors(ein);
+CREATE INDEX IF NOT EXISTS idx_contractor_name ON org_contractors(contractor_name);
+
 -- Schedule C: lobbying expenditures. One row per filing; not every org files
 -- Schedule C, and which Part (II-A, II-B, III) is populated depends on the
 -- filer's exemption type (501(h)-electing 501(c)(3), non-electing 501(c)(3),
