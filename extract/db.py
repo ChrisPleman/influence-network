@@ -171,6 +171,75 @@ CREATE TABLE IF NOT EXISTS org_lobbying (
     raw_json                          TEXT
 );
 CREATE INDEX IF NOT EXISTS idx_lobbying_ein ON org_lobbying(ein);
+
+-- Schedule R: related organization and transactions between them. Several rows
+-- per filing; not every org files a Schedule R, and which Part (I-VII) is populated
+-- depends on the type of organization the filer is related to, the types of
+-- transactions between them, and any supplemental information that is relevant
+-- to provide to the IRS.
+CREATE TABLE IF NOT EXISTS related_org (
+    filer_ein                    TEXT NOT NULL REFERENCES orgs(ein),
+    tax_year                     INTEGER NOT NULL,
+    ein                          TEXT NOT NULL,
+    name                         TEXT NOT NULL,
+    entity_type                  TEXT NOT NULL,
+    primary_activities           TEXT NOT NULL,
+    direct_controlling_entity    TEXT NULL,
+    address                      TEXT NOT NULL,
+    state_code                   TEXT NOT NULL,
+    city                         TEXT NOT NULL,
+    zip_code                     TEXT NOT NULL,
+    PRIMARY KEY (filer_ein, tax_year, ein)
+);
+CREATE INDEX IF NOT EXISTS idx_related_org_filer_ein ON related_org(filer_ein);
+CREATE INDEX IF NOT EXISTS idx_related_org_ein ON related_org(ein);
+CREATE INDEX IF NOT EXISTS idx_related_org_name ON related_org(name);
+CREATE INDEX IF NOT EXISTS idx_related_entity_type ON related_org(entity_type);
+
+CREATE TABLE IF NOT EXISTS transaction_type (
+    type_code TEXT PRIMARY KEY NOT NULL,
+    type_desc TEXT NOT NULL
+);
+CREATE INDEX IF NOT EXISTS ids_transaction_type_code ON transaction_type(type_code);
+
+INSERT INTO transaction_type (type_code, type_desc) 
+VALUES 
+    ('A', 'Receipt of (i) interest, (ii) annuities, (iii) royalties, or (iv) rent from a controlled entity.'),
+    ('B', 'Gift, grant, or capital contribution to related organization(s).'),
+    ('C', 'Gift, grant, or capital contribution from related organization(s).'),
+    ('D', 'Loans or loan guarantees to or for related organization(s).'),
+    ('E', 'Loans or loan guarantees by related organization(s.'),
+    ('F', 'Dividends from related organization(s).'),
+    ('G', 'Sale of assets to related organization(s)'),
+    ('H', 'Purchase of assets from related organization(s).'),
+    ('I', 'Exchange of assets with related organization(s).'),
+    ('J', 'Lease of facilities, equipment, or other assets to related organization(s).'),
+    ('K', 'Lease of facilities, equipment, or other assets from related organization(s).'),
+    ('L', 'Performance of services or membership or fundraising solicitations for related organization(s.'),
+    ('M', 'Performance of services or membership or fundraising solicitations by related organization(s).'),
+    ('N', 'Sharing of facilities, equipment, mailing lists, or other assets with related organization(s).'),
+    ('O', 'Sharing of paid employees with related organization(s).'),
+    ('P', 'Reimbursement paid to related organization(s) for expenses.'),
+    ('Q', 'Reimbursement paid by related organization(s) for expenses.'),
+    ('R', 'Other transfer of cash or property to related organization(s).'),
+    ('S', 'Other transfer of cash or property from related organization(s).');
+
+CREATE TABLE IF NOT EXISTS related_org_transaction (
+    filer_ein                    TEXT NOT NULL REFERENCES orgs(ein),
+    tax_year                     INTEGER NOT NULL,
+    name                         TEXT NOT NULL,
+    type                         TEXT NOT NULL REFERENCES transaction_type(type_code),
+    primary_activities           TEXT NOT NULL,
+    direct_controlling_entity    TEXT NULL,
+    address                      TEXT NOT NULL,
+    state_code                   TEXT NOT NULL,
+    city                         TEXT NOT NULL,
+    zip_code                     TEXT NOT NULL,
+    PRIMARY KEY (filer_ein, tax_year, ein)
+);
+CREATE INDEX IF NOT EXISTS idx_related_org_transaction_filer_ein ON related_org_transaction(filer_ein);
+CREATE INDEX IF NOT EXISTS idx_related_org_ein ON related_org(ein);
+CREATE INDEX IF NOT EXISTS idx_related_org_name ON related_org(name);
 """
 
 
