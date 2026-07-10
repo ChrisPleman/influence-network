@@ -99,6 +99,7 @@ def parse_990_file(path: str | Path) -> dict[str, Any]:
     }
     grants: list[dict[str, Any]] = []
     people: list[dict[str, Any]] = []
+    contractors: list[dict[str, Any]] = []
 
     if return_data is not None:
         form = _child(return_data, "IRS990")
@@ -115,6 +116,7 @@ def parse_990_file(path: str | Path) -> dict[str, Any]:
                 or _text(form, "MissionStatement")
             )
             people.extend(_parse_officers(form, org["ein"], org["tax_year"]))
+            contractors.extend(_parse_contractors(form, org["ein"], org["tax_year"]))
 
         grants.extend(_parse_grants(return_data, org["ein"], org["tax_year"]))
         lobbying = _parse_schedule_c(return_data, org["ein"], org["tax_year"])
@@ -137,7 +139,7 @@ def parse_990_file(path: str | Path) -> dict[str, Any]:
         related_orgs: None
         related_org_transactions: None
 
-    return {"org": org, "grants": grants, "people": people, "lobbying": lobbying, "related_orgs": related_orgs, "related_org_transactions": related_org_transactions}
+    return {"org": org, "grants": grants, "people": people, "lobbying": lobbying, "contractors": contractors, "related_orgs": related_orgs, "related_org_transactions": related_org_transactions}
 
 
 def _parse_officers(form: etree._Element, ein: str | None,
@@ -188,6 +190,41 @@ def _parse_grants(return_data: etree._Element, ein: str | None,
             "amount": amount,
             "tax_year": tax_year,
         })
+    return rows
+
+
+def _parse_contractors(form: etree._Element, ein: str | None,
+                    tax_year: int | None) -> list[dict[str, Any]]:
+    rows: list[dict[str, Any]] = []
+    contractor_groups = _findall(form, "ContractorCompensationGrp"):
+    if contractor_groups is None:
+        return rows
+    # Accounting for potential variation in element tags
+    for grp_tag in contractor_groups
+        contractor = (
+            _text(grp, "ContractorName", "PersonNm")
+            or _text(grp, "ContractorName", "BusinessNameLine1Txt")
+        )
+        address = _text(grp, "ContractorAddress", "AddressLine1Txt")
+        state_code = _text(grp, "ContractorAddress", "StateAbbreviationCd") or _text(grp, "ContractorAddress", "StateCd")
+        city = _text(grp, "ContractorAddress", "CityNm")
+        zip_code = _text(grp, "ContractorAddress", "ZIPCd")
+        comp = _float(
+            _text(grp, "CompensationAmt")
+        )
+        services_desc = _text(grp, "ServicesDesc")
+        if contractor:
+            rows.append({
+                "ein": ein,
+                "contractor_name": person,
+                "address": address,
+                "state": state_code,
+                "city": city,
+                "zip_code": zip_code,
+                "compensation": comp,
+                "tax_year": tax_year,
+                "services_description": services_desc
+            })
     return rows
 
 
@@ -429,6 +466,7 @@ def ingest_990_file(path: str | Path) -> None:
         upsert(conn, "orgs", org)
         insert_many(conn, "org_grants", parsed["grants"])
         insert_many(conn, "org_people", parsed["people"])
+        insert_many(conn, "org_contractors", parsed["contractors"])
         if parsed["lobbying"]:
             upsert(conn, "org_lobbying", parsed["lobbying"])
         if parsed["related_orgs"]:
@@ -455,6 +493,7 @@ def ingest_990_directory(directory: str | Path, pattern: str = "*.xml") -> int:
             upsert(conn, "orgs", org)
             insert_many(conn, "org_grants", parsed["grants"])
             insert_many(conn, "org_people", parsed["people"])
+            insert_many(conn, "org_contractors", parsed["contractors"])
             if parsed["lobbying"]:
                 upsert(conn, "org_lobbying", parsed["lobbying"])
             if parsed["related_orgs"]:
