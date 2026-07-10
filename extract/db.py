@@ -186,6 +186,26 @@ CREATE TABLE IF NOT EXISTS org_lobbying (
 );
 CREATE INDEX IF NOT EXISTS idx_lobbying_ein ON org_lobbying(ein);
 
+-- Some tax-exempt orgs contribute their internal funds, or transfer their
+-- contributions to Super PACs (Section 527 Org). This information is captured here
+CREATE TABLE IF NOT EXISTS section_527_org (
+    filer_ein                    TEXT NOT NULL REFERENCES orgs(ein),
+    tax_year                     INTEGER NOT NULL,
+    ein                          TEXT NOT NULL
+    name                         TEXT NOT NULL.
+    address                      TEXT NOT NULL,
+    city                         TEXT NOT NULL,
+    state_code                   TEXT NOT NULL,
+    zip_code                     TEXT NOT NULL,
+    paid_internal_funds          REAL NULL,
+    contributions_transferred    REAL NULL,
+    PRIMARY KEY (filer_ein, tax_year, ein)
+    
+);
+CREATE INDEX IF NOT EXISTS idx_section_527_org_filer_ein ON section_527_org(filer_ein);
+CREATE INDEX IF NOT EXISTS idx_section_527_org_ein ON section_527_org(ein);
+CREATE INDEX IF NOT EXISTS idx_section_527_org_name ON section_527_org(name);
+
 -- Schedule R: related organization and transactions between them. Several rows
 -- per filing; not every org files a Schedule R, and which Part (I-VII) is populated
 -- depends on the type of organization the filer is related to, the types of
