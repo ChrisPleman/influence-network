@@ -120,6 +120,7 @@ def parse_990_file(path: str | Path) -> dict[str, Any]:
 
         grants.extend(_parse_grants(return_data, org["ein"], org["tax_year"]))
         lobbying = _parse_schedule_c(return_data, org["ein"], org["tax_year"])
+        related_orgs, related_org_transactions = _parse_schedule_r(return_data, org["ein"], org["tax_year"])
 
         # Political activity signal: an explicit Part IV flag on the core
         # form, OR the presence of reported lobbying expenditures on
@@ -135,8 +136,10 @@ def parse_990_file(path: str | Path) -> dict[str, Any]:
         org["political_activity_flag"] = 1 if (pol_flag or lobbying_spend > 0) else 0
     else:
         lobbying = None
+        related_orgs: None
+        related_org_transactions: None
 
-    return {"org": org, "grants": grants, "people": people, "lobbying": lobbying, "contractors": contractors}
+    return {"org": org, "grants": grants, "people": people, "lobbying": lobbying, "contractors": contractors, "related_orgs": related_orgs, "related_org_transactions": related_org_transactions}
 
 
 def _parse_officers(form: etree._Element, ein: str | None,
@@ -296,6 +299,160 @@ def _parse_schedule_c(return_data: etree._Element, ein: str | None,
 
     return row
 
+def _parse_schedule_r(
+    return_data: etree._Element, ein: str | None,
+    tax_year: int | None
+) -> tuple[list[dict[str, Any]], list[dict[str, Any]]] | None:
+    """Extract related org data (Schedule R) for one return.
+
+    Schedule R has 7 sections depending on the type of
+    organizations the filer is related to:
+      - Part I: Identification of Disregarded Entities.
+      - Part II: Identification of Related Tax-Exempt Organizations.
+      - Part II: Identification of Related Organizations Taxable as a Partnership.
+      - Part IV: Identification of Related Organizations Taxable as a Corporation or Trust.
+      - Part V: (ONLY Q2 PARSED) Transactions With Related Organizations.
+      - Part VI: (NOT PARSED) Unrelated Organizations Taxable as a Partnership.
+      - Part VII: (NOT PARSED) Supplemental information.
+    Returns None if the filer did not attach Schedule R at all.
+    """
+    sched_r = _child(return_data, "IRS990ScheduleR")
+    if sched_r is None:
+        return None
+
+    sched_r_part_i = _findall(sched_r, 'IdDisregardedEntitiesGrp')
+    related_orgs: list[dict[str, Any]] = []
+    if sched_r_part_i is not None:
+        for grp in sched_r_part_i:
+            related_org_ein = _text(grp, "EIN")
+            related_org_name = _text(grp, "DisregardedEntityName", "BusinessNameLine1Txt")
+            related_org_primary_activities = _text(grp, "PrimaryActivitiesTxt")
+            related_org_control_ent = _text(grp, "DirectControllingEntityName",
+                                                          "BusinessNameLine1Txt")
+            # Addres lines
+            related_org_address = _text(grp, "USAddress", "AddressLine1Txt")
+            related_org_state_code = _text(grp, "USAddress", "StateAbbreviationCd")
+            related_org_city = _text(grp, "USAddress", "CityNm")
+            related_org_zip_code = _text(grp, "USAddress", "ZIPCd")
+            related_orgs.append({
+                "filer_ein": ein,
+                "ein": related_org_ein,
+                "name": related_org_name,
+                "entity_type": "Disregarded",
+                "primary_activities": related_org_primary_activities,
+                "direct_controlling_entity": related_org_control_ent if \
+                    related_org_control_ent not in ("N/A", "NA") else None,
+                "address": related_org_address,
+                "state_code": related_org_state_code,
+                "city": related_org_city,
+                "zip_code": related_org_zip_code,
+                "tax_year": tax_year,
+            })
+
+    sched_r_part_ii = _findall(sched_r, 'IdRelatedTaxExemptOrgGrp')
+    if sched_r_part_ii is not None:
+        for grp in sched_r_part_ii:
+            related_org_ein = _text(grp, "EIN")
+            related_org_name = _text(grp, "DisregardedEntityName", "BusinessNameLine1Txt")
+            related_org_entity_type = _text(grp, "ExemptCodeSectionTxt")
+            related_org_primary_activities = _text(grp, "PrimaryActivitiesTxt")
+            related_org_control_ent = _text(grp, "DirectControllingEntityName",
+                                                          "BusinessNameLine1Txt")
+            # Addres lines
+            related_org_address = _text(grp, "USAddress", "AddressLine1Txt")
+            related_org_state_code = _text(grp, "USAddress", "StateAbbreviationCd")
+            related_org_city = _text(grp, "USAddress", "CityNm")
+            related_org_zip_code = _text(grp, "USAddress", "ZIPCd")
+            related_orgs.append({
+                "filer_ein": ein,
+                "ein": related_org_ein,
+                "name": related_org_name,
+                "entity_type": related_org_entity_type,
+                "primary_activities": related_org_primary_activities,
+                "direct_controlling_entity": related_org_control_ent if \
+                    related_org_control_ent not in ("N/A", "NA") else None,
+                "address": related_org_address,
+                "state_code": related_org_state_code,
+                "city": related_org_city,
+                "zip_code": related_org_zip_code,
+                "tax_year": tax_year,
+            })
+
+    sched_r_part_iii = _findall(sched_r, 'IdRelatedOrgTxblPartnershipGrp')
+    if sched_r_part_iii is not None:
+        for grp in sched_r_part_iii:
+            related_org_ein = _text(grp, "EIN")
+            related_org_name = _text(grp, "RelatedOrganizationName", "BusinessNameLine1Txt")
+            related_org_primary_activities = _text(grp, "PrimaryActivitiesTxt")
+            related_org_control_ent = _text(grp, "DirectControllingEntityName",
+                                                          "BusinessNameLine1Txt")
+            # Addres lines
+            related_org_address = _text(grp, "USAddress", "AddressLine1Txt")
+            related_org_state_code = _text(grp, "USAddress", "StateAbbreviationCd")
+            related_org_city = _text(grp, "USAddress", "CityNm")
+            related_org_zip_code = _text(grp, "USAddress", "ZIPCd")
+            related_orgs.append({
+                "filer_ein": ein,
+                "ein": related_org_ein,
+                "name": related_org_name,
+                "entity_type": "Taxable Partnership",
+                "primary_activities": related_org_primary_activities,
+                "direct_controlling_entity": related_org_control_ent if \
+                    related_org_control_ent not in ("N/A", "NA") else None,
+                "address": related_org_address,
+                "state_code": related_org_state_code,
+                "city": related_org_city,
+                "zip_code": related_org_zip_code,
+                "tax_year": tax_year,
+            })
+
+    sched_r_part_iv = _findall(sched_r, 'IdRelatedOrgTxblCorpTrGrp')
+    if sched_r_part_iv is not None:
+        for grp in sched_r_part_iv:
+            related_org_ein = _text(grp, "EIN")
+            related_org_name = _text(grp, "RelatedOrganizationName", "BusinessNameLine1Txt")
+            related_org_entity_type = _text(grp, "EntityTypeTxt")
+            related_org_primary_activities = _text(grp, "PrimaryActivitiesTxt")
+            related_org_control_ent = _text(grp, "DirectControllingEntityName",
+                                                          "BusinessNameLine1Txt")
+            # Addres lines
+            related_org_address = _text(grp, "USAddress", "AddressLine1Txt")
+            related_org_state_code = _text(grp, "USAddress", "StateAbbreviationCd")
+            related_org_city = _text(grp, "USAddress", "CityNm")
+            related_org_zip_code = _text(grp, "USAddress", "ZIPCd")
+            related_orgs.append({
+                "filer_ein": ein,
+                "ein": related_org_ein,
+                "name": related_org_name,
+                "entity_type": related_org_entity_type,
+                "primary_activities": related_org_primary_activities,
+                "direct_controlling_entity": related_org_control_ent if \
+                    related_org_control_ent not in ("N/A", "NA") else None,
+                "address": related_org_address,
+                "state_code": related_org_state_code,
+                "city": related_org_city,
+                "zip_code": related_org_zip_code,
+                "tax_year": tax_year,
+            })
+
+    sched_r_transactions = _findall(sched_r, 'TransactionsRelatedOrgGrp')
+    transactions: list[dict[str, Any]] = []
+    if sched_r_transactions is not None:
+        for grp in sched_r_transactions:
+            related_org_name = _text(grp, "OtherOrganizationName", "BusinessNameLine1Txt")
+            related_org_transaction_type = _text(grp, "TransactionTypeTxt")
+            related_org_transaction_amount = _float(_text(grp, "InvolvedAmt"))
+            related_org_amount_determination_method = _text(grp, "MethodOfAmountDeterminationTxt")
+            transactions.append({
+                "filer_ein": ein,
+                "related_org_name": related_org_name,
+                "type": related_org_transaction_type,
+                "amount": related_org_transaction_amount,
+                "amount_determination_method": related_org_amount_determination_method,
+                "tax_year": tax_year,
+            })
+
+    return related_orgs, transactions
 
 def ingest_990_file(path: str | Path) -> None:
     """Parse and write a single 990 XML file to SQLite."""
@@ -312,6 +469,10 @@ def ingest_990_file(path: str | Path) -> None:
         insert_many(conn, "org_contractors", parsed["contractors"])
         if parsed["lobbying"]:
             upsert(conn, "org_lobbying", parsed["lobbying"])
+        if parsed["related_orgs"]:
+            upsert(conn, "related_org", parsed["related_orgs"])
+        if parsed["related_org_transactions"]:
+            upsert(conn, "related_org_transaction", parsed["related_org_transactions"])
 
 
 def ingest_990_directory(directory: str | Path, pattern: str = "*.xml") -> int:
@@ -335,6 +496,10 @@ def ingest_990_directory(directory: str | Path, pattern: str = "*.xml") -> int:
             insert_many(conn, "org_contractors", parsed["contractors"])
             if parsed["lobbying"]:
                 upsert(conn, "org_lobbying", parsed["lobbying"])
+            if parsed["related_orgs"]:
+                upsert(conn, "related_org", parsed["related_orgs"])
+            if parsed["related_org_transactions"]:
+                upsert(conn, "related_org_transaction", parsed["related_org_transactions"])
             count += 1
             if count % 500 == 0:
                 logger.info("Ingested %d 990 files...", count)
