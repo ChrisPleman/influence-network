@@ -120,7 +120,11 @@ def parse_990_file(path: str | Path) -> dict[str, Any]:
 
         grants.extend(_parse_grants(return_data, org["ein"], org["tax_year"]))
         lobbying = _parse_schedule_c(return_data, org["ein"], org["tax_year"])
-        related_orgs, related_org_transactions = _parse_schedule_r(return_data, org["ein"], org["tax_year"])
+        try:
+            related_orgs, related_org_transactions = _parse_schedule_r(['a'], org["ein"],
+                                                                       org["tax_year"])
+        except TypeError:
+            related_orgs = related_org_transactions = None
 
         # Political activity signal: an explicit Part IV flag on the core
         # form, OR the presence of reported lobbying expenditures on
@@ -134,14 +138,27 @@ def parse_990_file(path: str | Path) -> dict[str, Any]:
                 lobbying.get(key) or 0.0
                 for key in ("total_lobbying_expend_amt", "total_lobbying_expenditures_amt")
             )
+        else:
+            _527_orgs = None
         org["political_activity_flag"] = 1 if (pol_flag or lobbying_spend > 0) else 0
     else:
         lobbying = None
         _527_orgs = None
-        related_orgs: None
-        related_org_transactions: None
+        related_orgs = None
+        related_org_transactions = None
 
-    return {"org": org, "grants": grants, "people": people, "lobbying": lobbying, "section_527_orgs": _527_orgs, "contractors": contractors, "related_orgs": related_orgs, "related_org_transactions": related_org_transactions}
+    filer_data = {
+        "org": org,
+        "grants": grants,
+        "people": people,
+        "lobbying": lobbying,
+        "section_527_orgs": _527_orgs,
+        "contractors": contractors,
+        "related_orgs": related_orgs,
+        "related_org_transactions": related_org_transactions
+    }
+
+    return filer_data
 
 
 def _parse_officers(form: etree._Element, ein: str | None,
@@ -198,27 +215,27 @@ def _parse_grants(return_data: etree._Element, ein: str | None,
 def _parse_contractors(form: etree._Element, ein: str | None,
                     tax_year: int | None) -> list[dict[str, Any]]:
     rows: list[dict[str, Any]] = []
-    contractor_groups = _findall(form, "ContractorCompensationGrp"):
+    contractor_groups = _findall(form, "ContractorCompensationGrp")
     if contractor_groups is None:
         return rows
     # Accounting for potential variation in element tags
-    for grp_tag in contractor_groups
+    for contractor_group in contractor_groups:
         contractor = (
-            _text(grp, "ContractorName", "PersonNm")
-            or _text(grp, "ContractorName", "BusinessNameLine1Txt")
+            _text(contractor_group, "ContractorName", "PersonNm")
+            or _text(contractor_group, "ContractorName", "BusinessNameLine1Txt")
         )
-        address = _text(grp, "ContractorAddress", "AddressLine1Txt")
-        state_code = _text(grp, "ContractorAddress", "StateAbbreviationCd") or _text(grp, "ContractorAddress", "StateCd")
-        city = _text(grp, "ContractorAddress", "CityNm")
-        zip_code = _text(grp, "ContractorAddress", "ZIPCd")
+        address = _text(contractor_group, "ContractorAddress", "AddressLine1Txt")
+        state_code = _text(contractor_group, "ContractorAddress", "StateAbbreviationCd")
+        city = _text(contractor_group, "ContractorAddress", "CityNm")
+        zip_code = _text(contractor_group, "ContractorAddress", "ZIPCd")
         comp = _float(
-            _text(grp, "CompensationAmt")
+            _text(contractor_group, "CompensationAmt")
         )
-        services_desc = _text(grp, "ServicesDesc")
+        services_desc = _text(contractor_group, "ServicesDesc")
         if contractor:
             rows.append({
                 "ein": ein,
-                "contractor_name": person,
+                "contractor_name": contractor,
                 "address": address,
                 "state": state_code,
                 "city": city,
@@ -246,7 +263,8 @@ _SCHEDULE_C_ACTIVITY_FLAGS = (
 
 
 def _parse_schedule_c(return_data: etree._Element, ein: str | None,
-                      tax_year: int | None) -> tuple[dict[str, Any], list[dict[str, Any]] | None] | None:
+                      tax_year: int | None
+                      ) -> tuple[dict[str, Any], list[dict[str, Any]] | None] | None:
     """Extract lobbying-expenditure data (Schedule C) for one return.
 
     Schedule C has three mutually-exclusive lobbying sections depending on
@@ -288,7 +306,9 @@ def _parse_schedule_c(return_data: etree._Element, ein: str | None,
         "direct_contact_legislators_amt": _float(_text(sched_c, "DirectContactLegislatorsAmt")),
         "other_lobbying_activities_amt": _float(_text(sched_c, "OtherActivitiesAmt")),
         # Part III-B (501(c)(4)/(5)/(6))
-        "nondeductible_lobbying_pltcl_amt": _float(_text(sched_c, "NonDeductibleLbbyngPltclTotAmt")),
+        "nondeductible_lobbying_pltcl_amt": _float(
+            _text(sched_c, "NonDeductibleLbbyngPltclTotAmt")
+        ),
         "taxable_amt": _float(_text(sched_c, "TaxableAmt")),
         "raw_json": None,
     }
@@ -298,21 +318,24 @@ def _parse_schedule_c(return_data: etree._Element, ein: str | None,
         if (_text(sched_c, tag) or "").lower() in {"1", "true", "x"}
     ]
     row["lobbying_activity_types"] = activity_types or None
-    
+
     section_527_org_groups = _findall(sched_c, "Section527PoliticalOrgGrp")
     if section_527_org_groups is None:
         return row, None
-    
+
     section_527_orgs: list[dict[str, Any]] = []
     for section_527_org_group in section_527_org_groups:
         _527_ein = _text(section_527_org_group, "EIN")
-        _527_name = _text(section_527_org_group, "OrganizationBusinessName", "BusinessNameLine1Text")
+        _527_name = _text(section_527_org_group,
+                          "OrganizationBusinessName", "BusinessNameLine1Text")
         _527_address = _text(section_527_org_group, "USAddress", "AddressLine1Text")
         _527_city = _text(section_527_org_group, "USAddress", "CityNm")
         _527_state_code = _text(section_527_org_group, "USAddress", "StateAbbreviationCd")
         _527_zip_code = _text(section_527_org_group, "USAddress", "ZIPCd")
         _527_paid_internal_funds = _float(_text(section_527_org_group, "PaidInternalFundsAmt"))
-        _527_contributions_transferred = _float(_text(section_527_org_group, "ContributionsRcvdDlvrAmt"))
+        _527_contributions_transferred = _float(
+            _text(section_527_org_group, "ContributionsRcvdDlvrAmt")
+        )
         section_527_orgs.append(
             {
                 "filer_ein": ein,
@@ -367,6 +390,7 @@ def _parse_schedule_r(
             related_org_zip_code = _text(grp, "USAddress", "ZIPCd")
             related_orgs.append({
                 "filer_ein": ein,
+                "tax_year": tax_year,
                 "ein": related_org_ein,
                 "name": related_org_name,
                 "entity_type": "Disregarded",
@@ -376,8 +400,7 @@ def _parse_schedule_r(
                 "address": related_org_address,
                 "state_code": related_org_state_code,
                 "city": related_org_city,
-                "zip_code": related_org_zip_code,
-                "tax_year": tax_year,
+                "zip_code": related_org_zip_code
             })
 
     sched_r_part_ii = _findall(sched_r, 'IdRelatedTaxExemptOrgGrp')
@@ -396,6 +419,7 @@ def _parse_schedule_r(
             related_org_zip_code = _text(grp, "USAddress", "ZIPCd")
             related_orgs.append({
                 "filer_ein": ein,
+                "tax_year": tax_year,
                 "ein": related_org_ein,
                 "name": related_org_name,
                 "entity_type": related_org_entity_type,
@@ -405,8 +429,7 @@ def _parse_schedule_r(
                 "address": related_org_address,
                 "state_code": related_org_state_code,
                 "city": related_org_city,
-                "zip_code": related_org_zip_code,
-                "tax_year": tax_year,
+                "zip_code": related_org_zip_code
             })
 
     sched_r_part_iii = _findall(sched_r, 'IdRelatedOrgTxblPartnershipGrp')
@@ -424,6 +447,7 @@ def _parse_schedule_r(
             related_org_zip_code = _text(grp, "USAddress", "ZIPCd")
             related_orgs.append({
                 "filer_ein": ein,
+                "tax_year": tax_year,
                 "ein": related_org_ein,
                 "name": related_org_name,
                 "entity_type": "Taxable Partnership",
@@ -433,8 +457,7 @@ def _parse_schedule_r(
                 "address": related_org_address,
                 "state_code": related_org_state_code,
                 "city": related_org_city,
-                "zip_code": related_org_zip_code,
-                "tax_year": tax_year,
+                "zip_code": related_org_zip_code
             })
 
     sched_r_part_iv = _findall(sched_r, 'IdRelatedOrgTxblCorpTrGrp')
@@ -453,6 +476,7 @@ def _parse_schedule_r(
             related_org_zip_code = _text(grp, "USAddress", "ZIPCd")
             related_orgs.append({
                 "filer_ein": ein,
+                "tax_year": tax_year,
                 "ein": related_org_ein,
                 "name": related_org_name,
                 "entity_type": related_org_entity_type,
@@ -462,8 +486,7 @@ def _parse_schedule_r(
                 "address": related_org_address,
                 "state_code": related_org_state_code,
                 "city": related_org_city,
-                "zip_code": related_org_zip_code,
-                "tax_year": tax_year,
+                "zip_code": related_org_zip_code
             })
 
     sched_r_transactions = _findall(sched_r, 'TransactionsRelatedOrgGrp')
@@ -476,11 +499,11 @@ def _parse_schedule_r(
             related_org_amount_determination_method = _text(grp, "MethodOfAmountDeterminationTxt")
             transactions.append({
                 "filer_ein": ein,
+                "tax_year": tax_year,
                 "related_org_name": related_org_name,
                 "type": related_org_transaction_type,
                 "amount": related_org_transaction_amount,
-                "amount_determination_method": related_org_amount_determination_method,
-                "tax_year": tax_year,
+                "amount_determination_method": related_org_amount_determination_method
             })
 
     return related_orgs, transactions
