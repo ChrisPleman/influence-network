@@ -129,6 +129,7 @@ def parse_990_file(path: str | Path) -> dict[str, Any]:
         pol_flag = bool(pol and pol.lower() in {"1", "true", "x"})
         lobbying_spend = 0.0
         if lobbying:
+            lobbying, _527_orgs = lobbying
             lobbying_spend = sum(
                 lobbying.get(key) or 0.0
                 for key in ("total_lobbying_expend_amt", "total_lobbying_expenditures_amt")
@@ -136,10 +137,11 @@ def parse_990_file(path: str | Path) -> dict[str, Any]:
         org["political_activity_flag"] = 1 if (pol_flag or lobbying_spend > 0) else 0
     else:
         lobbying = None
+        _527_orgs = None
         related_orgs: None
         related_org_transactions: None
 
-    return {"org": org, "grants": grants, "people": people, "lobbying": lobbying, "contractors": contractors, "related_orgs": related_orgs, "related_org_transactions": related_org_transactions}
+    return {"org": org, "grants": grants, "people": people, "lobbying": lobbying, "section_527_orgs": _527_orgs, "contractors": contractors, "related_orgs": related_orgs, "related_org_transactions": related_org_transactions}
 
 
 def _parse_officers(form: etree._Element, ein: str | None,
@@ -244,7 +246,7 @@ _SCHEDULE_C_ACTIVITY_FLAGS = (
 
 
 def _parse_schedule_c(return_data: etree._Element, ein: str | None,
-                      tax_year: int | None) -> dict[str, Any] | None:
+                      tax_year: int | None) -> tuple[dict[str, Any], list[dict[str, Any]] | None] | None:
     """Extract lobbying-expenditure data (Schedule C) for one return.
 
     Schedule C has three mutually-exclusive lobbying sections depending on
@@ -296,8 +298,37 @@ def _parse_schedule_c(return_data: etree._Element, ein: str | None,
         if (_text(sched_c, tag) or "").lower() in {"1", "true", "x"}
     ]
     row["lobbying_activity_types"] = activity_types or None
+    
+    section_527_org_groups = _findall(sched_c, "Section527PoliticalOrgGrp")
+    if section_527_org_groups is None:
+        return row, None
+    
+    section_527_orgs: list[dict[str, Any]] = []
+    for section_527_org_group in section_527_org_groups:
+        _527_ein = _text(section_527_org_group, "EIN")
+        _527_name = _text(section_527_org_group, "OrganizationBusinessName", "BusinessNameLine1Text")
+        _527_address = _text(section_527_org_group, "USAddress", "AddressLine1Text")
+        _527_city = _text(section_527_org_group, "USAddress", "CityNm")
+        _527_state_code = _text(section_527_org_group, "USAddress", "StateAbbreviationCd")
+        _527_zip_code = _text(section_527_org_group, "USAddress", "ZIPCd")
+        _527_paid_internal_funds = _float(_text(section_527_org_group, "PaidInternalFundsAmt"))
+        _527_contributions_transferred = _float(_text(section_527_org_group, "ContributionsRcvdDlvrAmt"))
+        section_527_orgs.append(
+            {
+                "filer_ein": ein,
+                "tax_year": tax_year,
+                "ein": _527_ein,
+                "name": _527_name,
+                "address": _527_address,
+                "city": _527_city,
+                "state_code": _527_state_code,
+                "zip_code": _527_zip_code,
+                "paid_internal_funds": _527_paid_internal_funds,
+                "contributions_transferred": _527_contributions_transferred
+            }
+        )
 
-    return row
+    return row, section_527_orgs
 
 def _parse_schedule_r(
     return_data: etree._Element, ein: str | None,
@@ -469,6 +500,7 @@ def ingest_990_file(path: str | Path) -> None:
         insert_many(conn, "org_contractors", parsed["contractors"])
         if parsed["lobbying"]:
             upsert(conn, "org_lobbying", parsed["lobbying"])
+            upsert(conn, "section_527_org", parsed["section_527_org"])
         if parsed["related_orgs"]:
             upsert(conn, "related_org", parsed["related_orgs"])
         if parsed["related_org_transactions"]:
@@ -496,6 +528,7 @@ def ingest_990_directory(directory: str | Path, pattern: str = "*.xml") -> int:
             insert_many(conn, "org_contractors", parsed["contractors"])
             if parsed["lobbying"]:
                 upsert(conn, "org_lobbying", parsed["lobbying"])
+                upsert(conn, "section_527_org", parsed["section_527_orgs"])
             if parsed["related_orgs"]:
                 upsert(conn, "related_org", parsed["related_orgs"])
             if parsed["related_org_transactions"]:
