@@ -57,6 +57,13 @@ def _float(value: str | None) -> float | None:
     except ValueError:
         return None
 
+def _bool_as_float(value: str | None) -> float | None:
+    if value is None:
+        return None
+    if value.lower() in ('1', 'x', 'true'):
+        return 1
+    return 0
+
 
 def _findall(node: etree._Element, tag: str) -> list[etree._Element]:
     return node.xpath(f"./*[local-name()='{tag}']")
@@ -102,7 +109,7 @@ def parse_990_file(path: str | Path) -> dict[str, Any]:
     contractors: list[dict[str, Any]] = []
 
     if return_data is not None:
-        form = _child(return_data, "IRS990")
+        form = _child(return_data, "IRS990") or _child(return_data, "IRS990EZ")
         if form is not None:
             org["total_revenue"] = _float(
                 _text(form, "CYTotalRevenueAmt") or _text(form, "TotalRevenueCurrentYear")
@@ -121,7 +128,7 @@ def parse_990_file(path: str | Path) -> dict[str, Any]:
         grants.extend(_parse_grants(return_data, org["ein"], org["tax_year"]))
         lobbying = _parse_schedule_c(return_data, org["ein"], org["tax_year"])
         try:
-            related_orgs, related_org_transactions = _parse_schedule_r(['a'], org["ein"],
+            related_orgs, related_org_transactions = _parse_schedule_r(return_data, org["ein"],
                                                                        org["tax_year"])
         except TypeError:
             related_orgs = related_org_transactions = None
@@ -165,7 +172,12 @@ def _parse_officers(form: etree._Element, ein: str | None,
                     tax_year: int | None) -> list[dict[str, Any]]:
     rows: list[dict[str, Any]] = []
     # Officers/Directors/Trustees/Key Employees group element name varies.
-    for grp_tag in ("Form990PartVIISectionAGrp", "OfficerDirectorTrusteeKeyEmpl"):
+    grp_tags = (
+        "Form990PartVIISectionAGrp",
+        "OfficerDirectorTrusteeKeyEmpl",
+        "OfficerDirectorTrusteeEmplGrp"
+    )
+    for grp_tag in grp_tags:
         for grp in _findall(form, grp_tag):
             person = (
                 _text(grp, "PersonNm")
@@ -173,17 +185,54 @@ def _parse_officers(form: etree._Element, ein: str | None,
                 or _text(grp, "NamePerson")
             )
             title = _text(grp, "TitleTxt") or _text(grp, "Title")
+            # Position
+            is_indiv_trustee_or_director = _bool_as_float(
+                _text(grp, "IndividualTrusteeOrDirectorInd")
+            )
+            is_institutional_trustee = _bool_as_float(
+                _text(grp, "InstitutionalTrusteeInd")
+            )
+            is_officer = _bool_as_float(_text(grp, "OfficerInd"))
+            is_key_employee = _bool_as_float(_text(grp, "KeyEmployeeInd"))
+            is_highest_compensated_employee = _bool_as_float(
+                _text(grp, "HighestCompensatedEmployeeInd")
+            )
+            is_former_employee = _bool_as_float(
+                _text(grp, "FormerEmployeeId")
+            )
+            # Weekly hours
+            avg_weekly_hours_org = _float(
+                _text(grp, "AverageHoursPerWeekRt")
+                or _text(grp, "AverageHrsPerWkDevotedToPosRt")
+            )
+            avg_weekly_hours_related_org = _float(_text(grp, "AverageHoursPerWeekRltdOrgRt"))
+            # Compensation
             comp = _float(
                 _text(grp, "ReportableCompFromOrgAmt")
                 or _text(grp, "CompensationAmt")
             )
+            comp_related_org = _float(_text(grp, "ReportableCompFromRltdOrgAmt"))
+            comp_other = _float(
+                _text(grp, "OtherCompensationAmt")
+                or _text(grp, "ExpenseAccountOtherAllwncAmt")
+            )
             if person:
                 rows.append({
                     "ein": ein,
+                    "tax_year": tax_year,
                     "person_name": person,
                     "title": title,
-                    "compensation": comp,
-                    "tax_year": tax_year,
+                    "is_indiv_trustee_or_director": is_indiv_trustee_or_director,
+                    "is_institutional_trustee": is_institutional_trustee,
+                    "is_officer": is_officer,
+                    "is_key_employee": is_key_employee,
+                    "is_highest_compensated_employee": is_highest_compensated_employee,
+                    "is_former_employee": is_former_employee,
+                    "avg_weekly_hours_worked_org": avg_weekly_hours_org,
+                    "avg_weekly_hours_worked_related_org": avg_weekly_hours_related_org,
+                    "compensation_from_org": comp,
+                    "compensation_from_related_org": comp_related_org,
+                    "compensation_other": comp_other
                 })
     return rows
 
