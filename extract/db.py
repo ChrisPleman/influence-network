@@ -139,11 +139,22 @@ CREATE INDEX IF NOT EXISTS idx_grants_grantor ON org_grants(grantor_ein);
 CREATE INDEX IF NOT EXISTS idx_grants_grantee ON org_grants(grantee_ein);
 
 CREATE TABLE IF NOT EXISTS org_people (
-    ein        TEXT,
-    person_name TEXT,
-    title      TEXT,
-    compensation REAL,
-    tax_year   INTEGER
+    ein                                  TEXT NOT NULL REFERENCES orgs(ein),
+    tax_year                             INTEGER NOT NULL,
+    person_name                          TEXT NOT NULL,
+    title                                TEXT NOT NULL,
+    is_indiv_trustee_or_director         REAL NULL,
+    is_institutional_trustee             REAL NULL,
+    is_officer                           REAL NULL,
+    is_key_employee                      REAL NULL,
+    is_highest_compensated_employee      REAL NULL,
+    is_former_employee                   REAL NULL,
+    avg_weekly_hours_worked_org          REAL NULL,
+    avg_weekly_hours_worked_related_org  REAL NULL,
+    compensation_from_org                REAL NULL,
+    compensation_from_related_org        REAL NULL,
+    compensation_other                   REAL NULL,
+    PRIMARY KEY (ein, tax_year, person_name)
 );
 CREATE INDEX IF NOT EXISTS idx_people_ein ON org_people(ein);
 CREATE INDEX IF NOT EXISTS idx_people_name ON org_people(person_name);
