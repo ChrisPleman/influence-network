@@ -1,7 +1,8 @@
-"""SQLite storage layer: schema and upsert helpers.
+"""SQLite storage layer: schema definition + idempotent upsert helpers.
 
-One DB file that all collectors write to. Raw API payloads are stored as JSON
-so you can re-parse without re-pulling from rate-limited APIs.
+The schema is intentionally normalized but lightweight, one DB file that
+all collectors write to. Raw API payloads are also stored as JSON so you can
+re-parse later without re-pulling from rate-limited APIs.
 """
 from __future__ import annotations
 
@@ -75,12 +76,19 @@ CREATE TABLE IF NOT EXISTS members (
 
 -- ===================== FEC (openFEC) =====================
 CREATE TABLE IF NOT EXISTS committees (
-    committee_id   TEXT PRIMARY KEY,
-    name           TEXT,
-    committee_type TEXT,
-    designation    TEXT,
-    party          TEXT,
-    raw_json       TEXT
+    committee_id              TEXT PRIMARY KEY,
+    name                      TEXT,
+    committee_type            TEXT,
+    designation               TEXT,
+    party                     TEXT,
+    -- Parsed cycle-level totals from totals/pac-party endpoint.
+    -- NULL for committees loaded via collect_committees() only.
+    cycle                     INTEGER,
+    total_receipts            REAL,
+    total_disbursements       REAL,
+    independent_expenditures  REAL,
+    cash_on_hand_end_period   REAL,
+    raw_json                  TEXT
 );
 
 CREATE TABLE IF NOT EXISTS fec_disbursements (
@@ -115,177 +123,42 @@ CREATE TABLE IF NOT EXISTS lda_lobbying_activities (
 );
 CREATE INDEX IF NOT EXISTS idx_lda_act_filing ON lda_lobbying_activities(filing_uuid);
 
--- ===================== IRS Form 990 =====================
-CREATE TABLE IF NOT EXISTS orgs (
-    ein         TEXT PRIMARY KEY,
-    name        TEXT,
-    tax_year    INTEGER,
-    form_type   TEXT,
-    exempt_organization_type TEXT,
-    total_revenue REAL,
-    total_expenses REAL,
-    political_activity_flag INTEGER,
-    mission     TEXT,
-    raw_json    TEXT
+-- ===================== IRS Exempt Organization Master File (BMF) =====================
+-- Source: IRS Publication 78 / BMF extract (eo1.csv, eo_ca.csv).
+-- One row per EIN across all IRS-recognized tax-exempt orgs (not just 990 filers).
+-- Loaded via collect_irs_master() in extract/irs_master.py.
+CREATE TABLE IF NOT EXISTS irs_master (
+    ein             TEXT PRIMARY KEY,
+    name            TEXT,
+    state           TEXT,
+    ntee_code       TEXT,        -- e.g. "A69Z" -- mission sector classification
+    subsection_code TEXT,        -- IRS 501(c) subsection number, e.g. "3", "4", "6"
+    foundation_code TEXT,        -- IRS foundation type code
+    status_code     TEXT,        -- IRS status: "01"=active, "06"=terminated, etc.
+    ruling_date     TEXT,        -- YYYYMM of first determination letter
+    asset_code      TEXT,        -- asset size band (0-9)
+    income_code     TEXT,        -- income size band (0-9)
+    asset_amt       REAL,        -- most recent reported total assets (may be 0)
+    income_amt      REAL,        -- most recent reported total income
+    revenue_amt     REAL,        -- most recent reported total revenue
+    tax_period      TEXT         -- most recent tax period on file (YYYYMM)
+);
+CREATE INDEX IF NOT EXISTS idx_irs_master_ntee ON irs_master(ntee_code);
+CREATE INDEX IF NOT EXISTS idx_irs_master_state ON irs_master(state);
+
+-- ===================== OpenSecrets Dark Money Crosswalk =====================
+-- Source: drive/Dark Money Dataset Investigation/upd.crp_ein_list.csv
+-- 371 EINs flagged by OpenSecrets as dark money / politically active nonprofits.
+CREATE TABLE IF NOT EXISTS crp_dark_money (
+    ein         TEXT NOT NULL,
+    crp_name    TEXT,   -- name used by OpenSecrets CRP database
+    org_name    TEXT,   -- IRS name on file
+    year        INTEGER,
+    PRIMARY KEY (ein, year)
 );
 
-CREATE TABLE IF NOT EXISTS org_grants (
-    grantor_ein TEXT,
-    grantee_ein TEXT,
-    grantee_name TEXT,
-    amount      REAL,
-    tax_year    INTEGER
-);
-CREATE INDEX IF NOT EXISTS idx_grants_grantor ON org_grants(grantor_ein);
-CREATE INDEX IF NOT EXISTS idx_grants_grantee ON org_grants(grantee_ein);
-
-CREATE TABLE IF NOT EXISTS org_people (
-    ein                                  TEXT NOT NULL REFERENCES orgs(ein),
-    tax_year                             INTEGER NOT NULL,
-    person_name                          TEXT NOT NULL,
-    title                                TEXT NOT NULL,
-    is_indiv_trustee_or_director         REAL NULL,
-    is_institutional_trustee             REAL NULL,
-    is_officer                           REAL NULL,
-    is_key_employee                      REAL NULL,
-    is_highest_compensated_employee      REAL NULL,
-    is_former_employee                   REAL NULL,
-    avg_weekly_hours_worked_org          REAL NULL,
-    avg_weekly_hours_worked_related_org  REAL NULL,
-    compensation_from_org                REAL NULL,
-    compensation_from_related_org        REAL NULL,
-    compensation_other                   REAL NULL,
-    PRIMARY KEY (ein, tax_year, person_name)
-);
-CREATE INDEX IF NOT EXISTS idx_people_ein ON org_people(ein);
-CREATE INDEX IF NOT EXISTS idx_people_name ON org_people(person_name);
-
-CREATE TABLE IF NOT EXISTS org_contractors (
-    ein        TEXT,
-    contractor_name TEXT,
-    address      TEXT,
-    state      TEXT,
-    city      TEXT,
-    zip_code      TEXT,
-    compensation REAL,
-    tax_year   INTEGER,
-    services_description TEXT
-);
-CREATE INDEX IF NOT EXISTS idx_contractor_ein ON org_contractors(ein);
-CREATE INDEX IF NOT EXISTS idx_contractor_name ON org_contractors(contractor_name);
-
--- Schedule C: lobbying expenditures. One row per filing; not every org files
--- Schedule C, and which Part (II-A, II-B, III) is populated depends on the
--- filer's exemption type (501(h)-electing 501(c)(3), non-electing 501(c)(3),
--- or 501(c)(4)/(5)/(6)).
-CREATE TABLE IF NOT EXISTS org_lobbying (
-    ein                               TEXT PRIMARY KEY,
-    tax_year                          INTEGER,
-    total_exempt_function_expend_amt  REAL,  -- Part I-A (political orgs / 527)
-    total_lobbying_expend_amt         REAL,  -- Part II-A line 1e (501(h) electors)
-    total_exempt_purpose_expend_amt   REAL,  -- Part II-A line 1f
-    lobbying_nontaxable_amt           REAL,  -- Part II-A line 1g
-    grassroots_nontaxable_amt         REAL,  -- Part II-A line 1h
-    lobbying_ceiling_amt              REAL,  -- Part II-A line 3 (4-yr avg base)
-    grassroots_ceiling_amt            REAL,  -- Part II-A line 8 (4-yr avg base)
-    total_lobbying_expenditures_amt   REAL,  -- Part II-B total (non-electing 501(c)(3))
-    direct_contact_legislators_amt    REAL,  -- Part II-B line 1f
-    other_lobbying_activities_amt     REAL,  -- Part II-B line 1j
-    lobbying_activity_types           TEXT,  -- JSON list of checked Part II-B activities
-    nondeductible_lobbying_pltcl_amt  REAL,  -- Part III-B (501(c)(4)/(5)/(6) dues nondeduct.)
-    taxable_amt                       REAL,  -- Part III-B line 5 excise-tax base
-    raw_json                          TEXT
-);
-CREATE INDEX IF NOT EXISTS idx_lobbying_ein ON org_lobbying(ein);
-
--- Some tax-exempt orgs contribute their internal funds, or transfer their
--- contributions to Super PACs (Section 527 Org). This information is captured here
-CREATE TABLE IF NOT EXISTS section_527_org (
-    filer_ein                    TEXT NOT NULL REFERENCES orgs(ein),
-    tax_year                     INTEGER NOT NULL,
-    ein                          TEXT,
-    name                         TEXT NOT NULL,
-    address                      TEXT,
-    city                         TEXT,
-    state_code                   TEXT,
-    zip_code                     TEXT,
-    paid_internal_funds          REAL NULL,
-    contributions_transferred    REAL NULL,
-    PRIMARY KEY (filer_ein, tax_year, name)
-    
-);
-CREATE INDEX IF NOT EXISTS idx_section_527_org_filer_ein ON section_527_org(filer_ein);
-CREATE INDEX IF NOT EXISTS idx_section_527_org_ein ON section_527_org(ein);
-CREATE INDEX IF NOT EXISTS idx_section_527_org_name ON section_527_org(name);
-
--- Schedule R: related organization and transactions between them. Several rows
--- per filing; not every org files a Schedule R, and which Part (I-VII) is populated
--- depends on the type of organization the filer is related to, the types of
--- transactions between them, and any supplemental information that is relevant
--- to provide to the IRS.
-CREATE TABLE IF NOT EXISTS related_org (
-    filer_ein                    TEXT NOT NULL REFERENCES orgs(ein),
-    tax_year                     INTEGER NOT NULL,
-    ein                          TEXT NOT NULL,
-    name                         TEXT NOT NULL,
-    entity_type                  TEXT NOT NULL,
-    primary_activities           TEXT,
-    direct_controlling_entity    TEXT NULL,
-    address                      TEXT,
-    state_code                   TEXT,
-    city                         TEXT,
-    zip_code                     TEXT,
-    PRIMARY KEY (filer_ein, tax_year, ein)
-);
-CREATE INDEX IF NOT EXISTS idx_related_org_filer_ein ON related_org(filer_ein);
-CREATE INDEX IF NOT EXISTS idx_related_org_ein ON related_org(ein);
-CREATE INDEX IF NOT EXISTS idx_related_org_name ON related_org(name);
-CREATE INDEX IF NOT EXISTS idx_related_entity_type ON related_org(entity_type);
-
-CREATE TABLE IF NOT EXISTS transaction_type (
-    type_code TEXT PRIMARY KEY NOT NULL,
-    type_desc TEXT NOT NULL
-);
-CREATE INDEX IF NOT EXISTS ids_transaction_type_code ON transaction_type(type_code);
-
-INSERT OR IGNORE INTO transaction_type (type_code, type_desc)
-VALUES 
-    ('A', 'Receipt of (i) interest, (ii) annuities, (iii) royalties, or (iv) rent from a controlled entity.'),
-    ('B', 'Gift, grant, or capital contribution to related organization(s).'),
-    ('C', 'Gift, grant, or capital contribution from related organization(s).'),
-    ('D', 'Loans or loan guarantees to or for related organization(s).'),
-    ('E', 'Loans or loan guarantees by related organization(s.'),
-    ('F', 'Dividends from related organization(s).'),
-    ('G', 'Sale of assets to related organization(s)'),
-    ('H', 'Purchase of assets from related organization(s).'),
-    ('I', 'Exchange of assets with related organization(s).'),
-    ('J', 'Lease of facilities, equipment, or other assets to related organization(s).'),
-    ('K', 'Lease of facilities, equipment, or other assets from related organization(s).'),
-    ('L', 'Performance of services or membership or fundraising solicitations for related organization(s.'),
-    ('M', 'Performance of services or membership or fundraising solicitations by related organization(s).'),
-    ('N', 'Sharing of facilities, equipment, mailing lists, or other assets with related organization(s).'),
-    ('O', 'Sharing of paid employees with related organization(s).'),
-    ('P', 'Reimbursement paid to related organization(s) for expenses.'),
-    ('Q', 'Reimbursement paid by related organization(s) for expenses.'),
-    ('R', 'Other transfer of cash or property to related organization(s).'),
-    ('S', 'Other transfer of cash or property from related organization(s).');
-
-CREATE TABLE IF NOT EXISTS related_org_transaction (
-    filer_ein                    TEXT NOT NULL REFERENCES orgs(ein),
-    tax_year                     INTEGER NOT NULL,
-    related_org_name             TEXT NOT NULL,
-    type                         TEXT NOT NULL REFERENCES transaction_type(type_code),
-    amount                       REAL,
-    amount_determination_method  TEXT,
-    PRIMARY KEY (filer_ein, tax_year, related_org_name, type)
-);
-CREATE INDEX IF NOT EXISTS idx_related_org_transaction_filer_ein ON related_org_transaction(filer_ein);
 """
 
-# IRS v2 is additive. The original IRS tables above are retained for existing
-# notebooks, but are not suitable for annual history because their primary keys
-# are EIN-centric. These tables make the individual IRS source object/filing the
-# canonical record and scope every schedule row to that filing.
 IRS990_V2_SCHEMA = """
 CREATE TABLE IF NOT EXISTS organizations (
     ein             TEXT PRIMARY KEY,
@@ -442,10 +315,10 @@ CREATE TABLE IF NOT EXISTS entity_match_decisions (
 
 @contextmanager
 def connect(db_path: Path | None = None, timeout: float = 30.0) -> Iterator[sqlite3.Connection]:
-    """Yield a SQLite connection with sane defaults, committing on success.
+    """Yield a SQLite connection, committing on success and rolling back on error.
 
-    timeout controls how long to wait for a write lock before raising. Default 30s
-    is sufficient for concurrent ingestion where other writers may briefly hold the lock.
+    timeout is how long to wait for a write lock before raising. 30s works fine
+    for concurrent ingestion jobs.
     """
     path = Path(db_path) if db_path else settings.db_path
     path.parent.mkdir(parents=True, exist_ok=True)
@@ -467,13 +340,6 @@ def init_db(db_path: Path | None = None) -> None:
     with connect(db_path) as conn:
         conn.executescript(SCHEMA)
         conn.executescript(IRS990_V2_SCHEMA)
-        existing_columns = {row["name"] for row in conn.execute("PRAGMA table_info(orgs)")}
-        for column, definition in (
-            ("form_type", "TEXT"),
-            ("exempt_organization_type", "TEXT"),
-        ):
-            if column not in existing_columns:
-                conn.execute(f"ALTER TABLE orgs ADD COLUMN {column} {definition}")
         candidate_columns = {
             row["name"] for row in conn.execute("PRAGMA table_info(entity_match_candidates)")
         }
@@ -483,6 +349,32 @@ def init_db(db_path: Path | None = None) -> None:
         ):
             if column not in candidate_columns:
                 conn.execute(f"ALTER TABLE entity_match_candidates ADD COLUMN {column} {definition}")
+        # Add parsed financial columns to committees for older databases.
+        committee_columns = {row["name"] for row in conn.execute("PRAGMA table_info(committees)")}
+        for column, definition in (
+            ("cycle", "INTEGER"),
+            ("total_receipts", "REAL"),
+            ("total_disbursements", "REAL"),
+            ("independent_expenditures", "REAL"),
+            ("cash_on_hand_end_period", "REAL"),
+        ):
+            if column not in committee_columns:
+                conn.execute(f"ALTER TABLE committees ADD COLUMN {column} {definition}")
+        # Create irs_master and crp_dark_money if they do not exist yet.
+        conn.executescript("""
+            CREATE TABLE IF NOT EXISTS irs_master (
+                ein TEXT PRIMARY KEY, name TEXT, state TEXT, ntee_code TEXT,
+                subsection_code TEXT, foundation_code TEXT, status_code TEXT,
+                ruling_date TEXT, asset_code TEXT, income_code TEXT,
+                asset_amt REAL, income_amt REAL, revenue_amt REAL, tax_period TEXT
+            );
+            CREATE INDEX IF NOT EXISTS idx_irs_master_ntee ON irs_master(ntee_code);
+            CREATE INDEX IF NOT EXISTS idx_irs_master_state ON irs_master(state);
+            CREATE TABLE IF NOT EXISTS crp_dark_money (
+                ein TEXT NOT NULL, crp_name TEXT, org_name TEXT, year INTEGER,
+                PRIMARY KEY (ein, year)
+            );
+        """)
 
 
 def _coerce(value: Any) -> Any:

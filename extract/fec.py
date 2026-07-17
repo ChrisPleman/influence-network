@@ -5,7 +5,7 @@ Pulls Super PAC / hybrid PAC committees and their financial totals.
 Design:
   - collect_committees(): all registered Super PACs (type O) and hybrid PACs (type U)
   - collect_committee_totals(): cycle-level financial summary per committee from the
-    totals/pac-party endpoint. This is the tractable alternative to Schedule B:
+    totals/pac-party endpoint. Much faster than Schedule B:
     ~2,100 active committees, ~21 API pages, ~1 minute. Gives total disbursements,
     receipts, independent expenditures, and cash-on-hand per committee per cycle.
 
@@ -119,6 +119,11 @@ class FecCollector:
                     "committee_type": committee_type,
                     "designation": None,
                     "party": row.get("party"),
+                    "cycle": cycle,
+                    "total_receipts": row.get("receipts"),
+                    "total_disbursements": row.get("disbursements"),
+                    "independent_expenditures": row.get("independent_expenditures"),
+                    "cash_on_hand_end_period": row.get("last_cash_on_hand_end_period"),
                     "raw_json": row,
                 })
                 # Store totals as a single summary disbursement row

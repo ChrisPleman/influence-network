@@ -35,10 +35,10 @@ def generate_fuzzy_name_match_candidates(
     minimum_anchor_length: int = 5,
     max_candidates_per_observation: int = 25,
 ) -> int:
-    """Find high-similarity IRS/FEC/LDA name pairs using shared-token blocking.
+    """Queue high-similarity IRS< - >external pairs behind a shared name token.
 
-    Avoids an all-pairs comparison against the full IRS corpus.
-    Results go into the review queue, not directly into joins.
+    Shared-token blocking avoids an all-pairs comparison on the IRS corpus.
+    Results are evidence for review, not automatic links.
     """
     if not 0 < minimum_score <= 1:
         raise ValueError("minimum_score must be in (0, 1]")
@@ -105,7 +105,7 @@ def record_match_decision(
     rationale: str | None = None,
     db_path: Path | None = None,
 ) -> None:
-    """Save a reviewer decision for a candidate. Only accepted candidates flow into joins."""
+    """Record a human decision; only current accepted candidates become joins."""
     if decision not in {"accepted", "rejected", "needs_review"}:
         raise ValueError("decision must be accepted, rejected, or needs_review")
     with connect(db_path) as conn:
@@ -122,16 +122,18 @@ def record_match_decision(
 
 
 def create_analysis_views(db_path: Path | None = None) -> None:
-    """Build the analysis views. Call after match decisions are recorded."""
+    """Create read-only views whose joins have explicit evidence rules."""
     init_db(db_path)
     with connect(db_path) as conn:
         conn.executescript("""
         DROP VIEW IF EXISTS organization_policy_links;
         DROP VIEW IF EXISTS organization_fec_disbursements;
+        DROP VIEW IF EXISTS committee_spending_summary;
         DROP VIEW IF EXISTS lobbying_bill_facts;
         DROP VIEW IF EXISTS approved_external_entity_links;
         DROP VIEW IF EXISTS grant_network_edges;
         DROP VIEW IF EXISTS related_organization_edges;
+        DROP VIEW IF EXISTS org_sector_summary;
 
         CREATE VIEW approved_external_entity_links AS
         WITH latest_decisions AS (
@@ -180,6 +182,8 @@ def create_analysis_views(db_path: Path | None = None) -> None:
           ON links.external_source_system = 'LDA'
          AND links.external_source_record_id = facts.filing_uuid;
 
+        -- Requires accepted IRS<->FEC entity match decisions to return rows.
+        -- Use committee_spending_summary for a direct overview without matching.
         CREATE VIEW organization_fec_disbursements AS
         SELECT links.ein, links.candidate_id, committee.committee_id,
                committee.name AS committee_name, disbursement.sub_id,
@@ -192,6 +196,38 @@ def create_analysis_views(db_path: Path | None = None) -> None:
          AND links.external_source_record_id = committee.committee_id
         JOIN fec_disbursements AS disbursement
           ON disbursement.committee_id = committee.committee_id;
+
+        -- Direct view of Super PAC cycle-level totals. Does not require entity
+        -- matching. Populated after collect_committee_totals() runs.
+        CREATE VIEW committee_spending_summary AS
+        SELECT committee_id, name, committee_type, cycle,
+               total_receipts, total_disbursements,
+               independent_expenditures, cash_on_hand_end_period
+        FROM committees
+        WHERE total_disbursements IS NOT NULL
+        ORDER BY total_disbursements DESC;
+
+        -- Joins irs990_filings with IRS BMF master to attach NTEE sector codes.
+        -- Returns NULL ntee_code / subsection_code for orgs not in irs_master.
+        -- Requires load_irs_master() to have been run (irs_master table populated).
+        CREATE VIEW org_sector_summary AS
+        SELECT
+            f.ein,
+            f.filer_name,
+            m.ntee_code,
+            m.subsection_code,
+            m.state,
+            m.asset_amt,
+            m.income_amt,
+            SUM(f.total_revenue)  AS total_revenue_all_years,
+            SUM(f.total_expenses) AS total_expenses_all_years,
+            MAX(f.tax_year)       AS latest_tax_year,
+            COUNT(*)              AS filing_count,
+            CASE WHEN dm.ein IS NOT NULL THEN 1 ELSE 0 END AS is_dark_money_flagged
+        FROM irs990_filings AS f
+        LEFT JOIN irs_master AS m ON m.ein = f.ein
+        LEFT JOIN crp_dark_money AS dm ON dm.ein = f.ein
+        GROUP BY f.ein;
 
         CREATE VIEW grant_network_edges AS
         SELECT filing.ein AS source_ein, grant_row.grantee_ein AS target_ein,
@@ -260,7 +296,7 @@ def _build_lobbying_bill_links(db_path: Path | None = None) -> int:
 def refresh_analysis_layers(
     db_path: Path | None = None, include_fuzzy_candidates: bool = True
 ) -> AnalysisRefresh:
-    """Re-run all analysis prep: name matching, bill links, and view rebuilds."""
+    """Refresh candidates, deterministic policy links, and analysis views."""
     observations = sync_entity_observations(db_path)
     exact = generate_exact_name_match_candidates(db_path)
     fuzzy = generate_fuzzy_name_match_candidates(db_path) if include_fuzzy_candidates else 0

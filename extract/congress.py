@@ -16,6 +16,7 @@ Usage:
     congress = CongressCollector(db_path=DB_PATH)
     congress.collect_bills(congress=118, bill_type="hr")   # fast stub mode
     congress.collect_bill_detail("118-hr-1234")            # targeted detail
+    congress.collect_members(congress=118)                 # member roster
 """
 from __future__ import annotations
 
@@ -144,6 +145,38 @@ class CongressCollector:
                         "version_date": tv.get("date"), "format_type": fmt.get("type"),
                         "url": fmt.get("url"),
                     })
+
+    def collect_members(self, congress: int, limit: int | None = None) -> int:
+        """Collect current members of Congress for a given congress number.
+
+        Writes to the members table (bioguide_id, full_name, party, state, chamber).
+        Used to join bill_sponsors to member records after collecting bills.
+        Returns number of members written.
+        """
+        init_db(self.db_path)
+        count = 0
+        with connect(self.db_path) as conn:
+            for member in self._paginate(f"member/congress/{congress}", "members", limit=limit):
+                bioguide_id = member.get("bioguideId")
+                if not bioguide_id:
+                    continue
+                terms = member.get("terms") or {}
+                # terms is a dict with an "item" list; pick the most recent entry
+                term_items = terms.get("item") if isinstance(terms, dict) else []
+                chamber = None
+                if term_items:
+                    chamber = term_items[-1].get("chamber")
+                upsert(conn, "members", {
+                    "bioguide_id": bioguide_id,
+                    "full_name": member.get("name"),
+                    "party": member.get("partyName"),
+                    "state": member.get("state"),
+                    "chamber": chamber,
+                    "raw_json": member,
+                })
+                count += 1
+        logger.info("Collected %d members for congress %d", count, congress)
+        return count
 
     def close(self) -> None:
         self.client.close()
