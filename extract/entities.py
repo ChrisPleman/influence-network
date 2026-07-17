@@ -1,7 +1,7 @@
-"""Organization name normalization for cross-source matching.
+"""Conservative organization-name normalization for cross-source matching.
 
-Normalized names are used to generate match candidates only.
-Match decisions live in the database review tables.
+Normalized names support candidate generation only. They are not identity proof;
+persisted match decisions belong in the database review tables.
 """
 from __future__ import annotations
 
@@ -9,12 +9,23 @@ import re
 from difflib import SequenceMatcher
 from typing import Any
 
+# Only strip true legal suffixes and stop words.
+# Content words like "foundation", "society", "institute", "action", "group",
+# "company", "trust", and "fund" are intentionally kept: they distinguish
+# organizations and their removal caused false exact matches (e.g.
+# "THE APPLE GROUP INC" normalizing to "apple" and matching "APPLE INC.").
 _NOISE = {
-    "inc", "incorporated", "llc", "lp", "llp", "co", "corp", "corporation",
-    "company", "the", "and", "of", "for", "fund", "foundation", "trust",
-    "pac", "committee", "cmte", "political", "action", "associates", "assn",
-    "association", "society", "institute", "group", "holdings",
+    # Pure legal-form suffixes: interchangeable, carry no identity signal
+    "inc", "incorporated", "llc", "lp", "llp", "corp", "corporation",
+    # Articles and prepositions: structural words, not identity-bearing
+    "the", "of", "and", "for", "a", "an",
+    # PAC/committee filing suffixes
+    "pac", "cmte",
 }
+
+# Normalized strings shorter than this are too ambiguous to auto-match.
+# A single shared token like "apple" or "block" is not enough evidence.
+_MIN_MATCH_TOKENS = 2
 
 
 def normalize_organization_name(name: str | None) -> str:
@@ -26,14 +37,14 @@ def normalize_organization_name(name: str | None) -> str:
 
 
 def organization_name_similarity(left: str | None, right: str | None) -> float:
-    """Return a similarity score between 0.0 and 1.0 for review queue ordering."""
+    """Score normalized names for review-queue ordering, from 0.0 to 1.0."""
     return SequenceMatcher(
         None, normalize_organization_name(left), normalize_organization_name(right)
     ).ratio()
 
 
 def sync_entity_observations(db_path: Any = None) -> int:
-    """Sync IRS, FEC, and LDA org names into the entity_observations table."""
+    """Project IRS, FEC, and LDA names into auditable match observations."""
     from .db import connect, init_db, upsert
 
     init_db(db_path)
@@ -88,14 +99,15 @@ def sync_entity_observations(db_path: Any = None) -> int:
 
 
 def generate_exact_name_match_candidates(db_path: Any = None) -> int:
-    """Find exact normalized-name matches between IRS and FEC/LDA, and queue them for review."""
+    """Store normalized exact-name IRS↔FEC/LDA candidates for human review."""
     from .db import connect, upsert
 
     count = 0
     with connect(db_path) as conn:
         rows = conn.execute("""
             SELECT irs.observation_id AS irs_id, external.observation_id AS external_id,
-                   irs.observed_name AS irs_name, external.observed_name AS external_name
+                   irs.observed_name AS irs_name, external.observed_name AS external_name,
+                   irs.normalized_name
             FROM entity_observations AS irs
             JOIN entity_observations AS external
               ON external.normalized_name = irs.normalized_name
@@ -104,6 +116,11 @@ def generate_exact_name_match_candidates(db_path: Any = None) -> int:
               AND irs.normalized_name <> ''
         """)
         for row in rows:
+            # Skip matches where the shared normalized name is too short to be
+            # meaningful. A single token like "apple" or "block" matching across
+            # sources is not reliable evidence of shared identity.
+            if len(row["normalized_name"].split()) < _MIN_MATCH_TOKENS:
+                continue
             left_id, right_id = sorted((row["irs_id"], row["external_id"]))
             upsert(conn, "entity_match_candidates", {
                 "left_observation_id": left_id,
