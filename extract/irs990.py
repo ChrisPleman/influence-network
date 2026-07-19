@@ -82,13 +82,8 @@ def _findall(node: etree._Element, tag: str) -> list[etree._Element]:
     return node.xpath(f"./*[local-name()='{tag}']")
 
 
-def parse_990_file(path: str | Path) -> dict[str, Any]:
-    """Parse one 990 XML return into a structured dict.
-
-    Returns a dict with keys: org, grants, people. Designed to tolerate
-    missing sections (not every return files Schedule I).
-    """
-    tree = etree.parse(str(path))
+def _parse_tree(tree: "etree._ElementTree") -> dict[str, Any]:
+    """Parse an already-loaded lxml ElementTree into a structured dict."""
     root = tree.getroot()
 
     return_header = _child(root, "ReturnHeader")
@@ -203,6 +198,16 @@ def parse_990_file(path: str | Path) -> dict[str, Any]:
     }
 
     return filer_data
+
+
+def parse_990_file(path: str | Path) -> dict[str, Any]:
+    """Parse one 990 XML return into a structured dict.
+
+    Returns a dict with keys: filing, grants, people, etc. Designed to
+    tolerate missing sections (not every return files Schedule I).
+    """
+    tree = etree.parse(str(path))
+    return _parse_tree(tree)
 
 
 def _parse_officers(form: etree._Element, ein: str | None,
@@ -776,7 +781,174 @@ def ingest_990_directory(directory: str | Path, pattern: str = "*.xml",
     return count
 
 
+def _ingest_zip_member(conn: Any, zf: "zipfile.ZipFile", member: "zipfile.ZipInfo") -> str:
+    """Ingest one XML member from an open ZipFile without extracting to disk.
+
+    Returns the same outcome strings as _ingest_path.
+    """
+    import zipfile as _zipfile
+    file_name = Path(member.filename).name
+    source_object_id = file_name.removesuffix("_public.xml")
+    byte_size = member.file_size
+
+    # Skip-check: if already succeeded with this parser version, avoid re-reading.
+    existing = conn.execute(
+        "SELECT content_sha256, byte_size, parser_version, ingest_status, attempt_count "
+        "FROM irs990_source_objects WHERE source_object_id = ?",
+        (source_object_id,),
+    ).fetchone()
+    if existing and existing["parser_version"] == PARSER_VERSION and existing["ingest_status"] == "succeeded":
+        return "skipped"
+
+    # Read bytes once; compute hash and parse from the same buffer.
+    raw = zf.read(member)
+    digest = hashlib.sha256(raw).hexdigest()
+
+    if existing and existing["content_sha256"] != digest:
+        conn.execute(
+            "UPDATE irs990_source_objects SET last_error = ?, last_attempt_at = datetime('now') "
+            "WHERE source_object_id = ?",
+            ("Content hash differs for an existing source object ID", source_object_id),
+        )
+        return "conflict"
+
+    source = {
+        "source_object_id": source_object_id,
+        "file_name": file_name,
+        "file_path": member.filename,
+        "byte_size": byte_size,
+        "content_sha256": digest,
+    }
+
+    try:
+        from io import BytesIO
+        tree = etree.parse(BytesIO(raw))
+        parsed = _parse_tree(tree)
+    except etree.XMLSyntaxError as exc:
+        upsert(conn, "irs990_source_objects", {
+            **source, "parser_version": PARSER_VERSION, "ingest_status": "parse_failed",
+            "attempt_count": (existing["attempt_count"] if existing else 0) + 1,
+            "last_error": str(exc)[:1000],
+        })
+        return "failed"
+
+    if not parsed["filing"].get("ein"):
+        upsert(conn, "irs990_source_objects", {
+            **source, "parser_version": PARSER_VERSION, "ingest_status": "skipped_missing_ein",
+            "attempt_count": (existing["attempt_count"] if existing else 0) + 1,
+            "last_error": "No filer EIN",
+        })
+        return "missing_ein"
+
+    _write_filing_v2(conn, parsed, source)
+    return "succeeded"
+
+
+def _uses_deflate64(zip_path: Path) -> bool:
+    """Return True if the zip uses Deflate64 (compress_type=9), unsupported by Python zipfile."""
+    import zipfile as _zipfile
+    with _zipfile.ZipFile(zip_path) as zf:
+        for m in zf.infolist():
+            if m.compress_type == 9:
+                return True
+    return False
+
+
+def ingest_990_zipfile(
+    zip_path: str | Path,
+    db_path: Path | None = None,
+    batch_size: int = 500,
+) -> dict[str, int]:
+    """Ingest all 990 XML files from a zip without extracting to disk.
+
+    Handles both flat zips (2019/2020 format: XMLs at root) and nested zips
+    (2023+ TEOS format: XMLs inside a single subdirectory).
+    Falls back to system `unzip` for Deflate64-compressed zips (compress_type=9)
+    which Python's built-in zipfile does not support.
+    Idempotent: already-succeeded files are skipped in a single DB lookup.
+    Returns an outcomes dict: {succeeded, skipped, failed, missing_ein, conflict}.
+    """
+    import zipfile as _zipfile
+    import tempfile, subprocess, shutil
+    init_db(db_path)
+    outcomes: dict[str, int] = {}
+    zip_path = Path(zip_path)
+
+    # Check if any member uses Deflate64 -- if so, extract to a temp dir first.
+    if _uses_deflate64(zip_path):
+        logger.info("ingest_990_zipfile: %s uses Deflate64, extracting via system unzip", zip_path.name)
+        tmp_dir = tempfile.mkdtemp(dir="/tmp")
+        try:
+            subprocess.run(
+                ["unzip", "-q", str(zip_path), "*.xml", "-d", tmp_dir],
+                check=True,
+            )
+            xml_files = sorted(Path(tmp_dir).rglob("*.xml"))
+            total = len(xml_files)
+            logger.info("ingest_990_zipfile: %s -- %d XML members (via unzip)", zip_path.name, total)
+            with connect(db_path) as conn:
+                for index, fp in enumerate(xml_files, start=1):
+                    outcome = _ingest_path(conn, fp)
+                    outcomes[outcome] = outcomes.get(outcome, 0) + 1
+                    if index % batch_size == 0:
+                        conn.commit()
+                        logger.info(
+                            "%s progress: %d/%d  outcomes=%s",
+                            zip_path.name, index, total, outcomes,
+                        )
+        finally:
+            shutil.rmtree(tmp_dir, ignore_errors=True)
+    else:
+        with _zipfile.ZipFile(zip_path) as zf:
+            members = [m for m in zf.infolist()
+                       if m.filename.endswith(".xml") and not m.is_dir()]
+            total = len(members)
+            logger.info("ingest_990_zipfile: %s -- %d XML members", zip_path.name, total)
+
+            with connect(db_path) as conn:
+                for index, member in enumerate(members, start=1):
+                    outcome = _ingest_zip_member(conn, zf, member)
+                    outcomes[outcome] = outcomes.get(outcome, 0) + 1
+                    if index % batch_size == 0:
+                        conn.commit()
+                        logger.info(
+                            "%s progress: %d/%d  outcomes=%s",
+                            zip_path.name, index, total, outcomes,
+                        )
+
+    logger.info("ingest_990_zipfile done: %s  outcomes=%s", zip_path.name, outcomes)
+    return outcomes
+
+
+def ingest_990_zip_folder(
+    folder: str | Path,
+    db_path: Path | None = None,
+    batch_size: int = 500,
+) -> dict[str, int]:
+    """Ingest all *.zip files in a folder, in sorted order.
+
+    Each zip is ingested sequentially and idempotently -- safe to interrupt
+    and resume. Returns cumulative outcomes across all zips.
+    """
+    import zipfile as _zipfile
+    folder = Path(folder)
+    zips = sorted(folder.glob("*.zip"))
+    if not zips:
+        logger.warning("ingest_990_zip_folder: no *.zip files found in %s", folder)
+        return {}
+
+    logger.info("ingest_990_zip_folder: %d zips in %s", len(zips), folder)
+    total_outcomes: dict[str, int] = {}
+    for i, zp in enumerate(zips, start=1):
+        logger.info("[%d/%d] Starting %s", i, len(zips), zp.name)
+        outcomes = ingest_990_zipfile(zp, db_path=db_path, batch_size=batch_size)
+        for k, v in outcomes.items():
+            total_outcomes[k] = total_outcomes.get(k, 0) + v
+        logger.info("[%d/%d] Done %s  running totals=%s", i, len(zips), zp.name, total_outcomes)
+    return total_outcomes
+
+
 def iter_parsed(directory: str | Path, pattern: str = "*.xml") -> Iterable[dict[str, Any]]:
-    """Yield parsed dicts without writing to the database. Handy for tests and inspection."""
+    """Yield parsed dicts without writing — useful for inspection/tests."""
     for fp in sorted(Path(directory).glob(pattern)):
         yield parse_990_file(fp)
