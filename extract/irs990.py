@@ -30,7 +30,7 @@ from .entities import normalize_organization_name
 
 logger = logging.getLogger(__name__)
 
-PARSER_VERSION = "irs990-v2"
+PARSER_VERSION = "irs990-v3"  # v3: fixed contractor address/name nesting (USAddress intermediary)
 
 
 def _child(node: etree._Element | None, tag: str) -> etree._Element | None:
@@ -309,19 +309,33 @@ def _parse_contractors(form: etree._Element, ein: str | None,
     contractor_groups = _findall(form, "ContractorCompensationGrp")
     if contractor_groups is None:
         return rows
-    # Accounting for potential variation in element tags
     for contractor_group in contractor_groups:
+        # ContractorName can be a person name (PersonNm) or a business name
+        # nested under BusinessName/BusinessNameLine1Txt.
         contractor = (
             _text(contractor_group, "ContractorName", "PersonNm")
+            or _text(contractor_group, "ContractorName", "BusinessName", "BusinessNameLine1Txt")
             or _text(contractor_group, "ContractorName", "BusinessNameLine1Txt")
         )
-        address = _text(contractor_group, "ContractorAddress", "AddressLine1Txt")
-        state_code = _text(contractor_group, "ContractorAddress", "StateAbbreviationCd")
-        city = _text(contractor_group, "ContractorAddress", "CityNm")
-        zip_code = _text(contractor_group, "ContractorAddress", "ZIPCd")
-        comp = _float(
-            _text(contractor_group, "CompensationAmt")
+        # ContractorAddress wraps a USAddress (domestic) or ForeignAddress element.
+        # The address fields live one level deeper than previously coded.
+        address = (
+            _text(contractor_group, "ContractorAddress", "USAddress", "AddressLine1Txt")
+            or _text(contractor_group, "ContractorAddress", "AddressLine1Txt")
         )
+        state_code = (
+            _text(contractor_group, "ContractorAddress", "USAddress", "StateAbbreviationCd")
+            or _text(contractor_group, "ContractorAddress", "StateAbbreviationCd")
+        )
+        city = (
+            _text(contractor_group, "ContractorAddress", "USAddress", "CityNm")
+            or _text(contractor_group, "ContractorAddress", "CityNm")
+        )
+        zip_code = (
+            _text(contractor_group, "ContractorAddress", "USAddress", "ZIPCd")
+            or _text(contractor_group, "ContractorAddress", "ZIPCd")
+        )
+        comp = _float(_text(contractor_group, "CompensationAmt"))
         services_desc = _text(contractor_group, "ServicesDesc")
         if contractor:
             rows.append({
