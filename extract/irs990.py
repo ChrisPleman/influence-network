@@ -30,7 +30,7 @@ from .entities import normalize_organization_name
 
 logger = logging.getLogger(__name__)
 
-PARSER_VERSION = "irs990-v3"  # v3: fixed contractor address/name nesting (USAddress intermediary)
+PARSER_VERSION = "irs990-v5"  # v5: total_assets for 990/990EZ; transparency index fields
 
 
 def _child(node: etree._Element | None, tag: str) -> etree._Element | None:
@@ -103,11 +103,13 @@ def _parse_tree(tree: "etree._ElementTree") -> dict[str, Any]:
             )
 
     form = None
+    form_pf = None
     form_type = None
     if return_data is not None:
         form = _child(return_data, "IRS990")
         if form is None:
             form = _child(return_data, "IRS990EZ")
+        form_pf = _child(return_data, "IRS990PF")
         filing = next(
             (child for child in return_data if etree.QName(child).localname.startswith("IRS990")),
             None,
@@ -123,6 +125,14 @@ def _parse_tree(tree: "etree._ElementTree") -> dict[str, Any]:
         "exempt_organization_type": None,
         "total_revenue": None,
         "total_expenses": None,
+        "total_assets": None,
+        "voting_members_governing_body": None,
+        "voting_members_independent": None,
+        "total_volunteers": None,
+        "website": None,
+        "total_salaries": None,
+        "unrestricted_net_assets_eoy": None,
+        "fundraising_expenses": None,
         "political_activity_flag": None,
         "mission": None,
         "raw_json": None,
@@ -150,6 +160,39 @@ def _parse_tree(tree: "etree._ElementTree") -> dict[str, Any]:
             _text(form, "CYTotalExpensesAmt")
             or _text(form, "TotalExpensesCurrentYear")
             or _text(form, "TotalExpensesAmt")
+        )
+        # Total assets (end of year).
+        # 990: TotalAssetsEOYAmt  |  990EZ: Form990TotalAssetsGrp/EOYAmt
+        org["total_assets"] = _float(
+            _text(form, "TotalAssetsEOYAmt")
+            or _text(form, "TotalAssetsCurrentYear")
+            or _text(_child(form, "Form990TotalAssetsGrp"), "EOYAmt")
+        )
+        # Governance / transparency fields.
+        org["voting_members_governing_body"] = _float(
+            _text(form, "VotingMembersGoverningBodyCnt")
+        )
+        org["voting_members_independent"] = _float(
+            _text(form, "VotingMembersIndependentCnt")
+        )
+        org["total_volunteers"] = _float(_text(form, "TotalVolunteersCnt"))
+        org["website"] = _text(form, "WebsiteAddressTxt")
+        org["total_salaries"] = _float(
+            _text(form, "CYSalariesCompEmpBnftPaidAmt")
+            or _text(form, "SalariesAndWagesAmt")
+        )
+        # Unrestricted net assets EOY.
+        # Pre-2022 schema: UnrestrictedNetAssetsGrp/EOYAmt
+        # Post-2022 schema: NoDonorRestrictionNetAssetsGrp/EOYAmt
+        # Flat fallback: NetAssetsOrFundBalancesEOYAmt (990EZ and some 990s)
+        org["unrestricted_net_assets_eoy"] = _float(
+            _text(_child(form, "NoDonorRestrictionNetAssetsGrp"), "EOYAmt")
+            or _text(_child(form, "UnrestrictedNetAssetsGrp"), "EOYAmt")
+            or _text(form, "NetAssetsOrFundBalancesEOYAmt")
+        )
+        org["fundraising_expenses"] = _float(
+            _text(form, "CYTotalProfFndrsngExpnsAmt")
+            or _text(form, "TotalFundraisingExpenseAmt")
         )
         org["mission"] = (
             _text(form, "MissionDesc")
@@ -180,6 +223,12 @@ def _parse_tree(tree: "etree._ElementTree") -> dict[str, Any]:
         else:
             _527_orgs = None
         org["political_activity_flag"] = 1 if (pol_flag or lobbying_spend > 0) else 0
+
+    elif form_pf is not None:
+        # 990PF (private foundations) uses a different element structure.
+        _populate_990pf_org(org, form_pf)
+        people.extend(_parse_990pf_officers(form_pf, org["ein"], org["tax_year"]))
+        grants.extend(_parse_990pf_grants(form_pf, org["ein"], org["tax_year"]))
 
     filer_data = {
         "org": org,
@@ -300,6 +349,128 @@ def _parse_grants(return_data: etree._Element, ein: str | None,
             "amount": amount,
             "tax_year": tax_year,
         })
+    return rows
+
+
+def _populate_990pf_org(org: dict[str, Any], form_pf: etree._Element) -> None:
+    """Fill in org fields from an IRS990PF element (private foundation returns).
+
+    990PF uses AnalysisOfRevenueAndExpenses instead of the top-level revenue
+    fields present on 990/990EZ, and uses different exempt-status indicators.
+    """
+    # Exempt org type: 501(c)(3) private foundations signal with a separate indicator.
+    if _text(form_pf, "Organization501c3ExemptPFInd"):
+        org["exempt_organization_type"] = "501(c)(3)"
+    elif _text(form_pf, "Organization4947a1NotPFInd"):
+        org["exempt_organization_type"] = "4947(a)(1)"
+
+    # Revenue and expenses live inside AnalysisOfRevenueAndExpenses.
+    rev_grp = _child(form_pf, "AnalysisOfRevenueAndExpenses")
+    org["total_revenue"] = _float(
+        _text(rev_grp, "TotalRevAndExpnssAmt")
+        or _text(form_pf, "TotalRevAndExpnssAmt")
+    )
+    org["total_expenses"] = _float(
+        _text(rev_grp, "TotalExpensesRevAndExpnssAmt")
+        or _text(form_pf, "TotalExpensesRevAndExpnssAmt")
+    )
+
+    # Total assets from balance sheet (end of year fair market value).
+    org["total_assets"] = _float(
+        _text(form_pf, "FMVAssetsEOYAmt")
+        or _text(form_pf, "Form990PFBalanceSheetsGrp", "TotalAssetsEOYAmt")
+    )
+
+    # Mission / purpose description.
+    org["mission"] = _text(form_pf, "PrimaryExemptPurposeTxt")
+
+    # Website (990PF Part VII-B).
+    org["website"] = _text(form_pf, "WebsiteAddressTxt")
+
+    # Officer compensation total from AnalysisOfRevenueAndExpenses.
+    org["total_salaries"] = _float(
+        _text(form_pf, "CompOfcrDirTrstRevAndExpnssAmt")
+        or _text(_child(form_pf, "AnalysisOfRevenueAndExpenses"), "CompOfcrDirTrstRevAndExpnssAmt")
+    )
+
+    # Net assets EOY from balance sheet (unrestricted equivalent for PF).
+    org["unrestricted_net_assets_eoy"] = _float(
+        _text(form_pf, "Form990PFBalanceSheetsGrp", "TotNetAstOrFundBalancesEOYAmt")
+        or _text(form_pf, "TotNetAstOrFundBalancesEOYAmt")
+    )
+
+    # Political activity: Part VII-A legislative/political activity flag.
+    pol = _text(form_pf, "StatementsRegardingActyGrp", "LegislativePoliticalActyInd")
+    org["political_activity_flag"] = 1 if (pol and pol.lower() in {"1", "true", "x"}) else 0
+
+
+def _parse_990pf_officers(form_pf: etree._Element, ein: str | None,
+                          tax_year: int | None) -> list[dict[str, Any]]:
+    """Parse officers/directors/trustees from a 990PF return.
+
+    990PF lists them under OfficerDirTrstKeyEmplInfoGrp/OfficerDirTrstKeyEmplGrp
+    using PersonNm, TitleTxt, and CompensationAmt -- compatible with the
+    irs990_filing_people schema.
+    """
+    rows: list[dict[str, Any]] = []
+    info_grp = _child(form_pf, "OfficerDirTrstKeyEmplInfoGrp")
+    if info_grp is None:
+        return rows
+    for grp in _findall(info_grp, "OfficerDirTrstKeyEmplGrp"):
+        person = _text(grp, "PersonNm") or _text(grp, "PersonName")
+        if not person:
+            continue
+        rows.append({
+            "ein": ein,
+            "tax_year": tax_year,
+            "person_name": person,
+            "title": _text(grp, "TitleTxt") or _text(grp, "Title"),
+            "is_indiv_trustee_or_director": None,
+            "is_institutional_trustee": None,
+            "is_officer": None,
+            "is_key_employee": None,
+            "is_highest_compensated_employee": None,
+            "is_former_employee": None,
+            "avg_weekly_hours_worked_org": _float(
+                _text(grp, "AverageHrsPerWkDevotedToPosRt")
+                or _text(grp, "AverageHoursPerWeekRt")
+            ),
+            "avg_weekly_hours_worked_related_org": None,
+            "compensation_from_org": _float(_text(grp, "CompensationAmt")),
+            "compensation_from_related_org": None,
+            "compensation_other": _float(_text(grp, "ExpenseAccountOtherAllwncAmt")),
+        })
+    return rows
+
+
+def _parse_990pf_grants(form_pf: etree._Element, ein: str | None,
+                        tax_year: int | None) -> list[dict[str, Any]]:
+    """Parse charitable grants paid during the year from a 990PF return.
+
+    Grants are listed in SupplementaryInformationGrp under
+    GrantOrContributionPdDurYrGrp elements. Recipient EINs are not required
+    on the PF form so grantee_ein will typically be NULL.
+    """
+    rows: list[dict[str, Any]] = []
+    supp = _child(form_pf, "SupplementaryInformationGrp")
+    if supp is None:
+        return rows
+    for grp in _findall(supp, "GrantOrContributionPdDurYrGrp"):
+        grantee_name = (
+            _text(grp, "RecipientBusinessName", "BusinessNameLine1Txt")
+            or _text(grp, "RecipientBusinessName", "BusinessNameLine1")
+            or _text(grp, "RecipientPersonNm")
+        )
+        grantee_ein = _text(grp, "RecipientEIN")
+        amount = _float(_text(grp, "Amt"))
+        if grantee_name or grantee_ein:
+            rows.append({
+                "grantor_ein": ein,
+                "grantee_ein": grantee_ein,
+                "grantee_name": grantee_name,
+                "amount": amount,
+                "tax_year": tax_year,
+            })
     return rows
 
 
@@ -693,6 +864,14 @@ def _write_filing_v2(conn: Any, parsed: dict[str, Any], source: dict[str, Any]) 
         "exempt_organization_type": filing["exempt_organization_type"],
         "total_revenue": filing["total_revenue"],
         "total_expenses": filing["total_expenses"],
+        "total_assets": filing.get("total_assets"),
+        "voting_members_governing_body": filing.get("voting_members_governing_body"),
+        "voting_members_independent": filing.get("voting_members_independent"),
+        "total_volunteers": filing.get("total_volunteers"),
+        "website": filing.get("website"),
+        "total_salaries": filing.get("total_salaries"),
+        "unrestricted_net_assets_eoy": filing.get("unrestricted_net_assets_eoy"),
+        "fundraising_expenses": filing.get("fundraising_expenses"),
         "political_activity_flag": filing["political_activity_flag"],
         "mission": filing["mission"],
     }

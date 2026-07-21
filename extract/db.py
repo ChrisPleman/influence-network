@@ -199,6 +199,14 @@ CREATE TABLE IF NOT EXISTS irs990_filings (
     exempt_organization_type TEXT,
     total_revenue            REAL,
     total_expenses           REAL,
+    total_assets             REAL,          -- EOY total assets (990/990EZ/990PF)
+    voting_members_governing_body   INTEGER, -- VotingMembersGoverningBodyCnt
+    voting_members_independent      INTEGER, -- VotingMembersIndependentCnt
+    total_volunteers                INTEGER, -- TotalVolunteersCnt
+    website                         TEXT,    -- WebsiteAddressTxt
+    total_salaries                  REAL,    -- CYSalariesCompEmpBnftPaidAmt
+    unrestricted_net_assets_eoy     REAL,    -- NoDonorRestrictionNetAssetsGrp/EOYAmt (new) or UnrestrictedNetAssetsGrp/EOYAmt (old)
+    fundraising_expenses            REAL,    -- CYTotalProfFndrsngExpnsAmt
     political_activity_flag  INTEGER,
     mission                  TEXT,
     parsed_at                TEXT DEFAULT (datetime('now'))
@@ -360,6 +368,21 @@ def init_db(db_path: Path | None = None) -> None:
         ):
             if column not in committee_columns:
                 conn.execute(f"ALTER TABLE committees ADD COLUMN {column} {definition}")
+        # Add new columns to irs990_filings (schema migrations for existing databases).
+        filings_columns = {row["name"] for row in conn.execute("PRAGMA table_info(irs990_filings)")}
+        for col, defn in (
+            ("total_assets",                    "REAL"),
+            ("voting_members_governing_body",   "INTEGER"),
+            ("voting_members_independent",      "INTEGER"),
+            ("total_volunteers",                "INTEGER"),
+            ("website",                         "TEXT"),
+            ("total_salaries",                  "REAL"),
+            ("unrestricted_net_assets_eoy",     "REAL"),
+            ("fundraising_expenses",            "REAL"),
+        ):
+            if col not in filings_columns:
+                conn.execute(f"ALTER TABLE irs990_filings ADD COLUMN {col} {defn}")
+
         # Create irs_master and crp_dark_money if they do not exist yet.
         conn.executescript("""
             CREATE TABLE IF NOT EXISTS irs_master (
